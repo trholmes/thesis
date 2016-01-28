@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JAN 2016 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JAN 2016 17:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1354,7 +1354,13 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 ))
-(./whole_thesis.aux (./FrontBackMatter/Titlepage.aux))
+(./whole_thesis.aux (./FrontBackMatter/Titlepage.aux)
+(./FrontBackMatter/Titleback.aux) (./FrontBackMatter/Dedication.aux)
+(./FrontBackMatter/Abstract.aux) (./FrontBackMatter/Publications.aux)
+(./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Contents.aux)
+(./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux
+) (./Chapters/Chapter0A.aux) (./FrontBackMatter/Bibliography.aux)
+(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Colophon.aux))
 \openout1 = `whole_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -1389,11 +1395,12 @@ Package biblatex Info: Data encoding 'ascii' specified.
 \openout3 = `whole_thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'whole_thesis.bbl' not found.
+Package biblatex Info: ... file 'whole_thesis.bbl' found.
 
-No file whole_thesis.bbl.
+(./whole_thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 46.
 Package biblatex Info: Reference segment=0 on input line 46.
+
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -1464,12 +1471,25 @@ ABD: EveryShipout initializing macros
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
  (./FrontBackMatter/Titlepage.tex
-<gfx/TFZsuperellipse_bw.pdf, id=4, 260.5755pt x 203.14595pt>
-File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
+Package epstopdf Info: Source file: <gfx/ucberkeleyseal_line_540.eps>
+(epstopdf)                    date: 2013-06-25 20:59:06
+(epstopdf)                    size: 1126674 bytes
+(epstopdf)             Output file: <gfx/ucberkeleyseal_line_540-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2016-01-28 17:18:07
+(epstopdf)                    size: 95907 bytes
+(epstopdf)             Command: <epstopdf --outfile=gfx/ucberkeleyseal_line_540
+-eps-converted-to.pdf gfx/ucberkeleyseal_line_540.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
 
-<use gfx/TFZsuperellipse_bw.pdf>
-Package pdftex.def Info: gfx/TFZsuperellipse_bw.pdf used on input line 20.
-(pdftex.def)             Requested size: 170.71652pt x 133.09721pt.
+<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=148, 534.99875pt x 534.99
+875pt>
+File: gfx/ucberkeleyseal_line_540-eps-converted-to.pdf Graphic file (type pdf)
+ <use gfx/ucberkeleyseal_line_540-eps-converted-to.pdf>
+Package pdftex.def Info: gfx/ucberkeleyseal_line_540-eps-converted-to.pdf used 
+on input line 20.
+(pdftex.def)             Requested size: 142.26378pt x 142.2638pt.
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 35.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/bera/t1fvm.fd
@@ -1486,8 +1506,8 @@ Package microtype Info: Loading generic settings for font family
 
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gfx/T
-FZsuperellipse_bw.pdf>])
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./gfx/u
+cberkeleyseal_line_540-eps-converted-to.pdf>])
 \openout2 = `FrontBackMatter/Titleback.aux'.
 
  (./FrontBackMatter/Titleback.tex
@@ -1615,10 +1635,16 @@ Overfull \hbox (8.78125pt too wide) in paragraph at lines 29--30
  (./FrontBackMatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 13
 .
-
-No file whole_thesis.toc.
+ (./whole_thesis.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 9.
+)
 \tf@toc=\write6
 \openout6 = `whole_thesis.toc'.
+
 
 1: section
 1: chapter
@@ -1631,25 +1657,23 @@ No file whole_thesis.toc.
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 33
 .
-
-No file whole_thesis.lof.
+ (./whole_thesis.lof)
 \tf@lof=\write7
 \openout7 = `whole_thesis.lof'.
 
-[12
+ [12
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 46
 .
-
-No file whole_thesis.lot.
+ (./whole_thesis.lot)
 \tf@lot=\write8
 \openout8 = `whole_thesis.lot'.
 
-[13]
-No file whole_thesis.lol.
+ [13] (./whole_thesis.lol)
 \tf@lol=\write9
 \openout9 = `whole_thesis.lol'.
+
 
 [14]) [15] [16
 
@@ -1688,17 +1712,11 @@ LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <9> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 50.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 7.65005pt on input line 50.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
  [4]
 Overfull \hbox (2.23529pt too wide) in paragraph at lines 67--68
 []\T1/fvm/m/n/10.95 classicthesis-config.tex\T1/pplj/m/n/10.95 : a cen-tral pla
 ce to load all nifty pack-
  []
-
-
-LaTeX Warning: Reference `sec:custom' on page 5 undefined on input line 69.
 
 [5]
 Overfull \hbox (9.23082pt too wide) in paragraph at lines 102--103
@@ -1736,9 +1754,6 @@ Overfull \hbox (2.07549pt too wide) in paragraph at lines 143--143
 
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 145.
-
-LaTeX Warning: Reference `sec:options' on page 7 undefined on input line 150.
-
 
 Overfull \hbox (2.07549pt too wide) in paragraph at lines 158--158
  \T1/fvm/m/sl/9 classicthesis.sty
@@ -1791,26 +1806,6 @@ sus luc-tus mau-
 
 Package acronym Info: Label `acro:UML' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 18.
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
-
-Package acronym Warning: Acronym `UML' is not defined on input line 18.
-
 [13
 
 
@@ -1821,13 +1816,14 @@ Overfull \hbox (2.94846pt too wide) in paragraph at lines 25--25
 ben-dum, nulla
  []
 
-
-LaTeX Warning: Citation 'bentley:1999' on page 14 undefined on input line 39.
-
-
-LaTeX Warning: Citation 'bentley:1999' on page 14 undefined on input line 39.
-
 [14]
+
+LaTeX Warning: Citation 'bentley:1999' on page 15 undefined on input line 39.
+
+
+LaTeX Warning: Citation 'bentley:1999' on page 15 undefined on input line 39.
+
+
 Overfull \hbox (18.80463pt too wide) in paragraph at lines 42--42
 []\T1/pplj/m/n/10.95 Pellentesque habi-tant morbi tris-tique senec-
  []
@@ -1856,21 +1852,17 @@ Overfull \hbox (0.77591pt too wide) in paragraph at lines 52--52
 er leo. Morbi
  []
 
-
+[15]
 Overfull \hbox (9.6941pt too wide) in paragraph at lines 55--55
 \T1/pplj/m/n/10.95 Vestibu-lum diam eros, fringilla et, con-sectetuer eu, non-u
 mmy id, sapien.
  []
 
-[15]
 
 LaTeX Warning: Citation 'knuth:1976' on page 16 undefined on input line 64.
 
 
 LaTeX Warning: Citation 'knuth:1976' on page 16 undefined on input line 64.
-
-
-LaTeX Warning: Reference `tab:example' on page 16 undefined on input line 64.
 
 
 LaTeX Warning: Citation 'sommerville:1992' on page 16 undefined on input line 6
@@ -1901,39 +1893,32 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 
 LaTeX Warning: Citation 'knuth:1976' on page 16 undefined on input line 79.
 
-
-LaTeX Warning: Reference `fig:example' on page 16 undefined on input line 88.
-
-
-LaTeX Warning: Reference `fig:example-b' on page 16 undefined on input line 90.
-
-
-<gfx/example_1.jpg, id=213, 240.9pt x 180.675pt>
+[16] <gfx/example_1.jpg, id=385, 240.9pt x 180.675pt>
 File: gfx/example_1.jpg Graphic file (type jpg)
  <use gfx/example_1.jpg>
 Package pdftex.def Info: gfx/example_1.jpg used on input line 95.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_2.jpg, id=214, 240.9pt x 180.675pt>
+<gfx/example_2.jpg, id=386, 240.9pt x 180.675pt>
 File: gfx/example_2.jpg Graphic file (type jpg)
  <use gfx/example_2.jpg>
 Package pdftex.def Info: gfx/example_2.jpg used on input line 98.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_3.jpg, id=215, 240.9pt x 180.675pt>
+<gfx/example_3.jpg, id=387, 240.9pt x 180.675pt>
 File: gfx/example_3.jpg Graphic file (type jpg)
  <use gfx/example_3.jpg>
 Package pdftex.def Info: gfx/example_3.jpg used on input line 100.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
 
-<gfx/example_4.jpg, id=216, 240.9pt x 180.675pt>
+<gfx/example_4.jpg, id=388, 240.9pt x 180.675pt>
 File: gfx/example_4.jpg Graphic file (type jpg)
  <use gfx/example_4.jpg>
 Package pdftex.def Info: gfx/example_4.jpg used on input line 102.
 (pdftex.def)             Requested size: 151.19897pt x 113.40128pt.
-
-[16]) [17 <./gfx/example_1.jpg> <./gfx/example_2.jpg> <./gfx/example_3.jpg> <./
-gfx/example_4.jpg>]
+)
+[17 <./gfx/example_1.jpg> <./gfx/example_2.jpg> <./gfx/example_3.jpg> <./gfx/ex
+ample_4.jpg>]
 \openout2 = `Chapters/Chapter03.aux'.
 
  (./Chapters/Chapter03.tex [18
@@ -1982,17 +1967,13 @@ my, scelerisque
 
 
 
-]
-
-LaTeX Warning: Reference `lst:useless' on page 24 undefined on input line 39.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+] (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
-)) [24]
+))
+[24]
 \openout2 = `FrontBackMatter/Bibliography.aux'.
 
-
-(./FrontBackMatter/Bibliography.tex)
+ (./FrontBackMatter/Bibliography.tex)
 
 LaTeX Warning: Empty bibliography on input line 13.
 
@@ -2028,31 +2009,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Contents.aux)
 (./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux
 ) (./Chapters/Chapter0A.aux) (./FrontBackMatter/Bibliography.aux)
-(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Colophon.aux)
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Colophon.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 6643FE59EC6BC08CCA7D033F758AAF9C;2135.
 
-
-Package rerunfilecheck Warning: File `whole_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `whole_thesis.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  6643FE59EC6BC08CCA7D033F758AAF9C;2135.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -2064,13 +2031,13 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24288 strings out of 493089
- 411042 string characters out of 6134842
- 836064 words of memory out of 5000000
- 27108 multiletter control sequences out of 15000+600000
- 92884 words of font info for 143 fonts, out of 8000000 for 9000
+ 24385 strings out of 493089
+ 413104 string characters out of 6134842
+ 845208 words of memory out of 5000000
+ 27171 multiletter control sequences out of 15000+600000
+ 92783 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,22n,90p,1137b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,23n,90p,1137b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/
@@ -2086,10 +2053,10 @@ onts/type1/public/bera/fvmro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on whole_thesis.pdf (43 pages, 271918 bytes).
+Output written on whole_thesis.pdf (43 pages, 318317 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 537 PDF objects out of 1000 (max. 8388607)
+ 466 compressed objects within 5 object streams
  135 named destinations out of 1000 (max. 500000)
- 19482 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20282 words of extra memory for PDF output out of 20736 (max. 10000000)
 
