@@ -3,118 +3,116 @@ import sys
 
 spd = float(60*60*24)
 
-start = "2016-01-20-14h00m00s"
+start = "2016-03-07-00h00m00s"
 start = datetime.datetime.strptime(start, "%Y-%m-%d-%Hh%Mm%Ss")
 last = ""
 
 dayssince = []
 pages = []
+words =[]
 
-annotate = True
-calendar = True
-
-# the template already has 8 pages. thx reecer.
-dayssince.append(0)
-pages.append(8)
+first = True
 
 with open("scripts/pages.md") as file:
-    for line in file.readlines():
+    # read in reverse, to make it easier to take just the latest compile for a day
+    for line in reversed(file.readlines()):
 
         line = line.strip()
         if not line:
             continue
-        if not line.count(" ") == 2:
+        if not line.count(" ") == 3:
             sys.exit("what the fuck")
 
-        _, date, pagecount = line.split(" ")
+        _, date, pagecount, wordcount = line.split(" ")
         date = date.replace("[", "")
         date = date.replace("]", "")
 
         current = datetime.datetime.strptime(date, "%Y-%m-%d-%Hh%Mm%Ss")
         delta = current - start
-        dayssince.append(delta.days + delta.seconds/spd)
-        pages.append(int(pagecount))
-        lasttime, lastpages = current, pagecount
+        # print delta.days
+        if not delta.days in dayssince:
+            # print "adding to the array"
+            dayssince.append(delta.days)
+            pages.append(int(pagecount))
+            words.append(int(wordcount))
+
+        if first:
+            lasttime, lastpages, lastwords = current, pagecount, wordcount
+            # print lasttime, lastpages
+            first = False
+
+# the template already has 12 pages. thx stanford.
+# this has to go at the end because we read the file in reverse order.
+dayssince.append(0)
+pages.append(32)
+words.append(178)
+
+
+# dayssince = reversed(dayssince)
+# pages = reversed(pages)
+# print 'first time'
+print 'Your progress is:'
+print dayssince
+print pages
+print words
+
+# small module to better include flat days
+for i in xrange(len(dayssince) - 1):
+    # print i, dayssince[i], dayssince[i+1]
+    if dayssince[i] - dayssince[i+1] > 1:
+        # print 'i am true'
+        dayssince.insert(i+1, dayssince[i] - 1)
+        pages.insert(i+1, pages[i+1])
+        words.insert(i+1, words[i+1])
+        # print dayssince
+        # print pages
+    i = i - 1
+
+# print dayssince, pages
 
 import numpy as np
 dayssince = np.array(dayssince)
 pages     = np.array(pages)
+words     = np.array(words)
+
+if len(dayssince) > 1:
+    print str(pages[0] - pages[1]) + ' pages today!'
+    print str(words[0] - words[1]) + ' words today!'
 
 from matplotlib import rcParams
-#rcParams["font.family"] = "sans-serif"
-#rcParams["font.sans-serif"] = ["Helvetica"]
-rcParams["font.size"] = "12"
+# rcParams["font.family"] = "sans-serif"
+# rcParams["font.sans-serif"] = ["Helvetica"]
+rcParams["font.size"] = "16"
 import matplotlib.pyplot as plt
 
 now = datetime.datetime.now()
-maxdayssince = (now - start).days + (now - start).seconds/spd
+# maxdayssince = (now - start).days + (now - start).seconds/spd
+maxdayssince = (now - start).days
 
 ax = plt.gca()
-ax.xaxis.set_label_coords(0.67, -0.07)
-ax.yaxis.set_label_coords(-0.10, 0.9)
+fig, ax1 = plt.subplots()
+ax1.xaxis.set_label_coords(0.74, -0.07)
+ax1.yaxis.set_label_coords(-0.10, 0.6)
 
-# configure plot
-plt.xlabel("Days since start (January 20, 2016)")
-plt.ylabel("Tova's thesis pages")
-plt.title("")
-ymax = 1.3*max(pages) if annotate else 1.1*max(pages)
-plt.text(0.81*maxdayssince, 1.02*ymax, r"%s pages"   % (lastpages))
-plt.text(-6,                1.02*ymax, r"Updated %s" % (lasttime))
-plt.axis([-7, maxdayssince+7, 0, ymax])
-plt.grid(False)
-plt.plot(dayssince, pages, "-")
-plt.plot(dayssince, pages, "rd")
-plt.fill_between(dayssince, 0, pages, facecolor="blue", interpolate=True)
-plt.text(10, 0.85*ymax, r"Tova's thesis")
+ax1.set_xlabel("Days since start (March 7)")
+ax1.set_ylabel("Pages",color='b')
+ax1.set_title("")
+ax1.text(0.1*maxdayssince, 0.9*max(pages), r"%s pages"   % (lastpages), color='blue')
+ax1.text(0.1*maxdayssince, 0.8*max(pages), r"%s words"   % (lastwords), color='red')
+ax1.text(0,                1.12*max(pages), r"Updated %s" % (lasttime))
+# plt.axis([0, maxdayssince, 0, 1.1*max(pages)])
+ax1.axis([-1, maxdayssince+1, 0, 1.1*max(pages)])
+ax1.grid(False)
+ax1.plot(dayssince, pages, "-")
+# plt.plot(dayssince, pages, "rd")
+ax1.fill_between(dayssince, 0, pages, facecolor='blue', interpolate=True)
 
-# turn days into calendar months
-if calendar:
+ax2 = ax1.twinx()
+ax2.set_ylabel('Words',color='r')
+ax2.yaxis.set_label_coords(1.1, 0.4)
+# print dayssince, words
+ax2.plot(dayssince, words, "r-",linewidth=2)
 
-    plt.xlabel("")
-    plt.tick_params(axis='x', which='major', labelsize=0)
-    #plt.text((datetime.datetime.strptime("2016-01-01-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days, -15, r"January")
-    #plt.text((datetime.datetime.strptime("2016-01-02-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days, -15, r"February")
-
-
-
-# if annotate:
-
-#     # annotate
-#     rcParams["font.size"] = "14"
-#     ysep = 7
-
-#     # thanksgiving
-#     days = (datetime.datetime.strptime("2014-11-27-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-10, 123+ysep, r"Thanks-")
-#     plt.text(days-8,  110+ysep, r"giving")
-#     plt.plot([days, days], [30, 110], "k-")
-
-#     # holidays
-#     days = (datetime.datetime.strptime("2014-12-25-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-12, 145+ysep, r"Christmas")
-#     plt.plot([days,   days],   [90, 145], "k-")
-
-#     # job offer
-#     days = (datetime.datetime.strptime("2015-01-27-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-10, 125+ysep, r"job offer")
-#     plt.plot([days, days], [90, 125], "k-")
-
-#     # first draft
-#     days = (datetime.datetime.strptime("2015-03-02-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-11, 221, r"first draft")
-#     plt.plot([days,   days], [195, 214], "k-")
-
-#     # defense
-#     days = (datetime.datetime.strptime("2015-04-06-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-12, 209, r"defense")
-#     plt.plot([days,   days], [192, 204], "k-")
-
-#     # submit
-#     days = (datetime.datetime.strptime("2015-04-28-00h00m00s", "%Y-%m-%d-%Hh%Mm%Ss") - start).days
-#     plt.text(days-12, 221, r"submit")
-#     plt.plot([days,   days], [192, 214], "k-")
-
-# save
-rcParams["font.size"] = "12"
-plt.savefig("pages.png")
-plt.savefig("pages.pdf")
+plt.autoscale()
+plt.savefig("pages.png",bbox_inches='tight')
+plt.savefig("pages.pdf",bbox_inches='tight')

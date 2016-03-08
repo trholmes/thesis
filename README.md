@@ -1,2 +1,0 @@
-# thesis
-My thesis.

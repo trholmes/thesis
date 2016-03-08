@@ -4,8 +4,8 @@ The top-level auxiliary file: whole_thesis.aux
 The style file: biblatex.bst
 I couldn't open database file Bibliography.bib
 ---line 5 of file whole_thesis.aux
- : \bibdata{whole_thesis-blx,Bibliography
- :                                       }
+ : \bibdata{whole_thesis-blx,atlaslatex/bibtex/bib/ATLAS,atlaslatex/bibtex/bib/CMS,atlaslatex/bibtex/bib/ConfNotes,atlaslatex/bibtex/bib/PubNotes,Bibliography
+ :                                                                                                                                                            }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackMatter/Titleback.aux
@@ -17,10 +17,9 @@ A level-1 auxiliary file: FrontBackMatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
 A level-1 auxiliary file: Chapters/Chapter02.aux
 A level-1 auxiliary file: Chapters/Chapter03.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: Chapters/Chapter04.aux
+A level-1 auxiliary file: Chapters/Chapter05.aux
 A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
-A level-1 auxiliary file: FrontBackMatter/Declaration.aux
-A level-1 auxiliary file: FrontBackMatter/Colophon.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -33,54 +32,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: whole_thesis-blx.bib
-Warning--I didn't find a database entry for "knuth:1974"
-Warning--I didn't find a database entry for "bringhurst:2002"
-Warning--I didn't find a database entry for "bentley:1999"
-Warning--I didn't find a database entry for "cormen:2001"
-Warning--I didn't find a database entry for "knuth:1976"
-Warning--I didn't find a database entry for "sommerville:1992"
+Database file #2: atlaslatex/bibtex/bib/ATLAS.bib
+Database file #3: atlaslatex/bibtex/bib/CMS.bib
+Database file #4: atlaslatex/bibtex/bib/ConfNotes.bib
+Database file #5: atlaslatex/bibtex/bib/PubNotes.bib
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 1 entry,
+You've used 2 entries,
             6047 wiz_defined-function locations,
-            1149 strings with 8569 characters,
-and the built_in function-call counts, 1306 in all, are:
-= -- 64
-> -- 58
-< -- 1
-+ -- 41
-- -- 24
-* -- 23
-:= -- 295
+            1153 strings with 8787 characters,
+and the built_in function-call counts, 3828 in all, are:
+= -- 148
+> -- 136
+< -- 26
++ -- 56
+- -- 50
+* -- 180
+:= -- 434
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
+call.type$ -- 2
+change.case$ -- 1
 chr.to.int$ -- 34
-cite$ -- 0
-duplicate$ -- 12
-empty$ -- 92
-format.name$ -- 0
-if$ -- 289
+cite$ -- 2
+duplicate$ -- 318
+empty$ -- 388
+format.name$ -- 48
+if$ -- 870
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 22
-num.names$ -- 0
-pop$ -- 44
+newline$ -- 41
+num.names$ -- 41
+pop$ -- 364
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 10
 quote$ -- 0
-skip$ -- 74
+skip$ -- 239
 stack$ -- 0
-substring$ -- 117
-swap$ -- 1
-text.length$ -- 16
-text.prefix$ -- 0
+substring$ -- 132
+swap$ -- 93
+text.length$ -- 41
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 26
+type$ -- 64
 warning$ -- 0
-while$ -- 50
+while$ -- 67
 width$ -- 0
-write$ -- 20
+write$ -- 38
 (There was 1 error message)

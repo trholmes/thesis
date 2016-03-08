@@ -16,6 +16,26 @@
   {}
 \endgroup
 
+\entry{ATL-PHYS-PUB-2015-052}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-052}}
+  \field{title}{{Robustness of the Artificial Neural Network Clustering
+  Algorithm of the ATLAS experiment}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2116350
+  \endverb
+  \field{year}{2015}
+\endentry
+
 \lossort
 \endlossort
 
