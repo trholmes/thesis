@@ -16,6 +16,53 @@
   {}
 \endgroup
 
+\entry{PERF-2012-05}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1088/1748-0221/9/09/P09009
+  \endverb
+  \verb{eprint}
+  \verb 1406.7690
+  \endverb
+  \field{pages}{P09009}
+  \field{title}{{A neural network clustering algorithm for the ATLAS silicon
+  pixel detector}}
+  \field{volume}{9}
+  \field{journaltitle}{JINST}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2014}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-044}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-044}}
+  \field{title}{{Measurement of performance of the pixel neural network
+  clustering algorithm of the ATLAS experiment at $\sqrt{s} = 13\;\mbox{TeV}$}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2054921
+  \endverb
+  \field{year}{2015}
+\endentry
+
 \entry{ATL-PHYS-PUB-2015-052}{booklet}{}
   \name{author}{1}{}{%
     {{}%

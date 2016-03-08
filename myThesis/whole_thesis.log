@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 MAR 2016 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 MAR 2016 17:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1483,7 +1483,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=128, 534.99875pt x 534.99
+<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=132, 534.99875pt x 534.99
 875pt>
 File: gfx/ucberkeleyseal_line_540-eps-converted-to.pdf Graphic file (type pdf)
  <use gfx/ucberkeleyseal_line_540-eps-converted-to.pdf>
@@ -1620,6 +1620,12 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 11.
+
+Overfull \hbox (8.52472pt too wide) in paragraph at lines 43--43
+ [][] []\T1/pplj/m/sc/10.95/80ls application of neu-ral net-works to the pixel 
+clus- 
+ []
+
 )
 \tf@toc=\write6
 \openout6 = `whole_thesis.toc'.
@@ -1770,30 +1776,32 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A20DFC083C849088260B2CC683F4FF98;1907.
+(rerunfilecheck)             Checksum: B730D694067586F3969539AC091002C8;1988.
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22653 strings out of 493089
- 391039 string characters out of 6134842
- 824581 words of memory out of 5000000
- 25537 multiletter control sequences out of 15000+600000
- 64684 words of font info for 94 fonts, out of 8000000 for 9000
+ 22664 strings out of 493089
+ 391222 string characters out of 6134842
+ 825033 words of memory out of 5000000
+ 25541 multiletter control sequences out of 15000+600000
+ 65325 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,20n,84p,1137b,1736s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on whole_thesis.pdf (39 pages, 180524 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on whole_thesis.pdf (39 pages, 193675 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 15102 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 15110 words of extra memory for PDF output out of 17280 (max. 10000000)
 
