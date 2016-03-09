@@ -21,10 +21,10 @@
 \BOOKMARK [0][]{chapter.4}{4 The ATLAS Detector}{part.3}% 21
 \BOOKMARK [1][-]{section.4.1}{4.1 Subdetectors of ATLAS}{chapter.4}% 22
 \BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 The Pixel Detector}{section.4.1}% 23
-\BOOKMARK [0][]{chapter.5}{5 Application of Neural Networks to the Pixel Clustering}{part.3}% 24
+\BOOKMARK [0][]{chapter.5}{5 Application of a Neural Network to Pixel Clustering}{part.3}% 24
 \BOOKMARK [1][-]{section.5.1}{5.1 Clustering in the Pixel Detector}{chapter.5}% 25
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Analog Clustering}{section.5.1}% 26
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 A Neural Network}{section.5.1}% 27
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Charge Interpolation}{section.5.1}% 26
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Improving Measurement with Neural Networks}{section.5.1}% 27
 \BOOKMARK [1][-]{section.5.2}{5.2 Impact of the Neural Network}{chapter.5}% 28
 \BOOKMARK [-1][]{part.4}{Searching for SUSY}{}% 29
 \BOOKMARK [-1][]{part.5}{Conclusions}{}% 30
