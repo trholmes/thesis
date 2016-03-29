@@ -22,11 +22,11 @@ Creating tracks from individual hits in the Inner Detector is one of most comput
 \end{figure}
 \end{centering}
 
-The process of going from cluster to track is relatively simple in an isolated environment in which one particle travels cleanly through all the layers, but can be complicated by multiple close-by tracks and by a single particle's emission of low energy particles, called $\delta$-rays. In these cases, it can be hard to tell how many particles were involved in creating a cluster, and where exactly each of those particles passed through the layer. A few examples of these cases can be seen in \autoref{fig:cluster_types} . The process of determining this is called Clustering, and it has recently been updated from a charge interpolation method to a method using a \ac{NN}. 
+The process of going from clusters to track is relatively simple in an isolated environment in which one particle travels cleanly through all the layers, but can be complicated by multiple close-by tracks and by a single particle's emission of low energy particles, called $\delta$-rays. In these cases, it can be hard to tell how many particles were involved in creating a cluster, and where exactly each of those particles passed through the layer. A few examples of these cases can be seen in \autoref{fig:cluster_types} . The process of determining this is called Clustering, and it has recently been updated from a charge interpolation method to a method using a \ac{NN}. 
 
-\subsection{Charge Interpolation}
+\subsection{Charge Interpolation Method}
 
-A typical cluster contains a few pixel hits spanning in the $x$ and $y$ directions, each with its own measurement of charge deposition, or \ac{ToT}. These In the charge interpolation method, these individual hits are combined to make one estimation of the position a single particle which passed through them, using the following equation: 
+A typical cluster contains a few pixel hits spanning in the $x$ and $y$ directions, each with its own measurement of charge deposition, or \ac{ToT}. The extent of the cluster is defined by grouping together any pixels with a shared edge or corner. In the charge interpolation method, also called the \ac{CCA} clustering algorithm, these individual hits are combined to make one estimation of the position a single particle which passed through them, using the following equation: 
 
 \begin{eqnarray}
 x_{cluster} = x_{center} + \Delta_x(\phi,N_{row}) \cdot \left[ \Omega_x -\frac{1}{2} \right] \\
@@ -59,7 +59,7 @@ These \acp{NN} are all trained with:
 \item the $\eta$ index of the pixel module
 \end{itemize}
 
-After the Number \ac{NN} predicts a number of particles associated with the cluster, required to be between 1 and 3, the same inputs are fed to one of three Position \acp{NN} based on the determined number of particles, which then outputs the $x$ and $y$ positions of each of the particles. Then, the same inputs combined with the output of the Position \ac{NN} are fed into one of three Error \acp{NN} (also distinguished by number of particles), which outputs a resolution for each of the position predictions made. An example of the output of this process can be seen in \autoref{fig:merged_cluster}.
+After the Number \ac{NN} predicts a number of particles associated with the cluster, required to be between 1 and 3, the same inputs are fed to one of three Position \acp{NN} based on the determined number of particles, which then outputs the $x$ and $y$ positions of each of the particles. Then, the same inputs combined with the output of the Position \ac{NN} are fed into one of three Error \acp{NN} (also distinguished by number of particles), which outputs a resolution for each of the position predictions made. An example of the output of this process can be seen in \autoref{fig:merged_cluster}, where the improved position resolution from the ability to identify a multi-particle cluster is evident. The particle location predictions from the \acp{NN} are then handed to the tracking software, which is able to independently consider multiple locations from a given cluster to find the best fit. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -70,9 +70,24 @@ After the Number \ac{NN} predicts a number of particles associated with the clus
 \end{figure}
 \end{centering}
 
+\section{Impact of the Neural Network}
+
+The \ac{NN} was first applied to $7 TeV$ data, where it improved position resolution for particles in small and large clusters. \autoref{fig:7tev_res} shows the improvement from the addition of the \ac{NN} in $x$ resolution in different cluster sizes. The improvement from \ac{CCA} clustering is particularly evident in the 4-pixel case, where the double peaked structure of the interpolation method has been completely removed with the \ac{NN}.  
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{figures/nn/3x_res.pdf}
+\includegraphics[width=.45\linewidth]{figures/nn/4x_res.pdf}
+\caption{$x$ resolutions for clusters with 3 (left) and 4 (right) pixels in the $x$ direction in $7 TeV$ data for \ac{CCA} and \ac{NN} clustering.}
+\label{fig:7tev_res}
+\end{figure}
+\end{centering}
+
+\subsection{The Neural Network in 13 TeV Data}
+
+In Run 2, tracking algorithm is first run on the \ac{CCA} clusters, where it constructs loose tracks that allow shared clusters, clusters to which multiple tracks are fit. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to identify the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized. 
 
 Performance in 13 TeV \cite{ATL-PHYS-PUB-2015-044}. 
 
 Robustness \cite{ATL-PHYS-PUB-2015-052}
-
-\section{Impact of the Neural Network}
