@@ -16,6 +16,28 @@
   {}
 \endgroup
 
+\entry{PERF-2007-01}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1088/1748-0221/3/08/S08003
+  \endverb
+  \field{pages}{S08003}
+  \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+  \field{volume}{3}
+  \field{journaltitle}{JINST}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2008}
+\endentry
+
 \entry{PERF-2012-05}{article}{}
   \name{author}{1}{}{%
     {{}%

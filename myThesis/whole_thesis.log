@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAR 2016 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 APR 2016 15:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1472,18 +1472,18 @@ ABD: EveryShipout initializing macros
 
  (./FrontBackMatter/Titlepage.tex
 Package epstopdf Info: Source file: <gfx/ucberkeleyseal_line_540.eps>
-(epstopdf)                    date: 2013-06-25 20:59:06
+(epstopdf)                    date: 2013-06-25 11:59:06
 (epstopdf)                    size: 1126674 bytes
 (epstopdf)             Output file: <gfx/ucberkeleyseal_line_540-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2016-01-28 17:18:07
+(epstopdf)                    date: 2016-01-28 08:18:07
 (epstopdf)                    size: 95907 bytes
 (epstopdf)             Command: <epstopdf --outfile=gfx/ucberkeleyseal_line_540
 -eps-converted-to.pdf gfx/ucberkeleyseal_line_540.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=136, 534.99875pt x 534.99
+<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=172, 534.99875pt x 534.99
 875pt>
 File: gfx/ucberkeleyseal_line_540-eps-converted-to.pdf Graphic file (type pdf)
  <use gfx/ucberkeleyseal_line_540-eps-converted-to.pdf>
@@ -1638,9 +1638,9 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 33
 .
  (./whole_thesis.lof
 Package acronym Info: Label `acro:NN' newly defined as it shall be overridden
-although it is yet undefined on input line 21.
+although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:CCA' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
+although it is yet undefined on input line 31.
 )
 \tf@lof=\write7
 \openout7 = `whole_thesis.lof'.
@@ -1721,80 +1721,124 @@ Chapter 3.
 
 ]
 Chapter 4.
+Package acronym Info: Label `acro:MS' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:ID' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+<figures/atlas/detector.pdf, id=399, 417.10744pt x 259.0453pt>
+File: figures/atlas/detector.pdf Graphic file (type pdf)
+
+<use figures/atlas/detector.pdf>
+Package pdftex.def Info: figures/atlas/detector.pdf used on input line 14.
+(pdftex.def)             Requested size: 302.39795pt x 187.80894pt.
+ [13 <./figures/atlas/detector.pdf>]
+
+LaTeX Warning: Reference `sec:NN' on page 14 undefined on input line 43.
+
+<figures/atlas/innerdetector.pdf, id=458, 385.8888pt x 252.12976pt>
+File: figures/atlas/innerdetector.pdf Graphic file (type pdf)
+
+<use figures/atlas/innerdetector.pdf>
+Package pdftex.def Info: figures/atlas/innerdetector.pdf used on input line 48.
+
+(pdftex.def)             Requested size: 302.39795pt x 197.58374pt.
+
+<figures/atlas/ideta.pdf, id=459, 452.18472pt x 309.45068pt>
+File: figures/atlas/ideta.pdf Graphic file (type pdf)
+
+<use figures/atlas/ideta.pdf>
+Package pdftex.def Info: figures/atlas/ideta.pdf used on input line 57.
+(pdftex.def)             Requested size: 302.39795pt x 206.95313pt.
 Package acronym Info: Label `acro:IBL' newly defined as it shall be overridden
-although it is yet undefined on input line 19.
-) [13]
+although it is yet undefined on input line 65.
+ [14]
+Package acronym Info: Label `acro:SCT' newly defined as it shall be overridden
+although it is yet undefined on input line 83.
+ [15 <./figures/atlas/innerdetector.pdf>]
+Package acronym Info: Label `acro:TRT' newly defined as it shall be overridden
+although it is yet undefined on input line 87.
+
+[16 <./figures/atlas/ideta.pdf>]
+<figures/atlas/calorimeters.pdf, id=588, 387.51817pt x 249.8917pt>
+File: figures/atlas/calorimeters.pdf Graphic file (type pdf)
+
+<use figures/atlas/calorimeters.pdf>
+Package pdftex.def Info: figures/atlas/calorimeters.pdf used on input line 106.
+
+(pdftex.def)             Requested size: 302.39795pt x 195.01004pt.
+) [17 <./figures/atlas/calorimeters.pdf>]
+[18]
 \openout2 = `Chapters/Chapter05.aux'.
 
- (./Chapters/Chapter05.tex [14
-
-
-
-
-]
+ (./Chapters/Chapter05.tex
 Chapter 5.
-<figures/nn/cluster_types.pdf, id=346, 1027.84pt x 612.52821pt>
+<figures/nn/cluster_types.pdf, id=638, 1027.84pt x 612.52821pt>
 File: figures/nn/cluster_types.pdf Graphic file (type pdf)
 
 <use figures/nn/cluster_types.pdf>
 Package pdftex.def Info: figures/nn/cluster_types.pdf used on input line 19.
 (pdftex.def)             Requested size: 302.39795pt x 180.20824pt.
- [15 <./figures/nn/cluster_types.pdf>]
+ [19
+
+
+
+
+ <./figures/nn/cluster_types.pdf>]
 Package acronym Info: Label `acro:ToT' newly defined as it shall be overridden
 although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
 
-[16] <figures/nn/merged_cluster.png, id=529, 1227.58624pt x 596.2275pt>
+[20] <figures/nn/merged_cluster.png, id=818, 1227.58624pt x 596.2275pt>
 File: figures/nn/merged_cluster.png Graphic file (type png)
 
 <use figures/nn/merged_cluster.png>
 Package pdftex.def Info: figures/nn/merged_cluster.png used on input line 67.
 (pdftex.def)             Requested size: 302.39795pt x 146.87306pt.
 
-<figures/nn/3x_res.pdf, id=542, 569.12625pt x 385.44pt>
+<figures/nn/3x_res.pdf, id=831, 569.12625pt x 385.44pt>
 File: figures/nn/3x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/3x_res.pdf>
 Package pdftex.def Info: figures/nn/3x_res.pdf used on input line 80.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
 
-<figures/nn/4x_res.pdf, id=543, 569.12625pt x 385.44pt>
+<figures/nn/4x_res.pdf, id=832, 569.12625pt x 385.44pt>
 File: figures/nn/4x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/4x_res.pdf>
 Package pdftex.def Info: figures/nn/4x_res.pdf used on input line 81.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
- [17]) [18 <./figures/nn/merged_cluster.png> <./figures/nn/3x_res.pdf> <./figur
-es/nn/4x_res.pdf>] [19
+ [21]) [22 <./figures/nn/merged_cluster.png> <./figures/nn/3x_res.pdf> <./figur
+es/nn/4x_res.pdf>] [23
 
 
 
 
 
-] [20] [21
+] [24] [25
 
 
 
 
-] [22] [23
+] [26] [27
 
 
 
 
-] [24]
+] [28]
 \openout2 = `FrontBackMatter/Bibliography.aux'.
 
 
-(./FrontBackMatter/Bibliography.tex) [25
+(./FrontBackMatter/Bibliography.tex) [29
 
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./whole_thesis.aux
 (./FrontBackMatter/Titlepage.aux) (./FrontBackMatter/Titleback.aux)
 (./FrontBackMatter/Dedication.aux) (./FrontBackMatter/Abstract.aux)
@@ -1802,39 +1846,52 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 (./FrontBackMatter/Contents.aux) (./Chapters/Chapter01.aux)
 (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux
 ) (./Chapters/Chapter05.aux) (./FrontBackMatter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C7EE27E8C42062B9EDE76181BCB75E1B;2114.
+(rerunfilecheck)             Checksum: D80FE2E7FCA22C50A4C3F2F197A7ACA3;2842.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 \openout1 = `whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22767 strings out of 493089
- 392735 string characters out of 6134842
- 828669 words of memory out of 5000000
- 25604 multiletter control sequences out of 15000+600000
- 78302 words of font info for 118 fonts, out of 8000000 for 9000
+ 22872 strings out of 493089
+ 394225 string characters out of 6134842
+ 830155 words of memory out of 5000000
+ 25673 multiletter control sequences out of 15000+600000
+ 79758 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,23n,92p,1137b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,23n,98p,1137b,1959s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/palatino/uplri8a.pfb>
-Output written on whole_thesis.pdf (41 pages, 323178 bytes).
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/s
+ymbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on whole_thesis.pdf (45 pages, 1814272 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 112 named destinations out of 1000 (max. 500000)
- 16162 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 832 compressed objects within 9 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 16254 words of extra memory for PDF output out of 17280 (max. 10000000)
 

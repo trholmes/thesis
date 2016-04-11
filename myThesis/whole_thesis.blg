@@ -39,45 +39,45 @@ Database file #5: atlaslatex/bibtex/bib/PubNotes.bib
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 4 entries,
+You've used 5 entries,
             6047 wiz_defined-function locations,
-            1168 strings with 9184 characters,
-and the built_in function-call counts, 9271 in all, are:
-= -- 338
-> -- 314
-< -- 75
-+ -- 90
-- -- 108
-* -- 538
-:= -- 749
+            1174 strings with 9303 characters,
+and the built_in function-call counts, 12027 in all, are:
+= -- 436
+> -- 403
+< -- 99
++ -- 107
+- -- 136
+* -- 723
+:= -- 909
 add.period$ -- 0
-call.type$ -- 4
-change.case$ -- 3
+call.type$ -- 5
+change.case$ -- 4
 chr.to.int$ -- 34
-cite$ -- 6
-duplicate$ -- 959
-empty$ -- 1017
-format.name$ -- 156
-if$ -- 2121
+cite$ -- 8
+duplicate$ -- 1281
+empty$ -- 1336
+format.name$ -- 210
+if$ -- 2755
 int.to.chr$ -- 0
-int.to.str$ -- 10
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 86
-num.names$ -- 135
-pop$ -- 996
+newline$ -- 108
+num.names$ -- 182
+pop$ -- 1310
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 42
 quote$ -- 0
-skip$ -- 590
+skip$ -- 767
 stack$ -- 0
-substring$ -- 183
-swap$ -- 305
-text.length$ -- 90
-text.prefix$ -- 3
+substring$ -- 217
+swap$ -- 414
+text.length$ -- 114
+text.prefix$ -- 4
 top$ -- 1
-type$ -- 140
+type$ -- 178
 warning$ -- 0
-while$ -- 107
+while$ -- 127
 width$ -- 0
-write$ -- 81
+write$ -- 102
 (There was 1 error message)
