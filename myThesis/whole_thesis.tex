@@ -95,7 +95,7 @@
 %	THESIS CONTENT - CHAPTERS
 %----------------------------------------------------------------------------------------
 
-\ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 1 page describing  the content in Part 1
+\ctparttext{The centerpiece of this thesis is a search for Supersymmetry, but it also includes all the scaffolding and background necessary to understand the search. An overview of the \ac{LHC} and the ATLAS Detector are presented along with the theory that motivates the search.} % Text on the Part 1 page describing  the content in Part 1
 
 \part{Introduction} % First part of the thesis
 
@@ -105,7 +105,7 @@
 
 %------------------------------------------------
 
-\ctparttext{You can put some informational part preamble text here.} % Text on the Part 2 page describing the content in Part 2
+\ctparttext{This section describes the theoretical foundation for the analysis presented in \autoref{part:search}. It includes an overview of the Standard Model, including its phenomenology in a $p-p$ collider. The theory of Supersymmetry is explained, and the motivation for extending the Standard Model to include it is presented. In addition, this section includes an explanation of Monte Carlo generators and details about the specific form of Supersymmetry searched for in this analysis.} % Text on the Part 2 page describing the content in Part 2
 
 \part{Theory and Motivation} % Second part of the thesis
 
@@ -117,34 +117,40 @@
 
 \ctparttext{This section describes the \ac{LHC} and the ATLAS detector, which collectively provide the physical environment and the data collection for the analysis discussed in \autoref{part:search}.} % Text on the Part 2 page describing the content in Part 2
 
-\part{The Physical Experiment} % Second part of the thesis
+\part{The Experiment} % Second part of the thesis
 
 \include{Chapters/Chapter03} % LHC
 \include{Chapters/Chapter04} % ATLAS
-\include{Chapters/Chapter05} % Tracking
+\include{Chapters/Chapter04b} % Reconstruction
+\include{Chapters/Chapter05} % NN
 
 \cleardoublepage % Empty page before the start of the next part
 
 %------------------------------------------------
 
-\ctparttext{You can put some informational part preamble text here.} % Text on the Part 2 page describing the content in Part 2
+\ctparttext{This section describes an analysis of the ATLAS data carried out by the author and her analysis team. The analysis was performed on events from $p-p$ collisions provided by the \ac{LHC} at $\sqrt{s}$=13 TeV. It searches for events like those described in \autoref{sec:simplified_models}, which contain a Z boson decaying to leptons, jets, and missing transverse energy. The selection of a signal region in which to search for these events, background estimates, systematic uncertainty estimates, results, and interpretations are all discussed.} % Text on the Part 2 page describing the content in Part 2
 
-\part{Searching for SUSY} % Second part of the thesis
+\part{Searching for Supersymmetry} % Second part of the thesis
 \label{part:search}
 
-%\include{Chapters/Chapter04} % Chapter 2
-%\include{Chapters/Chapter04} % Chapter 4 - empty template
+\include{Chapters/Chapter07} % Background Processes 
+\include{Chapters/Chapter08} % Physics Objects Identification and Selection
+\include{Chapters/Chapter09} % Event Selection
+\include{Chapters/Chapter10} % Background Estimation and Systematic Uncertainty
+\include{Chapters/Chapter10b} % Background Estimation and Systematic Uncertainty
+\include{Chapters/Chapter11} % Results
+\include{Chapters/Chapter12} % Interpretation
 
 \cleardoublepage % Empty page before the start of the next part
 
 %------------------------------------------------
 
-\ctparttext{You can put some informational part preamble text here.} % Text on the Part 2 page describing the content in Part 2
+\ctparttext{This section presents conclusions and an outlook for future work.} % Text on the Part 2 page describing the content in Part 2
 
 \part{Conclusions} % Second part of the thesis
 
-%\include{Chapters/Chapter04} % Chapter 2
-%\include{Chapters/Chapter04} % Chapter 4 - empty template
+\include{Chapters/Chapter13} % Conclusions
+\include{Chapters/Chapter14} % Outlook
 
 \cleardoublepage % Empty page before the start of the next part
 
@@ -156,7 +162,7 @@
 
 \part{Appendix} % New part of the thesis for the appendix
 
-%\include{Chapters/Chapter0A} % Appendix A
+\include{Chapters/Chapter0A} % Appendix A
 %\include{Chapters/Chapter0B} % Appendix B - empty template
 
 %----------------------------------------------------------------------------------------

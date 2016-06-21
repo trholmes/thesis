@@ -94,7 +94,7 @@ The \ac{TRT} also responds to low-energy transition radiation photons, which pro
 \section{The Calorimeters}
 \label{sec:Calo}
 
-Unlike the tracking detectors, which aim to take measurements of a particle with minimal alterations of its trajectory, the calorimeters measure the the energy of objects by stopping them entirely. The calorimeters, which can be seen in \autoref{fig:calo}, provide coverage out to $\eta$ < 4.9. Higher granularity electromagnetic measurements are made within $\eta$ < 2.5, where the \ac{ID} provides tracking capability, in order to give precision measurements of the energy of photons and electrons. The hadronic calorimeter provides coarser granularity, which is sufficient to determine the energy of jets. 
+Unlike the tracking detectors, which aim to take measurements of a particle with minimal alterations of its trajectory, the calorimeters measure the the energy of objects by stopping them entirely. The calorimeters, which can be seen in \autoref{fig:calo}, provide coverage out to $\eta$ < 4.9. Higher granularity electromagnetic measurements are made within $|\eta|$ < 2.5, where the \ac{ID} provides tracking capability, in order to give precision measurements of the energy of photons and electrons, and provide reduced resolution measurements at higher $\eta$. The hadronic calorimeters provides coarser granularity, which is sufficient to determine the energy of jets. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -109,11 +109,14 @@ TODO make sure jets are in theory.
 
 Another task of the calorimeter system is to limit punch-through to the \ac{MS}, described in \autoref{sec:MS}. All other particles must be fully stopped by the calorimeters to allow for clean signals from muons, and to measure the total energy of the particle. This requirement sets minimum sizes for each of the calorimeters. 
 
-\subsection{The LAr Electromagnetic Calorimeter}
+\paragraph{The LAr Electromagnetic Calorimeter} uses liquid argon as its active detector medium alternating with layers of lead acting as the absorber. The layers are shaped like accordions, which allows for complete coverage with multiple layers of active material, three in central $\eta$ ($0<|\eta|<2.5$) and two at higher $\eta$ ($2.5 < |\eta| < 3.2$). At $|\eta| < 1.8$, an instrumented liquid argon presampler provides a measurement of energy lost prior to reaching the calorimeters.
 
+\paragraph{The Tile Calorimeter} is a hadronic calorimeter which surrounds the LAr Calorimeter. It uses layers of steel as its absorber with scintillating tiles as the active material between them, which are read out by photomultiplier tubes. The Tile Calorimeter covers $|\eta| < 1.7$. 
 
+\paragraph{The LAr Hadronic Endcap Calorimeter} covers the hadronic calorimetery for higher $\eta$. It uses liquid argon active material and copper plate absorbers. This calorimeter covers $1.5 < |\eta| < 3.2$, overlapping with the hadronic calorimeters in either direction of its $\eta$ range. 
 
-\subsection{The Tile Calorimeter}
+\paragraph{The FCal} or forward calorimeter provides electromagnetic and hadronic coverage at very high $\eta$ ($3.1 < |\eta| < 4.9$). This calorimeter also uses liquid argon as its active material, and uses copper-tungsten as the absorber. 
+
 
 \section{The Muon Spectrometer}
 \label{sec:MS}

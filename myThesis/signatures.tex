@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.4 (1/1/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de) with commenting modifications by:
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% GNU General Public License (v2)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+		%oneside,%openright,
+		titlepage,numbers=noenddot,headinclude,%1headlines,
+	 	footinclude=false,cleardoublepage=empty,
+		dottedtoc, % Make page numbers in the table of contents flushed right with dots leading to them
+		%BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
+		ngerman,american, % Languages, change this to your language(s)
+		]{scrreprt} 
+                
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+
+\begin{document}
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+\thispagestyle{empty}
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+The dissertation of Tova Ray Holmes, titled \myTitle, is approved:
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{tabular}{r c r c}
+Chair 	& \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & Date & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\ \\ \\
+ 		& \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & Date & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\ \\ \\
+	 	& \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ & Date & \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  \\ \\ \\
+\end{tabular}
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+\begin{center}
+University of California, Berkeley
+\end{center}
+
+\end{document}

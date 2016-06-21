@@ -61,7 +61,15 @@
     \newboolean{@listings} % load listings package (if not already) and setup LoL
     \newboolean{@manychapters} % additional space in ToC after chapter number (if two digits are needed)
     \newboolean{@floatperchapter} % numbering per chapter for all floats (i.e., Figure 1.1)
-    
+% ********************************************************************
+% My stuff
+% ********************************************************************
+\usepackage{strong2l_paper-defs}
+\usepackage{latex/atlasmisc}
+\usepackage{latex/atlasparticle}
+\usepackage{latex/atlasunit}
+
+
 % ********************************************************************
 % Options
 % ******************************************************************** 
@@ -404,7 +412,7 @@
         {\relax}{\textsc{\MakeTextLowercase{\thesubsection}}}{1em}{\normalsize\itshape}
     % subsubsections
     \titleformat{\subsubsection}
-        {\relax}{\textsc{\MakeTextLowercase{\thesubsubsection}}}{1em}{\normalsize\itshape}        
+        {\relax}{\textsc{\MakeTextLowercase{\thesubsubsection}}}{1em}{\normalsize\itshape}      
     % paragraphs
     \titleformat{\paragraph}[runin]
         {\normalfont\normalsize}{\theparagraph}{0pt}{\spacedlowsmallcaps}    
