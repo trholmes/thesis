@@ -85,6 +85,7 @@
       <file>whole_thesis-blx.bib</file>
     </requires>
     <requires type="editable">
+      <file>bib/strong2l_paper.bib</file>
       <file>atlaslatex/bibtex/bib/ATLAS.bib</file>
       <file>atlaslatex/bibtex/bib/CMS.bib</file>
       <file>atlaslatex/bibtex/bib/ConfNotes.bib</file>

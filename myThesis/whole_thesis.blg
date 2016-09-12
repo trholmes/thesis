@@ -4,8 +4,8 @@ The top-level auxiliary file: whole_thesis.aux
 The style file: biblatex.bst
 I couldn't open database file Bibliography.bib
 ---line 5 of file whole_thesis.aux
- : \bibdata{whole_thesis-blx,atlaslatex/bibtex/bib/ATLAS,atlaslatex/bibtex/bib/CMS,atlaslatex/bibtex/bib/ConfNotes,atlaslatex/bibtex/bib/PubNotes,Bibliography
- :                                                                                                                                                            }
+ : \bibdata{whole_thesis-blx,bib/strong2l_paper,atlaslatex/bibtex/bib/ATLAS,atlaslatex/bibtex/bib/CMS,atlaslatex/bibtex/bib/ConfNotes,atlaslatex/bibtex/bib/PubNotes,Bibliography
+ :                                                                                                                                                                               }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackMatter/Titleback.aux
@@ -43,52 +43,73 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: whole_thesis-blx.bib
-Database file #2: atlaslatex/bibtex/bib/ATLAS.bib
-Database file #3: atlaslatex/bibtex/bib/CMS.bib
-Database file #4: atlaslatex/bibtex/bib/ConfNotes.bib
-Database file #5: atlaslatex/bibtex/bib/PubNotes.bib
+Database file #2: bib/strong2l_paper.bib
+"{" immediately follows a field part---line 3 of file bib/strong2l_paper.bib
+ :       howpublished  = \url
+ :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
+I'm skipping whatever remains of this entry
+Database file #3: atlaslatex/bibtex/bib/ATLAS.bib
+Database file #4: atlaslatex/bibtex/bib/CMS.bib
+Database file #5: atlaslatex/bibtex/bib/ConfNotes.bib
+Database file #6: atlaslatex/bibtex/bib/PubNotes.bib
+Repeated entry---line 1283 of file atlaslatex/bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-002
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1291 of file atlaslatex/bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-003
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1299 of file atlaslatex/bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-004
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1307 of file atlaslatex/bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-005
+ :                               ,
+I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 5 entries,
+You've used 21 entries,
             6047 wiz_defined-function locations,
-            1185 strings with 9547 characters,
-and the built_in function-call counts, 12027 in all, are:
-= -- 436
-> -- 403
-< -- 99
-+ -- 107
-- -- 136
-* -- 723
-:= -- 909
+            1294 strings with 12399 characters,
+and the built_in function-call counts, 60930 in all, are:
+= -- 2003
+> -- 2110
+< -- 498
++ -- 566
+- -- 817
+* -- 4873
+:= -- 3820
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 4
+call.type$ -- 21
+change.case$ -- 20
 chr.to.int$ -- 34
-cite$ -- 8
-duplicate$ -- 1281
-empty$ -- 1336
-format.name$ -- 210
-if$ -- 2755
+cite$ -- 40
+duplicate$ -- 7008
+empty$ -- 6667
+format.name$ -- 1406
+if$ -- 13713
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 56
 missing$ -- 0
-newline$ -- 108
-num.names$ -- 182
-pop$ -- 1310
+newline$ -- 597
+num.names$ -- 868
+pop$ -- 6445
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 246
 quote$ -- 0
-skip$ -- 767
+skip$ -- 3719
 stack$ -- 0
-substring$ -- 217
-swap$ -- 414
-text.length$ -- 114
-text.prefix$ -- 4
+substring$ -- 642
+swap$ -- 2415
+text.length$ -- 540
+text.prefix$ -- 20
 top$ -- 1
-type$ -- 178
+type$ -- 786
 warning$ -- 0
-while$ -- 127
+while$ -- 423
 width$ -- 0
-write$ -- 102
-(There was 1 error message)
+write$ -- 575
+(There were 6 error messages)

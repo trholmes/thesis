@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces Simulated background event samples used in this analysis with the corresponding matrix element and parton shower generators, cross-section order in $\alpha _{\text {s}}$ used to normalise the event yield, underlying-event tune and PDF set. \relax }}{30}{table.caption.31}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -38,4 +38,6 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Autem usu id}}{50}{table.caption.28}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2}{\ignorespaces Autem usu id}}{52}{table.caption.32}
