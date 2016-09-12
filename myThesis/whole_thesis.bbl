@@ -541,6 +541,42 @@
   \field{year}{2012}
 \endentry
 
+\entry{Huang:2016}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Huang, Qing-Guo}}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wang, Ke}}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wang, Sai}}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HWW1}
+  \strng{fullhash}{HWW1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4334-z
+  \endverb
+  \field{number}{9}
+  \field{pages}{489}
+  \field{title}{Constraints on the neutrino mass and mass hierarchy from
+  cosmological observations}
+  \verb{url}
+  \verb http://dx.doi.org/10.1140/epjc/s10052-016-4334-z
+  \endverb
+  \field{volume}{76}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{year}{2016}
+\endentry
+
 \entry{Kidonakis:2010b}{article}{}
   \name{author}{1}{}{%
     {{}%

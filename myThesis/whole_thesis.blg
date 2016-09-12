@@ -44,7 +44,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 3 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 25 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
@@ -71,45 +71,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 21 entries,
+You've used 22 entries,
             6047 wiz_defined-function locations,
-            1294 strings with 12399 characters,
-and the built_in function-call counts, 60930 in all, are:
-= -- 2003
-> -- 2110
-< -- 498
-+ -- 566
-- -- 817
-* -- 4873
-:= -- 3820
+            1303 strings with 12647 characters,
+and the built_in function-call counts, 64338 in all, are:
+= -- 2100
+> -- 2250
+< -- 530
++ -- 609
+- -- 883
+* -- 5194
+:= -- 4031
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 20
+call.type$ -- 22
+change.case$ -- 21
 chr.to.int$ -- 34
-cite$ -- 40
-duplicate$ -- 7008
-empty$ -- 6667
-format.name$ -- 1406
-if$ -- 13713
+cite$ -- 42
+duplicate$ -- 7384
+empty$ -- 7010
+format.name$ -- 1496
+if$ -- 14482
 int.to.chr$ -- 0
-int.to.str$ -- 56
+int.to.str$ -- 58
 missing$ -- 0
-newline$ -- 597
-num.names$ -- 868
-pop$ -- 6445
+newline$ -- 632
+num.names$ -- 909
+pop$ -- 6772
 preamble$ -- 1
-purify$ -- 246
+purify$ -- 261
 quote$ -- 0
-skip$ -- 3719
+skip$ -- 3924
 stack$ -- 0
-substring$ -- 642
-swap$ -- 2415
-text.length$ -- 540
-text.prefix$ -- 20
+substring$ -- 671
+swap$ -- 2551
+text.length$ -- 574
+text.prefix$ -- 21
 top$ -- 1
-type$ -- 786
+type$ -- 824
 warning$ -- 0
-while$ -- 423
+while$ -- 442
 width$ -- 0
-write$ -- 575
+write$ -- 609
 (There were 6 error messages)
