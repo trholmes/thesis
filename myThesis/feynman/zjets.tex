@@ -1,0 +1,38 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (a1) {\(g\)};
+	\vertex [below=of a1] (a2) {\(q\)};
+	
+	\vertex [right=of a1] (b1);
+	\vertex [right=of a2] (b2);
+
+	\vertex [right=of b1] (c1);
+	\vertex [right=of b2] (c2) {\(Z\)};
+
+ 	\vertex [above right=of c1] (d1) {\(g\)};
+ 	\vertex [below right=of c1] (d2) {\(g\)};
+
+    \diagram* {
+
+    (a2) -- [fermion] (b2),
+    (b2) -- [fermion, edge label=\(q\)] (b1),
+    (b1) -- [gluon] (a1), 
+	
+	(b1) -- [fermion, edge label=\(q\)] (c1),
+	(b2) -- [boson] (c2),
+
+	(d2) -- [gluon] (c1),
+	(d1) -- [gluon] (c1),
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}
