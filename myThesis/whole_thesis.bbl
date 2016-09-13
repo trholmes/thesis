@@ -667,6 +667,29 @@
   \field{year}{2008}
 \endentry
 
+\entry{Pentaquark}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {collaboration}{c.}%
+     {LHCb}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{cL1}
+  \strng{fullhash}{cL1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1103/PhysRevLett.115.072001
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1507.03414
+  \endverb
+  \field{howpublished}{Phys. Rev. Lett. 115, 072001 (2015)}
+  \field{title}{Observation of $J/\Psi p$ resonances consistent with pentaquark
+  states in ${\Lambda_b^0\to J/\Psi K^-p}$ decays}
+  \field{year}{2015}
+\endentry
+
 \lossort
 \endlossort
 

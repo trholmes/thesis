@@ -44,7 +44,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 25 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 34 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
@@ -71,45 +71,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 23 entries,
+You've used 24 entries,
             6047 wiz_defined-function locations,
-            1310 strings with 12809 characters,
-and the built_in function-call counts, 68160 in all, are:
-= -- 2295
-> -- 2386
-< -- 585
-+ -- 664
-- -- 926
-* -- 5432
-:= -- 4233
+            1317 strings with 13039 characters,
+and the built_in function-call counts, 70720 in all, are:
+= -- 2379
+> -- 2464
+< -- 609
++ -- 679
+- -- 954
+* -- 5599
+:= -- 4374
 add.period$ -- 0
-call.type$ -- 23
-change.case$ -- 22
+call.type$ -- 24
+change.case$ -- 23
 chr.to.int$ -- 34
-cite$ -- 44
-duplicate$ -- 7802
-empty$ -- 7373
-format.name$ -- 1566
-if$ -- 15384
+cite$ -- 46
+duplicate$ -- 8111
+empty$ -- 7675
+format.name$ -- 1614
+if$ -- 15971
 int.to.chr$ -- 0
-int.to.str$ -- 61
+int.to.str$ -- 63
 missing$ -- 0
-newline$ -- 656
-num.names$ -- 979
-pop$ -- 7094
+newline$ -- 678
+num.names$ -- 1020
+pop$ -- 7410
 preamble$ -- 1
-purify$ -- 300
+purify$ -- 310
 quote$ -- 0
-skip$ -- 4217
+skip$ -- 4382
 stack$ -- 0
-substring$ -- 818
-swap$ -- 2685
-text.length$ -- 604
-text.prefix$ -- 22
+substring$ -- 835
+swap$ -- 2783
+text.length$ -- 628
+text.prefix$ -- 23
 top$ -- 1
-type$ -- 862
+type$ -- 900
 warning$ -- 0
-while$ -- 459
+while$ -- 477
 width$ -- 0
-write$ -- 632
+write$ -- 653
 (There were 6 error messages)

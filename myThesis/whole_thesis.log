@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 SEP 2016 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 SEP 2016 17:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1801,14 +1801,14 @@ Package acronym Info: Label `acro:MS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:ID' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-<figures/atlas/detector.pdf, id=665, 417.10744pt x 259.0453pt>
+<figures/atlas/detector.pdf, id=668, 417.10744pt x 259.0453pt>
 File: figures/atlas/detector.pdf Graphic file (type pdf)
 
 <use figures/atlas/detector.pdf>
 Package pdftex.def Info: figures/atlas/detector.pdf used on input line 14.
 (pdftex.def)             Requested size: 302.39795pt x 187.80894pt.
  [15 <./figures/atlas/detector.pdf>]
-<figures/atlas/innerdetector.pdf, id=724, 385.8888pt x 252.12976pt>
+<figures/atlas/innerdetector.pdf, id=727, 385.8888pt x 252.12976pt>
 File: figures/atlas/innerdetector.pdf Graphic file (type pdf)
 
 <use figures/atlas/innerdetector.pdf>
@@ -1816,7 +1816,7 @@ Package pdftex.def Info: figures/atlas/innerdetector.pdf used on input line 48.
 
 (pdftex.def)             Requested size: 302.39795pt x 197.58374pt.
 
-<figures/atlas/ideta.pdf, id=725, 452.18472pt x 309.45068pt>
+<figures/atlas/ideta.pdf, id=728, 452.18472pt x 309.45068pt>
 File: figures/atlas/ideta.pdf Graphic file (type pdf)
 
 <use figures/atlas/ideta.pdf>
@@ -1832,7 +1832,7 @@ Package acronym Info: Label `acro:TRT' newly defined as it shall be overridden
 although it is yet undefined on input line 87.
 
 [18 <./figures/atlas/ideta.pdf>]
-<figures/atlas/calorimeters.pdf, id=849, 387.51817pt x 249.8917pt>
+<figures/atlas/calorimeters.pdf, id=852, 387.51817pt x 249.8917pt>
 File: figures/atlas/calorimeters.pdf Graphic file (type pdf)
 
 <use figures/atlas/calorimeters.pdf>
@@ -1865,7 +1865,7 @@ Chapter 5.
 
 ]
 Chapter 6.
-<figures/nn/cluster_types.pdf, id=911, 1027.84pt x 612.52821pt>
+<figures/nn/cluster_types.pdf, id=914, 1027.84pt x 612.52821pt>
 File: figures/nn/cluster_types.pdf Graphic file (type pdf)
 
 <use figures/nn/cluster_types.pdf>
@@ -1877,21 +1877,21 @@ although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
 
-[24] <figures/nn/merged_cluster.png, id=1090, 1227.58624pt x 596.2275pt>
+[24] <figures/nn/merged_cluster.png, id=1094, 1227.58624pt x 596.2275pt>
 File: figures/nn/merged_cluster.png Graphic file (type png)
 
 <use figures/nn/merged_cluster.png>
 Package pdftex.def Info: figures/nn/merged_cluster.png used on input line 67.
 (pdftex.def)             Requested size: 302.39795pt x 146.87306pt.
 
-<figures/nn/3x_res.pdf, id=1102, 569.12625pt x 385.44pt>
+<figures/nn/3x_res.pdf, id=1106, 569.12625pt x 385.44pt>
 File: figures/nn/3x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/3x_res.pdf>
 Package pdftex.def Info: figures/nn/3x_res.pdf used on input line 80.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
 
-<figures/nn/4x_res.pdf, id=1103, 569.12625pt x 385.44pt>
+<figures/nn/4x_res.pdf, id=1107, 569.12625pt x 385.44pt>
 File: figures/nn/4x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/4x_res.pdf>
@@ -1910,13 +1910,13 @@ es/nn/4x_res.pdf>] [27
 
 (./Chapters/Chapter07.tex
 Chapter 7.
-<feynman/ttbar.pdf, id=1150, 154.3878pt x 109.46997pt>
+<feynman/ttbar.pdf, id=1153, 154.3878pt x 109.46997pt>
 File: feynman/ttbar.pdf Graphic file (type pdf)
  <use feynman/ttbar.pdf>
 Package pdftex.def Info: feynman/ttbar.pdf used on input line 14.
 (pdftex.def)             Requested size: 235.19897pt x 166.7819pt.
 
-<feynman/diboson.pdf, id=1152, 109.30235pt x 96.19037pt>
+<feynman/diboson.pdf, id=1155, 109.30235pt x 96.19037pt>
 File: feynman/diboson.pdf Graphic file (type pdf)
 
 <use feynman/diboson.pdf>
@@ -1927,7 +1927,7 @@ Package pdftex.def Info: feynman/diboson.pdf used on input line 25.
 
 
  <./feynman/ttbar.pdf>]
-<feynman/zjets.pdf, id=1180, 94.91661pt x 68.43768pt>
+<feynman/zjets.pdf, id=1183, 94.91661pt x 68.43768pt>
 File: feynman/zjets.pdf Graphic file (type pdf)
  <use feynman/zjets.pdf>
 Package pdftex.def Info: feynman/zjets.pdf used on input line 36.
@@ -2389,6 +2389,12 @@ Overfull \hbox (12.74213pt too wide) in paragraph at lines 173--173
 T1/pplj/m/n/10.95 . 
  []
 
+
+Overfull \hbox (0.42786pt too wide) in paragraph at lines 173--173
+\T1/pplj/m/n/10.95 tent with pen-taquark states in $[]$ de-cays.^^Q In: (2015).
+
+ []
+
 [56]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
@@ -2416,10 +2422,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24149 strings out of 493089
- 411220 string characters out of 6134842
- 881745 words of memory out of 5000000
- 26686 multiletter control sequences out of 15000+600000
+ 24151 strings out of 493089
+ 411258 string characters out of 6134842
+ 883107 words of memory out of 5000000
+ 26687 multiletter control sequences out of 15000+600000
  117519 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,23n,96p,1137b,2498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2445,10 +2451,10 @@ e1/urw/palatino/uplri8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on whole_thesis.pdf (74 pages, 2205149 bytes).
+Output written on whole_thesis.pdf (74 pages, 2206975 bytes).
 PDF statistics:
- 1506 PDF objects out of 1728 (max. 8388607)
- 1306 compressed objects within 14 object streams
- 246 named destinations out of 1000 (max. 500000)
+ 1513 PDF objects out of 1728 (max. 8388607)
+ 1313 compressed objects within 14 object streams
+ 247 named destinations out of 1000 (max. 500000)
  34482 words of extra memory for PDF output out of 35830 (max. 10000000)
 
