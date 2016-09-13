@@ -30,27 +30,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1.2}Quarks}{9}{subsubsection.2.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Forces}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Forces}{10}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}The Higgs Particle}{9}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.2.1}The Strong Force}{10}{subsubsection.2.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Phenomenology of Proton-Proton Collisions}{9}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.3}The Higgs Particle}{10}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4.1}Parton Distribution Functions}{9}{subsubsection.2.1.4.1}
+\contentsline {subsection}{\numberline {2.1.4}Phenomenology of Proton-Proton Collisions}{10}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Problems in the Standard Model}{9}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.4.1}Parton Distribution Functions}{10}{subsubsection.2.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Supersymmetry}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.5}Problems in the Standard Model}{10}{subsection.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{9}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Supersymmetry}{10}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{10}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Supersymmetry Signatures in $p-p$ Collisions}{9}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{10}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Simplified Models Used in This Analysis}{9}{subsubsection.2.2.3.1}
+\contentsline {subsection}{\numberline {2.2.3}Supersymmetry Signatures in $p-p$ Collisions}{10}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{9}{section.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Simplified Models Used in This Analysis}{10}{subsubsection.2.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Experiment}}{11}{part.3}
 \defcounter {refsection}{0}\relax 
