@@ -765,9 +765,9 @@
   \strng{namehash}{ZF1}
   \strng{fullhash}{ZF1}
   \field{sortinit}{Z}
-  \field{pages}{110\bibrangedash 127}
+  \field{pages}{{110\bibrangedash 127}}
   \field{title}{{Die Rotverschiebung von extragalaktischen Nebeln}}
-  \field{volume}{Vol. 6}
+  \field{volume}{6}
   \field{journaltitle}{Helvetica Physica Acta}
   \field{year}{1933}
 \endentry
@@ -793,6 +793,46 @@
   \field{title}{Observation of $J/\Psi p$ resonances consistent with pentaquark
   states in ${\Lambda_b^0\to J/\Psi K^-p}$ decays}
   \field{year}{2015}
+\endentry
+
+\entry{1985ApJ...295..305V}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {{van Albada}}{v.}%
+     {T.~S.}{T.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bahcall}}{B.}%
+     {J.~N.}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Begeman}}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sancisi}}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Dark Matter, Disk Galaxies, Galactic Structure, Mass Distribution,
+  Matter (Physics), Spiral Galaxies, Astronomical Models, Galactic Rotation,
+  Halos, Mass To Light Ratios}
+  \strng{namehash}{vTS+1}
+  \strng{fullhash}{vTSBJNBKSR1}
+  \field{sortinit}{V}
+  \verb{doi}
+  \verb 10.1086/163375
+  \endverb
+  \field{pages}{305\bibrangedash 313}
+  \field{title}{{Distribution of dark matter in the spiral galaxy NGC 3198}}
+  \field{volume}{295}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{1985}
 \endentry
 
 \lossort

@@ -5,15 +5,15 @@
 \label{ch:theory} % For referencing the chapter elsewhere, use \autoref{ch:examples} 
 The \ac{SM} of particle physics represents all particles and interactions currently understood by the particle physics community. It is formulated using the principles of Quantum Field Theory, with the constraints of several symmetries and physical requirements to determine the rules for allowed interactions. \cite{Burgess:2007zi} Developed in the 1960s and 70s, it has been immensely successful at predicting additional particles, and has held up to many high-precision tests. Despite this success, it has several shortcomings which point to its incompleteness. Though the \ac{SM} is likely correct at the energies thus far probed, it may be missing key components that become more important at higher energies. Models supplementing the \ac{SM} with additional particles and interactions are referred to as \ac{BSM} theories. 
 
-One possible extention of the \ac{SM} is \ac{SUSY}, a theory which applies an additional symmetry between bosons and fermions to the \ac{SM}, creating a spectrum of \ac{SUSY} particles (sparticles) which interact with the particles of the \ac{SM}. This theory motivates the search performed in \autoref{part:search}, and its theoretical appeals are discussed in this section, along with specific simplified models considered in the search. 
+One possible extension of the \ac{SM} is \ac{SUSY}, a theory which applies an additional symmetry between bosons and fermions to the \ac{SM}, creating a spectrum of \ac{SUSY} particles (sparticles) which interact with the particles of the \ac{SM}. This theory motivates the search performed in \autoref{part:search}, and its theoretical appeals are discussed in this section, along with specific simplified models considered in the search. 
 
 %----------------------------------------------------------------------------------------
 
 \section{The Standard Model}
 \label{sec:standard_model}
-The \ac{SM} of particle physics describes the interactions of all of the particles currently known to exist, and consists of both matter particles and force carriers. This model has been unprecidentedly successful in predicting new particles and phenomena, including the prediction of the Higgs particle almost 50 years before its discovery in 2012, which completed the \ac{SM}. This section describes the components of the \ac{SM} and how they interact, focusing on the environment of the \ac{LHC}. 
+The \ac{SM} of particle physics describes the interactions of all of the particles currently known to exist, and consists of both matter particles and force carriers. This model has been unprecedentedly successful in predicting new particles and phenomena, including the prediction of the Higgs particle almost 50 years before its discovery in 2012, which completed the \ac{SM}. This section describes the components of the \ac{SM} and how they interact, focusing on the environment of the \ac{LHC}. 
 
-The particles of the \ac{SM} are divided into two categories: fermions and bosons. The fermions comprise all the matter described by the \ac{SM}, and are spin-$\frac{1}{2}$ particles. The bosons, integer-spin particles, are the force carriers. They provide a mechanism to explain three of the four forces known to particle physics, with gravity still lacking a quantum formuliziation. The Higgs boson, the only spin-0 particle in the \ac{SM}, provides a mechanism for giving mass to the other particles. The full \ac{SM}, with the addition of the hypothetical graviton, is presented in \autoref{fig:sm}. 
+The particles of the \ac{SM} are divided into two categories: fermions and bosons. The fermions comprise all the matter described by the \ac{SM}, and are spin-$\frac{1}{2}$ particles. The bosons, integer-spin particles, are the force carriers. They provide a mechanism to explain three of the four forces known to particle physics, with gravity still lacking a quantum formalization. The Higgs boson, the only spin-0 particle in the \ac{SM}, provides a mechanism for giving mass to the other particles. The full \ac{SM}, with the addition of the hypothetical graviton, is presented in \autoref{fig:sm}. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -103,13 +103,13 @@ which immediately cancels the gauge dependent term created by the transformation
 \subsubsection{Quantum Chromodynamics}
 \label{sec:strong}
 
-\ac{QCD}, the theory desribing the strong force, can be formulated similarly to the electromagnetic force, but with a $SU(3)$ transformation replacing $U(1)$. This transformation acts on a vector of equal mass quarks, the three different colors of a given flavor. The transformation is written as follows,
+\ac{QCD}, the theory describing the strong force, can be formulated similarly to the electromagnetic force, but with a $SU(3)$ transformation replacing $U(1)$. This transformation acts on a vector of equal mass quarks, the three different colors of a given flavor. The transformation is written as follows,
 
 \begin{equation}
 \bm{\psi} \rightarrow e^{-iq\bm{\lambda}\cdot\bm{\phi}(x)}\bm{\psi}
 \end{equation}
 
-where $\bm{\phi}$ gives a vector of coefficients to be multiplied by the Gell-Man matrices, $\bm{\lambda}$. Though the math is more complicated than the $U(1)$ case in this higher dimensional rotation, the cancelation is ultimately similar. 
+where $\bm{\phi}$ gives a vector of coefficients to be multiplied by the Gell-Man matrices, $\bm{\lambda}$. Though the math is more complicated than the $U(1)$ case in this higher dimensional rotation, the cancellation is ultimately similar. 
 
 The main difference, corresponding to this more complicated basis of transformations, is that eight fields $A_\mu$ are required rather than the one needed in electromagnetism. These eight fields correspond to eight massless bosons, the different color states of the gluon, the carrier of the strong force.  
 
@@ -119,7 +119,7 @@ All together, the total lagrangian for \ac{QCD} is
 \mathcal{L} = i\bar{\psi}\gamma^\mu \partial_\mu\psi - m \bar{\psi}\psi -\frac{1}{16\pi}\bm{F}^{\mu\nu}\bm{F}_{\mu\nu} - (q\bar{\psi}\gamma^\mu\psi)\bm{A}_\mu , 
 \end{equation}
 
-an equation identical in form to \autoref{eq:l_em}, with the mathematical complications of the additional fields hidden by the vector notation. In addition to that change, the covariant derivative must accomodate a vector $\bm{A}$ as well, changing only slightly to be defined as
+an equation identical in form to \autoref{eq:l_em}, with the mathematical complications of the additional fields hidden by the vector notation. In addition to that change, the covariant derivative must accommodate a vector $\bm{A}$ as well, changing only slightly to be defined as
 
 \begin{equation}
 \mathcal{D}_\mu = \partial_\mu + iq\bm{\lambda} \cdot \bm{A}_\mu .
@@ -198,20 +198,36 @@ To first order, a proton consists of three quarks: two up quarks and one down qu
 \subsection{Problems in the Standard Model}
 \label{sec:sm_problems}
 
-Thought the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces in includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. 
+Thought the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces in includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. The Planck scale, the energy scale at which gravitational interactions become large enough that no sound theory can ignore gravity, is at about $10^28$ \eV,  16 orders of magnitude above the electroweak scale. 
 
-Another clear omission of the \ac{SM} is \ac{DM}. This matter was first identified in 1933 through the observation of galactic rotation curves. \cite{zwicky} The speed of rotation indicated both that there was more mass in the system than could be accounted for by observations made directly of the galaxy, and that this additional matter was distributed in a halo, not a disk like the typical luminous matter. Since then, the gravitational impact of \ac{DM} has been observed in colliding clusters and many more rotational curves, but it has never been directly detected or seen at a particle accelerator. As a consequence, very few details are known about the nature of the particles that make up this matter, only that it does not interact strongly or electromagnetically and its density throughout the universe. 
+Another clear omission of the \ac{SM} is \ac{DM}. This matter was first identified in 1933 through the observation of galactic rotation curves. \cite{zwicky} The speed of rotation indicated both that there was more mass in the system than could be accounted for by observations made directly of the galaxy, and that this additional matter was distributed in a halo, not a disk like the typical luminous matter. This effect can be seen in \autoref{fig:dm_curve}. Since then, the gravitational impact of \ac{DM} has been observed in colliding clusters and many more rotational curves, but it has never been directly detected or seen at a particle accelerator. As a consequence, very few details are known about the nature of the particles that make up this matter, only that it does not interact strongly or electromagnetically and its density throughout the universe. 
 
-Beyond the omissions 
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/theory/rotatioanl_curve_ngc3198_rc.png}
+\caption{Galactic rotation curve showing that the discrepancy between the observed luminous matter and the total mass in the system can be described as a non-luminous halo of matter. \cite{1985ApJ...295..305V}}
+\label{fig:dm_curve}
+\end{figure}
+\end{centering}
+
+Beyond the omissions of the \ac{SM}, there are several aesthetic problems - things that could have no solution, but seem to suggest that the current \ac{SM} are missing some pieces that could unify it and provide more order. The first is the sheer number of parameters in the \ac{SM}. There are 26 independent parameters determining the mass of the particles and all the couplings between them. Besides the rough grouping of fermions into generations, there seems to be no order to masses of particles, and no way to predict the masses or couplings. Each, it seems, is independently provided by nature. 
+
+In the past, large numbers of seemingly unrelated parameters has indicated that a theory has a more fundamental form at shorter distance scales. The large number of elements, it turned out, could be explained by different groupings of three particles, the proton, neutron and electron. Later, the menagerie of hadrons became so large that a similar reimagining of what was fundamental took place, and the theory of quarks gave an order to the many mesons and baryons. This pattern leaves physicists suspicious or any theory with too many particles and free parameters, suggesting that perhaps, at a higher energy, there is a simpler model that can unify many of the seemingly disparate elements of the \ac{SM}. 
+
+However, some of these seemingly independent parameters have suspicious symmetry. The Higgs mass, for example, has been measured to be 125 \gev. This mass is the sum of the bare mass, the one that appears in the lagrangian, and quantum corrections from interactions with other particles, which are proportional to the square of the particles' mass. Since new physics must exist at the Planck scale to account for gravity, these corrections could be up to 35 orders of magnitude larger than the Higgs mass. The bare mass could theoretically cancel out this massive correction, these parameters should be independent, and the odds that they would be precisely the same to 35 places are very, very small. This exact canceling is often called ``fine-tuning'', an undesirable trait in a theory which suggests that some more fundamental symmetry has been missed. The word ``naturalness'' is used to describe the the extent to which a theory is free of fine-tuning. 
 
 
-
-%------------------------------------------------
+%-------------------------------------------------
 
 \section{Supersymmetry}
 
 \subsection{Supersymmetry Phenomenology}
 \subsection{Solutions to Standard Model Problems}
+
+
+Many believe that a complete \ac{SM} would include a unification of the three forces, as electromagnetism and the weak force have already been unified. This requires that at some higher energy, the coupling constants of all three forces merge. 
+
 \subsection{Supersymmetry Signatures in $p-p$ Collisions}
 \subsubsection{Simplified Models Used in This Analysis}
 \label{sec:simplified_models}

@@ -44,17 +44,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.4}Problems in the Standard Model}{14}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Supersymmetry}{15}{section.2.2}
+\contentsline {section}{\numberline {2.2}Supersymmetry}{16}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{16}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{15}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{16}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Supersymmetry Signatures in $p-p$ Collisions}{15}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Supersymmetry Signatures in $p-p$ Collisions}{16}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Simplified Models Used in This Analysis}{15}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Simplified Models Used in This Analysis}{16}{subsubsection.2.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{15}{section.2.3}
+\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{16}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Experiment}}{17}{part.3}
 \defcounter {refsection}{0}\relax 
@@ -80,13 +80,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{26}{figure.caption.29}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{26}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{26}{figure.caption.29}
+\contentsline {paragraph}{The Tile Calorimeter}{26}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{26}{figure.caption.29}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{26}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{26}{figure.caption.29}
+\contentsline {paragraph}{The FCal}{26}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}The Muon Spectrometer}{26}{section.4.4}
 \defcounter {refsection}{0}\relax 
@@ -124,11 +124,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{35}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{35}{figure.caption.35}
+\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{35}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson}{35}{figure.caption.36}
+\contentsline {paragraph}{diboson}{35}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{36}{figure.caption.37}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{36}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Monte Carlo Samples}{37}{section.7.1}
 \defcounter {refsection}{0}\relax 
