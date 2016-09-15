@@ -692,6 +692,43 @@
   \field{year}{2008}
 \endentry
 
+\entry{0901.0002}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Martin}{M.}%
+     {A.~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stirling}{S.}%
+     {W.~J.}{W.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thorne}{T.}%
+     {R.~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Watt}{W.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MAD+1}
+  \strng{fullhash}{MADSWJTRSWG1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-009-1072-5
+  \endverb
+  \verb{eprint}
+  \verb arXiv:0901.0002
+  \endverb
+  \field{howpublished}{Eur.Phys.J.C63:189-285,2009}
+  \field{title}{Parton distributions for the LHC}
+  \field{year}{2009}
+\endentry
+
 \entry{Messchendorp:2013ysj}{article}{}
   \name{author}{1}{}{%
     {{}%
