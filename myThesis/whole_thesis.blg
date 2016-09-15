@@ -16,21 +16,6 @@ A level-1 auxiliary file: FrontBackMatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackMatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
 A level-1 auxiliary file: Chapters/Chapter02.aux
-A level-1 auxiliary file: Chapters/Chapter03.aux
-A level-1 auxiliary file: Chapters/Chapter04.aux
-A level-1 auxiliary file: Chapters/Chapter04b.aux
-A level-1 auxiliary file: Chapters/Chapter05.aux
-A level-1 auxiliary file: Chapters/Chapter07.aux
-A level-1 auxiliary file: Chapters/Chapter08.aux
-A level-1 auxiliary file: Chapters/Chapter09.aux
-A level-1 auxiliary file: Chapters/Chapter10.aux
-A level-1 auxiliary file: Chapters/Chapter10b.aux
-A level-1 auxiliary file: Chapters/Chapter11.aux
-A level-1 auxiliary file: Chapters/Chapter12.aux
-A level-1 auxiliary file: Chapters/Chapter13.aux
-A level-1 auxiliary file: Chapters/Chapter14.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
-A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -44,7 +29,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 34 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 44 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
@@ -52,64 +37,48 @@ Database file #3: atlaslatex/bibtex/bib/ATLAS.bib
 Database file #4: atlaslatex/bibtex/bib/CMS.bib
 Database file #5: atlaslatex/bibtex/bib/ConfNotes.bib
 Database file #6: atlaslatex/bibtex/bib/PubNotes.bib
-Repeated entry---line 1283 of file atlaslatex/bibtex/bib/PubNotes.bib
- : @booklet{ATL-PHYS-PUB-2016-002
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1291 of file atlaslatex/bibtex/bib/PubNotes.bib
- : @booklet{ATL-PHYS-PUB-2016-003
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1299 of file atlaslatex/bibtex/bib/PubNotes.bib
- : @booklet{ATL-PHYS-PUB-2016-004
- :                               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1307 of file atlaslatex/bibtex/bib/PubNotes.bib
- : @booklet{ATL-PHYS-PUB-2016-005
- :                               ,
-I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 24 entries,
+You've used 6 entries,
             6047 wiz_defined-function locations,
-            1317 strings with 13039 characters,
-and the built_in function-call counts, 70720 in all, are:
-= -- 2379
-> -- 2464
-< -- 609
-+ -- 679
-- -- 954
-* -- 5599
-:= -- 4374
+            1180 strings with 9356 characters,
+and the built_in function-call counts, 16733 in all, are:
+= -- 676
+> -- 586
+< -- 181
++ -- 200
+- -- 211
+* -- 1072
+:= -- 1152
 add.period$ -- 0
-call.type$ -- 24
-change.case$ -- 23
+call.type$ -- 6
+change.case$ -- 5
 chr.to.int$ -- 34
-cite$ -- 46
-duplicate$ -- 8111
-empty$ -- 7675
-format.name$ -- 1614
-if$ -- 15971
+cite$ -- 10
+duplicate$ -- 1782
+empty$ -- 1722
+format.name$ -- 306
+if$ -- 3855
 int.to.chr$ -- 0
-int.to.str$ -- 63
+int.to.str$ -- 13
 missing$ -- 0
-newline$ -- 678
-num.names$ -- 1020
-pop$ -- 7410
+newline$ -- 141
+num.names$ -- 256
+pop$ -- 1652
 preamble$ -- 1
-purify$ -- 310
+purify$ -- 100
 quote$ -- 0
-skip$ -- 4382
+skip$ -- 1134
 stack$ -- 0
-substring$ -- 835
-swap$ -- 2783
-text.length$ -- 628
-text.prefix$ -- 23
+substring$ -- 421
+swap$ -- 565
+text.length$ -- 157
+text.prefix$ -- 5
 top$ -- 1
-type$ -- 900
+type$ -- 216
 warning$ -- 0
-while$ -- 477
+while$ -- 139
 width$ -- 0
-write$ -- 653
-(There were 6 error messages)
+write$ -- 134
+(There were 2 error messages)
