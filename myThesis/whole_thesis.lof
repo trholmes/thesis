@@ -20,31 +20,31 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagram of the ATLAS detector, with subsystems and magnets identified.\relax }}{19}{figure.caption.22}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagram of the ATLAS detector, with subsystems and magnets identified.\relax }}{21}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagram of the ATLAS Inner Detector, containing the Pixel, SCT, and TRT subsystems.\relax }}{21}{figure.caption.23}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagram of the ATLAS Inner Detector, containing the Pixel, SCT, and TRT subsystems.\relax }}{23}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagram of one-quarter of the ATLAS Inner Detector, with lines drawn to indicate various $\eta $ locations. The labels PP1, PPB1 and PPF1 indicate the patch-panels for the ID services. TODO: what is that.\relax }}{22}{figure.caption.24}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagram of one-quarter of the ATLAS Inner Detector, with lines drawn to indicate various $\eta $ locations. The labels PP1, PPB1 and PPF1 indicate the patch-panels for the ID services. TODO: what is that.\relax }}{24}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces The calorimeter system of the ATLAS detector.\relax }}{23}{figure.caption.28}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7}{\ignorespaces The calorimeter system of the ATLAS detector.\relax }}{25}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta $-ray as it passes through the detector.\relax }}{27}{figure.caption.29}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces One example of a two-particle cluster and its truth information compared with the output of the \acp {NN}. At top, the $p(N=i)$ values give the output of the Number \ac {NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp {NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster.\relax }}{30}{figure.caption.32}
+\contentsline {figure}{\numberline {8}{\ignorespaces A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta $-ray as it passes through the detector.\relax }}{29}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces $x$ resolutions for clusters with 3 (left) and 4 (right) pixels in the $x$ direction in $7 TeV$ data for \ac {CCA} and \ac {NN} clustering.\relax }}{30}{figure.caption.33}
+\contentsline {figure}{\numberline {9}{\ignorespaces One example of a two-particle cluster and its truth information compared with the output of the \acp {NN}. At top, the $p(N=i)$ values give the output of the Number \ac {NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp {NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster.\relax }}{32}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces $x$ resolutions for clusters with 3 (left) and 4 (right) pixels in the $x$ direction in $7 TeV$ data for \ac {CCA} and \ac {NN} clustering.\relax }}{32}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces An example Feynman diagram of \ensuremath {t\mathaccentV {bar}716{t}}\xspace production and decay.\relax }}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {11}{\ignorespaces An example Feynman diagram of \ensuremath {t\mathaccentV {bar}716{t}}\xspace production and decay.\relax }}{35}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces An example Feynman diagram of the production and decay of a WZ event.\relax }}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {12}{\ignorespaces An example Feynman diagram of the production and decay of a WZ event.\relax }}{36}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces An example Feynman diagram of the production and decay of a \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace event.\relax }}{34}{figure.caption.36}
+\contentsline {figure}{\numberline {13}{\ignorespaces An example Feynman diagram of the production and decay of a \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace event.\relax }}{36}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

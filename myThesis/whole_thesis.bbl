@@ -754,6 +754,24 @@
   \field{year}{2013}
 \endentry
 
+\entry{zwicky}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zwicky}{Z.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZF1}
+  \strng{fullhash}{ZF1}
+  \field{sortinit}{Z}
+  \field{pages}{110\bibrangedash 127}
+  \field{title}{{Die Rotverschiebung von extragalaktischen Nebeln}}
+  \field{volume}{Vol. 6}
+  \field{journaltitle}{Helvetica Physica Acta}
+  \field{year}{1933}
+\endentry
+
 \entry{Pentaquark}{article}{}
   \name{author}{1}{}{%
     {{}%
