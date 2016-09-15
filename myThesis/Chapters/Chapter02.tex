@@ -55,6 +55,7 @@ The fermions in the previous section interact via the electromagnetic, weak, and
 The formulation for each of these forces is developed by requiring that the \ac{SM} lagrangian be locally gauge invariant. \cite{Griffiths:111880} This can be accomplished by adding gauge fields to the lagrangian, whose behavior under gauge transformations cancels out the gauge dependence of the free lagrangian. However, adding a mass term for these fields reintroduces gauge dependence, so this mechanism only creates forces mediated by massless particles. 
 
 \subsubsection{The Electromagnetic Force}
+\label{sec:em}
 
 The simplest example of gauge invariance requirements generating a description of a force can be found in electromagnetism. It has one massless mediator, the photon, which interacts with all electromagnetically charged particles. What follows is a brief description of how enforcing this invariance generates a lagrangian of the same form as the classical electromagnetic lagrangian, which can be easily incorporated into the \ac{SM}. 
 
@@ -148,27 +149,35 @@ This unified theory resulted in a triplet, $\bm{W}$, with coupling $g_W$, and a 
 The reason for this symmetry breaking has to do with the final piece of the \ac{SM}, the Higgs boson. The Higgs mechanism presents an alternate way to generate a mass term, through an unexpected route. It is a scalar field, with a lagrangian 
 
 \begin{equation}
-\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)(partial^\mu\phi) + \frac{1}{2}\mu^2\phi^2 - \frac{1}{4}\lambda^4\phi^4
+\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)^*(\partial^\mu\phi) + \frac{1}{2}\mu^2\phi^*\phi - \frac{1}{4}\lambda^4(\phi^*\phi)^2
 \end{equation}
 
-This looks very similar to the standard scalar field, but the signs on the mass and interaction terms are reversed, giving a result that looks like an imaginary mass. However, this lagrangian differs from all previously considered lagrangians in that its ground state does not occur at $\phi = 0$. Because this is a perturbative theory, its validity only holds when expanded around the ground state, which when calculated is
+where $\phi$ is a complex scalar field, $\phi = \phi_1 + i\phi_2$. This looks very similar to the standard scalar field, but the signs on the mass and interaction terms are reversed, giving a result that looks like an imaginary mass. However, this lagrangian differs from all previously considered lagrangians in that its ground state does not occur at $\phi = 0$. Because this is a perturbative theory, its validity only holds when expanded around the ground states, which must satisfy
 
 \begin{equation}
-\phi = \pm \frac{\mu}{\lambda} . 
+\phi_1^2 + \phi_2^2 = - \frac{\mu}{\lambda} . 
 \end{equation}
 
-The original lagrangian can be put in terms of $\eta$, defined as
+Rewriting the original lagrangian in terms of fields centered around ground states chosen to satisfy that condition results in a reasonable mass term. However, in an effect called ``spontaneous symmetry breaking'', the original $SO(2)$ rotational symmetry of the lagrangian is lost, resulting only in a $U(1)$ rotational symmetry; the lagrangian is invariant under a phase transformation.
 
-\begin{equation}
-\eta = \phi \pm \frac{\mu}{\lambda}  
-\end{equation}
+As in \autoref{sec:em}, it is possible to make the lagrangian invariant under a local $U(1)$ transformation, $\phi \rightarrow e^{i\theta(x)\phi}$ by adding a massless gauge field $A^\mu$ and using the covariant derivative. Due to the many cross terms from the non-zero ground state, terms for the mass of one of the bosons as well as the gauge field appear, leaving only one massless boson. The massless boson, it turns out, can be completely removed from the theory via local $U(1)$ transformations, ultimately producing a theory with one massive scalar (the Higgs) and a massive gauge field. 
 
-to read
 
-\begin{equation}
-\mathcal{L} = \frac{1}{2}(\partial_\mu\eta)(\partial^\mu\eta) - 
-\end{equation}
 
+
+% The original lagrangian can be put in terms of $\eta$ and $\xsi$, defined as
+
+% \begin{equation}
+% \eta = \phi_1 \pm \frac{\mu}{\lambda}  ; \xsi = \phi_2
+% \end{equation}
+
+% to read
+
+% \begin{equation}
+% \mathcal{L} = \frac{1}{2}(\partial_\mu\eta)(\partial^\mu\eta) - \mu^2\eta^2 \pm \mu\lambda\eta^3 - \frac{1}{4}\lambda^2\eta^4 + \frac{1}{4}(\frac{\mu^2}{\lambda})^2 . 
+% \end{equation}
+
+% This lagrangian now has a reasonable mass term ($m = \sqrt{2}\mu$) and several interaction terms. However, it no longer shares a symmetry of the original lagrangian; though $\mathcal{L}$ is invariant under $\phi \rightarrow e^{i\theta}\phi$, it is not invariant under $\eta \rightarrow e^{i\theta}\eta$. This is referred to as spontaneous symmetry breaking. 
 
 \subsection{Phenomenology of Proton-Proton Collisions}
 \label{sec:pp_collisions}
