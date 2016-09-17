@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 SEP 2016 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 SEP 2016 17:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1571,7 +1571,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=313, 534.99875pt x 534.99
+<gfx/ucberkeleyseal_line_540-eps-converted-to.pdf, id=329, 534.99875pt x 534.99
 875pt>
 File: gfx/ucberkeleyseal_line_540-eps-converted-to.pdf Graphic file (type pdf)
  <use gfx/ucberkeleyseal_line_540-eps-converted-to.pdf>
@@ -1719,6 +1719,17 @@ Overfull \hbox (17.27864pt too wide) in paragraph at lines 23--23
  \T1/pplj/m/n/10.95 e-ment and par-ton shower gen-er-a-tors, cross-section 
  []
 
+
+Overfull \hbox (9.77174pt too wide) in paragraph at lines 33--33
+ \T1/pplj/m/n/10.95 y-sis in dif-fer-ent re-gions of lepton-$\OML/zplm/m/it/10.
+95 p[]$ \T1/pplj/m/n/10.95 phase space. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+ []  
+ []
+
 )
 \tf@lot=\write8
 \openout8 = `whole_thesis.lot'.
@@ -1727,7 +1738,14 @@ Overfull \hbox (17.27864pt too wide) in paragraph at lines 23--23
 \tf@lol=\write9
 \openout9 = `whole_thesis.lol'.
 
- [16]) [17] [18
+ [16]) [17pdfTeX warning (ext4): destination with the same identifier (name{MC}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 ...ublepage\include{FrontBackMatter/Contents}
+                                                   % Contents, list of figur...
+] [18
 
 
 
@@ -1773,7 +1791,7 @@ although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 
 although it is yet undefined on input line 8.
-<figures/theory/standardmodel.png, id=605, 1086.0575pt x 782.925pt>
+<figures/theory/standardmodel.png, id=636, 1086.0575pt x 782.925pt>
 File: figures/theory/standardmodel.png Graphic file (type png)
 
 <use figures/theory/standardmodel.png>
@@ -1793,7 +1811,7 @@ Overfull \hbox (1.04407pt too wide) in paragraph at lines 93--94
 [10]
 Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
 although it is yet undefined on input line 106.
- [11] <figures/theory/strong_coupling.png, id=673, 1027.84pt x 770.88pt>
+ [11] <figures/theory/strong_coupling.png, id=704, 1027.84pt x 770.88pt>
 File: figures/theory/strong_coupling.png Graphic file (type png)
 
 <use figures/theory/strong_coupling.png>
@@ -1801,7 +1819,7 @@ Package pdftex.def Info: figures/theory/strong_coupling.png used on input line
 133.
 (pdftex.def)             Requested size: 285.60205pt x 214.19815pt.
  [12 <./figures/theory/strong_coupling.png (PNG copy)>] [13]
-<figures/theory/mstw2008nlo68cl_allpdfs.png, id=698, 698.61pt x 469.755pt>
+<figures/theory/mstw2008nlo68cl_allpdfs.png, id=729, 698.61pt x 469.755pt>
 File: figures/theory/mstw2008nlo68cl_allpdfs.png Graphic file (type png)
 
 <use figures/theory/mstw2008nlo68cl_allpdfs.png>
@@ -1810,20 +1828,8 @@ ut line 190.
 (pdftex.def)             Requested size: 285.60205pt x 192.0417pt.
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
 although it is yet undefined on input line 203.
-
-
-Package acronym Warning: Acronym `DM' is not defined on input line 203.
-
-
-Package acronym Warning: Acronym `DM' is not defined on input line 203.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 203.
-
-Package acronym Warning: Acronym `DM' is not defined on input line 203.
-
-[14 <./figures/theory/mstw2008nlo68cl_allpdfs.png>]
-<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=714, 690.58pt x 552.0625pt>
+ [14 <./figures/theory/mstw2008nlo68cl_allpdfs.png>]
+<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=747, 690.58pt x 552.0625pt>
 File: figures/theory/rotatioanl_curve_ngc3198_rc.png Graphic file (type png)
 <use figures/theory/rotatioanl_curve_ngc3198_rc.png>
 Package pdftex.def Info: figures/theory/rotatioanl_curve_ngc3198_rc.png used on
@@ -1832,11 +1838,11 @@ Package pdftex.def Info: figures/theory/rotatioanl_curve_ngc3198_rc.png used on
  [15 <./figures/theory/rotatioanl_curve_ngc3198_rc.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 231.
+(hyperref)                removing `math shift' on input line 230.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 231.
+(hyperref)                removing `math shift' on input line 230.
 
 ) [16] [17
 
@@ -1867,14 +1873,14 @@ Package acronym Info: Label `acro:MS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:ID' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-<figures/atlas/detector.pdf, id=761, 417.10744pt x 259.0453pt>
+<figures/atlas/detector.pdf, id=793, 417.10744pt x 259.0453pt>
 File: figures/atlas/detector.pdf Graphic file (type pdf)
 
 <use figures/atlas/detector.pdf>
 Package pdftex.def Info: figures/atlas/detector.pdf used on input line 14.
 (pdftex.def)             Requested size: 302.39795pt x 187.80894pt.
  [21 <./figures/atlas/detector.pdf>]
-<figures/atlas/innerdetector.pdf, id=820, 385.8888pt x 252.12976pt>
+<figures/atlas/innerdetector.pdf, id=852, 385.8888pt x 252.12976pt>
 File: figures/atlas/innerdetector.pdf Graphic file (type pdf)
 
 <use figures/atlas/innerdetector.pdf>
@@ -1882,7 +1888,7 @@ Package pdftex.def Info: figures/atlas/innerdetector.pdf used on input line 48.
 
 (pdftex.def)             Requested size: 302.39795pt x 197.58374pt.
 
-<figures/atlas/ideta.pdf, id=821, 452.18472pt x 309.45068pt>
+<figures/atlas/ideta.pdf, id=853, 452.18472pt x 309.45068pt>
 File: figures/atlas/ideta.pdf Graphic file (type pdf)
 
 <use figures/atlas/ideta.pdf>
@@ -1898,7 +1904,7 @@ Package acronym Info: Label `acro:TRT' newly defined as it shall be overridden
 although it is yet undefined on input line 87.
 
 [24 <./figures/atlas/ideta.pdf>]
-<figures/atlas/calorimeters.pdf, id=944, 387.51817pt x 249.8917pt>
+<figures/atlas/calorimeters.pdf, id=976, 387.51817pt x 249.8917pt>
 File: figures/atlas/calorimeters.pdf Graphic file (type pdf)
 
 <use figures/atlas/calorimeters.pdf>
@@ -1931,7 +1937,7 @@ Chapter 5.
 
 ]
 Chapter 6.
-<figures/nn/cluster_types.pdf, id=1007, 1027.84pt x 612.52821pt>
+<figures/nn/cluster_types.pdf, id=1038, 1027.84pt x 612.52821pt>
 File: figures/nn/cluster_types.pdf Graphic file (type pdf)
 
 <use figures/nn/cluster_types.pdf>
@@ -1943,21 +1949,21 @@ although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
 
-[30] <figures/nn/merged_cluster.png, id=1185, 1227.58624pt x 596.2275pt>
+[30] <figures/nn/merged_cluster.png, id=1216, 1227.58624pt x 596.2275pt>
 File: figures/nn/merged_cluster.png Graphic file (type png)
 
 <use figures/nn/merged_cluster.png>
 Package pdftex.def Info: figures/nn/merged_cluster.png used on input line 67.
 (pdftex.def)             Requested size: 302.39795pt x 146.87306pt.
 
-<figures/nn/3x_res.pdf, id=1197, 569.12625pt x 385.44pt>
+<figures/nn/3x_res.pdf, id=1228, 569.12625pt x 385.44pt>
 File: figures/nn/3x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/3x_res.pdf>
 Package pdftex.def Info: figures/nn/3x_res.pdf used on input line 80.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
 
-<figures/nn/4x_res.pdf, id=1198, 569.12625pt x 385.44pt>
+<figures/nn/4x_res.pdf, id=1229, 569.12625pt x 385.44pt>
 File: figures/nn/4x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/4x_res.pdf>
@@ -1976,13 +1982,13 @@ es/nn/4x_res.pdf>] [33
 
 (./Chapters/Chapter07.tex
 Chapter 7.
-<feynman/ttbar.pdf, id=1245, 154.3878pt x 109.46997pt>
+<feynman/ttbar.pdf, id=1276, 154.3878pt x 109.46997pt>
 File: feynman/ttbar.pdf Graphic file (type pdf)
  <use feynman/ttbar.pdf>
 Package pdftex.def Info: feynman/ttbar.pdf used on input line 14.
 (pdftex.def)             Requested size: 235.19897pt x 166.7819pt.
 
-<feynman/diboson.pdf, id=1247, 109.30235pt x 96.19037pt>
+<feynman/diboson.pdf, id=1278, 109.30235pt x 96.19037pt>
 File: feynman/diboson.pdf Graphic file (type pdf)
 
 <use feynman/diboson.pdf>
@@ -1993,7 +1999,7 @@ Package pdftex.def Info: feynman/diboson.pdf used on input line 25.
 
 
  <./feynman/ttbar.pdf>]
-<feynman/zjets.pdf, id=1275, 94.91661pt x 68.43768pt>
+<feynman/zjets.pdf, id=1306, 94.91661pt x 68.43768pt>
 File: feynman/zjets.pdf Graphic file (type pdf)
  <use feynman/zjets.pdf>
 Package pdftex.def Info: feynman/zjets.pdf used on input line 36.
@@ -2275,33 +2281,342 @@ Chapter 8.
 
 ]
 Chapter 9.
-) [41]
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <6> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 49.
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 49.
+
+
+Overfull \hbox (97.50664pt too wide) in paragraph at lines 57--103
+ [] 
+ []
+
+) [41] [42]
 \openout2 = `Chapters/Chapter10.aux'.
 
- (./Chapters/Chapter10.tex [42
-
-
-
-
-]
+ (./Chapters/Chapter10.tex
 Chapter 10.
 
 Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 10 
  []
 
+Package acronym Info: Label `acro:FS' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+[43
+
+
+
+
+]
+Overfull \hbox (3.55928pt too wide) in paragraph at lines 30--34
+\T1/pplj/m/n/10.95 and $\OML/zplm/m/it/10.95 k[]\OT1/zplm/m/n/10.95 (\OML/zplm/
+m/it/10.95 p[]\OT1/pplx/m/n/10.95 , \OML/zplm/m/it/10.95 ^^Q\OT1/zplm/m/n/10.95
+ )$ \T1/pplj/m/n/10.95 are rel-a-tive se-lec-tion ef-fi-cien-cies for elec-tron
+s and muons,
+ []
+
+
+Overfull \hbox (12.8411pt too wide) in paragraph at lines 41--46
+\OML/zplm/m/it/10.95 ee\OT1/zplm/m/n/10.95 /\OML/zplm/m/it/10.95 ^^V^^V$ \T1/pp
+lj/m/n/10.95 events in the in-clu-sive on-$\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n
+/10.95 re-gion de-scribed above. Here $\OML/zplm/m/it/10.95 k[]\OT1/zplm/m/n/10
+.95 (\OML/zplm/m/it/10.95 p[]\OT1/pplx/m/n/10.95 , \OML/zplm/m/it/10.95 ^^Q\OT1
+/zplm/m/n/10.95 )$
+ []
+
+[44]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 14.
+(hyperref)                removing `\gamma' on input line 83.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 14.
+(hyperref)                removing `superscript' on input line 83.
 
-) [43]
+) [45]
 \openout2 = `Chapters/Chapter10b.aux'.
 
- (./Chapters/Chapter10b.tex [44
+ (./Chapters/Chapter10b.tex [46
 
 
 
@@ -2313,10 +2628,10 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 11 
  []
 
-) [45]
+) [47]
 \openout2 = `Chapters/Chapter11.aux'.
 
- (./Chapters/Chapter11.tex [46
+ (./Chapters/Chapter11.tex [48
 
 
 
@@ -2328,10 +2643,10 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 12 
  []
 
-) [47]
+) [49]
 \openout2 = `Chapters/Chapter12.aux'.
 
- (./Chapters/Chapter12.tex [48
+ (./Chapters/Chapter12.tex [50
 
 
 
@@ -2343,14 +2658,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 13 
  []
 
-) [49] [50
+) [51] [52
 
 
 
-] [51
+] [53
 
 
-] [52]
+] [54]
 \openout2 = `Chapters/Chapter13.aux'.
 
  (./Chapters/Chapter13.tex
@@ -2360,14 +2675,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 14 
  []
 
-) [53
+) [55
 
 
 
 ]
 \openout2 = `Chapters/Chapter14.aux'.
 
- (./Chapters/Chapter14.tex [54
+ (./Chapters/Chapter14.tex [56
 
 
 
@@ -2379,14 +2694,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 15 
  []
 
-) [55] [56
+) [57] [58
 
 
 
-] [57
+] [59
 
 
-] [58]
+] [60]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -2409,7 +2724,7 @@ Overfull \hbox (16.78175pt too wide) in paragraph at lines 15--15
 my, scelerisque
  []
 
-[59
+[61
 
 
 
@@ -2419,10 +2734,23 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 41.
 )
-[60]
+[62]
 \openout2 = `FrontBackMatter/Bibliography.aux'.
 
  (./FrontBackMatter/Bibliography.tex)
+Overfull \hbox (0.58499pt too wide) in paragraph at lines 173--173
+[]\T1/pplj/m/n/10.95 ATLAS Col-lab-o-ra-tion. \T1/pplj/m/it/10.95 Search for su
+-per-sym-me-try in fi-nal states with
+ []
+
+
+Overfull \hbox (4.73354pt too wide) in paragraph at lines 173--173
+\T1/pplj/m/it/10.95 with the AT-LAS de-tec-tor\T1/pplj/m/n/10.95 . ATLAS-CONF-2
+012-152. 2012. \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.
+95 http :
+ []
+
+
 Overfull \hbox (4.86003pt too wide) in paragraph at lines 173--173
 \T1/pplj/m/it/10.95 AT-LAS ex-per-i-ment at $[]$ = 13 TeV\T1/pplj/m/n/10.95 . A
 TL-PHYS-PUB-2016-004. 2016.
@@ -2441,7 +2769,7 @@ Overfull \hbox (36.3562pt too wide) in paragraph at lines 173--173
 n\T1/pplj/m/n/10.95 : 9780511254857, 9781107404267,
  []
 
-[61
+[63
 
 
 
@@ -2455,7 +2783,7 @@ Overfull \hbox (12.74213pt too wide) in paragraph at lines 173--173
 T1/pplj/m/n/10.95 . 
  []
 
-[62]
+[64]
 Overfull \hbox (5.25119pt too wide) in paragraph at lines 173--173
 []\T1/pplj/m/n/10.95 F. Zwicky. ^^P  Die Rotver-schiebung von ex-tra-galak-tis-
 chen Nebeln.^^Q
@@ -2467,7 +2795,7 @@ Overfull \hbox (2.49623pt too wide) in paragraph at lines 173--173
 
  []
 
-[63]
+[65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./whole_thesis.aux (./FrontBackMatter/Titlepage.aux)
@@ -2484,7 +2812,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CC0649FB7E25A683B65D01CDF55EE5D6;5179.
+(rerunfilecheck)             Checksum: C0A02778ED1A770678A0EC9983691A4C;5546.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2494,13 +2822,13 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24538 strings out of 493089
- 418501 string characters out of 6134842
- 894008 words of memory out of 5000000
- 27013 multiletter control sequences out of 15000+600000
- 132953 words of font info for 225 fonts, out of 8000000 for 9000
+ 24749 strings out of 493089
+ 422440 string characters out of 6134842
+ 905328 words of memory out of 5000000
+ 27170 multiletter control sequences out of 15000+600000
+ 160273 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,23n,96p,1137b,2585s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,24n,101p,1329b,2583s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -2512,21 +2840,23 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palati
-no/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr
-i8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on whole_thesis.pdf (81 pages, 2492824 bytes).
+/2015/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatin
+o/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplbi
+8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on whole_thesis.pdf (83 pages, 2531387 bytes).
 PDF statistics:
- 1623 PDF objects out of 1728 (max. 8388607)
- 1408 compressed objects within 15 object streams
- 279 named destinations out of 1000 (max. 500000)
- 52921 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1695 PDF objects out of 1728 (max. 8388607)
+ 1476 compressed objects within 15 object streams
+ 295 named destinations out of 1000 (max. 500000)
+ 70361 words of extra memory for PDF output out of 74296 (max. 10000000)
 

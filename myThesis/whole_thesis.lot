@@ -26,7 +26,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2}{\ignorespaces Overview of all signal, control and validation regions used in the on-shell $Z$ search. More details are given in the text. The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour. All regions require at least two leptons, unless otherwise indicated. In the case of CR$\gamma $, VR-WZ, VR-ZZ, and VR-3L the number of leptons, rather than a specific flavour configuration, is indicated. The main requirements that distinguish the control and validation regions from the signal region are indicated in bold. Most of the kinematic quantities used to define these regions are discussed in the text. The quantity $m_{\text {T}}(\ell _{3},\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace )$ indicates the transverse mass formed by the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace and the lepton which is not assigned to either of the $Z$-decay leptons. \relax }}{41}{table.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3}{\ignorespaces List of the triggers considered for this analysis. The corresponding L1 items are included for reference. The last column notes if the trigger is available in data. \relax }}{42}{table.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4}{\ignorespaces Lepton trigger requirements used for the analysis in different regions of lepton-\ensuremath {p_{\text {T}}}\xspace \ phase space. \relax }}{42}{table.caption.42}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5}{\ignorespaces Yields in signal and validation regions for the flavor symmetric background. Errors include statistical uncertainty, uncertainty from MC closure, uncertainty from the k and $\alpha $ factors, uncertainty due to deriving triggers efficiencies from a DAOD, and uncertainty on the MC shape used to correct for the \ensuremath {m_{\ell \ell }}expansion. \relax }}{45}{table.caption.44}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -40,4 +48,4 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2}{\ignorespaces Autem usu id}}{60}{table.caption.40}
+\contentsline {table}{\numberline {6}{\ignorespaces Autem usu id}}{62}{table.caption.45}

@@ -38,6 +38,27 @@
   \field{year}{2008}
 \endentry
 
+\entry{zmet}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATLAS-CONF-2012-152}}
+  \field{title}{Search for supersymmetry in final states with jets, missing
+  transverse momentum and a $Z$ boson at $\sqrt{s}=8~\TeV$ with the ATLAS
+  detector}
+  \verb{url}
+  \verb http://cds.cern.ch/record/1493491
+  \endverb
+  \field{year}{2012}
+\endentry
+
 \entry{PERF-2012-05}{article}{}
   \name{author}{1}{}{%
     {{}%
