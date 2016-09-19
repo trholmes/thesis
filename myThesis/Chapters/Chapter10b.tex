@@ -42,7 +42,7 @@ The flavor symmetry method is a data driven method that makes its primarily on b
  \label{tab:fs_errors}
 \end{table}
 
-The next largest contribution to the uncertainty comes from \ac{MC} closure tests. In this test, the entire \ac{FS} procedure is performed on \ttbar \ac{MC}, including a regeneration of weighting factors $\alpha$ and $k$. The prediction from $e\mu$ events in \ac{MC} is compared to the \ac{MC} $ee$ and $\mu\mu$ events, as seen in \autoref{fig:fs_closure}. The difference between the two predictions is then summed in quadrature with the statistical uncertainty on each prediction to give the total closure uncertainty seen in \autoref{tab:fs_errors}.
+The next largest contribution to the uncertainty comes from \ac{MC} closure tests, which are used to determine how effective the method is in its prediction. If, for example, using weights derived from an inclusive selection at high \met lead to a bias, the closure test would indicate that and an appropriate uncertainty could be placed on the estimate based on the difference between the \ac{MC} and the prediction. In this test, the entire \ac{FS} procedure is performed on \ttbar \ac{MC}, including a recalculation of weighting factors $\alpha$ and $k$. The prediction from $e\mu$ events in \ac{MC} is compared to the \ac{MC} $ee$ and $\mu\mu$ events, as seen in \autoref{fig:fs_closure}. The difference between the two predictions is then summed in quadrature with the statistical uncertainty on each prediction to give the total closure uncertainty seen in \autoref{tab:fs_errors}. In these closure tests, all predictions agree within the statistical uncertainty, so the bulk of the resulting error is due to \ac{MC} statistics. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -53,5 +53,21 @@ The next largest contribution to the uncertainty comes from \ac{MC} closure test
 \label{fig:fs_closure}
 \end{figure}
 \end{centering}
+
+A small uncertainty is added based on the statistical uncertainty on the $k$ and $\alpha$ factors derived from data. These factors are measured in many different bins (see, for example, the different measurements of $k$ in \autoref{fig:fs_k}), and as a consequence, some bins can have very large statistical uncertainties. To assess the uncertainty on the total estimate, each measurement of these factors is varied by its uncertainty in order to produce the maximum and minimum possible prediction. This error is symmetrized, and the resulting change in the prediction is included in \autoref{tab:fs_errors}.
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
+\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep1.eps}
+\caption{Measurements of $k$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom.}
+\label{fig:fs_k}
+\end{figure}
+\end{centering}
+
+The next uncertainty considers a potential bias in the way the $\alpha$ factors are calculated. Because they are derived from data, there is already trigger dependence in data collection (only events passing a trigger are stored) and further dependences is introduced by the use of the ``dAOD'' data format. This is short for derived \ac{AOD}, and they provide smaller, more efficient versions of the complete ATLAS datasets. These dAODs are designed with specific analyses in mind, filtering on the triggers and objects required by the analyses. As a consequence, there are explicit requirements that lepton or \met triggers are passed before events are included in the dAODs used by this analysis. All of these  
+
+
 
 %----------------------------------------------------------------------------------------
