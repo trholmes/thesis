@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 SEP 2016 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 SEP 2016 11:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1407,6 +1407,9 @@ File: english.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 
 LaTeX Warning: Label `ch:backgrounds' multiply defined.
 
+
+LaTeX Warning: Label `fig:dm_curve' multiply defined.
+
 ) (./Chapters/Chapter11.aux) (./Chapters/Chapter12.aux)
 (./Chapters/Chapter13.aux) (./Chapters/Chapter14.aux) (./Chapters/Chapter0A.aux
 ) (./FrontBackMatter/Bibliography.aux))
@@ -1730,29 +1733,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
  []  
  []
 
-)
+
+Overfull \hbox (3.0758pt too wide) in paragraph at lines 37--37
+ \T1/pplj/m/n/10.95 sta-tis-ti-cal un-cer-tainty, un-cer-tainty from MC clo- 
+ []
+
+
+Overfull \hbox (6.78712pt too wide) in paragraph at lines 37--37
+ \T1/pplj/m/n/10.95 from a DAOD, and un-cer-tainty on the MC shape 
+ []
+
+
+Overfull \hbox (13.53305pt too wide) in paragraph at lines 41--41
+ \T1/pplj/m/n/10.95 sta-tis-ti-cal un-cer-tainty (in-clud-ing un-cer-tainty fro
+m 
+ []
+
+[15])
 \tf@lot=\write8
 \openout8 = `whole_thesis.lot'.
 
- [15] (./whole_thesis.lol)
+ [16] (./whole_thesis.lol)
 \tf@lol=\write9
 \openout9 = `whole_thesis.lol'.
 
- [16]) [17pdfTeX warning (ext4): destination with the same identifier (name{MC}
+ [17]) [18pdfTeX warning (ext4): destination with the same identifier (name{MC}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.86 ...ublepage\include{FrontBackMatter/Contents}
                                                    % Contents, list of figur...
-] [18
-
-
-
 ]
 Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
 although it is yet undefined on input line 101.
  [1
+
+
+
 
 
 
@@ -1791,7 +1809,7 @@ although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 
 although it is yet undefined on input line 8.
-<figures/theory/standardmodel.png, id=636, 1086.0575pt x 782.925pt>
+<figures/theory/standardmodel.png, id=643, 1086.0575pt x 782.925pt>
 File: figures/theory/standardmodel.png Graphic file (type png)
 
 <use figures/theory/standardmodel.png>
@@ -1811,7 +1829,7 @@ Overfull \hbox (1.04407pt too wide) in paragraph at lines 93--94
 [10]
 Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
 although it is yet undefined on input line 106.
- [11] <figures/theory/strong_coupling.png, id=704, 1027.84pt x 770.88pt>
+ [11] <figures/theory/strong_coupling.png, id=711, 1027.84pt x 770.88pt>
 File: figures/theory/strong_coupling.png Graphic file (type png)
 
 <use figures/theory/strong_coupling.png>
@@ -1819,7 +1837,7 @@ Package pdftex.def Info: figures/theory/strong_coupling.png used on input line
 133.
 (pdftex.def)             Requested size: 285.60205pt x 214.19815pt.
  [12 <./figures/theory/strong_coupling.png (PNG copy)>] [13]
-<figures/theory/mstw2008nlo68cl_allpdfs.png, id=729, 698.61pt x 469.755pt>
+<figures/theory/mstw2008nlo68cl_allpdfs.png, id=736, 698.61pt x 469.755pt>
 File: figures/theory/mstw2008nlo68cl_allpdfs.png Graphic file (type png)
 
 <use figures/theory/mstw2008nlo68cl_allpdfs.png>
@@ -1829,7 +1847,7 @@ ut line 190.
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
 although it is yet undefined on input line 203.
  [14 <./figures/theory/mstw2008nlo68cl_allpdfs.png>]
-<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=747, 690.58pt x 552.0625pt>
+<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=754, 690.58pt x 552.0625pt>
 File: figures/theory/rotatioanl_curve_ngc3198_rc.png Graphic file (type png)
 <use figures/theory/rotatioanl_curve_ngc3198_rc.png>
 Package pdftex.def Info: figures/theory/rotatioanl_curve_ngc3198_rc.png used on
@@ -1873,14 +1891,14 @@ Package acronym Info: Label `acro:MS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:ID' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-<figures/atlas/detector.pdf, id=793, 417.10744pt x 259.0453pt>
+<figures/atlas/detector.pdf, id=800, 417.10744pt x 259.0453pt>
 File: figures/atlas/detector.pdf Graphic file (type pdf)
 
 <use figures/atlas/detector.pdf>
 Package pdftex.def Info: figures/atlas/detector.pdf used on input line 14.
 (pdftex.def)             Requested size: 302.39795pt x 187.80894pt.
  [21 <./figures/atlas/detector.pdf>]
-<figures/atlas/innerdetector.pdf, id=852, 385.8888pt x 252.12976pt>
+<figures/atlas/innerdetector.pdf, id=859, 385.8888pt x 252.12976pt>
 File: figures/atlas/innerdetector.pdf Graphic file (type pdf)
 
 <use figures/atlas/innerdetector.pdf>
@@ -1888,7 +1906,7 @@ Package pdftex.def Info: figures/atlas/innerdetector.pdf used on input line 48.
 
 (pdftex.def)             Requested size: 302.39795pt x 197.58374pt.
 
-<figures/atlas/ideta.pdf, id=853, 452.18472pt x 309.45068pt>
+<figures/atlas/ideta.pdf, id=860, 452.18472pt x 309.45068pt>
 File: figures/atlas/ideta.pdf Graphic file (type pdf)
 
 <use figures/atlas/ideta.pdf>
@@ -1904,7 +1922,7 @@ Package acronym Info: Label `acro:TRT' newly defined as it shall be overridden
 although it is yet undefined on input line 87.
 
 [24 <./figures/atlas/ideta.pdf>]
-<figures/atlas/calorimeters.pdf, id=976, 387.51817pt x 249.8917pt>
+<figures/atlas/calorimeters.pdf, id=984, 387.51817pt x 249.8917pt>
 File: figures/atlas/calorimeters.pdf Graphic file (type pdf)
 
 <use figures/atlas/calorimeters.pdf>
@@ -1937,7 +1955,7 @@ Chapter 5.
 
 ]
 Chapter 6.
-<figures/nn/cluster_types.pdf, id=1038, 1027.84pt x 612.52821pt>
+<figures/nn/cluster_types.pdf, id=1045, 1027.84pt x 612.52821pt>
 File: figures/nn/cluster_types.pdf Graphic file (type pdf)
 
 <use figures/nn/cluster_types.pdf>
@@ -1949,21 +1967,21 @@ although it is yet undefined on input line 29.
 Package acronym Info: Label `acro:MC' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
 
-[30] <figures/nn/merged_cluster.png, id=1216, 1227.58624pt x 596.2275pt>
+[30] <figures/nn/merged_cluster.png, id=1223, 1227.58624pt x 596.2275pt>
 File: figures/nn/merged_cluster.png Graphic file (type png)
 
 <use figures/nn/merged_cluster.png>
 Package pdftex.def Info: figures/nn/merged_cluster.png used on input line 67.
 (pdftex.def)             Requested size: 302.39795pt x 146.87306pt.
 
-<figures/nn/3x_res.pdf, id=1228, 569.12625pt x 385.44pt>
+<figures/nn/3x_res.pdf, id=1235, 569.12625pt x 385.44pt>
 File: figures/nn/3x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/3x_res.pdf>
 Package pdftex.def Info: figures/nn/3x_res.pdf used on input line 80.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
 
-<figures/nn/4x_res.pdf, id=1229, 569.12625pt x 385.44pt>
+<figures/nn/4x_res.pdf, id=1236, 569.12625pt x 385.44pt>
 File: figures/nn/4x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/4x_res.pdf>
@@ -1982,13 +2000,13 @@ es/nn/4x_res.pdf>] [33
 
 (./Chapters/Chapter07.tex
 Chapter 7.
-<feynman/ttbar.pdf, id=1276, 154.3878pt x 109.46997pt>
+<feynman/ttbar.pdf, id=1283, 154.3878pt x 109.46997pt>
 File: feynman/ttbar.pdf Graphic file (type pdf)
  <use feynman/ttbar.pdf>
 Package pdftex.def Info: feynman/ttbar.pdf used on input line 14.
 (pdftex.def)             Requested size: 235.19897pt x 166.7819pt.
 
-<feynman/diboson.pdf, id=1278, 109.30235pt x 96.19037pt>
+<feynman/diboson.pdf, id=1285, 109.30235pt x 96.19037pt>
 File: feynman/diboson.pdf Graphic file (type pdf)
 
 <use feynman/diboson.pdf>
@@ -1999,7 +2017,7 @@ Package pdftex.def Info: feynman/diboson.pdf used on input line 25.
 
 
  <./feynman/ttbar.pdf>]
-<feynman/zjets.pdf, id=1306, 94.91661pt x 68.43768pt>
+<feynman/zjets.pdf, id=1313, 94.91661pt x 68.43768pt>
 File: feynman/zjets.pdf Graphic file (type pdf)
  <use feynman/zjets.pdf>
 Package pdftex.def Info: feynman/zjets.pdf used on input line 36.
@@ -2607,11 +2625,11 @@ lj/m/n/10.95 events in the in-clu-sive on-$\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n
 [44]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 83.
+(hyperref)                removing `\gamma' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 83.
+(hyperref)                removing `superscript' on input line 81.
 
 ) [45]
 \openout2 = `Chapters/Chapter10b.aux'.
@@ -2628,10 +2646,65 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 11 
  []
 
+Package acronym Info: Label `acro:SR' newly defined as it shall be overridden
+although it is yet undefined on input line 12.
+Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
+although it is yet undefined on input line 12.
+
+LaTeX Warning: Reference `fig:fs_closure' on page 47 undefined on input line 45
+.
+
+Package epstopdf Info: Source file: <figures/fs/ee+mm_ratio_mll_VRZ_widened.eps
+>
+(epstopdf)                    date: 2016-09-19 11:09:11
+(epstopdf)                    size: 14214 bytes
+(epstopdf)             Output file: <figures/fs/ee+mm_ratio_mll_VRZ_widened-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-09-19 11:12:45
+(epstopdf)                    size: 11248 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/fs/ee+mm_ratio_mll_
+VRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_VRZ_widened.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf, id=1449, 569.1262
+5pt x 552.0625pt>
+File: figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf>
+Package pdftex.def Info: figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-t
+o.pdf used on input line 50.
+(pdftex.def)             Requested size: 285.60205pt x 277.04984pt.
+Package epstopdf Info: Source file: <figures/fs/ee+mm_ratio_mll_SRZ_widened.eps
+>
+(epstopdf)                    date: 2016-09-19 11:09:10
+(epstopdf)                    size: 15125 bytes
+(epstopdf)             Output file: <figures/fs/ee+mm_ratio_mll_SRZ_widened-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-09-19 11:12:45
+(epstopdf)                    size: 11609 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/fs/ee+mm_ratio_mll_
+SRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_SRZ_widened.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf, id=1450, 569.1262
+5pt x 552.0625pt>
+File: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf>
+Package pdftex.def Info: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-t
+o.pdf used on input line 51.
+(pdftex.def)             Requested size: 285.60205pt x 277.04984pt.
 ) [47]
+[48] [49 <./figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf> <./fig
+ures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf>]
 \openout2 = `Chapters/Chapter11.aux'.
 
- (./Chapters/Chapter11.tex [48
+
+(./Chapters/Chapter11.tex [50
 
 
 
@@ -2643,10 +2716,10 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 12 
  []
 
-) [49]
+) [51]
 \openout2 = `Chapters/Chapter12.aux'.
 
- (./Chapters/Chapter12.tex [50
+ (./Chapters/Chapter12.tex [52
 
 
 
@@ -2658,14 +2731,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 13 
  []
 
-) [51] [52
+) [53] [54
 
 
 
-] [53
+] [55
 
 
-] [54]
+] [56]
 \openout2 = `Chapters/Chapter13.aux'.
 
  (./Chapters/Chapter13.tex
@@ -2675,14 +2748,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 14 
  []
 
-) [55
+) [57
 
 
 
 ]
 \openout2 = `Chapters/Chapter14.aux'.
 
- (./Chapters/Chapter14.tex [56
+ (./Chapters/Chapter14.tex [58
 
 
 
@@ -2694,14 +2767,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 15 
  []
 
-) [57] [58
+) [59] [60
 
 
 
-] [59
+] [61
 
 
-] [60]
+] [62]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -2724,7 +2797,7 @@ Overfull \hbox (16.78175pt too wide) in paragraph at lines 15--15
 my, scelerisque
  []
 
-[61
+[63
 
 
 
@@ -2734,7 +2807,7 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 41.
 )
-[62]
+[64]
 \openout2 = `FrontBackMatter/Bibliography.aux'.
 
  (./FrontBackMatter/Bibliography.tex)
@@ -2769,7 +2842,7 @@ Overfull \hbox (36.3562pt too wide) in paragraph at lines 173--173
 n\T1/pplj/m/n/10.95 : 9780511254857, 9781107404267,
  []
 
-[63
+[65
 
 
 
@@ -2783,7 +2856,7 @@ Overfull \hbox (12.74213pt too wide) in paragraph at lines 173--173
 T1/pplj/m/n/10.95 . 
  []
 
-[64]
+[66]
 Overfull \hbox (5.25119pt too wide) in paragraph at lines 173--173
 []\T1/pplj/m/n/10.95 F. Zwicky. ^^P  Die Rotver-schiebung von ex-tra-galak-tis-
 chen Nebeln.^^Q
@@ -2795,7 +2868,7 @@ Overfull \hbox (2.49623pt too wide) in paragraph at lines 173--173
 
  []
 
-[65]
+[67]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./whole_thesis.aux (./FrontBackMatter/Titlepage.aux)
@@ -2808,11 +2881,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
 ) (./Chapters/Chapter09.aux) (./Chapters/Chapter10.aux)
 (./Chapters/Chapter10b.aux) (./Chapters/Chapter11.aux)
 (./Chapters/Chapter12.aux) (./Chapters/Chapter13.aux) (./Chapters/Chapter14.aux
-) (./Chapters/Chapter0A.aux) (./FrontBackMatter/Bibliography.aux))
+) (./Chapters/Chapter0A.aux) (./FrontBackMatter/Bibliography.aux)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: C0A02778ED1A770678A0EC9983691A4C;5546.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2822,10 +2903,10 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24749 strings out of 493089
- 422440 string characters out of 6134842
- 905328 words of memory out of 5000000
- 27170 multiletter control sequences out of 15000+600000
+ 24786 strings out of 493089
+ 423267 string characters out of 6134842
+ 906054 words of memory out of 5000000
+ 27195 multiletter control sequences out of 15000+600000
  160273 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,24n,101p,1329b,2583s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2853,10 +2934,10 @@ local/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on whole_thesis.pdf (83 pages, 2531387 bytes).
+Output written on whole_thesis.pdf (85 pages, 2552617 bytes).
 PDF statistics:
- 1695 PDF objects out of 1728 (max. 8388607)
- 1476 compressed objects within 15 object streams
- 295 named destinations out of 1000 (max. 500000)
- 70361 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 1758 PDF objects out of 2073 (max. 8388607)
+ 1526 compressed objects within 16 object streams
+ 304 named destinations out of 1000 (max. 500000)
+ 70371 words of extra memory for PDF output out of 74296 (max. 10000000)
 
