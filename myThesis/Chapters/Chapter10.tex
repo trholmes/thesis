@@ -77,13 +77,68 @@ uncertainty due to deriving triggers efficiencies from a DAOD, and uncertainty o
 \subsection{Sideband Fit Method}
 \label{sec:method-sideband}
 
+As a crosscheck to the flavor symmetry method, a \ac{MC}-based method is used. This method is called a ``sideband fit,'' and it begins with a \ac{MC} estimate of the signal region across a \mll range that includes all values above 40 \gev. This region, excluding the on-$Z$ range that makes up the \ac{SR}, is used as a control region, defined as CRT in \autoref{tab:regions-z}. 
 
+The total data yield is measured in CRT, and the \ac{MC} is fit to match this yield with one normalization factor which scales the overall \ttbar background. As mentioned in the previous section, \ttbar is the dominant \ac{FS} background, making up about 80\% of the total events. All other backgrounds contributing to this control region are constrained by their uncertainties, which are used as nuisance parameters in the fit. The normalization factor from this fit is then applied to the \ttbar \ac{MC} yield in the \ac{SR}, and combined with the \ac{MC} predictions of the other \ac{FS} processes in the \ac{SR} to give a final estimate of this background. The results of the fit can be seen in \autoref{tab:Yields_sideband_mc}. 
+
+\input{tables/ZMET_Sideband.tex}
+
+The method is repeated in VRS to validate the method. The normalization factors, listed in \autoref{tab:muTop}, are significantly different for the two regions. This is expected because there is a known problem in which the \ttbar \ac{MC} over-predicts the high-\met tail. This effect can be seen in a data-\ac{MC} comparison in \autoref{fig:fs_mc_met}. 
+
+\begin{table}[hbt]
+\begin{center}
+\begin{tabular}{|ll|}
+\hline
+Fit region & \ttbar\ normalization \\ 
+\hline\hline
+CRT & $0.64 \pm 0.18$ \\
+VRT & $0.80 \pm 0.09$ \\
+\hline
+\end{tabular}
+\caption{
+Summary of the \ttbar\ normalization factors calculated by the sideband fit to CRT and VRT for the 2015+2016 data. 
+}
+\label{tab:muTop}
+\end{center}
+\end{table}
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
+\caption{Comparison of data and \ac{MC} in a selection like SRZ, without the \met cut.}
+\label{fig:fs_mc_met}
+\end{figure}
+\end{centering}
+
+This method is extremely effective as a crosscheck because it uses a completely independent dataset from the flavor symmetry method, and the two methods have very little overlap in dependence on \ac{MC}. They produce consistent results in both SRZ and VRS, as shown in \autoref{tab:fs_comparison}.
+
+
+\begin{table}[h]
+\centering
+
+\begin{tabular}{ccc}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+Region  & Flavour-symmetry  & Sideband fit  \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+SRZ & $33 \pm 4$   &  $29 \pm 7$  \\ [+0.05cm]
+VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
+\noalign{\smallskip}\hline
+\end{tabular}
+\caption{ Comparison of \ac{FS} background predictions from the nominal method, the flavor symmetry method, and the cross-check, the sideband fit method. Uncertainties include statistical and systematic uncertainties in both cases. }
+\label{tab:fs_comparison}
+\end{table}
 
 \section{\dyjets Background}
 \label{sec:bg-z}
 
 \section{Fakes}
 \label{sec:bg-fake}
+
+The fakes background is mostly due to semileptonic \ttbar and $W$+jets processes, which both have only one lepton in their final states. However, they can be reconstructed with two leptons due to an additional faked lepton or real non-prompt lepton. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to model with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
+
+Despite the small predicted contribution, a data-driven method called the ``matrix method'' is employed to estimate these fake events. 
+
 
 \section{Dibosons}
 \label{sec:bg-diboson}
