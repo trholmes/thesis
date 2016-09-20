@@ -126,6 +126,34 @@
   \field{year}{2015}
 \endentry
 
+\entry{SUSY-2013-20}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1007/JHEP04(2015)116
+  \endverb
+  \verb{eprint}
+  \verb 1501.03555
+  \endverb
+  \field{pages}{116}
+  \field{title}{{Search for squarks and gluinos in events with isolated
+  leptons, jets and missing transverse momentum at $\sqrt{s} = 8\;\mbox{TeV}$
+  with the ATLAS detector}}
+  \field{volume}{1504}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2015}
+\endentry
+
 \entry{ATL-PHYS-PUB-2016-005}{booklet}{}
   \name{author}{1}{}{%
     {{}%

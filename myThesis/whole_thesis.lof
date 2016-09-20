@@ -52,19 +52,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Comparison of data and \ac {MC} in a selection like SRZ, without the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut.\relax }}{46}{figure.caption.48}
+\contentsline {figure}{\numberline {15}{\ignorespaces Schematic diagrams of the control, validation and signal regions for the on-shell $Z$ (top) and edge (bottom) searches. For the on-shell $Z$ search the various regions are shown in the $\ensuremath {m_{\ell \ell }}-\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane, whereas in the case of the edge search the signal and validation regions are depicted in the $\ensuremath {H_{\text {T}}}\xspace -\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane. \relax }}{42}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces MC closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}window is used to predict the on-$Z$ bin.\relax }}{50}{figure.caption.52}
+\contentsline {figure}{\numberline {16}{\ignorespaces Comparison of data and \ac {MC} in a selection like SRZ, without the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut.\relax }}{48}{figure.caption.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{51}{figure.caption.53}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data, the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}, and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}.\relax }}{52}{figure.caption.55}
+\contentsline {figure}{\numberline {17}{\ignorespaces MC closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}window is used to predict the on-$Z$ bin.\relax }}{54}{figure.caption.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{53}{figure.caption.56}
+\contentsline {figure}{\numberline {18}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{55}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data, the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}, and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}.\relax }}{56}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{57}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

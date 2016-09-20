@@ -14,7 +14,7 @@ This analysis requires two leptons that reconstruct to a $Z$ mass, jets, \met, a
 
 \subsection{Flavor Symmetry Method}
 \label{sec:method-fs}
-As a consequence of the independence of the lepton flavors, any \ac{FS} process should produce $ee$, $\mu\mu$, and $e\mu$ events in a 1:1:2 ratio. This ratio is taken advantage of by the flavor symmetry method by measuring $e\mu$ events in data and using them to predict the contribution of these processes in the $ee$ and $\mu\mu$ channels. 
+As a consequence of the independence of the lepton flavors, any \ac{FS} process should produce $ee$, $\mu\mu$, and $e\mu$ events in a 1:1:2 ratio. This ratio is taken advantage of by the flavor symmetry method by measuring $e\mu$ events in data and using them to predict the contribution of these processes in the $ee$ and $\mu\mu$ channels. \cite{SUSY-2014-10}
 
 To estimate the number of events in SRZ, a control region called CR-FS is used. Both regions are defined in \autoref{tab:regions-z}. CR-FS is very similar to SRZ with two changes: it requires different-flavor leptons instead of the same-flavor leptons required by SRZ, and the \mll range it covers has been expanded by a factor of three, now ranging from 61 to 121 \gev. The expansion of the \mll window is done to increase the number of events in the control region, thus lowering the statistical uncertainty of the prediction\footnote{Though this statistical uncertainty is no longer dominant for the analysis, the method was developed for a smaller dataset for which this expansion dramatically decreased the total uncertainty on the background prediction. \cite{zmet} Because of previous excesses seen, the signal region was not reoptimized for the larger dataset used in this search, but in future iterations of this analysis, the signal region have tighter cuts, making this decreased statistical uncertainty significant once again.}. 
 
@@ -83,7 +83,7 @@ The total data yield is measured in CRT, and the \ac{MC} is fit to match this yi
 
 \input{tables/ZMET_Sideband.tex}
 
-The method is repeated in VRS to validate the method. The normalization factors, listed in \autoref{tab:muTop}, are significantly different for the two regions. This is expected because there is a known problem in which the \ttbar \ac{MC} over-predicts the high-\met tail. This effect can be seen in a data-\ac{MC} comparison in \autoref{fig:fs_mc_met}. 
+The method is repeated in VRS to validate the method. The normalization factors, listed in \autoref{tab:muTop}, are significantly different for the two regions. This is expected because there is a known problem in which the \ttbar \ac{MC} over-predicts the high-\met tail. This effect can be seen in a data-\ac{MC} comparison in \autoref{fig:fs_mc_met}. This is likely due to a mismodeling of of the top quark \pt distribution, which does not match the spectrum seen in data \cite{Aad:2015hna,Khachatryan:2016gxp}. However, this method  corrects for this mismodeling by performing fits in regions very kinematically similar to the signal region. 
 
 \begin{table}[hbt]
 \begin{center}
@@ -132,16 +132,47 @@ VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \section{\dyjets Background}
 \label{sec:bg-z}
 
+\section{Dibosons}
+\label{sec:bg-diboson}
+
 \section{Fakes}
 \label{sec:bg-fake}
 
-The fakes background is mostly due to semileptonic \ttbar and $W$+jets processes, which both have only one lepton in their final states. However, they can be reconstructed with two leptons due to an additional faked lepton or real non-prompt lepton. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to model with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
+The fakes background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets processes, and single top. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or from real non-prompt lepton resulting from photon conversions or $b$-hadron decays. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
 
-Despite the small predicted contribution, a data-driven method called the ``matrix method'' is employed to estimate these fake events. 
+Despite the small predicted contribution in the \ac{SR}, a data-driven method called the ``matrix method'' is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their effect is often more significant. 
 
+In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons, which consist of a higher fraction of fake leptons. In each CR, VR, or SR, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in that region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
 
-\section{Dibosons}
-\label{sec:bg-diboson}
+\begin{equation}
+N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}} - 1) \times N_{\text{pass}} }{1/\epsilon^{\text{fake}} - 1/\epsilon^{\text{real}}}.
+\end{equation}
+
+The efficiencies $\epsilon^{real}$ and $\epsilon^{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. To calculate $\epsilon^{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}.  
+ 
+\begin{table}[htbp]
+
+\resizebox{1\textwidth}{!}{
+ \begin{tabular}{lccccccc} %{\textwidth}{@{\extracolsep{\fill}}lcccccccc}
+   \noalign{\smallskip}\hline\noalign{\smallskip}
+     {\bf Fakes }   &  {\bf \met}   & {\bf $\HT$}  &  {\bf $n_{\text{jets}}$}  & {\bf $m_{\ell\ell} $} &  {\bf SF/DF}  & {\bf OS/SS} & $n_\ell$\\
+     {\bf regions} &  {\bf [\GeV]} & {\bf [\GeV]} &                           & {\bf [\GeV]}          &               &         & \\
+   \noalign{\smallskip}\hline\noalign{\smallskip}
+   CR-real          &  $-$      &  $\bm{> 200}$  &  $\geq 2$ & {\bf 81--101}    &  $2\ell$ SF  & OS & $2$\\
+   CR-fake          &  $\bm{<125}$   &  $-$      &  $-$ & $>12$     &  {\bf $2\ell$ SF/DF}  & {\bf SS} & $\geq2$\\
+   \noalign{\smallskip}\hline\noalign{\smallskip}
+   \noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular}
+} % end of resizebox
+\begin{center}
+ \caption{Control regions used to measure efficiencies of real and fake leptons. 
+ The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour.
+The charge combination of the leading lepton pairs are given as ``SS'' for same-sign or ``OS'' for opposite-sign.}
+\label{tab:regions-fakes}
+\end{center}
+\end{table}
+
+For a 2-lepton selection, the equation is more complicated, and it requires a 2x2 matrix
 
 \section{Other Rare Processes}
 \label{sec:bg-other}
