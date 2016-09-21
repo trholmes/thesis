@@ -7,6 +7,62 @@
 %----------------------------------------------------------------------------------------
 
 \section{Electrons}
+
+\begin{table}[ph!]
+\begin{center}
+    \begin{tabular}{|l|c|}
+      \hline
+      Cut            & Value/description \\
+      \hline
+      \hline
+      \multicolumn{2}{|c|}{Baseline Electron}\\
+      \hline
+      Acceptance   & $\pt > 10\,\GeV, |\eta^\mathrm{clust}| < 2.47$ \\
+      Quality      & \texttt{LHLoose} \\
+      \hline
+      \multicolumn{2}{|c|}{Signal Electron}\\
+      \hline
+      Acceptance   & $\pt > 25\,\GeV, |\eta^\mathrm{clust}| < 2.47$ \\
+      Quality          & \texttt{LHMedium} \\
+      Isolation        & \texttt{GradientLoose} \\
+      Impact parameter & $|z_0 \sin\theta|< 0.5$ mm \\
+                       & $|d_0/\sigma_{d_0}|< 5$ \\ 
+      \hline
+\end{tabular}
+\end{center}
+\caption{Summary of the electron selection criteria. The signal selection requirements are applied on top of the baseline selection.
+  }              
+\label{tab:eledef}
+\end{table}
+
 \section{Muons}
+
+\begin{table}[ph!]
+  \begin{center}\renewcommand\arraystretch{1.2}
+    \begin{tabular}{|l|c|}
+      \hline
+      Cut            & Value/description \\
+      \hline
+      \hline
+      \multicolumn{2}{|c|}{Baseline Muon}\\
+      \hline
+      Acceptance     & $\pt > 10\,\GeV, |\eta| < 2.5$ \\
+      Quality        & \texttt{Medium}    \\
+      \hline
+      \multicolumn{2}{|c|}{Signal Muon}\\
+      \hline
+      Acceptance     & $\pt > 25\,\GeV, |\eta| < 2.5$ \\
+      Quality        & \texttt{Medium}    \\
+      Isolation        & \texttt{GradientLoose} \\
+      Impact parameter & $|z_0 \sin\theta|< 0.5$ mm \\
+                       & $|d_0/\sigma_{d_0}|< 3$ \\ 
+      isBadMuon        & MCP isBadMuon Flag  \\
+      \hline		  
+    \end{tabular}
+  \caption{Summary of the muon selection criteria. The signal selection requirements are applied on top of the baseline selection.}                
+    \label{tab:muondef}
+  \end{center}
+\end{table}
+
 \section{Jets}
 \section{Photons}

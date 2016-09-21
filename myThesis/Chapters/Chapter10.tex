@@ -142,13 +142,16 @@ The fakes background consists of processes that produce only one lepton, but who
 
 Despite the small predicted contribution in the \ac{SR}, a data-driven method called the ``matrix method'' is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their effect is often more significant. 
 
-In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons, which consist of a higher fraction of fake leptons. In each CR, VR, or SR, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in that region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
+In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons (see \autoref{tab:eledef} and \autoref{tab:muondef}), which consist of a higher fraction of fake leptons. In each CR, VR, or SR, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in that region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
 
 \begin{equation}
 N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}} - 1) \times N_{\text{pass}} }{1/\epsilon^{\text{fake}} - 1/\epsilon^{\text{real}}}.
 \end{equation}
 
-The efficiencies $\epsilon^{real}$ and $\epsilon^{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. To calculate $\epsilon^{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. 
+The efficiencies $\epsilon^{real}$ and $\epsilon^{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. For a 2-lepton selection, the principle is the same, but the equation is more complicated, and it requires four-by-four matrix to account for possible combinations of real and fake leptons. 
+
+
+To calculate $\epsilon^{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. A comparison of data and \ac{MC} in this region can be seen in \autoref{fig:fake_realreg}. In this method, one ``tag'' lepton passing a signal selection is required, as is another ``probe'' lepton passing a looser requirement. Distributions of \mll for tag + passing probe and tag + failing probe are then fit, and the efficiency is computed using the ratio acquired from the fit. 
  
 \begin{table}[htbp]
 
@@ -172,7 +175,29 @@ The charge combination of the leading lepton pairs are given as ``SS'' for same-
 \end{center}
 \end{table}
 
-For a 2-lepton selection, the equation is more complicated, and it requires a 2x2 matrix
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.pdf}
+\includegraphics[width=.45\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.pdf}
+\caption{Sub-leading lepton \pT\ for $ee$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. }
+\label{fig:fake_realreg}
+\end{figure}
+\end{centering}
+
+The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe method in CR-fake, also described in \autoref{tab:regions-fakes}. This region is different from all other regions considered in this analysis because it requires same-sign leptons. Very few processes genuinely produce two same-sign leptons, so this region is enhanced in fake leptons. An upper limit on \met is placed on CR-fake to limit the possible contamination from \ac{BSM} processes. \autoref{fig:fake_fakereg} shows a comparison of data and \ac{MC} in this region.
+
+\begin{centering}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.45\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.pdf}
+\includegraphics[width=.45\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.pdf}
+\caption{Sub-leading lepton \pT\ for $\mu e$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.}
+\label{fig:fake_fakereg}
+\end{figure}
+\end{centering}
+
+
 
 \section{Other Rare Processes}
 \label{sec:bg-other}
