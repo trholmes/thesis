@@ -28,8 +28,10 @@ N_{\mu\mu}^\text{est} = \frac{1}{2} \cdot  f_{\mathrm{FS}} \cdot f_{Z \mathrm{\t
 \end{eqnarray}
 
 \noindent where $N_{e\mu}^\text{data}$ is the number of data events observed in CR-FS, 
+$f_{\mathrm{FS}}$ is the \ac{FS} purity in CR-FS,  
+$f_{Z \mathrm{\text{-}mass}}$ is the fraction of events in the widened \mll range expected to be in the on-$Z$ range (taken from \ttbar \ac{MC}),
 $k_{e}(\pT, \eta)$ and $k_{\mu}(\pT, \eta)$ are relative selection efficiencies for electrons and muons, calculated in bins of $\pT$ and $\eta$ of the lepton to be replaced, 
-and $\alpha(\pT, \eta)$ accounts for the different trigger efficiencies for events in each channel, binned based on the kinematics of the leading lepton. These $k$ and $\alpha$ factors are calculated in an inclusive on-$Z$ selection ($81<\mll/\GeV<101$, $\geq2$ jets), 
+and $\alpha(\pT, \eta)$ accounts for the different trigger efficiencies for events in each channel, binned based on the kinematics of the leading lepton. These $k$ and $\alpha$ factors are calculated from data in an inclusive on-$Z$ selection ($81<\mll/\GeV<101$, $\geq2$ jets), 
 according to:
 
 \begin{eqnarray}\label{eq:kfac}
@@ -105,7 +107,7 @@ Summary of the \ttbar\ normalization factors calculated by the sideband fit to C
 \begin{centering}
 \begin{figure}[bth]
 \myfloatalign
-\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
+\includegraphics[width=.85\linewidth]{figures/fs/ttbar_met_dependence.eps}
 \caption{Comparison of data and \ac{MC} in a selection like SRZ, without the \met cut.}
 \label{fig:fs_mc_met}
 \end{figure}
@@ -132,9 +134,6 @@ VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \section{\dyjets Background}
 \label{sec:bg-z}
 
-\section{Dibosons}
-\label{sec:bg-diboson}
-
 \section{Fakes}
 \label{sec:bg-fake}
 
@@ -151,7 +150,7 @@ N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}
 The efficiencies $\epsilon^{real}$ and $\epsilon^{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. For a 2-lepton selection, the principle is the same, but the equation is more complicated, and it requires four-by-four matrix to account for possible combinations of real and fake leptons. 
 
 
-To calculate $\epsilon^{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. A comparison of data and \ac{MC} in this region can be seen in \autoref{fig:fake_realreg}. In this method, one ``tag'' lepton passing a signal selection is required, as is another ``probe'' lepton passing a looser requirement. Distributions of \mll for tag + passing probe and tag + failing probe are then fit, and the efficiency is computed using the ratio acquired from the fit. 
+To calculate $\epsilon^{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. In this method, one ``tag'' lepton passing a signal selection is required, as is another ``probe'' lepton passing a baseline requirement. Distributions of \mll for tag + passing probe and tag + failing probe are then fit, and the efficiency is computed using the ratio acquired from the fit. A comparison of data and \ac{MC} in CR-real can be seen in \autoref{fig:fake_realreg}.
  
 \begin{table}[htbp]
 
@@ -178,26 +177,63 @@ The charge combination of the leading lepton pairs are given as ``SS'' for same-
 \begin{centering}
 \begin{figure}[bth]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.pdf}
-\includegraphics[width=.45\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.pdf}
+\includegraphics[width=.45\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.45\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
 \caption{Sub-leading lepton \pT\ for $ee$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. }
 \label{fig:fake_realreg}
 \end{figure}
 \end{centering}
 
-The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe method in CR-fake, also described in \autoref{tab:regions-fakes}. This region is different from all other regions considered in this analysis because it requires same-sign leptons. Very few processes genuinely produce two same-sign leptons, so this region is enhanced in fake leptons. An upper limit on \met is placed on CR-fake to limit the possible contamination from \ac{BSM} processes. \autoref{fig:fake_fakereg} shows a comparison of data and \ac{MC} in this region.
+The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe method in CR-fake, also described in \autoref{tab:regions-fakes}. This region is different from all other regions considered in this analysis because it requires same-sign leptons. Very few processes genuinely produce two same-sign leptons, so this region is enhanced in fake leptons. An upper limit on \met is placed on CR-fake to limit the possible contamination from \ac{BSM} processes. According to \ac{MC}, real, prompt leptons make up about 7\% (11\%) of the baseline electron (muon) sample and about 10\% (61\%) of the signal electron (muon) sample. These backgrounds are subtracted from the CR-fake yields when calculating the efficiencies. \autoref{fig:fake_fakereg} shows a comparison of data and \ac{MC} in this region.
 
 \begin{centering}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.45\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.pdf}
-\includegraphics[width=.45\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.pdf}
+\includegraphics[width=.45\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.45\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
 \caption{Sub-leading lepton \pT\ for $\mu e$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.}
 \label{fig:fake_fakereg}
 \end{figure}
 \end{centering}
 
+This method is validated in a fakes-rich validation region with a same-sign lepton requirement, \met$\geq$50\gev, $\geq$2 jets, and a veto on \mll on the $Z$-mass peak for same flavor channels. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties included, the prediction agrees well with the data across a wide range of \mll values. 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.45\textwidth]{figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.45\textwidth]{figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.45\textwidth]{figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.45\textwidth]{figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf}
+\caption{Same sign validation regions in the $ee$ (top left), $\mu\mu$ (top right), $e\mu$ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \label{fig:fakes_validation}}
+\end{figure}
 
 
-\section{Other Rare Processes}
+\section{Diboson and Rare Top Processes}
 \label{sec:bg-other}
+
+The remaining backgrounds are diboson processes (excluding $WW$, which is included in the \ac{FS} background) and rare top processes. Dibosons events make up about 30\% of the events in SRZ, while rare top process contributions are much smaller. Both are taken directly from \ac{MC}, with validation regions to confirm the accuracy of the prediction. These regions are \autoref{tab:regions-z}, and target different parts of these backgrounds. VR-ZZ is a four-lepton selection designed to select a very pure sample of $ZZ$ events. VR-WZ requires three leptons and specific cuts on $m_T$, the transverse mass, and \met in order to select mostly $WZ\rightarrow lll\nu$ events. VR-3L is similar to VR-S, but loosens the \HT and \met cuts and requires at least three leptons. This region is designed to target any $\geq3$-lepton process in a region as kinematically close to SRZ as possible while still maintaining enough events to validate. The makeups of these multilepton validation regions, as well as VRS, are shown in \autoref{tab:VRresults}.
+
+\begin{table}
+\begin{center}
+\setlength{\tabcolsep}{0.0pc}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+                                                                             & VR-S            & VR-WZ        & VR-ZZ          & VR-3L   \\[-0.05cm]
+\noalign{\smallskip}\hline\noalign{\smallskip}
+Observed events                                                              & $236$            & $698$        & $132$          & $32$ \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%Total expected background events                                             & $223.92 \pm 40.84$   &   $612.97\pm8.65$   &    $139.29\pm4.95$    &    $34.52\pm1.39$ \\
+% here the total background uncertainty is updated to the quadrature sum of each bkg uncertainty
+Total expected background events                                             & $224 \pm 41$   &   $613\pm66$   &    $139\pm25$    &    $35\pm10$ \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+  Flavour-symmetric (\ttbar, $Wt$, $WW$, $Z\rightarrow\tau\tau$)             & $99\pm8$   &   -                &    -                 &    -              \\
+  $WZ/ZZ$ events                                                             & $27\pm13$  &   $573\pm66$ &    $139\pm25$        &    $25\pm10$ \\
+  Rare top events                                                            & $11\pm3$   &   $14\pm3$   &    $0.44\pm0.11$     &    $9.1\pm2.3$  \\
+  \dyjets\ events                                                            & $84\pm37$  &   -                &    -                 &    -              \\
+  Fake lepton events                                                         & $4\pm4$    &   $26\pm6$   &    -                 &    $0.6\pm0.3$  \\
+ \noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular*}
+\end{center}
+\caption{Yields in validation regions. In VRS, data-driven background estimates are used for \dyjets, fakes, and \ac{FS} processes. All other backgrounds are taken from \ac{MC}, including all backgrounds in the multi-lepton \ac{VR}s. Uncertainties include statistical and systematic components. }
+\label{tab:VRresults}
+\end{table}

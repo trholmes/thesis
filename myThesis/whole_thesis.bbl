@@ -16,6 +16,22 @@
   {}
 \endgroup
 
+\entry{2012lumi}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{title}{{Luminosity determination in pp collisions at
+  $\sqrt{s}=8$~\TeV\ using the ATLAS detector at the LHC}}
+  \field{journaltitle}{to be submited to Eur. Phys. J. C}
+\endentry
+
 \entry{PERF-2007-01}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -59,6 +75,33 @@
   \field{year}{2012}
 \endentry
 
+\entry{2011lumi}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-013-2518-3
+  \endverb
+  \verb{eprint}
+  \verb 1302.4393
+  \endverb
+  \field{pages}{2518}
+  \field{title}{{Improved luminosity determination in pp collisions at
+  $\sqrt{s}$ = 7 \TeV~ using the ATLAS detector at the LHC}}
+  \field{volume}{73}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2013}
+\endentry
+
 \entry{PERF-2012-05}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -84,6 +127,46 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
   \field{year}{2014}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-023}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{ATL-PHYS-PUB-2015-023}
+  \field{title}{{Expected performance of missing transverse momentum
+  reconstruction for the ATLAS detector at $\sqrt{s}=13$ TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037700
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-015}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{ATL-PHYS-PUB-2015-015}
+  \field{title}{{Jet Calibration and Systematic Uncertainties for Jets
+  Reconstructed in the ATLAS Detector at $\sqrt{s}=13$ TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037613
+  \endverb
+  \field{year}{2015}
 \endentry
 
 \entry{ATL-PHYS-PUB-2015-044}{booklet}{}
@@ -152,6 +235,63 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
   \field{year}{2015}
+\endentry
+
+\entry{SUSY-2014-10}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-015-3518-2
+  \endverb
+  \verb{eprint}
+  \verb 1503.03290
+  \endverb
+  \field{pages}{318}
+  \field{title}{{Search for supersymmetry in events containing a same-flavour
+  opposite-sign dilepton pair, jets, and large missing transverse momentum in
+  $\sqrt{s} = 8\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
+  \field{volume}{75}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2015}
+\endentry
+
+\entry{Aad:2015hna}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.93.032009
+  \endverb
+  \verb{eprint}
+  \verb 1510.03818
+  \endverb
+  \field{number}{3}
+  \field{pages}{032009}
+  \field{title}{{Measurement of the differential cross-section of highly
+  boosted top quarks as a function of their transverse momentum in $\sqrt{s}$ =
+  8 TeV proton-proton collisions using the ATLAS detector}}
+  \field{volume}{93}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2016}
 \endentry
 
 \entry{ATL-PHYS-PUB-2016-005}{booklet}{}
@@ -306,6 +446,101 @@
   \field{year}{2014}
 \endentry
 
+\entry{Beenakker:1996ch}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {H{\"o}pker}{H.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spira}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zerwas}{Z.}%
+     {P.M.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BWHRSMZP1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1016/S0550-3213(97)00084-9
+  \endverb
+  \verb{eprint}
+  \verb hep-ph/9610490
+  \endverb
+  \field{pages}{51\bibrangedash 103}
+  \field{title}{{Squark and gluino production at hadron colliders}}
+  \field{volume}{492}
+  \field{journaltitle}{Nucl. Phys. B}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{1997}
+\endentry
+
+\entry{Beenakker:2009ha}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BW+1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1088/1126-6708/2009/12/041
+  \endverb
+  \verb{eprint}
+  \verb 0909.4418
+  \endverb
+  \field{pages}{041}
+  \field{title}{{Soft-gluon resummation for squark and gluino hadroproduction}}
+  \field{volume}{0912}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2009}
+\endentry
+
+\entry{Beenakker:2011fu}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BW+1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1142/S0217751X11053560
+  \endverb
+  \verb{eprint}
+  \verb 1105.1110
+  \endverb
+  \field{pages}{2637\bibrangedash 2664}
+  \field{title}{{Squark and gluino hadroproduction}}
+  \field{volume}{26}
+  \field{journaltitle}{Int. J. Mod. Phys. A}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2011}
+\endentry
+
 \entry{Burgess:2007zi}{book}{}
   \name{author}{2}{}{%
     {{}%
@@ -328,6 +563,30 @@
   \field{isbn}{9780511254857, 9781107404267, 9780521860369}
   \field{title}{{The standard model: A primer}}
   \field{year}{2006}
+\endentry
+
+\entry{Khachatryan:2016gxp}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{CMS Collaboration}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{sortinit}{C}
+  \verb{eprint}
+  \verb 1605.00116
+  \endverb
+  \field{note}{Submitted}
+  \field{title}{{Measurement of the integrated and differential t-tbar
+  production cross sections for high-pt top quarks in pp collisions at
+  $\sqrt{s}$ = 8 TeV}}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2016}
 \endentry
 
 \entry{diboson1}{article}{}
@@ -700,6 +959,92 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2010}
+\endentry
+
+\entry{Kramer:2012bx}{misc}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Kramer}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KM+1}
+  \strng{fullhash}{KM+1}
+  \field{sortinit}{K}
+  \verb{eprint}
+  \verb 1206.2892
+  \endverb
+  \field{title}{{Supersymmetry production cross sections in pp collisions at
+  $\sqrt{s} = 7\TeV$}}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2012}
+\endentry
+
+\entry{Kulesza:2009kq}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kulesza}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Motyka}{M.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KAML1}
+  \strng{fullhash}{KAML1}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.80.095004
+  \endverb
+  \verb{eprint}
+  \verb 0905.4749
+  \endverb
+  \field{pages}{095004}
+  \field{title}{{Soft gluon resummation for the production of gluino-gluino and
+  squark-antisquark pairs at the LHC}}
+  \field{volume}{80}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2009}
+\endentry
+
+\entry{Kulesza:2008jb}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kulesza}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Motyka}{M.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KAML1}
+  \strng{fullhash}{KAML1}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1103/PhysRevLett.102.111802
+  \endverb
+  \verb{eprint}
+  \verb 0807.2405
+  \endverb
+  \field{pages}{111802}
+  \field{title}{{Threshold resummation for squark-antisquark and gluino-pair
+  production at the LHC}}
+  \field{volume}{102}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2009}
 \endentry
 
 \entry{Lazopoulos:2008}{article}{}

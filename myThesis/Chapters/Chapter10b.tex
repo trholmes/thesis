@@ -101,20 +101,156 @@ These uncertainties are each calculated independently for the two datasets then 
 
 \subsection{Uncertainties on the Fakes Background}
 
+Systematic uncertainties on the fakes background are derived from a series of variations on the nominal method.  Variations include scaling the real and fake efficiencies up and down by their statistical uncertainties, scaling the prompt lepton contamination in CR-fake up and down by 20\%, and by requiring and vetoing $b$-tagged jets in CR-fake to determine the dependence on heavy flavor. 
+Statistical uncertainties can also be large in regions with small numbers of events in the the baseline selection, such as SRZ. In other regions, the $b$-tagging dependence provides the largest uncertainty. The full breakdown of uncertainties for the most important regions are listed in ~\autoref{tab:syst:fakes_onz1516}.
+
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l|cccccc}
+Variation & SRZ & CRT & CRFS & VRFS & VRS & VRT  \\
+\hline\hline
+Nominal & 0.10 $\pm$ 1.61 & 25.39 $\pm$ 5.35 & 3.73 $\pm$ 2.19 & 10.53 $\pm$ 3.56 & 3.64 $\pm$ 3.20 & 80.06 $\pm$ 9.80   \\
+\hline
+EL F Up & 0.15  	& 30.23 & 3.96 & 10.93 & 3.56  	& 92.46   \\
+EL F Down & 0.06  	& 21.80 & 3.52 & 10.18 & 3.54 	& 70.07   \\
+EL R Up & 0.25  	& 26.17 & 3.92 & 11.10 & 4.13 	& 82.57   \\
+EL R Down & -0.07  	& 24.51 & 3.52 & 9.92 & 3.10 	& 77.24   \\
+MU F Up & -0.20  	& 32.48 & 4.77 & 16.41 & 5.25 	& 86.48   \\
+MU F Down & 0.29  	& 20.17 & 2.91 & 7.04 & 2.87 	& 70.12   \\
+MU R Up & 0.13 		& 25.67 & 3.78 & 10.66 & 3.81 	& 81.18   \\
+MU R Down & 0.05 	& 25.04 & 3.67 & 10.38 & 3.44 	& 78.72   \\
+\hline
+Total Sys 		& +0.26 -0.35 		& +8.64 -6.39 	& +1.08 -0.87 	& +5.92 -3.56 	& +1.70 -0.97  	& +14.24 -14.42  \\
+Total Sys (\%) 	& +261.05 -354.72  	& +34.01 -25.19 & +29.05 -23.23 & +56.22 -33.85 & +46.57 -26.60 & +17.78 -18.02  \\
+\hline
+Real Cont. Up 	& 0.23 	& 20.97 & 3.06 & 8.08 	& 3.15 	& 68.79   \\
+Real Cont. Down & -0.01 & 29.67 & 4.38 & 12.95 	& 4.16 & 90.23   \\
+b-jet 			& 0.31 	& 40.44 & 5.28 & 8.98 	& 5.63 & 120.50   \\
+no b-jet 		& 0.16 	& 23.44 & 3.08 & 11.38 	& 3.97 & 70.55   \\
+\hline
+Total Sys & +0.25 -0.11 			& +15.65 -4.83 & +1.69 -0.93 & +2.56 -2.90 & +2.09 -0.49  			& +41.71 -14.74  \\
+Total Sys (\%) & +260.46 -109.06 	& +61.66 -19.02 & +45.30 -24.85 & +24.32 -27.58 & +57.31 -13.35 	& +52.10 -18.42  \\
+\end{tabular}
+}
+\caption{ Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \label{tab:syst:fakes_onz1516}}
+\end{table}
+
 %----------------------------------------------------------------------------------------
 
-\section{Experimental Uncertainties}
+\section{Theoretical and Experimental Uncertainties}
 
-%----------------------------------------------------------------------------------------
+Experimental uncertainties cover any detector effect or \ac{LHC} condition that may not be modeled precisely correctly in \ac{MC}. For each uncertainty, a standard prescription from the ATLAS experiment is followed. Uncertainties are included on the following parameters:  
+\begin{itemize}
+\item Luminosity (2.9\%) \cite{2011lumi,2012lumi}
+\item Jet energy scale \cite{ATL-PHYS-PUB-2015-015}
+\item Jet energy resolution \cite{ATL-PHYS-PUB-2015-015}
+\item Jet vertex tagging
+\item Heavy flavor tagging
+\item \met soft term \cite{ATL-PHYS-PUB-2015-023}
+\item $e/\mu$ momentum scale  
+\item $e/\mu$ trigger, reconstruction, and identification efficiencies
+\item Pileup
+\end{itemize}
 
-\section{Theoretical Uncertainties}
+These uncertainties are applied to all \ac{MC} samples used in the analysis. This includes signal models, diboson and rare top samples for the nominal estimate, and all backgrounds taken from \ac{MC} in the sideband fit. 
 
-%----------------------------------------------------------------------------------------
+Theoretical uncertainties include cross-section uncertainties, scale uncertainties, and \ac{PDF} uncertainties. For the diboson samples, the scale uncertainties, given in \autoref{table:Diboson_theoryuncert} and calculated by varying each scale up and down by a factor of two, are combined with a 6\% cross-section uncertainty and a generator uncertainty obtained by comparing {\sc Powheg} and {\sc Sherpa} \ac{MC} yields. The generator uncertainty, shown in \autoref{table:Diboson_powhegsherpa1}, is dominant in most regions. Rare top processes are given a $13\%$ PDF and scale variation uncertainty \cite{Alwall:2014hca} and a $22\%$ cross section uncertainty \cite{Campbell:2012,Lazopoulos:2008,Garzelli:2012bn}. 
 
-\section{Signal Uncertainties}
+\begin{table}
+	\begin{center}
+ 		\begin{tabular}{l|c|c|c|c|c|c|c}
+		    \hline \hline 
+   			\multicolumn{3}{c}{$VV \rightarrow ll\nu\nu$ Samples} \\
+  	 		\hline
+			&	SRZ & VRS & CRT & VRT & VRWZ & VRZZ & VR3L \\
+			\hline
+			resummation & 0.07 & 0.03 & 0.01 & 0.02 & 0.00 & 0.00 & 0.00 \\
+			renormalization & 0.13 & 0.17 & 0.16 & 0.22 & 0.00 & 0.00 & 0.00 \\
+			factorization & 0.01 & 0.01 & 0.01 & 0.03 & 0.00 & 0.00 & 0.00 \\
+			total & 0.15 & 0.17 & 0.16 & 0.22 & 0.00 & 0.00 & 0.00 \\
+		    \hline 
+   			\multicolumn{3}{c}{$WZ \rightarrow lll\nu$ Samples} \\
+  	 		\hline
+			&	SRZ & VRS & CRT & VRT & VRWZ & VRZZ & VR3L \\
+			\hline
+			resummation & 0.07 & 0.05 & 0.13 & 0.08 & 0.02 & 0.00 & 0.01 \\
+			renormalization & 0.26 & 0.20 & 0.28 & 0.21 & 0.07 & 0.00 & 0.18 \\
+			factorization & 0.04 & 0.04 & 0.02 & 0.06 & 0.01 & 0.00 & 0.02 \\
+			total & 0.28 & 0.21 & 0.31 & 0.23 & 0.07 & 0.00 & 0.18 \\
+  	 		\hline
+   			\multicolumn{3}{c}{$ZZ \rightarrow llll$ Samples} \\
+  	 		\hline
+			&	SRZ & VRS & CRT & VRT & VRWZ & VRZZ & VR3L \\
+			\hline
+			resummation & 0.27 & 1.07 & 0.01 & 0.01 & 0.06 & 0.01 & 0.53 \\
+			renormalization & 0.28 & 0.26 & 0.30 & 0.60 & 0.07 & 0.04 & 0.14 \\
+			factorization & 0.27 & 0.25 & 0.30 & 0.58 & 0.13 & 0.02 & 0.16 \\
+			total & 0.48 & 1.13 & 0.43 & 0.84 & 0.16 & 0.05 & 0.57 \\
+  	 		\hline
+ 		\end{tabular}
+	\end{center}
+	\caption{Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.}
+	\label{table:Diboson_theoryuncert}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c|c|c} \\
+Region & Sherpa & Sherpa & Powheg & Powheg & \% \\
+& Events/fb$^{-1}$ & Events & Events/fb$^{-1}$ & Events & Difference \\
+\hline
+\hline
+\multicolumn{6}{c}{WZ Samples} \\
+\hline
+SRZ+VRZ & 5.219 & 76.722 & 3.286 & 48.300 & 37.046 \\
+CRT+VRT & 1.060 & 15.583 & 0.742 & 10.913 & 29.970 \\
+\hline
+\multicolumn{6}{c}{WW/ZZ Samples} \\
+\hline
+SRZ+VRZ & 1.921 & 28.244 & 0.685 & 10.070 & 71.424 \\
+CRT+VRT & 6.281 & 92.332 & 3.142 & 46.188 & 55.474 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm{fb}^{-1}$.}
+\label{table:Diboson_powhegsherpa1}
+\end{table}
+
+Signal models have both the central value and uncertainty on cross-sections taken from an envelope of predictions using different scales and \ac{PDF} sets \cite{Kramer:2012bx}. The signal processes are calculated at \ac{NLO+NLL}, meaning they are calculated at next-to-leading order in the strong coupling constant, with additional terms from next-to-leading-logarithmic resummation of soft gluon emission \cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu}.
+
 
 %----------------------------------------------------------------------------------------
 
 \section{Impact of Uncertainties on the Signal Region}
+
+
+The breakdown of each major uncertainty's contribution to the total uncertainty in SRZ is shown in \autoref{tab:syst}. The dominant uncertainty is the diboson generator uncertainty, followed by the statistical uncertainty from the \ac{FS} background. Uncertainties smaller than 1\% are not shown in the table. 
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lc}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+Source  & Relative systematic uncertainty [\%] \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+ & SRZ \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+Total systematic uncertainty & 17    \\ 
+\noalign{\smallskip}\hline
+$WZ/ZZ$ generator uncertainty  & 13  \\
+Flavour symmetry (statistical) & 7              \\
+$WZ/ZZ$ scale uncertainty      & 6   \\
+\dyjets\ (systematic)          & 4   \\
+Flavour symmetry (systematic)  & 3      \\
+\dyjets\ (statistical)         & 2   \\
+Fake-leptons                   & 1   \\
+\noalign{\smallskip}\hline
+\end{tabular}
+\caption{
+Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions.
+The values shown are relative to the total background estimate, shown in \%.}
+\label{tab:syst}
+\end{table}
 
 %----------------------------------------------------------------------------------------

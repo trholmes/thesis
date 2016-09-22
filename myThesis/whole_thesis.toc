@@ -80,13 +80,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{26}{figure.caption.32}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{26}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{26}{figure.caption.32}
+\contentsline {paragraph}{The Tile Calorimeter}{26}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{26}{figure.caption.32}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{26}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{26}{figure.caption.32}
+\contentsline {paragraph}{The FCal}{26}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}The Muon Spectrometer}{26}{section.4.4}
 \defcounter {refsection}{0}\relax 
@@ -124,11 +124,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{37}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{37}{figure.caption.39}
+\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{37}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson}{37}{figure.caption.40}
+\contentsline {paragraph}{diboson}{37}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{38}{figure.caption.41}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{38}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Monte Carlo Samples}{39}{section.7.1}
 \defcounter {refsection}{0}\relax 
@@ -158,48 +158,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{50}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Dibosons}{50}{section.10.3}
+\contentsline {section}{\numberline {10.3}Fakes}{50}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Fakes}{50}{section.10.4}
+\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{54}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}Other Rare Processes}{54}{section.10.5}
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{57}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{55}{chapter.11}
+\contentsline {section}{\numberline {11.1}Uncertainties on Data-Driven Backgrounds}{57}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Uncertainties on Data-Driven Backgrounds}{55}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Uncertainties on the Flavor Symmetry Method}{57}{subsection.11.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Uncertainties on the Flavor Symmetry Method}{55}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Uncertainties on the $\gamma $+jets Method}{62}{subsection.11.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.2}Uncertainties on the $\gamma $+jets Method}{60}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Uncertainties on the Fakes Background}{62}{subsection.11.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.3}Uncertainties on the Fakes Background}{60}{subsection.11.1.3}
+\contentsline {section}{\numberline {11.2}Theoretical and Experimental Uncertainties}{62}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Experimental Uncertainties}{60}{section.11.2}
+\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{63}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Theoretical Uncertainties}{60}{section.11.3}
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{67}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Signal Uncertainties}{60}{section.11.4}
+\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Interpretations}}{69}{chapter.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Impact of Uncertainties on the Signal Region}{60}{section.11.5}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Conclusions}}{71}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{61}{chapter.12}
+\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Conclusions}}{73}{chapter.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Interpretations}}{63}{chapter.13}
+\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Outlook}}{75}{chapter.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Conclusions}}{65}{part.5}
+\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{77}{part.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Conclusions}}{67}{chapter.14}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{79}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Outlook}}{69}{chapter.15}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{79}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{71}{part.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{73}{appendix.A}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{73}{section.A.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{74}{section.A.2}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{80}{section.A.2}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{75}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{81}{dummy.7}
