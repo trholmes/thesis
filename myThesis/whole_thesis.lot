@@ -52,17 +52,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {13}{\ignorespaces Uncertainties in the on-Z signal and validation regions. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying k and $\alpha $ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \ensuremath {m_{\ell \ell }}widening, which includes MC statistics and a data/MC comparison in a loosened region. \relax }}{57}{table.caption.62}
+\contentsline {table}{\numberline {13}{\ignorespaces Uncertainties in the on-Z signal and validation regions. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying k and $\alpha $ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \ensuremath {m_{\ell \ell }}widening, which includes MC statistics and a data/MC comparison in a loosened region. \relax }}{59}{table.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {14}{\ignorespaces Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \relax }}{62}{table.caption.68}
+\contentsline {table}{\numberline {14}{\ignorespaces Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \relax }}{64}{table.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {15}{\ignorespaces Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.\relax }}{64}{table.caption.69}
+\contentsline {table}{\numberline {15}{\ignorespaces Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.\relax }}{66}{table.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {16}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{64}{table.caption.70}
+\contentsline {table}{\numberline {16}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{66}{table.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {17}{\ignorespaces Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions. The values shown are relative to the total background estimate, shown in \%.\relax }}{65}{table.caption.72}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {17}{\ignorespaces Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions. The values shown are relative to the total background estimate, shown in \%.\relax }}{67}{table.caption.74}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -72,4 +70,6 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {18}{\ignorespaces Autem usu id}}{80}{table.caption.73}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {18}{\ignorespaces Autem usu id}}{82}{table.caption.75}
