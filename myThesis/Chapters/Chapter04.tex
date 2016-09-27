@@ -169,19 +169,19 @@ The barrel toroid sits outside the calorimeters and provides the magnetic field 
 
 The magnets are cooled with liquid helium, and take up to a month to be brought down to operating temperatures. All magnets have cold masses surrounding them to absorb heat in the event of a quench. 
 
-The $B$-field resulting from this magnet system can be seen in \autoref{fig:bfield}. The plot on the left demonstrates the relatively constant field rate within the barrel which drops steeply at $|z|$=2. The right plot shows the field integral in the \acp{MDT} as a function of $|\eta|$, demonstrating the good coverage out to $|\eta|$<2.6 excluding a transition region between the barrel and endcap, where the field can can drop to around half its usual value. 
+The $B$-field resulting from this magnet system can be seen in \autoref{fig:bfield}. The plot on top demonstrates the relatively constant field rate within the barrel which drops steeply at $|z|$=2. The bottom plot shows the field integral in the \acp{MDT} as a function of $|\eta|$, demonstrating the good coverage out to $|\eta|$<2.6 excluding a transition region between the barrel and endcap, where the field can can drop to around half its usual value. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/atlas/solMeasB.eps}
-\includegraphics[width=.45\linewidth]{figures/atlas/IBdl.eps}
-\caption{Plots of the magnetic field within the ATLAS detector. Left is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Right is the field integral through the \acp{MDT} as a function of $|\eta|$ for two different $\phi$ values. }
+\includegraphics[width=.90\linewidth]{figures/atlas/solMeasB.eps}
+\includegraphics[width=.90\linewidth]{figures/atlas/IBdl.eps}
+\caption{Plots of the magnetic field within the ATLAS detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp{MDT} as a function of $|\eta|$ for two different $\phi$ values. }
 \label{fig:bfield}
 \end{figure}
 \end{centering}
 
-\section{The Trigger System}
+\section{The Trigger System and Data Acquisition}
 \label{sec:Trigger}
 
 The \ac{LHC} provides proton bunch crossings every 25ns, and each of these events contains about one Mb of data, corresponding to 40Tb/s, a completely unmanageable amount of data. In addition to this concern, many of ATLAS's subdetectors like the pixel detector and \acp{MDT} take much longer than 25ns to read out, making keeping up with the bunch crossing rate impossible. To reduce the total data read out and allow for selective reading out of the slower detectors, a triggering system is used. 
@@ -190,7 +190,49 @@ The trigger system uses fast detectors to get a coarse picture of an event's top
 
 This filtering of events is done in two steps: the \ac{L1} trigger is implemented in hardware and reduces the initial 40MHz to 100kHz, while the \ac{HLT} is implemented in software, further reducing the rate to 1kHz \cite{ATL-DAQ-PUB-2016-001}.The \ac{L1} trigger uses coarse granularity information from the fast read-out subdetectors: the calorimeters, the \acp{RPC} and \acp{TGC}. 
 
-The coarse grained calorimeter information used for the \ac{L1} trigger decision is referred to as \ac{L1Calo} and uses information from all calorimeter systems. \ac{L1Calo} is responsible for all triggers excluding muons, meaning it must be capable of identifying a large number of different objects and event topologies, including high-\pt objects, large amounts of \met, andlarge amounts of hadronic energy.  
-The outputs from the different calorimeters and the \ac{MS} can also be combined with a system called \ac{L1Topo}. Using this, triggers can require more complex topologies, and can suppress backgrounds from pileup by rejecting  
+The coarse grained calorimeter information used for the \ac{L1} trigger decision is referred to as \ac{L1Calo} and uses information from all calorimeter systems. \ac{L1Calo} is responsible for all triggers excluding muons, meaning it must be capable of identifying a large number of different objects and event topologies, including high-\pt objects, large amounts of \met, and large amounts of hadronic energy. The trigger can also identify isolated objects, objects with very few calorimeter deposits from other objects near them.
+
+Events types that occur very frequently, such that it would require too much of the total trigger bandwidth to record all events passing a given threshold, are prescaled. Events passing these triggers are only recorded a fraction of the time, and these prescaling rates are used to adjust the final data to account for the limited rate. 
+
+An example of the \ac{L1} trigger rates for different types of events can be seen in \autoref{fig:l1_rates} for one run in July 2016. The common features to all rates are due to \ac{LHC} luminosity changes, deadtimes due to detector inefficiency, and adjustment of prescales to optimize trigger bandwidth.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/Time_L1GroupRate_Stack_2016_07.png}
+\caption{\ac{L1} trigger rates for for a run in July 2016 as a function of lumiblock, an approximately 60-second long period of datataking. The total rate is lower than the combined stack because of overlapping triggers.}
+\label{fig:l1_rates}
+\end{figure}
+\end{centering}
+
+For muon triggers, the trigger algorithm looks for patterns of hits from the \ac{RPC} and \ac{TGC} that are consistent with high-\pt muons with origins at the interaction point. 
+
+The outputs from the different calorimeters and the \ac{MS} can also be combined with a system called \ac{L1Topo}. Using this, triggers can require more complex topologies, and can suppress backgrounds by as much as a factor of two. 
+
+All of this information is read analyzed by the \ac{CTP}, which uses a trigger menu identifying all types of events to be kept to return a trigger decision. The event must be processed in about 2.5$\mu$s so that the remaining event information not yet read out is still availabe on the subdetectors when the trigger decision is made. This decision is passed to the \ac{TTC}, which communicates with all subdetectors. Upon receiving a \ac{L1} trigger, the subdetectors read out all the information they've stored about the event and places it on \acs{ROB}.
+
+The \ac{HLT} takes the data from particular \acp{RoI}, areas containing interesting objects that caused the \ac{L1} trigger, and analyzes this much more complete picture of the region to decide whether or not the event is still interesting enough to keep. This process has its own trigger menu with dedicated \ac{L1} seeds for each item. \ac{HLT} triggers typically have slightly higher thresholds than their corresponding \ac{L1} triggers to give high \ac{L1} to \ac{HLT} efficiencies. \autoref{fig:hlt_rates} shows the \ac{HLT} rates for the same run in July. In addition to the event types seen in \autoref{fig:l1_rates}, \ac{HLT} can also identify events with $b$-jets, differentiate between electrons and photons, and identify events interesting for B hadron physics. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/Time_HLTGroupRate_Stack_2016_07.png}
+\caption{\ac{HLT} trigger rates for for a run in July 2016 as a function of lumiblock, an approximately 60-second long period of datataking. The total rate is lower than the combined stack because of overlapping triggers.}
+\label{fig:hlt_rates}
+\end{figure}
+\end{centering}
+
+
+Events passing the \ac{HLT} trigger are written to disk to be analyzed. An example of the total trigger efficiency for single electron triggers is shown in \autoref{fig:trig_el_eff}.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/el_trig_eff.png}
+\caption{Trigger efficiencies as a function of \et for data and \ac{MC}. Efficiencies are given for offline selected loose (left) and medium (right) electrons.}
+\label{fig:trig_el_eff}
+\end{figure}
+\end{centering}
+
 
 
