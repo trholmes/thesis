@@ -105,7 +105,7 @@ Unlike the tracking detectors, which aim to take measurements of a particle with
 \end{figure}
 \end{centering}
 
-TODO make sure jets are in theory.
+%TODO make sure jets are in theory.
 
 Another task of the calorimeter system is to limit punch-through to the \ac{MS}, described in \autoref{sec:MS}. All other particles must be fully stopped by the calorimeters to allow for clean signals from muons, and to measure the total energy of the particle. This requirement sets minimum sizes for each of the calorimeters. 
 
@@ -135,7 +135,7 @@ The \ac{MS} measures charged particles that escape from the calorimeter system. 
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Muon_rz_large_sect_6.eps}
-\caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible, and all muons at $|\eta|$<2.7 should traverse three detectors, assuming they propagate in an approximately straight line from the interaction point.s}
+\caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible, and all muons at $|\eta|$<2.7 should traverse three detectors, assuming they propagate in an approximately straight line from the interaction point.}
 \label{fig:muon_rz}
 \end{figure}
 \end{centering}
@@ -152,6 +152,21 @@ The massive system is also subject to deformations due to gravity. To maintain t
 
 \section{The Magnet System}
 \label{sec:magnets}
+
+The ATLAS magnet system consists of four superconducting magnets: an inner solenoid, a barrel toroid, and two endcap toroids. Collectively, they are 22m in diameter and 26m long, and their basic layout can be seen in \autoref{fig:magnets}.
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/ATLcoilGeom.eps}
+\caption{The magnet system of the ATLAS detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac{ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac{MS}.}
+\label{fig:magnets}
+\end{figure}
+\end{centering}
+
+The solenoid sits inside the calorimeter volume and provides a uniform 2T magnetic field to particles traveling through the \ac{ID}. This axial field causes the trajectories of charged particles to bend in the $x-y$ plane, and measurements of the curvature of these trajectories give the most accurate \pt measurement for many particles. 
+
+Because the solenoid sits between the tracking system and the calorimeter, it is important that it interfere minimally with particles in order to allow the calorimeter to measure their full energies. 
 
 \section{The Trigger System}
 \label{sec:Trigger}
