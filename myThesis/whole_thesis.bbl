@@ -286,6 +286,26 @@
   \field{year}{2015}
 \endentry
 
+\entry{ATL-DAQ-PUB-2016-001}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{ATL-DAQ-PUB-2016-001}
+  \field{title}{{2015 start-up trigger menu and initial performance assessment
+  of the ATLAS trigger using Run-2 data}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2136007
+  \endverb
+  \field{year}{2016}
+\endentry
+
 \entry{Aad:2015hna}{article}{}
   \name{author}{1}{}{%
     {{}%
