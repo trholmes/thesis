@@ -54,6 +54,27 @@
   \field{year}{2008}
 \endentry
 
+\entry{ATLAS:2012ema}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{ATLAS-CONF-2012-046}
+  \field{title}{{Search for physics beyond the Standard Model in events with a
+  $Z$ boson and large missing transverse momentum using $\sqrt{s}=7$ TeV $pp$
+  collisions from the LHC with the ATLAS detector}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/1448222
+  \endverb
+  \field{year}{2012}
+\endentry
+
 \entry{zmet}{booklet}{}
   \name{author}{1}{}{%
     {{}%
@@ -563,6 +584,34 @@
   \field{isbn}{9780511254857, 9781107404267, 9780521860369}
   \field{title}{{The standard model: A primer}}
   \field{year}{2006}
+\endentry
+
+\entry{Chatrchyan:2012qka}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{CMS Collaboration}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1016/j.physletb.2012.08.026
+  \endverb
+  \verb{eprint}
+  \verb 1204.3774
+  \endverb
+  \field{pages}{260\bibrangedash 284}
+  \field{title}{{Search for physics beyond the standard model in events with a
+  $Z$ boson, jets, and missing transverse energy in $pp$ collisions at
+  $\sqrt{s}=7$ TeV}}
+  \field{volume}{716}
+  \field{journaltitle}{Phys. Lett. B}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2012}
 \endentry
 
 \entry{Khachatryan:2016gxp}{article}{}

@@ -117,11 +117,41 @@ Another task of the calorimeter system is to limit punch-through to the \ac{MS},
 
 \paragraph{The FCal} or forward calorimeter provides electromagnetic and hadronic coverage at very high $\eta$ ($3.1 < |\eta| < 4.9$). This calorimeter also uses liquid argon as its active material, and uses copper-tungsten as the absorber. 
 
-
 \section{The Muon Spectrometer}
 \label{sec:MS}
 
+The \ac{MS} measures charged particles that escape from the calorimeter system. Because the calorimeters are designed to completely absorb the energy of electrons, photons, hadrons, and jets, the \ac{MS} mainly detects muons, which escape from the calorimeter with very little loss of energy. The goal of the \ac{MS} is to give a high-precision measurement of these muons, and also to be able to quickly identify events with muons for the sake of triggering, discussed in \autoref{sec:Trigger}. The layout of the \ac{MS} can be seen in \autoref{fig:muon_xy} and \autoref{fig:muon_rz}. Muons can be measured for all $|\eta|$<2.7, and they can be triggered on for $|\eta|$<2.4. The entire system is about 24m tall and 40m long. 
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/Muon_sector_numbering.eps}
+\caption{An $x$-$y$ view of the \ac{MS}. In it, the three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac{MS} is about 20m in diameter.}
+\label{fig:muon_xy}
+\end{figure}
+\end{centering}
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/Muon_rz_large_sect_6.eps}
+\caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible, and all muons at $|\eta|$<2.7 should traverse three detectors, assuming they propagate in an approximately straight line from the interaction point.s}
+\label{fig:muon_rz}
+\end{figure}
+\end{centering}
+
+To achieve these goals, the \ac{MS} has several subsystems. The system responsible for precision measurement is called the \acp{MDT}. This subdetector consists of chambers of three to eight layers of tubes, with three layers of chambers covering both the barrel and end-cap regions. The tubes each contain an Ar/CO$_2$ gas mixture and a single high voltage wire which runs at its center along its length. Charged particles excite the gas as they pass through it, producing electrons which drift towards the high voltage wire. The resulting electric signal is read out, and the magnitude and timing of the signals are both used to differentiate particle traces from noise. 
+
+Though very effective at giving a precise measurement, the \acp{MDT} have several shortcomings. The first is that the measurement is only precise in the direction perpendicular to the tubes; in the direction parallel to them, the resolution is not much better than the length of the drift tube. The resolution in the perpendicular direction is about 35 $\mu$m with the combined measurement of all the tubes in a chamber. 
+
+The \acp{MDT} are slow, with a maximum drift time of about 700ns. Because collisions occur every 25ns, this readout cannot be used for triggering. In addition, in high-rate regions of the detector, the \acp{MDT} are very susceptible to having multiple hits in one readout window. To minimize this effect, another detector called the \acp{CSC} is used. This detector consists of multi-wire proportional chambers which have cathode strips on either side of the anode in orthogonal directions, allowing for a 40$\mu$m resolution in one direction and 5mm resolution in the other. Their drift times are also much faster than the \acp{MDT}, at about 40ns, so they are placed in the forward region of the detector (2<$|\eta|$<2.7) where the incident particle rates are much higher. 
+
+To achieve rates fast enough to be used for triggering, the \acp{RPC} and \acp{TGC} are used. These chambers can produce track information roughly as fast as the collision rate. The \acp{RPC} are used in the barrel and are made up of two high-resistance plastic plates with a gas mixture under an electric field between them. Passing particles ionize this gas, and the resulting signal is read out via metallic strips mounted to the plastic plates. The \acp{TGC} used in the endcap are a form of multi-wire proportional chambers, like the \acp{CSC}. Unlike the \acp{CSC}, the cathode is placed extremely close to the wires, speeding up its operation. 
+
+The massive system is also subject to deformations due to gravity. To maintain this good precision, these deformations are constantly monitored in each chamber with a set of four optical alignment rays, which give alignment information at the precision of <30$\mu$m. In addition, a sag-adjustment system can use this information to re-align any wires that droop under gravity's pull. Lastly, the \ac{MS} can be aligned using the tracks made from hits it measures, discussed more in \autoref{sec:reco_muons}.
+
 \section{The Magnet System}
+\label{sec:magnets}
 
 \section{The Trigger System}
 \label{sec:Trigger}

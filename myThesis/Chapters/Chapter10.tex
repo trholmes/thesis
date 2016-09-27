@@ -131,8 +131,21 @@ VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \label{tab:fs_comparison}
 \end{table}
 
+%-------------------------------------------------------------------------------------
+
 \section{\dyjets Background}
 \label{sec:bg-z}
+
+The \dyjets background is mainly produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. The boson typically recoils off a hadronic system, which can produce the jet and \HT requirement required in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in its hadronic decays), so events often appear with high \met values due to extreme mismeasurement. Because SRZ cuts on the very high \met tails of a $Z$ distribution, a small change in the assumptions about jet resolution or energy scale in \ac{MC} can drastically change the prediction, and a low \dyjets prediction can result in a signal-like peak appearing in the final result. 
+
+Because of this inaccuracy in the \ac{MC} prediction in these high \met tails, a data-driven method is used to estimate this background. The method takes $\gamma$+jets events which, like the \dyjets events, contain one boson recoiling against a hadronic system, and corrects for the kinematic differences between $\gamma$ and $Z$s \cite{ATLAS:2012ema, Chatrchyan:2012qka}. These sample of photons used in taken from CR-$\gamma$, which is similar to the SRZ selection without the \met requirement, but it vetoes leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
+
+The most significant experimental difference between $Z$ and photon events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which can then be observed by the ATLAS detector. In contrast, the photon is stable, and can be directly detected by ATLAS. This means that the reconstructed $Z$ boson and the directly observed photon have very different energy resolutions.
+
+
+
+
+%-------------------------------------------------------------------------------------
 
 \section{Fakes}
 \label{sec:bg-fake}
@@ -214,9 +227,11 @@ This method is validated in a fakes-rich validation region with a same-sign lept
 
 The remaining backgrounds are diboson processes (excluding $WW$, which is included in the \ac{FS} background) and rare top processes. Dibosons events make up about 30\% of the events in SRZ, while rare top process contributions are much smaller. Both are taken directly from \ac{MC}, with validation regions to confirm the accuracy of the prediction. These regions are \autoref{tab:regions-z}, and target different parts of these backgrounds. VR-ZZ is a four-lepton selection designed to select a very pure sample of $ZZ$ events. VR-WZ requires three leptons and specific cuts on $m_T$, the transverse mass, and \met in order to select mostly $WZ\rightarrow lll\nu$ events. VR-3L is similar to VR-S, but loosens the \HT and \met cuts and requires at least three leptons. This region is designed to target any $\geq3$-lepton process in a region as kinematically close to SRZ as possible while still maintaining enough events to validate. The makeups of these multilepton validation regions, as well as VRS, are shown in \autoref{tab:VRresults}.
 
+
 \begin{table}
 \begin{center}
 \setlength{\tabcolsep}{0.0pc}
+\resizebox{1\textwidth}{!}{
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
 \noalign{\smallskip}\hline\noalign{\smallskip}
                                                                              & VR-S            & VR-WZ        & VR-ZZ          & VR-3L   \\[-0.05cm]
@@ -225,19 +240,21 @@ Observed events                                                              & $
 \noalign{\smallskip}\hline\noalign{\smallskip}
 %Total expected background events                                             & $223.92 \pm 40.84$   &   $612.97\pm8.65$   &    $139.29\pm4.95$    &    $34.52\pm1.39$ \\
 % here the total background uncertainty is updated to the quadrature sum of each bkg uncertainty
-Total expected background events                                             & $224 \pm 41$   &   $613\pm66$   &    $139\pm25$    &    $35\pm10$ \\
+Total expected background                                             & $224 \pm 41$   &   $613\pm66$   &    $139\pm25$    &    $35\pm10$ \\
 \noalign{\smallskip}\hline\noalign{\smallskip}
-  Flavour-symmetric (\ttbar, $Wt$, $WW$, $Z\rightarrow\tau\tau$)             & $99\pm8$   &   -                &    -                 &    -              \\
+  Flavour-symmetric             & $99\pm8$   &   -                &    -                 &    -              \\
   $WZ/ZZ$ events                                                             & $27\pm13$  &   $573\pm66$ &    $139\pm25$        &    $25\pm10$ \\
   Rare top events                                                            & $11\pm3$   &   $14\pm3$   &    $0.44\pm0.11$     &    $9.1\pm2.3$  \\
   \dyjets\ events                                                            & $84\pm37$  &   -                &    -                 &    -              \\
   Fake lepton events                                                         & $4\pm4$    &   $26\pm6$   &    -                 &    $0.6\pm0.3$  \\
  \noalign{\smallskip}\hline\noalign{\smallskip}
 \end{tabular*}
+} % end of resizebox
 \end{center}
 \caption{Yields in validation regions. In VRS, data-driven background estimates are used for \dyjets, fakes, and \ac{FS} processes. All other backgrounds are taken from \ac{MC}, including all backgrounds in the multi-lepton \ac{VR}s. Uncertainties include statistical and systematic components. }
 \label{tab:VRresults}
 \end{table}
+
 
 To confirm that the kinematics are well modeled in the diboson validation regions, distributions of boson mass and \pt are shown in \ac{MC} and data. \autoref{fig:diboson_wz} shows these distributions for VR-WZ, and \autoref{fig:diboson_zz} shows these distributions for VR-ZZ. 
 
