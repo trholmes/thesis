@@ -29,29 +29,70 @@ The goal of the \ac{LHC} is to provide high luminosity proton-proton collisions 
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/lhc/Cern-accelerator-complex.png}
-\caption{The pre-accelerators of the \ac{LHC}}
+\caption{The pre-accelerators of the \ac{LHC}.}
 \label{fig:preacc}
 \end{figure}
 \end{centering}
 
-The chain begins with when hydrogen gas is stripped of its electrons and injected in short pulses into Linac2, a linear accelerator which uses \ac{RF} cavities, which use alternating positive and negative electric fields to simultaneously push and pull particles forward through the accelerator. Quadropole magnets along the way keep the beam focused. By the end of the accelerator, protons have reached 50 \mev. 
+The chain begins with when hydrogen gas is stripped of its electrons and injected in short pulses into Linac2, a linear accelerator which uses \ac{RF} cavities, which use alternating positive and negative electric fields to simultaneously push and pull particles forward through the accelerator. This \ac{RF} behavoir keeps the bunches of protons resulting from the original pulses separated, beginning the formation of the bunch structure used for collisions. Quadropole magnets along the accelerator keep the beam focused. By the end of the accelerator, protons have reached 50 \mev. 
 
 The proton beam is then injected into the \ac{PSB}, the first circular accelerator in the pre-accelerator chain. It increases its magnetic field as the protons increase in speed, ultimately accelerating them to 1.4 \gev. 
 
 At this point the proton moves on to the \ac{PS}, a 600 m long circular accelerator that consists of 277 electromagnets that accelerate the protons up to 25 \gev, and 100 additional dipole magnets to bend the beam. 
 
-The last accelerator before injection into the \ac{LHC} is the \ac{SPS}, a 7 km long ring which is responsible for the discover of the $W$ and $Z$ bosons. The \ac{SPS} accelerates particles up to 450 \gev before they are launched into the \ac{LHC}. It is in this accelerator that the bunch structure 
+The last accelerator before injection into the \ac{LHC} is the \ac{SPS}, a 7 km long ring which is responsible for the discover of the $W$ and $Z$ bosons. The \ac{SPS} accelerates particles up to 450 \gev before they are launched into the \ac{LHC}. 
+
+Proton bunches are structured for ease of acceleration, with distinct features resulting from each of the pre-accelerators. The \ac{PS} produces 72 bunches separated by 25 ns, which are injected into the \ac{SPS}, as seen in \autoref{fig:bunches}. However, as the magnetic field directing these protons out of the \ac{PS} loop is turned on, there must be a gap in the bunch structure. Without this gap, called the injection kicker rise time, the changing magnetic field would direct particles out of the accelerator and produce high amounts of unsafe radiation around the \ac{PS}. A similar gap in bunch structure is required for the injection from the \ac{SPS} to the \ac{LHC}. The injection process is repeated until the \ac{LHC} is completely filled with around 2000 bunches, which takes about three minutes.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/lhc/bunch_structure.png}
+\caption{Bunch structure in the \ac{PS}, \ac{SPS}, and \ac{LHC}.}
+\label{fig:bunches}
+\end{figure}
+\end{centering}
+
+\section{Operation of the Large Hadron Collider}
+
+The \ac{LHC} consists of eight straight sections each connected by an arc. In each straigh section, \ac{RF} cavities accelerate protons, ultimately bringing them up to 6.5 \gev. Between these straight sections, 8.4 T dipole magnets bend the beams to maintain the approximately circular path. However, because the \ac{LHC} is a proton-proton collider as opposed to a proton-antiproton collider, the two counter-rotating beams must be housed in separate rings and accelerated separately. To achieve this, twin-bore superconduncting magnets, one example of which can be seen in \autoref{fig:magnet}, surrounds the two rings and accelerates them both. Quadropole magnets are used at the four collision points to focus the beams, which cross at an interaction point at the center of a detector. In total there are 1232  main dipole magnets over 5000 additional magnets, which are all are superconducting and kept below their critical temperatures by liquid helium cooling. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/lhc/magnet.jpg}
+\caption{Cross-section of a cryodipole magnet in the \ac{LHC}.}
+\label{fig:magnet}
+\end{figure}
+\end{centering}
+
+When first injected into the \ac{LHC}, the protons must be accelerated over many turns through the machine, with the magentic field from the dipoles increasing with each pass to apply more force with which to bend the beam. Once the protons have reached a maximum energy, a process called ``squeezing'' occurs, in which the the total transverse area of the beam is reduced and bunches are elongated slightly. The shape produced by this process determines the ``beam spot'' for the ATLAS detector, the measurement of the area in which collisions occur within the detector. As shown in \autoref{fig:beam_spot}, the collisions all occur very close together in the $x-y$ plane, but have a long spread in the $z$ direction.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{figures/lhc/beamspot-run215456-vtx-yx.eps}
+\includegraphics[width=.45\linewidth]{figures/lhc/beamspot-run215456-vtx-xz.eps}
+\caption{Beam spot in the ATLAS detector for one run in 2015. Distributions show only the highest \pt vertex per event. Left is the $x-y$ distribution of vertices, while the right plot shows the $x-z$ distribution.}
+\label{fig:beam_spot}
+\end{figure}
+\end{centering}
 
 
+\section{Luminosity}
 
+\section{Pileup in $p-p$ Collisions}
 
-The \ac{LHC} consists of eight straight sections each connected by an arc, so magnets can alternately accelerate and turn the proton beams. However, because the \ac{LHC} is a proton-proton collider as opposed to a proton-antiproton collider, the two counter-rotating beams must be housed in separate rings and accelerated separately. To achieve this, a twin-bore superconduncting magnet surrounds the two rings and accelerates them both. 
+The \ac{LHC} collides bunches of many billions of protons, so each collision can have more than one pair of interacting protons. In fact, the average number of simultaneous interactions in 13 \tev data, shown in \autoref{fig:ninteractions}, is about twenty. This effect is called pile-up, and can be a difficult challenge for the ATLAS collaboration. Pile-up typically results in additional jets in an event, coming from different primary vertices than the interesting objects in the event. These pile-up jets must be identified and rejected in order to reduce backgrounds. 
 
-
-
-
-
-
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/atlas/mu_2015_2016_ICHEP.pdf}
+\caption{Average number of interactions per crossing shown for 2015 and 2016 separately, as well as the sum of the two years.}
+\label{fig:ninteractions}
+\end{figure}
+\end{centering}
 
 
 
