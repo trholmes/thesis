@@ -78,15 +78,67 @@ When first injected into the \ac{LHC}, the protons must be accelerated over many
 \end{figure}
 \end{centering}
 
+Once the beams are at a stable energy and have been squeezed, the \ac{LHC} indicates that it is physics-ready to the experiments around the ring, and, after some additional checks by each experiment, data-taking can begin. As collisons occur, the beam is depleted, and when it is sufficiently depleted to require a new fill, or if any instability occurs, the beam is dumped into a cavern full of steel and concrete, which can absorb the energy. 
 
 \section{Luminosity}
 
-\section{Pileup in $p-p$ Collisions}
+The goal of the collisions provided by the \ac{LHC} is to produce \ac{SM} and \ac{BSM} particles, which can be observed by the detectors. How frequently a given process could occur was a crucial consideration in its design. The number of events of a given type is given by
 
-The \ac{LHC} collides bunches of many billions of protons, so each collision can have more than one pair of interacting protons. In fact, the average number of simultaneous interactions in 13 \tev data, shown in \autoref{fig:ninteractions}, is about twenty. This effect is called pile-up, and can be a difficult challenge for the ATLAS collaboration. Pile-up typically results in additional jets in an event, coming from different primary vertices than the interesting objects in the event. These pile-up jets must be identified and rejected in order to reduce backgrounds. 
+\begin{equation}
+N_{event} = \mathcal{L}\sigma_{event}
+\end{equation}
+
+where $\mathcal{L}$ is the luminosity delivered by the \ac{LHC} and $\sigma_{event}$ is the cross-section of the process in question. These cross-sections vary over many orders of magnitudes for different processes, as shown in \autoref{fig:cross_sections}, a plot of many different \ac{SM} cross-sections. As a consequence, a very large amount of luminosity is required to produce the more rare events, and to have enough statistical power to differentiate them from other much more common events.   
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.60\linewidth]{figures/lhc/crosssections2013.jpg}
+\caption{Cross-sections for many \ac{SM} processes at the Tevatron and \ac{LHC} \cite{crosssections}.}
+\label{fig:cross_sections}
+\end{figure}
+\end{centering}
+
+The instantaneous luminosity at the \ac{LHC} is given by
+
+\begin{equation}
+\mathcal{L} = \frac{ N^2_b n_b f_{rev} \gamma_r }{ 4\pi \epsilon_n \beta* } F
+\end{equation}
+
+where $N_b$ is the number of protons per bunch ($\sim10^11$), $n_b$ is the number of bunches in each beam ($\sim10^3$), $f_{rev}$ is the number of times per second that the beam travels around the ring, $\gamma_r$ is the relativistic gamma factor, $\epsilon_n$ is the normalized transverse beam emittance, and $\beta*$ is the $\beta$-function at the collision point, which describes the transverse displacement of particles in the beam. $F$ gives the reduction factor due to the geometry of the beam crossings, and is given by
+
+\begin{equation}
+F = (1+ (\frac{\theta_c \sigma_z}{2\sigma*})^2)^{-1/2}
+\end{equation}
+
+where $\theta_c$ is the crossing angle of the beams, $\sigma_z$ is the RMS of the bunch length in the $z$ direction, and $\sigma*$ is the same in the transverse direction.
+
+As the proton beams circulate and collide, $N_b$ decreases, producing a falling instantaneous luminosity, as seen a Run 1 example in \autoref{fig:instlumi}. In Run 2, peak instantaneous luminosity was brought up to $10^{34}$ cm$^{-2}$s$^{-1}$. This high instantaneous luminosity and consistent running resulted in much faster data collection than in Run 1, as seen in \autoref{fig:lumi_vs_year}. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/lhc/lumi1883.jpg}
+\caption{Instantaneous luminosity of one fill of 7 \tev data in 2011.}
+\label{fig:instlumi}
+\end{figure}
+\end{centering}
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/lhc/intlumivsyear.eps}
+\caption{ATLAS luminosity for Run 1 and Run 2, as of September 2016.}
+\label{fig:lumi_vs_year}
+\end{figure}
+\end{centering}
+
+\section{Pile-up in $p-p$ Collisions}
+
+One consequence of the high instantaneous luminosity is ``pile-up'', or multiple simultaneously interactions. Because each bunch has on order 100 billion protons, it is very likely that multiple protons will collide in the same bunch crossing. In fact, the average number of simultaneous interactions in 13 \tev data, shown in \autoref{fig:ninteractions}, is about twenty. 
+
+\begin{centering}
+\begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/atlas/mu_2015_2016_ICHEP.pdf}
 \caption{Average number of interactions per crossing shown for 2015 and 2016 separately, as well as the sum of the two years.}
@@ -94,6 +146,6 @@ The \ac{LHC} collides bunches of many billions of protons, so each collision can
 \end{figure}
 \end{centering}
 
-
+Pile-up can be a difficult challenge for the ATLAS collaboration because it typically results in additional jets in an event, and can increase \ac{SM} backgrounds for analyses seeking to identify events with jets. It can also add to the overall hadronic energy of an event, and that energy can be mis-assigned to other objects. Fortunately, it is typically possible to resolve the different vertices that each proton-proton collision makes, and so pile-up jets can be identified and rejected. 
 
 

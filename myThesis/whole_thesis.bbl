@@ -16,6 +16,10 @@
   {}
 \endgroup
 
+\entry{crosssections}{misc}{}
+  \field{sortinit}{0}
+\endentry
+
 \entry{2012lumi}{article}{}
   \name{author}{1}{}{%
     {{}%

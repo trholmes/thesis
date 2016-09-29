@@ -41,12 +41,17 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12228 items from 5000.
+Reallocated field_info (elt_size=4) to 12367 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
 "{" immediately follows a field part---line 157 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 163 of file bib/strong2l_paper.bib
+ :   
+ :   author        = "W.J. Stirling",
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Database file #3: atlaslatex/bibtex/bib/ATLAS.bib
 Database file #4: atlaslatex/bibtex/bib/CMS.bib
@@ -79,45 +84,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 52 entries,
+You've used 53 entries,
             6047 wiz_defined-function locations,
-            1502 strings with 22233 characters,
-and the built_in function-call counts, 148809 in all, are:
-= -- 5068
+            1503 strings with 22246 characters,
+and the built_in function-call counts, 150227 in all, are:
+= -- 5108
 > -- 4932
-< -- 1277
-+ -- 1231
+< -- 1291
++ -- 1232
 - -- 1854
-* -- 11260
-:= -- 8816
+* -- 11295
+:= -- 8842
 add.period$ -- 0
-call.type$ -- 52
-change.case$ -- 51
+call.type$ -- 53
+change.case$ -- 52
 chr.to.int$ -- 40
-cite$ -- 102
-duplicate$ -- 17328
-empty$ -- 16659
+cite$ -- 104
+duplicate$ -- 17526
+empty$ -- 16894
 format.name$ -- 3168
-if$ -- 33799
+if$ -- 34149
 int.to.chr$ -- 0
-int.to.str$ -- 149
+int.to.str$ -- 150
 missing$ -- 0
-newline$ -- 1382
+newline$ -- 1386
 num.names$ -- 2246
-pop$ -- 16230
+pop$ -- 16564
 preamble$ -- 1
 purify$ -- 645
 quote$ -- 0
-skip$ -- 9205
+skip$ -- 9278
 stack$ -- 0
-substring$ -- 1733
-swap$ -- 5951
-text.length$ -- 1279
-text.prefix$ -- 51
+substring$ -- 1734
+swap$ -- 5996
+text.length$ -- 1292
+text.prefix$ -- 52
 top$ -- 1
-type$ -- 1964
+type$ -- 2002
 warning$ -- 0
-while$ -- 1006
+while$ -- 1008
 width$ -- 0
-write$ -- 1329
-(There were 8 error messages)
+write$ -- 1332
+(There were 9 error messages)
