@@ -41,10 +41,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11533 items from 5000.
+Reallocated field_info (elt_size=4) to 12228 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 95 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 157 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
@@ -79,45 +79,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 47 entries,
+You've used 52 entries,
             6047 wiz_defined-function locations,
-            1466 strings with 17651 characters,
-and the built_in function-call counts, 135647 in all, are:
-= -- 4619
-> -- 4577
-< -- 1156
-+ -- 1146
-- -- 1729
-* -- 10323
-:= -- 8148
+            1502 strings with 22233 characters,
+and the built_in function-call counts, 148809 in all, are:
+= -- 5068
+> -- 4932
+< -- 1277
++ -- 1231
+- -- 1854
+* -- 11260
+:= -- 8816
 add.period$ -- 0
-call.type$ -- 47
-change.case$ -- 46
+call.type$ -- 52
+change.case$ -- 51
 chr.to.int$ -- 40
-cite$ -- 92
-duplicate$ -- 15754
-empty$ -- 15080
-format.name$ -- 2953
-if$ -- 30779
+cite$ -- 102
+duplicate$ -- 17328
+empty$ -- 16659
+format.name$ -- 3168
+if$ -- 33799
 int.to.chr$ -- 0
-int.to.str$ -- 138
+int.to.str$ -- 149
 missing$ -- 0
-newline$ -- 1261
-num.names$ -- 2066
-pop$ -- 14680
+newline$ -- 1382
+num.names$ -- 2246
+pop$ -- 16230
 preamble$ -- 1
-purify$ -- 583
+purify$ -- 645
 quote$ -- 0
-skip$ -- 8386
+skip$ -- 9205
 stack$ -- 0
-substring$ -- 1529
-swap$ -- 5383
-text.length$ -- 1168
-text.prefix$ -- 46
+substring$ -- 1733
+swap$ -- 5951
+text.length$ -- 1279
+text.prefix$ -- 51
 top$ -- 1
-type$ -- 1774
+type$ -- 1964
 warning$ -- 0
-while$ -- 929
+while$ -- 1006
 width$ -- 0
-write$ -- 1213
+write$ -- 1329
 (There were 8 error messages)
