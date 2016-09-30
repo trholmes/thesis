@@ -1,0 +1,23 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (g);
+    \vertex [left=of g] (a1) {\(\gamma\)};
+    \vertex [above right=of g] (a2) {\(W^+\)};
+	\vertex [below right=of g] (a3) {\(W^-\)};
+    \diagram* {
+    (a1) -- [photon] (g), 
+    (a2) -- [boson] (g), 
+    (g) -- [boson] (a3), 
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}
