@@ -52,7 +52,62 @@ Like leptons, the number of quarks in a state is conserved. However, because qua
 
 The fermions in the previous section interact via the electromagnetic, weak, and strong forces. In a perturbative quantum field theory, interactions via these forces are represented by mediating bosons. These force carriers interact only with particles charged with their  force's quantum numbers. The photon, for example, interacts only with electromagnetically charged particles. Gluons, mediators of the strong force, interact only with color charged particles, quarks and gluons. All fermions are weakly charged and interact with the weak force's mediators, the $W$ and $Z$ bosons. 
 
-The formulation for each of these forces is developed by requiring that the \ac{SM} lagrangian be locally gauge invariant. \cite{Griffiths:111880} This can be accomplished by adding gauge fields to the lagrangian, whose behavior under gauge transformations cancels out the gauge dependence of the free lagrangian. However, adding a mass term for these fields reintroduces gauge dependence, so this mechanism only creates forces mediated by massless particles. 
+The formulation for each of these forces is developed by requiring that the \ac{SM} lagrangian be locally gauge invariant. \cite{Griffiths:111880} This can be accomplished by adding gauge fields to the lagrangian, whose behavior under gauge transformations cancels out the gauge dependence of the free lagrangian. However, adding a mass term for these fields reintroduces gauge dependence, so this mechanism only creates forces mediated by massless gauge bosons. The addition of the Higgs field provides mass terms the weak gauge bosons without interfering with the gauge invariance. 
+
+The total gauged symmetry group for the \ac{SM} is $SU_c(3) \times SU_L(2) \times U_Y(1)$, with a total lagrangian which can be divided into several terms
+
+\begin{equation}
+\mathcal{L}_{SM} = \mathcal{L}_{strong} + \mathcal{L}_{electroweak} + \mathcal{L}_{Higgs}
+\end{equation}
+
+each of which will be described in detail in their respective sections. 
+
+\subsubsection{The Strong Force}
+
+The strong force is described by the theory of quantum chromodynamics, which is given by the lagrangian
+
+\begin{equation}
+\mathcal{L}_{SU(3)} = -\frac{1}{4}G^\alpha_{\mu\nu}G^{\alpha\mu\nu} - \frac{1}{2}\bar{Q}_m \fsl{D} Q_m
+\end{equation}
+
+where the $\alpha$ index runs from 1 to 8 and represents the different generators of SU(3), and $m$ indexes the three quark generations. $G^\alpha_{\mu\nu}$ is the field strength tensor and is defined as
+
+\begin{equation}
+G^\alpha_{\mu\nu} = \partial_\mu G^\alpha_\nu - \partial_\nu G^\alpha_\mu + g_3 f^\alpha_{\beta\gamma}G^\beta_\mu G^\gamma_\nu
+\end{equation}
+
+where $g_3$ is a function of the energy scale of the interaction $\mu$, and is related to the strong coupling constant by
+
+\begin{equation}
+\alpha_s(\mu) =  g_s(\mu)^2 / 4\pi . 
+\end{equation}
+
+This first term of the lagrangian gives the gluon self-coupling interactions, with terms involving 2, 3, and 4 gluon field terms. The 2-field portion is simply the field strength tensor, but the other terms give couplings that can be described by the feynman diagrams in \autoref{fig:feynman_gluons}.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{feynman/gluon_3.pdf}
+\includegraphics[width=.4\linewidth]{feynman/gluon_4.pdf}
+\caption{Gluon self coupling Feynman diagrams involving 3- and 4-gluon interactions.}
+\label{fig:feynman_gluons}
+\end{figure}
+\end{centering}
+
+In the second term, $\fsl{D} Q_m$ is the covariant derivative acting on the quark field. The quarks are in fact charged under all three forces, so the covariant derivative includes terms to make each of the forces gauge invariant. Thus this term introduces quark-boson interactions of four types, seen in \autoref{fig:feynman_quarks}. The quarks' coupling to the gluon is the strongest, with the other couplings happening at lower rates.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{feynman/quark_strong.pdf}
+\includegraphics[width=.45\linewidth]{feynman/quark_em.pdf}
+\includegraphics[width=.45\linewidth]{feynman/quark_w.pdf}
+\includegraphics[width=.45\linewidth]{feynman/quark_z.pdf}
+\caption{Quark couplings to the different types of gauge boson.}
+\label{fig:feynman_quarks}
+\end{figure}
+\end{centering}
+
 
 \subsubsection{The Electromagnetic Force}
 \label{sec:em}
@@ -195,16 +250,7 @@ To first order, a proton consists of three quarks: two up quarks and one down qu
 \end{figure}
 \end{centering}
 
-The \ac{LHC} collides bunches of many billions of protons, so each collision can have more than one pair of interacting protons. In fact, the average number of simultaneous interactions in 13 \tev data, shown in \autoref{fig:ninteractions}, is about twenty. This effect is called pile-up, and can be a difficult challenge for the ATLAS collaboration. Pile-up typically results in additional jets in an event, coming from different primary vertices than the interesting objects in the event. These pile-up jets must be identified and rejected in order to reduce backgrounds. 
 
-\begin{centering}
-\begin{figure}[bth]
-\myfloatalign
-\includegraphics[width=.85\linewidth]{figures/atlas/mu_2015_2016_ICHEP.pdf}
-\caption{Average number of interactions per crossing shown for 2015 and 2016 separately, as well as the sum of the two years.}
-\label{fig:ninteractions}
-\end{figure}
-\end{centering}
 
 %------------------------------------------------
 

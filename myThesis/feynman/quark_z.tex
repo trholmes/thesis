@@ -1,0 +1,23 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (g);
+    \vertex [left=of g] (a1) {\(Z\)};
+    \vertex [above right=of g] (a2) {\(q\)};
+	\vertex [below right=of g] (a3) {\(q\)};
+    \diagram* {
+    (a1) -- [boson] (g), 
+    (a2) -- [fermion] (g), 
+    (g) -- [fermion] (a3), 
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}

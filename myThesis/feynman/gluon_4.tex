@@ -1,0 +1,25 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (g);
+    \vertex [above left=of g] (a1) {\(g\)};
+	\vertex [below left=of g] (a4) {\(g\)};
+    \vertex [above right=of g] (a2) {\(g\)};
+	\vertex [below right=of g] (a3) {\(g\)};
+    \diagram* {
+    (a2) -- [gluon] (g), 
+    (a3) -- [gluon] (g), 
+    (a1) -- [gluon] (g), 
+    (a4) -- [gluon] (g), 
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}
