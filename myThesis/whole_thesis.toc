@@ -86,13 +86,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{35}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{36}{figure.caption.56}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{36}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{36}{figure.caption.56}
+\contentsline {paragraph}{The Tile Calorimeter}{36}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{36}{figure.caption.56}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{36}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{36}{figure.caption.56}
+\contentsline {paragraph}{The FCal}{36}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}The Muon Spectrometer}{36}{section.4.4}
 \defcounter {refsection}{0}\relax 
@@ -130,11 +130,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{57}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{57}{figure.caption.77}
+\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{57}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson}{57}{figure.caption.78}
+\contentsline {paragraph}{diboson ($VV$)}{57}{figure.caption.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{58}{figure.caption.79}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{58}{figure.caption.80}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Monte Carlo Samples}{59}{section.7.1}
 \defcounter {refsection}{0}\relax 
