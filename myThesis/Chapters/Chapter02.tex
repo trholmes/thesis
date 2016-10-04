@@ -329,24 +329,61 @@ However, some of these seemingly independent parameters have suspicious symmetry
 
 \section{Supersymmetry}
 
-\ac{SUSY} was proposed and developed in the 1970s to give solutions to many of these \ac{SM} shortcomings. The theory works by extending the \ac{SM} to include a symmetry between fermions and bosons. This requires the existence of many new particles - a bosonic ``sfermion'' for each fermion of the \ac{SM} and a fermionic ``gaugino'' for each of the gauge bosons. These superpartners of \ac{SM} particles should have identical quantum numbers to the original particle, except for their spin. \autoref{fig:sparticles} shows the \ac{SM} particles and their superpartners.
+\ac{SUSY} was proposed and developed in the 1970s to give solutions to many of these \ac{SM} shortcomings. The theory works by introducing a fermionic symmetry to the \ac{SM}, in addition to the usual spacetime symmetries of translations, rotations, and changes of Lorentz frame. The combination of the usual spacetime with this fermionic dimension is called a ``superspace''. Rotations in this dimension result in a particle's spin changing by 1/2, turning a spin-1/2 fermion into a spin-0 particle, for example. As a consequence, this symmetry requires the existence of many new particles - a bosonic ``sfermion'' for each fermion of the \ac{SM} and a fermionic ``gaugino'' for each of the gauge bosons. These superpartners of \ac{SM} particles should have identical quantum numbers to the original particle, except for their spin. \autoref{tab:sparticles} shows the \ac{SM} particles and their superpartners. 
 
-Of course, if there were a ``selectron'', for example, with identical mass to the electron, it would have been detected long ago. In fact, such a particle would fundamentally change atomic structure, with the bosonic selectrons capable of piling into the ground state of an atom, and removing all the interesting valence-shell interactions of electrons that determine molecular structure. Thus, if \ac{SUSY} does exist, the symmetry must be broken, with much higher masses for the superpartners than the original \ac{SM} particles. 
+%TODO make better figure
 
-\begin{centering}
-\begin{figure}[!hbt]
-\myfloatalign
-\includegraphics[width=.9\linewidth]{figures/theory/27341202.jpg}
-\caption{\ac{SM} particles and their superpartners, with mass very roughly indicated by size. \cite{newscientist-pz}}
-\label{fig:sparticles}
-\end{figure}
-\end{centering}
+\begin{table}
+\begin{center}
+ \begin{tabular}{cc|c|c|c}
+   \hline 
+   \multicolumn{2}{c|}{Names} & sparticles & particles & $SU(3)_C, SU(2)_L, U(1)_Y$ \\
+   \hline
+   \hline
+   \multirow{3}{*}{squarks, quarks} & $Q$ 		& ($\squ[L] \sqd[L]$) & ($u_L d_L$) 		& ($\bf{3}, \bf{2}, \frac{1}{6}$) 		\\
+   									& $\squ$ 	& $\squ[R]^*$ 		& $u^\dagger_R$ 	& ($\bf{\bar{3}}, \bf{1}, -\frac{2}{3}$) 	\\
+   									& $\sqd$ 	& $\sqd[R]^*$ 		& $d^\dagger_R$ 	& ($\bf{\bar{3}}, \bf{1}, \frac{1}{3}$) 	\\		
+   \hline
+   \multirow{2}{*}{sleptons, leptons} & $L$ 	& ($\slneu \sle[L]$) & ($\nu e_L$) 		& ($\bf{1}, \bf{2}, -\frac{1}{2}$) 		\\
+   									& $\bar{e}$ & $\sle[R]^*$ 		& $e^\dagger_R$ 	& ($\bf{1}, \bf{1}, 1$) 					\\
+   \hline
+   \multirow{2}{*}{Higgs, higgsinos} & $H_u$ 	& ($\Hou[+] \Hou[0]$) 	& ($H^+_u H^0_u$)  & ($\bf{1}, \bf{2}, \frac{1}{2}$) 	\\
+   									& $H_d$ 	& ($\Hod[0] \Hod[-]$) 	& ($H^0_d H^-_d$)  & ($\bf{1}, \bf{2}, -\frac{1}{2}$) 	\\  
+   \hline
+   \multicolumn{2}{c|}{gluino, gluon}	& $\go$ 			& $g$			& ($\bf{8}, \bf{1}, 0$)		\\							
+   \hline
+   \multicolumn{2}{c|}{winos, $W$ bosons}	& $\Wo^\pm \Wo^0$ 	& $W^\pm W^0$	& ($\bf{1}, \bf{3}, 0$)		\\							
+   \hline
+   \multicolumn{2}{c|}{bino, $B$ boson}	& $\Bo^0$ 			& $B^0$			& ($\bf{1}, \bf{1}, 0$)		\\							
+
+\hline
+\hline
+ \end{tabular}
+\end{center}
+ \caption{Supermultiplets of the \ac{MSSM}. Sfermions, on the first five rows, are all spin-0. Higgsinos and gauginos are all spin-1/2. Three sets of each fermion's supermultiplet exist, one for each generation. \cite{Martin:1997ns}}
+ \label{tab:sparticles}
+\end{table}
 
 
 
-\subsection{Supersymmetry Phenomenology}
+% \begin{centering}
+% \begin{figure}[!hbt]
+% \myfloatalign
+% \includegraphics[width=.9\linewidth]{figures/theory/27341202.jpg}
+% \caption{\ac{SM} particles and their superpartners, with mass very roughly indicated by size. \cite{newscientist-pz}}
+% \label{fig:sparticles}
+% \end{figure}
+% \end{centering}
 
-\cite{Martin:1997ns}
+If the theory is symmetric under these fermionic rotations, these particle-sparticle pairs can be described by a single ``superfield'', which simultaneously describes the behavior of both \ac{SM} and \ac{SUSY} particles in the superspace. However, this completely symmetric behavior is untenable given basic observations of matter in the universe. For example, if there were a ``selectron'' (the superpartner of the electron, $\sle$), for example, with identical mass to the electron, it would have been detected long ago. In fact, such a particle would fundamentally change atomic structure, with the bosonic selectrons capable of piling into the ground state of an atom, and removing all the interesting valence-shell interactions of electrons that determine molecular structure. Thus, if \ac{SUSY} does exist, the symmetry must be broken, with much higher masses for the superpartners than the original \ac{SM} particles. 
+
+\subsection{The Minimal Supersymmetric Standard Model}
+
+The \ac{MSSM} was designed to be the simplest supersymmetric extension of the \ac{SM} that remains self consistent, and it results in the particles seen in \autoref{tab:sparticles}\cite{Martin:1997ns}. The formulation of the \ac{MSSM} begins by introducing a second Higgs doublet to account for the different masses of the sparticles. As with the \ac{SM} Higgs, electroweak symmetry breaking results in the loss of degrees of freedom, and only five states remain, the lightest of which, $h^0$, can be interpreted as the \ac{SM} Higgs already discovered. There are two remaining neutral states, $A^0$ and $H^0$, as well as two charged Higgses, $H^\pm$. 
+
+The neutral Higgs states mix with the neutral gauge bosons, while the charged Higgs states mix with the charged gauge bosons, producing a series of states labeled only by their charge and the order of their masses. The neutral states, collectively called the neutralinos, are identified from lightest to heaviest, $\No[1], \No[2], \No[3],$ and $\No[4]$. The charged states, referred to as charginos, are similarly called $\Co[1]$ and $\Co[2]$.
+
+
 
 \subsection{Solutions to Standard Model Problems}
 

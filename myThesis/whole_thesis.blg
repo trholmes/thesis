@@ -44,14 +44,22 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 12506 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 157 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 169 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 163 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 176 of file bib/strong2l_paper.bib
+ :       howpublished  = \url
+ :                           {"https://www.newscientist.com"},
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 181 of file bib/strong2l_paper.bib
  :   
  :   author        = "W.J. Stirling",
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3720 of file bib/strong2l_paper.bib
+ : @article{Martin:1997ns
+ :                       ,
 I'm skipping whatever remains of this entry
 Database file #3: atlaslatex/bibtex/bib/ATLAS.bib
 Database file #4: atlaslatex/bibtex/bib/CMS.bib
@@ -125,4 +133,4 @@ warning$ -- 0
 while$ -- 1026
 width$ -- 0
 write$ -- 1355
-(There were 9 error messages)
+(There were 11 error messages)
