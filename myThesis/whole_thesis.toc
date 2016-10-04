@@ -46,9 +46,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Supersymmetry}{18}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Supersymmetry Phenomenology}{19}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{19}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Supersymmetry Signatures in $p-p$ Collisions}{19}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
@@ -86,19 +86,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{35}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{35}{figure.caption.55}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{36}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{36}{figure.caption.55}
+\contentsline {paragraph}{The Tile Calorimeter}{36}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{36}{figure.caption.55}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{36}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{36}{figure.caption.55}
+\contentsline {paragraph}{The FCal}{36}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}The Muon Spectrometer}{36}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}The Magnet System}{38}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}The Trigger System and Data Acquisition}{39}{section.4.6}
+\contentsline {section}{\numberline {4.6}The Trigger System and Data Acquisition}{41}{section.4.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Object Reconstruction in the ATLAS Detector}}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -130,11 +130,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{55}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{55}{figure.caption.77}
+\contentsline {paragraph}{\ensuremath {t\mathaccentV {bar}716{t}}\xspace }{55}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson}{55}{figure.caption.78}
+\contentsline {paragraph}{diboson}{55}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{56}{figure.caption.79}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{56}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Monte Carlo Samples}{57}{section.7.1}
 \defcounter {refsection}{0}\relax 

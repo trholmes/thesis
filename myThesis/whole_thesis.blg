@@ -41,7 +41,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12367 items from 5000.
+Reallocated field_info (elt_size=4) to 12506 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
 "{" immediately follows a field part---line 157 of file bib/strong2l_paper.bib
@@ -84,45 +84,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 53 entries,
+You've used 54 entries,
             6047 wiz_defined-function locations,
-            1503 strings with 22246 characters,
-and the built_in function-call counts, 150227 in all, are:
-= -- 5108
-> -- 4932
-< -- 1291
-+ -- 1232
-- -- 1854
-* -- 11295
-:= -- 8842
+            1510 strings with 22429 characters,
+and the built_in function-call counts, 152831 in all, are:
+= -- 5192
+> -- 5010
+< -- 1315
++ -- 1247
+- -- 1882
+* -- 11476
+:= -- 8983
 add.period$ -- 0
-call.type$ -- 53
-change.case$ -- 52
+call.type$ -- 54
+change.case$ -- 53
 chr.to.int$ -- 40
-cite$ -- 104
-duplicate$ -- 17526
-empty$ -- 16894
-format.name$ -- 3168
-if$ -- 34149
+cite$ -- 106
+duplicate$ -- 17841
+empty$ -- 17202
+format.name$ -- 3216
+if$ -- 34742
 int.to.chr$ -- 0
-int.to.str$ -- 150
+int.to.str$ -- 152
 missing$ -- 0
-newline$ -- 1386
-num.names$ -- 2246
-pop$ -- 16564
+newline$ -- 1410
+num.names$ -- 2287
+pop$ -- 16876
 preamble$ -- 1
-purify$ -- 645
+purify$ -- 655
 quote$ -- 0
-skip$ -- 9278
+skip$ -- 9443
 stack$ -- 0
-substring$ -- 1734
-swap$ -- 5996
-text.length$ -- 1292
-text.prefix$ -- 52
+substring$ -- 1751
+swap$ -- 6106
+text.length$ -- 1316
+text.prefix$ -- 53
 top$ -- 1
-type$ -- 2002
+type$ -- 2040
 warning$ -- 0
-while$ -- 1008
+while$ -- 1026
 width$ -- 0
-write$ -- 1332
+write$ -- 1355
 (There were 9 error messages)

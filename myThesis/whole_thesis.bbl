@@ -1367,6 +1367,30 @@
   \field{year}{2009}
 \endentry
 
+\entry{Martin:1997ns}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Martin}{M.}%
+     {Stephen~P.}{S.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MSP1}
+  \strng{fullhash}{MSP1}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1142/9789812839657_0001, 10.1142/9789814307505_0001
+  \endverb
+  \verb{eprint}
+  \verb hep-ph/9709356
+  \endverb
+  \field{note}{[Adv. Ser. Direct. High Energy Phys.18,1(1998)]}
+  \field{title}{{A Supersymmetry primer}}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{1997}
+\endentry
+
 \entry{Messchendorp:2013ysj}{article}{}
   \name{author}{1}{}{%
     {{}%
