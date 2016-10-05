@@ -1,0 +1,25 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (g);
+    \vertex [above left=of g] (a1) {\(\tilde t\)};
+	\vertex [below left=of g] (a4) {\(h^0\)};
+    \vertex [above right=of g] (a2) {\(\tilde t\)};
+	\vertex [below right=of g] (a3) {\(h^0\)};
+    \diagram* {
+    (g) -- [fermion] (a1), 
+    (a3) -- [scalar] (g), 
+    (a2) -- [fermion] (g), 
+    (a4) -- [scalar] (g), 
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}

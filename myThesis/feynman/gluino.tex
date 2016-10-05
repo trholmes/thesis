@@ -1,0 +1,23 @@
+\documentclass{standalone}
+
+\usepackage[compat=1.1.0]{tikz-feynman}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{feynman} [small]
+	\vertex (g);
+    \vertex [left=of g] (a1) {\(\tilde g\)};
+    \vertex [above right=of g] (a2) {\(\tilde q\)};
+	\vertex [below right=of g] (a3) {\(q\)};
+    \diagram* {
+    (a1) -- [gluon] (g), 
+    (a2) -- [fermion] (g), 
+    (a3) -- [fermion] (g), 
+
+    };
+
+\end{feynman}
+\end{tikzpicture}
+
+\end{document}
