@@ -43,12 +43,17 @@ This analysis is fundamentally a search for \acf{SUSY} in events with two lepton
 
 Other processes can contribute to the Standard Model background at lower rates. Processes similar to \dyjets but with a W boson instead of a Z have real \MET from leptonic W decays, but only one lepton. However, a fake or non-prompt lepton can cause these events to look very similar to simulated signals. Additionally, there are rare processes such as \ttbar production in association with bosons that will also be difficult to separate from signal processes.
 
-\section{Monte Carlo Samples} 
+\section{Data and Monte Carlo Samples} 
 
-To precisely compare simulated signal to backgrounds, \ac{MC} samples are generated for each of these processes. \autoref{tab:MC} details the method used to produce each sample. With these and the simulated background, optimizations on a signal regioin can be made to maximize potential for discovery or exclusion of simplified Supersymmetric models. These comparisons and the signal region definition can be found in \autoref{sec:sr}.
+This analysis uses data collected by the ATLAS detector from $p-p$ collisions at a center-of-mass energy of 13 \tev in 2015 and 2016, corresponding to a total luminosity of 14.7 fb$^{-1}$. The data collected using a combination of unprescaled single and dilepton triggers, discussed in greater detail in \autoref{ch:eventsel}. In addition, photon events are collected for use in a control region using both prescaled and unprescaled triggers, with the lowest trigger threshold at 20 \gev. 
+
+\ac{MC} samples are generated for each background process that appears in the signal and validation regions. \autoref{tab:MC} details the method used to produce each sample, and more information can be found in \autoref{sec:MC_gen}. These simulated background events, in conjunction with the simulated signal discussed in \autoref{sec:simplified_models}, are used to determine approximate sensitivities of the search and optimize signal regions and amount of data used. The background \ac{MC} also provides a valuable cross-check for many of the data-driven background estimates discussed in \autoref{ch:backgrounds}, and in some cases, provides the primary estimate of the background.
 
 \begin{sidewaystable*}[ht]
 \begin{center}
+\caption{Simulated background event samples used in this analysis with the corresponding matrix element and parton shower generators,
+cross-section order in $\alpha_{\text{s}}$ used to normalise the event yield, underlying-event tune and PDF set.
+}
 \scriptsize
 \begin{tabular}{l c c c c c }
 \hline
@@ -59,15 +64,15 @@ Physics process &  Generator  & Parton & Cross section & Tune & PDF set\\
 $t\bar{t}+W$ and $t\bar{t}+Z$~\cite{ATL-PHYS-PUB-2016-005,Garzelli:2012bn}& {\sc MG5\_aMC@NLO}        & {\sc Pythia} 8.186 & NLO \cite{Campbell:2012,Lazopoulos:2008} & {\sc A14} & NNPDF23LO\\
 $t\bar{t}+WW$~\cite{ATL-PHYS-PUB-2016-005}      & {\sc MG5\_aMC@NLO}          & {\sc Pythia} 8.186 & LO \cite{Alwall:2014hca} & {\sc A14}  &  NNPDF23LO\\
 $t\bar{t}$~\cite{ATL-PHYS-PUB-2016-004}         & {\sc Powheg Box v2} r3026   & {\sc Pythia} 6.428 & NNLO+NNLL \cite{ttbarxsec1,ttbarxsec2}          &\sc{Perugia2012}     &NLO CT10\\
-Single-top ($Wt$)~\cite{ATL-PHYS-PUB-2016-004}  & {\sc Powheg Box v2} r2856   & {\sc Pythia} 6.428 & Approx. NNLO \cite{Kidonakis:2010b}& \sc{Perugia2012}    &NLO CT10\\ 
-$WW$,                      & \multirow{2}{*}{\sherpa\ 2.1.1} & \multirow{2}{*}{\sherpa\ 2.1.1} & \multirow{2}{*}{NNLO \cite{diboson1,diboson2}} & \multirow{2}{*}{\sherpa\ default} & \multirow{2}{*}{NLO CT10} \\
-$WZ$ and $ZZ$~\cite{ATL-PHYS-PUB-2016-002} &&& \\ 
+Single-top ($Wt$)~\cite{ATL-PHYS-PUB-2016-004}  & {\sc Powheg Box v2} r2856   & {\sc Pythia} 6.428 & Approx. NNLO \cite{Kidonakis:2010b}& \sc{Perugia2012}    &NLO CT10 \\ 
+$WW$, $WZ$ and $ZZ$~\cite{ATL-PHYS-PUB-2016-002} & \sherpa\ 2.1.1 & \sherpa\ 2.1.1 & NLO \cite{diboson1,diboson2} & \sherpa\ default & NLO CT10 \\
+%$WZ$ and $ZZ$~\cite{ATL-PHYS-PUB-2016-002} &&& \\ 
 $Z/\gamma^{*}(\rightarrow \ell \ell)$ + jets~\cite{ATL-PHYS-PUB-2016-003}& \sherpa\ 2.1.1           & \sherpa\ 2.1.1  &NNLO \cite{DYNNLO1,DYNNLO2}       & \sherpa\ default     &NLO CT10\\
+\gjets & \sherpa\ 2.1.1 & \sherpa\ 2.1.1 & LO~\cite{sherpa} & \sherpa\ default & NLO CT10 \\
+$V(=W,Z)\gamma$ & \sherpa\ 2.1.1 & \sherpa\ 2.1.1 & LO~\cite{sherpa} & \sherpa\ default & NLO CT10 \\
+signal & {\sc MG5\_aMC@NLO} & {\sc Pythia} 8.186 & NLO & A14 & NNPDF23LO\\
 \noalign{\smallskip}\hline\noalign{\smallskip}
 \end{tabular}
-\caption{Simulated background event samples used in this analysis with the corresponding matrix element and parton shower generators, 
-cross-section order in $\alpha_{\text{s}}$ used to normalise the event yield, underlying-event tune and PDF set. 
-}
 \label{tab:MC}
 \end{center}
 \end{sidewaystable*}

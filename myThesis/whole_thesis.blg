@@ -41,7 +41,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12506 items from 5000.
+Reallocated field_info (elt_size=4) to 12645 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
 "{" immediately follows a field part---line 169 of file bib/strong2l_paper.bib
@@ -57,7 +57,12 @@ I was expecting a `,' or a `}'---line 181 of file bib/strong2l_paper.bib
  :   author        = "W.J. Stirling",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3720 of file bib/strong2l_paper.bib
+I was expecting a `,' or a `}'---line 188 of file bib/strong2l_paper.bib
+ :   
+ :   author        = "NobelPrize.org",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3727 of file bib/strong2l_paper.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -92,45 +97,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 54 entries,
+You've used 55 entries,
             6047 wiz_defined-function locations,
-            1510 strings with 22429 characters,
-and the built_in function-call counts, 152831 in all, are:
-= -- 5192
+            1511 strings with 22438 characters,
+and the built_in function-call counts, 154249 in all, are:
+= -- 5232
 > -- 5010
-< -- 1315
-+ -- 1247
+< -- 1329
++ -- 1248
 - -- 1882
-* -- 11476
-:= -- 8983
+* -- 11511
+:= -- 9009
 add.period$ -- 0
-call.type$ -- 54
-change.case$ -- 53
+call.type$ -- 55
+change.case$ -- 54
 chr.to.int$ -- 40
-cite$ -- 106
-duplicate$ -- 17841
-empty$ -- 17202
+cite$ -- 108
+duplicate$ -- 18039
+empty$ -- 17437
 format.name$ -- 3216
-if$ -- 34742
+if$ -- 35092
 int.to.chr$ -- 0
-int.to.str$ -- 152
+int.to.str$ -- 153
 missing$ -- 0
-newline$ -- 1410
+newline$ -- 1414
 num.names$ -- 2287
-pop$ -- 16876
+pop$ -- 17210
 preamble$ -- 1
 purify$ -- 655
 quote$ -- 0
-skip$ -- 9443
+skip$ -- 9516
 stack$ -- 0
-substring$ -- 1751
-swap$ -- 6106
-text.length$ -- 1316
-text.prefix$ -- 53
+substring$ -- 1752
+swap$ -- 6151
+text.length$ -- 1329
+text.prefix$ -- 54
 top$ -- 1
-type$ -- 2040
+type$ -- 2078
 warning$ -- 0
-while$ -- 1026
+while$ -- 1028
 width$ -- 0
-write$ -- 1355
-(There were 11 error messages)
+write$ -- 1358
+(There were 12 error messages)

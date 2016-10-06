@@ -365,9 +365,6 @@ However, some of these seemingly independent parameters have suspicious symmetry
 \end{table}
 
 
-
-
-
 If the theory is symmetric under these fermionic rotations, these particle-sparticle pairs can be described by a single ``superfield'', which simultaneously describes the behavior of both \ac{SM} and \ac{SUSY} particles in the superspace. However, this completely symmetric behavior is untenable given basic observations of matter in the universe. For example, if there were a ``selectron'' (the superpartner of the electron, $\sle$), for example, with identical mass to the electron, it would have been detected long ago. In fact, such a particle would fundamentally change atomic structure, with the bosonic selectrons capable of piling into the ground state of an atom, and removing all the interesting valence-shell interactions of electrons that determine molecular structure. Thus, if \ac{SUSY} does exist, the symmetry must be broken, with much higher masses for the superpartners than the original \ac{SM} particles. 
 
 \subsection{The Minimal Supersymmetric Standard Model}
@@ -446,6 +443,13 @@ Using this simplified model, the masses of the particles can be tuned directly. 
 
 The complex events of the \ac{LHC} are difficult to model, but modeling them is crucial to analyzers' understanding of \ac{SM} backgrounds and potential signals. To simplify the modeling process, particle interactions are broken down into very small steps, each with associated probabilities of various outcomes. This modeling method is called \acf{MC}, and, at the \ac{LHC} it is broken into several larger steps which are each handled by different software. 
 
-The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which provided by several different \ac{PDF} sets. 
+The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which provided by several different \ac{PDF} sets. These distributions come from experimental measurements, though there is some variation between different sets. Three different sets are used in this analysis: NNPDF2.3LO \cite{Ball:2012cx} and NLO CT10 \cite{Lai:2010vv} for background and signal processes, and MSTW 2008 \cite{0901.0002} for pile-up events, discussed more in \autoref{sec:pileup}. 
+
+With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these constituent particles. This is accomplished by a generator, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically produce ``matrix elements'', which describe the probability to go from an initial to final state via a hard scattering, including the kinematics of the output. 
+
+The calculation of these matrix elements can become very complicated when more and more loops are allowed into the Feynman diagrams. The simplest diagrams without any loops are referred to as \ac{LO}, while calculations including diagrams with one loop are called \ac{NLO}, and additional Ns can be added to describe more complex calculations. Examples of generators include {\sc MG5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa \cite{sherpa}. 
+
+These hard scattering descriptions are then passed to the next step, where parton showering, final and initial state radiation, hadronization, and other processes can occur. Some generators, such as \sherpa, can perform this step on its own. {\sc Powheg} cannot, and is interfaced with {\sc Pythia} \cite{Sjostrand:2006za} obtain these final state particles, as is {\sc MG5\_aMC@NLO} \cite{Sjostrand:2007gs}. These processes can also be calculated at different orders.
+
 
 

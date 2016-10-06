@@ -84,13 +84,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{39}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{40}{figure.caption.62}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{40}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{40}{figure.caption.62}
+\contentsline {paragraph}{The Tile Calorimeter}{40}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{40}{figure.caption.62}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{40}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{40}{figure.caption.62}
+\contentsline {paragraph}{The FCal}{40}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}The Muon Spectrometer}{40}{section.4.4}
 \defcounter {refsection}{0}\relax 
@@ -128,13 +128,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{61}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{61}{figure.caption.83}
+\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{61}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson ($VV$)}{61}{figure.caption.84}
+\contentsline {paragraph}{diboson ($VV$)}{61}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{62}{figure.caption.85}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{62}{figure.caption.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Monte Carlo Samples}{63}{section.7.1}
+\contentsline {section}{\numberline {7.1}Data and Monte Carlo Samples}{63}{section.7.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Object Identification and Selection}}{65}{chapter.8}
 \defcounter {refsection}{0}\relax 

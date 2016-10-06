@@ -16,6 +16,10 @@
   {}
 \endgroup
 
+\entry{nobel2004}{misc}{}
+  \field{sortinit}{0}
+\endentry
+
 \entry{crosssections}{misc}{}
   \field{sortinit}{0}
 \endentry

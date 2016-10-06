@@ -32,99 +32,99 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces The \ac {LHC} main collider ring and pre-accelerator \ac {SPS} overlaid on a map of Switzerland and France, with the four main \ac {LHC} experiments identified.\relax }}{27}{figure.caption.45}
+\contentsline {figure}{\numberline {11}{\ignorespaces The \ac {LHC} main collider ring and pre-accelerator \ac {SPS} overlaid on a map of Switzerland and France, with the four main \ac {LHC} experiments identified.\relax }}{27}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces The pre-accelerators of the \ac {LHC}.\relax }}{28}{figure.caption.46}
+\contentsline {figure}{\numberline {12}{\ignorespaces The pre-accelerators of the \ac {LHC}.\relax }}{28}{figure.caption.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Bunch structure in the \ac {PS}, \ac {SPS}, and \ac {LHC}.\relax }}{29}{figure.caption.49}
+\contentsline {figure}{\numberline {13}{\ignorespaces Bunch structure in the \ac {PS}, \ac {SPS}, and \ac {LHC}.\relax }}{29}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Cross-section of a cryodipole magnet in the \ac {LHC}.\relax }}{30}{figure.caption.50}
+\contentsline {figure}{\numberline {14}{\ignorespaces Cross-section of a cryodipole magnet in the \ac {LHC}.\relax }}{30}{figure.caption.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Beam spot in the ATLAS detector for one run in 2015. Distributions show only the highest \ensuremath {p_{\text {T}}}\xspace vertex per event. Left is the $x-y$ distribution of vertices, while the right plot shows the $x-z$ distribution.\relax }}{30}{figure.caption.51}
+\contentsline {figure}{\numberline {15}{\ignorespaces Beam spot in the ATLAS detector for one run in 2015. Distributions show only the highest \ensuremath {p_{\text {T}}}\xspace vertex per event. Left is the $x-y$ distribution of vertices, while the right plot shows the $x-z$ distribution.\relax }}{30}{figure.caption.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Cross-sections for many \ac {SM} processes at the Tevatron and \ac {LHC} \cite {crosssections}.\relax }}{31}{figure.caption.52}
+\contentsline {figure}{\numberline {16}{\ignorespaces Cross-sections for many \ac {SM} processes at the Tevatron and \ac {LHC} \cite {crosssections}.\relax }}{31}{figure.caption.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Instantaneous luminosity of one fill of 7 \textrm {Te\kern -0.1em V}data in 2011.\relax }}{32}{figure.caption.53}
+\contentsline {figure}{\numberline {17}{\ignorespaces Instantaneous luminosity of one fill of 7 \textrm {Te\kern -0.1em V}data in 2011.\relax }}{32}{figure.caption.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces ATLAS luminosity for Run 1 and Run 2, as of September 2016.\relax }}{33}{figure.caption.54}
+\contentsline {figure}{\numberline {18}{\ignorespaces ATLAS luminosity for Run 1 and Run 2, as of September 2016.\relax }}{33}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Average number of interactions per crossing shown for 2015 and 2016 separately, as well as the sum of the two years.\relax }}{33}{figure.caption.55}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Diagram of the ATLAS detector, with subsystems and magnets identified.\relax }}{35}{figure.caption.56}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Diagram of the ATLAS Inner Detector, containing the Pixel, SCT, and TRT subsystems.\relax }}{37}{figure.caption.57}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagram of one-quarter of the ATLAS Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta $ locations.\relax }}{38}{figure.caption.58}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces The calorimeter system of the ATLAS detector.\relax }}{39}{figure.caption.62}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces An $x$-$y$ view of the \ac {MS}. In it, the three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac {MS} is about 20m in diameter.\relax }}{41}{figure.caption.63}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces An $r$-$z$ view of the \ac {MS}. The three layers of the barrel and endcap \ac {MS} are visible, and all muons at $|\eta |$<2.7 should traverse three detectors, assuming they propagate in an approximately straight line from the interaction point.\relax }}{42}{figure.caption.64}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces The magnet system of the ATLAS detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac {ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac {MS}.\relax }}{43}{figure.caption.68}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Plots of the magnetic field within the ATLAS detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp {MDT} as a function of $|\eta |$ for two different $\phi $ values. \relax }}{44}{figure.caption.69}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces \ac {L1} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.\relax }}{46}{figure.caption.71}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces \ac {HLT} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.\relax }}{47}{figure.caption.76}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces Trigger efficiencies as a function of \ensuremath {E_{\text {T}}}\xspace for data and \ac {MC}. Efficiencies are given for offline selected loose electrons.\relax }}{47}{figure.caption.77}
+\contentsline {figure}{\numberline {19}{\ignorespaces Average number of interactions per crossing shown for 2015 and 2016 separately, as well as the sum of the two years.\relax }}{33}{figure.caption.57}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {20}{\ignorespaces Diagram of the ATLAS detector, with subsystems and magnets identified.\relax }}{35}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta $-ray as it passes through the detector.\relax }}{51}{figure.caption.78}
+\contentsline {figure}{\numberline {21}{\ignorespaces Diagram of the ATLAS Inner Detector, containing the Pixel, SCT, and TRT subsystems.\relax }}{37}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {32}{\ignorespaces One example of a two-particle cluster and its truth information compared with the output of the \acp {NN}. The boxes represent pixels, with a color scale indicating \ac {ToT}. At top, the $p(N=i)$ values give the output of the Number \ac {NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp {NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster.\relax }}{54}{figure.caption.79}
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagram of one-quarter of the ATLAS Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta $ locations.\relax }}{38}{figure.caption.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {33}{\ignorespaces $x$ resolutions for clusters with 3 (top) and 4 (bottom) pixels in the $x$ direction in 7 \textrm {Te\kern -0.1em V}data for \ac {CCA} and \ac {NN} clustering taken from \ac {MC}.\relax }}{55}{figure.caption.80}
+\contentsline {figure}{\numberline {23}{\ignorespaces The calorimeter system of the ATLAS detector.\relax }}{39}{figure.caption.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom).\relax }}{56}{figure.caption.81}
+\contentsline {figure}{\numberline {24}{\ignorespaces An $x$-$y$ view of the \ac {MS}. In it, the three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac {MS} is about 20m in diameter.\relax }}{41}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces Performance of the pixel neural network used to identify clusters created by multiple charged particles, as a function of constant coherent scaling of the charge in each pixel in the cluster. The top figure shows the rate at which the neural network wrongly identifies clusters with one generated particle as clusters with multiple particles. The bottom figure shows the rate at which the neural network correctly identifies clusters generated by multiple particles as such.\relax }}{57}{figure.caption.82}
+\contentsline {figure}{\numberline {25}{\ignorespaces An $r$-$z$ view of the \ac {MS}. The three layers of the barrel and endcap \ac {MS} are visible, and all muons at $|\eta |$<2.7 should traverse three detectors, assuming they propagate in an approximately straight line from the interaction point.\relax }}{42}{figure.caption.66}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {26}{\ignorespaces The magnet system of the ATLAS detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac {ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac {MS}.\relax }}{43}{figure.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces An example Feynman diagram of \ensuremath {t\mathaccentV {bar}716{t}}\xspace production and decay.\relax }}{61}{figure.caption.83}
+\contentsline {figure}{\numberline {27}{\ignorespaces Plots of the magnetic field within the ATLAS detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp {MDT} as a function of $|\eta |$ for two different $\phi $ values. \relax }}{44}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces An example Feynman diagram of the production and decay of a WZ event.\relax }}{62}{figure.caption.84}
+\contentsline {figure}{\numberline {28}{\ignorespaces \ac {L1} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.\relax }}{46}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {38}{\ignorespaces An example Feynman diagram of the production and decay of a \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace event.\relax }}{62}{figure.caption.85}
+\contentsline {figure}{\numberline {29}{\ignorespaces \ac {HLT} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.\relax }}{47}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces Trigger efficiencies as a function of \ensuremath {E_{\text {T}}}\xspace for data and \ac {MC}. Efficiencies are given for offline selected loose electrons.\relax }}{47}{figure.caption.79}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces Schematic diagrams of the control, validation and signal regions for the on-shell $Z$ (top) and edge (bottom) searches. For the on-shell $Z$ search the various regions are shown in the $\ensuremath {m_{\ell \ell }}-\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane, whereas in the case of the edge search the signal and validation regions are depicted in the $\ensuremath {H_{\text {T}}}\xspace -\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane. \relax }}{68}{figure.caption.90}
+\contentsline {figure}{\numberline {31}{\ignorespaces A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta $-ray as it passes through the detector.\relax }}{51}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {32}{\ignorespaces One example of a two-particle cluster and its truth information compared with the output of the \acp {NN}. The boxes represent pixels, with a color scale indicating \ac {ToT}. At top, the $p(N=i)$ values give the output of the Number \ac {NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp {NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster.\relax }}{54}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {33}{\ignorespaces $x$ resolutions for clusters with 3 (top) and 4 (bottom) pixels in the $x$ direction in 7 \textrm {Te\kern -0.1em V}data for \ac {CCA} and \ac {NN} clustering taken from \ac {MC}.\relax }}{55}{figure.caption.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {34}{\ignorespaces Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom).\relax }}{56}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {35}{\ignorespaces Performance of the pixel neural network used to identify clusters created by multiple charged particles, as a function of constant coherent scaling of the charge in each pixel in the cluster. The top figure shows the rate at which the neural network wrongly identifies clusters with one generated particle as clusters with multiple particles. The bottom figure shows the rate at which the neural network correctly identifies clusters generated by multiple particles as such.\relax }}{57}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {40}{\ignorespaces Comparison of data and \ac {MC} in a selection like SRZ, without the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut.\relax }}{74}{figure.caption.97}
+\contentsline {figure}{\numberline {36}{\ignorespaces An example Feynman diagram of \ensuremath {t\mathaccentV {bar}716{t}}\xspace production and decay.\relax }}{61}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {41}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $ee$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. \relax }}{78}{figure.caption.100}
+\contentsline {figure}{\numberline {37}{\ignorespaces An example Feynman diagram of the production and decay of a WZ event.\relax }}{62}{figure.caption.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {42}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $\mu e$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.\relax }}{79}{figure.caption.101}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {43}{\ignorespaces Same sign validation regions in the $ee$ (top left), $\mu \mu $ (top right), $e\mu $ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \relax }}{79}{figure.caption.102}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {44}{\ignorespaces Distribtuions in VR-WZ. On the top row, reconstructed transverse mass of the $W$ (left) and mass of the $Z$ (right). On the bottom row, \ensuremath {p_{\text {T}}}\xspace of the $W$ (left) and $Z$ (right). \relax }}{81}{figure.caption.104}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {45}{\ignorespaces Distribtuions in VR-WZ. On the left, mass of the $Z$ bosons in the event, and on the right, \ensuremath {p_{\text {T}}}\xspace of the $Z$ bosons. \relax }}{81}{figure.caption.105}
+\contentsline {figure}{\numberline {38}{\ignorespaces An example Feynman diagram of the production and decay of a \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace event.\relax }}{62}{figure.caption.87}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {46}{\ignorespaces MC closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}window is used to predict the on-$Z$ bin.\relax }}{84}{figure.caption.108}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {47}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{85}{figure.caption.109}
+\contentsline {figure}{\numberline {39}{\ignorespaces Schematic diagrams of the control, validation and signal regions for the on-shell $Z$ (top) and edge (bottom) searches. For the on-shell $Z$ search the various regions are shown in the $\ensuremath {m_{\ell \ell }}-\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane, whereas in the case of the edge search the signal and validation regions are depicted in the $\ensuremath {H_{\text {T}}}\xspace -\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace $ plane. \relax }}{68}{figure.caption.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {48}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data, the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}, and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}.\relax }}{86}{figure.caption.111}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {49}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{87}{figure.caption.112}
+\contentsline {figure}{\numberline {40}{\ignorespaces Comparison of data and \ac {MC} in a selection like SRZ, without the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut.\relax }}{74}{figure.caption.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {41}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $ee$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. \relax }}{78}{figure.caption.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {42}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $\mu e$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.\relax }}{79}{figure.caption.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {43}{\ignorespaces Same sign validation regions in the $ee$ (top left), $\mu \mu $ (top right), $e\mu $ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \relax }}{79}{figure.caption.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {44}{\ignorespaces Distribtuions in VR-WZ. On the top row, reconstructed transverse mass of the $W$ (left) and mass of the $Z$ (right). On the bottom row, \ensuremath {p_{\text {T}}}\xspace of the $W$ (left) and $Z$ (right). \relax }}{81}{figure.caption.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {45}{\ignorespaces Distribtuions in VR-WZ. On the left, mass of the $Z$ bosons in the event, and on the right, \ensuremath {p_{\text {T}}}\xspace of the $Z$ bosons. \relax }}{81}{figure.caption.107}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {46}{\ignorespaces MC closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}window is used to predict the on-$Z$ bin.\relax }}{84}{figure.caption.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {47}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{85}{figure.caption.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {48}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data, the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}, and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}.\relax }}{86}{figure.caption.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {49}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{87}{figure.caption.114}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
