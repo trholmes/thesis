@@ -50,146 +50,146 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{21}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Simplified Models of Supersymmetry}{21}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Simplified Models of Supersymmetry}{22}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{21}{section.2.3}
+\contentsline {section}{\numberline {2.3}Monte Carlo Generators}{22}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Experiment}}{23}{part.3}
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Experiment}}{25}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {The Large Hadron Collider}}{25}{chapter.3}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {The Large Hadron Collider}}{27}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The Injector Complex}{26}{section.3.1}
+\contentsline {section}{\numberline {3.1}The Injector Complex}{28}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Operation of the Large Hadron Collider}{27}{section.3.2}
+\contentsline {section}{\numberline {3.2}Operation of the Large Hadron Collider}{29}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Luminosity}{29}{section.3.3}
+\contentsline {section}{\numberline {3.3}Luminosity}{31}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Pile-up in $p-p$ Collisions}{30}{section.3.4}
+\contentsline {section}{\numberline {3.4}Pile-up in $p-p$ Collisions}{32}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {The ATLAS Detector}}{33}{chapter.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {The ATLAS Detector}}{35}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Coordinate System Used in the ATLAS Detector}{33}{section.4.1}
+\contentsline {section}{\numberline {4.1}Coordinate System Used in the ATLAS Detector}{35}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}The Inner Detector}{34}{section.4.2}
+\contentsline {section}{\numberline {4.2}The Inner Detector}{36}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}The Pixel Detector}{34}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}The Pixel Detector}{36}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}The Original Pixel Detector}{35}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}The Original Pixel Detector}{37}{subsubsection.4.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.2}Addition of the IBL}{35}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Addition of the IBL}{37}{subsubsection.4.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}The Silicon Microstrip Tracker}{36}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}The Silicon Microstrip Tracker}{38}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}The Transition Radiation Tracker}{36}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}The Transition Radiation Tracker}{38}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}The Calorimeters}{37}{section.4.3}
+\contentsline {section}{\numberline {4.3}The Calorimeters}{39}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{38}{figure.caption.61}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{40}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{38}{figure.caption.61}
+\contentsline {paragraph}{The Tile Calorimeter}{40}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{38}{figure.caption.61}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{40}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{38}{figure.caption.61}
+\contentsline {paragraph}{The FCal}{40}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}The Muon Spectrometer}{38}{section.4.4}
+\contentsline {section}{\numberline {4.4}The Muon Spectrometer}{40}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}The Magnet System}{40}{section.4.5}
+\contentsline {section}{\numberline {4.5}The Magnet System}{42}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}The Trigger System and Data Acquisition}{43}{section.4.6}
+\contentsline {section}{\numberline {4.6}The Trigger System and Data Acquisition}{45}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Object Reconstruction in the ATLAS Detector}}{47}{chapter.5}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Object Reconstruction in the ATLAS Detector}}{49}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Electrons}{47}{section.5.1}
+\contentsline {section}{\numberline {5.1}Electrons}{49}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Photons}{47}{section.5.2}
+\contentsline {section}{\numberline {5.2}Photons}{49}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Muons}{47}{section.5.3}
+\contentsline {section}{\numberline {5.3}Muons}{49}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Jets}{47}{section.5.4}
+\contentsline {section}{\numberline {5.4}Jets}{49}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{47}{section.5.5}
+\contentsline {section}{\numberline {5.5}Missing Transverse Energy}{49}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Monte Carlo Simulation}{47}{section.5.6}
+\contentsline {section}{\numberline {5.6}Monte Carlo Simulation}{49}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Application of a Neural Network to Pixel Clustering}}{49}{chapter.6}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Application of a Neural Network to Pixel Clustering}}{51}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Clustering in the Pixel Detector}{49}{section.6.1}
+\contentsline {section}{\numberline {6.1}Clustering in the Pixel Detector}{51}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Charge Interpolation Method}{50}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Charge Interpolation Method}{52}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Improving Measurement with Neural Networks}{50}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Improving Measurement with Neural Networks}{52}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Impact of the Neural Network}{51}{section.6.2}
+\contentsline {section}{\numberline {6.2}Impact of the Neural Network}{53}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}The Neural Network in 13 TeV Data}{52}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}The Neural Network in 13 TeV Data}{54}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Searching for Supersymmetry}}{57}{part.4}
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Searching for Supersymmetry}}{59}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{59}{chapter.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{61}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{59}{figure.caption.82}
+\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{61}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson ($VV$)}{59}{figure.caption.83}
+\contentsline {paragraph}{diboson ($VV$)}{61}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{60}{figure.caption.84}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{62}{figure.caption.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Monte Carlo Samples}{61}{section.7.1}
+\contentsline {section}{\numberline {7.1}Monte Carlo Samples}{63}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Object Identification and Selection}}{63}{chapter.8}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Object Identification and Selection}}{65}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Electrons}{63}{section.8.1}
+\contentsline {section}{\numberline {8.1}Electrons}{65}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Muons}{63}{section.8.2}
+\contentsline {section}{\numberline {8.2}Muons}{65}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Jets}{63}{section.8.3}
+\contentsline {section}{\numberline {8.3}Jets}{65}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Photons}{63}{section.8.4}
+\contentsline {section}{\numberline {8.4}Photons}{65}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Event Selection}}{65}{chapter.9}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Event Selection}}{67}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Signal Region}{65}{section.9.1}
+\contentsline {section}{\numberline {9.1}Signal Region}{67}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Control and Validation Regions}{65}{section.9.2}
+\contentsline {section}{\numberline {9.2}Control and Validation Regions}{67}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Background Estimation}}{69}{chapter.10}
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Background Estimation}}{71}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Flavor Symmetric Processes}{69}{section.10.1}
+\contentsline {section}{\numberline {10.1}Flavor Symmetric Processes}{71}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Flavor Symmetry Method}{69}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.1}Flavor Symmetry Method}{71}{subsection.10.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Sideband Fit Method}{71}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.2}Sideband Fit Method}{73}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{72}{section.10.2}
+\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{74}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Fakes}{75}{section.10.3}
+\contentsline {section}{\numberline {10.3}Fakes}{77}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{78}{section.10.4}
+\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{80}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{81}{chapter.11}
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{83}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Uncertainties on Data-Driven Backgrounds}{81}{section.11.1}
+\contentsline {section}{\numberline {11.1}Uncertainties on Data-Driven Backgrounds}{83}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.1}Uncertainties on the Flavor Symmetry Method}{81}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.1}Uncertainties on the Flavor Symmetry Method}{83}{subsection.11.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.2}Uncertainties on the $\gamma $+jets Method}{86}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.2}Uncertainties on the $\gamma $+jets Method}{88}{subsection.11.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.1.3}Uncertainties on the Fakes Background}{86}{subsection.11.1.3}
+\contentsline {subsection}{\numberline {11.1.3}Uncertainties on the Fakes Background}{88}{subsection.11.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Theoretical and Experimental Uncertainties}{86}{section.11.2}
+\contentsline {section}{\numberline {11.2}Theoretical and Experimental Uncertainties}{88}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{87}{section.11.3}
+\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{89}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{91}{chapter.12}
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{93}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Interpretations}}{93}{chapter.13}
+\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Interpretations}}{95}{chapter.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Conclusions}}{95}{part.5}
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Conclusions}}{97}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Conclusions}}{97}{chapter.14}
+\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Conclusions}}{99}{chapter.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Outlook}}{99}{chapter.15}
+\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Outlook}}{101}{chapter.15}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{101}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{103}{dummy.7}
