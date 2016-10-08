@@ -103,7 +103,7 @@ which is precisely the original lagrangian with the addition of terms replicatin
 For the purpose of succinct notation, this lagrangian is often rewritten in terms of the ``covariant derivative''
 
 \begin{equation}
-\mathcal{D}_\mu = \partial_\mu + iq\lambda A_\mu
+D_\mu = \partial_\mu + iq\lambda A_\mu
 \end{equation}
 
 which immediately cancels the gauge dependent term created by the transformation. This mechanism is mathematically simple in the $U(1)$ case, but can be replicated for more complicated gauge transformations with perturbative approximations. 
@@ -160,7 +160,7 @@ In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the 
 The canceling required to make the lagrangian gauge invariant is actually only satisfied to a first order expansion of the transformation, guaranteeing its validity only for infinitesimally small perturbations from the ground state. However, the strong coupling constant, $\alpha$, depends on the energy scale of the interaction, decreasing at higher energy scales and asymptotically increasing at low energies. \autoref{fig:alpha} shows this effect translated to distance scales, demonstrating that QCD is weak and can be considered perturbatively at small distance scales, but at large distance scales this approximation breaks down, and the colorless hadrons introduce in ~\autoref{sec:quarks} must be used to describe interactions instead. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/theory/strong_coupling.png}
 \caption{The running of the strong coupling constant, $\alpha_s$. \cite{Messchendorp:2013ysj}}
@@ -197,12 +197,12 @@ The boundary between these regimes is referred to as $\Lambda_{QCD}$ and differe
 % \end{equation}
 
 
-\subsubsection{The Weak Force}
+\subsubsection{The Electroweak Force}
 \label{sec:ew}
 
 A similar process, using an $SU(2)$ gauge transformation, can produce a lagrangian that would suffice to describe the $W$ and $Z$ bosons of the \ac{SM}, if only they were massless. However, they are not, so an alternate mechanism must be used to add masses to the lagrangian. 
 
-Before a mechanism for their masses was understood, and before they were discovered, the large mass of the $W$ and $Z$ bosons were proposed in order to unify the electromagnetic and weak forces into the electroweak force. The large masses were crucial to explain the discrepancy in the strength of the two forces. 
+Before a mechanism for their masses was understood, and before they were discovered, the large masses of the $W$ and $Z$ bosons were proposed in order to unify the electromagnetic and weak forces into the electroweak force. The large masses were crucial to explain the discrepancy in the strength of the two forces. 
 
 This unified theory resulted in a triplet, $\bm{W}$, with coupling $g_W$, and a singlet field $B$, with coupling $g'/2$. However, this electroweak symmetry is broken, and mixing between these states occurs. Rewritten in their mass basis, the more familiar electroweak force carriers are produced: $W^\pm$, two states with identical coupling resulting from the first two states of the $W$ triplet, then $Z^0$ and the photon field $A$ resulting from the mixing of the last $W$ state and $B$. 
 
@@ -224,7 +224,7 @@ where the $a$ indices are numbered 1 through 3 and indicate the generators of $S
 W^\alpha_{\mu\nu} = \partial_\mu W^a_\nu - \partial_\nu W^a_\mu + g_2 \epsilon_{abc} W^b_\mu W^c_\nu
 \end{equation}
 
-The gauge portion of the lagrangian then generates interaction terms of between the three W fields, which when rewritten in terms of the mass-eigenstate basis, generates interactions like the ones in \autoref{fig:tlgc}.
+The gauge portion of the lagrangian then generates interaction terms of between the three W fields, which when rewritten in terms of the mass-eigenstate basis, generates interactions between three gauge bosons, like the ones in \autoref{fig:tlgc}, as well as interactions between four gauge bosons.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -246,28 +246,49 @@ The fermion portion of the lagrangian is written as
 \end{split}
 \end{equation}
 
-with the inclusion of the quark term already mentioned in \autoref{sec:strong} for completeness. 
-***** finish this with an explanation of handedness and and then draw feynman diagrams then move on to mass terms and into higgs mechanism. Figure out what to do with neutrino masses. Maybe make Higgs chapter a subsection called electroweak symmetry breaking. 
+where $L$ is the left-handed lepton doublet, $Q$ is the left-handed quark doublet, $U$ is the right-handed singlet for up-type quarks, $D$ is the same for down-type quarks, and $E$ is the right-handed singlet for electrons, muons and taus. Each of these fields has an implicit index running from 1 to 3 to represent the three generations. The covariant derivative in each term includes terms including all the gauge fields the fermion is charged under. Unlike the other forces, the weak force treats left- and right-handed fermion fields differently; it only interacts with the left-handed fields, so only the first two terms' covariant derivatives include $\bm{W}$ terms. The first term in this lagrangian, for example, produces weak interactions depicted in \autoref{fig:feynman_weak}. The $Z$ bosons, because they represent a mixing between the $\bm{W}$ and $B$ fields, can interact with right-handed leptons and quarks, but do so at different rates than left-handed particles.
 
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{feynman/weak_wplus.pdf}
+\includegraphics[width=.45\linewidth]{feynman/weak_wminus.pdf}
+\includegraphics[width=.45\linewidth]{feynman/weak_zll.pdf}
+\includegraphics[width=.45\linewidth]{feynman/weak_zvv.pdf}
+\caption{Weak couplings to leptons in the \ac{SM}.}
+\label{fig:feynman_weak}
+\end{figure}
+\end{centering}
+
+No right-handed term appears for the neutrino field, because only left-handed neutrinos and right-handed anti-neutrinos have been observed. However, because neutrinos have non-zero mass, their chirality can change with frame boosts, which complicates any claim that they do not exist. It is possible that neutrinos are their own antiparticle, making the right-handed anti-neutrino the solution to this problem. It's also possible that very massive right-handed neutrinos do exist, and simply haven't been discovered yet. 
+
+The remaining portions of the lagrangian are related to the Higgs field, as is the source of electroweak symmetry breaking. 
 
 \subsubsection{The Higgs Mechanism}
 
-The reason for this symmetry breaking has to do with the final piece of the \ac{SM}, the Higgs boson. The Higgs mechanism presents an alternate way to generate a mass term, through an unexpected route. It is a scalar field, with a lagrangian 
+The Higgs mechanism presents an alternate way to generate a mass term for the electroweak gauge bosons, through an unexpected route. It is a scalar field, with a lagrangian 
 
 \begin{equation}
-\mathcal{L} = \frac{1}{2}(\partial_\mu\phi)^*(\partial^\mu\phi) + \frac{1}{2}\mu^2\phi^*\phi - \frac{1}{4}\lambda^4(\phi^*\phi)^2
+\mathcal{L_{Higgs}} = \frac{1}{2}(\partial_\mu\phi)^*(\partial^\mu\phi) + \frac{1}{2}\mu^2\phi^*\phi - \frac{1}{4}\lambda^4(\phi^*\phi)^2
 \end{equation}
 
-where $\phi$ is a complex scalar field, $\phi = \phi_1 + i\phi_2$. This looks very similar to the standard scalar field, but the signs on the mass and interaction terms are reversed, giving a result that looks like an imaginary mass. However, this lagrangian differs from all previously considered lagrangians in that its ground state does not occur at $\phi = 0$. Because this is a perturbative theory, its validity only holds when expanded around the ground states, which must satisfy
+where $\phi$ is a complex scalar field, $\phi = \phi_1 + i\phi_2$. This looks very similar to a standard scalar field lagrangian, but the signs on the mass and interaction terms are reversed, implying an imaginary mass term. However, this isn't a good interpretation of the lagrangian, because differs from all previously considered lagrangians in one important way: its ground state does not occur at $\phi = 0$. Because quantum field theory is perturbative, its validity only holds when expanded around a ground state, which, when calculated for this Higgs lagrangian, must satisfy
 
 \begin{equation}
 \phi_1^2 + \phi_2^2 = - \frac{\mu}{\lambda} . 
 \end{equation}
 
-Rewriting the original lagrangian in terms of fields centered around ground states chosen to satisfy that condition results in a reasonable mass term. However, in an effect called ``spontaneous symmetry breaking'', the original $SO(2)$ rotational symmetry of the lagrangian is lost, resulting only in a $U(1)$ rotational symmetry; the lagrangian is invariant under a phase transformation.
+The original lagrangian can then be rewritten in terms of a field $v + H(x)$ centered around the ground state with energy $v$ called the vacuum expectation value. This rewriting produces a lagrangian with a non-imaginary mass. However, in an effect called ``spontaneous symmetry breaking'', the original $SO(2)$ rotational symmetry of the lagrangian is lost, resulting only in a $U(1)$ rotational symmetry; the lagrangian is invariant under a phase transformation.
 
-As in \autoref{sec:em}, it is possible to make the lagrangian invariant under a local $U(1)$ transformation, $\phi \rightarrow e^{i\theta(x)\phi}$ by adding a massless gauge field $A^\mu$ and using the covariant derivative. Due to the many cross terms from the non-zero ground state, terms for the mass of one of the bosons as well as the gauge field appear, leaving only one massless boson. The massless boson, it turns out, can be completely removed from the theory via local $U(1)$ transformations, ultimately producing a theory with one massive scalar (the Higgs) and a massive gauge field. 
+As in \autoref{sec:em}, it is possible to make the lagrangian invariant under a local $U(1)$ transformation, $\phi \rightarrow e^{i\theta(x)\phi}$ by adding a massless gauge field $A^\mu$ and using the covariant derivative. Due to the many cross terms from the non-zero ground state, terms for the mass of one of the scalar bosons as well as the gauge field appear, leaving only one massless scalar boson. This massless boson, it turns out, can be completely removed from the theory via local $U(1)$ transformations, ultimately producing a theory with one massive scalar (the Higgs) and a massive gauge field ($\bm{W}$).
 
+The remaining piece of the lagrangian, $\mathcal{L}_{Yukawa}$ describes the Higgs field's interactions with the fermions of the \ac{SM}, and can be written as
+
+\begin{equation}
+\mathcal{L}_{Yukawa} = -\Gamma^e_{mn}\bar{L}_m \phi E_n -\Gamma^u_{mn}\bar{Q}_m \phi U_n -\Gamma^d_{mn}\bar{Q}_m \phi D_n + h.c.
+\end{equation} 
+
+where $h.c.$ is the hermitian conjugate term, and the $\Gamma$ matrices are indexed by generation, and, when diagonalized, are proportional to the masses of the fermions. The Higgs field's vacuum expectation value produces terms that look like fermion mass terms. Additionally, terms that couple the fermions to the Higgs field are produced, with each fermion's coupling proportional to its mass. 
 
 % The original lagrangian can be put in terms of $\eta$ and $\xsi$, defined as
 
@@ -438,18 +459,43 @@ In the analysis presented in \autoref{part:search}, a simplified model is used w
 
 Using this simplified model, the masses of the particles can be tuned directly. This is very helpful for the generation of \ac{MC}, discussed in \autoref{sec:MC_gen}, because a ``grid'' of different mass points of the important sparticles involved in the decay can be generated, allowing analyzers to make predictions of likely signals, and to exclude the simplified models as a function of the mass of the sparticles in the case that no anomalies are seen. 
 
-\section{Monte Carlo Generators}
+\section{Monte Carlo Generation}
 \label{sec:MC_gen}
 
 The complex events of the \ac{LHC} are difficult to model, but modeling them is crucial to analyzers' understanding of \ac{SM} backgrounds and potential signals. To simplify the modeling process, particle interactions are broken down into very small steps, each with associated probabilities of various outcomes. This modeling method is called \acf{MC}, and, at the \ac{LHC} it is broken into several larger steps which are each handled by different software. 
 
 The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which provided by several different \ac{PDF} sets. These distributions come from experimental measurements, though there is some variation between different sets. Three different sets are used in this analysis: NNPDF2.3LO \cite{Ball:2012cx} and NLO CT10 \cite{Lai:2010vv} for background and signal processes, and MSTW 2008 \cite{0901.0002} for pile-up events, discussed more in \autoref{sec:pileup}. 
 
-With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these constituent particles. This is accomplished by a generator, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically produce ``matrix elements'', which describe the probability to go from an initial to final state via a hard scattering, including the kinematics of the output. 
-
-The calculation of these matrix elements can become very complicated when more and more loops are allowed into the Feynman diagrams. The simplest diagrams without any loops are referred to as \ac{LO}, while calculations including diagrams with one loop are called \ac{NLO}, and additional Ns can be added to describe more complex calculations. Examples of generators include {\sc MG5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa \cite{sherpa}. 
+With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these constituent particles. This is accomplished by a generator, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically produce ``matrix elements'', which describe the probability to go from an initial to final state via a hard scattering, including the kinematics of the output. Examples of generators include {\sc MG5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa \cite{sherpa}. 
 
 These hard scattering descriptions are then passed to the next step, where parton showering, final and initial state radiation, hadronization, and other processes can occur. Some generators, such as \sherpa, can perform this step on its own. {\sc Powheg} cannot, and is interfaced with {\sc Pythia} \cite{Sjostrand:2006za} obtain these final state particles, as is {\sc MG5\_aMC@NLO} \cite{Sjostrand:2007gs}. These processes can also be calculated at different orders.
+
+The calculation of these decays can become very complicated when more and more loops are allowed into the Feynman diagrams. The simplest diagrams without any loops are referred to as \ac{LO}, while calculations including diagrams with one loop are called \ac{NLO}, and additional Ns can be added to describe more complex calculations. In addition, the total cross-section for a given process can be calculated at a higher order and used to scale the overall number of events generated for the process. 
+
+These calculations can also be tuned, varying parameters in the generation to create outputs that most closely match experimental data. In some cases, this can mean that a tune might include values for certain physical quantities that are different from their measured values because it ultimately produces a result more similar to data. 
+
+Once the final state particles of the hard interaction have been calculated, the pile-up of the \ac{LHC} must be accounted for. Events called ``minimum bias'' are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the ATLAS detector.
+
+This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions produce signals in each subdetector are modeled in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. Every piece of the ATLAS detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
+
+The model of the detector used for this process is iteratively perfected by comparing data to \ac{MC}. \autoref{fig:geant} shows an example of a discrepancy between the simulation and observed data in the number of secondary vertices in a pixel module, which should correspond to the amount of material in the area. Observations of discrepancies like this can be used to correct the materials in the simulation. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/theory/fig_10a.eps}
+\includegraphics[width=.9\linewidth]{figures/theory/fig_10b.eps}
+\caption{Number of secondary vertices in a module in the first layer of the pixel detector in data (top) and \ac{MC} (bottom). There are more events in the data than the \ac{MC} \cite{PERF-2015-06}.}
+\label{fig:geant}
+\end{figure}
+\end{centering}
+
+Custom ATLAS code converts the energy deposited in active sensors into signals that resemble the expected detector response. These responses are typically very complicated with many parameters, and are constantly iterated on to best match the data. Electronic noise must also be added to correctly approximate the operating conditions of the detector. Additional alterations to this signal translation, including dead sensors and misalignments, can also be added at this stage. 
+
+Once the simulated particles have been converted into detector signals, the same reconstruction software used on data can be used on the \ac{MC}, converting the detector signals back into particle interpretations. The reconstruction process is described in \autoref{ch:reconstruction}.
+
+
+
 
 
 
