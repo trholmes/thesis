@@ -1059,6 +1059,25 @@
   \field{year}{2008}
 \endentry
 
+\entry{1605.05081}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~MEG}{T.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTM1}
+  \strng{fullhash}{CTM1}
+  \field{sortinit}{C}
+  \verb{eprint}
+  \verb arXiv:1605.05081
+  \endverb
+  \field{title}{Search for the Lepton Flavour Violating Decay $μ^{+} \to e^+
+  γ$ with the Full Dataset of the MEG Experiment}
+  \field{year}{2016}
+\endentry
+
 \entry{ttbarxsec1}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1332,6 +1351,33 @@
   \field{volume}{76}
   \field{journaltitle}{Eur. Phys. J. C}
   \field{year}{2016}
+\endentry
+
+\entry{1979PhLB...87..144H}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Hut}}{H.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Olive}}{O.}%
+     {K.~A.}{K.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HPOKA1}
+  \strng{fullhash}{HPOKA1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1016/0370-2693(79)90039-X
+  \endverb
+  \field{pages}{144\bibrangedash 146}
+  \field{title}{{A cosmological upper limit on the mass of heavy neutrinos}}
+  \field{volume}{87}
+  \field{journaltitle}{Physics Letters B}
+  \field{month}{10}
+  \field{year}{1979}
 \endentry
 
 \entry{Kidonakis:2010b}{article}{}
