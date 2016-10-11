@@ -20,19 +20,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5}{\ignorespaces Trilinear gauge couplings in the \ac {SM}.\relax }}{15}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Weak couplings to leptons in the \ac {SM}.\relax }}{16}{figure.caption.33}
+\contentsline {figure}{\numberline {6}{\ignorespaces Weak couplings to leptons in the \ac {SM}.\relax }}{15}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {7}{\ignorespaces Higgs couplings to the weak gauge bosons in the \ac {SM}.\relax }}{17}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8}{\ignorespaces Higgs couplings to fermions in the \ac {SM}.\relax }}{18}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces 2008 MSTW \acp {PDF} for various particle types given as a function of $x$ and $Q^2$, the square of the parton-parton momentum transfer. \cite {0901.0002}\relax }}{19}{figure.caption.36}
+\contentsline {figure}{\numberline {9}{\ignorespaces 2008 MSTW \acp {PDF} for various particle types given as a function of $x$ and $Q^2$, the square of the parton-parton momentum transfer. \cite {0901.0002}\relax }}{18}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Galactic rotation curve showing that the discrepancy between the observed luminous matter and the total mass in the system can be described as a non-luminous halo of matter. \cite {1985ApJ...295..305V}\relax }}{20}{figure.caption.38}
+\contentsline {figure}{\numberline {10}{\ignorespaces Galactic rotation curve showing that the discrepancy between the observed luminous matter and the total mass in the system can be described as a non-luminous halo of matter. \cite {1985ApJ...295..305V}\relax }}{19}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {11}{\ignorespaces Two example vertices allowed by the \ac {MSSM}.\relax }}{22}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Running of the strong, weak, and electromagnetic coupling constants for the \ac {SM} (left) and \ac {MSSM} (right). \cite {nobel2004}\relax }}{24}{figure.caption.42}
+\contentsline {figure}{\numberline {12}{\ignorespaces Running of the strong, weak, and electromagnetic coupling constants for the \ac {SM} (left) and \ac {MSSM} (right). \cite {nobel2004}\relax }}{23}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {13}{\ignorespaces Feynman diagram of the decay considered in the simplified models used in the analysis presented in \autoref {part:search}.\relax }}{25}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
@@ -74,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {30}{\ignorespaces The magnet system of the ATLAS detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac {ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac {MS}.\relax }}{47}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces Plots of the magnetic field within the ATLAS detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp {MDT} as a function of $|\eta |$ for two different $\phi $ values. \relax }}{48}{figure.caption.75}
+\contentsline {figure}{\numberline {31}{\ignorespaces Plots of the magnetic field within the ATLAS detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp {MDT} as a function of $|\eta |$ for two different $\phi $ values. \relax }}{49}{figure.caption.75}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {32}{\ignorespaces \ac {L1} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.\relax }}{50}{figure.caption.77}
 \defcounter {refsection}{0}\relax 

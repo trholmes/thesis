@@ -41,28 +41,28 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14313 items from 5000.
+Reallocated field_info (elt_size=4) to 14452 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 202 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 211 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 209 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 218 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"https://www.newscientist.com"},
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 214 of file bib/strong2l_paper.bib
+I was expecting a `,' or a `}'---line 223 of file bib/strong2l_paper.bib
  :   
  :   author        = "W.J. Stirling",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 221 of file bib/strong2l_paper.bib
+I was expecting a `,' or a `}'---line 230 of file bib/strong2l_paper.bib
  :   
  :   author        = "NobelPrize.org",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3760 of file bib/strong2l_paper.bib
+Repeated entry---line 3769 of file bib/strong2l_paper.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -97,45 +97,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 67 entries,
+You've used 68 entries,
             6047 wiz_defined-function locations,
-            1596 strings with 24194 characters,
-and the built_in function-call counts, 189585 in all, are:
-= -- 6350
-> -- 6229
-< -- 1622
-+ -- 1554
-- -- 2430
-* -- 14469
-:= -- 11125
+            1603 strings with 24408 characters,
+and the built_in function-call counts, 192907 in all, are:
+= -- 6444
+> -- 6369
+< -- 1656
++ -- 1597
+- -- 2496
+* -- 14780
+:= -- 11332
 add.period$ -- 0
-call.type$ -- 67
-change.case$ -- 66
+call.type$ -- 68
+change.case$ -- 67
 chr.to.int$ -- 46
-cite$ -- 132
-duplicate$ -- 22115
-empty$ -- 21351
-format.name$ -- 3988
-if$ -- 43103
+cite$ -- 134
+duplicate$ -- 22482
+empty$ -- 21679
+format.name$ -- 4078
+if$ -- 43852
 int.to.chr$ -- 0
-int.to.str$ -- 180
+int.to.str$ -- 182
 missing$ -- 0
-newline$ -- 1746
-num.names$ -- 2788
-pop$ -- 20988
+newline$ -- 1778
+num.names$ -- 2829
+pop$ -- 21317
 preamble$ -- 1
-purify$ -- 802
+purify$ -- 816
 quote$ -- 0
-skip$ -- 11548
+skip$ -- 11750
 stack$ -- 0
-substring$ -- 2101
-swap$ -- 7618
-text.length$ -- 1630
-text.prefix$ -- 66
+substring$ -- 2120
+swap$ -- 7744
+text.length$ -- 1666
+text.prefix$ -- 67
 top$ -- 1
-type$ -- 2534
+type$ -- 2572
 warning$ -- 0
-while$ -- 1257
+while$ -- 1275
 width$ -- 0
-write$ -- 1678
+write$ -- 1709
 (There were 12 error messages)

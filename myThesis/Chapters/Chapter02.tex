@@ -42,7 +42,7 @@ The \ac{SM} conserves lepton number, $L$, which is defined as the number of lept
 \subsubsection{Quarks}
 \label{sec:quarks}
 
-Quarks, as seen in the top left of \autoref{fig:sm}, are also charged particles that interact weakly, but are differentiated from the leptons by their strong interactions. They are also organized in three generations ordered by mass, and come in pairs of ``up-type'' and ``down-type'' quarks, named after the lightest generation. Though the up quark is lighter than the down, that rule is reversed in the subsequent two generations. Up-type quarks are charged $+\frac{2}{3}$, while the down-type quarks are charged $-\frac{1}{3}$. Quarks are also charged under the strong interaction, whose three charges are often characterized by colors: red, green, and blue. Each quark has an anti-particle with the opposite charges. 
+Quarks, as seen in the top left of \autoref{fig:sm}, are also electromagnetically charged particles that interact weakly, but are differentiated from the leptons by their strong interactions. They are also organized in three generations ordered by mass, and come in pairs of $up$-type and $down$-type quarks, named after the lightest generation. Though the up quark is lighter than the down, that rule is reversed in the subsequent two generations. Up-type quarks are electromagnetically charged $+\frac{2}{3}$, while the down-type quarks are charged $-\frac{1}{3}$. Quarks are also charged under the strong interaction, whose three charges are often characterized by colors: red, green, and blue. Each quark has an anti-particle with the opposite charges. 
 
 These fractional charges and individual colors are never seen in nature because of the requirement (discussed further in \autoref{sec:strong}) that stable particle states be color-neutral. To accomplish this, quarks can create two-particle bound states called \textit{mesons} consisting of one quark and one anti-quark with the same color charge or three-particle bound states of quarks or anti-quarks with the three different color charges, which are called \textit{baryons}. The lightest color neutral state containing only quarks, the proton ($uud$), is stable. Extremely unstable bound states consisting of higher numbers of quarks can also exist, such as the pentaquark discovered in 2015 at the \ac{LHC}. \cite{Pentaquark} Collectively, these multi-quark bound states are called \textit{hadrons}. 
 
@@ -52,15 +52,15 @@ Like leptons, the number of quarks in a state is conserved, up to very small ano
 
 The fermions in the previous section interact via the electromagnetic, weak, and strong forces. In a perturbative quantum field theory, interactions via these forces are represented by mediating bosons. These force carriers interact only with particles charged with their  force's quantum numbers. The photon, for example, interacts only with electromagnetically charged particles. Gluons, mediators of the strong force, interact only with color charged particles, quarks and gluons. All fermions are weakly charged and interact with the weak force's mediators, the $W$ and $Z$ bosons. 
 
-The formulation for each of these forces is developed by requiring that the \ac{SM} lagrangian be locally gauge invariant. \cite{Griffiths:111880} This can be accomplished by adding gauge fields to the lagrangian, whose behavior under gauge transformations cancels out the gauge dependence of the free lagrangian. However, adding a mass term for these fields reintroduces gauge dependence, so this mechanism only creates forces mediated by massless gauge bosons. The addition of the Higgs field provides mass terms for the weak gauge bosons without interfering with the gauge invariance. 
+The formulation for each of these forces is developed by requiring that the \ac{SM} lagrangian be locally gauge invariant. \cite{Griffiths:111880} This can be accomplished by adding gauge fields to the lagrangian, whose behavior under gauge transformations cancels out the gauge dependence of the free lagrangian. However, adding a mass term for these fields reintroduces gauge dependence, so this mechanism only creates forces mediated by massless gauge bosons. The addition of the Higgs field provides mass terms for the weak gauge bosons (as well as other particles) without interfering with the gauge invariance. 
 
-The total gauged symmetry group for the \ac{SM} is $SU_C(3) \times SU_L(2) \times U_Y(1)$, with a total lagrangian which can be divided into several terms
+The total gauged symmetry group for the \ac{SM} is $SU_C(3) \times SU_L(2) \times U_Y(1)$, where $C$ stands for color, the charge of the strong force, $L$ stands for left, because the weak force is left-handed, and $Y$ is the hypercharge quantum number, the charge of the unified electroweak force. 
 
-\begin{equation}
-\mathcal{L}_{SM} = \mathcal{L}_{strong} + \mathcal{L}_{electroweak}
-\end{equation}
+%\begin{equation}
+%\mathcal{L}_{SM} = \mathcal{L}_{strong} + \mathcal{L}_{electroweak}
+%\end{equation}
 
-each of which will be described in detail in their respective sections. 
+%each of which will be described in detail in their respective sections. 
 
 \subsubsection{The Electromagnetic Force}
 \label{sec:em}
@@ -144,7 +144,7 @@ This first term of the lagrangian gives the gluon self-coupling interactions, wi
 \end{figure}
 \end{centering}
 
-In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the quark field. The quarks are in fact charged under all three forces, strong, electromagnetic, and weak, so the covariant derivative includes terms to make each of the force's lagrangians gauge invariant. Thus this term introduces quark-boson interactions of four types, seen in \autoref{fig:feynman_quarks}. The quarks' coupling to the gluon is the strongest, with the other couplings happening at lower rates. The couplings to the $W$ and $Z$ bosons will be described in \autoref{sec:ew}.
+In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the quark field. The quarks are in fact charged under all three forces, strong, electromagnetic, and weak, so the covariant derivative includes terms to make each of the force's lagrangians gauge invariant. Thus this term introduces quark-boson interactions of four types, seen in \autoref{fig:feynman_quarks}. The quarks' coupling to the gluon is the strongest, with the other couplings happening at lower rates. The couplings to the $W$ and $Z$ bosons are described in \autoref{sec:ew}.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -158,7 +158,7 @@ In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the 
 \end{figure}
 \end{centering}
 
-The canceling required to make the lagrangian gauge invariant is actually only satisfied to a first order expansion of the transformation, guaranteeing its validity only for infinitesimally small perturbations from the ground state. However, the strong coupling constant, $\alpha$, depends on the energy scale of the interaction, decreasing at higher energy scales and asymptotically increasing at low energies. \autoref{fig:alpha} shows this effect translated to distance scales, demonstrating that QCD is weak and can be considered perturbatively at small distance scales, but at large distance scales this approximation breaks down, and the colorless hadrons introduce in ~\autoref{sec:quarks} must be used to describe interactions instead. 
+The canceling required to make the lagrangian gauge invariant is only satisfied to a first order expansion of the transformation, guaranteeing its validity only for infinitesimally small perturbations from the ground state. However, the strong coupling constant, $\alpha$, depends on the energy scale of the interaction, decreasing at higher energy scales and asymptotically increasing at low energies. \autoref{fig:alpha} shows this effect translated to distance scales, demonstrating that QCD is weak and can be considered perturbatively at small distance scales, but at large distance scales this approximation breaks down, and the colorless hadrons introduce in ~\autoref{sec:quarks} must be used to describe interactions instead. 
 
 \begin{centering}
 \begin{figure}[!htb]
@@ -169,7 +169,7 @@ The canceling required to make the lagrangian gauge invariant is actually only s
 \end{figure}
 \end{centering}
 
-The boundary between these regimes is referred to as $\Lambda_{QCD}$ and differentiates energies at which quarks can be considered free particles and the energies at which they must instead be described by their colorless bound states. The \ac{LHC} is capable of producing individual quarks, but they instantaneously hadronize, producing showers of colored particles referred to as ``jets''. 
+The boundary between these regimes is referred to as $\Lambda_{QCD}$ and differentiates energies at which quarks can be considered free particles and the energies at which they must instead be described by their colorless bound states. The \ac{LHC} is capable of producing individual quarks, but they instantaneously hadronize, producing showers of particles referred to as \textit{jets}. 
 
 
 % \subsubsection{Quantum Chromodynamics}
@@ -205,7 +205,7 @@ A similar process, using an $SU(2)$ gauge transformation, can produce a lagrangi
 
 Before a mechanism for their masses was understood, and before they were discovered, the large masses of the $W$ and $Z$ bosons were proposed in order to unify the electromagnetic and weak forces into the electroweak force. The large masses were crucial to explain the discrepancy in the strength of the two forces. 
 
-This unified theory resulted in a triplet, $\bm{W}$, with coupling $g_W$, and a singlet field $B$, with coupling $g'/2$. However, this electroweak symmetry is broken, and mixing between these states occurs. Rewritten in their mass basis, the more familiar electroweak force carriers are produced: $W^\pm$, two states with identical coupling resulting from the first two states of the $W$ triplet, then $Z^0$ and the photon field $A$ resulting from the mixing of the last $W$ state and $B$. 
+This unified theory resulted in a triplet, $\bm{W}$, with coupling $g_W$, and a singlet field $B$, with coupling $g'/2$. However, this electroweak symmetry is broken, and mixing between these states occurs. Rewritten in their mass basis, the more familiar electroweak force carriers are produced: $W^\pm$, two states with identical coupling resulting from the first two states of the $\bm{W}$ triplet, then $Z^0$ and the photon field $A$ resulting from the mixing of the last $\bm{W}$ state and $B$. 
 
 The electroweak lagrangian is much more complicated than the strong lagrangian, and can be divided into several terms:
 
@@ -219,13 +219,13 @@ The first term can be written as follows
 \mathcal{L}_{gauge} = -\frac{1}{4}W^{a\mu\nu}W^a_{\mu\nu} - \frac{1}{4}B^{\mu\nu}B{\mu\nu} 
 \end{equation}
 
-where the $a$ indices are numbered 1 through 3 and indicate the generators of $SU(2)$ and is written 
+where the $a$ indices are numbered 1 through 3 and indicate the generators of $SU(2)$ which are written 
 
 \begin{equation}
-W^\alpha_{\mu\nu} = \partial_\mu W^a_\nu - \partial_\nu W^a_\mu + g_2 \epsilon_{abc} W^b_\mu W^c_\nu
+W^a_{\mu\nu} = \partial_\mu W^a_\nu - \partial_\nu W^a_\mu + g_2 \epsilon_{abc} W^b_\mu W^c_\nu
 \end{equation}
 
-The gauge portion of the lagrangian then generates interaction terms of between the three W fields, which when rewritten in terms of the mass-eigenstate basis, generates interactions between three gauge bosons, like the ones in \autoref{fig:tlgc}, as well as interactions between four gauge bosons.
+The gauge portion of the lagrangian then generates interaction terms of between the gauge fields, which when rewritten in terms of the mass-eigenstate basis, generates interactions between three gauge bosons, like the ones in \autoref{fig:tlgc}, as well as interactions between four gauge bosons.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -330,9 +330,11 @@ where $h.c.$ is the hermitian conjugate term, and the $\Gamma$ matrices are inde
 \subsection{Phenomenology of Proton-Proton Collisions}
 \label{sec:pp_collisions}
 
-As discussed in \autoref{ch:lhc}, the \ac{LHC} collides bunches of high-energy protons, and the interactions of these protons' constituent quarks produce the wide array of particles seen in the ATLAS detector. The \ac{LHC} typically cites its energy in terms of $\sqrt{S}$, the center of mass energy of protons in the two colliding beams. However, because the proton is not fundamental, this energy is divided among many particles that make up the proton. 
+As discussed in \autoref{ch:lhc}, the \ac{LHC} collides bunches of high-energy protons, and the interactions of these protons' constituent quarks produce the wide array of particles seen in the ATLAS detector. The \ac{LHC} typically cites its energy in terms of $\sqrt{S}$, the center of mass energy of protons in the two colliding beams, which in Run 2 is 13\tev. However, because the proton is not fundamental, this energy is divided among many particles that make up the proton. 
 
-To first order, a proton consists of three quarks: two up quarks and one down quark. However, a real quantum mechanical system is much more chaotic, with other quarks popping into and out of existence and gluons flying between them. These additional quarks are called ``sea'' quarks. The particles inside the proton can have a wide range of energies depending on the internal dynamics at the moment of the collision. These cannot be predicted exactly, but probabalistic models called \acp{PDF} describe the likelihood of any given configuration. These models are determined using data from hard scattering experiments and give probabalistic estimates for how often a given type of particle appears with a fraction $x$ of the total proton energy, as seen in \autoref{fig:pdf}. 
+To first order, a proton consists of three quarks: two up quarks and one down quark. However, a real quantum mechanical system is much more chaotic, with other quarks popping into and out of existence and gluons flying between them. These additional quarks are called \textit{sea} quarks and can also carry fractions of the proton's energy.
+
+The particles inside the proton can have a wide range of energies depending on the internal dynamics at the moment of the collision. These cannot be predicted exactly, but probabalistic models called \acfp{PDF} describe the likelihood of any given configuration. These models are determined using data from hard scattering experiments and give probabalistic estimates for how often a given type of particle appears with a fraction $x$ of the total proton energy, as seen in \autoref{fig:pdf}. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -350,9 +352,9 @@ To first order, a proton consists of three quarks: two up quarks and one down qu
 \subsection{Problems in the Standard Model}
 \label{sec:sm_problems}
 
-Thought the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces in includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. The Planck scale, the energy scale at which gravitational interactions become large enough that no sound theory can ignore gravity, is at about $10^{28}$ \eV, 16 orders of magnitude above the electroweak scale. 
+Thought the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces in includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. The Planck scale, the energy scale at which gravitational interactions become large enough that no sound theory can ignore gravity, is at about $10^{28}$ \eV, 16 orders of magnitude above the electroweak scale, so their absence in the \ac{SM} has no clear impact on \ac{LHC} physics. 
 
-Another clear omission of the \ac{SM} is \ac{DM}. This matter was first identified in 1933 through the observation of galactic rotation curves. \cite{zwicky} The speed of rotation indicated both that there was more mass in the system than could be accounted for by observations made directly of the galaxy, and that this additional matter was distributed in a halo, not a disk like the typical luminous matter. This effect can be seen in \autoref{fig:dm_curve}. Since then, the gravitational impact of \ac{DM} has been observed in colliding clusters and many more rotational curves, but it has never been directly detected or seen at a particle accelerator. As a consequence, very few details are known about the nature of the particles that make up this matter, only that it does not interact strongly or electromagnetically and its density throughout the universe. 
+Another clear omission of the \ac{SM} is \ac{DM}. This matter was first identified in 1933 through the observation of galactic rotation curves. \cite{zwicky} The speed of rotation indicated both that there was more mass in the system than could be accounted for by observations made directly of the galaxy, and that this additional matter was distributed in a halo, not a disk like the typical luminous matter. This effect can be seen in \autoref{fig:dm_curve}. Since then, the gravitational impact of \ac{DM} has been observed in colliding clusters and many more rotational curves, but it has never been directly detected or seen at a particle accelerator. As a consequence, very few details are known about the nature of the particles that make up this matter, only its density throughout the universe and that it does not interact strongly or electromagnetically. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -367,13 +369,13 @@ Beyond the omissions of the \ac{SM}, there are several aesthetic problems - thin
 
 In the past, large numbers of seemingly unrelated parameters have indicated that a theory has a more fundamental form at shorter distance scales. The large number of elements, it turned out, could be explained by different groupings of three particles, the proton, neutron and electron. Later, the menagerie of hadrons became so large that a similar reimagining of what was fundamental took place, and the theory of quarks gave an order to the many mesons and baryons. This pattern leaves physicists suspicious of any theory with too many particles and free parameters, suggesting that perhaps, at a higher energy, there is a simpler model that can unify many of the seemingly disparate elements of the \ac{SM}. 
 
-However, some of these seemingly independent parameters have suspicious symmetry. The Higgs mass, for example, has been measured to be 125 \gev. This mass is the sum of the bare mass, the one that appears in the lagrangian, and quantum corrections from interactions with other particles, which are proportional to the square of the particles' mass. Since new physics must exist at the Planck scale to account for gravity, these corrections could be up to 35 orders of magnitude larger than the Higgs mass. Though the bare mass could theoretically cancel out this massive correction, these parameters should be independent, and the odds that they would be precisely the same to 35 places are very, very small. This exact canceling is often called ``fine-tuning'', an undesirable trait in a theory which suggests that some more fundamental symmetry has been missed. The word ``naturalness'' is used to describe the the extent to which a theory is free of fine-tuning. 
+However, some of these seemingly independent parameters have suspicious symmetry. The Higgs mass, for example, has been measured to be 125 \gev. This mass is the sum of the bare mass, the one that appears in the lagrangian, and quantum corrections from interactions with other particles, which are proportional to the square of the particles' mass. Since new physics must exist at the Planck scale to account for gravity, these corrections could be up to 35 orders of magnitude larger than the Higgs mass. Though the bare mass could theoretically cancel out this massive correction, these parameters should be independent, and the odds that they would be precisely the same to 35 places are very, very small. This exact canceling is often called \textit{fine-tuning}, an undesirable trait in a theory which suggests that some more fundamental symmetry has been missed. The word \textit{naturalness} is used to describe the the extent to which a theory is free of fine-tuning. 
 
 %-------------------------------------------------
 
 \section{Supersymmetry}
 
-\ac{SUSY} was proposed and developed in the 1970s to give solutions to many of these \ac{SM} shortcomings. The theory works by introducing a fermionic symmetry to the \ac{SM}, in addition to the usual spacetime symmetries of translations, rotations, and changes of Lorentz frame. The combination of the usual spacetime with this fermionic dimension is called a ``superspace''. Rotations in this dimension result in a particle's spin changing by 1/2, turning a spin-1/2 fermion into a spin-0 particle, for example. As a consequence, this symmetry requires the existence of many new particles - a bosonic ``sfermion'' for each fermion of the \ac{SM} and a fermionic ``gaugino'' for each of the gauge bosons. These superpartners of \ac{SM} particles should have identical quantum numbers to the original particle, except for their spin. \autoref{tab:sparticles} shows the \ac{SM} particles and their superpartners. 
+\acf{SUSY} was proposed and developed in the 1970s to give solutions to many of these \ac{SM} shortcomings. The theory works by introducing a fermionic symmetry to the \ac{SM}, in addition to the usual spacetime symmetries of translations, rotations, and changes of Lorentz frame. The combination of the usual spacetime with this fermionic dimension is called a \textit{superspace}. Rotations in this dimension result in a particle's spin changing by 1/2, turning a spin-1/2 fermion into a spin-0 particle, for example. As a consequence, this symmetry requires the existence of many new particles - a bosonic \textit{sfermion} for each fermion of the \ac{SM} and a fermionic \textit{gaugino} for each of the gauge bosons. These superpartners of \ac{SM} particles should have identical quantum numbers to the original particle, except for their spins. \autoref{tab:sparticles} shows the \ac{SM} particles and their superpartners. 
 
 %TODO make better figure
 
@@ -409,11 +411,11 @@ However, some of these seemingly independent parameters have suspicious symmetry
 \end{table}
 
 
-If the theory is symmetric under these fermionic rotations, these particle-sparticle pairs can be described by a single ``superfield'', which simultaneously describes the behavior of both \ac{SM} and \ac{SUSY} particles in the superspace. However, this completely symmetric behavior is untenable given basic observations of matter in the universe. For example, if there were a ``selectron'' (the superpartner of the electron, $\sle$), for example, with identical mass to the electron, it would have been detected long ago. In fact, such a particle would fundamentally change atomic structure, with the bosonic selectrons capable of piling into the ground state of an atom, and removing all the interesting valence-shell interactions of electrons that determine molecular structure. Thus, if \ac{SUSY} does exist, the symmetry must be broken, with much higher masses for the superpartners than the original \ac{SM} particles. 
+If the theory is symmetric under these fermionic rotations, these particle-sparticle pairs can be described by a single \textit{superfield}, which simultaneously describes the behavior of both \ac{SM} and \ac{SUSY} particles in the superspace. However, this completely symmetric behavior is untenable given basic observations of matter in the universe. For example, if there were a \textit{selectron} (the superpartner of the electron, $\sle$), with identical mass to the electron, it would have been detected long ago. In fact, such a particle would fundamentally change atomic structure, with the bosonic selectrons capable of piling into the ground state of an atom, and removing all the interesting valence-shell interactions of electrons that determine molecular structure. Thus, if \ac{SUSY} does exist, the symmetry must be broken, with much higher masses for the superpartners than the original \ac{SM} particles. 
 
 \subsection{The Minimal Supersymmetric Standard Model}
 
-The \ac{MSSM} was designed to be the simplest supersymmetric extension of the \ac{SM} that remains self consistent, and it results in the particles seen in \autoref{tab:sparticles}\cite{Martin:1997ns}. The formulation of the \ac{MSSM} begins by introducing a second Higgs doublet to account for the different masses of the sparticles. As with the \ac{SM} Higgs, electroweak symmetry breaking results in the loss of degrees of freedom, and only five states remain, the lightest of which, $h^0$, can be interpreted as the \ac{SM} Higgs already discovered. There are two remaining neutral states, $A^0$ and $H^0$, as well as two charged Higgses, $H^\pm$. 
+The \acf{MSSM} was designed to be the simplest supersymmetric extension of the \ac{SM} that remains self consistent, and it results in the particles seen in \autoref{tab:sparticles}\cite{Martin:1997ns}. The formulation of the \ac{MSSM} begins by introducing a second Higgs doublet to account for the different masses of the sparticles. As with the \ac{SM} Higgs, electroweak symmetry breaking results in the loss of degrees of freedom, and only five of the original eight states remain, the lightest of which, $h^0$, can be interpreted as the \ac{SM} Higgs already discovered. There are two remaining neutral states, $A^0$ and $H^0$, as well as two charged Higgses, $H^\pm$. 
 
 The neutral Higgs states mix with the neutral gauge bosons, while the charged Higgs states mix with the charged gauge bosons, producing a series of states labeled only by their charge and the order of their masses. The neutral states, collectively called the neutralinos, are identified from lightest to heaviest, $\No[1], \No[2], \No[3],$ and $\No[4]$. The charged states, referred to as charginos, are similarly called $\Co[1]$ and $\Co[2]$.
 
@@ -429,7 +431,7 @@ The \ac{MSSM} introduces many new interactions between \ac{SM} particles and spa
 \end{figure}
 \end{centering}
 
-In addition to these interactions, there are several terms that appear in the \ac{MSSM} lagrangian that violate the $B$ and $L$ conservation conserved in the \ac{SM}. In fact, these terms violate $B-L$, which, unlike $B$ and $L$ conservation individually, does not have even small violations in the \ac{SM}. In the \ac{MSSM}, superpotential terms appear as follows
+In addition to these interactions, there are several terms that appear in the \ac{MSSM} lagrangian that violate the $B$ and $L$ conservation observed in the \ac{SM}. In fact, these terms violate $B-L$, which, unlike $B$ and $L$ conservation individually, does not have even small violations in the \ac{SM}. In the \ac{MSSM}, superpotential terms appear as follows
 
 \begin{eqnarray}
 W_{\Delta L = 1} = \frac{1}{2}\lambda^{ijk}L_i L_j \bar{e}_k + \lambda'^{ijk}L_i Q_j \bar{d}_k + \mu'^i L_i H_u \\
@@ -437,19 +439,19 @@ W_{\Delta B = 1} = \frac{1}{2}\lambda''^{ijk}\bar{u}_i \bar{d}_j \bar{d}_k .
 \label{eq:rviol}
 \end{eqnarray}
 
-Because there are very strong limits on non-conservation of $B-L$, the difference between baryon lepton number, from proton decay experiments, these terms present a challenge for the \ac{MSSM}. It would be possible, of course, to simply tune the $\lambda$ parameters to be small enough to fit within experimental constraints, but these terms can also be eliminated by introducing a new conserved quantity, $R$-parity. It is defined by
+Because there are very strong limits on non-conservation of $B-L$ from proton decay experiments, these terms present a challenge for the \ac{MSSM}. It would be possible, of course, to simply tune the $\lambda$ parameters to be small enough to fit within experimental constraints, but these terms can also be eliminated by introducing a new conserved quantity, $R$-parity. It is defined by
 
 \begin{equation}
 P_R = -1^{3(B-L)+2s}
 \end{equation}
 
-where $s$ is the spin of the particle. Requiring that all terms in the lagrangian have a multiplicative $P_R$ of 1 excludes the terms in \autoref{eq:rviol}, removing the problem of proton decay. All \ac{SM} particles are $R$-parity even, while the sparticles are $R$-parity odd. As a consequence, massive sparticles typically decay through a chain of lighter sparticles, emitting \ac{SM} particles along the way.  
+where $s$ is the spin of the particle. Requiring that all terms in the lagrangian have a multiplicative $P_R$ of 1 excludes the terms in \autoref{eq:rviol}, removing the problem of proton decay. All \ac{SM} particles are $R$-parity even, while the sparticles are $R$-parity odd, so the conservation of $R$-parity can translate into a conservation of number of particles and sparticles. As a consequence, massive sparticles typically decay through a chain of lighter sparticles, emitting \ac{SM} particles along the way.  
 
 \subsection{Solutions to Standard Model Problems}
 
-Perhaps the most compelling consequences of \ac{SUSY} comes from $R$-parity, which, through the formation of a new quantum number unique to sparticles, requires the \acf{LSP} to be stable. This stable particle, if it is neutrally charged, provides an excellent candidate dark matter particle. It interacts only via the weak force, which is required by experimental limits on dark matter interactions, and by the relic density of dark matter in the universe. An interaction cross-section higher than what's expected for weak interactions would have led the dark matter particle and its anti-particle to annihilate at lower densities, leaving a much smaller amount of dark matter in the universe than what is observed today.
+Perhaps the most compelling consequence of \ac{SUSY} comes from $R$-parity, which, through the formation of a new quantum number unique to sparticles, requires the \acf{LSP} to be stable. This stable particle, if it is neutrally charged, provides an excellent candidate dark matter particle. The lightest neutralino, for example, is a viable dark matter candidate because interacts only via the weak force, which is required due to measurements of the relic density of dark matter in the universe. An interaction cross-section higher than what's expected for weak interactions would have led the dark matter particle and its anti-particle to annihilate at lower densities, leaving a much smaller amount of dark matter in the universe than what is observed today \cite{astro-ph/9407006}.
 
-Many believe that a complete \ac{SM} would include a unification of the three forces, as electromagnetism and the weak force have already been unified. This requires that at some higher energy, the coupling constants of all three forces merge. However, in the \ac{SM}, the forces come close to aligning, but don't perfectly cross. With the addition of the \ac{MSSM}, the alignment is near perfect, as shown in \autoref{fig:gut_mssm}. This may be a mathematical coincidence, but it's very compelling to those physicists who believe that ``Grand Unified Theory'' must exist. 
+Many believe that a complete \ac{SM} would include a unification of the three forces, as electromagnetism and the weak force have already been unified. This requires that at some higher energy, the coupling constants of all three forces merge. However, in the \ac{SM}, the coupling constants come close to aligning, but don't perfectly cross. With the addition of the \ac{MSSM}, the alignment is near perfect, as shown in \autoref{fig:gut_mssm}. This may be a mathematical coincidence, but it's very compelling to those physicists who believe that ``Grand Unified Theory'' must exist. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -460,16 +462,16 @@ Many believe that a complete \ac{SM} would include a unification of the three fo
 \end{figure}
 \end{centering}
 
-\ac{SUSY} also has the potential to solve the ``naturalness'' problem in the \ac{SM}. In the \ac{SM}, the massive amounts of fine tuning are required to cancel the quadratic corrections to the Higgs mass that result from loops involving, most importantly, the top quark. In the \ac{MSSM}, an similar loop involving the stop quark (the vertex for which is depicted in \autoref{fig:mssm_int}) contributes to the Higgs mass with the opposite sign, making it possible to naturally cancel the corrections without fine tuning. However, the larger the mass difference between the top quark and stop quark, the larger the remaining correction when the two terms cancel. Consequentially, to preserve a reasonable degree of naturalness (and here the definition of ``reasonable'' is subject to some debate), the stop quark should appear at masses not too much larger than the top's, typically described as at the \tev scale. 
+\ac{SUSY} also has the potential to solve the naturalness problem in the \ac{SM}. In the \ac{SM}, the massive amounts of fine tuning are required to cancel the quadratic corrections to the Higgs mass that result from loops involving, most importantly, the top quark. In the \ac{MSSM}, an similar loop involving the stop quark (the vertex for which is depicted in \autoref{fig:mssm_int}) contributes to the Higgs mass with the opposite sign, making it possible to naturally cancel the corrections without fine tuning. However, the larger the mass difference between the top quark and stop quark, the larger the remaining correction when the two terms cancel. Consequentially, to preserve a reasonable degree of naturalness (and here the definition of ``reasonable'' is subject to some debate), the stop quark should appear at masses not too much larger than the top's, typically described as at the \tev~scale. 
 
-This naturalness mass limit makes the argument for searching for \ac{SUSY} at the \ac{LHC} particularly compelling, as the \ac{LHC} is the first collider capable of producing particles at the \tev scale. As new exclusions on \ac{SUSY} are set, the remaining phase space becomes slightly less natural, but there is no shortage of unexcluded \ac{SUSY} theories, which are continually proposed as new limits are created. 
+This naturalness mass limit makes the argument for searching for \ac{SUSY} at the \ac{LHC} particularly compelling, as the \ac{LHC} is the first collider capable of producing particles at the \tev~scale. As new exclusions on \ac{SUSY} are set, the remaining phase space becomes slightly less natural, but there is no shortage of unexcluded \ac{SUSY} theories, which are continually proposed as new limits are created. 
 
 \subsection{Simplified Models of Supersymmetry}
 \label{sec:simplified_models}
 
 There are many different theorized models of \ac{SUSY}, with different mechanisms for breaking the symmetry. Each of these theories typically contains on order hundreds of free parameters, with complex interactions that determine the mass hierarchy and interaction rates of the sparticles. From an experimental point of view, the details of these theories and the exact way the hierarchies are generated are often less relevant to a search than their outputs. Simplified models, which are typically inspired by more complete theories, are used to tune the observables of a model more directly. 
 
-In the analysis presented in \autoref{part:search}, a simplified model is used which produces the decay depicted in \autoref{fig:simpmodel}. This decay chain begins with pair production of gluinos, which decay via a pair of quarks to the second lightest neutralino, which then decay via a $Z$ boson to the lightest neutralino. In this simplified model, the lightest neutralino is the \ac{LSP}, and is stable.
+In the analysis presented in \autoref{part:search}, a simplified model is used which produces the decay depicted in \autoref{fig:simpmodel}. This decay chain begins with the pair production of gluinos, which decay via a pair of quarks to the second lightest neutralino, which then decay via a $Z$ boson to the lightest neutralino. In this simplified model, the lightest neutralino is the \ac{LSP}, and is stable.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -480,26 +482,26 @@ In the analysis presented in \autoref{part:search}, a simplified model is used w
 \end{figure}
 \end{centering}
 
-Using this simplified model, the masses of the particles can be tuned directly. This is very helpful for the generation of \ac{MC}, discussed in \autoref{sec:MC_gen}, because a ``grid'' of different mass points of the important sparticles involved in the decay can be generated, allowing analyzers to make predictions of likely signals, and to exclude the simplified models as a function of the mass of the sparticles in the case that no anomalies are seen. 
+Using this simplified model, the masses of the particles can be tuned directly. This is very helpful for the generation of \ac{MC}, discussed in \autoref{sec:MC_gen}, because a ``grid'' of different mass points of the important sparticles involved in the decay can be generated, allowing analyzers to make predictions of likely signals, and to exclude the simplified models as a function of the mass of the sparticles in the case that no discrepancies between predictions and observations are seen. 
 
 \section{Monte Carlo Generation}
 \label{sec:MC_gen}
 
 The complex events of the \ac{LHC} are difficult to model, but modeling them is crucial to analyzers' understanding of \ac{SM} backgrounds and potential signals. To simplify the modeling process, particle interactions are broken down into very small steps, each with associated probabilities of various outcomes. This modeling method is called \acf{MC}, and, at the \ac{LHC} it is broken into several larger steps which are each handled by different software. 
 
-The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which provided by several different \ac{PDF} sets. These distributions come from experimental measurements, though there is some variation between different sets. Three different sets are used in this analysis: NNPDF2.3LO \cite{Ball:2012cx} and NLO CT10 \cite{Lai:2010vv} for background and signal processes, and MSTW 2008 \cite{0901.0002} for pile-up events, discussed more in \autoref{sec:pileup}. 
+The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which are provided by several different \ac{PDF} sets. These distributions come from experimental measurements, though there is some variation between different sets. Three different sets are used in this analysis: NNPDF2.3LO \cite{Ball:2012cx} and NLO CT10 \cite{Lai:2010vv} for background and signal processes, and MSTW 2008 \cite{0901.0002} for pile-up events, discussed more in \autoref{sec:pileup}. 
 
-With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these constituent particles. This is accomplished by a generator, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically produce ``matrix elements'', which describe the probability to go from an initial to final state via a hard scattering, including the kinematics of the output. Examples of generators include {\sc MG5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa \cite{sherpa}. 
+With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these constituent particles. This is accomplished by a generator, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically produce \textit{matrix elements}, which describe the probability to go from an initial to final state via a hard scattering, including the kinematics of the output. Examples of generators include {\sc MG5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa \cite{sherpa}. 
 
-These hard scattering descriptions are then passed to the next step, where parton showering, final and initial state radiation, hadronization, and other processes can occur. Some generators, such as \sherpa, can perform this step on its own. {\sc Powheg} cannot, and is interfaced with {\sc Pythia} \cite{Sjostrand:2006za} obtain these final state particles, as is {\sc MG5\_aMC@NLO} \cite{Sjostrand:2007gs}. These processes can also be calculated at different orders.
+These hard scattering descriptions are then passed to the next step, where parton showering, final and initial state radiation, hadronization, and other processes can occur. Some generators, such as \sherpa, can perform this step on their own. {\sc Powheg} cannot, and is interfaced with {\sc Pythia} \cite{Sjostrand:2006za} obtain these final state particles, as is {\sc MG5\_aMC@NLO} \cite{Sjostrand:2007gs}.
 
 The calculation of these decays can become very complicated when more and more loops are allowed into the Feynman diagrams. The simplest diagrams without any loops are referred to as \ac{LO}, while calculations including diagrams with one loop are called \ac{NLO}, and additional Ns can be added to describe more complex calculations. In addition, the total cross-section for a given process can be calculated at a higher order and used to scale the overall number of events generated for the process. 
 
-These calculations can also be tuned, varying parameters in the generation to create outputs that most closely match experimental data. In some cases, this can mean that a tune might include values for certain physical quantities that are different from their measured values because it ultimately produces a result more similar to data. 
+These calculations can also be tuned, varying parameters in the generation to create outputs that most closely match experimental data. In some cases, this can mean that a tune might include values for certain physical quantities that are different from their measured values because this configuration ultimately produces a result more similar to data. 
 
-Once the final state particles of the hard interaction have been calculated, the pile-up of the \ac{LHC} must be accounted for. Events called ``minimum bias'' are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the ATLAS detector.
+Once the final state particles of the hard interaction have been calculated, the pile-up of the \ac{LHC} (described in \autoref{sec:pileup}) must be accounted for. Events called \textit{minimum bias} are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the ATLAS detector.
 
-This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions produce signals in each subdetector are modeled in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. Every piece of the ATLAS detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
+This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions deposit charge in each subdetector are modeled in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. Every piece of the ATLAS detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
 
 The model of the detector used for this process is iteratively perfected by comparing data to \ac{MC}. \autoref{fig:geant} shows an example of a discrepancy between the simulation and observed data in the number of secondary vertices in a pixel module, which should correspond to the amount of material in the area. Observations of discrepancies like this can be used to correct the materials in the simulation. 
 
@@ -515,7 +517,7 @@ The model of the detector used for this process is iteratively perfected by comp
 
 Custom ATLAS code converts the energy deposited in active sensors into signals that resemble the expected detector response. These responses are typically very complicated with many parameters, and are constantly iterated on to best match the data. Electronic noise must also be added to correctly approximate the operating conditions of the detector. Additional alterations to this signal translation, including dead sensors and misalignments, can also be added at this stage. 
 
-Once the simulated particles have been converted into detector signals, the same reconstruction software used on data can be used on the \ac{MC}, converting the detector signals back into particle interpretations. The reconstruction process is described in \autoref{ch:reconstruction}.
+Once the simulated particles have been converted into detector signals, the same reconstruction software used on data can be used on the \ac{MC}, converting the detector signals back into particle interpretations. This reconstruction process is described in \autoref{ch:reconstruction}.
 
 
 

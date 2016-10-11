@@ -1073,9 +1073,42 @@
   \verb{eprint}
   \verb arXiv:1605.05081
   \endverb
-  \field{title}{Search for the Lepton Flavour Violating Decay $μ^{+} \to e^+
-  γ$ with the Full Dataset of the MEG Experiment}
+  \field{title}{Search for the Lepton Flavour Violating Decay $\mu^{+} \to e^+
+  \gamma$ with the Full Dataset of the MEG Experiment}
   \field{year}{2016}
+\endentry
+
+\entry{astro-ph/9407006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Copi}{C.}%
+     {Craig~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schramm}{S.}%
+     {David~N.}{D.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {Michael~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CCJSDNTMS1}
+  \strng{fullhash}{CCJSDNTMS1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1126/science.7809624
+  \endverb
+  \verb{eprint}
+  \verb arXiv:astro-ph/9407006
+  \endverb
+  \field{howpublished}{Science 267 (1995) 192-199}
+  \field{title}{Big-Bang Nucleosynthesis and the Baryon Density of the
+  Universe}
+  \field{year}{1994}
 \endentry
 
 \entry{ttbarxsec1}{article}{}

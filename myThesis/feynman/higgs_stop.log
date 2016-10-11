@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 OCT 2016 09:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**higgs_stop.tex
+**higgs_stop.
 (./higgs_stop.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -446,8 +446,7 @@ File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
-)) (./tikzfeynman.keys.code.tex)))
-No file higgs_stop.aux.
+)) (./tikzfeynman.keys.code.tex))) (./higgs_stop.aux)
 \openout1 = `higgs_stop.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -462,6 +461,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -550,33 +550,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 10.
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 14.
+tance' requires LuaTeX. It will be ignored. on input line 13.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 14.
+stance' requires LuaTeX. It will be ignored. on input line 13.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 14.
+distance' requires LuaTeX. It will be ignored. on input line 13.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./higgs_stop.aux) ) 
 Here is how much of TeX's memory you used:
- 14485 strings out of 493089
- 322794 string characters out of 6134842
- 386450 words of memory out of 5000000
- 17703 multiletter control sequences out of 15000+600000
+ 14480 strings out of 493089
+ 322733 string characters out of 6134842
+ 385450 words of memory out of 5000000
+ 17695 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,98p,434b,1627s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,98p,431b,1627s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr7.pfb>
-Output written on higgs_stop.pdf (1 page, 24981 bytes).
+Output written on higgs_stop.pdf (1 page, 24941 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

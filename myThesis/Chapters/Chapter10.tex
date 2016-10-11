@@ -10,17 +10,17 @@ This analysis requires two leptons that reconstruct to a $Z$ mass, jets, \met, a
 \section{Flavor Symmetric Processes}
 \label{sec:bg-fs}
 
-\ac{FS} backgrounds include any processes that produce pairs of leptons with uncorrelated flavor in the final state. In this analysis, the largest contribution comes from \ttbar, with additional events from processes like $WW$ and $Z\rightarrow\tau\tau$. In these processes, each lepton comes from a different decay. Unlike a $Z\rightarrow\ll$ decay then, these leptons' flavors are completely independent. 
+\acf{FS} backgrounds include any processes that produce pairs of leptons with uncorrelated flavor in the final state. In this analysis, the largest contribution comes from \ttbar, with additional events from processes like $WW$ and $Z\rightarrow\tau\tau$. In these processes, each lepton comes from a different decay. Unlike a $Z\rightarrow \ell\ell$ decay then, these leptons' flavors are completely independent. 
 
 \subsection{Flavor Symmetry Method}
 \label{sec:method-fs}
-As a consequence of the independence of the lepton flavors, any \ac{FS} process should produce $ee$, $\mu\mu$, and $e\mu$ events in a 1:1:2 ratio. This ratio is taken advantage of by the flavor symmetry method by measuring $e\mu$ events in data and using them to predict the contribution of these processes in the $ee$ and $\mu\mu$ channels. \cite{SUSY-2014-10}
+As a consequence of the independence of the lepton flavors, any \ac{FS} process should produce $ee$, $\mu\mu$, and $e\mu$ events in a 1:1:2 ratio. This ratio is taken advantage of in the flavor symmetry method by measuring $e\mu$ events in data and using them to predict the contribution of these processes in the $ee$ and $\mu\mu$ channels. \cite{SUSY-2014-10}
 
-To estimate the number of events in SRZ, a control region called CR-FS is used. Both regions are defined in \autoref{tab:regions-z}. CR-FS is very similar to SRZ with two changes: it requires different-flavor leptons instead of the same-flavor leptons required by SRZ, and the \mll range it covers has been expanded by a factor of three, now ranging from 61 to 121 \gev. The expansion of the \mll window is done to increase the number of events in the control region, thus lowering the statistical uncertainty of the prediction\footnote{Though this statistical uncertainty is no longer dominant for the analysis, the method was developed for a smaller dataset for which this expansion dramatically decreased the total uncertainty on the background prediction. \cite{zmet} Because of previous excesses seen, the signal region was not reoptimized for the larger dataset used in this search, but in future iterations of this analysis, the signal region have tighter cuts, making this decreased statistical uncertainty significant once again.}. 
+To estimate the number of events in SRZ, a control region called CR-FS is used. Both regions are defined in \autoref{tab:regions-z}. CR-FS is very similar to SRZ with two changes: it requires different-flavor leptons instead of the same-flavor leptons required by SRZ, and the \mll~range it covers has been expanded by a factor of three, now ranging from 61 to 121 \gev. The expansion of the \mll~window is done to increase the number of events in the control region, thus lowering the statistical uncertainty of the prediction\footnote{Though this statistical uncertainty is no longer dominant for the analysis, the method was developed for a smaller dataset for which this expansion dramatically decreased the total uncertainty on the background prediction. \cite{zmet} Because of previous excesses seen, the signal region was not reoptimized for the larger dataset used in this search, but in future iterations of this analysis, the signal region will likely have tighter cuts, making this decreased statistical uncertainty significant once again.}. 
 
 This control region is expected to be about 95\% pure in \ac{FS} processes, with most of the remaining events coming from fake or non-prompt leptons. The \ac{FS} portion is made up primarily of \ttbar ($\sim$80\%), with additional contributions from $Wt$ ($\sim$10\%), $WW$ ($\sim$10\%), and $<1$\% $Z \rightarrow \tau\tau$. 
 
-After the number of data events are measured in CR-FS, correction factors are applied to account for trigger efficiencies, selection efficiencies, the \mll expansion, and the purity of the control region. Combining these factors, the estimate for number of events in the $ee$ and $\mu\mu$ channels is as follows:
+After the number of data events are measured in CR-FS, correction factors are applied to account for trigger efficiencies, selection efficiencies, the \mll~expansion, and the purity of the control region. Combining these factors, the estimate for number of events in the $ee$ and $\mu\mu$ channels is as follows:
 
 \begin{eqnarray}
 N_{ee}^\text{est} = \frac{1}{2} \cdot  f_{\mathrm{FS}} \cdot f_{Z \mathrm{\text{-}mass}} \cdot\sum^{N_{e\mu}^\text{data}} k_{e}(\pT^{\mu}, \eta^{\mu})\cdot \alpha(\pT^{\ell_1}, \eta^{\ell_1}) ,\\
@@ -29,7 +29,7 @@ N_{\mu\mu}^\text{est} = \frac{1}{2} \cdot  f_{\mathrm{FS}} \cdot f_{Z \mathrm{\t
 
 \noindent where $N_{e\mu}^\text{data}$ is the number of data events observed in CR-FS, 
 $f_{\mathrm{FS}}$ is the \ac{FS} purity in CR-FS,  
-$f_{Z \mathrm{\text{-}mass}}$ is the fraction of events in the widened \mll range expected to be in the on-$Z$ range (taken from \ttbar \ac{MC}),
+$f_{Z \mathrm{\text{-}mass}}$ is the fraction of events in the widened \mll~range expected to be in the on-$Z$ range (taken from \ttbar \ac{MC}),
 $k_{e}(\pT, \eta)$ and $k_{\mu}(\pT, \eta)$ are relative selection efficiencies for electrons and muons, calculated in bins of $\pT$ and $\eta$ of the lepton to be replaced, 
 and $\alpha(\pT, \eta)$ accounts for the different trigger efficiencies for events in each channel, binned based on the kinematics of the leading lepton. These $k$ and $\alpha$ factors are calculated from data in an inclusive on-$Z$ selection ($81<\mll/\GeV<101$, $\geq2$ jets), 
 according to:
@@ -41,15 +41,14 @@ k_{\mu}(\pT, \eta) = \sqrt{\frac{N_{\mu\mu}^{\text{meas}}}{N_{ee}^{\text{meas}}}
 \label{eq:kandalpha}
 \end{eqnarray}
 
-\noindent where $\epsilon^\text{trig}_{ee/\mu\mu}$ is the trigger efficiency 
-\footnote{This efficiency is defined by taking all events in the inclusive on-$Z$ selection mentioned above and determining the fraction that passes the relevant trigger requirement defined by \autoref{tab:trigger_strat}. Because the offline selection made on these events already has some trigger dependence, this calculation of efficiency could be slightly biased. This effect is considered in \autoref{sec:unc_fs}, and the uncertainty applied to the estimate as a result is described.} 
+\noindent where $\epsilon^\text{trig}_{ee/\mu\mu}$ is the trigger efficiency\footnote{This efficiency is defined by taking all events in the inclusive on-$Z$ selection mentioned above and determining the fraction that passes the relevant trigger requirement defined by \autoref{tab:trigger_strat}. Because the offline selection made on these events already has some trigger dependence, this calculation of efficiency could be slightly biased. This effect is considered in \autoref{sec:unc_fs}, and the uncertainty applied to the estimate as a result is described.} 
 and $N_{ee/\mu\mu}^{\text{meas}}$ 
 is the number of $ee/\mu\mu$ events in the inclusive on-$Z$ region described above. 
-Here $k_{e}(\pT, \eta)$ = $1/k_{\mu}(\pT, \eta)$, and this $k$ factor is calculated separately for leading and sub-leading leptons, and the appropriate $k$ value is selected based on the position of the lepton to be replaced. 
+Here $k_{e}(\pT, \eta)$ = $1/k_{\mu}(\pT, \eta)$, and this $k$ factor is calculated separately for leading and sub-leading leptons, and the appropriate $k$ value is selected based on which of the leptons is to be replaced. 
 
 Electron, muon, and trigger efficiencies are all quite close to one, and as a consequence, these correction factors are typically within 10\% of unity, except in the region $|\eta|<0.1$ where, because of the lack of coverage of the muon spectrometer, they are up to 50\% from unity.
 
-The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS. A scaling factor is determined by subtracting these backgrounds from the number of $e\mu$ events measured in CR-FS, then determining the fraction of the original data events that this pure-\ac{FS} number represents. The estimate for the other backgrounds is taken from \ac{MC} for all processes except fakes, which are predicted from data using the matrix method described in \autoref{sec:bg-fake}. 
+The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS. A scaling factor is determined by subtracting these backgrounds from the number of $e\mu$ events measured in CR-FS, then determining the fraction of the original data events that this pure-\ac{FS} number represents. The estimate for the non-\ac{FS} backgrounds is taken from \ac{MC} for all processes except fakes, which are predicted from data using the matrix method described in \autoref{sec:bg-fake}. 
 
 A prediction is made both for the signal region, SRZ, and the lower-\met validation region, VRS. This process is performed separately for the two data taking periods, 2015 and 2016, because of the changing triggers and conditions. The results are then summed together, as shown in \autoref{tab:fs_yields}. The uncertainties in this table are discussed in \autoref{sec:unc_fs}.
 
@@ -60,8 +59,8 @@ A prediction is made both for the signal region, SRZ, and the lower-\met validat
    Region & $ee$ prediction & $\mu\mu$ prediction & combined prediction \\
    \hline
    \hline
-   \multicolumn{4}{c}{Prediction for 14.7~\ifb\ of 2015+2016 Data} \\
-   \hline
+   %\multicolumn{4}{c}{Prediction for 14.7~\ifb\ of 2015+2016 Data} \\
+   %\hline
 SRZ & $ 16.50 \pm 2.11 $ & $ 16.67 \pm 2.04 $ & $ 33.16 \pm 3.94 $ \\
 VRS & $ 49.70 \pm 4.61 $ & $ 49.60 \pm 4.56 $ & $ 99.31 \pm 8.47 $ \\
 \hline
@@ -79,7 +78,7 @@ uncertainty due to deriving triggers efficiencies from a DAOD, and uncertainty o
 \subsection{Sideband Fit Method}
 \label{sec:method-sideband}
 
-As a crosscheck to the flavor symmetry method, a \ac{MC}-based method is used. This method is called a ``sideband fit,'' and it begins with a \ac{MC} estimate of the signal region across a \mll range that includes all values above 40 \gev. This region, excluding the on-$Z$ range that makes up the \ac{SR}, is used as a control region, defined as CRT in \autoref{tab:regions-z}. 
+As a crosscheck to the flavor symmetry method, a \ac{MC}-based method is used. This method is called a \textit{sideband fit}, and it begins with a \ac{MC} estimate of the signal region across an \mll~range that includes all values above 40 \gev. This region, excluding the on-$Z$ range that makes up the \ac{SR}, is used as a control region, defined as CRT in \autoref{tab:regions-z}. 
 
 The total data yield is measured in CRT, and the \ac{MC} is fit to match this yield with one normalization factor which scales the overall \ttbar background. As mentioned in the previous section, \ttbar is the dominant \ac{FS} background, making up about 80\% of the total events. All other backgrounds contributing to this control region are constrained by their uncertainties, which are used as nuisance parameters in the fit. The normalization factor from this fit is then applied to the \ttbar \ac{MC} yield in the \ac{SR}, and combined with the \ac{MC} predictions of the other \ac{FS} processes in the \ac{SR} to give a final estimate of this background. The results of the fit can be seen in \autoref{tab:Yields_sideband_mc}. 
 
@@ -89,12 +88,13 @@ The method is repeated in VRS to validate the method. The normalization factors,
 
 \begin{table}[hbt]
 \begin{center}
-\begin{tabular}{|ll|}
+\begin{tabular}{ll|}
 \hline
 Fit region & \ttbar\ normalization \\ 
 \hline\hline
 CRT & $0.64 \pm 0.18$ \\
 VRT & $0.80 \pm 0.09$ \\
+\hline
 \hline
 \end{tabular}
 \caption{
@@ -122,10 +122,10 @@ This method is extremely effective as a crosscheck because it uses a completely 
 \begin{tabular}{ccc}
 \noalign{\smallskip}\hline\noalign{\smallskip}
 Region  & Flavour-symmetry  & Sideband fit  \\
-\noalign{\smallskip}\hline\noalign{\smallskip}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
 SRZ & $33 \pm 4$   &  $29 \pm 7$  \\ [+0.05cm]
 VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
-\noalign{\smallskip}\hline
+\noalign{\smallskip}\hline\hline
 \end{tabular}
 \caption{ Comparison of \ac{FS} background predictions from the nominal method, the flavor symmetry method, and the cross-check, the sideband fit method. Uncertainties include statistical and systematic uncertainties in both cases. }
 \label{tab:fs_comparison}
@@ -136,25 +136,27 @@ VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \section{\dyjets Background}
 \label{sec:bg-z}
 
-The \dyjets background is mainly produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. The boson typically recoils off a hadronic system, which can produce the jet and \HT requirement required in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in its hadronic decays), so events often appear with high \met values due to extreme mismeasurement. Because SRZ cuts on the very high \met tails of a $Z$ distribution, a small change in the assumptions about jet resolution or energy scale in \ac{MC} can drastically change the prediction, and a low \dyjets prediction can result in a signal-like peak appearing in the final result. 
+The \dyjets background is mainly produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. The boson typically recoils off a hadronic system, which can satisfy the jet and \HT requirement in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in its hadronic decays), so most events with large amounts of \met are the result of extreme mismeasurement. Because SRZ cuts on the very high \met tails of a $Z$ distribution, a small change in the assumptions about jet resolution or energy scale in \ac{MC} can drastically change the prediction, and a low \dyjets prediction can result in a signal-like peak appearing in the final result. 
 
-Because of this inaccuracy in the \ac{MC} prediction in these high \met tails, a data-driven method is used to estimate this background. The method takes $\gamma$+jets events which, like the \dyjets events, contain one boson recoiling against a hadronic system, and corrects for the kinematic differences between $\gamma$ and $Z$s \cite{ATLAS:2012ema, Chatrchyan:2012qka}. These sample of photons used in taken from CR-$\gamma$, which is similar to the SRZ selection without the \met requirement, but it vetoes leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
+Because of this volatility in the \ac{MC} prediction in these high \met tails, a data-driven method is used to estimate this background. The method takes $\gamma$+jets events which, like the \dyjets events, contain one boson recoiling against a hadronic system. These $\gamma$+jets events are then corrected for the kinematic differences between $\gamma$ and $Z$s \cite{ATLAS:2012ema, Chatrchyan:2012qka}. The sample of $\gamma$+jets events is taken from CR-$\gamma$, defined in \autoref{tab:regions-z}. This region is similar to the SRZ selection without the \met requirement, but it vetoes events with leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut in SRZ, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
 
-The most significant experimental difference between $Z$ and photon events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which can then be observed by the ATLAS detector. In contrast, the photon is stable, and can be directly detected by ATLAS. This means that the reconstructed $Z$ boson and the directly observed photon have very different energy resolutions.
+%TODO what is with the pT miss?
+
+The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then be observed by the ATLAS detector. In contrast, the photon is stable, and can be directly detected by ATLAS. This means that the reconstructed $Z$ boson and the directly observed photon have very different energy resolutions.
 
 
 
 
 %-------------------------------------------------------------------------------------
 
-\section{Fakes}
+\section{Fake and Non-Prompt Leptons}
 \label{sec:bg-fake}
 
-The fakes background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets processes, and single top. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or from real non-prompt lepton resulting from photon conversions or $b$-hadron decays. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
+The \textit{fakes} background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets, and single top processes. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or due to a real non-prompt lepton resulting from photon conversions or $B$-hadron decays. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
 
-Despite the small predicted contribution in the \ac{SR}, a data-driven method called the ``matrix method'' is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their effect is often more significant. 
+Despite the small predicted contribution in the \ac{SR}, a data-driven method called the \textit{matrix method} is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their impact is more significant. 
 
-In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons (see \autoref{tab:eledef} and \autoref{tab:muondef}), which consist of a higher fraction of fake leptons. In each CR, VR, or SR, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in that region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
+In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons (see \autoref{tab:eledef} and \autoref{tab:muondef}), which consist of a higher fraction of fake leptons. In each \ac{CR}, \ac{VR}, or \ac{SR}, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in the region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
 
 \begin{equation}
 N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}} - 1) \times N_{\text{pass}} }{1/\epsilon^{\text{fake}} - 1/\epsilon^{\text{real}}}.
