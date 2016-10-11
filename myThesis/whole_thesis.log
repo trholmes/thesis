@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 OCT 2016 16:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3934,7 +3934,7 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
  []
 
 [75]
-Overfull \hbox (12.8411pt too wide) in paragraph at lines 44--49
+Overfull \hbox (12.8411pt too wide) in paragraph at lines 44--48
 \OML/zplm/m/it/10.95 ee\OT1/zplm/m/n/10.95 /\OML/zplm/m/it/10.95 ^^V^^V$ \T1/pp
 lj/m/n/10.95 events in the in-clu-sive on-$\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n
 /10.95 re-gion de-scribed above. Here $\OML/zplm/m/it/10.95 k[]\OT1/zplm/m/n/10
@@ -3944,7 +3944,7 @@ lj/m/n/10.95 events in the in-clu-sive on-$\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n
 
 [76]
 Package acronym Info: Label `acro:SR' newly defined as it shall be overridden
-although it is yet undefined on input line 82.
+although it is yet undefined on input line 81.
  [77] (./tables/ZMET_Sideband.tex
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4006,7 +4006,7 @@ ence-eps-converted-to.pdf figures/fs/ttbar_met_dependence.eps>
 (epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/ttbar_met_dependence-eps-converted-to.pdf, id=2571, 569.12625pt x 4
+<figures/fs/ttbar_met_dependence-eps-converted-to.pdf, id=2572, 569.12625pt x 4
 09.53pt>
 File: figures/fs/ttbar_met_dependence-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4031,20 +4031,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 136.
 
-[78 <./figures/fs/ttbar_met_dependence-eps-converted-to.pdf>] [79] [80]
+[78 <./figures/fs/ttbar_met_dependence-eps-converted-to.pdf>] [79]
+Overfull \hbox (5.6319pt too wide) in paragraph at lines 145--146
+[]\T1/pplj/m/n/10.95 The most sig-nif-i-cant ex-per-i-men-tal dif-fer-ence be-t
+ween $\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n/10.95 and $\OML/zplm/m/it/10.95 ^^M$
+ \T1/pplj/m/n/10.95 events
+ []
 
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+[80]
+Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
+although it is yet undefined on input line 159.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4058,7 +4054,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4072,7 +4068,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4086,7 +4082,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4100,7 +4096,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4114,7 +4110,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4128,7 +4124,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4142,7 +4138,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4156,7 +4152,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4170,7 +4166,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4184,7 +4180,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4198,7 +4194,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4212,7 +4208,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4226,133 +4222,151 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 181.
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\normalfont \bfseries ' on input line 183.
 
 [81]
-<figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=2636, 569.
+<figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=2642, 569.
 0058pt x 545.8794pt>
 File: figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png Graphic f
 ile (type png)
 
 <use figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png>
 Package pdftex.def Info: figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin
-_2016.png used on input line 193.
+_2016.png used on input line 195.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=2637, 569.
+<figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=2643, 569.
 0058pt x 545.8794pt>
 File: figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png Graphic f
 ile (type png)
 
 <use figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png>
 Package pdftex.def Info: figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin
-_2016.png used on input line 194.
+_2016.png used on input line 196.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=2643, 569.0058pt
+<figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=2649, 569.0058pt
  x 545.8794pt>
 File: figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png Graphic file (t
 ype png)
  <use figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png>
 Package pdftex.def Info: figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.
-png used on input line 205.
+png used on input line 207.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=2644, 569.0058pt
+<figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=2650, 569.0058pt
  x 545.8794pt>
 File: figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png Graphic file (t
 ype png)
  <use figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png>
 Package pdftex.def Info: figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.
-png used on input line 206.
+png used on input line 208.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, id=2646, 569.12625pt x 522.95375p
+[82 <./figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png> <./figu
+res/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png>]
+<figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, id=2660, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf>
 Package pdftex.def Info: figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf used on in
-put line 217.
+put line 221.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, id=2647, 569.12625pt x 522.95375p
+<figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, id=2661, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf>
 Package pdftex.def Info: figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf used on in
-put line 218.
+put line 222.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, id=2648, 569.12625pt x 522.95375p
+<figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, id=2662, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf>
 Package pdftex.def Info: figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf used on in
-put line 219.
+put line 223.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, id=2649, 569.12625pt x 522.95375p
+<figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, id=2663, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf>
 Package pdftex.def Info: figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf used on in
-put line 220.
+put line 224.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
- [82 <./figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png> <./fig
-ures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png>] [83 <./figures/f
-akes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png> <./figures/fakes/mm-Cut_Fake_
-TT-pTsublead_fakes-lin_2016.png> <./figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf
-, page is rotated 90 degrees> <./figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, p
-age is rotated 90 degrees> <./figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, page
- is rotated 90 degrees> <./figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, page is
- rotated 90 degrees>]
-<figures/dibosons/WZ_Wmass.png, id=2849, 698.61pt x 473.77pt>
+ [83 <./figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png> <./figures/f
+akes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png> <./figures/fakes/ee-CutSSMET_
+zveto-Mll-lin.pdf, page is rotated 90 degrees> <./figures/fakes/mm-CutSSMET_zve
+to-Mll-lin.pdf, page is rotated 90 degrees> <./figures/fakes/em-CutSSMET_zveto-
+Mll-lin.pdf, page is rotated 90 degrees> <./figures/fakes/me-CutSSMET_zveto-Mll
+-lin.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:diboson_wz2' on page 84 undefined on input line 2
+64.
+
+<figures/dibosons/WZ_Wmass.png, id=2857, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Wmass.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Wmass.png>
-Package pdftex.def Info: figures/dibosons/WZ_Wmass.png used on input line 264.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
+Package pdftex.def Info: figures/dibosons/WZ_Wmass.png used on input line 269.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Zmass.png, id=2850, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Zmass.png, id=2858, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Zmass.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Zmass.png>
-Package pdftex.def Info: figures/dibosons/WZ_Zmass.png used on input line 265.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
+Package pdftex.def Info: figures/dibosons/WZ_Zmass.png used on input line 270.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Wpt.png, id=2851, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Wpt.png, id=2861, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Wpt.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Wpt.png>
-Package pdftex.def Info: figures/dibosons/WZ_Wpt.png used on input line 266.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
+Package pdftex.def Info: figures/dibosons/WZ_Wpt.png used on input line 278.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Zpt.png, id=2852, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Zpt.png, id=2862, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Zpt.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Zpt.png>
-Package pdftex.def Info: figures/dibosons/WZ_Zpt.png used on input line 267.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
+Package pdftex.def Info: figures/dibosons/WZ_Zpt.png used on input line 279.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/ZZ_Zmass.png, id=2853, 698.61pt x 473.77pt>
+<figures/dibosons/ZZ_Zmass.png, id=2865, 698.61pt x 473.77pt>
 File: figures/dibosons/ZZ_Zmass.png Graphic file (type png)
 
 <use figures/dibosons/ZZ_Zmass.png>
-Package pdftex.def Info: figures/dibosons/ZZ_Zmass.png used on input line 276.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
+Package pdftex.def Info: figures/dibosons/ZZ_Zmass.png used on input line 287.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/ZZ_Zpt.png, id=2854, 698.61pt x 473.77pt>
+<figures/dibosons/ZZ_Zpt.png, id=2866, 698.61pt x 473.77pt>
 File: figures/dibosons/ZZ_Zpt.png Graphic file (type png)
 
 <use figures/dibosons/ZZ_Zpt.png>
-Package pdftex.def Info: figures/dibosons/ZZ_Zpt.png used on input line 277.
-(pdftex.def)             Requested size: 151.19897pt x 102.5381pt.
-) [84] [85 <./figures/dibosons/WZ_Wmass.png> <./figures/dibosons/WZ_Zmass.png> 
-<./figures/dibosons/WZ_Wpt.png> <./figures/dibosons/WZ_Zpt.png> <./figures/dibo
-sons/ZZ_Zmass.png> <./figures/dibosons/ZZ_Zpt.png>]
+Package pdftex.def Info: figures/dibosons/ZZ_Zpt.png used on input line 288.
+(pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
+) [84] [85 <./figures/dibosons/WZ_Wmass.png> <./figures/dibosons/WZ_Zmass.png>]
+ [86 <./figures/dibosons/WZ_Wpt.png> <./figures/dibosons/WZ_Zpt.png>] [87 <./fi
+gures/dibosons/ZZ_Zmass.png> <./figures/dibosons/ZZ_Zpt.png>]
 \openout2 = `Chapters/Chapter10b.aux'.
 
- (./Chapters/Chapter10b.tex [86
+ (./Chapters/Chapter10b.tex [88
 
 
 
@@ -4364,9 +4378,7 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 11 
  []
 
-Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
-[87]
+[89]
 Package epstopdf Info: Source file: <figures/fs/ee+mm_ratio_mll_VRZ_widened.eps
 >
 (epstopdf)                    date: 2016-09-19 18:01:19
@@ -4380,7 +4392,7 @@ VRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_VRZ_widened.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf, id=2888, 569.1262
+<figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf, id=2911, 569.1262
 5pt x 402.50375pt>
 File: figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4402,7 +4414,7 @@ SRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_SRZ_widened.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf, id=2889, 569.1262
+<figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf, id=2912, 569.1262
 5pt x 402.50375pt>
 File: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4411,7 +4423,7 @@ File: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-t
 o.pdf used on input line 51.
 (pdftex.def)             Requested size: 285.60205pt x 201.99452pt.
- [88 <./figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf> <./figures
+ [90 <./figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf> <./figures
 /fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/fs/data_efficiencies_2j_Z_lep0.eps
 >
@@ -4426,7 +4438,7 @@ s_2j_Z_lep0-eps-converted-to.pdf figures/fs/data_efficiencies_2j_Z_lep0.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf, id=2925, 569.1262
+<figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf, id=2948, 569.1262
 5pt x 385.44pt>
 File: figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4448,7 +4460,7 @@ s_2j_Z_lep1-eps-converted-to.pdf figures/fs/data_efficiencies_2j_Z_lep1.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf, id=2926, 569.1262
+<figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf, id=2949, 569.1262
 5pt x 385.44pt>
 File: figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4459,7 +4471,7 @@ o.pdf used on input line 63.
 (pdftex.def)             Requested size: 285.60205pt x 193.43117pt.
 Package acronym Info: Label `acro:AOD' newly defined as it shall be overridden
 although it is yet undefined on input line 69.
- [89 <./figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf> <./figures
+ [91 <./figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf> <./figures
 /fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/fs/trigger_ratios.eps>
 (epstopdf)                    date: 2016-09-19 17:37:12
@@ -4473,14 +4485,14 @@ ps-converted-to.pdf figures/fs/trigger_ratios.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/trigger_ratios-eps-converted-to.pdf, id=2962, 569.12625pt x 385.44p
+<figures/fs/trigger_ratios-eps-converted-to.pdf, id=2987, 569.12625pt x 385.44p
 t>
 File: figures/fs/trigger_ratios-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/trigger_ratios-eps-converted-to.pdf>
 Package pdftex.def Info: figures/fs/trigger_ratios-eps-converted-to.pdf used on
  input line 76.
 (pdftex.def)             Requested size: 285.60205pt x 193.43117pt.
- [90 <./figures/fs/trigger_ratios-eps-converted-to.pdf>]
+ [92 <./figures/fs/trigger_ratios-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/fs/frac_vs_ht_2015.eps>
 (epstopdf)                    date: 2016-08-23 14:55:30
 (epstopdf)                    size: 9990 bytes
@@ -4493,7 +4505,7 @@ eps-converted-to.pdf figures/fs/frac_vs_ht_2015.eps>
 (epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/frac_vs_ht_2015-eps-converted-to.pdf, id=2989, 569.12625pt x 385.44
+<figures/fs/frac_vs_ht_2015-eps-converted-to.pdf, id=3014, 569.12625pt x 385.44
 pt>
 File: figures/fs/frac_vs_ht_2015-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/frac_vs_ht_2015-eps-converted-to.pdf>
@@ -4512,14 +4524,14 @@ eps-converted-to.pdf figures/fs/frac_vs_ht_2016.eps>
 (epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/frac_vs_ht_2016-eps-converted-to.pdf, id=2990, 569.12625pt x 385.44
+<figures/fs/frac_vs_ht_2016-eps-converted-to.pdf, id=3015, 569.12625pt x 385.44
 pt>
 File: figures/fs/frac_vs_ht_2016-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/frac_vs_ht_2016-eps-converted-to.pdf>
 Package pdftex.def Info: figures/fs/frac_vs_ht_2016-eps-converted-to.pdf used o
 n input line 88.
 (pdftex.def)             Requested size: 285.60205pt x 193.43117pt.
- [91 <./figures/fs/frac_vs_ht_2015-eps-converted-to.pdf> <./figures/fs/frac_vs_
+ [93 <./figures/fs/frac_vs_ht_2015-eps-converted-to.pdf> <./figures/fs/frac_vs_
 ht_2016-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -4533,7 +4545,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 98.
 
-[92]
+[94]
 
 Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              You should note, that in 1994 font command `\sc' has
@@ -4578,10 +4590,10 @@ although it is yet undefined on input line 220.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [93] [94] [95]
+) [95] [96] [97]
 \openout2 = `Chapters/Chapter11.aux'.
 
- (./Chapters/Chapter11.tex [96
+ (./Chapters/Chapter11.tex [98
 
 
 
@@ -4593,10 +4605,10 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 12 
  []
 
-) [97]
+) [99]
 \openout2 = `Chapters/Chapter12.aux'.
 
- (./Chapters/Chapter12.tex [98
+ (./Chapters/Chapter12.tex [100
 
 
 
@@ -4608,14 +4620,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 13 
  []
 
-) [99] [100
+) [101] [102
 
 
 
-] [101
+] [103
 
 
-] [102]
+] [104]
 \openout2 = `Chapters/Chapter13.aux'.
 
  (./Chapters/Chapter13.tex
@@ -4625,14 +4637,14 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 14 
  []
 
-) [103
+) [105
 
 
 
 ]
 \openout2 = `Chapters/Chapter14.aux'.
 
- (./Chapters/Chapter14.tex [104
+ (./Chapters/Chapter14.tex [106
 
 
 
@@ -4644,7 +4656,7 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 15 
  []
 
-) [105] [106
+) [107] [108
 
 
 
@@ -4670,7 +4682,7 @@ Overfull \hbox (4.73354pt too wide) in paragraph at lines 173--173
 95 http :
  []
 
-[107
+[109
 
 
 
@@ -4688,7 +4700,7 @@ Overfull \hbox (4.86003pt too wide) in paragraph at lines 173--173
 TL-PHYS-PUB-2016-004. 2016.
  []
 
-[108]
+[110]
 Overfull \hbox (17.71693pt too wide) in paragraph at lines 173--173
 \T1/pplj/m/n/10.95 sim-u-la-tions.^^Q In: \T1/pplj/m/it/10.95 JHEP \T1/pplj/m/n
 /10.95 07 (2014), p. 079. \T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/
@@ -4701,7 +4713,7 @@ Overfull \hbox (36.3562pt too wide) in paragraph at lines 173--173
 n\T1/pplj/m/n/10.95 : 9780511254857, 9781107404267,
  []
 
-[109]
+[111]
 Overfull \hbox (0.85896pt too wide) in paragraph at lines 173--173
 []\T1/pplj/m/n/10.95 The AL-ICE Col-lab-o-ra-tion. ^^P  The AL-ICE ex-per-i-men
 t at the CERN
@@ -4720,14 +4732,14 @@ Overfull \hbox (15.79369pt too wide) in paragraph at lines 173--173
 ethod.^^Q
  []
 
-[110]
+[112]
 Overfull \hbox (40.70224pt too wide) in paragraph at lines 173--173
 \T1/pplj/m/n/10.95 Ser. Di-rect. High En-ergy Phys.18,1(1998)]. \T1/pplj/m/sc/1
 0.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 1142 / 9789812839657 _
 
  []
 
-[111]
+[113]
 Overfull \hbox (3.72939pt too wide) in paragraph at lines 173--173
 []\T1/pplj/m/n/10.95 P. Na-son. ^^P  A new method for com-bin-ing NLO QCD with 
 shower
@@ -4745,7 +4757,7 @@ Overfull \hbox (2.49623pt too wide) in paragraph at lines 173--173
 
  []
 
-[112]
+[114]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./whole_thesis.aux (./FrontBackMatter/Titlepage.aux)
@@ -4758,11 +4770,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
 ) (./Chapters/Chapter09.aux) (./Chapters/Chapter10.aux)
 (./Chapters/Chapter10b.aux) (./Chapters/Chapter11.aux)
 (./Chapters/Chapter12.aux) (./Chapters/Chapter13.aux) (./Chapters/Chapter14.aux
-) (./FrontBackMatter/Bibliography.aux))
+) (./FrontBackMatter/Bibliography.aux)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
-Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9E9C8E33CAE7951EB1DD89C17F19FD32;5888.
+
+
+Package rerunfilecheck Warning: File `whole_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `whole_thesis.out':
+(rerunfilecheck)             Before: 9E9C8E33CAE7951EB1DD89C17F19FD32;5888
+(rerunfilecheck)             After:  60CB8BB05778127A9D8243FED5F4A7F3;5910.
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -4772,41 +4798,68 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25943 strings out of 493089
- 449849 string characters out of 6134842
- 938921 words of memory out of 5000000
- 28070 multiletter control sequences out of 15000+600000
+ 25959 strings out of 493089
+ 450104 string characters out of 6134842
+ 938958 words of memory out of 5000000
+ 28074 multiletter control sequences out of 15000+600000
  166846 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,24n,103p,1329b,3382s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/b
-era/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/upl
-b8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on whole_thesis.pdf (136 pages, 8880213 bytes).
+pdfTeX warning (dest): name{table.caption.123} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.119} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.113} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.109} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.105} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.117} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.114} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.110} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.106} has been referenced but does no
+t exist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/fpl/fplrc8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/fpl/fplrij8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ber
+a/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on whole_thesis.pdf (138 pages, 8882218 bytes).
 PDF statistics:
- 3437 PDF objects out of 3580 (max. 8388607)
- 2837 compressed objects within 29 object streams
- 500 named destinations out of 1000 (max. 500000)
+ 3467 PDF objects out of 3580 (max. 8388607)
+ 2863 compressed objects within 29 object streams
+ 512 named destinations out of 1000 (max. 500000)
  71746 words of extra memory for PDF output out of 74296 (max. 10000000)
 
