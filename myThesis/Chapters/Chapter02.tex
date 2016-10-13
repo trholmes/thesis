@@ -517,7 +517,7 @@ The model of the detector used for this process is iteratively perfected by comp
 
 Custom ATLAS code converts the energy deposited in active sensors into signals that resemble the expected detector response. These responses are typically very complicated with many parameters, and are constantly iterated on to best match the data. Electronic noise must also be added to correctly approximate the operating conditions of the detector. Additional alterations to this signal translation, including dead sensors and misalignments, can also be added at this stage. 
 
-Once the simulated particles have been converted into detector signals, the same reconstruction software used on data can be used on the \ac{MC}, converting the detector signals back into particle interpretations. This reconstruction process is described in \autoref{ch:reconstruction}.
+Once the simulated particles have been converted into detector signals, the same reconstruction software used on data can be used on the \ac{MC}, converting the detector signals back into particle interpretations. This reconstruction process is described in \autoref{ch:reconstruction}. The original information about the particles from the generator, referred to as \textit{truth} information, is also kept, and can be compared to the reconstruction output to study its efficacy.
 
 
 

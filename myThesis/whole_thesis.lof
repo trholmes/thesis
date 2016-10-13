@@ -114,27 +114,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {44}{\ignorespaces Comparison of data and \ac {MC} in a selection like SRZ, without the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut.\relax }}{78}{figure.caption.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {45}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $ee$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. \relax }}{82}{figure.caption.107}
+\contentsline {figure}{\numberline {45}{\ignorespaces \ac {MC} comparison of boson \ensuremath {p_{\text {T}}}\xspace in a selection of photon and $Z\rightarrow \ell \ell $ events with \ensuremath {H_{\text {T}}}\xspace > 600 \textrm {Ge\kern -0.1em V}. \relax }}{81}{figure.caption.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {46}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $\mu e$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.\relax }}{83}{figure.caption.108}
+\contentsline {figure}{\numberline {46}{\ignorespaces \ensuremath {E_{T,\parallel }^{\mathrm {miss}}}distributions in \ac {MC} for $Z$+jets and $\gamma $+jets in an inclusive region with \ensuremath {H_{\text {T}}}\xspace > 600 \textrm {Ge\kern -0.1em V}.\relax }}{83}{figure.caption.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {47}{\ignorespaces Same sign validation regions in the $ee$ (top left), $\mu \mu $ (top right), $e\mu $ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \relax }}{83}{figure.caption.109}
+\contentsline {figure}{\numberline {47}{\ignorespaces \ensuremath {E_{T,\parallel }^{\mathrm {miss}}}distributions in \ac {MC} for $Z$+jets and $\gamma $+jets in an inclusive region with \ensuremath {H_{\text {T}}}\xspace > 600 \textrm {Ge\kern -0.1em V}after the smearing procedure has been performed. These distributions have also been \ensuremath {p_{\text {T}}}\xspace reweighted, as described in \autoref {sec:photon_reweight}.\relax }}{84}{figure.caption.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {48}{\ignorespaces Distribtuions of data and \ac {MC} in VR-WZ. Reconstructed transverse mass of the $W$ (top) and mass of the $Z$ (bottom). \relax }}{85}{figure.caption.111}
+\contentsline {figure}{\numberline {48}{\ignorespaces Photon reweighting factors for the $ee$ (left) and $\mu \mu $ (right) channels derived from data and \ac {MC}.\relax }}{85}{figure.caption.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {49}{\ignorespaces Distribtuions of data and \ac {MC} in VR-WZ. \ensuremath {p_{\text {T}}}\xspace of the $W$ (top) and $Z$ (bottom). \relax }}{86}{figure.caption.112}
+\contentsline {figure}{\numberline {49}{\ignorespaces Photon reweighting factors for the $ee$ (left) and $\mu \mu $ (right) channels derived from data and \ac {MC}.\relax }}{86}{figure.caption.111}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {50}{\ignorespaces Distribtuions in VR-WZ. On the top, mass of the $Z$ bosons in the event, and on the bottom, \ensuremath {p_{\text {T}}}\xspace of the $Z$ bosons. \relax }}{87}{figure.caption.113}
+\contentsline {figure}{\numberline {50}{\ignorespaces Photon reweighting factors for the $ee$ (left) and $\mu \mu $ (right) channels derived from data and \ac {MC}.\relax }}{87}{figure.caption.112}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {51}{\ignorespaces \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace \ac {MC} \ensuremath {m_{\ell \ell }}~distribution compared to the prediction from $\gamma $+jets method performed on \ac {MC} (left) and the prediction from $\gamma $+jets method performed on data (right).\relax }}{88}{figure.caption.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {52}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $ee$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. \relax }}{90}{figure.caption.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {53}{\ignorespaces Sub-leading lepton \ensuremath {p_{\text {T}}}\xspace \ for $\mu e$ (left) and $\mu \mu $ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.\relax }}{90}{figure.caption.116}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {54}{\ignorespaces Same sign validation regions in the $ee$ (top left), $\mu \mu $ (top right), $e\mu $ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \relax }}{91}{figure.caption.117}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {55}{\ignorespaces Distribtuions of data and \ac {MC} in VR-WZ. Reconstructed transverse mass of the $W$ (top) and mass of the $Z$ (bottom). \relax }}{92}{figure.caption.119}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {56}{\ignorespaces Distribtuions of data and \ac {MC} in VR-WZ. \ensuremath {p_{\text {T}}}\xspace of the $W$ (top) and $Z$ (bottom). \relax }}{93}{figure.caption.120}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {57}{\ignorespaces Distribtuions in VR-WZ. On the top, mass of the $Z$ bosons in the event, and on the bottom, \ensuremath {p_{\text {T}}}\xspace of the $Z$ bosons. \relax }}{94}{figure.caption.121}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {51}{\ignorespaces MC closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}window is used to predict the on-$Z$ bin.\relax }}{90}{figure.caption.115}
+\contentsline {figure}{\numberline {58}{\ignorespaces \ac {MC} closure plots of VRS (top) and SRZ (bottom). The number of events from MC (black points) is compared to the number of events predicted from the flavor symmetry method (yellow histogram). The comparison is performed before the expanded \ensuremath {m_{\ell \ell }}~window is used to predict the on-$Z$ bin, but because the shape is taken from the same \ac {MC}, the result is identical.\relax }}{98}{figure.caption.123}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {52}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{91}{figure.caption.116}
+\contentsline {figure}{\numberline {59}{\ignorespaces Measurements of $k$, the ratio of electron to muon events, in bins of $\ensuremath {p_{\text {T}}}\xspace $ and $\eta $. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.\relax }}{99}{figure.caption.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {53}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data, the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}, and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}.\relax }}{92}{figure.caption.118}
+\contentsline {figure}{\numberline {60}{\ignorespaces $\alpha $, the trigger efficiency ratio, calculated as a function of \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace from three different sources: data (blue), the usual skimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC} (red), and an unskimmed \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC} (green).\relax }}{101}{figure.caption.127}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {54}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{93}{figure.caption.119}
+\contentsline {figure}{\numberline {61}{\ignorespaces Plots of the fraction of on-Z events with a VR-FS-like selection as a function of \ensuremath {H_{\text {T}}}\xspace . The top figure shows 2015 data and \ac {MC} while the bottom figure shows the same for 2016.\relax }}{102}{figure.caption.128}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
