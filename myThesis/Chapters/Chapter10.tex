@@ -311,16 +311,16 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \end{figure}
 \end{centering}
 
-\subsection{Determining the \mll Shape}
+\subsection{Determining the \mll~Shape}
 \label{sec:photon_mll}
 
 One complication thus far ignored is that $\gamma$+jet have obvious value of \mll, or even of \HT, which includes the \pt of the two leading leptons. Both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
 
 In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ \pt bin. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
 
-The \mll determination is done after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses its assigned $\Delta$\pt to index the distribution, and an \mll~value is sampled from the corresponding bin. 
+The \mll~determination is done after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses its assigned $\Delta$\pt to index the distribution, and an \mll~value is sampled from the corresponding bin. 
 
-To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. 
+To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. After the \mll~distribution has been emulated, a cut requiring that the photon events be ``on the $Z$ mass peak'' can be required.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -350,7 +350,7 @@ This subtraction accomplished by performing the \gjets method on $V\gamma$ \ac{M
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.90\linewidth]{figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf
+\includegraphics[width=.90\linewidth]{figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf}
 \caption{Total \gjets data prediction in SRZ (excluding the \met cut) and the prediction after the $V\gamma$ subtraction.}
 \label{fig:photon_vgamma_subt}
 \end{figure}
@@ -358,7 +358,31 @@ This subtraction accomplished by performing the \gjets method on $V\gamma$ \ac{M
 
 \subsection{Validation in Data}
 
-The \gjets jets method is validated in a region called VRZ, defined in \autoref{tab:regions-z}
+The \gjets jets method is validated in a region called VRZ, defined in \autoref{tab:regions-z}, which is similar to SRZ, but with an inverted \met cut. \autoref{fig:photon_validation} shows the low-\met portion of this \ac{VR} where the \dyjets background is dominant. Here, the three data-driven background estimates, as well as the remaining \ac{MC} backgrounds are stacked and compared to the data yield in this region, demonstrating excellent agreement across a wide \met range. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_ee_onz.pdf}
+\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_mm_onz.pdf}
+\caption{\MET distribution in VRZ $ee$ (left) and $\mu\mu$ (right) with total data yield compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC}.}
+\label{fig:photon_validation}
+\end{figure}
+\end{centering}
+
+An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ intended to supress the \dyjets background from jet mismeasurement. \autoref{fig:photon_dphi} shows the distribution of this variable in VRZ, and demonstrates that, even at low values where the \dyjets background is dominant, the \gjets method models it accurately.
+
+
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.45\linewidth]{figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf}
+\includegraphics[width=.45\linewidth]{figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf}
+\caption{ $\Delta\phi(\text{jet},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ distribution in for the leading jet (left) and the subleading jet (right). The comparison is performed in VRZ with the cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ removed.  The total data yield is compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC}.}
+\label{fig:photon_dphi}
+\end{figure}
+\end{centering}
 
 %-------------------------------------------------------------------------------------
 
