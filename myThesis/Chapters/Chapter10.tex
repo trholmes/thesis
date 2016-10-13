@@ -230,7 +230,7 @@ To isolate mismeasurement of boson \pt, this method uses \metl, the \met project
 \end{figure}
 \end{centering}
 
-A function to smear photon events is derived from the deconvolution of the photon and lepton response functions, derived from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is derived for each bin via the deconvolution of the \dyjets and \gjets distributions. 
+A function to smear photon events is derived from the deconvolution of the photon and lepton response functions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is derived for each bin via the deconvolution of the \dyjets and \gjets distributions. 
 
 Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding a smearing factor $\Delta$\pt. The photon's \pt is then adjusted according to 
 
@@ -244,7 +244,7 @@ and the corresponding change in \met is made,
 E_{T,\parallel}^{\text{miss}\prime} = \metl - \Delta\pt.
 \end{equation}
 
-This procedure is repeated in \ac{MC} to test its efficacy, and the resulting \metl distributions can be seen in \autoref{fig:photon_metparallelsmeared}. Though there is a small amount of oversmearing in the negative tail, the improvement in agreement between the distributions is clear.
+The nominal smearing function is taken from \ac{MC} in order to remove contamination from other backgrounds, and the resulting \metl distributions can be seen in \autoref{fig:photon_metparallelsmeared}. Though there is a small amount of oversmearing in the negative tail, the improvement in agreement between the distributions is clear.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -287,15 +287,13 @@ This reweighting, though it is performed on the boson \pt, primarily serves to p
 
 Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely match that of the $Z$ events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. Once the \met distribution is well described, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ can be applied. 
 
-%TODO: put in first figure
-
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.75\linewidth]{figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
-\caption{Photon reweighting factors for the $ee$ (left) and $\mu\mu$ (right) channels derived from data and \ac{MC}.}
+\caption{\met distribution comparing \ac{MC} distributions of photon and $Z$ events before any smearing is applied (top), with only \pt reweighting applied (bottom left), and after \pt reweighting and smearing have both been applied (bottom right) in the $ee$ channel of 2016 data. }
 \label{fig:photon_metchange_ee}
 \end{figure}
 \end{centering}
@@ -303,10 +301,10 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.75\linewidth]{figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
-\caption{Photon reweighting factors for the $ee$ (left) and $\mu\mu$ (right) channels derived from data and \ac{MC}.}
+\caption{\met distribution comparing \ac{MC} distributions of photon and $Z$ events before any smearing is applied (top), with only \pt reweighting applied (bottom left), and after \pt reweighting and smearing have both been applied (bottom right) in the $\mu\mu$ channel of 2016 data.}
 \label{fig:photon_metchange_mm}
 \end{figure}
 \end{centering}
@@ -371,8 +369,6 @@ The \gjets jets method is validated in a region called VRZ, defined in \autoref{
 \end{centering}
 
 An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ intended to supress the \dyjets background from jet mismeasurement. \autoref{fig:photon_dphi} shows the distribution of this variable in VRZ, and demonstrates that, even at low values where the \dyjets background is dominant, the \gjets method models it accurately.
-
-
 
 \begin{centering}
 \begin{figure}[!hbt]

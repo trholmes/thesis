@@ -47,7 +47,7 @@ The next largest contribution to the uncertainty comes from \ac{MC} closure test
 In this test, the entire \ac{FS} procedure is performed on \ttbar \ac{MC}, including a recalculation of weighting factors $\alpha$ and $k$. The prediction from $e\mu$ events in \ac{MC} is compared to the \ac{MC} $ee$ and $\mu\mu$ events, as seen in \autoref{fig:fs_closure}. The difference between the two predictions is then summed in quadrature with the statistical uncertainty on each prediction to give the total closure uncertainty seen in \autoref{tab:fs_errors}. In these closure tests, all predictions agree within the statistical uncertainty, so the largest contributor to the resulting error is \ac{MC} statistics. 
 
 \begin{centering}
-\begin{figure}[!ht]
+\begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/ee+mm_ratio_mll_VRZ_widened.eps}
 \includegraphics[width=.85\linewidth]{figures/fs/ee+mm_ratio_mll_SRZ_widened.eps}
@@ -59,7 +59,7 @@ In this test, the entire \ac{FS} procedure is performed on \ttbar \ac{MC}, inclu
 A small uncertainty is added based on the statistical uncertainty on the $k$ and $\alpha$ factors derived from data. These factors are measured in many different bins (see, for example, the different measurements of $k$ in \autoref{fig:fs_k}), and as a consequence, some bins can have very large statistical uncertainties. To assess the uncertainty on the total estimate, each measurement of these factors is varied by its uncertainty in order to produce the maximum and minimum possible prediction. The differences with respect to the nominal prediction are used to create a symmetrized error, which is included in \autoref{tab:fs_errors}.
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep1.eps}
@@ -81,7 +81,7 @@ where $N_\text{trig}$ is the number of events passing the trigger in the kinemat
 Calculating the flavor symmetry method's dependence on these biases requires the use of \ac{MC}. With a generated \ac{MC} sample, there is no trigger dependence, so an unskimmed sample can be compared to a typical skimmed \ac{MC} \ac{dAOD} to identify the effect of the skimming. \autoref{fig:fs_alpha} shows a comparison of the $\alpha$ factors calculated for different bins in \met from the nominal source, data, as well as these two \ac{MC} sources. A \met dependence would be the most likely bias between the two \ac{MC}-derived $\alpha$ factors because \met triggers are the only triggers besides lepton triggers that will allow an event to be accepted into the dAOD used by this analysis. Though there is some difference between the data-derived $\alpha$ and those taken from \ac{MC}, it is clear from this plot that there is very little dependence on the choice of an unskimmed or skimmed sample. The calculation of the uncertainty is performed by repeating the flavor symmetric method in \ac{MC} with each of the two $\alpha$ factors and using the difference between the estimates as a symmetric error.
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/trigger_ratios.eps}
 \caption{$\alpha$, the trigger efficiency ratio, calculated as a function of \met from three different sources: data (blue), the usual skimmed \ttbar \ac{MC} (red), and an unskimmed \ttbar \ac{MC} (green).}
@@ -92,7 +92,7 @@ Calculating the flavor symmetry method's dependence on these biases requires the
 The last uncertainty relates to the main \ac{MC} dependence of the method - the \mll~shape of the \ac{FS} background. A correction factor is taken from \ac{MC} in order to account for the \mll~widening, and the accuracy of that factor must be checked. Its shape is compared to that of data in region similar to VR-FS, but with an \HT cut lowered to 300 \gev~to increase statistics. The difference between the fraction of events on the $Z$-mass peak in data and \ac{MC} in this region is taken as a systematic uncertainty. To confirm that using this lowered \HT cut still gives a valid answer, the fractions are compared as a function of \HT in \autoref{fig:fs_frac_ht}. In these plots, especially in the higher-statistics 2016 plot, it is clear both that the data and \ac{MC} agree very well and that there is no strong \HT dependence. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/frac_vs_ht_2015.eps}
 \includegraphics[width=.85\linewidth]{figures/fs/frac_vs_ht_2016.eps}
@@ -105,7 +105,72 @@ All the uncertainties are calculated independently for the two datasets, then ad
 
 %----------------------------------------------------------------------------------------
 
-\subsection{Uncertainties on the $\gamma$+jets Method}
+\subsection{Uncertainties on the \gjets Method}
+
+One of the largest sources of uncertainty on the \gjets method is derived by comparing the results from reweighting in different variables. Though boson \pt is used as the nominal reweighting variable, the differences in the kinematics of $\gamma$ and $Z$ events also impact number of jets, \HT, and $E_{\text{T}}$ (which includes the mass of the boson). The \gjets method is repeated using each of these variables to reweight, and their \met distributions are shown in \autoref{fig:photons_rwunc}. The maximum difference from the nominal prediction is symmetrized and used as an uncertainty on the method. 
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf}
+\caption{\met distributions for \gjets predictions using different reweighting variables, as well as distributions with the nominal reweighting but with smearing functions taken from data and from \ac{MC} in a $\geq$2-jet region.}
+\label{fig:photons_rwunc}
+\end{figure}
+\end{centering}
+
+Another uncertainty is applied to estimate the validity of using \ac{MC} in a 1-jet \ac{CR} to determine the smearing functions. Smearing functions are made using data from the same 1-jet region and using \ac{MC} in a $\geq$2-jet region otherwise identical to the 1-jet \ac{CR}. These distributions are also shown in \autoref{fig:photons_rwunc}, and like the alternate reweighting distributions, are used to find a maximum difference from the nominal prediction which is translated into a symmetric error. 
+
+As in the flavor symmetric method, the full procedure is carried out on \ac{MC} in order to test \ac{MC} closure, including a recalculation of any weights that are typically derived from data. The resulting comparison between \dyjets \ac{MC} and the \gjets method performed on \ac{MC} can be seen in \autoref{fig:photons_mcclos}. The final non-closure uncertainty is taken from VRS, where larger numbers of events give a clearer picture of the success of the method than in SRZ. In this region, the statistical uncertainty on the prediction is compared to the non-closure, and the larger of the two is used as the final uncertainty. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.85\linewidth]{figures/photons/gamma_jet_closure_ee_mm.eps}
+\caption{\ac{MC} closure of the \gjets method as a function of \met comparing the \ac{MC} prediction of the $Z$ background with the \gjets method performed on \gjets \ac{MC}. The uncertainty band includes both statistical and reweighting uncertainties.}
+\label{fig:photons_mcclos}
+\end{figure}
+\end{centering}
+
+The uncertainty on the $V\gamma$ contamination in CR-$\gamma$ is also considered. An uncertainty on the \ac{MC} prediction is made based on comparison of data and \ac{MC} in a $W +$ jets \ac{VR}, shown in \autoref{fig:photons_vgunc}. This \ac{VR} is similar to CR-$\gamma$, but instead of vetoing events with leptons, requires at least one well-isolated lepton with a \pt over 25 \gev. At \met values over 100 \gev, region is about 90\% pure in $W\gamma$ processes. The \ac{MC} agrees well with data in this region, even at very high \met, so an uncertainty of 16\% based primarily on statistical uncertainty in this \ac{VR} is placed on the $V\gamma$ \ac{MC}. This uncertainty is propagated to the final result through the subtraction procedure.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/photons/hPhotLep_mT_MET100_hist.eps}
+\includegraphics[width=.9\linewidth]{figures/photons/hPhotLep_mT_MET200_hist.eps}
+\caption{Distributions of $m_{\text{T}}(\ell,\met)$, the transverse mass of the lepton and the \met in a \ac{VR} designed to target $W\gamma$ processes. Top is the distribution with a \met cut at 100 \gev, and bottom is the same distribution with a \met cut of 200 \gev.}
+\label{fig:photons_vgunc}
+\end{figure}
+\end{centering}
+
+An uncertainty on the \mll~shape is determined using \ac{MC} closure as well. The comparison of \mll~shapes in \dyjets \ac{MC} and the \gjets method applied to \ac{MC} is shown in \autoref{fig:photon_mll_mc}. As with the main \ac{MC} closure test, the maximum of the statistical uncertainty and the non-closure is taken as the final uncertainty on this background.
+
+One last uncertainty based on the statistical uncertainty on the number of \gjets data events used for this method is also included. The full breakdown of uncertainty in SRZ can be seen in \autoref{tab:photon_uncertainties}.
+
+\begin{table}[!hbt]
+\centering
+\resizebox{\textwidth}{!}{
+
+ \begin{tabular}{cc|ccccccc}
+ \hline 
+\multirow{3}{*}{Ch.} 	& \multirow{3}{*}{Pred.} & \multicolumn{7}{c}{Uncertainties (\%)} \\
+   \cline{3-9} 
+   		 	& 	  		& $V\gamma$ 	& MC  		& \mll 	& re- 		& smear  & stat.  	& total \\
+   			& 		 	& sub. 			& clos.		& shape & weight	& 		 & 	 		& \\
+   \hline
+   \hline
+$ee$ 			& 1.02 & 53.0 & 21.0 & 19.0 & 100.0 & 65.0 & 56.0 & 145.0 \\ 
+$\mu\mu$ 		& 2.08 & 27.0 & 14.0 & 23.0 & 30.0  & 59.0 & 40.0 & 86.0 \\ 
+$ee$+$\mu\mu$ 	& 3.1  & 36.0 & 16.0 & 22.0 & 43.0  & 60.0 & 33.0 & 92.0 \\ 
+ 
+
+\hline
+\hline
+ \end{tabular}
+}
+\caption{Uncertainty breakdown for the \gjets method in SRZ. Uncertainties considered are the impact of \ac{MC} uncertainty on $V\gamma$ backgrounds, \ac{MC} closure, uncertainty on \mll shape (also determined via \ac{MC} closure), reweighting uncertainties, smearing uncertainties, and statistical uncertainty on the \gjets events used in the method.}
+\label{tab:photon_uncertainties}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 
@@ -114,7 +179,7 @@ All the uncertainties are calculated independently for the two datasets, then ad
 Systematic uncertainties on the fakes background are derived from a series of variations on the nominal method.  Variations include scaling the real and fake efficiencies up and down by their statistical uncertainties, scaling the prompt lepton contamination in CR-fake up and down by 20\%, and by requiring and vetoing $b$-tagged jets in CR-fake to determine the dependence on heavy flavor. 
 Statistical uncertainties can also be large in regions with small numbers of events in the the baseline selection, such as SRZ. In other regions, the $b$-tagging dependence provides the largest uncertainty. The full breakdown of uncertainties for the most important regions are listed in ~\autoref{tab:syst:fakes_onz1516}.
 
-\begin{table}[htbp]
+\begin{table}[!hbt]
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{l|cccccc}
