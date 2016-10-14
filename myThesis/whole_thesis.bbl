@@ -158,6 +158,26 @@
   \field{year}{2014}
 \endentry
 
+\entry{ATLAS-CONF-2014-032}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATLAS-CONF-2014-032}}
+  \field{title}{{Electron efficiency measurements with the ATLAS detector using
+  the 2012 LHC proton--proton collision data}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/1706245
+  \endverb
+  \field{year}{2014}
+\endentry
+
 \entry{ATL-PHYS-PUB-2015-023}{booklet}{}
   \name{author}{1}{}{%
     {{}%
