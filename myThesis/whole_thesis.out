@@ -42,8 +42,8 @@
 \BOOKMARK [1][-]{section.5.2}{5.2 Photons}{chapter.5}% 42
 \BOOKMARK [1][-]{section.5.3}{5.3 Muons}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.4}{5.4 Jets}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.5}{5.5 Missing Transverse Energy}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.6}{5.6 Monte Carlo Simulation}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.5}{5.5 Overlap Removal}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.6}{5.6 Missing Transverse Energy}{chapter.5}% 46
 \BOOKMARK [0][]{chapter.6}{6 Application of a Neural Network to Pixel Clustering}{part.3}% 47
 \BOOKMARK [1][-]{section.6.1}{6.1 Clustering in the Pixel Detector}{chapter.6}% 48
 \BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 Charge Interpolation Method}{section.6.1}% 49
@@ -60,31 +60,30 @@
 \BOOKMARK [1][-]{section.8.4}{8.4 Photons}{chapter.8}% 60
 \BOOKMARK [0][]{chapter.9}{9 Event Selection}{part.4}% 61
 \BOOKMARK [1][-]{section.9.1}{9.1 Trigger Strategy}{chapter.9}% 62
-\BOOKMARK [1][-]{section.9.2}{9.2 Signal Region}{chapter.9}% 63
-\BOOKMARK [1][-]{section.9.3}{9.3 Control and Validation Regions}{chapter.9}% 64
-\BOOKMARK [0][]{chapter.10}{10 Background Estimation}{part.4}% 65
-\BOOKMARK [1][-]{section.10.1}{10.1 Flavor Symmetric Processes}{chapter.10}% 66
-\BOOKMARK [2][-]{subsection.10.1.1}{10.1.1 Flavor Symmetry Method}{section.10.1}% 67
-\BOOKMARK [2][-]{subsection.10.1.2}{10.1.2 Sideband Fit Method}{section.10.1}% 68
-\BOOKMARK [1][-]{section.10.2}{10.2 Z/*+jets Background}{chapter.10}% 69
-\BOOKMARK [2][-]{subsection.10.2.1}{10.2.1 Photon and Z Event Selection}{section.10.2}% 70
-\BOOKMARK [2][-]{subsection.10.2.2}{10.2.2 Smearing of Photon Events}{section.10.2}% 71
-\BOOKMARK [2][-]{subsection.10.2.3}{10.2.3 pT Reweighting of Photon Events}{section.10.2}% 72
-\BOOKMARK [2][-]{subsection.10.2.4}{10.2.4 Determining the m Shape}{section.10.2}% 73
-\BOOKMARK [2][-]{subsection.10.2.5}{10.2.5 Subtraction of V Events}{section.10.2}% 74
-\BOOKMARK [2][-]{subsection.10.2.6}{10.2.6 Validation in Data}{section.10.2}% 75
-\BOOKMARK [1][-]{section.10.3}{10.3 Fake and Non-Prompt Leptons}{chapter.10}% 76
-\BOOKMARK [1][-]{section.10.4}{10.4 Diboson and Rare Top Processes}{chapter.10}% 77
-\BOOKMARK [0][]{chapter.11}{11 Systematic Uncertainties}{part.4}% 78
-\BOOKMARK [1][-]{section.11.1}{11.1 Uncertainties on Data-Driven Backgrounds}{chapter.11}% 79
-\BOOKMARK [2][-]{subsection.11.1.1}{11.1.1 Uncertainties on the Flavor Symmetry Method}{section.11.1}% 80
-\BOOKMARK [2][-]{subsection.11.1.2}{11.1.2 Uncertainties on the +jets Method}{section.11.1}% 81
-\BOOKMARK [2][-]{subsection.11.1.3}{11.1.3 Uncertainties on the Fakes Background}{section.11.1}% 82
-\BOOKMARK [1][-]{section.11.2}{11.2 Theoretical and Experimental Uncertainties}{chapter.11}% 83
-\BOOKMARK [1][-]{section.11.3}{11.3 Impact of Uncertainties on the Signal Region}{chapter.11}% 84
-\BOOKMARK [0][]{chapter.12}{12 Results}{part.4}% 85
-\BOOKMARK [0][]{chapter.13}{13 Interpretations}{part.4}% 86
-\BOOKMARK [-1][]{part.5}{Conclusions}{}% 87
-\BOOKMARK [0][]{chapter.14}{14 Conclusions}{part.5}% 88
-\BOOKMARK [0][]{chapter.15}{15 Outlook}{part.5}% 89
-\BOOKMARK [0][]{dummy.7}{Bibliography}{part.5}% 90
+\BOOKMARK [1][-]{section.9.2}{9.2 Signal Efficiency and Contamination}{chapter.9}% 63
+\BOOKMARK [0][]{chapter.10}{10 Background Estimation}{part.4}% 64
+\BOOKMARK [1][-]{section.10.1}{10.1 Flavor Symmetric Processes}{chapter.10}% 65
+\BOOKMARK [2][-]{subsection.10.1.1}{10.1.1 Flavor Symmetry Method}{section.10.1}% 66
+\BOOKMARK [2][-]{subsection.10.1.2}{10.1.2 Sideband Fit Method}{section.10.1}% 67
+\BOOKMARK [1][-]{section.10.2}{10.2 Z/*+jets Background}{chapter.10}% 68
+\BOOKMARK [2][-]{subsection.10.2.1}{10.2.1 Photon and Z Event Selection}{section.10.2}% 69
+\BOOKMARK [2][-]{subsection.10.2.2}{10.2.2 Smearing of Photon Events}{section.10.2}% 70
+\BOOKMARK [2][-]{subsection.10.2.3}{10.2.3 pT Reweighting of Photon Events}{section.10.2}% 71
+\BOOKMARK [2][-]{subsection.10.2.4}{10.2.4 Determining the m Shape}{section.10.2}% 72
+\BOOKMARK [2][-]{subsection.10.2.5}{10.2.5 Subtraction of V Events}{section.10.2}% 73
+\BOOKMARK [2][-]{subsection.10.2.6}{10.2.6 Validation in Data}{section.10.2}% 74
+\BOOKMARK [1][-]{section.10.3}{10.3 Fake and Non-Prompt Leptons}{chapter.10}% 75
+\BOOKMARK [1][-]{section.10.4}{10.4 Diboson and Rare Top Processes}{chapter.10}% 76
+\BOOKMARK [0][]{chapter.11}{11 Systematic Uncertainties}{part.4}% 77
+\BOOKMARK [1][-]{section.11.1}{11.1 Uncertainties on Data-Driven Backgrounds}{chapter.11}% 78
+\BOOKMARK [2][-]{subsection.11.1.1}{11.1.1 Uncertainties on the Flavor Symmetry Method}{section.11.1}% 79
+\BOOKMARK [2][-]{subsection.11.1.2}{11.1.2 Uncertainties on the +jets Method}{section.11.1}% 80
+\BOOKMARK [2][-]{subsection.11.1.3}{11.1.3 Uncertainties on the Fakes Background}{section.11.1}% 81
+\BOOKMARK [1][-]{section.11.2}{11.2 Theoretical and Experimental Uncertainties}{chapter.11}% 82
+\BOOKMARK [1][-]{section.11.3}{11.3 Impact of Uncertainties on the Signal Region}{chapter.11}% 83
+\BOOKMARK [0][]{chapter.12}{12 Results}{part.4}% 84
+\BOOKMARK [0][]{chapter.13}{13 Interpretations}{part.4}% 85
+\BOOKMARK [-1][]{part.5}{Conclusions}{}% 86
+\BOOKMARK [0][]{chapter.14}{14 Conclusions}{part.5}% 87
+\BOOKMARK [0][]{chapter.15}{15 Outlook}{part.5}% 88
+\BOOKMARK [0][]{dummy.7}{Bibliography}{part.5}% 89

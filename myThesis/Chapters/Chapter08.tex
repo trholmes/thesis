@@ -114,8 +114,31 @@ Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets 
 \label{tab:jetsdef}
 \end{table}
 
-Though no $b$-jets are required in the signal region of this analysis, some \acp{CR} use $b$-enhanced and $b$-vetoed regions to determine the impact of heavy flavor. These $b$-jets are identified using the \texttt{MV2c20} algorithm at a 77\% efficient working point, and are only identified for $|\eta|<2.5$. 
-
-
-
+Though no $b$-jets are required in the \ac{SR} of this analysis, some \acp{CR} use $b$-enhanced and $b$-vetoed regions to determine the impact of heavy flavor. These $b$-jets are identified using the \texttt{MV2c20} algorithm at a 77\% efficient working point, and are only identified for $|\eta|<2.5$. 
 \section{Photons}
+
+For the nominal samples in this analysis, photon reconstruction isn't run, and photons will be identified either as jets or electrons based on their properties. As such, there is no concept of a baseline photon, because these objects are not used in either \ac{OR} or \met calculation. 
+
+However, there is a background estimate that requires events with photons, and for this method, samples are made with photons fully reconstructed according to \autoref{sec:reco_photons}. These signal photons must pass a \texttt{tight} selection with \texttt{FixedCutTight} isolation and have $\pt > 25\,\GeV$ as well as $|\eta| < 2.37$. Photons with $1.37<|\eta|<1.6$ are rejected due to an discontinuity in the calorimeter which results in very large energy resolutions in this region. The full selection requirements can be seen in \autoref{tab:photondef}.
+
+\begin{table}[ph!]
+  \begin{center}
+    \begin{tabular}{l|c}
+      \hline
+      Cut            & Value/description \\
+      \hline
+      \hline
+      \multicolumn{2}{c}{Signal Photon}\\
+      \hline
+      \multirow{2}{*}{Acceptance}     & $\pt > 25\,\GeV, |\eta| < 2.37$ \\
+                     & rejecting $1.37<|\eta|<1.6$\\
+      Quality        & \texttt{tight}    \\
+      Isolation        & \texttt{FixedCutTight} \\
+      \hline      
+      \hline
+    \end{tabular}
+  \caption{Summary of the photon selection criteria.}            
+    \label{tab:photondef}
+  \end{center}
+\end{table}
+
