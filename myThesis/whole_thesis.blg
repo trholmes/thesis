@@ -41,28 +41,28 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14730 items from 5000.
+Reallocated field_info (elt_size=4) to 15008 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 211 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 238 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
 I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 218 of file bib/strong2l_paper.bib
+"{" immediately follows a field part---line 245 of file bib/strong2l_paper.bib
  :       howpublished  = \url
  :                           {"https://www.newscientist.com"},
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 223 of file bib/strong2l_paper.bib
+I was expecting a `,' or a `}'---line 250 of file bib/strong2l_paper.bib
  :   
  :   author        = "W.J. Stirling",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 230 of file bib/strong2l_paper.bib
+I was expecting a `,' or a `}'---line 257 of file bib/strong2l_paper.bib
  :   
  :   author        = "NobelPrize.org",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3769 of file bib/strong2l_paper.bib
+Repeated entry---line 3796 of file bib/strong2l_paper.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -94,49 +94,48 @@ Repeated entry---line 1307 of file atlaslatex/bibtex/bib/PubNotes.bib
  : @booklet{ATL-PHYS-PUB-2016-005
  :                               ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "PERF-2015-10"
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 69 entries,
+You've used 72 entries,
             6047 wiz_defined-function locations,
-            1610 strings with 24634 characters,
-and the built_in function-call counts, 195528 in all, are:
-= -- 6536
-> -- 6458
-< -- 1680
-+ -- 1614
-- -- 2524
-* -- 14938
-:= -- 11485
+            1626 strings with 25138 characters,
+and the built_in function-call counts, 202159 in all, are:
+= -- 6758
+> -- 6562
+< -- 1739
++ -- 1643
+- -- 2560
+* -- 15336
+:= -- 11732
 add.period$ -- 0
-call.type$ -- 69
-change.case$ -- 68
-chr.to.int$ -- 46
-cite$ -- 136
-duplicate$ -- 22793
-empty$ -- 21980
-format.name$ -- 4132
-if$ -- 44460
+call.type$ -- 72
+change.case$ -- 71
+chr.to.int$ -- 47
+cite$ -- 142
+duplicate$ -- 23631
+empty$ -- 22890
+format.name$ -- 4188
+if$ -- 46013
 int.to.chr$ -- 0
-int.to.str$ -- 186
+int.to.str$ -- 194
 missing$ -- 0
-newline$ -- 1797
-num.names$ -- 2876
-pop$ -- 21639
+newline$ -- 1858
+num.names$ -- 2939
+pop$ -- 22569
 preamble$ -- 1
-purify$ -- 826
+purify$ -- 858
 quote$ -- 0
-skip$ -- 11924
+skip$ -- 12308
 stack$ -- 0
-substring$ -- 2135
-swap$ -- 7835
-text.length$ -- 1690
-text.prefix$ -- 68
+substring$ -- 2256
+swap$ -- 8150
+text.length$ -- 1736
+text.prefix$ -- 71
 top$ -- 1
-type$ -- 2610
+type$ -- 2723
 warning$ -- 0
-while$ -- 1294
+while$ -- 1326
 width$ -- 0
-write$ -- 1727
+write$ -- 1785
 (There were 12 error messages)

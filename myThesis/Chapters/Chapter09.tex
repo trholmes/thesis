@@ -3,7 +3,7 @@
 \chapter{Event Selection} % Chapter title
 \label{ch:eventsel} 
 
-The goal of this analysis is to identify events resembling \autoref{fig:simpmodel} in collisions in the ATLAS detector. In order to do this, a \acf{SR} is defined with the goal of maximizing the identification efficiency of signal-like events while minimizing \ac{SM} backgrounds. However, because this analysis reinvestigates an excess of events seen in Run 1 with the ATLAS detector, the signal region was frozen and could not be reoptimized for the new, higher energy data in Run 2. The \ac{SR}, called \textit{SRZ}, was predetermined, including events with two opposite-sign, same-flavor leptons that could reconstruct a mass, \mll, close to that of the $Z$ boson, with the additional requirement of two jets, \met > 225\gev, and \HT, the scalar sum of the \pt of all jets and the leading two leptons in an event, of at least 600\gev. Additionally, a cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}\_{\mathrm{T}}^\mathrm{miss})$ was made in order to reduce the number of events with high \met due to mismeasurement of jets. 
+The goal of this analysis is to identify events resembling \autoref{fig:simpmodel} in collisions in the ATLAS detector. In order to do this, a \acf{SR} is defined with the goal of maximizing the identification efficiency of signal-like events while minimizing \ac{SM} backgrounds. However, because this analysis reinvestigates an excess of events seen in Run 1 with the ATLAS detector, the signal region was frozen and could not be reoptimized for the new, higher energy data in Run 2. The \ac{SR}, called \textit{SRZ}, was predetermined, including events with two opposite-sign, same-flavor leptons that could reconstruct a mass, \mll, close to that of the $Z$ boson, with the additional requirement of two jets, \met > 225 \gev, and \HT, the scalar sum of the \pt of all jets and the leading two leptons in an event, of at least 600 \gev. Additionally, a cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^{\mathrm{miss}})$ was made in order to reduce the number of events with high \met due to mismeasurement of jets. 
 
 Though this \ac{SR} was fixed, the methods used to estimate its expected \ac{SM} backgrounds were not. A series of \acfp{CR} and \acfp{VR} were chosen to make these estimations possible. \acp{CR} are regions in which the collected data can be used to make an estimate of an expected background in the \ac{SR}, while \acp{VR} are used to confirm the efficacy of these methods. Both \acp{CR} and \acp{VR} are designed to minimize contamination from any potential \ac{BSM} processes to ensure that background estimates relying on these regions don't include any potential signal. 
 
@@ -20,7 +20,7 @@ signal and validation regions are depicted in the $\HT-\met$ plane.
 }
 \end{figure}
 
-Each background estimation requires its own set of these regions, and the full list of regions used in this analysis can be seen in \autoref{tab:regions-z}. In addition to the \ac{FS} regions described above, there is one more \ac{CR}, CR-$\gamma$, which is a photon region used to predict the number of \dyjets events, a process described in \autoref{sec:bg-z}. Additional \acp{VR}, VR-ZZ, VR-WZ, and VR-3L, are introduced in order to validate the backgrounds taken directly from \ac{MC}. There are several additional regions used, for example, in the estimation of the fakes and \dyjets backgrounds, that are defined in their respective sections. 
+Each background estimation requires its own set of these regions, and the full list of regions used in this analysis can be seen in \autoref{tab:regions-z}. In addition to the \acf{FS} regions described above, there is one more \ac{CR}, CR-$\gamma$, which is a photon region used to predict the number of \dyjets events, a process described in \autoref{sec:bg-z}. Additional \acp{VR}, VR-ZZ, VR-WZ, and VR-3L, are introduced in order to validate the backgrounds taken directly from \ac{MC}. There are several additional regions used, for example, in the estimation of the fakes and \dyjets backgrounds, that are defined in their respective sections. 
 
 \begin{table}[htbp]
 \begin{center}
@@ -119,27 +119,20 @@ In CR-$\gamma$, there are no leptons, so an alternate trigger strategy must be u
 
 \section{Signal Efficiency and Contamination}
 
+Using the simplified models discussed in \autoref{sec:simplified_models}, the contributions of potential signals in these regions can be studied. In the \ac{SR}, the goal is to include as much of the potential signal as possible, while excluding as much \ac{SM} background as possible. \autoref{fig:acc_SMGGN2_1_z} shows the acceptance and efficiency for the simplified models at different mass points. Acceptance is defined as the fraction of signal events that produce signatures that kinematically match the \ac{SR}, while the efficiency is the fraction of these events expected to be correctly identified by the ATLAS detector. 
+
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/acc_SM_GG_N2_1.eps}
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/eff_SM_GG_N2_1.eps}
 \caption{
-Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson (with low mass LSP).  
-Acceptance is calculated by applying the signal-region kinematic requirements to particle-level objects, as defined in Appendix A of Ref.~\cite{SUSY-2013-19}, which do not suffer from identification inefficiencies or measurement resolutions.
+Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson with 1\gev~neutralino LSP.  
+Acceptance is calculated by applying the signal-region kinematic requirements to truth objects in \ac{MC}, which do not suffer from identification inefficiencies or measurement resolutions.
 }
 \label{fig:acc_SMGGN2_1_z}
 \end{figure}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/acc_SM_GG_N2.eps}
-\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/eff_SM_GG_N2.eps}
-\caption{
-Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson (with varying LSP mass).  
-Acceptance is calculated by applying the signal-region kinematic requirements to particle-level objects, as defined in Appendix A of Ref.~\cite{SUSY-2013-19}, which do not suffer from identification inefficiencies or measurement resolutions.
-}
-\label{fig:acc_SMGGN2_z}
-\end{figure}
+A similar test is done for the main \acp{CR} and \acp{VR} which estimates their susceptibility to signal contamination. Figures~\ref{fig:sig_contam_CRT} and~\ref{fig:sig_contam_VR} show the fraction of events in these regions excpected to come from signal for different points on the simplified model's mass grid. Contamination is highest in VRS, but only rises above 10\% for grid points that have already been excluded by past analyses, and so are not important targets for this search.
 
 \begin{figure}[ht]
 \centering
@@ -147,18 +140,17 @@ Acceptance is calculated by applying the signal-region kinematic requirements to
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS.eps}
 \caption{
 Expected signal contamination in CRT (left) and CR-FS (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1~\GeV\ neutralino LSP.}
+with the neutralino subsequently decaying to a $Z$ boson and a 1\gev~neutralino LSP.}
 \label{fig:sig_contam_CRT}
 \end{figure}
-
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_VRS1.eps}
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1.eps}
 \caption{
-Expected signal contamination in VRS1 (left) and VRT1 (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1~\GeV\ neutralino LSP.}
+Expected signal contamination in VRS (left) and VRT (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
+with the neutralino subsequently decaying to a $Z$ boson and a 1\gev~neutralino LSP.}
 \label{fig:sig_contam_VR}
 \end{figure}
 
