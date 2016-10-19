@@ -13,7 +13,7 @@ Electrons are identified through a combination of \ac{ID} and calorimeter measur
 
 In the central region ($|\eta|<2.47$) of the ATLAS detector, electron reconstruction begins with the identification of energy deposits in the electromagnetic calorimeter. The calorimeter clusters are seeded by sliding longitudinal windows, which are measured in units of 0.025 in $\eta$ and $\phi$. 3$\times$5 unit windows are used, which require at least 2.5 \gev~in the window to form a seed \cite{Aad:2011mk}. 
 
-These clusters are matched to \ac{ID} tracks by extrapolating the track to the middle layer of the calorimeter and identifying nearby clusters. If there are multiple tracks associated with a given cluster, tracks with silicon hits are preferentially chosen, and then the track with the smallest $\Delta R$ to the center of the cluster is selected. The track is used to determine the likely direction of bremsstrahlung radiation in the calorimeter, and the seed cluster window is expanded in $\phi$ to included the radiation. 
+These clusters are matched to \ac{ID} tracks by extrapolating the track to the middle layer of the calorimeter and identifying nearby clusters. If there are multiple tracks associated with a given cluster, tracks with silicon hits are preferentially chosen, and then the track with the smallest $\Delta R$ to the center of the cluster is selected. The track is used to determine the likely direction of bremsstrahlung radiation in the calorimeter, and maximum distance to match a track to a clusters expanded in the $\phi$ direction to account for this radiation.
 
 The calorimeter clusters are then rebuilt in in larger windows, 3$\times$7 in the barrel and 5$\times$5 in the end-caps. An estimate of the energy is made by summing the measured calorimeter energy with estimates of the energy lost before the electron reached the calorimeter, energy outside of the cluster window, and energy not fully deposited in the calorimeter. These estimates are made with parametrized functions determined from a comparison of \ac{MC} and measurements taken by the presampler. 
 
@@ -51,12 +51,44 @@ Electrons can also have \textit{isolation} requirements, cuts on nearby calorime
 \section{Photons}
 \label{sec:reco_photons}
 
+The reconstruction of photons is performed in parallel to electron reconstruction. Seed clustering is performed, and tracks are matched to these clusters, as in the case of the electron reconstruction described in \autoref{sec:reco_electrons}. 
 
+Photons can be converted to electron-positron pairs in the \ac{ID}, leaving a pair of tracks, or they can pass through without conversion, leaving no tracks behind. As a consequence, calorimeter clusters resulting from photons can have no tracks associated with them, two tracks, or one track, in the case that one of the conversion tracks is not reconstructed. The reconstruction software attempts to identify all these scenarios and differentiate these processes from electron and hadron deposits \cite{1606.01813}.
+
+Two-track clusters are required to consist of two oppositely charged tracks that emerge from a conversion vertex running parallel to one another. A likelihood that these are from electrons is determined using the high threshold hits in the \ac{TRT}, and cuts on this likelihood are made for tracks with and without silicon hits, 10 and 80\% respectively. The tracks are fit to produce the conversion vertex, and quality cuts are made, such as requiring that conversion vertices within the silicon volume correspond to tracks with silicon hits. 
+
+Single track clusters occur most often from conversions in the outermost layers of the \ac{ID}, and are more difficult to reconstruct. Tracks are typically lost because the coverted electron is too low \pt to be reconstructed, or because the two tracks are so close together that they're identified as a single track. The single track is required to have at least a 95\% electron likelihood, and must not have a hit in the innermost layer of the pixel detector. The conversion vertex is defined as the first hit of the track. 
+
+These conversion vertices are extrapolated to the calorimeter and matched to clusters. If multiple vertices are matched to a single cluster, preference is given to vertices with double tracks, silicon hits, and finally to tracks closest to the interaction point. 
+
+Any cluster with neither a conversion vertex or a track reconstructed to it is identified as an unconverted photon. Clusters with conversion vertices are reconstructed as photons unless the cluster is also associated with an electron and the tracks associated with the cluster don't match the tracks associated with the conversion vertex. Single track clusters associated with electrons are instead identified as photons if the track has no silicon hits. 
+
+The photon's energy is determined in 3$\times$5 (3$\times$7) windows for unconverted (converted) photons in the barrel, where the window is expanded to compensate for the increased spread of energy from the conversion products. In the endcap, the 5$\times$5 window is used in all cases. Like the electrons, the calibration of the photon's energy accounts for energy loss before the calorimeter, as well as energy deposited outside the cell and beyond the electromagnetic calorimeter.
+
+Photon identification is performed in the range $|\eta|<2.37$ using a series of cuts on the shape of the shower in the electromagnetic calorimeter, as well as the amount of additional energy deposited in the hadronic calorimeter. Photons in the the so called \textit{crack} region of the calorimeter ($1.37<|\eta|<1.52$), where a discontinuity prevents accurate assessment of photon energy, are rejected. The identification has a \texttt{Loose} and a \texttt{Tight} working point. The \texttt{Tight} working point is used most often, and has an identification efficiency of 53–64\%(47–61\%) for unconverted (converted) photons with \et = 10 \gev~and 88–92\% (96–98\%) for photons with \et $\geq$ 100 \gev \cite{ATL-PHYS-PUB-2016-014}. Efficincies as a function of \pt measured in the 2016 data and compared to \ac{MC} can be seen in \autoref{fig:reco_photon_eff}.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.48\linewidth]{figures/reco/photon_fig_01.pdf}
+\includegraphics[width=.48\linewidth]{figures/reco/photon_fig_02.pdf}
+\caption{ Comparison of tight identification efficiency measurements from data and $Z\rightarrow \ell\ell\gamma$ \ac{MC} for unconverted (left) and converted (right) photons, with an inclusive $\eta$ election. The bottom of each figure shows the ratio of data and \ac{MC} efficiencies. \cite{EGAM-2016-003}.}
+\label{fig:reco_photon_eff}
+\end{figure}
+\end{centering}
+
+Photon isolation, like electron isolation, can be determined as the combination of nearby calorimeter deposits and tracks. Fixed cuts on the isolation as a fraction of photon energy is typically used. A working point called \texttt{FixedCutTight} reconstructs the amount of calorimeter energy (excluding that of the photon) in a cone of $\Delta R  = 0.4$ around the photon and the amount of energy from the sum of track \pt in a cone of $\Delta R = 0.2$. Defined relative to the photon's \pt, this working point includes photons with calorimetric isolation less than 0.022\pt + 2.45 \gev~and track isolation less than 0.05\pt \cite{isolation}. 
 
 \section{Muons}
 \label{sec:reco_muons}
 
+Muon reconstruction is performed independently in the \ac{ID} and the \ac{MS}, then the two measurements are combined when possible \cite{1603.05598}. The \ac{ID} reconstruction is performed using the tracking mechanism over the $|\eta|<2.5$ range. As with electrons, hits in the layers of the \ac{ID} are fit to tracks, a process described in more detail in \autoref{sec:NN}.
 
+The \ac{MS} track reconstruction begins with a search in each muon chamber for patterns of hits consistent with a track, called \textit{segments}. The \ac{MDT} chamber hits are fit to a straight line, and nearby \ac{RPC} and \ac{TGC} chambers provide the coordinate orthogonal to the magnetic curvature for these hits. The \ac{CSC} segments are required to be loosely consistent with a track originating from the interaction point. 
+
+These segments are then fit together, starting from the middle layers of the \ac{MS}, with track quality requirements on the resulting combinations. Tracks must have at least two segments, except in the endcap, where a single high quality segment can qualify as a track. Shared segments are allowed in the initial reconstruction, but after the combination, tracks with shared segments and low quality fits are removed.    
+
+The muons use an isolation selection designed in the same way as the electron isolation, called \texttt{GradientLoose}. It is constructed such that muons with \pt of 25 \gev~have an efficiency of 95\%, and muons with \pt of 60 \gev~have an efficiency of 99\%. 
 
 \section{Jets}
 \label{sec:reco_jets}

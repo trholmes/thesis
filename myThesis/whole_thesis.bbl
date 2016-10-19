@@ -986,6 +986,48 @@
   \field{year}{2009}
 \endentry
 
+\entry{1606.01813}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{sortinit}{C}
+  \verb{eprint}
+  \verb arXiv:1606.01813
+  \endverb
+  \field{title}{Measurement of the photon identification efficiencies with the
+  ATLAS detector using LHC Run-1 data}
+  \field{year}{2016}
+\endentry
+
+\entry{1603.05598}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4120-y
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1603.05598
+  \endverb
+  \field{howpublished}{Eur. Phys. J. C (2016) 76:292}
+  \field{title}{Muon reconstruction performance of the ATLAS detector in
+  proton--proton collision data at $\sqrt{s}$=13 TeV}
+  \field{year}{2016}
+\endentry
+
 \entry{1748-0221-3-08-S08002}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1800,6 +1842,61 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2004}
+\endentry
+
+\entry{isolation}{misc}{}
+  \field{sortinit}{O}
+  \field{title}{{Official Isolation Working Points}}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/IsolationSelectionT
+  \verb ool#Photons
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{EGAM-2016-003}{report}{}
+  \field{sortinit}{P}
+  \field{number}{EGAM-2016-003}
+  \field{title}{{Photon Identification Efficiencies using 2016 Data with
+  radiative Z boson decays}}
+  \verb{url}
+  \verb https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PLOTS/EGAM-2016-003/inde
+  \verb x.html
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{ATL-PHYS-PUB-2016-014}{report}{}
+  \field{sortinit}{P}
+  \field{number}{ATL-PHYS-PUB-2016-014}
+  \field{title}{{Photon identification in 2015 ATLAS data}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/2203125
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Sjostrand:2006za}{article}{}
