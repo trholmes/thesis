@@ -178,6 +178,25 @@
   \field{year}{2014}
 \endentry
 
+\entry{ATLAS-CONF-2014-018}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATLAS-CONF-2014-018}}
+  \field{title}{Tagging and suppression of pileup jets with the ATLAS detector}
+  \verb{url}
+  \verb http://cds.cern.ch/record/1700870
+  \endverb
+  \field{year}{2014}
+\endentry
+
 \entry{ATL-PHYS-PUB-2015-023}{booklet}{}
   \name{author}{1}{}{%
     {{}%
@@ -194,6 +213,25 @@
   reconstruction for the ATLAS detector at $\sqrt{s}=13$ TeV}}
   \verb{url}
   \verb http://cds.cern.ch/record/2037700
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-022}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-022}}
+  \field{title}{{Expected performance of the ATLAS $b$-tagging in Run-2}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2037697
   \endverb
   \field{year}{2015}
 \endentry
@@ -821,6 +859,42 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
   \field{year}{2016}
+\endentry
+
+\entry{Cacciari:2008gp}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Cacciari}{C.}%
+     {Matteo}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salam}{S.}%
+     {Gavin~P.}{G.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soyez}{S.}%
+     {Gregory}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CMSGPSG1}
+  \strng{fullhash}{CMSGPSG1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1088/1126-6708/2008/04/063
+  \endverb
+  \verb{eprint}
+  \verb 0802.1189
+  \endverb
+  \field{pages}{063}
+  \field{title}{{The Anti-k(t) jet clustering algorithm}}
+  \field{volume}{0804}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2008}
 \endentry
 
 \entry{diboson1}{article}{}

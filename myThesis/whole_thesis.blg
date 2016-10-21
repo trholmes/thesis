@@ -41,7 +41,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15703 items from 5000.
+Reallocated field_info (elt_size=4) to 16120 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
 "{" immediately follows a field part---line 288 of file bib/strong2l_paper.bib
@@ -69,9 +69,17 @@ I'm skipping whatever remains of this entry
 Database file #3: atlaslatex/bibtex/bib/ATLAS.bib
 Database file #4: atlaslatex/bibtex/bib/CMS.bib
 Database file #5: atlaslatex/bibtex/bib/ConfNotes.bib
+Repeated entry---line 4491 of file atlaslatex/bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2014-018
+ :                             ,
+I'm skipping whatever remains of this entry
 Database file #6: atlaslatex/bibtex/bib/PubNotes.bib
 Repeated entry---line 963 of file atlaslatex/bibtex/bib/PubNotes.bib
  : @booklet{ATL-PHYS-PUB-2015-015
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1019 of file atlaslatex/bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2015-022
  :                               ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 1027 of file atlaslatex/bibtex/bib/PubNotes.bib
@@ -97,45 +105,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 77 entries,
+You've used 80 entries,
             6047 wiz_defined-function locations,
-            1646 strings with 25868 characters,
-and the built_in function-call counts, 213659 in all, are:
-= -- 7184
-> -- 6774
-< -- 1862
-+ -- 1708
-- -- 2626
-* -- 15960
-:= -- 12184
+            1664 strings with 26349 characters,
+and the built_in function-call counts, 222333 in all, are:
+= -- 7465
+> -- 7092
+< -- 1940
++ -- 1785
+- -- 2748
+* -- 16614
+:= -- 12701
 add.period$ -- 0
-call.type$ -- 77
-change.case$ -- 76
+call.type$ -- 80
+change.case$ -- 79
 chr.to.int$ -- 50
-cite$ -- 152
-duplicate$ -- 25072
-empty$ -- 24394
-format.name$ -- 4296
-if$ -- 48716
+cite$ -- 158
+duplicate$ -- 26071
+empty$ -- 25342
+format.name$ -- 4494
+if$ -- 50704
 int.to.chr$ -- 0
-int.to.str$ -- 209
+int.to.str$ -- 219
 missing$ -- 0
-newline$ -- 1952
-num.names$ -- 3075
-pop$ -- 24151
+newline$ -- 2026
+num.names$ -- 3210
+pop$ -- 25114
 preamble$ -- 1
-purify$ -- 926
+purify$ -- 961
 quote$ -- 0
-skip$ -- 13021
+skip$ -- 13574
 stack$ -- 0
-substring$ -- 2496
-swap$ -- 8631
-text.length$ -- 1823
-text.prefix$ -- 76
+substring$ -- 2555
+swap$ -- 8959
+text.length$ -- 1903
+text.prefix$ -- 79
 top$ -- 1
-type$ -- 2911
+type$ -- 3025
 warning$ -- 0
-while$ -- 1381
+while$ -- 1438
 width$ -- 0
-write$ -- 1874
-(There were 12 error messages)
+write$ -- 1945
+(There were 14 error messages)

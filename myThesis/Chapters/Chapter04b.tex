@@ -86,13 +86,94 @@ Muon reconstruction is performed independently in the \ac{ID} and the \ac{MS}, t
 
 The \ac{MS} track reconstruction begins with a search in each muon chamber for patterns of hits consistent with a track, called \textit{segments}. The \ac{MDT} chamber hits are fit to a straight line, and nearby \ac{RPC} and \ac{TGC} chambers provide the coordinate orthogonal to the magnetic curvature for these hits. The \ac{CSC} segments are required to be loosely consistent with a track originating from the interaction point. 
 
-These segments are then fit together, starting from the middle layers of the \ac{MS}, with track quality requirements on the resulting combinations. Tracks must have at least two segments, except in the endcap, where a single high quality segment can qualify as a track. Shared segments are allowed in the initial reconstruction, but after the combination, tracks with shared segments and low quality fits are removed.    
+These segments are then fit together, starting from the middle layers of the \ac{MS}, with track quality requirements on the resulting combinations based on the $\chi^2$ of the fits. Tracks must have at least two segments, except in the transition region between the barrel and endcap, where a single high quality segment can qualify as a track. Shared segments are allowed in the initial reconstruction, but after the combination, tracks with shared segments and low quality fits are removed.    
 
-The muons use an isolation selection designed in the same way as the electron isolation, called \texttt{GradientLoose}. It is constructed such that muons with \pt of 25 \gev~have an efficiency of 95\%, and muons with \pt of 60 \gev~have an efficiency of 99\%. 
+These \ac{MS} tracks are then combined with measurements from other parts of the ATLAS detector. The best quality muons are combined muons, which have \ac{ID} and \ac{MS} tracks associated to them, the hits of which are re-fit to form a combined track. \ac{MS} hits can be added or removed at this stage based on their consistency with the new track. Other types of muons exist, including extrapolated muons, which have only \ac{MS} tracks that are consistent with the interaction point, calorimeter-tagged muons, which combine an \ac{ID} track with a calorimeter deposit consistent with a muon, and segment-tagged muons, which combine an \ac{ID} track with a segment in the \ac{MS}. Muons with shared \ac{ID} tracks are not allowed, with preference given to combined muons, then calorimeter-tagged muons, and lastly segment-tagged muons. 
+
+There are four muon identification working points for muons: \texttt{Loose}, \texttt{Medium}, \texttt{Tight}, and \texttt{High-p$_\texttt{T}$}. These working points all have different efficiencies for the identification of muons, balanced against the mis-identification of hadrons. One of the key variables for their discrimination is $q/p$ significance, which quantifies the consistency between the \ac{ID} and \ac{MS} measurements of momentum. The $\chi^2$ of the combined fit is also an important discriminator. 
+
+The \texttt{Loose}, \texttt{Medium}, and \texttt{Tight} efficiencies are inclusive, with all \texttt{Tight} muons passing the \texttt{Medium} requirements, for example. The \texttt{Loose} requirement includes all types of muons, but allows muons without \ac{MS} tracks only in the $\eta<0.1$ range where coverage of the \ac{MS} is incomplete. The \texttt{Medium} working point includes only combined and extrapolated muons, and is the default for most ATLAS analyses. Extrapolated muons are allowed only in the $\eta$ range outside the \ac{ID} tracking system, a region often excluded by analyses because of the decreased quality. For the combined muons, at least three hits in at least two \ac{MDT} layers are required (except in the $\eta<0.1$ region) and a $q/p$ significance cut is made to reduce backgrounds. Even with the reduced requirements at low $\eta$, there is a drop in efficiency in this region, as shown in \autoref{fig:reco_muon_eta}. The \texttt{Tight} working point additionally cuts on $\chi^2$ and $p'$, another variable that quantifies the discrepancy between \ac{ID} and \ac{MS} \pt measurements. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/fig_03a.eps}
+\caption{Muon reconstruction efficiency for the \texttt{Medium} working point measured with $Z\rightarrow\mu\mu$ events in data using the tag-and-probe method and in \ac{MC} as a function of $\eta$. The ratio between the two is shown at the bottom. \cite{1603.05598} }
+\label{fig:reco_muon_eta}
+\end{figure}
+\end{centering}
+
+
+The \texttt{High-p$_\texttt{T}$} working point is designed to maximize efficiency for high-\pt muons, at the cost of lower efficiencies for low-\pt muons. Muons must have at least three \ac{MDT} hits in three layers, which decreases efficiency but gives greatly improved \pt resolution. In addition, some regions of the \ac{MS} with low-performing chambers are vetoed to cut down on mismeasurement. Compared to the default working point these muons have much lower efficiency: 78\% (90\%) for \texttt{High-p$_\texttt{T}$} muons compared to 96\% (96\%) for \texttt{Medium} in the \pt range of 4-20 \gev~(20-100 \gev). The efficiency as a function of $\eta$ for this working point can be seen in \autoref{fig:reco_muon_eta_highpt}, where the efficiency loss due to the of vetoing of some chambers is especially apparent.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/fig_03c.eps}
+\caption{Muon reconstruction efficiency for the \texttt{High-p$_\texttt{T}$} working point measured with $Z\rightarrow\mu\mu$ events in data using the tag-and-probe method and in \ac{MC} as a function of $\eta$. The ratio between the two is shown at the bottom. \cite{1603.05598} }
+\label{fig:reco_muon_eta_highpt}
+\end{figure}
+\end{centering}
+
+The most common isolation selection for muons is designed in the same way as the electron isolation, and also called \texttt{GradientLoose}. It is constructed such that muons with \pt of 25 \gev~have an efficiency of 95\%, and muons with \pt of 60 \gev~have an efficiency of 99\%. 
 
 \section{Jets}
 \label{sec:reco_jets}
 
+Jets are the most complicated objects to reconstruct in the ATLAS detector because each jet is an assembly of many hadronic particles. In contrast to a lepton, whose reconstructed energy can easily be compared to its true energy from simulation, even a jet's true energy is ambiguous, and is dependent on the choice of the jet's definition. The standard jet reconstruction algorithm used in the ATLAS experiment is called anti-$k_t$ \cite{Cacciari:2008gp}. 
+
+This algorithm begins with calorimeter clusters defined by topologically connected cells with energy deposits significantly higher than the noise background. In fact, there are two collections of these clusters, one with cluster energies calibrated for electromagnetic showers (\acs{EM}), and another calibrated to hadronic showers. The second uses a method called \ac{LCW}, which first classifies a cluster as electromagnetic or hadronic based on the energy density and the shower depth, then applies a calibration according to the classification for each cluster.
+
+The anti-$k_t$ algorithm is then applied to these clusters, which begins with the highest energy cluster and groups it with nearby clusters according to the distance measure
+
+\begin{equation}
+d_{ij} = min(k^{-2}_{ti}, k^{-2}_{tj}) \frac{\Delta_{ij}^2}{R^2}
+\end{equation}
+
+where $R$ is the algorithm's radius parameter, typically set to 0.4, $\Delta$ gives the angular separation of the two clusters, and $k_t$ is the transverse momentum associated with the cluster. Clusters are added to the jet within the cone radius, then the axis of the jet is reassessed. This process is repeated until a stable jet is produced. The inverse dependence on the $k_t$ of the cluster produces jets with energetic cores and softer edges, which matches the expectation from a hadronic shower. In addition it is infrared and collinear safe, with neither soft emission or collinear tracks altering the reconstruction of the jet. 
+
+A series of calibrations are then applied to these jets. The first is to correct for additional hadronic energy due to pile-up, shown in \autoref{fig:reco_jet_nvtx}. To do this, a correction taken from \ac{MC} and parametrized in terms \pt and $\eta$, as well as the number of primary vertices in the event as well as the average number of vertices, which makes correction for out-of-time pile-up possible. Next, jets are corrected to have their origin at the primary vertex instead of the center of the ATLAS detector. After that, the jets are corrected based on jet energy and $\eta$ dependent \ac{JES} factors derived from \ac{MC}. \autoref{fig:reco_JES} shows the energy response, the inverse of these factors, for \ac{EM} jets. Lastly, some regions of the detector have been shown to have a bias in $\eta$ measurement of jets, and this is accounted for. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/fig_02.pdf}
+\caption{ Distribution of event \pt density, $\rho$, taken from \ac{MC} dijets for different numbers of primary vertices. \cite{ATL-PHYS-PUB-2015-015} }
+\label{fig:reco_jet_nvtx}
+\end{figure}
+\end{centering}
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/fig_04a.pdf}
+\caption{ Energy response as a function of energy and $\eta$ for \ac{EM} jets in dijet \ac{MC}. \cite{ATL-PHYS-PUB-2015-015} }
+\label{fig:reco_JES}
+\end{figure}
+\end{centering}
+
+In addition to correcting for additional energy due to pile-up, it is necessary to reject reconstructed jets that come from pile-up vertices. To accomplish this, a multivariate alogrithm called \ac{JVT} was created which builds upon an older method, \ac{JVF} \cite{ATLAS-CONF-2014-018}. The original method vetoed jets by summing the total \pt of associated tracks and assessing the fraction of that \pt that came from tracks associates with the event's primary vertex. This fraction decreases with higher pile-up, making the construction of an explicit cut difficult in pile-up varying conditions. \ac{JVT} improved on the method by producing a pile-up corrected \ac{JVF} variable and including it in the inputs of the tagger with other variables including a similar variable, where the sum of track \pt is replaced with the calibrated jet \pt. \autoref{fig:reco_jvt} shows the efficiency and fake rate for the two methods, demonstrating \ac{JVT}'s superior ability to reject pile-up jets even in events with many pile-up vertices.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.48\linewidth]{figures/reco/jvt_fig_06b.eps}
+\includegraphics[width=.48\linewidth]{figures/reco/jvt_fig_07a.eps}
+\caption{ Dijet \ac{MC} distributions of the number of pile-up jets passing the \ac{JVT} and \ac{JVF} cuts (left) and the efficiency for jets from the primary vertex (right) as a function of number of primary vertices in the event \cite{ATLAS-CONF-2014-018}. }
+\label{fig:reco_jvt}
+\end{figure}
+\end{centering}
+
+It is possible to differentiate jets resulting from $b$-hadron decays from other jets due to the non-negligible lifetimes of the hadrons. Many \ac{BSM} processes preferentially produce $b$ quarks, as does any process involving top quarks, so this identification can be very useful for targeting specific decays in many analyses. Multivariate techniques are used to identify secondary vertices using the \ac{ID}\cite{ATL-PHYS-PUB-2015-022}. In ATLAS, separate algorithms are used to identify jets with tracks with significantly non-zero impact parameters, tracks that reconstruct a secondary vertex, and tracks that can be identified with a chain of vertices beginning with the primary vertex. This information is fed into a boosted decision tree called \texttt{MV2c20}, which outputs a discriminant shown in \autoref{fig:reco_mv2}. Using this discriminant, a working point is chosen such that $b$-jets can be identified with a 70\% efficiency, with mis-identification rates at around 12\% for $c$-jets and 0.2\% for light-flavor jets.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/fig_08.eps}
+\caption{ Distribution of \texttt{MV2c20} output for $b$-jets, $c$-jets, and light-flavor jets \cite{ATL-PHYS-PUB-2015-022}. }
+\label{fig:reco_mv2}
+\end{figure}
+\end{centering}
 
 \section{Overlap Removal}
 \label{sec:reco_or}
