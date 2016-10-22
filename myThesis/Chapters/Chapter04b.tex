@@ -193,7 +193,30 @@ In addition, in the case that photons are reconstructed\footnote{As described in
 
 Missing transverse energy, \met, is the negative vector sum of \pt of the objects in an event. Because colliding particles have no initial transverse momentum, the true value of this quantity should be zero unless a particle escapes the detector without being measured, as neutrinos do. In practice, the reconstructed \met can also be non-zero due to mismeasurement. \met reconstruction is perhaps the most complex because it depends on all other object reconstructions performed in the ATLAS detector. 
 
-\met components are calculated independently for each type of object reconstructed, as well as for a soft term, which accounts for low-\pt radiation from the primary vertex \cite{ATL-PHYS-PUB-2015-027}. An independent \ac{OR} method optimized for \met is used, which prioritizes the minimization of double counting or loss of energy. 
+\met components are calculated independently for each type of baseline object reconstructed, as well as for a soft term, which accounts for low-\pt radiation from the primary vertex \cite{ATL-PHYS-PUB-2015-023}. This component comprises all \pt observed by the ATLAS detector but not associated with a baseline object, and can be calculated based either based on calorimeter or track measurements. While the \ac{CST} is very sensitive to pile-up, the \ac{TST} is much more robust, as it can exclude tracks emanating from pile-up vertices. Tracks associated with any reconstructed object are also removed. \autoref{fig:reco_met_tst} shows the \ac{TST} resolution's dependence on number of primary vertices, which is considerably more stable than \ac{CST}.
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/reco/met_fig_04b.eps}
+\caption{ Distributions of the resolution of the $x$ and $y$ components of \ac{TST} \met in $Z\rightarrow\mu\mu$ events in data and \ac{MC} \cite{ATL-PHYS-PUB-2015-027}. }
+\label{fig:reco_met_tst}
+\end{figure}
+\end{centering}
+
+\autoref{fig:reco_met_terms} shows the the \met resulting from muons, jets, and the soft term in $Z\rightarrow\mu\mu$ events. These events very rarely have any true \met, so these distributions primarily demonstrate how mismeasurement of various objects contributes to the \met term. The jet and muon distributions both have significant high tails, while the soft term falls off much more quickly. 
+
+\begin{centering}
+\begin{figure}[!hbt]
+\myfloatalign
+\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02a.eps}
+\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02b.eps}
+\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02c.eps}
+\caption{ Distributions of the jet term (top left), muon term (top right), and \ac{TST} (bottom) \met in $Z\rightarrow\mu\mu$ events in data and \ac{MC} \cite{ATL-PHYS-PUB-2015-027}. }
+\label{fig:reco_met_terms}
+\end{figure}
+\end{centering}
+
 
 
 
