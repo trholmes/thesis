@@ -178,12 +178,22 @@ It is possible to differentiate jets resulting from $b$-hadron decays from other
 \section{Overlap Removal}
 \label{sec:reco_or}
 
+Because most of these reconstruction methods are run independently, it is common for energy deposits and tracks to be shared between multiple particles of different types. To account for this, a process called \acf{OR} is used, which iteratively removes overlapping objects. The process is performed at the \textit{baseline} level, a set of loose selections on objects which are later further refined to create the \textit{signal} objects used in analysis.
 
+The first step in the \ac{OR} process is to remove reconstructed jets that appear to be due to calorimetric deposits from an electron. To accomplish this, any baseline jet within $\Delta R = 0.2$ from a baseline electron is removed. A caveat is added due to the frequent production of leptons in the decay of heavy-flavor jets; if the jet is $b$-tagged, the electron will be removed instead. After these electrons and jets have been removed, a new search is done for jets and electrons within $\Delta R = 0.4$ of one another. In this iteration, the electron is removed, again to reduce backgrounds from heavy-flavor decays.
+
+Next, the muon-jet \ac{OR} is applied, which is very similar to that of the electron. Any jet within $\Delta R = 0.2$ of a muon is removed, unless the jet is $b$-tagged, in which case the muon is removed due to the likelihood that it resulted due to a heavy-flavor decay. The muon-jet \ac{OR} then differs from the electron's in that a \pt-based $\Delta R$ cut is used in the last step. Muons within $\Delta R < min(0.04 + (10 \gev)/\pt, 0.4)$ of a jet are removed, with the shrinking cone for high-\pt muons designed to improve efficiency for energetic muons that produce significant calorimeter deposits, while still rejecting the heavy-flavor muons that are typically lower \pt. 
+
+The last step is to remove electrons resulting from muon bremsstrahlung. Any remaining electron within $\Delta R = 0.1$ of a muon is removed from the event. 
+
+In addition, in the case that photons are reconstructed\footnote{As described in \autoref{ch:objects}, the default configuration of this analysis does not include the reconstruction of photons, however, for certain background estimations that require photons, an alternate reconstruction including photons is performed.}, photon-electron \ac{OR} and photon-jet \ac{OR} are performed. Baseline photons within $\Delta R = 0.4$ of an electron are removed, as are jets within $\Delta R = 0.4$ of a remaining photon.
 
 \section{Missing Transverse Energy}
 \label{sec:reco_met}
 
-Another common usage is $E_T^{miss}$, which gives the negative vectorial sum of the energy in an event. 
+Missing transverse energy, \met, is the negative vector sum of \pt of the objects in an event. Because colliding particles have no initial transverse momentum, the true value of this quantity should be zero unless a particle escapes the detector without being measured, as neutrinos do. In practice, the reconstructed \met can also be non-zero due to mismeasurement. \met reconstruction is perhaps the most complex because it depends on all other object reconstructions performed in the ATLAS detector. 
+
+\met components are calculated independently for each type of object reconstructed, as well as for a soft term, which accounts for low-\pt radiation from the primary vertex \cite{ATL-PHYS-PUB-2015-027}. An independent \ac{OR} method optimized for \met is used, which prioritizes the minimization of double counting or loss of energy. 
 
 
 

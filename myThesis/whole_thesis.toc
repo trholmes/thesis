@@ -110,7 +110,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Overlap Removal}{63}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Missing Transverse Energy}{63}{section.5.6}
+\contentsline {section}{\numberline {5.6}Missing Transverse Energy}{64}{section.5.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Application of a Neural Network to Pixel Clustering}}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 
@@ -128,11 +128,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Background Processes}}{75}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{75}{figure.caption.103}
+\contentsline {paragraph}{Top-antitop (\ensuremath {t\mathaccentV {bar}716{t}}\xspace )}{75}{figure.caption.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diboson ($VV$)}{75}{figure.caption.104}
+\contentsline {paragraph}{diboson ($VV$)}{75}{figure.caption.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{76}{figure.caption.105}
+\contentsline {paragraph}{\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace }{76}{figure.caption.106}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Data and Monte Carlo Samples}{77}{section.7.1}
 \defcounter {refsection}{0}\relax 

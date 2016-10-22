@@ -276,6 +276,27 @@
   \field{year}{2015}
 \endentry
 
+\entry{ATL-PHYS-PUB-2015-027}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{sortinit}{A}
+  \field{howpublished}{ATL-PHYS-PUB-2015-027}
+  \field{title}{{Performance of missing transverse momentum reconstruction for
+  the ATLAS detector in the first proton-proton collisions at at $\sqrt{s}$= 13
+  TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037904
+  \endverb
+  \field{year}{2015}
+\endentry
+
 \entry{ATL-PHYS-PUB-2015-052}{booklet}{}
   \name{author}{1}{}{%
     {{}%
