@@ -43,7 +43,7 @@ Often variables are defined purely in the transverse plane, which is indicated b
 
 The \acf{ID} is responsible for the production of tracks, estimates of the paths charged particles take as they travel through the detector. Collisions in the detector can produce about 1000 particles, so identifying and differentiating all the tracks resulting from a collision is both a hardware and a computational challenge. 
 
-The \ac{ID} consists of three separate subdetectors, each of which has multiple layers capable of producing an electrical signal, called a \textit{hit}, when a charged particle travels through its active material. ATLAS tracking software considers all these hits and forms tracks, with the goal of minimizing fake tracks due to random noise and maximizing the efficiency of identifying a real particle. Some details of this process is discussed in \autoref{sec:NN}. The full \ac{ID} can be seen in \autoref{fig:ID}, while a schematic in \autoref{fig:IDeta} shows more detail on the placement of each layer.
+The \ac{ID} consists of three separate subdetectors, each of which has multiple layers capable of producing an electrical signal, called a \textit{hit}, when a charged particle travels through its active material. ATLAS tracking software considers all these hits and forms tracks, with the goal of minimizing fake tracks due to random noise and maximizing the efficiency of identifying a real particle. Some details of this procedure are discussed in \autoref{sec:NN}. The full \ac{ID} can be seen in \autoref{fig:ID}, while a schematic in \autoref{fig:IDeta} shows more detail on the placement of each layer.
 
 \begin{centering}
 \begin{figure}[bth]
@@ -87,7 +87,7 @@ The \ac{SCT} employs a similar technology to the Pixel Detector, with 15912 sens
 
 The \ac{TRT} uses 4 mm diameter gas-filled tubes, each with a high voltage wire suspended along the center of the tube. The tubes run the length of the barrel, with a separate wire in the positive and negative $z$ direction. In the endcap, the tubes are arranged radially. In total, there are about 351,000 readout channels in the \ac{TRT}. This detector makes measurements only in the $R-\phi$ direction, where the resolution of each measurement is 130 $\mu$m, and coverage extends to $|\eta|=2.0$. Each particle typically creates about 36 hits as it passes through the \ac{TRT}. 
 
-Particles passing through the gas mixture of the \ac{TRT} ionize the gas, producing electrons which drift towards the wire due to a potential difference applied between it and the straw. The \ac{TRT} also responds to low-energy transition radiation photons, which produce a much larger signal than charged particles passing through the detector. Because of this strong difference in signals, hits from the \ac{TRT} are used to help differentiate between electrons and photons in the detector.
+Particles passing through the gas mixture of the \ac{TRT} ionize the gas, producing electrons which drift towards the wire due to a potential difference applied between it and the tube. The \ac{TRT} also responds to low-energy transition radiation photons, which produce a much larger signal than charged particles passing through the detector. Because of this strong difference in signals, hits from the \ac{TRT} are used to help differentiate between electrons and photons in the detector.
 
 \section{The Calorimeters}
 \label{sec:Calo}
@@ -105,7 +105,16 @@ Unlike the tracking detectors, which aim to take measurements of a particle with
 
 Besides measuring the energy of passing particles, another task of the calorimeter system is to limit punch-through to the \ac{MS}, described in \autoref{sec:MS}. All other particles must be fully stopped by the calorimeters to allow for clean signals from muons, and to measure the total energy of the particle. This requirement sets a minimum number of interaction lengths for each of the calorimeters. 
 
-\paragraph{The LAr Electromagnetic Calorimeter} uses liquid argon as its active detector medium alternating with layers of lead acting as the absorber. The layers are shaped like accordions, which allows for complete coverage with multiple layers of active material, three in central $\eta$ ($0<|\eta|<2.5$) and two at higher $\eta$ ($2.5 < |\eta| < 3.2$). At $|\eta| < 1.8$, an instrumented liquid argon presampler provides a measurement of energy lost prior to reaching the calorimeters. The total energy resolution for this detector is about 10\%. 
+\paragraph{The LAr Electromagnetic Calorimeter} uses liquid argon as its active detector medium alternating with layers of lead acting as the absorber. The layers are shaped like accordions, which allows for complete coverage with multiple layers of active material, three in central $\eta$ ($0<|\eta|<2.5$) and two at higher $\eta$ ($2.5 < |\eta| < 3.2$). \autoref{fig:calo_mod} shows the layout of a central $\eta$ module, including this accordion-like layering. At $|\eta| < 1.8$, an instrumented liquid argon presampler provides a measurement of energy lost prior to reaching the calorimeters. The total energy resolution for this detector is about 10\%. 
+
+\begin{centering}
+\begin{figure}[!htb]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png}
+\caption{Layout of the LAr calorimeter module at central $\eta$ \cite{PERF-2007-01}.}
+\label{fig:calo_mod}
+\end{figure}
+\end{centering}
 
 \paragraph{The Tile Calorimeter} is a hadronic calorimeter which surrounds the LAr Calorimeter. It uses layers of steel as its absorber with scintillating tiles as the active material between them, which are read out by photomultiplier tubes. The Tile Calorimeter covers $|\eta| < 1.7$ with a typical energy resolution of about 50\%. 
 

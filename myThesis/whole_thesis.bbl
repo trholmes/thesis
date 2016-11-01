@@ -16,14 +16,6 @@
   {}
 \endgroup
 
-\entry{nobel2004}{misc}{}
-  \field{sortinit}{0}
-\endentry
-
-\entry{crosssections}{misc}{}
-  \field{sortinit}{0}
-\endentry
-
 \entry{2012lumi}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1593,6 +1585,12 @@
   \strng{namehash}{GD1}
   \strng{fullhash}{GD1}
   \field{sortinit}{G}
+  \field{title}{The Standard Model of the Standard Model}
+  \verb{url}
+  \verb http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-m
+  \verb odel/
+  \endverb
+  \field{year}{1997}
 \endentry
 
 \entry{Garzelli:2012bn}{article}{}
@@ -2054,6 +2052,25 @@
   \field{year}{2004}
 \endentry
 
+\entry{nobel2004}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {NobelPrize.org}{N.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{N1}
+  \strng{fullhash}{N1}
+  \field{sortinit}{N}
+  \field{title}{The Nobel Prize in Physics 2004 - Popular Information}
+  \verb{url}
+  \verb https://www.nobelprize.org/nobel_prizes/physics/laureates/2004/popular.
+  \verb html
+  \endverb
+  \field{year}{2016}
+\endentry
+
 \entry{isolation}{misc}{}
   \field{sortinit}{O}
   \field{title}{{Official Isolation Working Points}}
@@ -2069,6 +2086,25 @@
   }
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{agile}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Oliveira}{O.}%
+     {Luke}{L.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \strng{namehash}{OLd1}
+  \strng{fullhash}{OLd1}
+  \field{sortinit}{O}
+  \field{title}{AGILEPack: Algorithms for Generalized Inference, Learning, and
+  Extraction}
+  \verb{url}
+  \verb http://lukedeo.github.io/AGILEPack/
+  \endverb
+  \field{year}{2016}
 \endentry
 
 \entry{EGAM-2016-003}{report}{}
@@ -2162,6 +2198,24 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2006}
+\endentry
+
+\entry{crosssections}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stirling}{S.}%
+     {W.J.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SW1}
+  \strng{fullhash}{SW1}
+  \field{sortinit}{S}
+  \field{title}{proton-(anti)proton cross sections}
+  \verb{url}
+  \verb http://www.hep.ph.ic.ac.uk/~wstirlin/plots/plots.html
+  \endverb
+  \field{year}{2013}
 \endentry
 
 \entry{zwicky}{article}{}

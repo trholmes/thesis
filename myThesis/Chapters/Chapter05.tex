@@ -17,16 +17,18 @@ Creating tracks from individual hits in the Inner Detector is one of most comput
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/nn/cluster_types.pdf}
-\caption{A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta$-ray as it passes through the detector.}
+\caption{A few possible types of clusters in the Pixel Detector. $(a)$ shows a single particle passing through a layer of the detector, $(b)$ shows two particles passing through the detector, creating a single merged cluster, and $(b)$ shows a single particle emitting a $\delta$-ray as it passes through the detector \cite{PERF-2012-05}.}
 \label{fig:cluster_types}
 \end{figure}
 \end{centering}
 
-The process of going from clusters to track is relatively simple in an isolated environment in which one particle travels cleanly through all the layers, but can be complicated by multiple close-by tracks and by a single particle's emission of low energy particles, called $\delta$-rays. In these cases, it can be hard to tell how many particles were involved in creating a cluster, and where exactly each of those particles passed through the layer. A few examples of particle interactions with the pixel sensor can be seen in \autoref{fig:cluster_types} . The process of determining which pixels with charge deposits belong to a single particle is called clustering, and it has recently been updated from a charge interpolation method to a method using a \ac{NN}. 
+The process of going from clusters to track is relatively simple in an isolated environment in which one particle travels cleanly through all the layers, but can be complicated by multiple close-by tracks and by a single particle's emission of low energy particles, called $\delta$-rays. In these cases, it can be hard to tell how many particles were involved in creating a cluster, and where exactly each of those particles passed through the layer. A few examples of particle interactions with the pixel sensor can be seen in \autoref{fig:cluster_types}. 
+
+Clusters are initially made by a process called \acf{CCA}. In this process, pixels in a given layer are grouped together if they share any edge or corner. The position of the resulting cluster is defined by local $x$ and $y$ coordinates, which describe its position and size within the pixel module on which it appears. Determining the position of the particle that formed that cluster is less straightforward, and has recently been updated from a charge interpolation method to a method using a \ac{NN}. 
 
 \subsection{Charge Interpolation Method}
 
-A typical cluster contains a few pixel hits spanning in the $x$ and $y$ directions, each with its own measurement of charge deposition, or \ac{ToT}. The extent of the cluster is defined by grouping together any pixels with a shared edge or corner. In the charge interpolation method, also called the \ac{CCA} clustering algorithm, these individual hits are combined to make one estimation of the position a single particle which passed through them, using the following equation: 
+A typical cluster contains a few pixel hits spanning in the $x$ and $y$ directions, each with its own measurement of charge deposition, or \ac{ToT}. In the charge interpolation method, these individual hits are combined to make one estimation of the position a single particle which passed through them, using the following equation: 
 
 \begin{eqnarray}
 x_{cluster} = x_{center} + \Delta_x(\phi,N_{row}) \cdot \left[ \Omega_x -\frac{1}{2} \right] \\
@@ -43,66 +45,57 @@ where $\Omega_{x(y)}$ is defined by
 
 and $q$ represents the \ac{ToT} of a given pixel, and $\Delta_{x(y)}$ is a function derived from either data or \ac{MC} and produces an output related to the projected length of the particles track on the pixel sensor and is measured as a function of $\phi$, the incident angle of a particle on the sensor, and $N_{row(col)}$, the number of pixels in the $x$ and $y$ direction. 
 
-In a simple case, such as $(a)$ of \autoref{fig:cluster_types} , this method works quite effectively. However, in cases like $(b)$, it has no ability distinguish two-particle from one-particle clusters, and can only assign a cluster center between the two particles' locations, despite that intermediate pixel having the lowest \ac{ToT}. Furthermore, because this method can't differentiate two-particle clusters, the tracking software can't use that information to preferentially allow multiple tracks to be fit to the cluster. In cases like $(c)$, the $\delta$-ray will bias the measurement of the particle's position in whichever direction it is emitted. 
+In a simple case, such as $(a)$ of \autoref{fig:cluster_types} , this method works quite effectively. However, in cases like $(b)$, it has no ability distinguish two-particle from one-particle clusters, and can only assign a cluster center between the two particles' locations, despite that intermediate pixel having the lowest \ac{ToT}. Furthermore, because this method can't differentiate two-particle clusters, the tracking software can't use that information to preferentially allow multiple tracks to share two-particle clusters. Allowing tracks to share clusters indiscriminately in dense track environments creates fake tracks from the many possible cluster combinations, so this cannot be broadly permitted. In cases like $(c)$, the $\delta$-ray will bias the measurement of the particle's position in whichever direction it is emitted. 
 
 \subsection{Improving Measurement with Neural Networks}
 
-To address these problems, a series of \acp{NN} were created \cite{PERF-2012-05}. The first estimates the number of particles in a given cluster, the second predicts their positions within the cluster, and the third assesses the uncertainty of the position measurement. They are referred to, respectively, as the ``Number'', ``Position'', and ``Error'' \acp{NN}.
+To address these problems, a series of \acp{NN} were created \cite{PERF-2012-05}. The first estimates the number of particles in a given cluster, the second estimates their positions within the cluster, and the third assesses the uncertainty of the position measurement. They are referred to, respectively, as the ``Number'', ``Position'', and ``Error'' \acp{NN}.
 
-These \acp{NN} are all trained with: 
+These \acp{NN} are taken from the AGILE\textit{Pack} library \cite{agile}, and trained using simulated ATLAS \ac{MC}. Each \ac{NN} is given the following inputs: 
 \begin{itemize}
-\item a $7\times7$ grid of cluster \ac{ToT} information\footnote{Clusters spanning more than seven pixels in either direction are split into multiple clusters.}
+\item a $7\times7$ grid of cluster \ac{ToT} information\footnote{Clusters spanning more than seven pixels in either direction are rare, but when they occur they are rejected, and the original charge interpolation estimate of a single particle's position is kept.}
 \item a 7-element vector containing the $y$-size of the pixels in the grid\footnote{The pixel detector contains some long pixels at the edges of modules, and this is intended to help the \ac{NN} identify these cases.}
 \item the layer of the pixel detector that the cluster was observed in
 \item a variable indicating whether the cluster is located in the barrel or endcap
-\item $\theta$ and $\phi$ variables projecting the incident angles of the particle on the sensor, assuming it comes from the nominal interaction point 
-\item the pixel module's $\eta$ index, a label assigned to each module that is roughly proportional to its $\eta$ position
+\item $\theta$ and $\phi$ variables projecting the incident angles of the particle on the sensor\footnote{If the \ac{NN} is applied before tracking is performed, these angles project to the nominal interaction point, and if tracking has already been performed, the angles are taken from the track fit to the cluster.}
+\item the pixel module's $\eta$ index, a label assigned to each module that differentiates modules based on their $\eta$ position
 \end{itemize}
 
 After the Number \ac{NN} predicts a number of particles associated with the cluster, required to be between 1 and 3, the same inputs are fed to one of three Position \acp{NN} based on the determined number of particles, which then outputs the $x$ and $y$ positions of each of the particles. Then, the same inputs combined with the output of the Position \ac{NN} are fed into one of three Error \acp{NN} (also distinguished by number of particles), which outputs an uncertainty for each of the position predictions made. An example of the output of this process can be seen in \autoref{fig:merged_cluster}, where the improved position resolution from the ability to identify a multi-particle cluster is evident. 
-
-The particle location predictions from the \acp{NN} are then handed to the tracking software, which now can use these multiple particle position predictions as independent hits to be fit. As a result, tracks in dense environments have fewer clusters shared between multiple tracks, and their trajectories are known to a greater degree of precision. 
 
 \begin{centering}
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/nn/merged_cluster.png}
-\caption{One example of a two-particle cluster and its truth information compared with the output of the \acp{NN}. The boxes represent pixels, with a color scale indicating \ac{ToT}. At top, the $p(N=i)$ values give the output of the Number \ac{NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp{NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster.}
+\caption{One example of a two-particle cluster and its truth information compared with the output of the \acp{NN}. The boxes represent pixels, with a color scale indicating \ac{ToT}. At top, the $p(N=i)$ values give the output of the Number \ac{NN}, the probabilities that the cluster contains 1, 2, and 3 particles. Given the highest probability is for $N=2$, the other \acp{NN} predict the postion and errors of the two particles (in white). The black arrows and squares represent the truth information from the cluster, and the black dot and dotted line show the position measurement for the un-split cluster \cite{PERF-2012-05}.}
 \label{fig:merged_cluster}
 \end{figure}
 \end{centering}
 
+The particle location predictions from the \acp{NN} are then handed to the tracking software, which now can use these multiple particle position estimations as independent hits to be fit. As a result, tracks in dense environments have fewer clusters shared between multiple tracks, and their trajectories are known to a greater degree of precision. 
+
+
 \section{Impact of the Neural Network}
 
-The \ac{NN} was first applied to 7 \tev data, where it improved position resolution for particles in small and large clusters. \autoref{fig:7tev_res} shows the improvement from the addition of the \ac{NN} in $x$ resolution in different cluster sizes. The improvement from \ac{CCA} clustering is particularly evident in the 4-pixel case, where the double peaked structure of the interpolation method has been completely removed with the \ac{NN}.  
+The \ac{NN} was first applied to 7 \tev~data, where it improved position resolution for particles in small and large clusters. \autoref{fig:7tev_res} shows the improvement from the addition of the \ac{NN} in $x$ resolution in different cluster sizes. The improvement from charge interpolation clustering is particularly evident in the 4-pixel case, where the double peaked structure of the interpolation method has been completely removed with the \ac{NN}.  
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/nn/3x_res.pdf}
 \includegraphics[width=.9\linewidth]{figures/nn/4x_res.pdf}
-\caption{$x$ resolutions for clusters with 3 (top) and 4 (bottom) pixels in the $x$ direction in 7 \tev data for \ac{CCA} and \ac{NN} clustering taken from \ac{MC}.}
+\caption{$x$ resolutions for clusters with 3 (top) and 4 (bottom) pixels in the $x$ direction in 7 \tev data for \ac{CCA} (using only charge interpolation to determine position) and \ac{NN} clustering taken from \ac{MC} \cite{PERF-2012-05}.}
 \label{fig:7tev_res}
 \end{figure}
 \end{centering}
 
 \subsection{The Neural Network in 13 TeV Data}
 
-In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters, where it constructs loose tracks that allow shared clusters, clusters to which multiple tracks are fit \cite{ATL-PHYS-PUB-2015-044}. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to identify the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized by decrasing its ``track score'', a measure of the quality of the track. 
+In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters with positions determined via charge interpolation, where it constructs tracks with loose quality requirements. In this step, the tracking algorithm allows shared clusters, clusters used in multiple track fits \cite{ATL-PHYS-PUB-2015-044}. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to estimate the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized. In general, tracks with more than two shared clusters are rejected.
 
-With this configuration, studies were done to determine how accurately \ac{MC} could model the \ac{NN}'s response to data. \autoref{fig:13tev_fractions} shows a comparison of how often the \ac{NN} identifies different types of clusters in data and \ac{MC}. Very good agreement was seen between the two samples.
+Because the \ac{NN} is trained only with \ac{MC} simulations, any mismodeling of the way charge is deposited in the ATLAS detector could cause the \ac{NN} to perform in an unexpected way when applied to data. The potential impact of this mismodeling was investigated with 13 \tev~\ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. 
 
-\begin{centering}
-\begin{figure}[bth]
-\myfloatalign
-\includegraphics[width=.9\linewidth]{figures/nn/fig_07a.eps}
-\includegraphics[width=.9\linewidth]{figures/nn/fig_07b.eps}
-\caption{Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom).}
-\label{fig:13tev_fractions}
-\end{figure}
-\end{centering}
-
-With this confirmation that studies performed in \ac{MC} would be good indicators for performance on data, the robustness of the \ac{NN} was investigated with 13 \tev \ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. One example of a sensitive variable is the overall charge scale, which is tested by scaling the \ac{ToT} of all pixels in a cluster up and down. The impact of its scaling can be seen in \autoref{fig:13tev_charge_robustness}. In this case, the likelihood to misidentify multi-particle clusters and single particle clusters depended significantly on this scaling. Overall, it was found that variations on the cluster charge produced a significant impact on predictions, while all other variations, such as incidence angle variation and spatial smearing of charge, had a minimal effect. 
+One example of a variable capable of significantly altering the \ac{NN} outputs was the overall charge scale. To study its impact, the \ac{ToT} of all pixels in a cluster were scaled up and down, and the resulting outputs of the \ac{NN} were compared, as shown in \autoref{fig:13tev_charge_robustness}. In this case, the likelihood to misidentify multi-particle clusters and single particle clusters depended significantly on this scaling. However, experts on the simulation of this scale agree that it's unlikely to be mismodeled by more than 10\%, so very extreme effects from a difference between data and \ac{MC} are unlikely. Overall, it was found that variations on the cluster charge produced a significant impact on predictions, while all other variations, such as incidence angle variation and spatial smearing of charge, had a minimal effect. 
 
 \begin{centering}
 \begin{figure}[bth]
@@ -113,4 +106,18 @@ With this confirmation that studies performed in \ac{MC} would be good indicator
 \label{fig:13tev_charge_robustness}
 \end{figure}
 \end{centering}
+
+In addition to studies on the impact of alterations of individual simulation variables, studies directly comparing the \ac{NN} output in data and \ac{MC} were performed. \autoref{fig:13tev_fractions} shows a comparison of how often the \ac{NN} identifies different types of clusters in data and \ac{MC}. Each figure is made using by selecting pairs of collimated tracks that share a common cluster on a given layer, then calculating the fraction of those clusters that are determined by the \ac{NN} to be single or multi-particle clusters. This fraction is plotted as a function of the distance between the two tracks in the cluster's layer. Very good agreement is seen between the two samples, demonstrating that the \ac{MC}-trained \ac{NN} performs similarly on both \ac{MC} and data.
+
+\begin{centering}
+\begin{figure}[!htb]
+\myfloatalign
+\includegraphics[width=.9\linewidth]{figures/nn/fig_07a.eps}
+\includegraphics[width=.9\linewidth]{figures/nn/fig_07b.eps}
+\caption{Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom).}
+\label{fig:13tev_fractions}
+\end{figure}
+\end{centering}
+
+
 

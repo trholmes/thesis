@@ -41,28 +41,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 16815 items from 5000.
+Reallocated field_info (elt_size=4) to 16954 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-"{" immediately follows a field part---line 309 of file bib/strong2l_paper.bib
- :       howpublished  = \url
- :                           {"http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-model/"},
-I'm skipping whatever remains of this entry
-"{" immediately follows a field part---line 316 of file bib/strong2l_paper.bib
- :       howpublished  = \url
- :                           {"https://www.newscientist.com"},
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 321 of file bib/strong2l_paper.bib
- :   
- :   author        = "W.J. Stirling",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 328 of file bib/strong2l_paper.bib
- :   
- :   author        = "NobelPrize.org",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 3867 of file bib/strong2l_paper.bib
+Repeated entry---line 3869 of file bib/strong2l_paper.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -109,45 +91,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 85 entries,
+You've used 86 entries,
             6047 wiz_defined-function locations,
-            1687 strings with 27553 characters,
-and the built_in function-call counts, 234865 in all, are:
-= -- 7917
-> -- 7407
-< -- 2049
-+ -- 1850
-- -- 2853
-* -- 17395
-:= -- 13350
+            1699 strings with 28040 characters,
+and the built_in function-call counts, 239658 in all, are:
+= -- 8089
+> -- 7641
+< -- 2093
++ -- 1893
+- -- 2937
+* -- 17809
+:= -- 13720
 add.period$ -- 0
-call.type$ -- 85
-change.case$ -- 84
+call.type$ -- 86
+change.case$ -- 85
 chr.to.int$ -- 50
-cite$ -- 168
-duplicate$ -- 27632
-empty$ -- 26886
-format.name$ -- 4705
-if$ -- 53583
+cite$ -- 170
+duplicate$ -- 28157
+empty$ -- 27314
+format.name$ -- 4849
+if$ -- 54640
 int.to.chr$ -- 0
-int.to.str$ -- 235
+int.to.str$ -- 239
 missing$ -- 0
-newline$ -- 2136
-num.names$ -- 3405
-pop$ -- 26708
+newline$ -- 2189
+num.names$ -- 3528
+pop$ -- 26991
 preamble$ -- 1
-purify$ -- 1018
+purify$ -- 1050
 quote$ -- 0
-skip$ -- 14328
+skip$ -- 14680
 stack$ -- 0
-substring$ -- 2696
-swap$ -- 9454
-text.length$ -- 2003
-text.prefix$ -- 84
+substring$ -- 2748
+swap$ -- 9644
+text.length$ -- 2049
+text.prefix$ -- 85
 top$ -- 1
-type$ -- 3214
+type$ -- 3252
 warning$ -- 0
-while$ -- 1518
+while$ -- 1566
 width$ -- 0
-write$ -- 2050
-(There were 15 error messages)
+write$ -- 2102
+(There were 11 error messages)
