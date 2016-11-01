@@ -174,7 +174,7 @@ Ultimately, the goal of this method is to predict the \met distribution of the $
 \subsection{Photon and $Z$ Event Selection}
 \label{sec:photon_eventsel}
 
-The baseline photon events come from an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon, which is called CR-$\gamma$ and defined in \autoref{tab:regions-z}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted off at the end off the estimation procedure. 
+The baseline photon events come from an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon, which is called CR-$\gamma$ and defined in \autoref{tab:regions-z} \footnote{This region includes an \HT cut, which requires the translation of photon \pt into an equivalent di-lepton \pt scalar sum. This process is described in \autoref{sec:photon_mll}.}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted off at the end off the estimation procedure. 
 
 The triggering scheme for these events is more complicated than in other regions because the lowest unprescaled photon trigger requires a photon \pt of at least 120 (140) \gev~ in 2015 (2016) datataking, but the method requires events with much lower \pt to predict the full $Z$-boson \pt spectrum. To accomplish this, the lower-\pt photons are broken down into small \pt ranges with a different prescaled trigger required in each range, listed in \autoref{tab:photon_triggers}. The events in each selection are then weighted by the prescale value of the trigger used to reconstruct a smooth \pt spectrum. 
 
@@ -225,12 +225,12 @@ To isolate mismeasurement of boson \pt, this method uses \metl, the \met project
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
-\caption{\metl distributions in \ac{MC} for $Z$+jets and \gjets in an inclusive region with \HT > 600 \gev.}
+\caption{\metl distributions in \ac{MC} for $Z$+jets $ee$ (left) and $\mu\mu$ (right) channels compared to \gjets in an inclusive region with \HT > 600 \gev.}
 \label{fig:photon_metparallel}
 \end{figure}
 \end{centering}
 
-A function to smear photon events is derived from the deconvolution of the photon and lepton response functions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is derived for each bin via the deconvolution of the \dyjets and \gjets distributions. 
+A function to smear photon events is derived from the deconvolution of the photon and lepton response functions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. This region is chosen because it is orthogonal to the \ac{SR}, so the resolution can be obtained from data as well as \ac{MC}. In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is derived for each bin via the deconvolution of the \dyjets and \gjets distributions. 
 
 Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding a smearing factor $\Delta$\pt. The photon's \pt is then adjusted according to 
 
@@ -251,7 +251,7 @@ The nominal smearing function is taken from \ac{MC} in order to remove contamina
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
-\caption{\metl distributions in \ac{MC} for $Z$+jets and \gjets in an inclusive region with \HT > 600 \gev after the smearing procedure has been performed. These distributions have also been \pt reweighted, as described in \autoref{sec:photon_reweight}.}
+\caption{\metl distributions in \ac{MC} for $Z$+jets $ee$ (left) and $\mu\mu$ (right) channels compared to  \gjets in an inclusive region with \HT > 600 \gev after the smearing procedure has been performed. These distributions have also been \pt reweighted, as described in \autoref{sec:photon_reweight}.}
 \label{fig:photon_metparallelsmeared}
 \end{figure}
 \end{centering}
@@ -259,10 +259,10 @@ The nominal smearing function is taken from \ac{MC} in order to remove contamina
 \subsection{\pt Reweighting of Photon Events}
 \label{sec:photon_reweight}
 
-Next, the photon events are reweighted to match the boson \pt of the $Z$ events. This is accomplished by making histograms of boson \pt for $\gamma$ and $Z$ events, similar to that in \autoref{fig:photon_ptdist}, and with binning identical to that used in \autoref{sec:photon_smearing}. A reweighting factor $f(\pt)$ is then calculated in each bin, according to
+Next, the photon events are reweighted to match the boson \pt of the $Z$ events. This is accomplished by making histograms of boson \pt for $\gamma$ and $Z$ events, similar to that in \autoref{fig:photon_ptdist}, and with binning identical to that used in \autoref{sec:photon_smearing}. Photons are binned based on their smeared \pt determined in the previous step. A reweighting factor $f(\pt)$ is then calculated in each bin, according to
 
 \begin{equation}
-f(x) = \frac{N_{\dyjets}(x)}{N_{\gjets}^{i}(x)}
+f(x) = \frac{N_{\dyjets}(x)}{N_{\gjets}(x)}
 \end{equation}
 
 in \ac{MC}, and in data according to
@@ -309,14 +309,14 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \end{figure}
 \end{centering}
 
-\subsection{Determining the \mll~Shape}
+\subsection{Determining \HT and \mll}
 \label{sec:photon_mll}
 
-One complication thus far ignored is that $\gamma$+jet have obvious value of \mll, or even of \HT, which includes the \pt of the two leading leptons. Both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
+One complication thus far ignored is that CR-$\gamma$ has no leptons, but some quantities that define the \ac{SR} require them, namely \HT (which includes the \pt of the two leading leptons) and \mll. Both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
 
 In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ \pt bin. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
 
-The \mll~determination is done after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses its assigned $\Delta$\pt to index the distribution, and an \mll~value is sampled from the corresponding bin. 
+The \mll~determination is done after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses the $\Delta$\pt assigned to it during the smearing process to index the distribution, and an \mll~value is sampled from the corresponding bin \footnote{Ideally this $\Delta$\pt would also include the difference between the true and reconstructed \pt of the photon events, but this information is of course not accessible in data. Luckily, in the events in the final \ac{SR} this value is typically negligible compared to the $\Delta$\pt from smearing, so the impact is small.} 
 
 To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. After the \mll~distribution has been emulated, a cut requiring that the photon events be ``on the $Z$ mass peak'' can be required.
 
@@ -385,7 +385,7 @@ An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{1
 \section{Fake and Non-Prompt Leptons}
 \label{sec:bg-fake}
 
-The \textit{fakes} background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets, and single top processes. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or due to a real non-prompt lepton resulting from photon conversions or $B$-hadron decays. As such, it includes both events that have been properly reconstructed and many that are included in the \ac{SR} due to imperfect reconstruction. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
+The \textit{fakes} background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets, and single top processes. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or due to a real non-prompt lepton resulting from photon conversions or $B$-hadron decays. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
 
 Despite the small predicted contribution in the \ac{SR}, a data-driven method called the \textit{matrix method} is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their impact is more significant. 
 
@@ -444,7 +444,7 @@ The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe me
 \end{figure}
 \end{centering}
 
-This method is validated in a fakes-rich validation region with a same-sign lepton requirement, \met $\geq$ 50\gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties included, the prediction agrees well with the data across a wide range of \mll~values. 
+This method is validated in a fakes-rich validation region with a same-sign lepton requirement, \met $\geq$ 50\gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties, discussed in \autoref{sec:uncert_fakes}, the prediction agrees well with the data across a wide range of \mll~values. 
 
 %TODO add this to table
 

@@ -10,7 +10,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Supermultiplets of the \ac {MSSM}. Sfermions, on the first five rows, are all spin-0. Higgsinos and gauginos are all spin-1/2. Three sets of each fermion's supermultiplet exist, one for each generation. \cite {Martin:1997ns}\relax }}{21}{table.caption.43}
+\contentsline {table}{\numberline {1}{\ignorespaces Supermultiplets of the \ac {MSSM}. Sfermions, on the first five rows, are all spin-0. Higgsinos and gauginos are all spin-1/2. Three sets of each fermion's supermultiplet exist, one for each generation. \cite {Martin:1997ns}\relax }}{21}{table.caption.44}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -22,55 +22,57 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2}{\ignorespaces Simulated background event samples used in this analysis with the corresponding matrix element and parton shower generators, cross-section order in $\alpha _{\text {s}}$ used to normalise the event yield, underlying-event tune and PDF set. \relax }}{82}{table.caption.115}
+\contentsline {table}{\numberline {2}{\ignorespaces Simulated background event samples used in this analysis with the corresponding matrix element and parton shower generators, cross-section order in $\alpha _{\text {s}}$ used to normalise the event yield, underlying-event tune and PDF set. \relax }}{84}{table.caption.115}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3}{\ignorespaces Summary of the electron selection criteria. The signal selection requirements are applied on top of the baseline selection. \relax }}{83}{table.caption.117}
+\contentsline {table}{\numberline {3}{\ignorespaces Summary of the electron selection criteria. The signal selection requirements are applied on top of the baseline selection. \relax }}{85}{table.caption.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4}{\ignorespaces Summary of the muon selection criteria. The signal selection requirements are applied on top of the baseline selection.\relax }}{84}{table.caption.118}
+\contentsline {table}{\numberline {4}{\ignorespaces Summary of the muon selection criteria. The signal selection requirements are applied on top of the baseline selection.\relax }}{86}{table.caption.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5}{\ignorespaces Summary of the jet and $b$-jet selection criteria. The signal selection requirements are applied on top of the baseline requirements. \relax }}{85}{table.caption.119}
+\contentsline {table}{\numberline {5}{\ignorespaces Summary of the jet and $b$-jet selection criteria. The signal selection requirements are applied on top of the baseline requirements. \relax }}{87}{table.caption.119}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6}{\ignorespaces Summary of the photon selection criteria.\relax }}{86}{table.caption.121}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {7}{\ignorespaces Overview of all signal, control and validation regions used in the on-shell $Z$ search. More details are given in the text. The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour. All regions require at least two leptons, unless otherwise indicated. In the case of CR$\gamma $, VR-WZ, VR-ZZ, and VR-3L the number of leptons, rather than a specific flavour configuration, is indicated. The main requirements that distinguish the control and validation regions from the signal region are indicated in bold. Most of the kinematic quantities used to define these regions are discussed in the text. The quantity $m_{\text {T}}(\ell _{3},\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace )$ indicates the transverse mass formed by the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace and the lepton which is not assigned to either of the $Z$-decay leptons. \relax }}{89}{table.caption.123}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {8}{\ignorespaces Lepton trigger requirements used for the analysis in different regions of lepton-\ensuremath {p_{\text {T}}}\xspace \ phase space. \relax }}{90}{table.caption.124}
+\contentsline {table}{\numberline {6}{\ignorespaces Summary of the photon selection criteria.\relax }}{88}{table.caption.121}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {9}{\ignorespaces Yields in signal and validation regions for the flavor symmetric background. Errors include statistical uncertainty, uncertainty from MC closure, uncertainty from the k and $\alpha $ factors, uncertainty due to deriving triggers efficiencies from a DAOD, and uncertainty on the MC shape used to correct for the \ensuremath {m_{\ell \ell }}expansion. \relax }}{95}{table.caption.128}
+\contentsline {table}{\numberline {7}{\ignorespaces Overview of all signal, control and validation regions used in the on-shell $Z$ search. More details are given in the text. The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour. All regions require at least two leptons, unless otherwise indicated. In the case of CR$\gamma $, VR-WZ, VR-ZZ, and VR-3L the number of leptons, rather than a specific flavour configuration, is indicated. The main requirements that distinguish the control and validation regions from the signal region are indicated in bold. Most of the kinematic quantities used to define these regions are discussed in the text. The quantity $m_{\text {T}}(\ell _{3},\ensuremath {E_{\text {T}}^{\text {miss}}}\xspace )$ indicates the transverse mass formed by the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace and the lepton which is not assigned to either of the $Z$-decay leptons. \relax }}{91}{table.caption.123}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {10}{\ignorespaces Background fit results from the sideband fit method. The \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}'s normalization is taken as a free parameter in the fit to data in CRT, then that normalization factor is applied in SRZ. The results are shown here both divided between the $ee$ and $\mu \mu $ channels and summed together. All other backgrounds are taken from \ac {MC} in CRT, while in SRZ, the \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace contribution is taken from the \ensuremath {\gamma +\text {jets}}\xspace method. The uncertainties quoted include both statistical and systematic components.\relax }}{97}{table.caption.129}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {11}{\ignorespaces Summary of the \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ normalization factors calculated by the sideband fit to CRT and VRT for the 2015+2016 data. \relax }}{98}{table.caption.130}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {12}{\ignorespaces Comparison of \ac {FS} background predictions from the nominal method, the flavor symmetry method, and the cross-check, the sideband fit method. Uncertainties include statistical and systematic uncertainties in both cases. \relax }}{98}{table.caption.132}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {13}{\ignorespaces List of triggers used to collect photon events in 2015 and 2016 data-taking.\relax }}{101}{table.caption.134}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {14}{\ignorespaces Control regions used to measure efficiencies of real and fake leptons. The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour. The charge combination of the leading lepton pairs are given as ``SS'' for same-sign or ``OS'' for opposite-sign.\relax }}{110}{table.caption.145}
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {15}{\ignorespaces Yields in validation regions. In VRS, data-driven background estimates are used for \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace , fakes, and \ac {FS} processes. All other backgrounds are taken from \ac {MC}, including all backgrounds in the multi-lepton \ac {VR}s. Uncertainties include statistical and systematic components. \relax }}{112}{table.caption.149}
+\contentsline {table}{\numberline {8}{\ignorespaces Lepton trigger requirements used for the analysis in different regions of lepton-\ensuremath {p_{\text {T}}}\xspace \ phase space. \relax }}{92}{table.caption.124}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {16}{\ignorespaces Uncertainties in the on-Z signal and validation regions. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying $k$ and $\alpha $ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \ensuremath {m_{\ell \ell }}~widening, which includes MC statistics and a data/MC comparison in a loosened region. \relax }}{117}{table.caption.153}
+\contentsline {table}{\numberline {9}{\ignorespaces Yields in signal and validation regions for the flavor symmetric background. Errors include statistical uncertainty, uncertainty from MC closure, uncertainty from the k and $\alpha $ factors, uncertainty due to deriving triggers efficiencies from a DAOD, and uncertainty on the MC shape used to correct for the \ensuremath {m_{\ell \ell }}expansion. \relax }}{97}{table.caption.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {17}{\ignorespaces Uncertainty breakdown for the \ensuremath {\gamma +\text {jets}}\xspace method in SRZ. Uncertainties considered are the impact of \ac {MC} uncertainty on $V\gamma $ backgrounds, \ac {MC} closure, uncertainty on \ensuremath {m_{\ell \ell }}shape (also determined via \ac {MC} closure), reweighting uncertainties, smearing uncertainties, and statistical uncertainty on the \ensuremath {\gamma +\text {jets}}\xspace events used in the method.\relax }}{126}{table.caption.163}
+\contentsline {table}{\numberline {10}{\ignorespaces Background fit results from the sideband fit method. The \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ac {MC}'s normalization is taken as a free parameter in the fit to data in CRT, then that normalization factor is applied in SRZ. The results are shown here both divided between the $ee$ and $\mu \mu $ channels and summed together. All other backgrounds are taken from \ac {MC} in CRT, while in SRZ, the \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace contribution is taken from the \ensuremath {\gamma +\text {jets}}\xspace method. The uncertainties quoted include both statistical and systematic components.\relax }}{99}{table.caption.129}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {18}{\ignorespaces Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \relax }}{126}{table.caption.164}
+\contentsline {table}{\numberline {11}{\ignorespaces Summary of the \ensuremath {t\mathaccentV {bar}716{t}}\xspace \ normalization factors calculated by the sideband fit to CRT and VRT for the 2015+2016 data. \relax }}{100}{table.caption.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {19}{\ignorespaces Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.\relax }}{128}{table.caption.165}
+\contentsline {table}{\numberline {12}{\ignorespaces Comparison of \ac {FS} background predictions from the nominal method, the flavor symmetry method, and the cross-check, the sideband fit method. Uncertainties include statistical and systematic uncertainties in both cases. \relax }}{100}{table.caption.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {20}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{128}{table.caption.166}
+\contentsline {table}{\numberline {13}{\ignorespaces List of triggers used to collect photon events in 2015 and 2016 data-taking.\relax }}{103}{table.caption.134}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {21}{\ignorespaces Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions. The values shown are relative to the total background estimate, shown in \%.\relax }}{129}{table.caption.168}
+\contentsline {table}{\numberline {14}{\ignorespaces Control regions used to measure efficiencies of real and fake leptons. The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour. The charge combination of the leading lepton pairs are given as ``SS'' for same-sign or ``OS'' for opposite-sign.\relax }}{112}{table.caption.145}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {15}{\ignorespaces Yields in validation regions. In VRS, data-driven background estimates are used for \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace , fakes, and \ac {FS} processes. All other backgrounds are taken from \ac {MC}, including all backgrounds in the multi-lepton \ac {VR}s. Uncertainties include statistical and systematic components. \relax }}{118}{table.caption.149}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {16}{\ignorespaces Uncertainties in the on-Z signal and validation regions. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying $k$ and $\alpha $ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \ensuremath {m_{\ell \ell }}~widening, which includes MC statistics and a data/MC comparison in a loosened region. \relax }}{119}{table.caption.153}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {17}{\ignorespaces Uncertainty breakdown for the \ensuremath {\gamma +\text {jets}}\xspace method in SRZ. Uncertainties considered are the impact of \ac {MC} uncertainty on $V\gamma $ backgrounds, \ac {MC} closure, uncertainty on \ensuremath {m_{\ell \ell }}shape (also determined via \ac {MC} closure), reweighting uncertainties, smearing uncertainties, and statistical uncertainty on the \ensuremath {\gamma +\text {jets}}\xspace events used in the method.\relax }}{128}{table.caption.163}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {18}{\ignorespaces Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \relax }}{128}{table.caption.164}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {19}{\ignorespaces Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.\relax }}{130}{table.caption.165}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {20}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{130}{table.caption.166}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {21}{\ignorespaces Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions. The values shown are relative to the total background estimate, shown in \%.\relax }}{131}{table.caption.168}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {22}{\ignorespaces Number of events expected and observed in the $ee$, $\mu \mu $, and combined channels. Expected predictions include all systematic and statistical uncertainties discussed in \autoref {ch:background_uncertainties}. Also shown is the discovery $p$-value for zero signal strength ($p(s=0)$)~\cite {Baak:2014wma}, Gaussian significance, 95\% confidence level (CL) observed and expected upper limits on the number of signal events ($S^{95}$), and the corresponding observed upper limit on the visible cross section ($\delimiter "426830A \epsilon \sigma \delimiter "526930B ^{95}_\text {obs}$). \relax }}{134}{table.caption.170}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
