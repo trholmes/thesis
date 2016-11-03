@@ -885,6 +885,49 @@
   \field{year}{2016}
 \endentry
 
+\entry{BRUN199781}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brun}{B.}%
+     {Rene}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rademakers}{R.}%
+     {Fons}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BRRF1}
+  \strng{fullhash}{BRRF1}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  The ROOT system in an Object Oriented framework for large scale data
+  analysis. ROOT written in C++, contains, among others, an efficient
+  hierarchical OO database, a C++ interpreter, advanced statistical analysis
+  (multi-dimensional histogramming, fitting, minimization, cluster finding
+  algorithms) and visualization tools. The user interacts with ROOT via a
+  graphical user interface, the command line or batch scripts. The command and
+  scripting language is C++ (using the interpreter) and large scripts can be
+  compiled and dynamically linked in. The OO database design has been optimized
+  for parallel access (reading as well as writing) by multiple processes.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/S0168-9002(97)00048-X
+  \endverb
+  \field{issn}{0168-9002}
+  \field{number}{1}
+  \field{pages}{81 \bibrangedash  86}
+  \field{title}{ROOT — An object oriented data analysis framework}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S016890029700048X
+  \endverb
+  \field{volume}{389}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{1997}
+\endentry
+
 \entry{Burgess:2007zi}{book}{}
   \name{author}{2}{}{%
     {{}%
@@ -1400,6 +1443,84 @@
   \field{title}{Big-Bang Nucleosynthesis and the Baryon Density of the
   Universe}
   \field{year}{1994}
+\endentry
+
+\entry{statforumlimits}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cowan}{C.}%
+     {Glen}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cranmer}{C.}%
+     {Kyle}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gross}{G.}%
+     {Eilam}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vitells}{V.}%
+     {Ofer}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CG+1}
+  \strng{fullhash}{CGCKGEVO1}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-011-1554-0
+  \endverb
+  \verb{eprint}
+  \verb 1007.1727
+  \endverb
+  \field{pages}{1554}
+  \field{title}{{Asymptotic formulae for likelihood-based tests of new
+  physics}}
+  \field{volume}{71}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{physics.data-an}
+  \field{year}{2011}
+\endentry
+
+\entry{Cranmer:2012sba}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Cranmer}{C.}%
+     {Kyle}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lewis}{L.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moneta}{M.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shibata}{S.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verkerke}{V.}%
+     {Wouter}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CK+1}
+  \strng{fullhash}{CKLGMLSAVW1}
+  \field{sortinit}{C}
+  \field{title}{{HistFactory: A tool for creating statistical models for use
+  with RooFit and RooStats}}
+  \field{year}{2012}
 \endentry
 
 \entry{ttbarxsec1}{article}{}
@@ -2028,6 +2149,64 @@
   \field{year}{2013}
 \endentry
 
+\entry{1009.1003}{misc}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Moneta}{M.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Belasco}{B.}%
+     {Kevin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cranmer}{C.}%
+     {Kyle}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kreiss}{K.}%
+     {Sven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lazzaro}{L.}%
+     {Alfio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Piparo}{P.}%
+     {Danilo}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schott}{S.}%
+     {Gregory}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verkerke}{V.}%
+     {Wouter}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolf}{W.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ML+1}
+  \strng{fullhash}{MLBKCKKSLAPDSGVWWM1}
+  \field{sortinit}{M}
+  \verb{eprint}
+  \verb arXiv:1009.1003
+  \endverb
+  \field{title}{The RooStats Project}
+  \field{year}{2010}
+\endentry
+
 \entry{PowhegBOX1}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -2143,6 +2322,27 @@
   \field{type}{techreport}
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{clsread}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Read}{R.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RA1}
+  \strng{fullhash}{RA1}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1088/0954-3899/28/10/313
+  \endverb
+  \field{pages}{2693\bibrangedash 2704}
+  \field{title}{{Presentation of search results: the CLs technique}}
+  \field{volume}{28}
+  \field{journaltitle}{Journal of Physics G: Nucl. Part. Phys.}
+  \field{year}{2002}
 \endentry
 
 \entry{CMS-PAS-SUS-15-011}{report}{}

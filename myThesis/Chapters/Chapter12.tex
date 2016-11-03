@@ -1,7 +1,41 @@
 % Chapter 12
 
 \chapter{Interpretations} % Chapter title
-
 \label{ch:interpretations} 
+
+Using the simplified models discussed in \autoref{sec:simplified_models}, these results can be interpreted into exclusions of theories based on the masses of the particles involved. Of course, these exclusions include all the assumptions of the models used, so they shouldn't be interpreted to mean that no theory with a given set of particle masses can possibly exist, but they do provide a helpful guideline for targeting future searches and comparing results from different analyses.
+
+Limits are determined using a program called HistFitter \cite{Baak:2014wma}, designed within the ATLAS experiment, which builds upon the capabilities of ROOT \cite{BRUN199781}, RooStats \cite{1009.1003}, and HistFactory \cite{Cranmer:2012sba} to combine the uncertainties of the various background predictions, including their correlations, and produce cross-section limits at 95\% \ac{CL} using the $CL_{\text{S}}$ prescription~\cite{statforumlimits,clsread}. In this prescription, a likelihood is constructed based on the expected signal and background contributions to the \ac{SR}. Nuisance parameters are created based on the statistical and systematic uncertainties for each data-driven background, as well as for each systematic applied to the \ac{MC}-driven background estimates. The fit uses Gaussian models for nuisance parameters for all signal and background uncertainties, except for the flavor symmetry method and the \ac{MC}-based backgrounds, which are interpreted as Poissonian. Experimental uncertainties are considered fully correlated across the signal and background \ac{MC}-based estimates. 
+
+A fit is performed, leaving a signal strength parameter ($\mu$) free, to maximize the likelihood, and subsequent fits are preformed to at discrete $\mu$ values to determine the relative likelihood of each value. Using this relative likelihood, the probability of a background-only hypothesis, $p_b$, can be determined by setting $\mu=0$, as well as the probability of a signal + background hypothesis $p_{s+b}$ with any non-zero signal strength, but nominally with $\mu=1$. The confidence limit is constructed as a ratio
+
+\begin{equation}
+CL_S = \frac{p_{s+b}}{1-p_b}. 
+\end{equation}
+
+Then, if $CL_S$ falls below 5\%, the signal + background hypothesis can be excluded at 95\%. Expected exclusion limits are constructed by assuming the observed data precisely matches the prediction, and 1$\sigma$ uncertainty bands are formed by varying ????????. The observed limit uses the actual observation of data in the \ac{SR} to set exclusion limits, so any excess above the expected background will result in worse limits than expected, and any deficit will result in better limits. This exclusion is displayed with error bands that represent the theoretical uncertainty on the signal models. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=.8\textwidth]{figures/interpretation/excl_SM_GG_N2_1.eps}
+\includegraphics[width=.8\textwidth]{figures/interpretation/excl_SM_SS_N2.eps}  
+\caption{
+Expected and observed exclusion contours derived from the results in SRZ for the (top) $\tilde{g}$--$\chitwozero$ on-shell grid and (bottom) $\tilde{q}$--$\chitwozero$ on-shell grid. 
+The dashed blue line indicates the expected limits at $95\%$ CL and the yellow band shows the $1\sigma$ variation of the expected limit as a consequence of the uncertainties in the background prediction and the experimental uncertainties in the signal ($\pm1\sigma_\text{exp}$). 
+The observed limits are shown by the solid red line, with the dotted red lines indicating the variation resulting from changing the signal cross section within its uncertainty ($\pm1\sigma^\text{SUSY}_\text{theory}$). \label{fig:excl_SMGGN2_1}
+}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{figures/interpretation/excl_SM_GG_N2.eps}
+\caption{
+Expected and observed exclusion contours derived from the results in SRZ for the $\tilde{g}$--$\chionezero$ on-shell grid. 
+The dashed blue line indicates the expected limits at $95\%$ CL and the yellow band shows the $1\sigma$ variation of the expected limit as a consequence of the uncertainties in the background prediction and the experimental uncertainties in the signal ($\pm1\sigma_\text{exp}$). 
+The observed limits are shown by the solid red line, with the dotted red lines indicating the variation resulting from changing the signal cross section within its uncertainty ($\pm1\sigma^\text{SUSY}_\text{theory}$).
+\label{fig:excl_SMGGN2}
+}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
