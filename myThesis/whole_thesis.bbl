@@ -2324,6 +2324,26 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{ATL-PHYS-PUB-2016-022}{report}{}
+  \field{sortinit}{P}
+  \field{number}{ATL-PHYS-PUB-2016-022}
+  \field{title}{{Prospects for a search for direct pair production of top
+  squarks in scenarios with compressed mass spectra at the high luminosity LHC
+  with the ATLAS Detector}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/2220904
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{clsread}{article}{}
   \name{author}{1}{}{%
     {{}%

@@ -21,12 +21,12 @@ Electrons are reconstructed using the Egamma algorithm discussed in \autoref{sec
       \multicolumn{2}{c}{Baseline Electron}\\
       \hline
       Acceptance   & $\pt > 10\,\GeV, |\eta^\mathrm{clust}| < 2.47$ \\
-      Quality      & \texttt{LHLoose} \\
+      Quality      & \texttt{Loose} \\
       \hline
       \multicolumn{2}{c}{Signal Electron}\\
       \hline
       Acceptance   & $\pt > 25\,\GeV, |\eta^\mathrm{clust}| < 2.47$ \\
-      Quality          & \texttt{LHMedium} \\
+      Quality          & \texttt{Medium} \\
       Isolation        & \texttt{GradientLoose} \\
       \multirow{2}{*}{Impact parameter} & $|z_0 \sin\theta|< 0.5$ mm \\
                        & $|d_0/\sigma_{d_0}|< 5$ \\ 
@@ -115,11 +115,11 @@ Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets 
 \end{table}
 
 Though no $b$-jets are required in the \ac{SR} of this analysis, some \acp{CR} use $b$-enhanced and $b$-vetoed regions to determine the impact of heavy flavor. These $b$-jets are identified using the \texttt{MV2c20} algorithm at a 77\% efficient working point, and are only identified for $|\eta|<2.5$. 
+
+
 \section{Photons}
 
-For the nominal samples in this analysis, photon reconstruction isn't run, and photons will be identified either as jets or electrons based on their properties. As such, there is no concept of a baseline photon, because these objects are not used in either \ac{OR} or \met calculation. 
-
-However, there is a background estimate that requires events with photons, and for this method, samples are made with photons fully reconstructed according to \autoref{sec:reco_photons}. These signal photons must pass a \texttt{tight} selection with \texttt{FixedCutTight} isolation and have $\pt > 25\,\GeV$ as well as $|\eta| < 2.37$. Photons with $1.37<|\eta|<1.6$ are rejected due to an discontinuity in the calorimeter which results in very large energy resolutions in this region. The full selection requirements can be seen in \autoref{tab:photondef}.
+Photons are used to estimate the \dyjets background in this analysis, and they are reconstructed according to \autoref{sec:reco_photons}. Baseline and signal photons are nearly identical. Each must pass a \texttt{tight} selection with \texttt{FixedCutTight} isolation and have $\pt > 25\,\GeV$ as well as $|\eta| < 2.37$. Signal photons with $1.37<|\eta|<1.6$ are rejected due to an discontinuity in the calorimeter which results in very large energy resolutions in this region. The full selection requirements can be seen in \autoref{tab:photondef}.
 
 \begin{table}[ph!]
   \begin{center}
@@ -127,6 +127,11 @@ However, there is a background estimate that requires events with photons, and f
       \hline
       Cut            & Value/description \\
       \hline
+      \hline
+      \multicolumn{2}{c}{Baseline Photon}\\
+      \hline
+      Acceptance        & $\pt > 25\,\GeV, |\eta| < 2.37$   \\
+      Quality        & \texttt{tight}    \\
       \hline
       \multicolumn{2}{c}{Signal Photon}\\
       \hline
