@@ -16,348 +16,6 @@
   {}
 \endgroup
 
-\entry{2012lumi}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{title}{{Luminosity determination in pp collisions at
-  $\sqrt{s}=8$~\TeV\ using the ATLAS detector at the LHC}}
-  \field{journaltitle}{to be submited to Eur. Phys. J. C}
-\endentry
-
-\entry{PERF-2007-01}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \verb{doi}
-  \verb 10.1088/1748-0221/3/08/S08003
-  \endverb
-  \field{pages}{S08003}
-  \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
-  \field{volume}{3}
-  \field{journaltitle}{JINST}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2008}
-\endentry
-
-\entry{ATLAS:2012ema}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATLAS-CONF-2012-046}
-  \field{title}{{Search for physics beyond the Standard Model in events with a
-  $Z$ boson and large missing transverse momentum using $\sqrt{s}=7$ TeV $pp$
-  collisions from the LHC with the ATLAS detector}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/1448222
-  \endverb
-  \field{year}{2012}
-\endentry
-
-\entry{zmet}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATLAS-CONF-2012-152}}
-  \field{title}{Search for supersymmetry in final states with jets, missing
-  transverse momentum and a $Z$ boson at $\sqrt{s}=8~\TeV$ with the ATLAS
-  detector}
-  \verb{url}
-  \verb http://cds.cern.ch/record/1493491
-  \endverb
-  \field{year}{2012}
-\endentry
-
-\entry{2011lumi}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-013-2518-3
-  \endverb
-  \verb{eprint}
-  \verb 1302.4393
-  \endverb
-  \field{pages}{2518}
-  \field{title}{{Improved luminosity determination in pp collisions at
-  $\sqrt{s}$ = 7 \TeV~ using the ATLAS detector at the LHC}}
-  \field{volume}{73}
-  \field{journaltitle}{Eur. Phys. J. C}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2013}
-\endentry
-
-\entry{PERF-2012-05}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \verb{doi}
-  \verb 10.1088/1748-0221/9/09/P09009
-  \endverb
-  \verb{eprint}
-  \verb 1406.7690
-  \endverb
-  \field{pages}{P09009}
-  \field{title}{{A neural network clustering algorithm for the ATLAS silicon
-  pixel detector}}
-  \field{volume}{9}
-  \field{journaltitle}{JINST}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2014}
-\endentry
-
-\entry{ATLAS-CONF-2014-032}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATLAS-CONF-2014-032}}
-  \field{title}{{Electron efficiency measurements with the ATLAS detector using
-  the 2012 LHC proton--proton collision data}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/1706245
-  \endverb
-  \field{year}{2014}
-\endentry
-
-\entry{ATLAS-CONF-2014-018}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATLAS-CONF-2014-018}}
-  \field{title}{Tagging and suppression of pileup jets with the ATLAS detector}
-  \verb{url}
-  \verb http://cds.cern.ch/record/1700870
-  \endverb
-  \field{year}{2014}
-\endentry
-
-\entry{ATLAS-CONF-2015-082}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATLAS-CONF-2015-082}}
-  \field{title}{{A search for supersymmetry in events containing a leptonically
-  decaying $Z$ boson, jets and missing transverse momentum in $\sqrt{s} =
-  13\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/2114854
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-023}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2015-023}
-  \field{title}{{Expected performance of missing transverse momentum
-  reconstruction for the ATLAS detector at $\sqrt{s}=13$ TeV}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2037700
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-022}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATL-PHYS-PUB-2015-022}}
-  \field{title}{{Expected performance of the ATLAS $b$-tagging in Run-2}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/2037697
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-015}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2015-015}
-  \field{title}{{Jet Calibration and Systematic Uncertainties for Jets
-  Reconstructed in the ATLAS Detector at $\sqrt{s}=13$ TeV}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2037613
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-044}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATL-PHYS-PUB-2015-044}}
-  \field{title}{{Measurement of performance of the pixel neural network
-  clustering algorithm of the ATLAS experiment at $\sqrt{s} = 13\;\mbox{TeV}$}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/2054921
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-027}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2015-027}
-  \field{title}{{Performance of missing transverse momentum reconstruction for
-  the ATLAS detector in the first proton-proton collisions at at $\sqrt{s}$= 13
-  TeV}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2037904
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{ATL-PHYS-PUB-2015-052}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{{ATL-PHYS-PUB-2015-052}}
-  \field{title}{{Robustness of the Artificial Neural Network Clustering
-  Algorithm of the ATLAS experiment}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/2116350
-  \endverb
-  \field{year}{2015}
-\endentry
-
-\entry{SUSY-2013-20}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \verb{doi}
-  \verb 10.1007/JHEP04(2015)116
-  \endverb
-  \verb{eprint}
-  \verb 1501.03555
-  \endverb
-  \field{pages}{116}
-  \field{title}{{Search for squarks and gluinos in events with isolated
-  leptons, jets and missing transverse momentum at $\sqrt{s} = 8\;\mbox{TeV}$
-  with the ATLAS detector}}
-  \field{volume}{1504}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2015}
-\endentry
-
 \entry{SUSY-2014-10}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -368,7 +26,6 @@
   }
   \strng{namehash}{A1}
   \strng{fullhash}{A1}
-  \field{sortinit}{A}
   \verb{doi}
   \verb 10.1140/epjc/s10052-015-3518-2
   \endverb
@@ -386,7 +43,7 @@
   \field{year}{2015}
 \endentry
 
-\entry{ATL-DAQ-PUB-2016-001}{booklet}{}
+\entry{ATLAS-CONF-2015-082}{booklet}{}
   \name{author}{1}{}{%
     {{}%
      {{ATLAS Collaboration}}{A.}%
@@ -396,229 +53,604 @@
   }
   \strng{namehash}{A1}
   \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-DAQ-PUB-2016-001}
-  \field{title}{{2015 start-up trigger menu and initial performance assessment
-  of the ATLAS trigger using Run-2 data}}
+  \field{howpublished}{{ATLAS-CONF-2015-082}}
+  \field{title}{{A search for supersymmetry in events containing a leptonically
+  decaying $Z$ boson, jets and missing transverse momentum in $\sqrt{s} =
+  13\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
   \verb{url}
-  \verb http://cds.cern.ch/record/2136007
+  \verb http://cdsweb.cern.ch/record/2114854
   \endverb
-  \field{year}{2016}
+  \field{year}{2015}
 \endentry
 
-\entry{Aad:2015hna}{article}{}
-  \name{author}{1}{}{%
+\entry{Burgess:2007zi}{book}{}
+  \name{author}{2}{}{%
     {{}%
-     {{ATLAS Collaboration}}{A.}%
+     {Burgess}{B.}%
+     {C.~P.}{C.~P.}%
      {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {G.~D.}{G.~D.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{BCPMGD1}
+  \strng{fullhash}{BCPMGD1}
+  \field{isbn}{9780511254857, 9781107404267, 9780521860369}
+  \field{title}{{The standard model: A primer}}
+  \field{year}{2006}
+\endentry
+
+\entry{Glashow:1961tr}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Glashow}{G.}%
+     {S.~L.}{S.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GSL1}
+  \strng{fullhash}{GSL1}
   \verb{doi}
-  \verb 10.1103/PhysRevD.93.032009
+  \verb 10.1016/0029-5582(61)90469-2
   \endverb
-  \verb{eprint}
-  \verb 1510.03818
-  \endverb
-  \field{number}{3}
-  \field{pages}{032009}
-  \field{title}{{Measurement of the differential cross-section of highly
-  boosted top quarks as a function of their transverse momentum in $\sqrt{s}$ =
-  8 TeV proton-proton collisions using the ATLAS detector}}
-  \field{volume}{93}
-  \field{journaltitle}{Phys. Rev. D}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2016}
+  \field{pages}{579\bibrangedash 588}
+  \field{title}{{Partial Symmetries of Weak Interactions}}
+  \field{volume}{22}
+  \field{journaltitle}{Nucl. Phys.}
+  \field{year}{1961}
 \endentry
 
-\entry{ATL-PHYS-PUB-2016-005}{booklet}{}
+\entry{PhysRev.127.331}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
+     {Salam}{S.}%
+     {Abdus}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2016-005}
-  \field{title}{{Modelling of the $t\bar{t}H$ and $t\bar{t}V$ $(V=W,Z)$
-  processes for $\sqrt{s}=13$ TeV ATLAS analyses}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2120826
-  \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{ATL-PHYS-PUB-2016-003}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
+  \list{publisher}{1}{%
+    {American Physical Society}%
   }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2016-003}
-  \field{title}{{Monte Carlo Generators for the Production of a $W$ or
-  $Z/\gamma^*$ Boson in Association with Jets at ATLAS in Run 2}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2120133
-  \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{ATL-PHYS-PUB-2016-002}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2016-002}
-  \field{title}{{Multi-Boson Simulation for 13 TeV ATLAS Analyses}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2119986
-  \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{PERF-2015-10}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
+  \strng{namehash}{SA1}
+  \strng{fullhash}{SA1}
   \verb{doi}
-  \verb 10.1140/epjc/s10052-016-4120-y
+  \verb 10.1103/PhysRev.127.331
   \endverb
-  \verb{eprint}
-  \verb 1603.05598
-  \endverb
-  \field{pages}{292}
-  \field{title}{{Muon reconstruction performance of the ATLAS detector in
-  proton--proton collision data at $\sqrt{s}=13$ TeV}}
-  \field{volume}{76}
-  \field{journaltitle}{Eur. Phys. J. C}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2016}
-\endentry
-
-\entry{ATL-PHYS-PUB-2016-004}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{sortinit}{A}
-  \field{howpublished}{ATL-PHYS-PUB-2016-004}
-  \field{title}{{Simulation of top quark production for the ATLAS experiment at
-  $\sqrt{s}$ = 13 TeV}}
+  \field{issue}{1}
+  \field{pages}{331\bibrangedash 334}
+  \field{title}{Renormalizability of Gauge Theories}
   \verb{url}
-  \verb http://cds.cern.ch/record/2120417
+  \verb http://link.aps.org/doi/10.1103/PhysRev.127.331
   \endverb
-  \field{year}{2016}
+  \field{volume}{127}
+  \field{journaltitle}{Phys. Rev.}
+  \field{year}{1962}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{PERF-2015-06}{article}{}
-  \true{moreauthor}
+\entry{PhysRevLett.19.1264}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Aaboud}{A.}%
-     {Morad}{M.}%
+     {Weinberg}{W.}%
+     {Steven}{S.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{AM+1}
-  \strng{fullhash}{AM+1}
-  \field{sortinit}{A}
-  \verb{eprint}
-  \verb 1609.04305
-  \endverb
-  \field{title}{{A measurement of material in the ATLAS tracker using secondary
-  hadronic interactions in 7 TeV pp collisions}}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2016}
-\endentry
-
-\entry{Agostinelli:2002hh}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Agostinelli}{A.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
+  \list{publisher}{1}{%
+    {American Physical Society}%
   }
-  \strng{namehash}{AS+1}
-  \strng{fullhash}{AS+1}
-  \field{sortinit}{A}
+  \strng{namehash}{WS1}
+  \strng{fullhash}{WS1}
   \verb{doi}
-  \verb 10.1016/S0168-9002(03)01368-8
+  \verb 10.1103/PhysRevLett.19.1264
   \endverb
-  \field{pages}{250\bibrangedash 303}
-  \field{title}{{GEANT4: A simulation toolkit}}
-  \field{volume}{506}
-  \field{journaltitle}{Nucl. Instrum. Meth. A}
-  \field{year}{2003}
+  \field{issue}{21}
+  \field{pages}{1264\bibrangedash 1266}
+  \field{title}{A Model of Leptons}
+  \verb{url}
+  \verb http://link.aps.org/doi/10.1103/PhysRevLett.19.1264
+  \endverb
+  \field{volume}{19}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{year}{1967}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{PowhegBOX3}{article}{}
-  \name{author}{4}{}{%
+\entry{Galbraith:2012}{misc}{}
+  \name{author}{1}{}{%
     {{}%
-     {Alioli}{A.}%
-     {S.}{S.}%
+     {Galbraith}{G.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
+  }
+  \strng{namehash}{GD1}
+  \strng{fullhash}{GD1}
+  \field{title}{The Standard Model of the Standard Model}
+  \verb{url}
+  \verb http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-m
+  \verb odel/
+  \endverb
+  \field{year}{1997}
+\endentry
+
+\entry{1979PhLB...87..144H}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Nason}{N.}%
+     {{Hut}}{H.}%
      {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
-     {Oleari}{O.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Re}{R.}%
-     {E.}{E.}%
+     {{Olive}}{O.}%
+     {K.~A.}{K.~A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{AS+2}
-  \strng{fullhash}{ASNPOCRE1}
-  \field{sortinit}{A}
+  \strng{namehash}{HPOKA1}
+  \strng{fullhash}{HPOKA1}
+  \verb{doi}
+  \verb 10.1016/0370-2693(79)90039-X
+  \endverb
+  \field{pages}{144\bibrangedash 146}
+  \field{title}{{A cosmological upper limit on the mass of heavy neutrinos}}
+  \field{volume}{87}
+  \field{journaltitle}{Physics Letters B}
+  \field{month}{10}
+  \field{year}{1979}
+\endentry
+
+\entry{Huang:2016}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Huang, Qing-Guo}}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wang, Ke}}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wang, Sai}}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HWW1}
+  \strng{fullhash}{HWW1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4334-z
+  \endverb
+  \field{number}{9}
+  \field{pages}{489}
+  \field{title}{Constraints on the neutrino mass and mass hierarchy from
+  cosmological observations}
+  \verb{url}
+  \verb http://dx.doi.org/10.1140/epjc/s10052-016-4334-z
+  \endverb
+  \field{volume}{76}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{year}{2016}
+\endentry
+
+\entry{1605.05081}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~MEG}{T.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTM1}
+  \strng{fullhash}{CTM1}
   \verb{eprint}
-  \verb 1002.2581
+  \verb arXiv:1605.05081
+  \endverb
+  \field{title}{Search for the Lepton Flavour Violating Decay $\mu^{+} \to e^+
+  \gamma$ with the Full Dataset of the MEG Experiment}
+  \field{year}{2016}
+\endentry
+
+\entry{Pentaquark}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {collaboration}{c.}%
+     {LHCb}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{cL1}
+  \strng{fullhash}{cL1}
+  \verb{doi}
+  \verb 10.1103/PhysRevLett.115.072001
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1507.03414
+  \endverb
+  \field{howpublished}{Phys. Rev. Lett. 115, 072001 (2015)}
+  \field{title}{Observation of $J/\Psi p$ resonances consistent with pentaquark
+  states in ${\Lambda_b^0\to J/\Psi K^-p}$ decays}
+  \field{year}{2015}
+\endentry
+
+\entry{Griffiths:111880}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {David~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{GDJ1}
+  \strng{fullhash}{GDJ1}
+  \field{series}{Physics textbook}
+  \field{title}{{Introduction to elementary particles; 2nd rev. version}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/111880
+  \endverb
+  \list{location}{1}{%
+    {New York, NY}%
+  }
+  \field{year}{2008}
+\endentry
+
+\entry{Messchendorp:2013ysj}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Messchendorp}{M.}%
+     {Johan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{booktitle}{{Proceedings, 51st International Winter Meeting on Nuclear
+  Physics (Bormio 2013): Bormio, Italy, January 21-25,2013}}
+  \verb{eprint}
+  \verb 1306.6611
   \endverb
   \field{pages}{043}
-  \field{title}{{A general framework for implementing NLO calculations in
-  shower Monte Carlo programs: the POWHEG BOX}}
-  \field{volume}{1006}
+  \field{title}{{Physics with Charmonium -- A few recent highlights of BESIII}}
+  \field{volume}{Bormio2013}
+  \field{journaltitle}{PoS}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2013}
+\endentry
+
+\entry{0901.0002}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Martin}{M.}%
+     {A.~D.}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stirling}{S.}%
+     {W.~J.}{W.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thorne}{T.}%
+     {R.~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Watt}{W.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MAD+1}
+  \strng{fullhash}{MADSWJTRSWG1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-009-1072-5
+  \endverb
+  \verb{eprint}
+  \verb arXiv:0901.0002
+  \endverb
+  \field{howpublished}{Eur.Phys.J.C63:189-285,2009}
+  \field{title}{Parton distributions for the LHC}
+  \field{year}{2009}
+\endentry
+
+\entry{zwicky}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zwicky}{Z.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZF1}
+  \strng{fullhash}{ZF1}
+  \field{pages}{{110\bibrangedash 127}}
+  \field{title}{{Die Rotverschiebung von extragalaktischen Nebeln}}
+  \field{volume}{6}
+  \field{journaltitle}{Helvetica Physica Acta}
+  \field{year}{1933}
+\endentry
+
+\entry{1985ApJ...295..305V}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {{van Albada}}{v.}%
+     {T.~S.}{T.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bahcall}}{B.}%
+     {J.~N.}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Begeman}}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sancisi}}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Dark Matter, Disk Galaxies, Galactic Structure, Mass Distribution,
+  Matter (Physics), Spiral Galaxies, Astronomical Models, Galactic Rotation,
+  Halos, Mass To Light Ratios}
+  \strng{namehash}{vTS+1}
+  \strng{fullhash}{vTSBJNBKSR1}
+  \verb{doi}
+  \verb 10.1086/163375
+  \endverb
+  \field{pages}{305\bibrangedash 313}
+  \field{title}{{Distribution of dark matter in the spiral galaxy NGC 3198}}
+  \field{volume}{295}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{1985}
+\endentry
+
+\entry{Martin:1997ns}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Martin}{M.}%
+     {Stephen~P.}{S.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MSP1}
+  \strng{fullhash}{MSP1}
+  \verb{doi}
+  \verb 10.1142/9789812839657_0001, 10.1142/9789814307505_0001
+  \endverb
+  \verb{eprint}
+  \verb hep-ph/9709356
+  \endverb
+  \field{note}{[Adv. Ser. Direct. High Energy Phys.18,1(1998)]}
+  \field{title}{{A Supersymmetry primer}}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{1997}
+\endentry
+
+\entry{astro-ph/9407006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Copi}{C.}%
+     {Craig~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schramm}{S.}%
+     {David~N.}{D.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {Michael~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CCJSDNTMS1}
+  \strng{fullhash}{CCJSDNTMS1}
+  \verb{doi}
+  \verb 10.1126/science.7809624
+  \endverb
+  \verb{eprint}
+  \verb arXiv:astro-ph/9407006
+  \endverb
+  \field{howpublished}{Science 267 (1995) 192-199}
+  \field{title}{Big-Bang Nucleosynthesis and the Baryon Density of the
+  Universe}
+  \field{year}{1994}
+\endentry
+
+\entry{nobel2004}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {NobelPrize.org}{N.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{N1}
+  \strng{fullhash}{N1}
+  \field{title}{The Nobel Prize in Physics 2004 - Popular Information}
+  \verb{url}
+  \verb https://www.nobelprize.org/nobel_prizes/physics/laureates/2004/popular.
+  \verb html
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{Chatrchyan:2012qka}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{CMS Collaboration}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \verb{doi}
+  \verb 10.1016/j.physletb.2012.08.026
+  \endverb
+  \verb{eprint}
+  \verb 1204.3774
+  \endverb
+  \field{pages}{260\bibrangedash 284}
+  \field{title}{{Search for physics beyond the standard model in events with a
+  $Z$ boson, jets, and missing transverse energy in $pp$ collisions at
+  $\sqrt{s}=7$ TeV}}
+  \field{volume}{716}
+  \field{journaltitle}{Phys. Lett. B}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2012}
+\endentry
+
+\entry{CMS2}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{CMS Collaboration}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \verb{doi}
+  \verb 10.1007/JHEP04(2015)124
+  \endverb
+  \verb{eprint}
+  \verb 1502.06031
+  \endverb
+  \field{pages}{124}
+  \field{title}{{Search for physics beyond the standard model in events with
+  two leptons, jets, and missing transverse momentum in pp collisions at
+  $\sqrt{s}$ = 8 TeV}}
+  \field{volume}{04}
   \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2015}
+\endentry
+
+\entry{CMS-PAS-SUS-15-011}{report}{}
+  \field{number}{CMS-PAS-SUS-15-011}
+  \field{title}{{Search for new physics in final states with two opposite-sign
+  same-flavor leptons, jets and missing transverse momentum in pp collisions at
+  sqrt(s)=13 TeV}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/2114811
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2015}
+\endentry
+
+\entry{1607.07741}{misc}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {Wim}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borschensky}{B.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krämer}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kulesza}{K.}%
+     {Anna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laenen}{L.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+2}
+  \strng{fullhash}{BWBCKMKALE1}
+  \verb{eprint}
+  \verb arXiv:1607.07741
+  \endverb
+  \field{title}{NNLL-fast: predictions for coloured supersymmetric particle
+  production at the LHC with threshold and Coulomb resummation}
+  \field{year}{2016}
+\endentry
+
+\entry{Ball:2012cx}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Ball}{B.}%
+     {Richard~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BRD+1}
+  \strng{fullhash}{BRD+1}
+  \verb{doi}
+  \verb 10.1016/j.nuclphysb.2012.10.003
+  \endverb
+  \verb{eprint}
+  \verb 1207.1303
+  \endverb
+  \field{pages}{244\bibrangedash 289}
+  \field{title}{{Parton distributions with LHC data}}
+  \field{volume}{B867}
+  \field{journaltitle}{Nucl. Phys.}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2013}
+\endentry
+
+\entry{Lai:2010vv}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Lai}{L.}%
+     {Hung-Liang}{H.-L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LHL+1}
+  \strng{fullhash}{LHL+1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.82.074024
+  \endverb
+  \verb{eprint}
+  \verb 1007.2241
+  \endverb
+  \field{pages}{074024}
+  \field{title}{{New parton distributions for collider physics}}
+  \field{volume}{82}
+  \field{journaltitle}{Phys. Rev. D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2010}
@@ -679,7 +711,6 @@
   }
   \strng{namehash}{AJ+1}
   \strng{fullhash}{AJFRFSHVMFMOSHSSTTPZM1}
-  \field{sortinit}{A}
   \verb{doi}
   \verb 10.1007/JHEP07(2014)079
   \endverb
@@ -697,580 +728,333 @@
   \field{year}{2014}
 \endentry
 
-\entry{Baak:2014wma}{article}{}
-  \true{moreauthor}
+\entry{PowhegBOX1}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Baak}{B.}%
-     {M.}{M.}%
+     {Nason}{N.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{BM+1}
-  \strng{fullhash}{BM+1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-015-3327-7
-  \endverb
+  \strng{namehash}{NP1}
+  \strng{fullhash}{NP1}
   \verb{eprint}
-  \verb 1410.1280
+  \verb hep-ph/0409146
   \endverb
-  \field{pages}{153}
-  \field{title}{{HistFitter software framework for statistical data analysis}}
-  \field{volume}{75}
-  \field{journaltitle}{Eur. Phys. J. C}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2014}
-\endentry
-
-\entry{Ball:2012cx}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Ball}{B.}%
-     {Richard~D.}{R.~D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BRD+1}
-  \strng{fullhash}{BRD+1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1016/j.nuclphysb.2012.10.003
-  \endverb
-  \verb{eprint}
-  \verb 1207.1303
-  \endverb
-  \field{pages}{244\bibrangedash 289}
-  \field{title}{{Parton distributions with LHC data}}
-  \field{volume}{B867}
-  \field{journaltitle}{Nucl. Phys.}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2013}
-\endentry
-
-\entry{Beenakker:1996ch}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Beenakker}{B.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {H{\"o}pker}{H.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Spira}{S.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zerwas}{Z.}%
-     {P.M.}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BW+1}
-  \strng{fullhash}{BWHRSMZP1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1016/S0550-3213(97)00084-9
-  \endverb
-  \verb{eprint}
-  \verb hep-ph/9610490
-  \endverb
-  \field{pages}{51\bibrangedash 103}
-  \field{title}{{Squark and gluino production at hadron colliders}}
-  \field{volume}{492}
-  \field{journaltitle}{Nucl. Phys. B}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{1997}
-\endentry
-
-\entry{Beenakker:2009ha}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Beenakker}{B.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BW+1}
-  \strng{fullhash}{BW+1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1088/1126-6708/2009/12/041
-  \endverb
-  \verb{eprint}
-  \verb 0909.4418
-  \endverb
-  \field{pages}{041}
-  \field{title}{{Soft-gluon resummation for squark and gluino hadroproduction}}
-  \field{volume}{0912}
+  \field{pages}{040}
+  \field{title}{{A new method for combining NLO QCD with shower Monte Carlo
+  algorithms}}
+  \field{volume}{0411}
   \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{2009}
+  \field{year}{2004}
 \endentry
 
-\entry{Beenakker:2011fu}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Beenakker}{B.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BW+1}
-  \strng{fullhash}{BW+1}
-  \field{sortinit}{B}
-  \verb{doi}
-  \verb 10.1142/S0217751X11053560
-  \endverb
-  \verb{eprint}
-  \verb 1105.1110
-  \endverb
-  \field{pages}{2637\bibrangedash 2664}
-  \field{title}{{Squark and gluino hadroproduction}}
-  \field{volume}{26}
-  \field{journaltitle}{Int. J. Mod. Phys. A}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2011}
-\endentry
-
-\entry{1607.07741}{misc}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Beenakker}{B.}%
-     {Wim}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Borschensky}{B.}%
-     {Christoph}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Krämer}{K.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kulesza}{K.}%
-     {Anna}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Laenen}{L.}%
-     {Eric}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BW+2}
-  \strng{fullhash}{BWBCKMKALE1}
-  \field{sortinit}{B}
-  \verb{eprint}
-  \verb arXiv:1607.07741
-  \endverb
-  \field{title}{NNLL-fast: predictions for coloured supersymmetric particle
-  production at the LHC with threshold and Coulomb resummation}
-  \field{year}{2016}
-\endentry
-
-\entry{BRUN199781}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Brun}{B.}%
-     {Rene}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rademakers}{R.}%
-     {Fons}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BRRF1}
-  \strng{fullhash}{BRRF1}
-  \field{sortinit}{B}
-  \field{abstract}{%
-  The ROOT system in an Object Oriented framework for large scale data
-  analysis. ROOT written in C++, contains, among others, an efficient
-  hierarchical OO database, a C++ interpreter, advanced statistical analysis
-  (multi-dimensional histogramming, fitting, minimization, cluster finding
-  algorithms) and visualization tools. The user interacts with ROOT via a
-  graphical user interface, the command line or batch scripts. The command and
-  scripting language is C++ (using the interpreter) and large scripts can be
-  compiled and dynamically linked in. The OO database design has been optimized
-  for parallel access (reading as well as writing) by multiple processes.%
-  }
-  \verb{doi}
-  \verb http://dx.doi.org/10.1016/S0168-9002(97)00048-X
-  \endverb
-  \field{issn}{0168-9002}
-  \field{number}{1}
-  \field{pages}{81 \bibrangedash  86}
-  \field{title}{ROOT — An object oriented data analysis framework}
-  \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S016890029700048X
-  \endverb
-  \field{volume}{389}
-  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
-  \field{year}{1997}
-\endentry
-
-\entry{Burgess:2007zi}{book}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Burgess}{B.}%
-     {C.~P.}{C.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Moore}{M.}%
-     {G.~D.}{G.~D.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{BCPMGD1}
-  \strng{fullhash}{BCPMGD1}
-  \field{sortinit}{B}
-  \field{isbn}{9780511254857, 9781107404267, 9780521860369}
-  \field{title}{{The standard model: A primer}}
-  \field{year}{2006}
-\endentry
-
-\entry{Chatrchyan:2012qka}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{CMS Collaboration}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{sortinit}{C}
-  \verb{doi}
-  \verb 10.1016/j.physletb.2012.08.026
-  \endverb
-  \verb{eprint}
-  \verb 1204.3774
-  \endverb
-  \field{pages}{260\bibrangedash 284}
-  \field{title}{{Search for physics beyond the standard model in events with a
-  $Z$ boson, jets, and missing transverse energy in $pp$ collisions at
-  $\sqrt{s}=7$ TeV}}
-  \field{volume}{716}
-  \field{journaltitle}{Phys. Lett. B}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2012}
-\endentry
-
-\entry{CMS2}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{CMS Collaboration}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{sortinit}{C}
-  \verb{doi}
-  \verb 10.1007/JHEP04(2015)124
-  \endverb
-  \verb{eprint}
-  \verb 1502.06031
-  \endverb
-  \field{pages}{124}
-  \field{title}{{Search for physics beyond the standard model in events with
-  two leptons, jets, and missing transverse momentum in pp collisions at
-  $\sqrt{s}$ = 8 TeV}}
-  \field{volume}{04}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2015}
-\endentry
-
-\entry{Khachatryan:2016gxp}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{CMS Collaboration}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb 1605.00116
-  \endverb
-  \field{note}{Submitted}
-  \field{title}{{Measurement of the integrated and differential t-tbar
-  production cross sections for high-pt top quarks in pp collisions at
-  $\sqrt{s}$ = 8 TeV}}
-  \field{journaltitle}{Phys. Rev. D}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2016}
-\endentry
-
-\entry{Cacciari:2008gp}{article}{}
+\entry{PowhegBOX2}{article}{}
   \name{author}{3}{}{%
     {{}%
-     {Cacciari}{C.}%
-     {Matteo}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Salam}{S.}%
-     {Gavin~P.}{G.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Soyez}{S.}%
-     {Gregory}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CMSGPSG1}
-  \strng{fullhash}{CMSGPSG1}
-  \field{sortinit}{C}
-  \verb{doi}
-  \verb 10.1088/1126-6708/2008/04/063
-  \endverb
-  \verb{eprint}
-  \verb 0802.1189
-  \endverb
-  \field{pages}{063}
-  \field{title}{{The Anti-k(t) jet clustering algorithm}}
-  \field{volume}{0804}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2008}
-\endentry
-
-\entry{diboson1}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Campbell}{C.}%
-     {J.~M.}{J.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ellis}{E.}%
-     {R.~K.}{R.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CJMERK1}
-  \strng{fullhash}{CJMERK1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb hep-ph/9905386
-  \endverb
-  \field{pages}{113006}
-  \field{title}{{An update on vector boson pair production at hadron
-  colliders}}
-  \field{volume}{60}
-  \field{journaltitle}{Phys. Rev. D}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{1999}
-\endentry
-
-\entry{Campbell:2012}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Campbell}{C.}%
-     {J.~M.}{J.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ellis}{E.}%
-     {R.~K.}{R.~K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CJMERK1}
-  \strng{fullhash}{CJMERK1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb 1204.5678
-  \endverb
-  \field{pages}{052}
-  \field{title}{{\ttbar~W production and decay at NLO}}
-  \field{volume}{1207}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2012}
-\endentry
-
-\entry{diboson2}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Campbell}{C.}%
-     {J.~M.}{J.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ellis}{E.}%
-     {R.~K.}{R.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Williams}{W.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CJMERKWC1}
-  \strng{fullhash}{CJMERKWC1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb 1105.0020
-  \endverb
-  \field{pages}{018}
-  \field{title}{{Vector boson pair production at the LHC}}
-  \field{volume}{1107}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2011}
-\endentry
-
-\entry{DYNNLO2}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Catani}{C.}%
+     {Frixione}{F.}%
      {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
-     {Grazzini}{G.}%
-     {M.}{M.}%
+     {Nason}{N.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oleari}{O.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CSGM1}
-  \strng{fullhash}{CSGM1}
-  \field{sortinit}{C}
+  \strng{namehash}{FSNPOC1}
+  \strng{fullhash}{FSNPOC1}
   \verb{eprint}
-  \verb hep-ph/0703012
+  \verb 0709.2092
   \endverb
-  \field{pages}{222002}
-  \field{title}{{An NNLO subtraction formalism in hadron collisions and its
-  application to Higgs boson production at the LHC}}
-  \field{volume}{98}
-  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{pages}{070}
+  \field{title}{{Matching NLO QCD computations with parton shower simulations:
+  the POWHEG method}}
+  \field{volume}{0711}
+  \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2007}
 \endentry
 
-\entry{DYNNLO1}{article}{}
-  \name{author}{5}{}{%
+\entry{PowhegBOX3}{article}{}
+  \name{author}{4}{}{%
     {{}%
-     {Catani}{C.}%
+     {Alioli}{A.}%
      {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
-     {Cieri}{C.}%
-     {L.}{L.}%
+     {Nason}{N.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
-     {Ferrera}{F.}%
-     {G.}{G.}%
+     {Oleari}{O.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
-     {Florian}{F.}%
-     {D.}{D.}%
-     {de}{d.}%
-     {}{}}%
-    {{}%
-     {Grazzini}{G.}%
-     {M.}{M.}%
+     {Re}{R.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CS+1}
-  \strng{fullhash}{CSCLFGFDdGM1}
-  \field{sortinit}{C}
+  \strng{namehash}{AS+2}
+  \strng{fullhash}{ASNPOCRE1}
   \verb{eprint}
-  \verb 0903.2120
+  \verb 1002.2581
   \endverb
-  \field{pages}{082001}
-  \field{title}{{Vector boson production at hadron colliders: a fully exclusive
-  QCD calculation at NNLO}}
-  \field{volume}{103}
-  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{pages}{043}
+  \field{title}{{A general framework for implementing NLO calculations in
+  shower Monte Carlo programs: the POWHEG BOX}}
+  \field{volume}{1006}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2010}
+\endentry
+
+\entry{sherpa}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Gleisberg}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT+1}
+  \strng{fullhash}{GT+1}
+  \verb{eprint}
+  \verb 0811.4622
+  \endverb
+  \field{pages}{007}
+  \field{title}{Event generation with Sherpa 1.1}
+  \field{volume}{0902}
+  \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
   \field{year}{2009}
 \endentry
 
-\entry{1606.01813}{misc}{}
-  \name{author}{1}{}{%
+\entry{Sjostrand:2006za}{article}{}
+  \name{author}{3}{}{%
     {{}%
-     {Collaboration}{C.}%
-     {ATLAS}{A.}%
+     {{Sj\"{o}strand}}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mrenna}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Skands}{S.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CA1}
-  \strng{fullhash}{CA1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb arXiv:1606.01813
+  \strng{namehash}{STMSSP1}
+  \strng{fullhash}{STMSSP1}
+  \verb{doi}
+  \verb 10.1088/1126-6708/2006/05/026
   \endverb
-  \field{title}{Measurement of the photon identification efficiencies with the
-  ATLAS detector using LHC Run-1 data}
+  \verb{eprint}
+  \verb hep-ph/0603175
+  \endverb
+  \field{pages}{026}
+  \field{title}{{PYTHIA 6.4 Physics and Manual}}
+  \field{volume}{0605}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2006}
+\endentry
+
+\entry{Agostinelli:2002hh}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Agostinelli}{A.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AS+1}
+  \strng{fullhash}{AS+1}
+  \verb{doi}
+  \verb 10.1016/S0168-9002(03)01368-8
+  \endverb
+  \field{pages}{250\bibrangedash 303}
+  \field{title}{{GEANT4: A simulation toolkit}}
+  \field{volume}{506}
+  \field{journaltitle}{Nucl. Instrum. Meth. A}
+  \field{year}{2003}
+\endentry
+
+\entry{PERF-2015-06}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Aaboud}{A.}%
+     {Morad}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AM+1}
+  \strng{fullhash}{AM+1}
+  \verb{eprint}
+  \verb 1609.04305
+  \endverb
+  \field{title}{{A measurement of material in the ATLAS tracker using secondary
+  hadronic interactions in 7 TeV pp collisions}}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
   \field{year}{2016}
 \endentry
 
-\entry{1603.05598}{article}{}
-  \name{author}{1}{}{%
+\entry{1748-0221-3-08-S08001}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Collaboration}{C.}%
-     {ATLAS}{A.}%
+     {Evans}{E.}%
+     {Lyndon}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bryant}{B.}%
+     {Philip}{P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CA1}
-  \strng{fullhash}{CA1}
-  \field{sortinit}{C}
+  \strng{namehash}{ELBP1}
+  \strng{fullhash}{ELBP1}
+  \field{abstract}{%
+  The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and
+  most powerful tool for Particle Physics research. It is designed to collide
+  proton beams with a centre-of-mass energy of 14 TeV and an unprecedented
+  luminosity of 10 34 cm −2 s −1 . It can also collide heavy (Pb) ions
+  with an energy of 2.8 TeV per nucleon and a peak luminosity of 10 27 cm
+  −2 s −1 . In this paper, the machine design is described.%
+  }
+  \field{number}{08}
+  \field{pages}{S08001}
+  \field{title}{LHC Machine}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08001
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{lep_tdr}{book}{}
+  \list{publisher}{1}{%
+    {CERN}%
+  }
+  \field{note}{Copies shelved as reports in LEP, PS and SPS libraries}
+  \field{title}{{LEP design report}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/102083
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{PERF-2007-01}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
   \verb{doi}
-  \verb 10.1140/epjc/s10052-016-4120-y
+  \verb 10.1088/1748-0221/3/08/S08003
   \endverb
-  \verb{eprint}
-  \verb arXiv:1603.05598
+  \field{pages}{S08003}
+  \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+  \field{volume}{3}
+  \field{journaltitle}{JINST}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2008}
+\endentry
+
+\entry{1748-0221-3-08-S08004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~CMS}{T.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTC1}
+  \strng{fullhash}{CTC1}
+  \field{abstract}{%
+  The Compact Muon Solenoid (CMS) detector is described. The detector operates
+  at the Large Hadron Collider (LHC) at CERN. It was conceived to study
+  proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV
+  (5.5 TeV nucleon-nucleon) and at luminosities up to 10 34 cm −2 s −1
+  (10 27 cm −2 s −1 ). At the core of the CMS detector sits a
+  high-magnetic-field and large-bore superconducting solenoid surrounding an
+  all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals
+  electromagnetic calorimeter, and a brass-scintillator sampling hadron
+  calorimeter. The iron yoke of the flux-return is instrumented with four
+  stations of muon detectors covering most of the 4π solid angle. Forward
+  sampling calorimeters extend the pseudorapidity coverage to high values
+  (|η| ≤ 5) assuring very good hermeticity. The overall dimensions of the
+  CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight
+  of 12500 t.%
+  }
+  \field{number}{08}
+  \field{pages}{S08004}
+  \field{title}{The CMS experiment at the CERN LHC}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08004
   \endverb
-  \field{howpublished}{Eur. Phys. J. C (2016) 76:292}
-  \field{title}{Muon reconstruction performance of the ATLAS detector in
-  proton--proton collision data at $\sqrt{s}$=13 TeV}
-  \field{year}{2016}
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{1748-0221-3-08-S08005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~LHCb}{T.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTL1}
+  \strng{fullhash}{CTL1}
+  \field{abstract}{%
+  The LHCb experiment is dedicated to precision measurements of CP violation
+  and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN
+  (Geneva). The initial configuration and expected performance of the detector
+  and associated systems, as established by test beam measurements and
+  simulation studies, is described.%
+  }
+  \field{number}{08}
+  \field{pages}{S08005}
+  \field{title}{The LHCb Detector at the LHC}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08005
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
 \endentry
 
 \entry{1748-0221-3-08-S08002}{article}{}
@@ -1283,7 +1067,6 @@
   }
   \strng{namehash}{CTA1}
   \strng{fullhash}{CTA1}
-  \field{sortinit}{C}
   \field{abstract}{%
   ALICE (A Large Ion Collider Experiment) is a general-purpose, heavy-ion
   detector at the CERN LHC which focuses on QCD, the strong-interaction sector
@@ -1326,201 +1109,522 @@
   \field{year}{2008}
 \endentry
 
-\entry{1748-0221-3-08-S08004}{article}{}
+\entry{crosssections}{misc}{}
   \name{author}{1}{}{%
     {{}%
-     {Collaboration}{C.}%
-     {The~CMS}{T.~C.}%
+     {Stirling}{S.}%
+     {W.J.}{W.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CTC1}
-  \strng{fullhash}{CTC1}
-  \field{sortinit}{C}
-  \field{abstract}{%
-  The Compact Muon Solenoid (CMS) detector is described. The detector operates
-  at the Large Hadron Collider (LHC) at CERN. It was conceived to study
-  proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV
-  (5.5 TeV nucleon-nucleon) and at luminosities up to 10 34 cm −2 s −1
-  (10 27 cm −2 s −1 ). At the core of the CMS detector sits a
-  high-magnetic-field and large-bore superconducting solenoid surrounding an
-  all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals
-  electromagnetic calorimeter, and a brass-scintillator sampling hadron
-  calorimeter. The iron yoke of the flux-return is instrumented with four
-  stations of muon detectors covering most of the 4π solid angle. Forward
-  sampling calorimeters extend the pseudorapidity coverage to high values
-  (|η| ≤ 5) assuring very good hermeticity. The overall dimensions of the
-  CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight
-  of 12500 t.%
-  }
-  \field{number}{08}
-  \field{pages}{S08004}
-  \field{title}{The CMS experiment at the CERN LHC}
+  \strng{namehash}{SW1}
+  \strng{fullhash}{SW1}
+  \field{title}{proton-(anti)proton cross sections}
   \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08004
+  \verb http://www.hep.ph.ic.ac.uk/~wstirlin/plots/plots.html
   \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
+  \field{year}{2013}
 \endentry
 
-\entry{1748-0221-3-08-S08005}{article}{}
+\entry{ATL-DAQ-PUB-2016-001}{booklet}{}
   \name{author}{1}{}{%
     {{}%
-     {Collaboration}{C.}%
-     {The~LHCb}{T.~L.}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CTL1}
-  \strng{fullhash}{CTL1}
-  \field{sortinit}{C}
-  \field{abstract}{%
-  The LHCb experiment is dedicated to precision measurements of CP violation
-  and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN
-  (Geneva). The initial configuration and expected performance of the detector
-  and associated systems, as established by test beam measurements and
-  simulation studies, is described.%
-  }
-  \field{number}{08}
-  \field{pages}{S08005}
-  \field{title}{The LHCb Detector at the LHC}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-DAQ-PUB-2016-001}
+  \field{title}{{2015 start-up trigger menu and initial performance assessment
+  of the ATLAS trigger using Run-2 data}}
   \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08005
+  \verb http://cds.cern.ch/record/2136007
   \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{1605.05081}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Collaboration}{C.}%
-     {The~MEG}{T.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CTM1}
-  \strng{fullhash}{CTM1}
-  \field{sortinit}{C}
-  \verb{eprint}
-  \verb arXiv:1605.05081
-  \endverb
-  \field{title}{Search for the Lepton Flavour Violating Decay $\mu^{+} \to e^+
-  \gamma$ with the Full Dataset of the MEG Experiment}
   \field{year}{2016}
 \endentry
 
-\entry{astro-ph/9407006}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Copi}{C.}%
-     {Craig~J}{C.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schramm}{S.}%
-     {David~N.}{D.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Turner}{T.}%
-     {Michael~S.}{M.~S.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CCJSDNTMS1}
-  \strng{fullhash}{CCJSDNTMS1}
-  \field{sortinit}{C}
+\entry{Aad:2011mk}{article}{}
   \verb{doi}
-  \verb 10.1126/science.7809624
+  \verb 10.1140/epjc/s10052-012-1909-1
   \endverb
   \verb{eprint}
-  \verb arXiv:astro-ph/9407006
+  \verb 1110.3174
   \endverb
-  \field{howpublished}{Science 267 (1995) 192-199}
-  \field{title}{Big-Bang Nucleosynthesis and the Baryon Density of the
-  Universe}
-  \field{year}{1994}
-\endentry
-
-\entry{statforumlimits}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Cowan}{C.}%
-     {Glen}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Cranmer}{C.}%
-     {Kyle}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gross}{G.}%
-     {Eilam}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Vitells}{V.}%
-     {Ofer}{O.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CG+1}
-  \strng{fullhash}{CGCKGEVO1}
-  \field{sortinit}{C}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-011-1554-0
-  \endverb
-  \verb{eprint}
-  \verb 1007.1727
-  \endverb
-  \field{pages}{1554}
-  \field{title}{{Asymptotic formulae for likelihood-based tests of new
-  physics}}
-  \field{volume}{71}
+  \field{pages}{1909}
+  \field{title}{{Electron performance measurements with the ATLAS detector
+  using the 2010 LHC proton-proton collision data}}
+  \field{volume}{72}
   \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}
-  \field{eprintclass}{physics.data-an}
-  \field{year}{2011}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2012}
 \endentry
 
-\entry{Cranmer:2012sba}{article}{}
-  \name{author}{5}{}{%
+\entry{ATLAS-CONF-2016-024}{report}{}
+  \field{number}{ATLAS-CONF-2016-024}
+  \field{title}{{Electron efficiency measurements with the ATLAS detector using
+  the 2015 LHC proton-proton collision data}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2157687
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{1606.01813}{misc}{}
+  \name{author}{1}{}{%
     {{}%
-     {Cranmer}{C.}%
-     {Kyle}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lewis}{L.}%
-     {George}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Moneta}{M.}%
-     {Lorenzo}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shibata}{S.}%
-     {Akira}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Verkerke}{V.}%
-     {Wouter}{W.}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CK+1}
-  \strng{fullhash}{CKLGMLSAVW1}
-  \field{sortinit}{C}
-  \field{title}{{HistFactory: A tool for creating statistical models for use
-  with RooFit and RooStats}}
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \verb{eprint}
+  \verb arXiv:1606.01813
+  \endverb
+  \field{title}{Measurement of the photon identification efficiencies with the
+  ATLAS detector using LHC Run-1 data}
+  \field{year}{2016}
+\endentry
+
+\entry{ATL-PHYS-PUB-2016-014}{report}{}
+  \field{number}{ATL-PHYS-PUB-2016-014}
+  \field{title}{{Photon identification in 2015 ATLAS data}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/2203125
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{EGAM-2016-003}{report}{}
+  \field{number}{EGAM-2016-003}
+  \field{title}{{Photon Identification Efficiencies using 2016 Data with
+  radiative Z boson decays}}
+  \verb{url}
+  \verb https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PLOTS/EGAM-2016-003/inde
+  \verb x.html
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{type}{techreport}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{isolation}{misc}{}
+  \field{title}{{Official Isolation Working Points}}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/IsolationSelectionT
+  \verb ool#Photons
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \list{institution}{1}{%
+    {CERN}%
+  }
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{1603.05598}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4120-y
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1603.05598
+  \endverb
+  \field{howpublished}{Eur. Phys. J. C (2016) 76:292}
+  \field{title}{Muon reconstruction performance of the ATLAS detector in
+  proton--proton collision data at $\sqrt{s}$=13 TeV}
+  \field{year}{2016}
+\endentry
+
+\entry{Cacciari:2008gp}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Cacciari}{C.}%
+     {Matteo}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salam}{S.}%
+     {Gavin~P.}{G.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soyez}{S.}%
+     {Gregory}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CMSGPSG1}
+  \strng{fullhash}{CMSGPSG1}
+  \verb{doi}
+  \verb 10.1088/1126-6708/2008/04/063
+  \endverb
+  \verb{eprint}
+  \verb 0802.1189
+  \endverb
+  \field{pages}{063}
+  \field{title}{{The Anti-k(t) jet clustering algorithm}}
+  \field{volume}{0804}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2008}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-015}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2015-015}
+  \field{title}{{Jet Calibration and Systematic Uncertainties for Jets
+  Reconstructed in the ATLAS Detector at $\sqrt{s}=13$ TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037613
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATLAS-CONF-2014-018}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATLAS-CONF-2014-018}}
+  \field{title}{Tagging and suppression of pileup jets with the ATLAS detector}
+  \verb{url}
+  \verb http://cds.cern.ch/record/1700870
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-022}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-022}}
+  \field{title}{{Expected performance of the ATLAS $b$-tagging in Run-2}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2037697
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-023}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2015-023}
+  \field{title}{{Expected performance of missing transverse momentum
+  reconstruction for the ATLAS detector at $\sqrt{s}=13$ TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037700
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-027}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2015-027}
+  \field{title}{{Performance of missing transverse momentum reconstruction for
+  the ATLAS detector in the first proton-proton collisions at at $\sqrt{s}$= 13
+  TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2037904
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{PERF-2012-05}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1088/1748-0221/9/09/P09009
+  \endverb
+  \verb{eprint}
+  \verb 1406.7690
+  \endverb
+  \field{pages}{P09009}
+  \field{title}{{A neural network clustering algorithm for the ATLAS silicon
+  pixel detector}}
+  \field{volume}{9}
+  \field{journaltitle}{JINST}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2014}
+\endentry
+
+\entry{agile}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Oliveira}{O.}%
+     {Luke}{L.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \strng{namehash}{OLd1}
+  \strng{fullhash}{OLd1}
+  \field{title}{AGILEPack: Algorithms for Generalized Inference, Learning, and
+  Extraction}
+  \verb{url}
+  \verb http://lukedeo.github.io/AGILEPack/
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-044}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-044}}
+  \field{title}{{Measurement of performance of the pixel neural network
+  clustering algorithm of the ATLAS experiment at $\sqrt{s} = 13\;\mbox{TeV}$}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2054921
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2015-052}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATL-PHYS-PUB-2015-052}}
+  \field{title}{{Robustness of the Artificial Neural Network Clustering
+  Algorithm of the ATLAS experiment}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2116350
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{ATL-PHYS-PUB-2016-005}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2016-005}
+  \field{title}{{Modelling of the $t\bar{t}H$ and $t\bar{t}V$ $(V=W,Z)$
+  processes for $\sqrt{s}=13$ TeV ATLAS analyses}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2120826
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{Garzelli:2012bn}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Garzelli}{G.}%
+     {M.~V.}{M.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kardos}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papadopoulos}{P.}%
+     {C.~G.}{C.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trocsanyi}{T.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GMV+1}
+  \strng{fullhash}{GMVKAPCGTZ1}
+  \verb{doi}
+  \verb 10.1007/JHEP11(2012)056
+  \endverb
+  \verb{eprint}
+  \verb 1208.2665
+  \endverb
+  \field{pages}{056}
+  \field{title}{{t $\bar{t}$ $W^{+-}$ and t $\bar{t}$ Z Hadroproduction at NLO
+  accuracy in QCD with Parton Shower and Hadronization effects}}
+  \field{volume}{11}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
   \field{year}{2012}
+\endentry
+
+\entry{Campbell:2012}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Campbell}{C.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellis}{E.}%
+     {R.~K.}{R.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJMERK1}
+  \strng{fullhash}{CJMERK1}
+  \verb{eprint}
+  \verb 1204.5678
+  \endverb
+  \field{pages}{052}
+  \field{title}{{\ttbar~W production and decay at NLO}}
+  \field{volume}{1207}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2012}
+\endentry
+
+\entry{Lazopoulos:2008}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lazopoulos}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McElmurry}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melnikov}{M.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petriello}{P.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LA+1}
+  \strng{fullhash}{LAMTMKPF1}
+  \verb{eprint}
+  \verb 0804.2220
+  \endverb
+  \field{pages}{62}
+  \field{title}{{Next-to-leading order QCD corrections to $t\bar{t}Z$
+  production at the LHC}}
+  \field{volume}{666}
+  \field{journaltitle}{Phys. Lett. B}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2008}
+\endentry
+
+\entry{ATL-PHYS-PUB-2016-004}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2016-004}
+  \field{title}{{Simulation of top quark production for the ATLAS experiment at
+  $\sqrt{s}$ = 13 TeV}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2120417
+  \endverb
+  \field{year}{2016}
 \endentry
 
 \entry{ttbarxsec1}{article}{}
@@ -1543,7 +1647,6 @@
   }
   \strng{namehash}{CMFPMA1}
   \strng{fullhash}{CMFPMA1}
-  \field{sortinit}{C}
   \verb{eprint}
   \verb 1303.6254
   \endverb
@@ -1572,7 +1675,6 @@
   }
   \strng{namehash}{CMMA1}
   \strng{fullhash}{CMMA1}
-  \field{sortinit}{C}
   \verb{doi}
   \verb 10.1016/j.cpc.2014.06.021
   \endverb
@@ -1589,285 +1691,6 @@
   \field{year}{2014}
 \endentry
 
-\entry{ATLAS-CONF-2016-024}{report}{}
-  \field{sortinit}{E}
-  \field{number}{ATLAS-CONF-2016-024}
-  \field{title}{{Electron efficiency measurements with the ATLAS detector using
-  the 2015 LHC proton-proton collision data}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2157687
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{Aad:2011mk}{article}{}
-  \field{sortinit}{E}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-012-1909-1
-  \endverb
-  \verb{eprint}
-  \verb 1110.3174
-  \endverb
-  \field{pages}{1909}
-  \field{title}{{Electron performance measurements with the ATLAS detector
-  using the 2010 LHC proton-proton collision data}}
-  \field{volume}{72}
-  \field{journaltitle}{Eur. Phys. J. C}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2012}
-\endentry
-
-\entry{1748-0221-3-08-S08001}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Evans}{E.}%
-     {Lyndon}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bryant}{B.}%
-     {Philip}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ELBP1}
-  \strng{fullhash}{ELBP1}
-  \field{sortinit}{E}
-  \field{abstract}{%
-  The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and
-  most powerful tool for Particle Physics research. It is designed to collide
-  proton beams with a centre-of-mass energy of 14 TeV and an unprecedented
-  luminosity of 10 34 cm −2 s −1 . It can also collide heavy (Pb) ions
-  with an energy of 2.8 TeV per nucleon and a peak luminosity of 10 27 cm
-  −2 s −1 . In this paper, the machine design is described.%
-  }
-  \field{number}{08}
-  \field{pages}{S08001}
-  \field{title}{LHC Machine}
-  \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08001
-  \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{PowhegBOX2}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Frixione}{F.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Nason}{N.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Oleari}{O.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{FSNPOC1}
-  \strng{fullhash}{FSNPOC1}
-  \field{sortinit}{F}
-  \verb{eprint}
-  \verb 0709.2092
-  \endverb
-  \field{pages}{070}
-  \field{title}{{Matching NLO QCD computations with parton shower simulations:
-  the POWHEG method}}
-  \field{volume}{0711}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2007}
-\endentry
-
-\entry{Galbraith:2012}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Galbraith}{G.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GD1}
-  \strng{fullhash}{GD1}
-  \field{sortinit}{G}
-  \field{title}{The Standard Model of the Standard Model}
-  \verb{url}
-  \verb http://davidgalbraith.org/portfolio/ux-standard-model-of-the-standard-m
-  \verb odel/
-  \endverb
-  \field{year}{1997}
-\endentry
-
-\entry{Garzelli:2012bn}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Garzelli}{G.}%
-     {M.~V.}{M.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kardos}{K.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Papadopoulos}{P.}%
-     {C.~G.}{C.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Trocsanyi}{T.}%
-     {Z.}{Z.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GMV+1}
-  \strng{fullhash}{GMVKAPCGTZ1}
-  \field{sortinit}{G}
-  \verb{doi}
-  \verb 10.1007/JHEP11(2012)056
-  \endverb
-  \verb{eprint}
-  \verb 1208.2665
-  \endverb
-  \field{pages}{056}
-  \field{title}{{t $\bar{t}$ $W^{+-}$ and t $\bar{t}$ Z Hadroproduction at NLO
-  accuracy in QCD with Parton Shower and Hadronization effects}}
-  \field{volume}{11}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2012}
-\endentry
-
-\entry{sherpa}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
-    {{}%
-     {Gleisberg}{G.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{GT+1}
-  \strng{fullhash}{GT+1}
-  \field{sortinit}{G}
-  \verb{eprint}
-  \verb 0811.4622
-  \endverb
-  \field{pages}{007}
-  \field{title}{Event generation with Sherpa 1.1}
-  \field{volume}{0902}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2009}
-\endentry
-
-\entry{Griffiths:111880}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Griffiths}{G.}%
-     {David~J}{D.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Wiley}%
-  }
-  \strng{namehash}{GDJ1}
-  \strng{fullhash}{GDJ1}
-  \field{sortinit}{G}
-  \field{series}{Physics textbook}
-  \field{title}{{Introduction to elementary particles; 2nd rev. version}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/111880
-  \endverb
-  \list{location}{1}{%
-    {New York, NY}%
-  }
-  \field{year}{2008}
-\endentry
-
-\entry{Huang:2016}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {{Huang, Qing-Guo}}{H.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Wang, Ke}}{W.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Wang, Sai}}{W.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HWW1}
-  \strng{fullhash}{HWW1}
-  \field{sortinit}{H}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-016-4334-z
-  \endverb
-  \field{number}{9}
-  \field{pages}{489}
-  \field{title}{Constraints on the neutrino mass and mass hierarchy from
-  cosmological observations}
-  \verb{url}
-  \verb http://dx.doi.org/10.1140/epjc/s10052-016-4334-z
-  \endverb
-  \field{volume}{76}
-  \field{journaltitle}{Eur. Phys. J. C}
-  \field{year}{2016}
-\endentry
-
-\entry{1979PhLB...87..144H}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {{Hut}}{H.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Olive}}{O.}%
-     {K.~A.}{K.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HPOKA1}
-  \strng{fullhash}{HPOKA1}
-  \field{sortinit}{H}
-  \verb{doi}
-  \verb 10.1016/0370-2693(79)90039-X
-  \endverb
-  \field{pages}{144\bibrangedash 146}
-  \field{title}{{A cosmological upper limit on the mass of heavy neutrinos}}
-  \field{volume}{87}
-  \field{journaltitle}{Physics Letters B}
-  \field{month}{10}
-  \field{year}{1979}
-\endentry
-
 \entry{Kidonakis:2010b}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1878,7 +1701,6 @@
   }
   \strng{namehash}{KN1}
   \strng{fullhash}{KN1}
-  \field{sortinit}{K}
   \verb{doi}
   \verb 10.1103/PhysRevD.82.054018
   \endverb
@@ -1895,6 +1717,378 @@
   \field{year}{2010}
 \endentry
 
+\entry{ATL-PHYS-PUB-2016-002}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2016-002}
+  \field{title}{{Multi-Boson Simulation for 13 TeV ATLAS Analyses}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2119986
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{diboson1}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Campbell}{C.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellis}{E.}%
+     {R.~K.}{R.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJMERK1}
+  \strng{fullhash}{CJMERK1}
+  \verb{eprint}
+  \verb hep-ph/9905386
+  \endverb
+  \field{pages}{113006}
+  \field{title}{{An update on vector boson pair production at hadron
+  colliders}}
+  \field{volume}{60}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{1999}
+\endentry
+
+\entry{diboson2}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Campbell}{C.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ellis}{E.}%
+     {R.~K.}{R.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Williams}{W.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJMERKWC1}
+  \strng{fullhash}{CJMERKWC1}
+  \verb{eprint}
+  \verb 1105.0020
+  \endverb
+  \field{pages}{018}
+  \field{title}{{Vector boson pair production at the LHC}}
+  \field{volume}{1107}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2011}
+\endentry
+
+\entry{ATL-PHYS-PUB-2016-003}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-PHYS-PUB-2016-003}
+  \field{title}{{Monte Carlo Generators for the Production of a $W$ or
+  $Z/\gamma^*$ Boson in Association with Jets at ATLAS in Run 2}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2120133
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{DYNNLO1}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Catani}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cieri}{C.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferrera}{F.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Florian}{F.}%
+     {D.}{D.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Grazzini}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CS+1}
+  \strng{fullhash}{CSCLFGFDdGM1}
+  \verb{eprint}
+  \verb 0903.2120
+  \endverb
+  \field{pages}{082001}
+  \field{title}{{Vector boson production at hadron colliders: a fully exclusive
+  QCD calculation at NNLO}}
+  \field{volume}{103}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2009}
+\endentry
+
+\entry{DYNNLO2}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Catani}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grazzini}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CSGM1}
+  \strng{fullhash}{CSGM1}
+  \verb{eprint}
+  \verb hep-ph/0703012
+  \endverb
+  \field{pages}{222002}
+  \field{title}{{An NNLO subtraction formalism in hadron collisions and its
+  application to Higgs boson production at the LHC}}
+  \field{volume}{98}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2007}
+\endentry
+
+\entry{ATLAS-CONF-2014-032}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATLAS-CONF-2014-032}}
+  \field{title}{{Electron efficiency measurements with the ATLAS detector using
+  the 2012 LHC proton--proton collision data}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/1706245
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{PERF-2015-10}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-016-4120-y
+  \endverb
+  \verb{eprint}
+  \verb 1603.05598
+  \endverb
+  \field{pages}{292}
+  \field{title}{{Muon reconstruction performance of the ATLAS detector in
+  proton--proton collision data at $\sqrt{s}=13$ TeV}}
+  \field{volume}{76}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2016}
+\endentry
+
+\entry{zmet}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATLAS-CONF-2012-152}}
+  \field{title}{Search for supersymmetry in final states with jets, missing
+  transverse momentum and a $Z$ boson at $\sqrt{s}=8~\TeV$ with the ATLAS
+  detector}
+  \verb{url}
+  \verb http://cds.cern.ch/record/1493491
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{Aad:2015hna}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.93.032009
+  \endverb
+  \verb{eprint}
+  \verb 1510.03818
+  \endverb
+  \field{number}{3}
+  \field{pages}{032009}
+  \field{title}{{Measurement of the differential cross-section of highly
+  boosted top quarks as a function of their transverse momentum in $\sqrt{s}$ =
+  8 TeV proton-proton collisions using the ATLAS detector}}
+  \field{volume}{93}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2016}
+\endentry
+
+\entry{Khachatryan:2016gxp}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{CMS Collaboration}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \verb{eprint}
+  \verb 1605.00116
+  \endverb
+  \field{note}{Submitted}
+  \field{title}{{Measurement of the integrated and differential t-tbar
+  production cross sections for high-pt top quarks in pp collisions at
+  $\sqrt{s}$ = 8 TeV}}
+  \field{journaltitle}{Phys. Rev. D}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2016}
+\endentry
+
+\entry{ATLAS:2012ema}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATLAS-CONF-2012-046}
+  \field{title}{{Search for physics beyond the Standard Model in events with a
+  $Z$ boson and large missing transverse momentum using $\sqrt{s}=7$ TeV $pp$
+  collisions from the LHC with the ATLAS detector}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/1448222
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{SUSY-2013-20}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1007/JHEP04(2015)116
+  \endverb
+  \verb{eprint}
+  \verb 1501.03555
+  \endverb
+  \field{pages}{116}
+  \field{title}{{Search for squarks and gluinos in events with isolated
+  leptons, jets and missing transverse momentum at $\sqrt{s} = 8\;\mbox{TeV}$
+  with the ATLAS detector}}
+  \field{volume}{1504}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2015}
+\endentry
+
+\entry{2011lumi}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-013-2518-3
+  \endverb
+  \verb{eprint}
+  \verb 1302.4393
+  \endverb
+  \field{pages}{2518}
+  \field{title}{{Improved luminosity determination in pp collisions at
+  $\sqrt{s}$ = 7 \TeV~ using the ATLAS detector at the LHC}}
+  \field{volume}{73}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2013}
+\endentry
+
+\entry{2012lumi}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{title}{{Luminosity determination in pp collisions at
+  $\sqrt{s}=8$~\TeV\ using the ATLAS detector at the LHC}}
+  \field{journaltitle}{to be submited to Eur. Phys. J. C}
+\endentry
+
 \entry{Kramer:2012bx}{misc}{}
   \true{moreauthor}
   \name{author}{1}{}{%
@@ -1906,7 +2100,6 @@
   }
   \strng{namehash}{KM+1}
   \strng{fullhash}{KM+1}
-  \field{sortinit}{K}
   \verb{eprint}
   \verb 1206.2892
   \endverb
@@ -1917,36 +2110,44 @@
   \field{year}{2012}
 \endentry
 
-\entry{Kulesza:2009kq}{article}{}
-  \name{author}{2}{}{%
+\entry{Beenakker:1996ch}{article}{}
+  \name{author}{4}{}{%
     {{}%
-     {Kulesza}{K.}%
-     {A.}{A.}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
      {}{}%
      {}{}}%
     {{}%
-     {Motyka}{M.}%
-     {L.}{L.}%
+     {H{\"o}pker}{H.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spira}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zerwas}{Z.}%
+     {P.M.}{P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{KAML1}
-  \strng{fullhash}{KAML1}
-  \field{sortinit}{K}
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BWHRSMZP1}
   \verb{doi}
-  \verb 10.1103/PhysRevD.80.095004
+  \verb 10.1016/S0550-3213(97)00084-9
   \endverb
   \verb{eprint}
-  \verb 0905.4749
+  \verb hep-ph/9610490
   \endverb
-  \field{pages}{095004}
-  \field{title}{{Soft gluon resummation for the production of gluino-gluino and
-  squark-antisquark pairs at the LHC}}
-  \field{volume}{80}
-  \field{journaltitle}{Phys. Rev. D}
+  \field{pages}{51\bibrangedash 103}
+  \field{title}{{Squark and gluino production at hadron colliders}}
+  \field{volume}{492}
+  \field{journaltitle}{Nucl. Phys. B}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{2009}
+  \field{year}{1997}
 \endentry
 
 \entry{Kulesza:2008jb}{article}{}
@@ -1964,7 +2165,6 @@
   }
   \strng{namehash}{KAML1}
   \strng{fullhash}{KAML1}
-  \field{sortinit}{K}
   \verb{doi}
   \verb 10.1103/PhysRevLett.102.111802
   \endverb
@@ -1981,172 +2181,155 @@
   \field{year}{2009}
 \endentry
 
-\entry{lep_tdr}{book}{}
-  \list{publisher}{1}{%
-    {CERN}%
-  }
-  \field{sortinit}{L}
-  \field{note}{Copies shelved as reports in LEP, PS and SPS libraries}
-  \field{title}{{LEP design report}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/102083
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \field{year}{1984}
-\endentry
-
-\entry{Lai:2010vv}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
+\entry{Kulesza:2009kq}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Lai}{L.}%
-     {Hung-Liang}{H.-L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LHL+1}
-  \strng{fullhash}{LHL+1}
-  \field{sortinit}{L}
-  \verb{doi}
-  \verb 10.1103/PhysRevD.82.074024
-  \endverb
-  \verb{eprint}
-  \verb 1007.2241
-  \endverb
-  \field{pages}{074024}
-  \field{title}{{New parton distributions for collider physics}}
-  \field{volume}{82}
-  \field{journaltitle}{Phys. Rev. D}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2010}
-\endentry
-
-\entry{Lazopoulos:2008}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Lazopoulos}{L.}%
+     {Kulesza}{K.}%
      {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
-     {McElmurry}{M.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Melnikov}{M.}%
-     {K.}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Petriello}{P.}%
-     {F.}{F.}%
+     {Motyka}{M.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{LA+1}
-  \strng{fullhash}{LAMTMKPF1}
-  \field{sortinit}{L}
-  \verb{eprint}
-  \verb 0804.2220
+  \strng{namehash}{KAML1}
+  \strng{fullhash}{KAML1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.80.095004
   \endverb
-  \field{pages}{62}
-  \field{title}{{Next-to-leading order QCD corrections to $t\bar{t}Z$
-  production at the LHC}}
-  \field{volume}{666}
-  \field{journaltitle}{Phys. Lett. B}
+  \verb{eprint}
+  \verb 0905.4749
+  \endverb
+  \field{pages}{095004}
+  \field{title}{{Soft gluon resummation for the production of gluino-gluino and
+  squark-antisquark pairs at the LHC}}
+  \field{volume}{80}
+  \field{journaltitle}{Phys. Rev. D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{2008}
-\endentry
-
-\entry{0901.0002}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Martin}{M.}%
-     {A.~D.}{A.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stirling}{S.}%
-     {W.~J.}{W.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Thorne}{T.}%
-     {R.~S.}{R.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Watt}{W.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{MAD+1}
-  \strng{fullhash}{MADSWJTRSWG1}
-  \field{sortinit}{M}
-  \verb{doi}
-  \verb 10.1140/epjc/s10052-009-1072-5
-  \endverb
-  \verb{eprint}
-  \verb arXiv:0901.0002
-  \endverb
-  \field{howpublished}{Eur.Phys.J.C63:189-285,2009}
-  \field{title}{Parton distributions for the LHC}
   \field{year}{2009}
 \endentry
 
-\entry{Martin:1997ns}{article}{}
+\entry{Beenakker:2009ha}{article}{}
+  \true{moreauthor}
   \name{author}{1}{}{%
     {{}%
-     {Martin}{M.}%
-     {Stephen~P.}{S.~P.}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{MSP1}
-  \strng{fullhash}{MSP1}
-  \field{sortinit}{M}
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BW+1}
   \verb{doi}
-  \verb 10.1142/9789812839657_0001, 10.1142/9789814307505_0001
+  \verb 10.1088/1126-6708/2009/12/041
   \endverb
   \verb{eprint}
-  \verb hep-ph/9709356
+  \verb 0909.4418
   \endverb
-  \field{note}{[Adv. Ser. Direct. High Energy Phys.18,1(1998)]}
-  \field{title}{{A Supersymmetry primer}}
+  \field{pages}{041}
+  \field{title}{{Soft-gluon resummation for squark and gluino hadroproduction}}
+  \field{volume}{0912}
+  \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{1997}
+  \field{year}{2009}
 \endentry
 
-\entry{Messchendorp:2013ysj}{article}{}
+\entry{Beenakker:2011fu}{article}{}
+  \true{moreauthor}
   \name{author}{1}{}{%
     {{}%
-     {Messchendorp}{M.}%
-     {Johan}{J.}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{MJ1}
-  \strng{fullhash}{MJ1}
-  \field{sortinit}{M}
-  \field{booktitle}{{Proceedings, 51st International Winter Meeting on Nuclear
-  Physics (Bormio 2013): Bormio, Italy, January 21-25,2013}}
-  \verb{eprint}
-  \verb 1306.6611
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BW+1}
+  \verb{doi}
+  \verb 10.1142/S0217751X11053560
   \endverb
-  \field{pages}{043}
-  \field{title}{{Physics with Charmonium -- A few recent highlights of BESIII}}
-  \field{volume}{Bormio2013}
-  \field{journaltitle}{PoS}
+  \verb{eprint}
+  \verb 1105.1110
+  \endverb
+  \field{pages}{2637\bibrangedash 2664}
+  \field{title}{{Squark and gluino hadroproduction}}
+  \field{volume}{26}
+  \field{journaltitle}{Int. J. Mod. Phys. A}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2011}
+\endentry
+
+\entry{Baak:2014wma}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Baak}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BM+1}
+  \strng{fullhash}{BM+1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-015-3327-7
+  \endverb
+  \verb{eprint}
+  \verb 1410.1280
+  \endverb
+  \field{pages}{153}
+  \field{title}{{HistFitter software framework for statistical data analysis}}
+  \field{volume}{75}
+  \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
-  \field{year}{2013}
+  \field{year}{2014}
+\endentry
+
+\entry{BRUN199781}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Brun}{B.}%
+     {Rene}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rademakers}{R.}%
+     {Fons}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BRRF1}
+  \strng{fullhash}{BRRF1}
+  \field{abstract}{%
+  The ROOT system in an Object Oriented framework for large scale data
+  analysis. ROOT written in C++, contains, among others, an efficient
+  hierarchical OO database, a C++ interpreter, advanced statistical analysis
+  (multi-dimensional histogramming, fitting, minimization, cluster finding
+  algorithms) and visualization tools. The user interacts with ROOT via a
+  graphical user interface, the command line or batch scripts. The command and
+  scripting language is C++ (using the interpreter) and large scripts can be
+  compiled and dynamically linked in. The OO database design has been optimized
+  for parallel access (reading as well as writing) by multiple processes.%
+  }
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/S0168-9002(97)00048-X
+  \endverb
+  \field{issn}{0168-9002}
+  \field{number}{1}
+  \field{pages}{81 \bibrangedash  86}
+  \field{title}{ROOT — An object oriented data analysis framework}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S016890029700048X
+  \endverb
+  \field{volume}{389}
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{1997}
 \endentry
 
 \entry{1009.1003}{misc}{}
@@ -2199,7 +2382,6 @@
   }
   \strng{namehash}{ML+1}
   \strng{fullhash}{MLBKCKKSLAPDSGVWWM1}
-  \field{sortinit}{M}
   \verb{eprint}
   \verb arXiv:1009.1003
   \endverb
@@ -2207,125 +2389,103 @@
   \field{year}{2010}
 \endentry
 
-\entry{PowhegBOX1}{article}{}
-  \name{author}{1}{}{%
+\entry{Cranmer:2012sba}{article}{}
+  \name{author}{5}{}{%
     {{}%
-     {Nason}{N.}%
-     {P.}{P.}%
+     {Cranmer}{C.}%
+     {Kyle}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lewis}{L.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moneta}{M.}%
+     {Lorenzo}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shibata}{S.}%
+     {Akira}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verkerke}{V.}%
+     {Wouter}{W.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{NP1}
-  \strng{fullhash}{NP1}
-  \field{sortinit}{N}
+  \strng{namehash}{CK+1}
+  \strng{fullhash}{CKLGMLSAVW1}
+  \field{title}{{HistFactory: A tool for creating statistical models for use
+  with RooFit and RooStats}}
+  \field{year}{2012}
+\endentry
+
+\entry{statforumlimits}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cowan}{C.}%
+     {Glen}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cranmer}{C.}%
+     {Kyle}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gross}{G.}%
+     {Eilam}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vitells}{V.}%
+     {Ofer}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CG+1}
+  \strng{fullhash}{CGCKGEVO1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-011-1554-0
+  \endverb
   \verb{eprint}
-  \verb hep-ph/0409146
+  \verb 1007.1727
   \endverb
-  \field{pages}{040}
-  \field{title}{{A new method for combining NLO QCD with shower Monte Carlo
-  algorithms}}
-  \field{volume}{0411}
-  \field{journaltitle}{JHEP}
+  \field{pages}{1554}
+  \field{title}{{Asymptotic formulae for likelihood-based tests of new
+  physics}}
+  \field{volume}{71}
+  \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2004}
+  \field{eprintclass}{physics.data-an}
+  \field{year}{2011}
 \endentry
 
-\entry{nobel2004}{misc}{}
+\entry{clsread}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {NobelPrize.org}{N.}%
-     {}{}%
+     {Read}{R.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{N1}
-  \strng{fullhash}{N1}
-  \field{sortinit}{N}
-  \field{title}{The Nobel Prize in Physics 2004 - Popular Information}
-  \verb{url}
-  \verb https://www.nobelprize.org/nobel_prizes/physics/laureates/2004/popular.
-  \verb html
+  \strng{namehash}{RA1}
+  \strng{fullhash}{RA1}
+  \verb{doi}
+  \verb 10.1088/0954-3899/28/10/313
   \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{isolation}{misc}{}
-  \field{sortinit}{O}
-  \field{title}{{Official Isolation Working Points}}
-  \verb{url}
-  \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/IsolationSelectionT
-  \verb ool#Photons
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{agile}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Oliveira}{O.}%
-     {Luke}{L.}%
-     {de}{d.}%
-     {}{}}%
-  }
-  \strng{namehash}{OLd1}
-  \strng{fullhash}{OLd1}
-  \field{sortinit}{O}
-  \field{title}{AGILEPack: Algorithms for Generalized Inference, Learning, and
-  Extraction}
-  \verb{url}
-  \verb http://lukedeo.github.io/AGILEPack/
-  \endverb
-  \field{year}{2016}
-\endentry
-
-\entry{EGAM-2016-003}{report}{}
-  \field{sortinit}{P}
-  \field{number}{EGAM-2016-003}
-  \field{title}{{Photon Identification Efficiencies using 2016 Data with
-  radiative Z boson decays}}
-  \verb{url}
-  \verb https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PLOTS/EGAM-2016-003/inde
-  \verb x.html
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{ATL-PHYS-PUB-2016-014}{report}{}
-  \field{sortinit}{P}
-  \field{number}{ATL-PHYS-PUB-2016-014}
-  \field{title}{{Photon identification in 2015 ATLAS data}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/2203125
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
+  \field{pages}{2693\bibrangedash 2704}
+  \field{title}{{Presentation of search results: the CLs technique}}
+  \field{volume}{28}
+  \field{journaltitle}{Journal of Physics G: Nucl. Part. Phys.}
+  \field{year}{2002}
 \endentry
 
 \entry{ATL-PHYS-PUB-2016-022}{report}{}
-  \field{sortinit}{P}
   \field{number}{ATL-PHYS-PUB-2016-022}
   \field{title}{{Prospects for a search for direct pair production of top
   squarks in scenarios with compressed mass spectra at the high luminosity LHC
@@ -2342,181 +2502,6 @@
   \field{type}{techreport}
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{clsread}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Read}{R.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RA1}
-  \strng{fullhash}{RA1}
-  \field{sortinit}{R}
-  \verb{doi}
-  \verb 10.1088/0954-3899/28/10/313
-  \endverb
-  \field{pages}{2693\bibrangedash 2704}
-  \field{title}{{Presentation of search results: the CLs technique}}
-  \field{volume}{28}
-  \field{journaltitle}{Journal of Physics G: Nucl. Part. Phys.}
-  \field{year}{2002}
-\endentry
-
-\entry{CMS-PAS-SUS-15-011}{report}{}
-  \field{sortinit}{S}
-  \field{number}{CMS-PAS-SUS-15-011}
-  \field{title}{{Search for new physics in final states with two opposite-sign
-  same-flavor leptons, jets and missing transverse momentum in pp collisions at
-  sqrt(s)=13 TeV}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/2114811
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2015}
-\endentry
-
-\entry{Sjostrand:2006za}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {{Sj\"{o}strand}}{S.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mrenna}{M.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Skands}{S.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{STMSSP1}
-  \strng{fullhash}{STMSSP1}
-  \field{sortinit}{S}
-  \verb{doi}
-  \verb 10.1088/1126-6708/2006/05/026
-  \endverb
-  \verb{eprint}
-  \verb hep-ph/0603175
-  \endverb
-  \field{pages}{026}
-  \field{title}{{PYTHIA 6.4 Physics and Manual}}
-  \field{volume}{0605}
-  \field{journaltitle}{JHEP}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{year}{2006}
-\endentry
-
-\entry{crosssections}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Stirling}{S.}%
-     {W.J.}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SW1}
-  \strng{fullhash}{SW1}
-  \field{sortinit}{S}
-  \field{title}{proton-(anti)proton cross sections}
-  \verb{url}
-  \verb http://www.hep.ph.ic.ac.uk/~wstirlin/plots/plots.html
-  \endverb
-  \field{year}{2013}
-\endentry
-
-\entry{zwicky}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Zwicky}{Z.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ZF1}
-  \strng{fullhash}{ZF1}
-  \field{sortinit}{Z}
-  \field{pages}{{110\bibrangedash 127}}
-  \field{title}{{Die Rotverschiebung von extragalaktischen Nebeln}}
-  \field{volume}{6}
-  \field{journaltitle}{Helvetica Physica Acta}
-  \field{year}{1933}
-\endentry
-
-\entry{Pentaquark}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {collaboration}{c.}%
-     {LHCb}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{cL1}
-  \strng{fullhash}{cL1}
-  \field{sortinit}{C}
-  \verb{doi}
-  \verb 10.1103/PhysRevLett.115.072001
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1507.03414
-  \endverb
-  \field{howpublished}{Phys. Rev. Lett. 115, 072001 (2015)}
-  \field{title}{Observation of $J/\Psi p$ resonances consistent with pentaquark
-  states in ${\Lambda_b^0\to J/\Psi K^-p}$ decays}
-  \field{year}{2015}
-\endentry
-
-\entry{1985ApJ...295..305V}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {{van Albada}}{v.}%
-     {T.~S.}{T.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bahcall}}{B.}%
-     {J.~N.}{J.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Begeman}}{B.}%
-     {K.}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sancisi}}{S.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Dark Matter, Disk Galaxies, Galactic Structure, Mass Distribution,
-  Matter (Physics), Spiral Galaxies, Astronomical Models, Galactic Rotation,
-  Halos, Mass To Light Ratios}
-  \strng{namehash}{vTS+1}
-  \strng{fullhash}{vTSBJNBKSR1}
-  \field{sortinit}{V}
-  \verb{doi}
-  \verb 10.1086/163375
-  \endverb
-  \field{pages}{305\bibrangedash 313}
-  \field{title}{{Distribution of dark matter in the spiral galaxy NGC 3198}}
-  \field{volume}{295}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{08}
-  \field{year}{1985}
 \endentry
 
 \lossort

@@ -32,11 +32,11 @@
 %----------------------------------------------------------------------------------------
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
+\PassOptionsToPackage{eulerchapternumbers,listings, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 
 \newcommand{\myTitle}{A Search for Supersymmetry in Events with a Z Boson, Jets, and Missing Transverse Energy in $p-p$ Collisions with $\sqrt{s}$=13 TeV with the ATLAS Detector\xspace}
-\newcommand{\mySubtitle}{ ?? \xspace}
+\newcommand{\mySubtitle}{ \xspace}
 \newcommand{\myDegree}{Doctor of Philosophy (PhD)\xspace}
 \newcommand{\myName}{Tova Ray Holmes\xspace}
 \newcommand{\myProf}{Dr. Beate Heinemann\xspace}
@@ -68,6 +68,7 @@
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 \usepackage{bm} % Used for boldface math 
+\usepackage{lineno}
 
 %------------------------------------------------
 
@@ -86,7 +87,8 @@ language=auto,%
 style=numeric-comp,%
 %style=authoryear-comp, % Author 1999, 2010
 %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
-sorting=nyt, % name, year, title
+sorting=none,%
+%sorting=nyt, % name, year, title
 maxbibnames=10, % default: 3, et al.
 %backref=true,%
 natbib=true % natbib compatibility mode (\citep and \citet still work)
@@ -244,9 +246,9 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %----------------------------------------------------------------------------------------
 
 %\linespread{1.05} % a bit more for Palatino
-%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
-%\setlength{\marginparwidth}{7em}%
-%\setlength{\marginparsep}{2em}%
+\areaset[current]{360pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+\setlength{\marginparwidth}{7em}%
+\setlength{\marginparsep}{2em}%
 
 %----------------------------------------------------------------------------------------
 %	USING DIFFERENT FONTS

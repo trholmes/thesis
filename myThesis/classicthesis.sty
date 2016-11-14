@@ -92,7 +92,7 @@
 \DeclareOption{beramono}{\setboolean{@beramono}{true}} 
 \DeclareOption{eulermath}{\setboolean{@eulermath}{false}} 
 \DeclareOption{parts}{\setboolean{@parts}{true}} 
-\DeclareOption{a5paper}{\setboolean{@a5paper}{true}}
+\DeclareOption{a5paper}{\setboolean{@a5paper}{false}}
 \DeclareOption{minionpro}{\setboolean{@minionpro}{true}} 
 \DeclareOption{minionprospacing}{\setboolean{@minionprospacing}{true}} 
 \DeclareOption{pdfspacing}{\setboolean{@pdfspacing}{true}} 
@@ -272,7 +272,7 @@
         \ifthenelse{\boolean{@minionpro}}%
         {% Minion gets some extra sizes         
             \PackageInfo{classicthesis}{A4 paper, MinionPro}%
-            \areaset[current]{312pt}{684pt}% 609 + 33 + 42 head \the\footskip
+            \areaset[current]{360pt}{684pt}% 609 + 33 + 42 head \the\footskip
             \setlength{\marginparwidth}{7.5em}%
             \setlength{\marginparsep}{2em}%
         }{% Palatino or other

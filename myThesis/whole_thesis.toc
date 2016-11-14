@@ -10,21 +10,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 2}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 2}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 3}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 3}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 4}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 4}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 5}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 5}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 6}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 6}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 7}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 7}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 8}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 8}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 9}{3}{chapter.1}
+\contentsline {paragraph}{Chapter 9}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Chapter 10}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -32,47 +32,47 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Chapter 12}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 13}{4}{chapter.1}
+\contentsline {paragraph}{Chapter 13}{5}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Chapter 14}{4}{chapter.1}
+\contentsline {paragraph}{Chapter 14}{5}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Theory and Motivation}}{5}{part.2}
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Theory and Motivation}}{7}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory and Motivation}}{7}{chapter.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theory and Motivation}}{9}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}The Standard Model}{7}{section.2.1}
+\contentsline {section}{\numberline {2.1}The Standard Model}{9}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Matter}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Matter}{10}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.1}Leptons}{8}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Leptons}{10}{subsubsection.2.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1.2}Quarks}{9}{subsubsection.2.1.1.2}
+\contentsline {subsubsection}{\numberline {2.1.1.2}Quarks}{11}{subsubsection.2.1.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Forces}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Forces}{11}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.1}The Electromagnetic Force}{10}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.1}The Electromagnetic Force}{12}{subsubsection.2.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.2}The Strong Force}{11}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.2}The Strong Force}{13}{subsubsection.2.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.3}The Electroweak Force}{14}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.3}The Electroweak Force}{15}{subsubsection.2.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2.4}The Higgs Mechanism}{16}{subsubsection.2.1.2.4}
+\contentsline {subsubsection}{\numberline {2.1.2.4}The Higgs Mechanism}{18}{subsubsection.2.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Phenomenology of Proton-Proton Collisions}{17}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Phenomenology of Proton-Proton Collisions}{19}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Problems in the Standard Model}{19}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.4}Problems in the Standard Model}{20}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Supersymmetry}{20}{section.2.2}
+\contentsline {section}{\numberline {2.2}Supersymmetry}{22}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}The Minimal Supersymmetric Standard Model}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}The Minimal Supersymmetric Standard Model}{23}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{23}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Solutions to Standard Model Problems}{24}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Simplified Models of Supersymmetry}{24}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Simplified Models of Supersymmetry}{25}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Context and Motivation}{25}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Context and Motivation}{26}{subsubsection.2.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Monte Carlo Generation}{27}{section.2.3}
+\contentsline {section}{\numberline {2.3}Monte Carlo Generation}{29}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {The Experiment}}{33}{part.3}
 \defcounter {refsection}{0}\relax 
@@ -84,7 +84,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Luminosity}{39}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Pile-up in proton-proton Collisions}{41}{section.3.4}
+\contentsline {section}{\numberline {3.4}Pile-up in proton-proton Collisions}{40}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {The ATLAS Detector}}{43}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -94,7 +94,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}The Pixel Detector}{44}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.1}The Original Pixel Detector}{45}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}The Original Pixel Detector}{44}{subsubsection.4.2.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1.2}Addition of the IBL}{45}{subsubsection.4.2.1.2}
 \defcounter {refsection}{0}\relax 
@@ -104,15 +104,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}The Calorimeters}{47}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{48}{figure.caption.77}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{47}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{The Tile Calorimeter}{48}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{48}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The FCal}{49}{figure.caption.78}
+\contentsline {paragraph}{The FCal}{48}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}The Muon Spectrometer}{49}{section.4.4}
+\contentsline {section}{\numberline {4.4}The Muon Spectrometer}{48}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}The Magnet System}{51}{section.4.5}
 \defcounter {refsection}{0}\relax 
@@ -126,9 +126,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Muons}{62}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Jets}{65}{section.5.4}
+\contentsline {section}{\numberline {5.4}Jets}{64}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Overlap Removal}{68}{section.5.5}
+\contentsline {section}{\numberline {5.5}Overlap Removal}{67}{section.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.6}Missing Transverse Momentum}{69}{section.5.6}
 \defcounter {refsection}{0}\relax 
@@ -138,9 +138,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.1.1}Charge Interpolation Method}{74}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Improving Measurement with Neural Networks}{75}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Improving Measurement with Neural Networks}{74}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Impact of the Neural Network}{76}{section.6.2}
+\contentsline {section}{\numberline {6.2}Impact of the Neural Network}{75}{section.6.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.1}The Neural Network in 13 TeV Data}{76}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
@@ -162,7 +162,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Muons}{88}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Jets}{89}{section.8.3}
+\contentsline {section}{\numberline {8.3}Jets}{88}{section.8.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}Photons}{89}{section.8.4}
 \defcounter {refsection}{0}\relax 
@@ -180,23 +180,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.1.2}Sideband Fit Method}{99}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{100}{section.10.2}
+\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{101}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.1}Photon and $Z$ Event Selection}{104}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.1}Photon and $Z$ Event Selection}{103}{subsection.10.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.2}Smearing of Photon Events}{104}{subsection.10.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.3}\ensuremath {p_{\text {T}}}\xspace Reweighting of Photon Events}{106}{subsection.10.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.4}Determining \ensuremath {H_{\text {T}}}\xspace and \ensuremath {m_{\ell \ell }}}{108}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {10.2.4}Determining \ensuremath {H_{\text {T}}}\xspace and \ensuremath {m_{\ell \ell }}}{107}{subsection.10.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.5}Subtraction of $V\gamma $ Events}{110}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {10.2.5}Subtraction of $V\gamma $ Events}{109}{subsection.10.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.6}Validation in Data}{111}{subsection.10.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Fake and Non-Prompt Leptons}{111}{section.10.3}
+\contentsline {section}{\numberline {10.3}Fake and Non-Prompt Leptons}{113}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{115}{section.10.4}
+\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{114}{section.10.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{121}{chapter.11}
 \defcounter {refsection}{0}\relax 
@@ -208,9 +208,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.1.3}Uncertainties on the Fakes Background}{128}{subsection.11.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Theoretical and Experimental Uncertainties}{130}{section.11.2}
+\contentsline {section}{\numberline {11.2}Theoretical and Experimental Uncertainties}{129}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{131}{section.11.3}
+\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{130}{section.11.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{135}{chapter.12}
 \defcounter {refsection}{0}\relax 
