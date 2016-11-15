@@ -180,6 +180,30 @@
   \field{year}{1997}
 \endentry
 
+\entry{Griffiths:111880}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Griffiths}{G.}%
+     {David~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{GDJ1}
+  \strng{fullhash}{GDJ1}
+  \field{series}{Physics textbook}
+  \field{title}{{Introduction to elementary particles; 2nd rev. version}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/111880
+  \endverb
+  \list{location}{1}{%
+    {New York, NY}%
+  }
+  \field{year}{2008}
+\endentry
+
 \entry{1979PhLB...87..144H}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -281,28 +305,25 @@
   \field{year}{2015}
 \endentry
 
-\entry{Griffiths:111880}{book}{}
+\entry{Agashe:2014kda}{article}{}
+  \true{moreauthor}
   \name{author}{1}{}{%
     {{}%
-     {Griffiths}{G.}%
-     {David~J}{D.~J.}%
+     {Olive}{O.}%
+     {K.~A.}{K.~A.}%
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Wiley}%
-  }
-  \strng{namehash}{GDJ1}
-  \strng{fullhash}{GDJ1}
-  \field{series}{Physics textbook}
-  \field{title}{{Introduction to elementary particles; 2nd rev. version}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/111880
+  \strng{namehash}{OKA+1}
+  \strng{fullhash}{OKA+1}
+  \verb{doi}
+  \verb 10.1088/1674-1137/38/9/090001
   \endverb
-  \list{location}{1}{%
-    {New York, NY}%
-  }
-  \field{year}{2008}
+  \field{pages}{090001}
+  \field{title}{{Review of Particle Physics}}
+  \field{volume}{C38}
+  \field{journaltitle}{Chin. Phys.}
+  \field{year}{2014}
 \endentry
 
 \entry{Messchendorp:2013ysj}{article}{}
