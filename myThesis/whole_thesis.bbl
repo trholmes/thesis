@@ -386,6 +386,23 @@
   \field{year}{2009}
 \endentry
 
+\entry{crosssections}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stirling}{S.}%
+     {W.J.}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SW1}
+  \strng{fullhash}{SW1}
+  \field{title}{proton-(anti)proton cross sections}
+  \verb{url}
+  \verb http://www.hep.ph.ic.ac.uk/~wstirlin/plots/plots.html
+  \endverb
+  \field{year}{2013}
+\endentry
+
 \entry{zwicky}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -401,6 +418,179 @@
   \field{volume}{6}
   \field{journaltitle}{Helvetica Physica Acta}
   \field{year}{1933}
+\endentry
+
+\entry{astro-ph/0608407}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Clowe}{C.}%
+     {Douglas}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bradac}{B.}%
+     {Marusa}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonzalez}{G.}%
+     {Anthony~H.}{A.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Markevitch}{M.}%
+     {Maxim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Randall}{R.}%
+     {Scott~W.}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zaritsky}{Z.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CD+1}
+  \strng{fullhash}{CDBMGAHMMRSWJCZD1}
+  \verb{doi}
+  \verb 10.1086/508162
+  \endverb
+  \verb{eprint}
+  \verb arXiv:astro-ph/0608407
+  \endverb
+  \field{howpublished}{Astrophys.J.648:L109-L113,2006}
+  \field{title}{A direct empirical proof of the existence of dark matter}
+  \field{year}{2006}
+\endentry
+
+\entry{0803.0732}{article}{}
+  \name{author}{21}{}{%
+    {{}%
+     {Hinshaw}{H.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weiland}{W.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hill}{H.}%
+     {R.~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Odegard}{O.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Larson}{L.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bennett}{B.}%
+     {C.~L.}{C.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunkley}{D.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gold}{G.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greason}{G.}%
+     {M.~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jarosik}{J.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Komatsu}{K.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nolta}{N.}%
+     {M.~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Page}{P.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spergel}{S.}%
+     {D.~N.}{D.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wollack}{W.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Halpern}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kogut}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Limon}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meyer}{M.}%
+     {S.~S.}{S.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tucker}{T.}%
+     {G.~S.}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wright}{W.}%
+     {E.~L.}{E.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HG+1}
+  \strng{fullhash}{HGWJLHRSONLDBCLDJGBGMRJNKENMRPLSDNWEHMKALMMSSTGSWEL1}
+  \verb{doi}
+  \verb 10.1088/0067-0049/180/2/225
+  \endverb
+  \verb{eprint}
+  \verb arXiv:0803.0732
+  \endverb
+  \field{howpublished}{Astrophys.J.Suppl.180:225-245,2009}
+  \field{title}{Five-Year Wilkinson Microwave Anisotropy Probe (WMAP)
+  Observations: Data Processing, Sky Maps, and Basic Results}
+  \field{year}{2008}
 \endentry
 
 \entry{1985ApJ...295..305V}{article}{}
@@ -440,6 +630,104 @@
   \field{journaltitle}{The Astrophysical Journal}
   \field{month}{08}
   \field{year}{1985}
+\endentry
+
+\entry{Gell-Mann_1961}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gell-Mann}{G.-M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GMM1}
+  \strng{fullhash}{GMM1}
+  \verb{doi}
+  \verb 10.2172/4008239
+  \endverb
+  \field{title}{THE EIGHTFOLD WAY: A THEORY OF STRONG INTERACTION SYMMETRY}
+  \verb{url}
+  \verb http://www.osti.gov/scitech/servlets/purl/4008239
+  \endverb
+  \field{year}{1961}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{WESS197439}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Wess}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zumino}{Z.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WJZB1}
+  \strng{fullhash}{WJZB1}
+  \verb{doi}
+  \verb http://dx.doi.org/10.1016/0550-3213(74)90355-1
+  \endverb
+  \field{issn}{0550-3213}
+  \field{number}{1}
+  \field{pages}{39 \bibrangedash  50}
+  \field{title}{Supergauge transformations in four dimensions}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/0550321374903551
+  \endverb
+  \field{volume}{70}
+  \field{journaltitle}{Nuclear Physics B}
+  \field{year}{1974}
+\endentry
+
+\entry{1971NuPhB..34..632G}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Gervais}}{G.}%
+     {J.-L.}{J.-L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sakita}}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJLSB1}
+  \strng{fullhash}{GJLSB1}
+  \verb{doi}
+  \verb 10.1016/0550-3213(71)90351-8
+  \endverb
+  \field{pages}{632\bibrangedash 639}
+  \field{title}{{Field theory interpretation of supergauges in dual models}}
+  \field{volume}{34}
+  \field{journaltitle}{Nuclear Physics B}
+  \field{year}{1971}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{1971PhRvD...3.2415R}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Ramond}}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RP1}
+  \strng{fullhash}{RP1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.3.2415
+  \endverb
+  \field{pages}{2415\bibrangedash 2418}
+  \field{title}{{Dual Theory for Free Fermions}}
+  \field{volume}{3}
+  \field{journaltitle}{Physical Review D}
+  \field{year}{1971}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Martin:1997ns}{article}{}
@@ -515,6 +803,148 @@
   \field{year}{2016}
 \endentry
 
+\entry{1608.00872}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \verb{doi}
+  \verb 10.1007/JHEP09(2016)175
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1608.00872
+  \endverb
+  \field{howpublished}{JHEP09 (2016) 175}
+  \field{title}{Dark matter interpretations of ATLAS searches for the
+  electroweak production of supersymmetric particles in $\sqrt{s} = 8$ TeV
+  proton-proton collisions}
+  \field{year}{2016}
+\endentry
+
+\entry{ATLAS:2016kts}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {collaboration}{c.}%
+     {The~ATLAS}{T.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{cTA1}
+  \strng{fullhash}{cTA1}
+  \field{title}{{Further searches for squarks and gluinos in final states with
+  jets and missing transverse momentum at $\sqrt{s}$ =13 TeV with the ATLAS
+  detector}}
+  \field{year}{2016}
+\endentry
+
+\entry{1105.1110}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brensing}{B.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krämer}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kulesza}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laenen}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Motyka}{M.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Niessen}{N.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+1}
+  \strng{fullhash}{BWBSKMKALEMLNI1}
+  \verb{doi}
+  \verb 10.1142/S0217751X11053560
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1105.1110
+  \endverb
+  \field{title}{Squark and gluino hadroproduction}
+  \field{year}{2011}
+\endentry
+
+\entry{summary_plot}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{howpublished}{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS_SUSY_Summary/}
+  \field{title}{ATLAS SUSY Searches - 95\% CL Lower Limits}
+  \field{year}{2016}
+\endentry
+
+\entry{1607.07741}{misc}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Beenakker}{B.}%
+     {Wim}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borschensky}{B.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krämer}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kulesza}{K.}%
+     {Anna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laenen}{L.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BW+2}
+  \strng{fullhash}{BWBCKMKALE1}
+  \verb{eprint}
+  \verb arXiv:1607.07741
+  \endverb
+  \field{title}{NNLL-fast: predictions for coloured supersymmetric particle
+  production at the LHC with threshold and Coulomb resummation}
+  \field{year}{2016}
+\endentry
+
 \entry{Chatrchyan:2012qka}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -585,44 +1015,6 @@
   }
   \field{type}{techreport}
   \field{year}{2015}
-\endentry
-
-\entry{1607.07741}{misc}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Beenakker}{B.}%
-     {Wim}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Borschensky}{B.}%
-     {Christoph}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Krämer}{K.}%
-     {Michael}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kulesza}{K.}%
-     {Anna}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Laenen}{L.}%
-     {Eric}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BW+2}
-  \strng{fullhash}{BWBCKMKALE1}
-  \verb{eprint}
-  \verb arXiv:1607.07741
-  \endverb
-  \field{title}{NNLL-fast: predictions for coloured supersymmetric particle
-  production at the LHC with threshold and Coulomb resummation}
-  \field{year}{2016}
 \endentry
 
 \entry{Ball:2012cx}{article}{}
@@ -1128,23 +1520,6 @@
   \field{volume}{3}
   \field{journaltitle}{Journal of Instrumentation}
   \field{year}{2008}
-\endentry
-
-\entry{crosssections}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Stirling}{S.}%
-     {W.J.}{W.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SW1}
-  \strng{fullhash}{SW1}
-  \field{title}{proton-(anti)proton cross sections}
-  \verb{url}
-  \verb http://www.hep.ph.ic.ac.uk/~wstirlin/plots/plots.html
-  \endverb
-  \field{year}{2013}
 \endentry
 
 \entry{ATL-DAQ-PUB-2016-001}{booklet}{}
