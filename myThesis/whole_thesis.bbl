@@ -278,8 +278,8 @@
   \verb{eprint}
   \verb arXiv:1605.05081
   \endverb
-  \field{title}{Search for the Lepton Flavour Violating Decay $\mu^{+} \to e^+
-  \gamma$ with the Full Dataset of the MEG Experiment}
+  \field{title}{Search for the Lepton Flavour Violating Decay $\mu^{+}
+  \rightarrow e^+ \gamma$ with the Full Dataset of the MEG Experiment}
   \field{year}{2016}
 \endentry
 
@@ -837,7 +837,7 @@
   \strng{namehash}{cTA1}
   \strng{fullhash}{cTA1}
   \field{title}{{Further searches for squarks and gluinos in final states with
-  jets and missing transverse momentum at $\sqrt{s}$ =13 TeV with the ATLAS
+  jets and missing transverse momentum at $\sqrt{s}=13$ TeV with the ATLAS
   detector}}
   \field{year}{2016}
 \endentry
@@ -902,8 +902,8 @@
   }
   \strng{namehash}{CA1}
   \strng{fullhash}{CA1}
-  \field{howpublished}{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS_SUSY_Summary/}
-  \field{title}{ATLAS SUSY Searches - 95\% CL Lower Limits}
+  \field{howpublished}{"https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS$\_$SUSY$\_$Summary/"}
+  \field{title}{ATLAS SUSY Searches - $95\%$ CL Lower Limits}
   \field{year}{2016}
 \endentry
 
@@ -1015,6 +1015,248 @@
   }
   \field{type}{techreport}
   \field{year}{2015}
+\endentry
+
+\entry{1748-0221-3-08-S08001}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Evans}{E.}%
+     {Lyndon}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bryant}{B.}%
+     {Philip}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ELBP1}
+  \strng{fullhash}{ELBP1}
+  \field{abstract}{%
+  The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and
+  most powerful tool for Particle Physics research. It is designed to collide
+  proton beams with a centre-of-mass energy of 14 TeV and an unprecedented
+  luminosity of 10 34 cm −2 s −1 . It can also collide heavy (Pb) ions
+  with an energy of 2.8 TeV per nucleon and a peak luminosity of 10 27 cm
+  −2 s −1 . In this paper, the machine design is described.%
+  }
+  \field{number}{08}
+  \field{pages}{S08001}
+  \field{title}{LHC Machine}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08001
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{lep_tdr}{book}{}
+  \list{publisher}{1}{%
+    {CERN}%
+  }
+  \field{note}{Copies shelved as reports in LEP, PS and SPS libraries}
+  \field{title}{{LEP design report}}
+  \verb{url}
+  \verb https://cds.cern.ch/record/102083
+  \endverb
+  \list{location}{1}{%
+    {Geneva}%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{PERF-2007-01}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1088/1748-0221/3/08/S08003
+  \endverb
+  \field{pages}{S08003}
+  \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+  \field{volume}{3}
+  \field{journaltitle}{JINST}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2008}
+\endentry
+
+\entry{1748-0221-3-08-S08004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~CMS}{T.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTC1}
+  \strng{fullhash}{CTC1}
+  \field{abstract}{%
+  The Compact Muon Solenoid (CMS) detector is described. The detector operates
+  at the Large Hadron Collider (LHC) at CERN. It was conceived to study
+  proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV
+  (5.5 TeV nucleon-nucleon) and at luminosities up to 10 34 cm −2 s −1
+  (10 27 cm −2 s −1 ). At the core of the CMS detector sits a
+  high-magnetic-field and large-bore superconducting solenoid surrounding an
+  all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals
+  electromagnetic calorimeter, and a brass-scintillator sampling hadron
+  calorimeter. The iron yoke of the flux-return is instrumented with four
+  stations of muon detectors covering most of the 4π solid angle. Forward
+  sampling calorimeters extend the pseudorapidity coverage to high values
+  (|η| ≤ 5) assuring very good hermeticity. The overall dimensions of the
+  CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight
+  of 12500 t.%
+  }
+  \field{number}{08}
+  \field{pages}{S08004}
+  \field{title}{The CMS experiment at the CERN LHC}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08004
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{1748-0221-3-08-S08005}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~LHCb}{T.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTL1}
+  \strng{fullhash}{CTL1}
+  \field{abstract}{%
+  The LHCb experiment is dedicated to precision measurements of CP violation
+  and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN
+  (Geneva). The initial configuration and expected performance of the detector
+  and associated systems, as established by test beam measurements and
+  simulation studies, is described.%
+  }
+  \field{number}{08}
+  \field{pages}{S08005}
+  \field{title}{The LHCb Detector at the LHC}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08005
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{1748-0221-3-08-S08002}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {The~ALICE}{T.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CTA1}
+  \strng{fullhash}{CTA1}
+  \field{abstract}{%
+  ALICE (A Large Ion Collider Experiment) is a general-purpose, heavy-ion
+  detector at the CERN LHC which focuses on QCD, the strong-interaction sector
+  of the Standard Model. It is designed to address the physics of strongly
+  interacting matter and the quark-gluon plasma at extreme values of energy
+  density and temperature in nucleus-nucleus collisions. Besides running with
+  Pb ions, the physics programme includes collisions with lighter ions, lower
+  energy running and dedicated proton-nucleus runs. ALICE will also take data
+  with proton beams at the top LHC energy to collect reference data for the
+  heavy-ion programme and to address several QCD topics for which ALICE is
+  complementary to the other LHC detectors. The ALICE detector has been built
+  by a collaboration including currently over 1000 physicists and engineers
+  from 105 Institutes in 30 countries. Its overall dimensions are
+  16 × 16 × 26 m 3 with a total weight of approximately 10 000 t. The
+  experiment consists of 18 different detector systems each with its own
+  specific technology choice and design constraints, driven both by the physics
+  requirements and the experimental conditions expected at LHC. The most
+  stringent design constraint is to cope with the extreme particle multiplicity
+  anticipated in central Pb-Pb collisions. The different subsystems were
+  optimized to provide high-momentum resolution as well as excellent Particle
+  Identification (PID) over a broad range in momentum, up to the highest
+  multiplicities predicted for LHC. This will allow for comprehensive studies
+  of hadrons, electrons, muons, and photons produced in the collision of heavy
+  nuclei. Most detector systems are scheduled to be installed and ready for
+  data taking by mid-2008 when the LHC is scheduled to start operation, with
+  the exception of parts of the Photon Spectrometer (PHOS), Transition
+  Radiation Detector (TRD) and Electro Magnetic Calorimeter (EMCal). These
+  detectors will be completed for the high-luminosity ion run expected in 2010.
+  This paper describes in detail the detector components as installed for the
+  first data taking in the summer of 2008.%
+  }
+  \field{number}{08}
+  \field{pages}{S08002}
+  \field{title}{The ALICE experiment at the CERN LHC}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08002
+  \endverb
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Instrumentation}
+  \field{year}{2008}
+\endentry
+
+\entry{1201.5469}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vankov}{V.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VP1}
+  \strng{fullhash}{VP1}
+  \verb{doi}
+  \verb 10.1051/epjconf/20122812069
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1201.5469
+  \endverb
+  \field{title}{ATLAS Upgrade for the HL-LHC: meeting the challenges of a
+  five-fold increase in collision rate}
+  \field{year}{2012}
+\endentry
+
+\entry{ATL-DAQ-PUB-2016-001}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{ATL-DAQ-PUB-2016-001}
+  \field{title}{{2015 start-up trigger menu and initial performance assessment
+  of the ATLAS trigger using Run-2 data}}
+  \verb{url}
+  \verb http://cds.cern.ch/record/2136007
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{egamma_trig}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{howpublished}{"https://twiki.cern.ch/twiki/bin/view/AtlasPublic/EgammaTriggerPublicResults"}
+  \field{title}{Public Egamma Trigger Plots for Collision Data}
+  \field{year}{2016}
 \endentry
 
 \entry{Ball:2012cx}{article}{}
@@ -1332,212 +1574,6 @@
   hadronic interactions in 7 TeV pp collisions}}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
-  \field{year}{2016}
-\endentry
-
-\entry{1748-0221-3-08-S08001}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Evans}{E.}%
-     {Lyndon}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bryant}{B.}%
-     {Philip}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ELBP1}
-  \strng{fullhash}{ELBP1}
-  \field{abstract}{%
-  The Large Hadron Collider (LHC) at CERN near Geneva is the world's newest and
-  most powerful tool for Particle Physics research. It is designed to collide
-  proton beams with a centre-of-mass energy of 14 TeV and an unprecedented
-  luminosity of 10 34 cm −2 s −1 . It can also collide heavy (Pb) ions
-  with an energy of 2.8 TeV per nucleon and a peak luminosity of 10 27 cm
-  −2 s −1 . In this paper, the machine design is described.%
-  }
-  \field{number}{08}
-  \field{pages}{S08001}
-  \field{title}{LHC Machine}
-  \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08001
-  \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{lep_tdr}{book}{}
-  \list{publisher}{1}{%
-    {CERN}%
-  }
-  \field{note}{Copies shelved as reports in LEP, PS and SPS libraries}
-  \field{title}{{LEP design report}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/102083
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \field{year}{1984}
-\endentry
-
-\entry{PERF-2007-01}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \verb{doi}
-  \verb 10.1088/1748-0221/3/08/S08003
-  \endverb
-  \field{pages}{S08003}
-  \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
-  \field{volume}{3}
-  \field{journaltitle}{JINST}
-  \field{eprintclass}{hep-ex}
-  \field{year}{2008}
-\endentry
-
-\entry{1748-0221-3-08-S08004}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Collaboration}{C.}%
-     {The~CMS}{T.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CTC1}
-  \strng{fullhash}{CTC1}
-  \field{abstract}{%
-  The Compact Muon Solenoid (CMS) detector is described. The detector operates
-  at the Large Hadron Collider (LHC) at CERN. It was conceived to study
-  proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV
-  (5.5 TeV nucleon-nucleon) and at luminosities up to 10 34 cm −2 s −1
-  (10 27 cm −2 s −1 ). At the core of the CMS detector sits a
-  high-magnetic-field and large-bore superconducting solenoid surrounding an
-  all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals
-  electromagnetic calorimeter, and a brass-scintillator sampling hadron
-  calorimeter. The iron yoke of the flux-return is instrumented with four
-  stations of muon detectors covering most of the 4π solid angle. Forward
-  sampling calorimeters extend the pseudorapidity coverage to high values
-  (|η| ≤ 5) assuring very good hermeticity. The overall dimensions of the
-  CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight
-  of 12500 t.%
-  }
-  \field{number}{08}
-  \field{pages}{S08004}
-  \field{title}{The CMS experiment at the CERN LHC}
-  \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08004
-  \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{1748-0221-3-08-S08005}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Collaboration}{C.}%
-     {The~LHCb}{T.~L.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CTL1}
-  \strng{fullhash}{CTL1}
-  \field{abstract}{%
-  The LHCb experiment is dedicated to precision measurements of CP violation
-  and rare decays of B hadrons at the Large Hadron Collider (LHC) at CERN
-  (Geneva). The initial configuration and expected performance of the detector
-  and associated systems, as established by test beam measurements and
-  simulation studies, is described.%
-  }
-  \field{number}{08}
-  \field{pages}{S08005}
-  \field{title}{The LHCb Detector at the LHC}
-  \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08005
-  \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{1748-0221-3-08-S08002}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Collaboration}{C.}%
-     {The~ALICE}{T.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CTA1}
-  \strng{fullhash}{CTA1}
-  \field{abstract}{%
-  ALICE (A Large Ion Collider Experiment) is a general-purpose, heavy-ion
-  detector at the CERN LHC which focuses on QCD, the strong-interaction sector
-  of the Standard Model. It is designed to address the physics of strongly
-  interacting matter and the quark-gluon plasma at extreme values of energy
-  density and temperature in nucleus-nucleus collisions. Besides running with
-  Pb ions, the physics programme includes collisions with lighter ions, lower
-  energy running and dedicated proton-nucleus runs. ALICE will also take data
-  with proton beams at the top LHC energy to collect reference data for the
-  heavy-ion programme and to address several QCD topics for which ALICE is
-  complementary to the other LHC detectors. The ALICE detector has been built
-  by a collaboration including currently over 1000 physicists and engineers
-  from 105 Institutes in 30 countries. Its overall dimensions are
-  16 × 16 × 26 m 3 with a total weight of approximately 10 000 t. The
-  experiment consists of 18 different detector systems each with its own
-  specific technology choice and design constraints, driven both by the physics
-  requirements and the experimental conditions expected at LHC. The most
-  stringent design constraint is to cope with the extreme particle multiplicity
-  anticipated in central Pb-Pb collisions. The different subsystems were
-  optimized to provide high-momentum resolution as well as excellent Particle
-  Identification (PID) over a broad range in momentum, up to the highest
-  multiplicities predicted for LHC. This will allow for comprehensive studies
-  of hadrons, electrons, muons, and photons produced in the collision of heavy
-  nuclei. Most detector systems are scheduled to be installed and ready for
-  data taking by mid-2008 when the LHC is scheduled to start operation, with
-  the exception of parts of the Photon Spectrometer (PHOS), Transition
-  Radiation Detector (TRD) and Electro Magnetic Calorimeter (EMCal). These
-  detectors will be completed for the high-luminosity ion run expected in 2010.
-  This paper describes in detail the detector components as installed for the
-  first data taking in the summer of 2008.%
-  }
-  \field{number}{08}
-  \field{pages}{S08002}
-  \field{title}{The ALICE experiment at the CERN LHC}
-  \verb{url}
-  \verb http://stacks.iop.org/1748-0221/3/i=08/a=S08002
-  \endverb
-  \field{volume}{3}
-  \field{journaltitle}{Journal of Instrumentation}
-  \field{year}{2008}
-\endentry
-
-\entry{ATL-DAQ-PUB-2016-001}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{howpublished}{ATL-DAQ-PUB-2016-001}
-  \field{title}{{2015 start-up trigger menu and initial performance assessment
-  of the ATLAS trigger using Run-2 data}}
-  \verb{url}
-  \verb http://cds.cern.ch/record/2136007
-  \endverb
   \field{year}{2016}
 \endentry
 

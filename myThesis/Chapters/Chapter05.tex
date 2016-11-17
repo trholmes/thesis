@@ -10,7 +10,7 @@
 
 \section{Clustering in the Pixel Detector}
 
-Creating tracks from individual hits in the Inner Detector is one of most computationally challenging parts of the reconstruction of ATLAS events. Each event typically contains thousands of hits in the pixel detector alone, which must be combined into one coherent picture of which particles traversed the detector, and how they moved and lost energy as they traveled. A typical particle deposits charge in several pixels per layer, forming a series of clusters which can be connected together to form a track. This track can in turn be used to measure the charge, momentum, and trajectory of the particle. 
+Creating tracks from individual hits in the Inner Detector is one of most computationally challenging parts of the reconstruction of \ac{ATLAS} events. Each event typically contains thousands of hits in the pixel detector alone, which must be combined into one coherent picture of which particles traversed the detector, and how they moved and lost energy as they traveled. A typical particle deposits charge in several pixels per layer, forming a series of clusters which can be connected together to form a track. This track can in turn be used to measure the charge, momentum, and trajectory of the particle. 
 
 
 \begin{centering}
@@ -51,7 +51,7 @@ In a simple case, such as $(a)$ of \autoref{fig:cluster_types} , this method wor
 
 To address these problems, a series of \acp{NN} were created \cite{PERF-2012-05}. The first estimates the number of particles in a given cluster, the second estimates their positions within the cluster, and the third assesses the uncertainty of the position measurement. They are referred to, respectively, as the ``Number'', ``Position'', and ``Error'' \acp{NN}.
 
-These \acp{NN} are taken from the AGILE\textit{Pack} library \cite{agile}, and trained using simulated ATLAS \ac{MC}. Each \ac{NN} is given the following inputs: 
+These \acp{NN} are taken from the AGILE\textit{Pack} library \cite{agile}, and trained using simulated \ac{ATLAS} \ac{MC}. Each \ac{NN} is given the following inputs: 
 \begin{itemize}
 \item a $7\times7$ grid of cluster \ac{ToT} information\footnote{Clusters spanning more than seven pixels in either direction are rare, but when they occur they are rejected, and the original charge interpolation estimate of a single particle's position is kept.}
 \item a 7-element vector containing the $y$-size of the pixels in the grid\footnote{The pixel detector contains some long pixels at the edges of modules, and this is intended to help the \ac{NN} identify these cases.}
@@ -93,7 +93,7 @@ The \ac{NN} was first applied to 7 \tev~data, where it improved position resolut
 
 In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters with positions determined via charge interpolation, where it constructs tracks with loose quality requirements. In this step, the tracking algorithm allows shared clusters, clusters used in multiple track fits \cite{ATL-PHYS-PUB-2015-044}. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to estimate the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized. In general, tracks with more than two shared clusters are rejected.
 
-Because the \ac{NN} is trained only with \ac{MC} simulations, any mismodeling of the way charge is deposited in the ATLAS detector could cause the \ac{NN} to perform in an unexpected way when applied to data. The potential impact of this mismodeling was investigated with 13 \tev~\ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. 
+Because the \ac{NN} is trained only with \ac{MC} simulations, any mismodeling of the way charge is deposited in the \ac{ATLAS} detector could cause the \ac{NN} to perform in an unexpected way when applied to data. The potential impact of this mismodeling was investigated with 13 \tev~\ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. 
 
 One example of a variable capable of significantly altering the \ac{NN} outputs was the overall charge scale. To study its impact, the \ac{ToT} of all pixels in a cluster were scaled up and down, and the resulting outputs of the \ac{NN} were compared, as shown in \autoref{fig:13tev_charge_robustness}. In this case, the likelihood to misidentify multi-particle clusters and single particle clusters depended significantly on this scaling. However, experts on the simulation of this scale agree that it's unlikely to be mismodeled by more than 10\%, so very extreme effects from a difference between data and \ac{MC} are unlikely. Overall, it was found that variations on the cluster charge produced a significant impact on predictions, while all other variations, such as incidence angle variation and spatial smearing of charge, had a minimal effect. 
 

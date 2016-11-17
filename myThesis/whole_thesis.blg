@@ -40,10 +40,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19734 items from 5000.
+Reallocated field_info (elt_size=4) to 20012 items from 5000.
 Database file #1: whole_thesis-blx.bib
 Database file #2: bib/strong2l_paper.bib
-Repeated entry---line 4084 of file bib/strong2l_paper.bib
+Repeated entry---line 4097 of file bib/strong2l_paper.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -90,45 +90,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 106 entries,
+You've used 108 entries,
             6047 wiz_defined-function locations,
-            1835 strings with 32847 characters,
-and the built_in function-call counts, 284549 in all, are:
-= -- 9920
-> -- 8946
-< -- 1904
-+ -- 2398
-- -- 3405
-* -- 20157
-:= -- 16472
+            1843 strings with 33155 characters,
+and the built_in function-call counts, 289311 in all, are:
+= -- 10088
+> -- 9099
+< -- 1934
++ -- 2428
+- -- 3453
+* -- 20414
+:= -- 16746
 add.period$ -- 0
-call.type$ -- 106
+call.type$ -- 108
 change.case$ -- 0
 chr.to.int$ -- 56
-cite$ -- 210
-duplicate$ -- 33716
-empty$ -- 32903
-format.name$ -- 6090
-if$ -- 64284
+cite$ -- 214
+duplicate$ -- 34287
+empty$ -- 33473
+format.name$ -- 6186
+if$ -- 65392
 int.to.chr$ -- 0
-int.to.str$ -- 287
+int.to.str$ -- 293
 missing$ -- 0
-newline$ -- 2772
-num.names$ -- 4103
-pop$ -- 33371
+newline$ -- 2807
+num.names$ -- 4185
+pop$ -- 34007
 preamble$ -- 1
-purify$ -- 1211
+purify$ -- 1229
 quote$ -- 0
-skip$ -- 17213
+skip$ -- 17530
 stack$ -- 0
-substring$ -- 3488
-swap$ -- 11181
-text.length$ -- 1948
+substring$ -- 3516
+swap$ -- 11337
+text.length$ -- 1980
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4011
+type$ -- 4087
 warning$ -- 0
-while$ -- 1730
+while$ -- 1762
 width$ -- 0
-write$ -- 2665
+write$ -- 2698
 (There were 11 error messages)

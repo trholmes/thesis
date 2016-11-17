@@ -68,7 +68,7 @@ A small uncertainty is added based on the statistical uncertainty on the $k$ and
 \end{figure}
 \end{centering}
 
-The next uncertainty considers a potential bias in the way the $\alpha$ factors are calculated. Because they are derived from data, there is already trigger dependence in data collection; only events passing a trigger are stored. Additional trigger dependence is created by the data format used for analysis. ATLAS data and \ac{MC} are stored in a format called \ac{AOD}, but smaller, slimmer versions of these datasets, called \acp{dAOD} are used for analysis. These \acp{dAOD} are designed with specific analyses in mind, filtering on the triggers and objects required by the analyses. As a consequence, in the \ac{dAOD} used in this analysis, there are explicit requirements that lepton or \met triggers are passed in order for events to be included. 
+The next uncertainty considers a potential bias in the way the $\alpha$ factors are calculated. Because they are derived from data, there is already trigger dependence in data collection; only events passing a trigger are stored. Additional trigger dependence is created by the data format used for analysis. \ac{ATLAS} data and \ac{MC} are stored in a format called \ac{AOD}, but smaller, slimmer versions of these datasets, called \acp{dAOD} are used for analysis. These \acp{dAOD} are designed with specific analyses in mind, filtering on the triggers and objects required by the analyses. As a consequence, in the \ac{dAOD} used in this analysis, there are explicit requirements that lepton or \met triggers are passed in order for events to be included. 
 
 As a consequence, the trigger efficiencies $\epsilon^\text{trig}$ used in \autoref{eq:kandalpha} to define $\alpha$ do not consider all possible data events. The $epsilon^\text{trig}$ factor is calculated for each trigger using events passing the kinematic selection for that trigger, outlined in \autoref{sec:trig_strategy}. The efficiency factor is then measured according to the equation
 
@@ -216,7 +216,7 @@ Total Sys (\%) & +260.46 -109.06 	& +61.66 -19.02 & +45.30 -24.85 & +24.32 -27.5
 
 \section{Theoretical and Experimental Uncertainties}
 
-Experimental uncertainties cover any detector effect or \ac{LHC} condition that may not be modeled precisely correctly in \ac{MC}. For each uncertainty, a standard prescription from the ATLAS experiment is followed. Uncertainties are included on the following parameters:  
+Experimental uncertainties cover any detector effect or \ac{LHC} condition that may not be modeled precisely correctly in \ac{MC}. For each uncertainty, a standard prescription from the \ac{ATLAS} experiment is followed. Uncertainties are included on the following parameters:  
 \begin{itemize}
 \item Luminosity (2.9\%) \cite{2011lumi,2012lumi}
 \item Jet energy scale \cite{ATL-PHYS-PUB-2015-015}
