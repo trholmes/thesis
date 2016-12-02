@@ -13,10 +13,13 @@
 	\vertex [right=of a2] (b2);
 
 	\vertex [right=of b1] (c1);
-	\vertex [right=of b2] (c2) {\(Z\)};
+	\vertex [right=of b2] (c2);
 
  	\vertex [above right=of c1] (d1) {\(g\)};
- 	\vertex [below right=of c1] (d2) {\(g\)};
+ 	\vertex [right=of c1] (d2) {\(g\)};
+
+    \vertex [right=of c2] (e1) {\(l\)};
+    \vertex [below right=of c2] (e2) {\(l\)};
 
     \diagram* {
 
@@ -25,11 +28,13 @@
     (b1) -- [gluon] (a1), 
 	
 	(b1) -- [fermion, edge label=\(q\)] (c1),
-	(b2) -- [boson] (c2),
+    (b2) -- [boson, edge label=\(Z\)] (c2),
 
 	(d2) -- [gluon] (c1),
 	(d1) -- [gluon] (c1),
 
+	(e2) -- [fermion] (c2),
+	(c2) -- [fermion] (e1),
     };
 
 \end{feynman}

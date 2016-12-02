@@ -3,11 +3,13 @@
 \chapter{Event Selection} % Chapter title
 \label{ch:eventsel} 
 
-The goal of this analysis is to identify events resembling \autoref{fig:simpmodel} in collisions in the \ac{ATLAS} detector. In order to do this, a \acf{SR} is defined with the goal of maximizing the identification efficiency of signal-like events while minimizing \ac{SM} backgrounds. However, because this analysis reinvestigates an excess of events seen in Run 1 with the \ac{ATLAS} detector, the signal region was frozen and could not be reoptimized for the new, higher energy data in Run 2. The \ac{SR}, called \textit{SRZ}, was predetermined, including events with two opposite-sign, same-flavor leptons that reconstruct a mass, \mll, close to that of the $Z$ boson, with the additional requirement of two jets, \met > 225 \gev, and \HT of at least 600 \gev. Additionally, a cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^{\mathrm{miss}})$ was made in order to reduce the number of events with high \met due to mismeasurement of one of the leading two jets. 
+The goal of this analysis is to identify events resembling \autoref{fig:simpmodel} in collisions in the \ac{ATLAS} detector. In order to do this, a \acf{SR} is defined with the goal of maximizing the identification efficiency of signal events while minimizing \ac{SM} backgrounds. However, because this analysis re-investigates an excess of events seen in Run 1 with the \ac{ATLAS} detector, the signal region was frozen and could not be re-optimized for the new, higher energy data in Run 2. The \ac{SR}, called SRZ, was predetermined, including events with two opposite-sign, same-flavor leptons that reconstruct a mass, \mll, close to that of the $Z$ boson, with the additional requirement of two jets, \met > 225 \gev, and \HT of at least 600 \gev. Additionally, a cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^{\mathrm{miss}})$ was made in order to reduce the number of events with high \met due to mismeasurement of one of the leading two jets. 
 
-Though this \ac{SR} was fixed, the methods used to estimate its expected \ac{SM} backgrounds were not. A set of \acfp{CR} and \acfp{VR} were chosen to make these estimations possible. \acp{CR} are regions in which the collected data can be used to make an estimate of an expected background in the \ac{SR}, while \acp{VR} are used to confirm the efficacy of these methods. Both \acp{CR} and \acp{VR} are designed to minimize contamination from the \ac{BSM} process being searched for. This is desirable because signal contamination in a \ac{CR} can lead to an overestimate of the \ac{SM} background in the \ac{SR}, disguising a genuine signal as background. Contamination in a \ac{VR}, where background estimates are being validated, can make it appear that the \ac{SM} background is not well described by an estimate, causing analyzers to adjust the method to account for the difference, and again, disguising the effect of the same signal in the \ac{SR}. 
+The freezing of the \ac{SR} prevented re-optimization of the cuts for maximum sensitivity to a signal, but the search was still expected to be more sensitive than the previous iteration performed on 8 \tev~data. This is because the cross-section for production of this high-mass signal increased dramatically with the increased \ac{LHC} energy, while the cross-section for \ac{SM} processes increased at lower rates.
 
-The strategy for estimating the \ac{FS} backgrounds, for example, depends on a series of \acp{CR} and \acp{VR} depicted in \autoref{fig:region_diagrams}. One estimate, the flavor symmetry method, takes data from CR-FS, a diffent-flavor region with slightly wider \mll~bounds than the \ac{SR}, and uses these events to predict the contribution of flavor symmetric processes to SRZ. An independent method called a sideband fit uses a control region CRT to measure the flavor symmetric events outside of the $Z$ mass window, and uses \ac{MC} to extrapolate inside the $Z$ mass window to SRZ. Then, both methods are validated at lower \met with an otherwise identical series of regions, with VRS corresponding to SRZ, VRT corresponding to CRT, and VR-FS corresponding to CR-FS. 
+Though this \ac{SR} was fixed, the methods used to estimate the expected \ac{SM} backgrounds were not. A set of \acfp{CR} and \acfp{VR} were chosen to make these estimations possible. \acp{CR} are regions in which the collected data can be used to make an estimate of an expected background in the \ac{SR}, while \acp{VR} are used to confirm that the background estimate based on the \ac{CR} is valid. Both \acp{CR} and \acp{VR} are designed to minimize contamination from the \ac{BSM} process being searched for. This is desirable because signal contamination in a \ac{CR} can lead to an overestimate of the \ac{SM} background in the \ac{SR}, disguising a genuine signal as background. Contamination in a \ac{VR}, where background estimates are being validated, can make it appear that the \ac{SM} background is not well described by an estimate, causing analyzers to adjust the method to account for the difference, and again, disguising the effect of the same signal in the \ac{SR}. 
+
+The strategy for estimating the \ac{FS} backgrounds, for example, depends on a series of \acp{CR} and \acp{VR} depicted in \autoref{fig:region_diagrams}. One estimate, the flavor symmetry method, takes data from CR-FS, a different-flavor region with slightly wider \mll~bounds than the \ac{SR}, and uses these events to predict the contribution of flavor symmetric processes to SRZ. An independent method called a sideband fit uses a control region CRT to measure the flavor symmetric events outside of the $Z$ mass window, and uses \ac{MC} to extrapolate inside the $Z$ mass window to SRZ. Then, both methods are validated at lower \met with an otherwise identical series of regions, with VRS corresponding to SRZ, VRT corresponding to CRT, and VR-FS corresponding to CR-FS. 
 
 \begin{figure}[h]
 \centering
@@ -20,20 +22,10 @@ signal and validation regions are depicted in the $\HT-\met$ plane.
 }
 \end{figure}
 
-Each background estimation requires its own set of these regions, and the full list of regions used in this analysis can be seen in \autoref{tab:regions-z}. In addition to the \acf{FS} regions described above, there is one more \ac{CR}, CR-$\gamma$, which is a photon region used to predict the number of \dyjets events, a process described in \autoref{sec:bg-z}. Additional \acp{VR}, VR-ZZ, VR-WZ, and VR-3L, are introduced in order to validate the backgrounds taken directly from \ac{MC}. There are several additional regions used, for example, in the estimation of the fakes and \dyjets backgrounds, that are defined in their respective sections. 
+The background estimation methods, described in \autoref{ch:backgrounds}, each require their own set of these regions. The full list of regions used in this analysis can be seen in \autoref{tab:regions-z}. In addition to the \ac{FS} regions described above, there is one more \ac{CR}, CR-$\gamma$, which is a photon region used to predict the number of \dyjets events, a process described in \autoref{sec:bg-z}. Additional \acp{VR}, VR-ZZ, VR-WZ, and VR-3L, are introduced in order to validate the backgrounds taken directly from \ac{MC}. There are several additional regions used, for example, in the estimation of the fakes and \dyjets backgrounds, that are defined in their respective sections. 
 
 \begin{table}[htbp]
 \begin{center}
- \caption{Overview of all signal, control and validation regions used in the on-shell $Z$ search.
- More details are given in the text.
- %The \met~significance and soft-term fraction $f_{\text{ST}}$ needed in the seed regions for the jet smearing method
- %are defined in Sect.~\ref{sec:zjets}.
- The flavour combination of the dilepton pair is denoted as either ``SF'' for same-flavour or ``DF'' for different flavour.
- All regions require at least two leptons, unless otherwise indicated.
- In the case of CR$\gamma$, VR-WZ, VR-ZZ, and VR-3L the number of leptons, rather than a specific flavour configuration, is indicated.
-The main requirements that distinguish the control and validation regions from the signal region are indicated in bold.
-Most of the kinematic quantities used to define these regions are discussed in the text. The quantity $m_{\text{T}}(\ell_{3},\met)$
-indicates the transverse mass formed by the \met and the lepton which is not assigned to either of the $Z$-decay leptons. }
 \resizebox{\textwidth}{!}{
  \begin{tabular}{lcccccccc} %{\textwidth}{@{\extracolsep{\fill}}lcccccccc}
    \noalign{\smallskip}\hline\noalign{\smallskip}
@@ -65,6 +57,16 @@ _{\mathrm{T}}^\mathrm{miss})$ }  &  $m_{\text{T}}(\ell_{3},\met)$ &  $n_{\text{b
    \noalign{\smallskip}\hline\noalign{\smallskip}
 \end{tabular}
 } % end of resizebox
+ \caption{Overview of all signal, control and validation regions used in the on-shell $Z$ search.
+ More details are given in the text.
+ %The \met~significance and soft-term fraction $f_{\text{ST}}$ needed in the seed regions for the jet smearing method
+ %are defined in Sect.~\ref{sec:zjets}.
+ The flavour combination of the dilepton pair is denoted as either \textit{SF} for same-flavor or \textit{DF} for different flavor.
+ All regions require at least two leptons, unless otherwise indicated.
+ In the case of CR$\gamma$, VR-WZ, VR-ZZ, and VR-3L the number of leptons, rather than a specific flavor configuration, is indicated.
+The main requirements that distinguish the control and validation regions from the signal region are indicated in bold.
+Most of the kinematic quantities used to define these regions are discussed in the text. The quantity $m_{\text{T}}(\ell_{3},\met)$
+indicates the transverse mass formed by the \met and the lepton which is not assigned to either of the $Z$-decay leptons. }
 \label{tab:regions-z}
 \end{center}
 \end{table}
@@ -72,7 +74,7 @@ _{\mathrm{T}}^\mathrm{miss})$ }  &  $m_{\text{T}}(\ell_{3},\met)$ &  $n_{\text{b
 \section{Trigger Strategy}
 \label{sec:trig_strategy}
 
-In order to collect data for the analysis, triggers must be chosen that provide good efficiency in each of the \ac{SR}, \ac{VR}, and \acp{CR}. This analysis primarily depends on triggers on leptons, which are required in nearly every region. To simplify the application of trigger scalefactors, which correct \ac{MC} yields for a given trigger to match the data efficiencies, events are broken down into a series of kinematic ranges, each with a designated trigger. These regions can be seen in \autoref{tab:trigger_strat}. 
+In order to collect data for the analysis, triggers must be chosen that provide good efficiency in each of the \ac{SR}, \ac{VR}, and \acp{CR}. This analysis primarily depends on triggers on leptons, which are required in nearly every region. To simplify the application of trigger scale factors, which correct \ac{MC} yields for a given trigger to match the data efficiencies, events are broken down into a series of kinematic ranges, each with a designated trigger. These regions can be seen in \autoref{tab:trigger_strat}. 
 
 \begin{table}[hbt]
 \begin{center}
@@ -111,7 +113,7 @@ Lepton trigger requirements used for the analysis in different regions of lepton
 \end{center}
 \end{table}
 
-In kinematic regions where single lepton triggers are fully efficient, they are preferentially used. In lower-\pt ranges, dilepton triggers are used, targeting either $ee$, $\mu\mu$, or $e\mu$ events. Electron triggers are selected over muon triggers when possible because they have higher efficiencies in most cases.
+In kinematic regions where single lepton triggers are fully efficient, they are preferentially used. In lower-\pt ranges, dilepton triggers are used, targeting either $ee$, $\mu\mu$, or $e\mu$ events. Electron triggers are selected over muon triggers when possible because they have higher trigger efficiencies.
 
 In CR-$\gamma$, there are no leptons, so an alternate trigger strategy must be used. \autoref{sec:photon_eventsel} describes this triggering scheme, which includes a combination of prescaled and unprescaled photon triggers to allow for the collection of low-\pt \gjets events. 
 
@@ -119,20 +121,20 @@ In CR-$\gamma$, there are no leptons, so an alternate trigger strategy must be u
 
 \section{Signal Efficiency and Contamination}
 
-Using the simplified models discussed in \autoref{sec:simplified_models}, the contributions of potential signals in these regions can be studied. In the \ac{SR}, the goal is to include as much of the potential signal as possible, while excluding as much \ac{SM} background as possible. \autoref{fig:acc_SMGGN2_1_z} shows the acceptance and efficiency for the simplified models at different mass points. Acceptance is defined as the fraction of signal events that produce signatures that kinematically match the \ac{SR}, while the efficiency is the fraction of these events expected to be correctly identified by the \ac{ATLAS} detector. 
+Using the simplified models discussed in \autoref{sec:simplified_models}, the contributions of potential signals in these regions can be studied. In the \ac{SR}, the goal is to include as much of the potential signal as possible, while excluding as much \ac{SM} background as possible. \autoref{fig:acc_SMGGN2_1_z} shows the acceptance and efficiency for the simplified models at different mass points. Acceptance is defined as the fraction of signal events that produce signatures that kinematically match the \ac{SR}, while the efficiency is the fraction of these events expected to be correctly identified by the \ac{ATLAS} detector. Acceptance ranges between 3-5\% for the simplified models considered, while efficiency is typically 70-90\%. These studies are performed using \ac{MC}, with corrections applied to match data efficiencies. These efficiencies are measured as a function of \pt and $\eta$, and include separate identification efficiencies for electrons and muons. 
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/acc_SM_GG_N2_1.eps}
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/eff_SM_GG_N2_1.eps}
 \caption{
-Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson with 1\gev~neutralino LSP.  
+Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson with 1 \gev~neutralino LSP.  
 Acceptance is calculated by applying the signal-region kinematic requirements to truth objects in \ac{MC}, which do not suffer from identification inefficiencies or measurement resolutions.
 }
 \label{fig:acc_SMGGN2_1_z}
 \end{figure}
 
-A similar test is done for the main \acp{CR} and \acp{VR} which estimates their susceptibility to signal contamination. Figures~\ref{fig:sig_contam_CRT} and~\ref{fig:sig_contam_VR} show the fraction of events in these regions excpected to come from signal for different points on the simplified model's mass grid. Contamination is highest in VRS, at low $m_\go$. However, past analyses have already excluded most models with $m_\go < 800 \gev$, so these regions are not important targets for this search \cite{SUSY-2014-10}.
+Using the same \ac{MC}, the possibility of signal contamination in the \acp{CR} and \acp{VR} is assessed. Figures~\ref{fig:sig_contam_CRT} and~\ref{fig:sig_contam_VR} show the fraction of events in these regions expected to come from signal for different points on the simplified model's mass grid. Contamination is highest in VRS, at low $m_\go$. However, past analyses have already excluded most models with $m_\go < 800 \gev$ \cite{SUSY-2014-10}, so this is not a concern. For models with $m_\go$ > 800 \gev, signal contamination in VRS is below 30\%, and for models with $m_\go$ > 1 \tev, the contamination decreases to 10\%.
 
 \begin{figure}[ht]
 \centering
@@ -140,7 +142,7 @@ A similar test is done for the main \acp{CR} and \acp{VR} which estimates their 
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS.eps}
 \caption{
 Expected signal contamination in CRT (left) and CR-FS (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1\gev~neutralino LSP.}
+with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP.}
 \label{fig:sig_contam_CRT}
 \end{figure}
 
@@ -150,7 +152,7 @@ with the neutralino subsequently decaying to a $Z$ boson and a 1\gev~neutralino 
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1.eps}
 \caption{
 Expected signal contamination in VRS (left) and VRT (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1\gev~neutralino LSP.}
+with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP.}
 \label{fig:sig_contam_VR}
 \end{figure}
 

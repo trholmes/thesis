@@ -198,7 +198,7 @@ It is possible to differentiate jets resulting from $b$-hadron decays from other
 \section{Overlap Removal}
 \label{sec:reco_or}
 
-Because most of these reconstruction methods are run independently, it is common for energy deposits and tracks to be shared between jets and particles of different types. To account for this, a process called \acf{OR} is used, which iteratively removes overlapping objects. The process, as well as the calculation of missing transverse momentum described in \autoref{sec:reco_met}, is performed on \textit{baseline} objects. These objects have looser selections than the final \autoref{signal} objects, and the separate definitions allow analyzers to tune signal objects to best match a \ac{BSM} signature, while leaving the \ac{OR} process unchanged. The signal and baseline definitions for this analysis are described in \autoref{ch:objects}.
+Because most of these reconstruction methods are run independently, it is common for energy deposits and tracks to be shared between jets and particles of different types. To account for this, a process called \acf{OR} is used, which iteratively removes overlapping objects. The process, as well as the calculation of missing transverse momentum described in \autoref{sec:reco_met}, is performed on \textit{baseline} objects. These objects have looser selections than the final \textit{signal} objects, and the separate definitions allow analyzers to tune signal objects to best match a \ac{BSM} signature, while leaving the \ac{OR} process unchanged. The signal and baseline definitions for this analysis are described in \autoref{ch:objects}.
 
 The first step in the \ac{OR} process is to remove reconstructed jets that appear to be due to calorimetric deposits from an electron. To accomplish this, any baseline jet within $\Delta R = 0.2$ from a baseline electron is removed. A caveat is added due to the frequent production of leptons in the decay of heavy-flavor jets; if the jet is $b$-tagged, the electron will be removed instead. After these electrons and jets have been removed, a new search is done for jets and electrons within $\Delta R = 0.4$ of one another. In this iteration, the electron is removed, again to reduce backgrounds from heavy-flavor decays.
 
@@ -229,9 +229,9 @@ $Z\rightarrow\mu\mu$ events, which rarely have any true \met, can be used to stu
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02a.eps}
-\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02b.eps} \\
-\includegraphics[width=.48\linewidth]{figures/reco/met_fig_02c.eps}
+\includegraphics[width=.70\linewidth]{figures/reco/met_fig_02a.eps}
+\includegraphics[width=.70\linewidth]{figures/reco/met_fig_02b.eps} \\
+\includegraphics[width=.70\linewidth]{figures/reco/met_fig_02c.eps}
 \caption{ Distributions of the jet term (top left), muon term (top right), and \ac{TST} (bottom) \met in $Z\rightarrow\mu\mu$ events in data and \ac{MC}. In the jet term distribution, the feature at zero is due to events with no jets, and the spike at 20 \gev~corresponds to the minimum jet \pt considered for the analysis \cite{ATL-PHYS-PUB-2015-027}. }
 \label{fig:reco_met_terms}
 \end{figure}

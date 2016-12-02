@@ -49,12 +49,12 @@
 	\vertex [right=of c1] (d1);
 	\vertex [right=of c2] (d2);
 	\vertex [above right=of c1] (b1) {\(b\)};
- 	\vertex [below right=of c2] (b2) {\(\bar{b}\)};
+ 	\vertex [below right=of c2] (b2) {\(b\)};
  	
- 	\vertex [right=of d1] (l1) {\(l^{+}\)};
- 	\vertex [right=of d2] (l2) {\(l^{-}\)};
+ 	\vertex [right=of d1] (l1) {\(l\)};
+ 	\vertex [right=of d2] (l2) {\(l'\)};
  	\vertex [above right=of d1] (v1) {\(\nu_{l}\)};
- 	\vertex [below right=of d2] (v2) {\(\bar{\nu}_{l}\)};
+ 	\vertex [below right=of d2] (v2) {\(\nu_{l'}\)};
 
     \diagram* {
 
@@ -63,7 +63,7 @@
 	(a) -- [gluon] (i2),
 	
 	(b) -- [fermion, edge label=\(t\)] (c1),
-	(c2) -- [fermion, edge label=\(\bar{t}\)] (b),
+	(c2) -- [fermion, edge label=\(t\)] (b),
 	
 	(c1) -- [fermion] (b1),
 	(c1) -- [boson, edge label' =\(W^{+}\)] (d1), 

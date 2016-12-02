@@ -3,13 +3,13 @@
 \chapter{Object Identification and Selection} % Chapter title
 \label{ch:objects} 
 
-This section describes the identification and selection of objects in the events of this analysis. Objects are first required to pass \textit{baseline} selections, which are used for \acf{OR} and the calculation of \met, then have tighter \textit{signal} selections applied, which define the objects considered in the final analysis of events. Definitions are presented for electrons, muons, and jets, which are all required in the \ac{SR} of the analysis, as well as photons, which are used in background estimation. This section refers to quality definitions described in \autoref{ch:reconstruction}.
+This section describes the identification and selection of objects in the events of this analysis. Objects are first required to pass \textit{baseline} selections, which are used for \acf{OR} and the calculation of \met, then tighter \textit{signal} selection cuts are applied, which define the objects considered in the final analysis of events. Definitions are presented for electrons, muons, and jets, which are all required in the \ac{SR} of this analysis, as well as photons, which are used in background estimation. This section refers to object definitions, including \textit{quality} selections, described in \autoref{ch:reconstruction}.
 
 %----------------------------------------------------------------------------------------
 
 \section{Electrons}
 
-Electrons are reconstructed using the Egamma algorithm discussed in \autoref{sec:reco_electrons}. All electrons are required to be within $|\eta|<2.47$, to ensure that all tracks are consistently within the tracking capability of the \ac{ID}. Baseline leptons are required to have $\pt>10\gev$ and pass the \texttt{LHLoose} quality standard. Signal leptons are further required to be of \texttt{LHMedium} quality with \texttt{GradientLoose} isolation, and must have $\pt>25\gev$. Additional cuts on impact parameter are made for electrons with the goal of identifying only electrons coming from the primary vertex of the event, the vertex with the highest associated \pt. These requirements, and all the other requirements made on the electrons can be seen in \autoref{tab:eledef}. 
+Electrons are reconstructed using the algorithm discussed in \autoref{sec:reco_electrons}. All electrons are required to be within $|\eta|<2.47$, to ensure that all tracks are consistently within the tracking capability of the \ac{ID} and that associated clusters are within the high-granularity portion of the calorimeter. Baseline leptons are required to have $\pt>10\gev$ and pass the \texttt{Loose} quality standard. Signal leptons are further required to be isolated and of \texttt{Medium} quality, and must have $\pt>25\gev$. Additional cuts on impact parameter are made for electrons with the goal of identifying only electrons coming from the hard-scatter vertex. These requirements, and all the other requirements made on the electrons can be seen in \autoref{tab:eledef}. 
 
 \begin{table}[ph!]
 \begin{center}
@@ -34,16 +34,15 @@ Electrons are reconstructed using the Egamma algorithm discussed in \autoref{sec
       \hline
 \end{tabular}
 \end{center}
-\caption{Summary of the electron selection criteria. The signal selection requirements are applied on top of the baseline selection.
-  }              
+\caption{Summary of the electron selection criteria. $z_0$ gives the track's distance from the hard-scatter vertex projected in the $z$ direction, while $d_0$ gives the this distance projected onto the $x-y$ plane.}              
 \label{tab:eledef}
 \end{table}
 
-With these requirements, the \ac{ATLAS} detector is 95\% efficient at identifying electrons with \pt>25 \gev, which rises to 99\% at \pt>60 \gev \cite{ATLAS-CONF-2014-032}. Scale factors are applied to correct \ac{MC} to match data efficiencies. These efficiencies are measured as a function of \pt and $\eta$, and include both electron identification efficiencies and trigger efficiencies. 
+With these signal requirements, the \ac{ATLAS} detector is 80\% efficient at identifying electrons with a \pt of 25 \gev, which rises to 90\% at \pt>60 \gev~\cite{ATLAS-CONF-2014-032}. %Scale factors are applied to correct \ac{MC} to match data efficiencies. These efficiencies are measured as a function of \pt and $\eta$, and include both electron identification efficiencies and trigger efficiencies. 
 
 \section{Muons}
 
-Muons are reconstructed according to the process discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to have \texttt{GradientLoose} isolation. As with the electrons, quality cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, which reduces the number of events with very inconsistent \ac{ID} and \ac{MS} tracks. The full set of requirements can be seen in \autoref{tab:muondef}.
+Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to be isolated. As with the electrons, impact parameter cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, which reduces the number of events with very inconsistent \ac{ID} and \ac{MS} tracks. The full set of requirements can be seen in \autoref{tab:muondef}.
 
 \begin{table}[ph!]
   \begin{center}
@@ -64,7 +63,7 @@ Muons are reconstructed according to the process discussed in \autoref{sec:reco_
       Isolation        & \texttt{GradientLoose} \\
       Impact parameter & $|z_0 \sin\theta|< 0.5$ mm \\
                        & $|d_0/\sigma_{d_0}|< 3$ \\ 
-      isBadMuon        & MCP \texttt{isBadMuon} Flag  \\
+      isBadMuon        & \texttt{isBadMuon} Flag required \\
       \hline		  
       \hline
     \end{tabular}
@@ -73,11 +72,11 @@ Muons are reconstructed according to the process discussed in \autoref{sec:reco_
   \end{center}
 \end{table}
 
-Muons with $\pt>25\gev$ are identified with a 95\% efficiency, which rises to 99\% for muons with $\pt>80\gev$\cite{PERF-2015-10}. Including trigger and isolation requirements, these efficiencies drop to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. This drop is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
+Muons with $\pt>25\gev$ are identified with a 95\% efficiency, which rises to 99\% for muons with $\pt>80\gev$\cite{PERF-2015-10}. Including trigger and isolation requirements, these efficiencies drop to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. This drop is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. %Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
 
 \section{Jets}
 
-Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets using the \texttt{AntiKt4EMTopo} algorithm, with a minimum \pt of 20 \gev~ and $|\eta|<2.8$. Signal jets increase this \pt requirement to 40 \gev~ and decrease their acceptance to $|\eta|<2.5$. \ac{JVT} requirements are enforced to reduce the number of jets from pile-up. The full set of requirements can be seen in \autoref{tab:jetsdef}.
+Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets using the anti-$k_t$ algorithm with $R=0.4$ using \ac{EM} clusters. These jets are required to have a minimum \pt of 20 \gev~and $|\eta|<2.8$. For signal jets, this \pt requirement is increased to 40 \gev~and the $\eta$ cut is tightened to $|\eta|<2.5$. \ac{JVT} requirements are enforced on jets with \pt<60 \gev~and $|\eta|<2.4$ to reduce the number of jets from pile-up. The full set of requirements can be seen in \autoref{tab:jetsdef}.
 
 \begin{table}[bh!]
 \begin{center}
@@ -114,12 +113,11 @@ Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets 
 \label{tab:jetsdef}
 \end{table}
 
-Though no $b$-jets are required in the \ac{SR} of this analysis, some \acp{CR} use $b$-enhanced and $b$-vetoed regions to determine the impact of heavy flavor. These $b$-jets are identified using the \texttt{MV2c20} algorithm at a 77\% efficient working point, and are only identified for $|\eta|<2.5$. 
-
+Though no $b$-jets are required or vetoed in the \ac{SR} of this analysis, some \acp{CR} use $b$-enhanced and $b$-vetoed regions to determine the impact of heavy flavor. The specifications for $b$-tagging are also described in \autoref{tab:jetsdef}.
 
 \section{Photons}
 
-Photons are used to estimate the \dyjets background in this analysis, and they are reconstructed according to \autoref{sec:reco_photons}. Baseline and signal photons are nearly identical. Each must pass a \texttt{tight} selection with \texttt{FixedCutTight} isolation and have $\pt > 25\,\GeV$ as well as $|\eta| < 2.37$. Signal photons with $1.37<|\eta|<1.6$ are rejected due to an discontinuity in the calorimeter which results in very large energy resolutions in this region. The full selection requirements can be seen in \autoref{tab:photondef}.
+Photons are used to estimate the \dyjets background in this analysis, and they are reconstructed according to \autoref{sec:reco_photons}. Baseline and signal photons are nearly identical. Each must pass a \texttt{Tight} selection and an isolation cut, and have $\pt > 25\,\GeV$ as well as $|\eta| < 2.37$. Signal photons with $1.37<|\eta|<1.6$ are rejected due to an discontinuity in the calorimeter which results in inferior energy resolutions in this region. The full selection requirements can be seen in \autoref{tab:photondef}.
 
 \begin{table}[ph!]
   \begin{center}

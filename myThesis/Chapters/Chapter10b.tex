@@ -58,15 +58,7 @@ In this test, the entire \ac{FS} procedure is performed on \ttbar \ac{MC}, inclu
 
 A small uncertainty is added based on the statistical uncertainty on the $k$ and $\alpha$ factors derived from data. These factors are measured in many different bins (see, for example, the different measurements of $k$ in \autoref{fig:fs_k}), and as a consequence, some bins can have very large statistical uncertainties. To assess the uncertainty on the total estimate, each measurement of these factors is varied by its uncertainty in order to produce the maximum and minimum possible prediction. The differences with respect to the nominal prediction are used to create a symmetrized error, which is included in \autoref{tab:fs_errors}.
 
-\begin{centering}
-\begin{figure}[!hbt]
-\myfloatalign
-\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
-\includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep1.eps}
-\caption{Measurements of $k$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.}
-\label{fig:fs_k}
-\end{figure}
-\end{centering}
+
 
 The next uncertainty considers a potential bias in the way the $\alpha$ factors are calculated. Because they are derived from data, there is already trigger dependence in data collection; only events passing a trigger are stored. Additional trigger dependence is created by the data format used for analysis. \ac{ATLAS} data and \ac{MC} are stored in a format called \ac{AOD}, but smaller, slimmer versions of these datasets, called \acp{dAOD} are used for analysis. These \acp{dAOD} are designed with specific analyses in mind, filtering on the triggers and objects required by the analyses. As a consequence, in the \ac{dAOD} used in this analysis, there are explicit requirements that lepton or \met triggers are passed in order for events to be included. 
 
