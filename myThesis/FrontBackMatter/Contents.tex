@@ -30,6 +30,7 @@
 %\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
 \pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
 
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}} 
 \listoffigures
 
 \vspace{8ex}
@@ -52,14 +53,14 @@
 %	List of Listings
 %---------------------------------------------------------------------------------------- 
 
-\refstepcounter{dummy}
+%\refstepcounter{dummy}
 %\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
-\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+%\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
 
-\lstlistoflistings 
+%\lstlistoflistings 
 
-\vspace{8ex}
-\newpage
+%\vspace{8ex}
+%\newpage
        
 %----------------------------------------------------------------------------------------
 %	Acronyms

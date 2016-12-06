@@ -11,7 +11,7 @@ One possible extension of the \ac{SM} is \ac{SUSY}, a theory which postulates an
 
 \section{The Standard Model}
 \label{sec:standard_model}
-The \ac{SM} of particle physics describes the interactions of all of the particles currently known to exist, and consists of matter particles and force carriers, as well as the Higgs boson, which fits into neither category. This model has been unprecedentedly successful in predicting new particles and phenomena, including the prediction of the Higgs boson almost 50 years before its discovery in 2012, which completed the \ac{SM}.  
+The \ac{SM} of particle physics describes the interactions of all of the particles currently known to exist. It consists of matter particles and force carriers, as well as the Higgs boson, which fits into neither category. This model has been extraordinarily successful in predicting new particles and phenomena, including the prediction of the Higgs boson almost 50 years before its discovery in 2012, which completed the \ac{SM}.  
 
 The particles of the \ac{SM} are divided into two categories: fermions and bosons \cite{Burgess:2007zi}. The fermions comprise all the matter described by the \ac{SM}, and are spin-$\frac{1}{2}$ particles. The bosons are integer spin-particles, most of which are spin-1. These particles provide a mechanism to explain three of the four forces known to physics, with gravity still lacking a quantum formulation. The Higgs boson, the only spin-0 particle in the \ac{SM}, provides a mechanism for giving mass to the other particles. The full \ac{SM}, with the addition of the hypothetical graviton, is presented in \autoref{fig:sm}. 
 
@@ -33,7 +33,7 @@ The matter described by the \ac{SM} is made up of fermions, spin-$\frac{1}{2}$ p
 
 Leptons, as seen in the bottom left of \autoref{fig:sm}, exist in three generations, each labeled by a flavor: electron, muon, and tau. In the case of the massive leptons, these flavors are mass eigenstates, and the generations are placed in an order based on increasing mass. Each massive lepton is negatively electromagnetically charged and has a positively charged anti-particle. 
 
-The three neutrinos exist in the same flavors as the massive leptons, but these flavor eigenstates do not correspond exactly to mass eigenstates \cite{Griffiths:111880}. As a consequence, neutrinos oscillate between flavors as they propagate through space. These oscillations are the only evidence of neutrino mass, which is bound from below by the mass splittings determined from the oscillation and bound from above my cosmological limits on the universe's mass density \cite{1979PhLB...87..144H}. Though it is still uncertain if the masses of the neutrinos follow the same hierarchy as the massive leptons, that expected ordering is slightly experimentally preferred over the inverted hierarchy \cite{Huang:2016}. 
+The three neutrinos exist in the same flavors as the massive leptons, but these flavor eigenstates do not correspond exactly to mass eigenstates \cite{Griffiths:111880}. As a consequence, neutrinos oscillate between flavors as they propagate through space. These oscillations are the only evidence of neutrino mass, which is bound from below by the mass splittings determined from the oscillation and bound from above by cosmological limits on the universe's mass density \cite{1979PhLB...87..144H}. Though it is still uncertain if the masses of the neutrinos follow the same hierarchy as the massive leptons, that expected ordering is slightly experimentally preferred over the inverted hierarchy \cite{Huang:2016}. 
 
 Unlike the massive leptons, the neutrinos are not electrically charged, and it is not yet known whether each neutrino has a separate anti-particle, or if it is its own antiparticle. Because they are not electromagnetically charged, they can only interact weakly, making them extremely difficult to detect. As a consequence of their ability to evade detection, neutrinos' properties are nearly impossible to study with general purpose particle detectors. 
 
@@ -42,7 +42,7 @@ The \ac{SM} conserves lepton number, $L$, which is defined as the number of lept
 \subsubsection{Quarks}
 \label{sec:quarks}
 
-Quarks, as seen in the top left of \autoref{fig:sm}, are also electromagnetically charged particles that interact weakly, but are differentiated from the leptons by their strong interactions. They are also organized in three generations ordered by mass, and come in pairs of $up$-type and $down$-type quarks, named after the lightest generation. Though the up quark is lighter than the down, that rule is reversed in the subsequent two generations. Up-type quarks are electromagnetically charged $+\frac{2}{3}$, while the down-type quarks are charged $-\frac{1}{3}$. Quarks are also charged under the strong interaction, whose three charges are often characterized by colors: red, green, and blue. Each quark has an anti-particle with the opposite charges. 
+Quarks, as seen in the top left of \autoref{fig:sm}, are also electromagnetically charged particles that interact weakly, but are differentiated from the leptons by their strong interactions. They are also organized in three generations ordered by mass, and come in pairs of $up$-type and $down$-type quarks, named after the lightest generation. In total, there are six flavors of quarks, up, down, charm, strange, top, and bottom. Though the up quark is lighter than the down, that rule is reversed in the subsequent two generations. Up-type quarks are electromagnetically charged $+\frac{2}{3}$, while the down-type quarks are charged $-\frac{1}{3}$. Quarks are also charged under the strong interaction, whose three charges are often characterized by colors: red, green, and blue. Each quark has an anti-particle with the opposite charges. 
 
 These fractional charges and individual colors are never seen in nature because of the requirement (discussed further in \autoref{sec:strong}) that stable particle states be color-neutral. To accomplish this, quarks can create two-particle bound states called \textit{mesons} consisting of one quark and one anti-quark with the same color charge, or three-particle bound states of quarks or anti-quarks with the three different color charges, which are called \textit{baryons}. The lightest color neutral state containing only quarks, the proton ($uud$), is stable. Extremely unstable bound states consisting of higher numbers of quarks can also exist, such as the pentaquark discovered in 2015 at the \ac{LHC}. \cite{Pentaquark} Collectively, these multi-quark bound states are called \textit{hadrons}. 
 
@@ -70,49 +70,37 @@ The total gauged symmetry group for the \ac{SM} is $SU_C(3) \times SU_L(2) \time
 Electromagnetism provides the simplest example of a requirement of local gauge invariance generating a Lagrangian description of a force.
 Electromagnetism has one massless mediator, the photon, which interacts with all electromagnetically charged particles. What follows is a brief description of how enforcing this invariance generates a Lagrangian of the same form as the classical electromagnetic Lagrangian, which can be easily incorporated into the \ac{SM}. 
 
-The particles in ~\autoref{sec:matter} are fermions, and so the Lagrangian describing their free propagation are Dirac Lagrangians and all follow the form
-
+The particles in ~\autoref{sec:matter} are fermions, and so the Lagrangians describing their free propagation are Dirac Lagrangians and all follow the form
 \begin{equation}
 \mathcal{L} = i\bar{\psi}\gamma^\mu \partial_\mu\psi - m \bar{\psi}\psi . 
 \end{equation}
-
 Requiring that the free Lagrangians for these particles be invariant under a $U(1)$ local gauge transformation, $e^{iq\lambda(x)}$, can be accomplished by adding a term to the Lagrangian which cancels the derivative term arising from $\lambda$'s dependence on $x$: 
-
 \begin{equation}
 \mathcal{L} = i\bar{\psi}\gamma^\mu \partial_\mu\psi - m \bar{\psi}\psi - (q\bar{\psi}\gamma^\mu\psi)A_\mu
 \end{equation}
-
 where $A_\mu$ is a ``gauge field'' that transforms according to 
-
 \begin{equation}
 A_\mu \rightarrow A_\mu + \partial_\mu \lambda . 
 \end{equation}
 
 This vector field must also come with a free term, 
-
 \begin{equation}
 \mathcal{L} = -\frac{1}{16\pi}F^{\mu\nu}F_{\mu\nu} + \frac{1}{8\pi}m_A^2A^\nu A_\nu . 
 \end{equation}
-
 The mass term for this field would not itself be invariant under the transformation, but the field can simply be made massless to avoid this problem. The final Lagrangian, then, is 
-
 \begin{equation}
 \mathcal{L} = i\bar{\psi}\gamma^\mu \partial_\mu\psi - m \bar{\psi}\psi -\frac{1}{16\pi}F^{\mu\nu}F_{\mu\nu} - (q\bar{\psi}\gamma^\mu\psi)A_\mu
 \label{eq:l_em}
 \end{equation}
-
 which is precisely the original Lagrangian with the addition of terms replicating the form of the Maxwell Lagrangian. In a quantized interpretation, it describes a field that interacts with particles with non-zero electromagnetic charge $q$ via interactions with a massless spin-1 boson, the photon. In the quantum formulization, this charge is dependent on the energy scale of the interaction, and the strength of the interaction is more typically described by the electromagnetic coupling constant
-
 \begin{equation}
 \alpha_{EM}(\mu) =  q(\mu)^2 / 4\pi . 
 \end{equation}
 
 For the purpose of succinct notation, this Lagrangian is often rewritten in terms of the \textit{covariant derivative}
-
 \begin{equation}
 D_\mu = \partial_\mu + iq\lambda A_\mu
 \end{equation}
-
 which immediately cancels the gauge dependent term created by the transformation. This mechanism is mathematically simple in the $U(1)$ case, but can be replicated for more complicated gauge transformations with perturbative approximations. 
 
 %-------------------------------------------------------------------------------------------------------
@@ -150,7 +138,7 @@ The first term of the Lagrangian gives the gluon self-coupling interactions, wit
 \end{figure}
 \end{centering}
 
-In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the quark field. The quarks are in fact charged under all three forces, strong, electromagnetic, and weak, so the covariant derivative includes terms to make each of the force's Lagrangians gauge invariant. Thus this term introduces quark-boson interactions of four types, seen in \autoref{fig:feynman_quarks}. The quarks' coupling to the gluon is the strongest, with the other couplings happening at lower rates. The couplings to the $W$ and $Z$ bosons are described in \autoref{sec:ew}.
+In the second term, $\slashed{D} Q_m$ is the covariant derivative acting on the quark field. The quarks are in fact charged under all three forces, strong, electromagnetic, and weak, so the covariant derivative includes terms to make each of the force's Lagrangians gauge invariant. Thus this term introduces quark-boson interactions of four types, seen in \autoref{fig:feynman_quarks}. The quarks' coupling to the gluon is the strongest, and the other, weaker couplings occur at lower rates. The couplings to the $W$ and $Z$ bosons are described in \autoref{sec:ew}.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -268,7 +256,7 @@ The fermion portion of the Lagrangian is written as
 \end{split}
 \end{equation}
 
-where $L$ is the left-handed lepton doublet, $Q$ is the left-handed quark doublet, $U$ is the right-handed singlet for up-type quarks, $D$ is the same for down-type quarks, and $E$ is the right-handed singlet for electrons, muons and taus. Each of these fields has an implicit index running from 1 to 3 to represent the three generations. The covariant derivative in each term includes terms including all the gauge fields the fermion is charged under. Unlike the other forces, the weak force treats left- and right-handed fermion fields differently; it only interacts with the left-handed fields, so only the first two terms' covariant derivatives include $\bm{W}$ terms. The first term in this Lagrangian, for example, produces weak interactions depicted in \autoref{fig:feynman_weak}. The $Z$ bosons, because they represent a mixing between the $\bm{W}$ and $B$ fields, can interact with right-handed leptons and quarks, but do so with different strengths than left-handed particles.
+where $L$ is the left-handed lepton doublet, $Q$ is the left-handed quark doublet, $U$ is the right-handed singlet for up-type quarks, $D$ is the same for down-type quarks, and $E$ is the right-handed singlet for electrons, muons and taus. Each of these fields has an implicit index running from 1 to 3 to represent the three generations. The covariant derivative in each term includes terms including all the gauge fields the fermion is charged under. Unlike the other forces, the weak force treats left- and right-handed fermion fields differently; it only interacts with the left-handed fields, so only the first two terms' covariant derivatives include $\bm{W}$ terms. The first term in this Lagrangian, for example, produces weak interactions depicted in \autoref{fig:feynman_weak}. The $Z$ bosons, because they represent a mixing between the $\bm{W}$ and $B$ fields, can interact with right-handed leptons and quarks, but these interactions are different for the two chiralities. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -294,7 +282,7 @@ The Higgs mechanism presents a way to generate a mass term for the electroweak g
 \mathcal{L}_{Higgs} = \frac{1}{2}(\partial_\mu\phi)^*(\partial^\mu\phi) + \frac{1}{2}\mu^2\phi^*\phi - \frac{1}{4}\lambda^4(\phi^*\phi)^2
 \end{equation}
 
-where $\phi$ is a complex scalar field, $\phi = \phi_1 + i\phi_2$. This looks very similar to a standard scalar field Lagrangian, but the signs on the mass and interaction terms are reversed, implying an imaginary mass term. However, this isn't a good interpretation of the Lagrangian, because it differs from all previously considered Lagrangians in one important way: its ground state does not occur at $\phi = 0$. Because quantum field theory is perturbative, its validity only holds when expanded around a ground state, which, when calculated for this Higgs Lagrangian, must satisfy
+where $\phi$ is a complex scalar field, $\phi = \phi_1 + i\phi_2$. This looks very similar to a standard scalar field Lagrangian, but the signs on the mass and interaction terms are reversed, implying an imaginary mass term. However, this isn't a good interpretation of the Lagrangian, because it differs from all previously considered Lagrangians in one important way: its ground state does not occur at $\phi = 0$. Because quantum field theory is perturbative, it is valid only when expanded around a ground state, which, when calculated for this Higgs Lagrangian, must satisfy
 
 \begin{equation}
 \phi_1^2 + \phi_2^2 = \frac{\mu^2}{\lambda^4} . 
@@ -397,7 +385,7 @@ Matrix elements, in an ideal world, would include every possible Feynman diagram
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.60\linewidth]{figures/lhc/crosssections2013.jpg}
+\includegraphics[width=.75\linewidth]{figures/lhc/crosssections2013.jpg}
 \caption{Cross-sections for many \ac{SM} processes as a function of $\sqrt{s}$ \cite{crosssections}.}
 \label{fig:cross_sections}
 \end{figure}
@@ -420,7 +408,7 @@ Jets don't always come directly from the hard scattering process; collisions in 
 \subsection{Problems in the Standard Model}
 \label{sec:sm_problems}
 
-Although the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces it includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. The Planck scale, the energy scale at which gravitational interactions become large enough that no sound theory can ignore gravity, is at about $10^{19}$ \GeV, 16 orders of magnitude above the electroweak scale, so the exclusion of gravity from the \ac{SM} is unlikely to directly affec \ac{LHC} physics. 
+Although the \ac{SM} is a self-consistent theory that describes to great accuracy all of the particles and forces it includes, it does have certain shortcomings. The most glaring is the omission of gravity. Though the force is well understood at large scales via the theory of General Relativity, no satisfying quantum description of gravity has been accepted, much less proven. The Planck scale, the energy scale at which gravitational interactions become large enough that no sound theory can ignore gravity, is at about $10^{19}$ \GeV, 16 orders of magnitude above the electroweak scale, so the exclusion of gravity from the \ac{SM} is unlikely to directly affect \ac{LHC} physics. 
 
 Another clear omission of the \ac{SM} is \acf{DM}, so named for its lack of electromagnetic interactions. This type of matter was first identified in 1933 through the observation of galactic rotation curves \cite{zwicky}. The speed of rotation indicated both that there was more mass in the system than could be accounted for by observations made directly of the galaxy, and that this additional matter was distributed in a halo, not a disk like the typical luminous matter. This effect can be seen in \autoref{fig:dm_curve}, which demonstrates that the observed galactic density as a function of radius does not match the expected density from the luminous galactic disk. Since then, evidence for \ac{DM} has been observed in colliding clusters \cite{astro-ph/0608407}, measurements of the cosmic microwave background \cite{0803.0732}, and in many more rotational curves, but the particles that form \ac{DM} have never been directly detected or seen at a particle accelerator. As a consequence, very few details are known about the nature of this matter, only its density throughout the universe and that it does not interact strongly or electromagnetically. 
 
@@ -437,7 +425,7 @@ Beyond the omissions of gravity and \ac{DM}, there are several aesthetic problem
 
 In the past, large numbers of seemingly unrelated parameters have indicated that a theory has a more fundamental form at shorter distance scales. The large number of elements, it turned out, could be explained by different groupings of three particles, the proton, neutron, and electron. Later, the menagerie of hadrons became so large that a similar re-imagining of what was fundamental took place, and the theory of quarks gave an order to the many mesons and baryons \cite{Gell-Mann_1961}. This pattern leaves physicists suspicious of any theory with too many particles and free parameters, suggesting that perhaps, at a higher energy, there is a simpler model that can unify many of the seemingly disparate elements of the \ac{SM}. 
 
-In addition, some of these seemingly independent parameters have suspicious symmetry. The Higgs mass, for example, has been measured to be 125.7 $\pm$ 0.4 \gev \cite{Agashe:2014kda}. This mass is the sum of the bare mass, the one that appears in the Lagrangian, and quantum corrections from interactions with other particles, which are proportional to the square of the particles' mass. Since new physics must exist at the Planck scale to account for gravity, these corrections could be up to 35 orders of magnitude larger than the Higgs mass. Though the bare mass could theoretically cancel out this massive correction, these parameters should be independent, and the odds that they would be precisely the same to 35 places are very, very small. This near-exact canceling is often called \textit{fine-tuning}, an undesirable trait in a theory which suggests that some more fundamental symmetry has been missed. A \textit{natural} solution, one free of this fine-tuning, is sought to resolve this \ac{SM} problem. 
+In addition, some of these seemingly independent parameters have suspicious symmetry. The Higgs mass, for example, has been measured to be 125.7 $\pm$ 0.4 \gev \cite{Agashe:2014kda}. This mass is the sum of the bare mass, the one that appears in the Lagrangian, and quantum corrections from interactions with other particles, which are proportional to the square of energy at which these interactions occur. If no new physics exists at energies lower than the Planck scale (when the \ac{SM} Lagrangian must change to account for gravity), these corrections could be up to 35 orders of magnitude larger than the Higgs mass. Though the bare mass could theoretically cancel out this massive correction, these parameters should be independent, and the odds that they would be precisely the same to 35 places are very, very small. This near-exact canceling is often called \textit{fine-tuning}, an undesirable trait in a theory which suggests that some more fundamental symmetry has been missed. A \textit{natural} solution, one free of this fine-tuning, is sought to resolve this \ac{SM} problem. 
 
 %-------------------------------------------------
 
@@ -512,7 +500,7 @@ Because there are very strong limits on non-conservation of $B-L$ from proton de
 P_R = -1^{3(B-L)+2s}
 \end{equation}
 
-where $s$ is the spin of the particle. Requiring that all terms in the Lagrangian have a multiplicative $P_R$ of 1 excludes the terms in \autoref{eq:rviol}, removing the interactions that would lead to proton decay. All \ac{SM} particles are $R$-parity even, while the sparticles are $R$-parity odd, so the conservation of $R$-parity can translate into a conservation of number of particles and sparticles. As a consequence, massive sparticles typically decay through a chain of lighter sparticles, emitting \ac{SM} particles along the way.  
+where $s$ is the spin of the particle. Requiring that all terms in the Lagrangian have a multiplicative $P_R$ of 1 excludes the terms in \autoref{eq:rviol}, removing the interactions that would lead to proton decay. All \ac{SM} particles are $R$-parity even, while the sparticles are $R$-parity odd, so the conservation of $R$-parity can translate into a conservation of number of sparticles minus the number of anti-sparticles. As a consequence, massive sparticles typically decay through a chain of lighter sparticles, emitting \ac{SM} particles along the way.  
 
 \subsection{Solutions to Standard Model Problems}
 
@@ -538,7 +526,7 @@ This naturalness mass limit, as well as the unification of couplings, make the a
 
 There are many different theorized models of \ac{SUSY}, with different mechanisms for breaking the symmetry. The \ac{MSSM} has 120 free parameters, with complex interactions that determine the mass hierarchy and interaction rates of the sparticles. From an experimental point of view, the details of these theories and the exact way the hierarchies are generated are less relevant to a search than their outputs. 
 
-Simplified models, which are typically inspired by more complete theories, are used to tune the observables of a model more directly. These models each consist of one production and decay diagram, with the masses and branching ratios of the particles free to be tuned directly. In a more complete theory, it is instead necessary to modify more fundamental parameters like the symmetry breaking scale. A change like this impacts the properties of all the sparticles, but the details of its impact are model dependent. The simplified models allow for relatively model independent interpretations that can be reinterpreted in the context of a more complete \ac{SUSY} theory \cite{1608.00872}.
+Simplified models, which are typically inspired by more complete theories, are used to tune the observables of a model more directly. These models each consist of one production and decay diagram, with the masses and branching ratios of the particles free to be tuned directly. In a more complete theory, it is instead necessary to modify more fundamental parameters like the symmetry breaking scale. A change like this impacts the properties of all the sparticles. The details of its impact are model dependent. The simplified models allow for relatively model independent interpretations that can be reinterpreted in the context of a more complete \ac{SUSY} theory \cite{1608.00872}.
 
 In the analysis presented in \autoref{part:search}, a simplified model is used which produces the decay depicted in \autoref{fig:simpmodel} with a 100\% branching ratio. This decay chain begins with the pair production of gluinos, which decay via a pair of quarks to the second lightest neutralino, which then decay via a $Z$ boson to the lightest neutralino. Only events in which the $Z$ boson decays to pairs of electrons or muons are considered, with all-hadronic final states left to other searches \cite{ATLAS:2016kts}. The quarks emitted in the gluon decay are allowed to have flavors $u$, $d$, $c$, and $s$, each with a 25\% probability. A similar model involving squark pair production is also considered, with the same breakdown of flavors. In this simplified model, the lightest neutralino is the \ac{LSP}, and is stable. 
 
@@ -551,7 +539,7 @@ In the analysis presented in \autoref{part:search}, a simplified model is used w
 \end{figure}
 \end{centering}
 
-Using this simplified model, the masses of the particles can be set directly. This is very helpful for the generation of \ac{MC}, discussed in \autoref{sec:MC_gen}, because a grid of different mass values of the important sparticles involved in the decay can be generated. Cross-sections calculations are performed for each point on these grids \cite{1105.1110}. This grid allows analyzers to make predictions of likely signals, and to exclude the simplified models as a function of the mass of the sparticles in the case that no discrepancies between predictions and observations are seen. 
+Using this simplified model, the masses of the particles can be set directly. This is very helpful for the generation of \acf{MC}, discussed in \autoref{sec:MC_gen}, because a grid of different mass values of the important sparticles involved in the decay can be generated. Cross-sections calculations are performed for each point on these grids \cite{1105.1110}. This grid allows analyzers to make predictions of likely signals, and to exclude the simplified models as a function of the mass of the sparticles in the case that no discrepancies between predictions and observations are seen. 
 
 
 \subsubsection{Context and Motivation}

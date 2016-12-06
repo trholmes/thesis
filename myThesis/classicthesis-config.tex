@@ -32,10 +32,10 @@
 %----------------------------------------------------------------------------------------
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
-\PassOptionsToPackage{eulerchapternumbers,listings, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
+\PassOptionsToPackage{eulerchapternumbers,listings, pdfspacing, subfig,beramono,eulermath,parts,manychapters}{classicthesis}
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 
-\newcommand{\myTitle}{A Search for Supersymmetry in Events with a Z Boson, Jets, and Missing Transverse Energy in $p-p$ Collisions with $\sqrt{s}$=13 TeV with the ATLAS Detector\xspace}
+\newcommand{\myTitle}{A Search for Supersymmetry in Events with a Z Boson, Jets, and Missing Transverse Energy in $pp$ Collisions with $\sqrt{s}$=13 TeV with the ATLAS Detector\xspace}
 \newcommand{\mySubtitle}{ \xspace}
 \newcommand{\myDegree}{Doctor of Philosophy (PhD)\xspace}
 \newcommand{\myName}{Tova Ray Holmes\xspace}
@@ -46,7 +46,7 @@
 \newcommand{\myDepartment}{Physics Department\xspace}
 \newcommand{\myUni}{University of California, Berkeley\xspace}
 \newcommand{\myLocation}{Berkeley, CA\xspace}
-\newcommand{\myTime}{August 2016\xspace}
+\newcommand{\myTime}{December 2016\xspace}
 \newcommand{\myVersion}{version 1.0\xspace}
 
 %----------------------------------------------------------------------------------------
@@ -150,6 +150,11 @@ natbib=true % natbib compatibility mode (\citep and \citet still work)
 \captionsetup{font=small}
 \usepackage{subfig}  
 
+% Center by default
+\makeatletter
+\g@addto@macro\@floatboxreset\centering
+\makeatother 
+
 %----------------------------------------------------------------------------------------
 %	CODE LISTINGS SETUP
 %----------------------------------------------------------------------------------------
@@ -246,9 +251,9 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 %----------------------------------------------------------------------------------------
 
 %\linespread{1.05} % a bit more for Palatino
-\areaset[current]{360pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
-\setlength{\marginparwidth}{7em}%
-\setlength{\marginparsep}{2em}%
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
 
 %----------------------------------------------------------------------------------------
 %	USING DIFFERENT FONTS

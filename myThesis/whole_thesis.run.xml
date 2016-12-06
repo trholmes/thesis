@@ -41,16 +41,14 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>whole_thesis.aux</file>
-      <file>whole_thesis1-blx.aux</file>
       <file>whole_thesis-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>whole_thesis.bbl</file>
-      <file>whole_thesis1-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -65,7 +63,7 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex8</binary>
@@ -93,34 +91,6 @@
       <file>atlaslatex/bibtex/bib/ConfNotes.bib</file>
       <file>atlaslatex/bibtex/bib/PubNotes.bib</file>
       <file>Bibliography.bib</file>
-    </requires>
-    <requires type="static">
-      <file>biblatex.bst</file>
-    </requires>
-  </external>
-  <external package="biblatex" priority="5" active="1">
-    <generic>bibtex</generic>
-    <cmdline>
-      <binary>bibtex8</binary>
-      <option>--wolfgang</option>
-      <option>--min_crossrefs 2</option>
-      <infile>whole_thesis1-blx</infile>
-    </cmdline>
-    <input>
-      <file>whole_thesis1-blx.aux</file>
-    </input>
-    <output>
-      <file>whole_thesis1-blx.bbl</file>
-    </output>
-    <provides type="dynamic">
-      <file>whole_thesis1-blx.bbl</file>
-    </provides>
-    <requires type="dynamic">
-      <file>whole_thesis1-blx.aux</file>
-      <file>whole_thesis-blx.bib</file>
-    </requires>
-    <requires type="editable">
-      <file>ownpubs.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

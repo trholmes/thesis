@@ -99,7 +99,7 @@ To validate the method, it is repeated in VRS using a fit acquired from VRT. The
 
 \begin{table}[hbt]
 \begin{center}
-\begin{tabular}{ll}
+\begin{tabular}{lc}
 \hline
 Fit region & \ttbar\ normalization ($\mu$) \\ 
 \hline\hline
@@ -289,7 +289,7 @@ in \ac{MC}, and in data according to
 f_\text{data}(x) = \frac{N_{\text{data}}(x)-N_{t\bar{t}}(x)-N_{\text{VV}}(x)}{N_{\gjets\ \text{data}}(x)}
 \end{equation}
 
-where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ selection. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events.
+where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -301,9 +301,11 @@ where the contamination from other backgrounds is taken from \ac{MC} and subtrac
 \end{figure}
 \end{centering}
 
-This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. Because, excluding \met contributions, the boson \pt must match the energy of the jet system off which it recoils, these two variables are closely tied. Once the two samples have similar amounts of hadronic energy, the \met contribution from mismeasurement of jet energy should also be similar. 
+The data- and \ac{MC}-derived reweighting functions each have their own benefits. The data-based functions are of course not subject to any potential mismodeling, but it is possible to have contamination from other processes that is not accounted for. Because good agreement between data and \ac{MC} is seen in the boson \pt spectrums, contamination was deemed a higher concern than mismodeling, and the \ac{MC}-based function was used as the nominal smearing function, with the data-based function used as a cross-check.
 
-Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely match that of the $Z$ events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. Once the \met distribution is well described, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ can be applied. 
+This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. Because, excluding \met contributions, the boson \pt must match the energy of the jet system off which it recoils, these two variables are closely tied. Once the two samples are reweighted to have similar amounts of hadronic energy, the \met contribution from mismeasurement of jets, which scales according to the square root of the jet energy, should also be the same between the two samples. 
+
+Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely matches that of the $Z$ events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. In the $ee$ channel, the \met distribution looks similar between \dyjets and \gjets events up to about 150 \gev. Above this value, the differences between $\gamma$ and $Z\rightarrow ee$ resolutions seen in the tails of \autoref{fig:photon_metparallel} become significant. In the $mm$ channel, the discrepancy between the \met in \dyjets and \gjets events begins at much lower values. In both cases, the application of \pt reweighting and smearing result in excellent agreement between the two \met spectra, with most of the improvement resulting from the smearing factors. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -327,16 +329,19 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \end{figure}
 \end{centering}
 
+Finally, with the \met distribution finalized in the \gjets prediction, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ can be applied at this stage. 
+
+
 \subsection{Determining \HT and \mll}
 \label{sec:photon_mll}
 
-One complication thus far ignored is that CR-$\gamma$ has no leptons, but some quantities that define the \ac{SR} require them, namely \HT (which includes the \pt of the two leading leptons) and \mll. Both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
+One complication thus far ignored is that CR-$\gamma$ has no leptons, but some quantities that define the \ac{SR} require them, namely \mll~and \HT. There is no analogue of \mll~in photon events, and though the contribution of leptons to the \HT variable could be related to the \pt of the boson in \gjets events, the relationship depends on the angular distributions between lepton pairs in \dyjets events and must account for the mass of the $Z$ boson. Instead of determining an analytic function to describe such a relation, both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
 
-In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ \pt bin. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
+In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ \pt bin using $Z\rightarrow \ell \ell$ \ac{MC}. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
 
-The \mll~determination is done after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses the $\Delta$\pt assigned to it during the smearing process to index the distribution, and an \mll~value is sampled from the corresponding bin \footnote{Ideally this $\Delta$\pt would also include the difference between the true and reconstructed \pt of the photon events, but this information is of course not accessible in data. Luckily, in the events in the final \ac{SR} this value is typically negligible compared to the $\Delta$\pt from smearing, so the impact is small.} 
+The \mll~determination is performed after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses the $\Delta$\pt assigned to it during the smearing process to index the distribution, and an \mll~value is sampled from the corresponding bin \footnote{Ideally this $\Delta$\pt would also include the difference between the true and reconstructed \pt of the photon events, but this information is of course not accessible in data. Luckily, in the events in the final \ac{SR} this value is typically negligible compared to the $\Delta$\pt from smearing, so the impact is small.}. 
 
-To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. After the \mll~distribution has been emulated, a cut requiring that the photon events be ``on the $Z$ mass peak'' can be required.
+To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. Though there are some areas of disagreement across the \mll~spectrum, very good closure is seen on the on-$Z$ bin, which is what is needed for the estimate of SRZ's backgrounds. After the \mll~distribution has been emulated, a cut requiring that the photon events be ``on the $Z$-mass peak'' can be required.
 
 \begin{centering}
 \begin{figure}[!hbt]
