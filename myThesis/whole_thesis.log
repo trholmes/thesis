@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 DEC 2016 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 DEC 2016 17:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1700,7 +1700,7 @@ File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 ...lepage\include{FrontBackMatter/Dedication}
+l.91 ...lepage\include{FrontBackMatter/Dedication}
                                                    % Dedication page [1
 
 
@@ -1719,7 +1719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 ...e\include{FrontBackMatter/Acknowledgments}
+l.98 ...e\include{FrontBackMatter/Acknowledgments}
                                                    % Acknowledgements page
 [2
 
@@ -2136,13 +2136,13 @@ l.142 \acro{CL}{Confidence Level}
 Package scrlayer-scrpage Warning: Command \deftripstyle is deprecate.
 (scrlayer-scrpage)                You should replace it by \deftriplepagestyle,
 
-(scrlayer-scrpage)                e.g., on input line 108.
+(scrlayer-scrpage)                e.g., on input line 110.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122 \part{Introduction}
+l.124 \part{Introduction}
                           % First part of the thesis [1
 
 
@@ -2157,9 +2157,9 @@ l.122 \part{Introduction}
 (./Chapters/Chapter01.tex
 Chapter 1.
 
-Overfull \hbox (6.9789pt too wide) in paragraph at lines 13--14
-[]\T1/pplj/m/n/10.95 Supersymmetry si-mul-ta-ne-ously solves more of the Stan-d
-ard Model's
+Overfull \hbox (1.3786pt too wide) in paragraph at lines 11--12
+[]\T1/pplj/m/n/10.95 In 2012, the A Toroidal LHC Ap-pa-ra-tus ([])[] and Com-pa
+ct Muon
  []
 
 [2
@@ -2180,7 +2180,7 @@ although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:SUSY' newly defined as it shall be overridden
 
 although it is yet undefined on input line 8.
-<figures/theory/standardmodel.png, id=1123, 1086.0575pt x 782.925pt>
+<figures/theory/standardmodel.png, id=1134, 1086.0575pt x 782.925pt>
 File: figures/theory/standardmodel.png Graphic file (type png)
 
 <use figures/theory/standardmodel.png>
@@ -2190,13 +2190,7 @@ Package pdftex.def Info: figures/theory/standardmodel.png used on input line 21
  [6
 
 
-]
-Overfull \hbox (6.46507pt too wide) in paragraph at lines 38--39
-[]\T1/pplj/m/n/10.95 Unlike the mas-sive lep-tons, the neu-tri-nos are not elec
--tri-cally charged,
- []
-
-[7 <./figures/theory/standardmodel.png>]
+] [7 <./figures/theory/standardmodel.png>]
 Overfull \hbox (0.39519pt too wide) in paragraph at lines 47--48
 \T1/pplj/m/n/10.95 quark and one anti-quark with the same color charge, or thre
 e-particle
@@ -2208,192 +2202,183 @@ Overfull \hbox (1.33614pt too wide) in paragraph at lines 70--72
 tic La-grangian,
  []
 
-[9] [10] <feynman/gluon_3.pdf, id=1188, 72.56108pt x 66.47034pt>
+[9]
+Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
+although it is yet undefined on input line 116.
+ [10] <feynman/gluon_3.pdf, id=1200, 72.56108pt x 66.47034pt>
 File: feynman/gluon_3.pdf Graphic file (type pdf)
 
 <use feynman/gluon_3.pdf>
-Package pdftex.def Info: feynman/gluon_3.pdf used on input line 134.
+Package pdftex.def Info: feynman/gluon_3.pdf used on input line 139.
 (pdftex.def)             Requested size: 151.19897pt x 138.5339pt.
 
-<feynman/gluon_4.pdf, id=1189, 64.22694pt x 66.47034pt>
+<feynman/gluon_4.pdf, id=1201, 64.22694pt x 66.47034pt>
 File: feynman/gluon_4.pdf Graphic file (type pdf)
 
 <use feynman/gluon_4.pdf>
-Package pdftex.def Info: feynman/gluon_4.pdf used on input line 135.
+Package pdftex.def Info: feynman/gluon_4.pdf used on input line 140.
 (pdftex.def)             Requested size: 134.39795pt x 139.109pt.
 
-Overfull \hbox (3.12325pt too wide) in paragraph at lines 141--142
-\T1/pplj/m/n/10.95 strong, elec-tro-mag-netic, and weak, so the co-vari-ant der
-iva-tive in-cludes
- []
-
-<feynman/quark_strong.pdf, id=1192, 72.25494pt x 66.47034pt>
+<feynman/quark_strong.pdf, id=1204, 72.25494pt x 66.47034pt>
 File: feynman/quark_strong.pdf Graphic file (type pdf)
 
 <use feynman/quark_strong.pdf>
-Package pdftex.def Info: feynman/quark_strong.pdf used on input line 146.
+Package pdftex.def Info: feynman/quark_strong.pdf used on input line 151.
 (pdftex.def)             Requested size: 151.19897pt x 139.1029pt.
 
-<feynman/quark_em.pdf, id=1193, 72.85919pt x 66.47034pt>
+<feynman/quark_em.pdf, id=1205, 72.85919pt x 66.47034pt>
 File: feynman/quark_em.pdf Graphic file (type pdf)
 
 <use feynman/quark_em.pdf>
-Package pdftex.def Info: feynman/quark_em.pdf used on input line 147.
+Package pdftex.def Info: feynman/quark_em.pdf used on input line 152.
 (pdftex.def)             Requested size: 151.19897pt x 137.96898pt.
 
-<feynman/quark_w.pdf, id=1194, 96.1171pt x 68.30318pt>
+<feynman/quark_w.pdf, id=1206, 96.1171pt x 68.30318pt>
 File: feynman/quark_w.pdf Graphic file (type pdf)
 
 <use feynman/quark_w.pdf>
-Package pdftex.def Info: feynman/quark_w.pdf used on input line 148.
-(pdftex.def)             Requested size: 151.19897pt x 107.45401pt.
+Package pdftex.def Info: feynman/quark_w.pdf used on input line 153.
+(pdftex.def)             Requested size: 161.27856pt x 114.6172pt.
 
-<feynman/quark_z.pdf, id=1195, 74.66795pt x 66.47034pt>
+<feynman/quark_z.pdf, id=1207, 74.66795pt x 66.47034pt>
 File: feynman/quark_z.pdf Graphic file (type pdf)
 
 <use feynman/quark_z.pdf>
-Package pdftex.def Info: feynman/quark_z.pdf used on input line 149.
+Package pdftex.def Info: feynman/quark_z.pdf used on input line 154.
 (pdftex.def)             Requested size: 151.19897pt x 134.6199pt.
  [11 <./feynman/gluon_3.pdf> <./feynman/gluon_4.pdf>]
-<figures/theory/strong_coupling.png, id=1217, 1027.84pt x 770.88pt>
+<figures/theory/strong_coupling.png, id=1231, 1027.84pt x 770.88pt>
 File: figures/theory/strong_coupling.png Graphic file (type png)
 
 <use figures/theory/strong_coupling.png>
 Package pdftex.def Info: figures/theory/strong_coupling.png used on input line 
-168.
+173.
 (pdftex.def)             Requested size: 285.60205pt x 214.19815pt.
  [12 <./feynman/quark_strong.pdf> <./feynman/quark_em.pdf> <./feynman/quark_w.p
-df> <./feynman/quark_z.pdf>]
-Package acronym Info: Label `acro:QCD' newly defined as it shall be overridden
-although it is yet undefined on input line 174.
- [13 <./figures/theory/strong_coupling.png (PNG copy)>]
-Overfull \hbox (4.16481pt too wide) in paragraph at lines 217--218
+df> <./feynman/quark_z.pdf>] [13 <./figures/theory/strong_coupling.png (PNG cop
+y)>]
+Overfull \hbox (4.16481pt too wide) in paragraph at lines 222--223
 []\T1/pplj/m/n/10.95 The gauge bosons re-sult-ing from this uni-fied the-ory in
 -clude a triplet,
  []
 
-<feynman/tlgc_z.pdf, id=1267, 87.42863pt x 69.89513pt>
+<feynman/tlgc_z.pdf, id=1281, 87.42863pt x 69.89513pt>
 File: feynman/tlgc_z.pdf Graphic file (type pdf)
 
 <use feynman/tlgc_z.pdf>
-Package pdftex.def Info: feynman/tlgc_z.pdf used on input line 242.
+Package pdftex.def Info: feynman/tlgc_z.pdf used on input line 247.
 (pdftex.def)             Requested size: 151.19897pt x 120.88489pt.
 
-<feynman/tlgc_g.pdf, id=1268, 85.61987pt x 69.89513pt>
+<feynman/tlgc_g.pdf, id=1282, 85.61987pt x 69.89513pt>
 File: feynman/tlgc_g.pdf Graphic file (type pdf)
 
 <use feynman/tlgc_g.pdf>
-Package pdftex.def Info: feynman/tlgc_g.pdf used on input line 243.
+Package pdftex.def Info: feynman/tlgc_g.pdf used on input line 248.
 (pdftex.def)             Requested size: 151.19897pt x 123.44452pt.
  [14 <./feynman/tlgc_z.pdf> <./feynman/tlgc_g.pdf>]
-<feynman/weak_wplus.pdf, id=1302, 93.27145pt x 68.21986pt>
+<feynman/weak_wplus.pdf, id=1317, 93.27145pt x 68.21986pt>
 File: feynman/weak_wplus.pdf Graphic file (type pdf)
 
 <use feynman/weak_wplus.pdf>
-Package pdftex.def Info: feynman/weak_wplus.pdf used on input line 264.
+Package pdftex.def Info: feynman/weak_wplus.pdf used on input line 271.
 (pdftex.def)             Requested size: 151.19897pt x 110.59468pt.
 
-<feynman/weak_wminus.pdf, id=1303, 93.38287pt x 68.21986pt>
+<feynman/weak_wminus.pdf, id=1318, 93.38287pt x 68.21986pt>
 File: feynman/weak_wminus.pdf Graphic file (type pdf)
 
 <use feynman/weak_wminus.pdf>
-Package pdftex.def Info: feynman/weak_wminus.pdf used on input line 265.
+Package pdftex.def Info: feynman/weak_wminus.pdf used on input line 272.
 (pdftex.def)             Requested size: 151.19897pt x 110.4656pt.
 
-<feynman/weak_zll.pdf, id=1304, 73.02582pt x 67.85953pt>
+<feynman/weak_zll.pdf, id=1319, 73.02582pt x 67.85953pt>
 File: feynman/weak_zll.pdf Graphic file (type pdf)
 
 <use feynman/weak_zll.pdf>
-Package pdftex.def Info: feynman/weak_zll.pdf used on input line 266.
+Package pdftex.def Info: feynman/weak_zll.pdf used on input line 273.
 (pdftex.def)             Requested size: 151.19897pt x 140.5211pt.
 
-<feynman/weak_zvv.pdf, id=1305, 77.85487pt x 65.58101pt>
+<feynman/weak_zvv.pdf, id=1320, 77.85487pt x 65.58101pt>
 File: feynman/weak_zvv.pdf Graphic file (type pdf)
 
 <use feynman/weak_zvv.pdf>
-Package pdftex.def Info: feynman/weak_zvv.pdf used on input line 267.
+Package pdftex.def Info: feynman/weak_zvv.pdf used on input line 274.
 (pdftex.def)             Requested size: 151.19897pt x 127.38007pt.
  [15 <./feynman/weak_wplus.pdf> <./feynman/weak_wminus.pdf> <./feynman/weak_zll
-.pdf> <./feynman/weak_zvv.pdf>] [16]
-<feynman/higgs_ww.pdf, id=1356, 89.01254pt x 69.89513pt>
+.pdf> <./feynman/weak_zvv.pdf>]
+<feynman/higgs_ww.pdf, id=1362, 89.01254pt x 69.89513pt>
 File: feynman/higgs_ww.pdf Graphic file (type pdf)
 
 <use feynman/higgs_ww.pdf>
-Package pdftex.def Info: feynman/higgs_ww.pdf used on input line 306.
+Package pdftex.def Info: feynman/higgs_ww.pdf used on input line 313.
 (pdftex.def)             Requested size: 151.19897pt x 118.7412pt.
 
-<feynman/higgs_zz.pdf, id=1357, 78.97003pt x 67.63669pt>
+<feynman/higgs_zz.pdf, id=1363, 78.97003pt x 67.63669pt>
 File: feynman/higgs_zz.pdf Graphic file (type pdf)
 
 <use feynman/higgs_zz.pdf>
-Package pdftex.def Info: feynman/higgs_zz.pdf used on input line 307.
+Package pdftex.def Info: feynman/higgs_zz.pdf used on input line 314.
 (pdftex.def)             Requested size: 137.76123pt x 117.99133pt.
 
-<feynman/higgs_hhww.pdf, id=1358, 80.6784pt x 69.89513pt>
+<feynman/higgs_hhww.pdf, id=1364, 80.6784pt x 69.89513pt>
 File: feynman/higgs_hhww.pdf Graphic file (type pdf)
 
 <use feynman/higgs_hhww.pdf>
-Package pdftex.def Info: feynman/higgs_hhww.pdf used on input line 308.
+Package pdftex.def Info: feynman/higgs_hhww.pdf used on input line 315.
 (pdftex.def)             Requested size: 151.19897pt x 130.99968pt.
 
-<feynman/higgs_hhzz.pdf, id=1359, 70.6369pt x 67.63669pt>
+<feynman/higgs_hhzz.pdf, id=1365, 70.6369pt x 67.63669pt>
 File: feynman/higgs_hhzz.pdf Graphic file (type pdf)
 
 <use feynman/higgs_hhzz.pdf>
-Package pdftex.def Info: feynman/higgs_hhzz.pdf used on input line 309.
+Package pdftex.def Info: feynman/higgs_hhzz.pdf used on input line 316.
 (pdftex.def)             Requested size: 134.39795pt x 128.71022pt.
-
-<feynman/higgs_ll.pdf, id=1364, 74.60974pt x 67.85953pt>
+ [16]
+<feynman/higgs_ll.pdf, id=1378, 74.60974pt x 67.85953pt>
 File: feynman/higgs_ll.pdf Graphic file (type pdf)
 
 <use feynman/higgs_ll.pdf>
-Package pdftex.def Info: feynman/higgs_ll.pdf used on input line 332.
+Package pdftex.def Info: feynman/higgs_ll.pdf used on input line 339.
 (pdftex.def)             Requested size: 151.19897pt x 137.51933pt.
 
-<feynman/higgs_qq.pdf, id=1365, 76.25188pt x 66.47034pt>
+<feynman/higgs_qq.pdf, id=1379, 76.25188pt x 66.47034pt>
 File: feynman/higgs_qq.pdf Graphic file (type pdf)
 
 <use feynman/higgs_qq.pdf>
-Package pdftex.def Info: feynman/higgs_qq.pdf used on input line 333.
+Package pdftex.def Info: feynman/higgs_qq.pdf used on input line 340.
 (pdftex.def)             Requested size: 151.19897pt x 131.80534pt.
  [17 <./feynman/higgs_ww.pdf> <./feynman/higgs_zz.pdf> <./feynman/higgs_hhww.pd
-f> <./feynman/higgs_hhzz.pdf>]
-<figures/theory/mstw2008nlo68cl_allpdfs.png, id=1409, 698.61pt x 469.755pt>
+f> <./feynman/higgs_hhzz.pdf> <./feynman/higgs_ll.pdf> <./feynman/higgs_qq.pdf>
+]
+<figures/theory/mstw2008nlo68cl_allpdfs.png, id=1431, 698.61pt x 469.755pt>
 File: figures/theory/mstw2008nlo68cl_allpdfs.png Graphic file (type png)
 
 <use figures/theory/mstw2008nlo68cl_allpdfs.png>
 Package pdftex.def Info: figures/theory/mstw2008nlo68cl_allpdfs.png used on inp
-ut line 365.
+ut line 372.
 (pdftex.def)             Requested size: 285.60205pt x 192.0417pt.
- [18 <./feynman/higgs_ll.pdf> <./feynman/higgs_qq.pdf>]
+ [18 <./figures/theory/mstw2008nlo68cl_allpdfs.png>]
 Package acronym Info: Label `acro:LO' newly defined as it shall be overridden
-although it is yet undefined on input line 381.
+although it is yet undefined on input line 388.
 Package acronym Info: Label `acro:NLO' newly defined as it shall be overridden
-although it is yet undefined on input line 381.
- [19 <./figures/theory/mstw2008nlo68cl_allpdfs.png>]
-<figures/lhc/crosssections2013.jpg, id=1446, 634.5306pt x 823.27576pt>
+although it is yet undefined on input line 388.
+
+<figures/lhc/crosssections2013.jpg, id=1451, 634.5306pt x 823.27576pt>
 File: figures/lhc/crosssections2013.jpg Graphic file (type jpg)
 
 <use figures/lhc/crosssections2013.jpg>
 Package pdftex.def Info: figures/lhc/crosssections2013.jpg used on input line 3
-88.
+95.
 (pdftex.def)             Requested size: 252.0pt x 326.95534pt.
-
-Overfull \hbox (5.15842pt too wide) in paragraph at lines 400--401
-\T1/pplj/m/n/10.95 charged, and the cou-pling con-stant of the strong force in-
-creases asymp-
- []
-
-[20 <./figures/lhc/crosssections2013.jpg>]
+ [19] [20 <./figures/lhc/crosssections2013.jpg>]
 Package acronym Info: Label `acro:DM' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 420.
 
-<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=1470, 690.58pt x 552.0625pt
+<figures/theory/rotatioanl_curve_ngc3198_rc.png, id=1483, 690.58pt x 552.0625pt
 >
 File: figures/theory/rotatioanl_curve_ngc3198_rc.png Graphic file (type png)
  <use figures/theory/rotatioanl_curve_ngc3198_rc.png>
 Package pdftex.def Info: figures/theory/rotatioanl_curve_ngc3198_rc.png used on
- input line 418.
+ input line 425.
 (pdftex.def)             Requested size: 285.60205pt x 228.31825pt.
  [21] [22 <./figures/theory/rotatioanl_curve_ngc3198_rc.png>]
 
@@ -2408,146 +2393,6 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 445.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 445.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 446.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 446.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 447.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 447.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 449.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 449.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 450.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 450.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrreprt)              by `\mathbf ' on input line 452.
 
 
@@ -2604,7 +2449,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 455.
+(scrreprt)              by `\mathbf ' on input line 454.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -2618,7 +2463,35 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\bf' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\mathbf ' on input line 455.
+(scrreprt)              by `\mathbf ' on input line 454.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 456.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 456.
 
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -2677,86 +2550,209 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              by `\mathbf ' on input line 459.
 
 
-Overfull \hbox (18.5818pt too wide) in paragraph at lines 440--464
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 460.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 460.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 462.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 462.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 464.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 464.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 466.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\bf'!
+(scrreprt)              You should note, that in 1994 font command `\bf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\bf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
+(scrreprt)              by `\mathbf ' on input line 466.
+
+
+Overfull \hbox (18.5818pt too wide) in paragraph at lines 447--471
  [] 
  []
 
-[23] <feynman/gluino.pdf, id=1531, 72.25494pt x 68.8432pt>
+[23] <feynman/gluino.pdf, id=1545, 72.25494pt x 68.8432pt>
 File: feynman/gluino.pdf Graphic file (type pdf)
 
 <use feynman/gluino.pdf>
-Package pdftex.def Info: feynman/gluino.pdf used on input line 482.
+Package pdftex.def Info: feynman/gluino.pdf used on input line 489.
 (pdftex.def)             Requested size: 151.19897pt x 144.06863pt.
 
-<feynman/higgs_stop.pdf, id=1532, 76.16254pt x 71.01833pt>
+<feynman/higgs_stop.pdf, id=1546, 76.16254pt x 71.01833pt>
 File: feynman/higgs_stop.pdf Graphic file (type pdf)
 
 <use feynman/higgs_stop.pdf>
-Package pdftex.def Info: feynman/higgs_stop.pdf used on input line 483.
+Package pdftex.def Info: feynman/higgs_stop.pdf used on input line 490.
 (pdftex.def)             Requested size: 151.19897pt x 140.99706pt.
- [24]
+ [24 <./feynman/gluino.pdf> <./feynman/higgs_stop.pdf>]
 Package acronym Info: Label `acro:LSP' newly defined as it shall be overridden
-although it is yet undefined on input line 507.
+although it is yet undefined on input line 514.
 
-Overfull \hbox (6.62651pt too wide) in paragraph at lines 507--508
-\T1/pplj/m/n/10.95 parity, which, through the for-ma-tion of a new quan-tum num
--ber unique
+Overfull \hbox (1.13031pt too wide) in paragraph at lines 514--515
+\T1/pplj/m/n/10.95 nique to spar-ti-cles, re-quires the [][][]Lightest Su-per-s
+ym-met-ric Par-ti-cle ([])[]
  []
 
-[25 <./feynman/gluino.pdf> <./feynman/higgs_stop.pdf>]
-<figures/theory/phypub4highen.jpg, id=1587, 569.0058pt x 232.4685pt>
+
+Overfull \hbox (1.62617pt too wide) in paragraph at lines 514--515
+\T1/pplj/m/n/10.95 to be sta-ble. This sta-ble par-ti-cle, if it is not elec-tr
+o-mag-net-i-cally charged
+ []
+
+<figures/theory/phypub4highen.jpg, id=1592, 569.0058pt x 232.4685pt>
 File: figures/theory/phypub4highen.jpg Graphic file (type jpg)
 
 <use figures/theory/phypub4highen.jpg>
-Package pdftex.def Info: figures/theory/phypub4highen.jpg used on input line 51
-4.
+Package pdftex.def Info: figures/theory/phypub4highen.jpg used on input line 52
+1.
 (pdftex.def)             Requested size: 302.39795pt x 123.5447pt.
- [26 <./figures/theory/phypub4highen.jpg>] <figures/theory/gogo-qqqqZZN1N1.pdf,
- id=1617, 134.5025pt x 105.39375pt>
+ [25] [26 <./figures/theory/phypub4highen.jpg>] <figures/theory/gogo-qqqqZZN1N1
+.pdf, id=1630, 134.5025pt x 105.39375pt>
 File: figures/theory/gogo-qqqqZZN1N1.pdf Graphic file (type pdf)
 
 <use figures/theory/gogo-qqqqZZN1N1.pdf>
 Package pdftex.def Info: figures/theory/gogo-qqqqZZN1N1.pdf used on input line 
-536.
+543.
 (pdftex.def)             Requested size: 302.39795pt x 236.95682pt.
- [27]
-<figures/theory/nnllfast_wpresc_total.pdf, id=1638, 284.06125pt x 212.795pt>
+ [27 <./figures/theory/gogo-qqqqZZN1N1.pdf>]
+<figures/theory/nnllfast_wpresc_total.pdf, id=1674, 284.06125pt x 212.795pt>
 File: figures/theory/nnllfast_wpresc_total.pdf Graphic file (type pdf)
 
 <use figures/theory/nnllfast_wpresc_total.pdf>
 Package pdftex.def Info: figures/theory/nnllfast_wpresc_total.pdf used on input
- line 552.
+ line 559.
 (pdftex.def)             Requested size: 302.39795pt x 226.55194pt.
 
-Overfull \hbox (13.78166pt too wide) in paragraph at lines 559--560
-\T1/pplj/m/n/10.95 tar-get of pre-vi-ous [][] searches. Both [][] and [][] per-
-formed searches
- []
-
-<figures/theory/figaux_12a.png, id=1653, 1976.38374pt x 1896.08376pt>
+<figures/theory/figaux_12a.png, id=1696, 1976.38374pt x 1896.08376pt>
 File: figures/theory/figaux_12a.png Graphic file (type png)
 
 <use figures/theory/figaux_12a.png>
-Package pdftex.def Info: figures/theory/figaux_12a.png used on input line 564.
+Package pdftex.def Info: figures/theory/figaux_12a.png used on input line 572.
 (pdftex.def)             Requested size: 302.39795pt x 290.09987pt.
 
-<figures/theory/H1_FIT_SF_CE.pdf, id=1666, 569.12625pt x 666.49pt>
+<figures/theory/H1_FIT_SF_CE.pdf, id=1709, 569.12625pt x 666.49pt>
 File: figures/theory/H1_FIT_SF_CE.pdf Graphic file (type pdf)
 
 <use figures/theory/H1_FIT_SF_CE.pdf>
-Package pdftex.def Info: figures/theory/H1_FIT_SF_CE.pdf used on input line 575
+Package pdftex.def Info: figures/theory/H1_FIT_SF_CE.pdf used on input line 583
 .
 (pdftex.def)             Requested size: 302.39795pt x 354.14313pt.
- [28 <./figures/theory/gogo-qqqqZZN1N1.pdf>] <figures/theory/fig_05.png, id=171
-6, 1976.38374pt x 1896.08376pt>
+ [28 <./figures/theory/nnllfast_wpresc_total.pdf>] <figures/theory/fig_05.png, 
+id=1778, 1976.38374pt x 1896.08376pt>
 File: figures/theory/fig_05.png Graphic file (type png)
 
 <use figures/theory/fig_05.png>
-Package pdftex.def Info: figures/theory/fig_05.png used on input line 586.
+Package pdftex.def Info: figures/theory/fig_05.png used on input line 594.
 (pdftex.def)             Requested size: 302.39795pt x 290.09987pt.
-) [29 <./figures/theory/nnllfast_wpresc_total.pdf>] [30 <./figures/theory/figau
-x_12a.png>] [31 <./figures/theory/H1_FIT_SF_CE.pdf>] [32 <./figures/theory/fig_
-05.png>] [33
+) [29 <./figures/theory/figaux_12a.png>]
+[30 <./figures/theory/H1_FIT_SF_CE.pdf>] [31 <./figures/theory/fig_05.png>]
+Overfull \hbox (6.23178pt too wide) in paragraph at lines 144--144
+\T1/pplj/m/n/10.95 cussed, in-clud-ing the mod-el-ing of hard-scattering pro-ce
+sses
+ []
+
+
+Overfull \hbox (3.11479pt too wide) in paragraph at lines 144--144
+\T1/pplj/m/n/10.95 and the sim-u-la-tion of the de-tec-tor. Re-con-struc-tion o
+f events
+ []
+
+[32
 
 
 
@@ -2768,66 +2764,57 @@ x_12a.png>] [31 <./figures/theory/H1_FIT_SF_CE.pdf>] [32 <./figures/theory/fig_
 Chapter 3.
 Package acronym Info: Label `acro:LEP' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:LHCb' newly defined as it shall be overridden
-
-although it is yet undefined on input line 11.
-Package acronym Info: Label `acro:ALICE' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 11.
-<figures/lhc/lhc-5-640x420.jpg, id=1861, 642.4pt x 421.575pt>
+<figures/lhc/lhc-5-640x420.jpg, id=1862, 642.4pt x 421.575pt>
 File: figures/lhc/lhc-5-640x420.jpg Graphic file (type jpg)
 
 <use figures/lhc/lhc-5-640x420.jpg>
 Package pdftex.def Info: figures/lhc/lhc-5-640x420.jpg used on input line 16.
 (pdftex.def)             Requested size: 302.39795pt x 198.45547pt.
+Package acronym Info: Label `acro:LHCb' newly defined as it shall be overridden
 
-<figures/lhc/Cern-accelerator-complex.png, id=1872, 1027.84pt x 669.50125pt>
+although it is yet undefined on input line 22.
+Package acronym Info: Label `acro:ALICE' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 22.
+ [33
+
+
+ <./figures/lhc/lhc-5-640x420.jpg>]
+Overfull \hbox (1.73105pt too wide) in paragraph at lines 29--31
+\T1/pplj/m/n/10.95 proton col-li-sions at 13 TeV[]To achieve this, it must be c
+a-pa-ble of rapidly
+ []
+
+<figures/lhc/Cern-accelerator-complex.png, id=1893, 1027.84pt x 669.50125pt>
 File: figures/lhc/Cern-accelerator-complex.png Graphic file (type png)
 
 <use figures/lhc/Cern-accelerator-complex.png>
 Package pdftex.def Info: figures/lhc/Cern-accelerator-complex.png used on input
- line 32.
+ line 35.
 (pdftex.def)             Requested size: 302.39795pt x 196.96994pt.
 Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
-although it is yet undefined on input line 38.
-
-Overfull \hbox (32.60294pt too wide) in paragraph at lines 38--39
-\T1/pplj/m/n/10.95 gin-ning the for-ma-tion of the bunch struc-ture used for co
-l-li-sions. Quadrupole
- []
-
-[34
-
-
-]
+although it is yet undefined on input line 41.
 Package acronym Info: Label `acro:PSB' newly defined as it shall be overridden
-although it is yet undefined on input line 40.
-
-Overfull \hbox (6.738pt too wide) in paragraph at lines 40--41
-[]\T1/pplj/m/n/10.95 The pro-ton beam is then in-jected into the [][][]Proton S
-yn-chrotron Booster
- []
-
+although it is yet undefined on input line 43.
 Package acronym Info: Label `acro:PS' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
+although it is yet undefined on input line 45.
 
-Overfull \hbox (3.79245pt too wide) in paragraph at lines 42--43
+Overfull \hbox (3.79245pt too wide) in paragraph at lines 45--46
 []\T1/pplj/m/n/10.95 At this point the pro-ton beam is in-jected into the [][][
 ]Proton Syn-chrotron
  []
 
-[35 <./figures/lhc/lhc-5-640x420.jpg> <./figures/lhc/Cern-accelerator-complex.p
-ng>]
-Overfull \hbox (3.81265pt too wide) in paragraph at lines 60--61
+[34 <./figures/lhc/Cern-accelerator-complex.png>]
+Overfull \hbox (3.81265pt too wide) in paragraph at lines 63--64
 \T1/pplj/m/n/10.95 In each straight sec-tion, [][] cav-i-ties ac-cel-er-ate pro
 -tons, ul-ti-mately bring-
  []
 
-<figures/lhc/magnet.jpg, id=1917, 690.9012pt x 540.5796pt>
+<figures/lhc/magnet.jpg, id=1926, 690.9012pt x 540.5796pt>
 File: figures/lhc/magnet.jpg Graphic file (type jpg)
 
 <use figures/lhc/magnet.jpg>
-Package pdftex.def Info: figures/lhc/magnet.jpg used on input line 65.
+Package pdftex.def Info: figures/lhc/magnet.jpg used on input line 68.
 (pdftex.def)             Requested size: 302.39795pt x 236.61021pt.
 Package epstopdf Info: Source file: <figures/lhc/beamspot-run215456-vtx-yx.eps>
 
@@ -2839,17 +2826,17 @@ converted-to.pdf>
 (epstopdf)                    size: 17155 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/lhc/beamspot-run215
 456-vtx-yx-eps-converted-to.pdf figures/lhc/beamspot-run215456-vtx-yx.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lhc/beamspot-run215456-vtx-yx-eps-converted-to.pdf, id=1925, 569.12625
+<figures/lhc/beamspot-run215456-vtx-yx-eps-converted-to.pdf, id=1934, 569.12625
 pt x 385.44pt>
 File: figures/lhc/beamspot-run215456-vtx-yx-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use figures/lhc/beamspot-run215456-vtx-yx-eps-converted-to.pdf>
 Package pdftex.def Info: figures/lhc/beamspot-run215456-vtx-yx-eps-converted-to
-.pdf used on input line 76.
+.pdf used on input line 79.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
 Package epstopdf Info: Source file: <figures/lhc/beamspot-run215456-vtx-xz.eps>
 
@@ -2861,61 +2848,61 @@ converted-to.pdf>
 (epstopdf)                    size: 19795 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/lhc/beamspot-run215
 456-vtx-xz-eps-converted-to.pdf figures/lhc/beamspot-run215456-vtx-xz.eps>
-(epstopdf)             \includegraphics on input line 77.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to.pdf, id=1926, 569.12625
+<figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to.pdf, id=1935, 569.12625
 pt x 385.44pt>
 File: figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to.pdf>
 Package pdftex.def Info: figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to
-.pdf used on input line 77.
+.pdf used on input line 80.
 (pdftex.def)             Requested size: 151.19897pt x 102.39989pt.
- [36] [37 <./figures/lhc/magnet.jpg> <./figures/lhc/beamspot-run215456-vtx-yx-e
+ [35] [36 <./figures/lhc/magnet.jpg> <./figures/lhc/beamspot-run215456-vtx-yx-e
 ps-converted-to.pdf> <./figures/lhc/beamspot-run215456-vtx-xz-eps-converted-to.
 pdf>]
-<figures/lhc/lumi1883.jpg, id=1970, 308.352pt x 221.1462pt>
+<figures/lhc/lumi1883.jpg, id=1980, 308.352pt x 221.1462pt>
 File: figures/lhc/lumi1883.jpg Graphic file (type jpg)
 
 <use figures/lhc/lumi1883.jpg>
-Package pdftex.def Info: figures/lhc/lumi1883.jpg used on input line 114.
+Package pdftex.def Info: figures/lhc/lumi1883.jpg used on input line 117.
 (pdftex.def)             Requested size: 302.39795pt x 216.88037pt.
 
-<figures/lhc/intlumivsyear.png, id=1971, 798.985pt x 574.145pt>
+<figures/lhc/intlumivsyear.png, id=1981, 798.985pt x 574.145pt>
 File: figures/lhc/intlumivsyear.png Graphic file (type png)
 
 <use figures/lhc/intlumivsyear.png>
-Package pdftex.def Info: figures/lhc/intlumivsyear.png used on input line 123.
+Package pdftex.def Info: figures/lhc/intlumivsyear.png used on input line 126.
 (pdftex.def)             Requested size: 302.39795pt x 217.30128pt.
- [38]
-<figures/lhc/mu_2015_2016_LHCC.png, id=1983, 798.985pt x 574.145pt>
+ [37]
+<figures/lhc/mu_2015_2016_LHCC.png, id=1993, 798.985pt x 574.145pt>
 File: figures/lhc/mu_2015_2016_LHCC.png Graphic file (type png)
 
 <use figures/lhc/mu_2015_2016_LHCC.png>
 Package pdftex.def Info: figures/lhc/mu_2015_2016_LHCC.png used on input line 1
-37.
+40.
 (pdftex.def)             Requested size: 285.60205pt x 205.22899pt.
- [39 <./figures/lhc/lumi1883.jpg> <./figures/lhc/intlumivsyear.png>]) [40 <./fi
+ [38 <./figures/lhc/lumi1883.jpg> <./figures/lhc/intlumivsyear.png>]) [39 <./fi
 gures/lhc/mu_2015_2016_LHCC.png>]
 \openout2 = `Chapters/Chapter04.aux'.
 
 
 (./Chapters/Chapter04.tex
 Chapter 4.
-<figures/atlas/detector.pdf, id=2006, 417.10744pt x 259.0453pt>
+<figures/atlas/detector.pdf, id=2016, 417.10744pt x 259.0453pt>
 File: figures/atlas/detector.pdf Graphic file (type pdf)
 
 <use figures/atlas/detector.pdf>
 Package pdftex.def Info: figures/atlas/detector.pdf used on input line 14.
 (pdftex.def)             Requested size: 302.39795pt x 187.80894pt.
- [41
+ [40
 
 
 
  <./figures/atlas/detector.pdf>]
-<figures/atlas/innerdetector.pdf, id=2065, 385.8888pt x 252.12976pt>
+<figures/atlas/innerdetector.pdf, id=2075, 385.8888pt x 252.12976pt>
 File: figures/atlas/innerdetector.pdf Graphic file (type pdf)
 
 <use figures/atlas/innerdetector.pdf>
@@ -2923,35 +2910,35 @@ Package pdftex.def Info: figures/atlas/innerdetector.pdf used on input line 51.
 
 (pdftex.def)             Requested size: 302.39795pt x 197.58374pt.
 
-<figures/atlas/ideta.pdf, id=2068, 452.18472pt x 309.45068pt>
+<figures/atlas/ideta.pdf, id=2078, 452.18472pt x 309.45068pt>
 File: figures/atlas/ideta.pdf Graphic file (type pdf)
 
 <use figures/atlas/ideta.pdf>
 Package pdftex.def Info: figures/atlas/ideta.pdf used on input line 60.
 (pdftex.def)             Requested size: 302.39795pt x 206.95313pt.
- [42]
+ [41]
 Package acronym Info: Label `acro:ToT' newly defined as it shall be overridden
 although it is yet undefined on input line 76.
- [43 <./figures/atlas/innerdetector.pdf>]
-<figures/atlas/IBL-other.png, id=2141, 171.93266pt x 169.30997pt>
+ [42 <./figures/atlas/innerdetector.pdf>]
+<figures/atlas/IBL-other.png, id=2151, 171.93266pt x 169.30997pt>
 File: figures/atlas/IBL-other.png Graphic file (type png)
 
 <use figures/atlas/IBL-other.png>
 Package pdftex.def Info: figures/atlas/IBL-other.png used on input line 85.
 (pdftex.def)             Requested size: 302.39795pt x 297.82887pt.
- [44 <./figures/atlas/ideta.pdf>]
+ [43 <./figures/atlas/ideta.pdf>]
 Package acronym Info: Label `acro:TRT' newly defined as it shall be overridden
 although it is yet undefined on input line 99.
- [45 <./figures/atlas/IBL-other.png (PNG copy)>]
-<figures/atlas/calorimeters.pdf, id=2204, 387.51817pt x 249.8917pt>
+ [44 <./figures/atlas/IBL-other.png (PNG copy)>]
+<figures/atlas/calorimeters.pdf, id=2214, 387.51817pt x 249.8917pt>
 File: figures/atlas/calorimeters.pdf Graphic file (type pdf)
 
 <use figures/atlas/calorimeters.pdf>
 Package pdftex.def Info: figures/atlas/calorimeters.pdf used on input line 114.
 
 (pdftex.def)             Requested size: 302.39795pt x 195.01004pt.
- [46 <./figures/atlas/calorimeters.pdf>]
-<figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png, id=2255, 642.4pt x 
+ [45 <./figures/atlas/calorimeters.pdf>]
+<figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png, id=2265, 642.4pt x 
 521.95pt>
 File: figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png Graphic file (t
 ype png)
@@ -2965,7 +2952,7 @@ Overfull \hbox (7.0815pt too wide) in paragraph at lines 133--134
 adronic calorime-ter which sur-rounds
  []
 
-[47 <./figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png>]
+[46 <./figures/atlas/LARG3-TDR-barrelM_samplings_presamp_new.png>]
 Package epstopdf Info: Source file: <figures/atlas/Muon_sector_numbering.eps>
 (epstopdf)                    date: 2016-09-26 16:09:23
 (epstopdf)                    size: 182450 bytes
@@ -2978,7 +2965,7 @@ umbering-eps-converted-to.pdf figures/atlas/Muon_sector_numbering.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/atlas/Muon_sector_numbering-eps-converted-to.pdf, id=2271, 470.75874pt
+<figures/atlas/Muon_sector_numbering-eps-converted-to.pdf, id=2280, 470.75874pt
  x 393.47pt>
 File: figures/atlas/Muon_sector_numbering-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2998,7 +2985,7 @@ _sect_6-eps-converted-to.pdf figures/atlas/Muon_rz_large_sect_6.eps>
 (epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pdf, id=2276, 692.5875pt x
+<figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pdf, id=2285, 692.5875pt x
  434.62375pt>
 File: figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3007,7 +2994,7 @@ Package pdftex.def Info: figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pd
 f used on input line 156.
 (pdftex.def)             Requested size: 302.39795pt x 189.76941pt.
 
-[48 <./figures/atlas/Muon_sector_numbering-eps-converted-to.pdf>]
+[47 <./figures/atlas/Muon_sector_numbering-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:CSC' newly defined as it shall be overridden
 although it is yet undefined on input line 168.
 Package acronym Info: Label `acro:RPC' newly defined as it shall be overridden
@@ -3027,7 +3014,7 @@ d [][][]Thin Gap Cham-bers ([]\T1/pplj/m/n/9 s\T1/pplj/m/n/10.95 )[] are used.
 These
  []
 
-[49 <./figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pdf>]
+[48 <./figures/atlas/Muon_rz_large_sect_6-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/atlas/ATLcoilGeom.eps>
 (epstopdf)                    date: 2016-09-27 12:25:42
 (epstopdf)                    size: 3100757 bytes
@@ -3040,14 +3027,14 @@ ps-converted-to.pdf figures/atlas/ATLcoilGeom.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/atlas/ATLcoilGeom-eps-converted-to.pdf, id=2319, 740.7675pt x 523.9575
+<figures/atlas/ATLcoilGeom-eps-converted-to.pdf, id=2329, 740.7675pt x 523.9575
 pt>
 File: figures/atlas/ATLcoilGeom-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/atlas/ATLcoilGeom-eps-converted-to.pdf>
 Package pdftex.def Info: figures/atlas/ATLcoilGeom-eps-converted-to.pdf used on
  input line 182.
 (pdftex.def)             Requested size: 302.39795pt x 213.88855pt.
- [50 <./figures/atlas/ATLcoilGeom-eps-converted-to.pdf>]
+ [49 <./figures/atlas/ATLcoilGeom-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/atlas/solMeasB.eps>
 (epstopdf)                    date: 2016-09-27 13:10:26
 (epstopdf)                    size: 29254 bytes
@@ -3060,7 +3047,7 @@ converted-to.pdf figures/atlas/solMeasB.eps>
 (epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/atlas/solMeasB-eps-converted-to.pdf, id=2336, 569.12625pt x 384.43625p
+<figures/atlas/solMeasB-eps-converted-to.pdf, id=2346, 569.12625pt x 384.43625p
 t>
 File: figures/atlas/solMeasB-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/atlas/solMeasB-eps-converted-to.pdf>
@@ -3078,20 +3065,20 @@ erted-to.pdf figures/atlas/IBdl.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/atlas/IBdl-eps-converted-to.pdf, id=2337, 569.12625pt x 385.44pt>
+<figures/atlas/IBdl-eps-converted-to.pdf, id=2347, 569.12625pt x 385.44pt>
 File: figures/atlas/IBdl-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/atlas/IBdl-eps-converted-to.pdf>
 Package pdftex.def Info: figures/atlas/IBdl-eps-converted-to.pdf used on input 
 line 208.
 (pdftex.def)             Requested size: 302.39795pt x 204.80566pt.
- [51]
+ [50]
 Package acronym Info: Label `acro:L1Calo' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 223.
- [52 <./figures/atlas/solMeasB-eps-converted-to.pdf> <./figures/atlas/IBdl-eps-
+ [51 <./figures/atlas/solMeasB-eps-converted-to.pdf> <./figures/atlas/IBdl-eps-
 converted-to.pdf>]
-<figures/atlas/Time_L1GroupRate_Stack_2016_07.png, id=2388, 698.61pt x 473.77pt
+<figures/atlas/Time_L1GroupRate_Stack_2016_07.png, id=2398, 698.61pt x 473.77pt
 >
 File: figures/atlas/Time_L1GroupRate_Stack_2016_07.png Graphic file (type png)
  <use figures/atlas/Time_L1GroupRate_Stack_2016_07.png>
@@ -3106,8 +3093,8 @@ Package acronym Info: Label `acro:ROB' newly defined as it shall be overridden
 although it is yet undefined on input line 240.
 Package acronym Info: Label `acro:RoI' newly defined as it shall be overridden
 although it is yet undefined on input line 242.
- [53 <./figures/atlas/Time_L1GroupRate_Stack_2016_07.png>]
-<figures/atlas/Time_HLTGroupRate_Stack_2016_07.png, id=2417, 698.61pt x 473.77p
+ [52 <./figures/atlas/Time_L1GroupRate_Stack_2016_07.png>]
+<figures/atlas/Time_HLTGroupRate_Stack_2016_07.png, id=2427, 698.61pt x 473.77p
 t>
 File: figures/atlas/Time_HLTGroupRate_Stack_2016_07.png Graphic file (type png)
 
@@ -3116,7 +3103,7 @@ Package pdftex.def Info: figures/atlas/Time_HLTGroupRate_Stack_2016_07.png used
  on input line 247.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/atlas/plot_Combined_Pt_LOGaxis_Et_log_25l_35l_120l_140l.pdf, id=2422, 
+<figures/atlas/plot_Combined_Pt_LOGaxis_Et_log_25l_35l_120l_140l.pdf, id=2432, 
 569.12625pt x 408.52625pt>
 File: figures/atlas/plot_Combined_Pt_LOGaxis_Et_log_25l_35l_120l_140l.pdf Graph
 ic file (type pdf)
@@ -3126,7 +3113,7 @@ Package pdftex.def Info: figures/atlas/plot_Combined_Pt_LOGaxis_Et_log_25l_35l_
 120l_140l.pdf used on input line 261.
 (pdftex.def)             Requested size: 302.39795pt x 217.07266pt.
 
-[54 <./figures/atlas/Time_HLTGroupRate_Stack_2016_07.png>] [55 <./figures/atlas
+[53 <./figures/atlas/Time_HLTGroupRate_Stack_2016_07.png>] [54 <./figures/atlas
 /plot_Combined_Pt_LOGaxis_Et_log_25l_35l_120l_140l.pdf>]
 
 Class scrreprt Warning: Usage of deprecated font command `\sc'!
@@ -3260,7 +3247,7 @@ Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\sc'
 (scrreprt)              by `\normalfont \scshape ' on input line 285.
 
-[56]
+[55]
 Package epstopdf Info: Source file: <figures/theory/fig_10a.eps>
 (epstopdf)                    date: 2016-10-06 14:39:15
 (epstopdf)                    size: 1750959 bytes
@@ -3273,7 +3260,7 @@ converted-to.pdf figures/theory/fig_10a.eps>
 (epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/theory/fig_10a-eps-converted-to.pdf, id=2488, 569.12625pt x 408.52625p
+<figures/theory/fig_10a-eps-converted-to.pdf, id=2498, 569.12625pt x 408.52625p
 t>
 File: figures/theory/fig_10a-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/theory/fig_10a-eps-converted-to.pdf>
@@ -3292,23 +3279,23 @@ converted-to.pdf figures/theory/fig_10b.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/theory/fig_10b-eps-converted-to.pdf, id=2489, 569.12625pt x 408.52625p
+<figures/theory/fig_10b-eps-converted-to.pdf, id=2499, 569.12625pt x 408.52625p
 t>
 File: figures/theory/fig_10b-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/theory/fig_10b-eps-converted-to.pdf>
 Package pdftex.def Info: figures/theory/fig_10b-eps-converted-to.pdf used on in
 put line 293.
 (pdftex.def)             Requested size: 302.39795pt x 217.07266pt.
- [57 <./figures/theory/fig_10a-eps-converted-to.pdf> <./figures/theory/fig_10b-
+ [56 <./figures/theory/fig_10a-eps-converted-to.pdf> <./figures/theory/fig_10b-
 eps-converted-to.pdf>])
-[58]
+[57]
 \openout2 = `Chapters/Chapter05.aux'.
 
  (./Chapters/Chapter05.tex
 Chapter 5.
 
 <figures/nn/JiveXML_266904_25884805-YX-RZ-EventInfo-2015-06-04-09-21-33.jpg, id
-=2526, 1027.6794pt x 684.156pt>
+=2536, 1027.6794pt x 684.156pt>
 File: figures/nn/JiveXML_266904_25884805-YX-RZ-EventInfo-2015-06-04-09-21-33.jp
 g Graphic file (type jpg)
 
@@ -3317,7 +3304,7 @@ g Graphic file (type jpg)
 Package pdftex.def Info: figures/nn/JiveXML_266904_25884805-YX-RZ-EventInfo-201
 5-06-04-09-21-33.jpg used on input line 21.
 (pdftex.def)             Requested size: 302.39795pt x 201.31274pt.
- [59
+ [58
 
 
 
@@ -3328,34 +3315,34 @@ Overfull \hbox (10.80455pt too wide) in paragraph at lines 33--34
 ey are matched
  []
 
-<figures/nn/cluster_types.pdf, id=2559, 1027.84pt x 612.52821pt>
+<figures/nn/cluster_types.pdf, id=2569, 1027.84pt x 612.52821pt>
 File: figures/nn/cluster_types.pdf Graphic file (type pdf)
 
 <use figures/nn/cluster_types.pdf>
 Package pdftex.def Info: figures/nn/cluster_types.pdf used on input line 47.
 (pdftex.def)             Requested size: 302.39795pt x 180.20824pt.
- [60] [61 <./figures/nn/cluster_types.pdf>]
-[62] <figures/nn/merged_cluster.png, id=2748, 1227.58624pt x 596.2275pt>
+ [59] [60 <./figures/nn/cluster_types.pdf>]
+[61] <figures/nn/merged_cluster.png, id=2758, 1227.58624pt x 596.2275pt>
 File: figures/nn/merged_cluster.png Graphic file (type png)
 
 <use figures/nn/merged_cluster.png>
 Package pdftex.def Info: figures/nn/merged_cluster.png used on input line 101.
 (pdftex.def)             Requested size: 302.39795pt x 146.87306pt.
- [63 <./figures/nn/merged_cluster.png>]
-<figures/nn/3x_res.pdf, id=2767, 569.12625pt x 385.44pt>
+ [62 <./figures/nn/merged_cluster.png>]
+<figures/nn/3x_res.pdf, id=2777, 569.12625pt x 385.44pt>
 File: figures/nn/3x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/3x_res.pdf>
 Package pdftex.def Info: figures/nn/3x_res.pdf used on input line 117.
 (pdftex.def)             Requested size: 302.39795pt x 204.80566pt.
 
-<figures/nn/4x_res.pdf, id=2768, 569.12625pt x 385.44pt>
+<figures/nn/4x_res.pdf, id=2778, 569.12625pt x 385.44pt>
 File: figures/nn/4x_res.pdf Graphic file (type pdf)
 
 <use figures/nn/4x_res.pdf>
 Package pdftex.def Info: figures/nn/4x_res.pdf used on input line 118.
 (pdftex.def)             Requested size: 302.39795pt x 204.80566pt.
- [64 <./figures/nn/3x_res.pdf> <./figures/nn/4x_res.pdf>]
+ [63 <./figures/nn/3x_res.pdf> <./figures/nn/4x_res.pdf>]
 Package epstopdf Info: Source file: <figures/nn/fig_05a.eps>
 (epstopdf)                    date: 2016-09-21 11:06:09
 (epstopdf)                    size: 9268 bytes
@@ -3367,7 +3354,7 @@ erted-to.pdf figures/nn/fig_05a.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/nn/fig_05a-eps-converted-to.pdf, id=2810, 569.12625pt x 363.3575pt>
+<figures/nn/fig_05a-eps-converted-to.pdf, id=2821, 569.12625pt x 363.3575pt>
 File: figures/nn/fig_05a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/nn/fig_05a-eps-converted-to.pdf>
@@ -3385,7 +3372,7 @@ erted-to.pdf figures/nn/fig_05b.eps>
 (epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/nn/fig_05b-eps-converted-to.pdf, id=2811, 569.12625pt x 363.3575pt>
+<figures/nn/fig_05b-eps-converted-to.pdf, id=2822, 569.12625pt x 363.3575pt>
 File: figures/nn/fig_05b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/nn/fig_05b-eps-converted-to.pdf>
@@ -3403,7 +3390,7 @@ erted-to.pdf figures/nn/fig_07a.eps>
 (epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/nn/fig_07a-eps-converted-to.pdf, id=2821, 569.12625pt x 546.04pt>
+<figures/nn/fig_07a-eps-converted-to.pdf, id=2832, 569.12625pt x 546.04pt>
 File: figures/nn/fig_07a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/nn/fig_07a-eps-converted-to.pdf>
@@ -3421,32 +3408,32 @@ erted-to.pdf figures/nn/fig_07b.eps>
 (epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/nn/fig_07b-eps-converted-to.pdf, id=2822, 569.12625pt x 546.04pt>
+<figures/nn/fig_07b-eps-converted-to.pdf, id=2833, 569.12625pt x 546.04pt>
 File: figures/nn/fig_07b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/nn/fig_07b-eps-converted-to.pdf>
 Package pdftex.def Info: figures/nn/fig_07b-eps-converted-to.pdf used on input 
 line 148.
 (pdftex.def)             Requested size: 302.39795pt x 290.14136pt.
-) [65] [66 <./figures/nn/fig_05a-eps-converted-to.pdf> <./figures/nn/fig_05b-ep
-s-converted-to.pdf>] [67 <./figures/nn/fig_07a-eps-converted-to.pdf> <./figures
+) [64] [65 <./figures/nn/fig_05a-eps-converted-to.pdf> <./figures/nn/fig_05b-ep
+s-converted-to.pdf>] [66 <./figures/nn/fig_07a-eps-converted-to.pdf> <./figures
 /nn/fig_07b-eps-converted-to.pdf>]
 \openout2 = `Chapters/Chapter04b.aux'.
 
 (./Chapters/Chapter04b.tex
 Chapter 6.
-[68
+[67
 
 
 
-] <figures/reco/fig_01a.png, id=2896, 1986.42125pt x 1434.35875pt>
+] <figures/reco/fig_01a.png, id=2906, 1986.42125pt x 1434.35875pt>
 File: figures/reco/fig_01a.png Graphic file (type png)
 
 <use figures/reco/fig_01a.png>
 Package pdftex.def Info: figures/reco/fig_01a.png used on input line 31.
 (pdftex.def)             Requested size: 161.27856pt x 116.43631pt.
 
-<figures/reco/fig_01b.png, id=2897, 1986.42125pt x 1434.35875pt>
+<figures/reco/fig_01b.png, id=2907, 1986.42125pt x 1434.35875pt>
 File: figures/reco/fig_01b.png Graphic file (type png)
 
 <use figures/reco/fig_01b.png>
@@ -3454,22 +3441,22 @@ Package pdftex.def Info: figures/reco/fig_01b.png used on input line 32.
 (pdftex.def)             Requested size: 161.27856pt x 116.43631pt.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 33.
- [69 <./figures/reco/fig_01a.png> <./figures/reco/fig_01b.png>] <figures/reco/f
-ig_14b.pdf, id=2916, 569.12625pt x 553.06625pt>
+ [68 <./figures/reco/fig_01a.png> <./figures/reco/fig_01b.png>] <figures/reco/f
+ig_14b.pdf, id=2926, 569.12625pt x 553.06625pt>
 File: figures/reco/fig_14b.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_14b.pdf>
 Package pdftex.def Info: figures/reco/fig_14b.pdf used on input line 43.
 (pdftex.def)             Requested size: 302.39795pt x 293.87479pt.
- [70 <./figures/reco/fig_14b.pdf, page is rotated 90 degrees>] [71]
-<figures/reco/photon_fig_01.pdf, id=2984, 569.12625pt x 410.53375pt>
+ [69 <./figures/reco/fig_14b.pdf, page is rotated 90 degrees>] [70]
+<figures/reco/photon_fig_01.pdf, id=2993, 569.12625pt x 410.53375pt>
 File: figures/reco/photon_fig_01.pdf Graphic file (type pdf)
 
 <use figures/reco/photon_fig_01.pdf>
 Package pdftex.def Info: figures/reco/photon_fig_01.pdf used on input line 74.
 (pdftex.def)             Requested size: 161.27856pt x 116.33932pt.
 
-<figures/reco/photon_fig_02.pdf, id=2985, 569.12625pt x 410.53375pt>
+<figures/reco/photon_fig_02.pdf, id=2994, 569.12625pt x 410.53375pt>
 File: figures/reco/photon_fig_02.pdf Graphic file (type pdf)
 
 <use figures/reco/photon_fig_02.pdf>
@@ -3481,14 +3468,14 @@ Underfull \hbox (badness 1194) in paragraph at lines 76--76
 -ti-fi-ca-tion ef-fi-ciency mea-sure-ments
  []
 
-[72 <./figures/reco/photon_fig_01.pdf, page is rotated 90 degrees> <./figures/r
+[71 <./figures/reco/photon_fig_01.pdf, page is rotated 90 degrees> <./figures/r
 eco/photon_fig_02.pdf, page is rotated 90 degrees>]
 Overfull \hbox (3.40628pt too wide) in paragraph at lines 94--95
 []\T1/pplj/m/n/10.95 There are four muon iden-ti-fi-ca-tion work-ing points for
  muons: \T1/fvm/m/n/10.95 Loose\T1/pplj/m/n/10.95 ,
  []
 
-[73]
+[72]
 Overfull \hbox (0.87982pt too wide) in paragraph at lines 96--98
 []\T1/pplj/m/n/10.95 The \T1/fvm/m/n/10.95 Loose\T1/pplj/m/n/10.95 , \T1/fvm/m/
 n/10.95 Medium\T1/pplj/m/n/10.95 , and \T1/fvm/m/n/10.95 Tight \T1/pplj/m/n/10.
@@ -3507,14 +3494,14 @@ nverted-to.pdf figures/reco/fig_03a.eps>
 (epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/fig_03a-eps-converted-to.pdf, id=3116, 569.12625pt x 552.0625pt>
+<figures/reco/fig_03a-eps-converted-to.pdf, id=3127, 569.12625pt x 552.0625pt>
 File: figures/reco/fig_03a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_03a-eps-converted-to.pdf>
 Package pdftex.def Info: figures/reco/fig_03a-eps-converted-to.pdf used on inpu
 t line 102.
 (pdftex.def)             Requested size: 302.39795pt x 293.34145pt.
- [74 <./figures/reco/fig_03a-eps-converted-to.pdf>]
+ [73 <./figures/reco/fig_03a-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/reco/fig_03c.eps>
 (epstopdf)                    date: 2016-10-20 12:47:08
 (epstopdf)                    size: 47042 bytes
@@ -3527,7 +3514,7 @@ nverted-to.pdf figures/reco/fig_03c.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/fig_03c-eps-converted-to.pdf, id=3147, 569.12625pt x 552.0625pt>
+<figures/reco/fig_03c-eps-converted-to.pdf, id=3157, 569.12625pt x 552.0625pt>
 File: figures/reco/fig_03c-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_03c-eps-converted-to.pdf>
@@ -3536,7 +3523,7 @@ t line 113.
 (pdftex.def)             Requested size: 302.39795pt x 293.34145pt.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 6.46004pt on input line 114.
- [75 <./figures/reco/fig_03c-eps-converted-to.pdf>]
+ [74 <./figures/reco/fig_03c-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:LCW' newly defined as it shall be overridden
 although it is yet undefined on input line 126.
 
@@ -3553,20 +3540,20 @@ Overfull \hbox (8.74707pt too wide) in paragraph at lines 126--127
 
 Package acronym Info: Label `acro:JES' newly defined as it shall be overridden
 although it is yet undefined on input line 139.
-[76] <figures/reco/fig_02.pdf, id=3190, 569.12625pt x 534.99875pt>
+[75] <figures/reco/fig_02.pdf, id=3200, 569.12625pt x 534.99875pt>
 File: figures/reco/fig_02.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_02.pdf>
 Package pdftex.def Info: figures/reco/fig_02.pdf used on input line 144.
 (pdftex.def)             Requested size: 302.39795pt x 284.27452pt.
 
-<figures/reco/fig_04a.pdf, id=3195, 794.97pt x 614.295pt>
+<figures/reco/fig_04a.pdf, id=3205, 794.97pt x 614.295pt>
 File: figures/reco/fig_04a.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_04a.pdf>
 Package pdftex.def Info: figures/reco/fig_04a.pdf used on input line 153.
 (pdftex.def)             Requested size: 302.39795pt x 233.67822pt.
- [77 <./figures/reco/fig_02.pdf, page is rotated 90 degrees>] [78 <./figures/re
+ [76 <./figures/reco/fig_02.pdf, page is rotated 90 degrees>] [77 <./figures/re
 co/fig_04a.pdf>]
 Package epstopdf Info: Source file: <figures/reco/jvt_fig_06b.eps>
 (epstopdf)                    date: 2016-10-20 18:12:52
@@ -3580,7 +3567,7 @@ s-converted-to.pdf figures/reco/jvt_fig_06b.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/jvt_fig_06b-eps-converted-to.pdf, id=3296, 569.12625pt x 546.04pt
+<figures/reco/jvt_fig_06b-eps-converted-to.pdf, id=3306, 569.12625pt x 546.04pt
 >
 File: figures/reco/jvt_fig_06b-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/reco/jvt_fig_06b-eps-converted-to.pdf>
@@ -3599,7 +3586,7 @@ s-converted-to.pdf figures/reco/jvt_fig_07a.eps>
 (epstopdf)             \includegraphics on input line 181.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/jvt_fig_07a-eps-converted-to.pdf, id=3297, 569.12625pt x 546.04pt
+<figures/reco/jvt_fig_07a-eps-converted-to.pdf, id=3307, 569.12625pt x 546.04pt
 >
 File: figures/reco/jvt_fig_07a-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/reco/jvt_fig_07a-eps-converted-to.pdf>
@@ -3623,7 +3610,7 @@ verted-to.pdf figures/reco/fig_08.eps>
 (epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/fig_08-eps-converted-to.pdf, id=3311, 569.12625pt x 547.04375pt>
+<figures/reco/fig_08-eps-converted-to.pdf, id=3321, 569.12625pt x 547.04375pt>
 File: figures/reco/fig_08-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/reco/fig_08-eps-converted-to.pdf>
@@ -3632,24 +3619,24 @@ Package pdftex.def Info: figures/reco/fig_08-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 302.39795pt x 290.6747pt.
 Package acronym Info: Label `acro:OR' newly defined as it shall be overridden
 although it is yet undefined on input line 201.
- [79 <./figures/reco/jvt_fig_06b-eps-converted-to.pdf> <./figures/reco/jvt_fig_
+ [78 <./figures/reco/jvt_fig_06b-eps-converted-to.pdf> <./figures/reco/jvt_fig_
 07a-eps-converted-to.pdf>]
 Overfull \hbox (27.4882pt too wide) in paragraph at lines 207--208
 []\T1/pplj/m/n/10.95 The next step is to re-move elec-trons re-sult-ing from mu
 on bremsstrahlung.
  []
 
-[80 <./figures/reco/fig_08-eps-converted-to.pdf>]
+[79 <./figures/reco/fig_08-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:CST' newly defined as it shall be overridden
 although it is yet undefined on input line 216.
 
-<figures/reco/mettst.pdf, id=3375, 569.12625pt x 385.44pt>
+<figures/reco/mettst.pdf, id=3385, 569.12625pt x 385.44pt>
 File: figures/reco/mettst.pdf Graphic file (type pdf)
 
 <use figures/reco/mettst.pdf>
 Package pdftex.def Info: figures/reco/mettst.pdf used on input line 221.
 (pdftex.def)             Requested size: 302.39795pt x 204.80566pt.
- [81 <./figures/reco/mettst.pdf, page is rotated 90 degrees>]
+ [80 <./figures/reco/mettst.pdf, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <figures/reco/met_fig_02a.eps>
 (epstopdf)                    date: 2016-10-22 12:40:16
 (epstopdf)                    size: 31969 bytes
@@ -3662,7 +3649,7 @@ s-converted-to.pdf figures/reco/met_fig_02a.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/met_fig_02a-eps-converted-to.pdf, id=3432, 569.12625pt x 408.5262
+<figures/reco/met_fig_02a-eps-converted-to.pdf, id=3442, 569.12625pt x 408.5262
 5pt>
 File: figures/reco/met_fig_02a-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/reco/met_fig_02a-eps-converted-to.pdf>
@@ -3681,7 +3668,7 @@ s-converted-to.pdf figures/reco/met_fig_02b.eps>
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/met_fig_02b-eps-converted-to.pdf, id=3433, 569.12625pt x 408.5262
+<figures/reco/met_fig_02b-eps-converted-to.pdf, id=3443, 569.12625pt x 408.5262
 5pt>
 File: figures/reco/met_fig_02b-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/reco/met_fig_02b-eps-converted-to.pdf>
@@ -3700,16 +3687,16 @@ s-converted-to.pdf figures/reco/met_fig_02c.eps>
 (epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/reco/met_fig_02c-eps-converted-to.pdf, id=3434, 569.12625pt x 408.5262
+<figures/reco/met_fig_02c-eps-converted-to.pdf, id=3444, 569.12625pt x 408.5262
 5pt>
 File: figures/reco/met_fig_02c-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/reco/met_fig_02c-eps-converted-to.pdf>
 Package pdftex.def Info: figures/reco/met_fig_02c-eps-converted-to.pdf used on 
 input line 234.
 (pdftex.def)             Requested size: 235.19897pt x 168.83083pt.
-) [82] [83 <./figures/reco/met_fig_02a-eps-converted-to.pdf> <./figures/reco/me
+) [81] [82 <./figures/reco/met_fig_02a-eps-converted-to.pdf> <./figures/reco/me
 t_fig_02b-eps-converted-to.pdf> <./figures/reco/met_fig_02c-eps-converted-to.pd
-f>] [84
+f>] [83
 
 
 
@@ -3720,30 +3707,30 @@ f>] [84
 
 (./Chapters/Chapter07.tex
 Chapter 7.
-<feynman/ttbar.pdf, id=3518, 150.44305pt x 108.09685pt>
+<feynman/ttbar.pdf, id=3528, 150.44305pt x 108.09685pt>
 File: feynman/ttbar.pdf Graphic file (type pdf)
 
 <use feynman/ttbar.pdf>
 Package pdftex.def Info: feynman/ttbar.pdf used on input line 14.
 (pdftex.def)             Requested size: 235.19897pt x 169.0015pt.
 
-<feynman/diboson.pdf, id=3520, 105.3576pt x 95.17256pt>
+<feynman/diboson.pdf, id=3530, 105.3576pt x 95.17256pt>
 File: feynman/diboson.pdf Graphic file (type pdf)
 
 <use feynman/diboson.pdf>
 Package pdftex.def Info: feynman/diboson.pdf used on input line 25.
 (pdftex.def)             Requested size: 235.19897pt x 212.48799pt.
- [85
+ [84
 
 
  <./feynman/ttbar.pdf>]
-<feynman/zjets.pdf, id=3545, 103.24974pt x 95.61723pt>
+<feynman/zjets.pdf, id=3556, 103.24974pt x 95.61723pt>
 File: feynman/zjets.pdf Graphic file (type pdf)
  <use feynman/zjets.pdf>
 Package pdftex.def Info: feynman/zjets.pdf used on input line 36.
 (pdftex.def)             Requested size: 235.19897pt x 217.8432pt.
 
-[86 <./feynman/diboson.pdf>]
+[85 <./feynman/diboson.pdf>]
 
 Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              You should note, that in 1994 font command `\sc' has
@@ -4111,7 +4098,7 @@ Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\sc'
 (scrreprt)              by `\normalfont \scshape ' on input line 73.
 
-) [87 <./feynman/zjets.pdf>] [88]
+) [86 <./feynman/zjets.pdf>] [87]
 \openout2 = `Chapters/Chapter08.aux'.
 
  (./Chapters/Chapter08.tex
@@ -4124,23 +4111,23 @@ Overfull \hbox (8.22366pt too wide) in paragraph at lines 12--13
 sed in [][]Sec-tion 6.1[][][].
  []
 
-[89
+[88
 
 
 
-] [90]
+] [89]
 Package acronym Info: Label `acro:CR' newly defined as it shall be overridden
 although it is yet undefined on input line 116.
- [91]) [92]
+ [90]) [91]
 \openout2 = `Chapters/Chapter09.aux'.
 
  (./Chapters/Chapter09.tex
 Chapter 9.
-[93
+[92
 
 
 
-] <figures/fs/FSdiagram_v2.pdf, id=3703, 230.35802pt x 190.58783pt>
+] <figures/fs/FSdiagram_v2.pdf, id=3713, 230.35802pt x 190.58783pt>
 File: figures/fs/FSdiagram_v2.pdf Graphic file (type pdf)
 
 <use figures/fs/FSdiagram_v2.pdf>
@@ -4431,7 +4418,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrreprt)              by `\normalfont \bfseries ' on input line 59.
 
-[94 <./figures/fs/FSdiagram_v2.pdf>] [95]
+[93 <./figures/fs/FSdiagram_v2.pdf>] [94]
 Package epstopdf Info: Source file: <figures/signalacceptcontam/acc_SM_GG_N2_1.
 eps>
 (epstopdf)                    date: 2016-10-06 10:40:53
@@ -4446,7 +4433,7 @@ ps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/acc_SM_GG_N2_1-eps-converted-to.pdf, id=3767, 569.1
+<figures/signalacceptcontam/acc_SM_GG_N2_1-eps-converted-to.pdf, id=3776, 569.1
 2625pt x 385.44pt>
 File: figures/signalacceptcontam/acc_SM_GG_N2_1-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4469,7 +4456,7 @@ ps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/eff_SM_GG_N2_1-eps-converted-to.pdf, id=3768, 569.1
+<figures/signalacceptcontam/eff_SM_GG_N2_1-eps-converted-to.pdf, id=3777, 569.1
 2625pt x 385.44pt>
 File: figures/signalacceptcontam/eff_SM_GG_N2_1-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4478,7 +4465,7 @@ le (type pdf)
 Package pdftex.def Info: figures/signalacceptcontam/eff_SM_GG_N2_1-eps-converte
 d-to.pdf used on input line 129.
 (pdftex.def)             Requested size: 161.27856pt x 109.22812pt.
- [96]
+ [95]
 Package epstopdf Info: Source file: <figures/signalacceptcontam/cont_SM_GG_N2_1
 _CRT1.eps>
 (epstopdf)                    date: 2016-08-12 08:26:36
@@ -4493,7 +4480,7 @@ _N2_1_CRT1.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/cont_SM_GG_N2_1_CRT1-eps-converted-to.pdf, id=3782,
+<figures/signalacceptcontam/cont_SM_GG_N2_1_CRT1-eps-converted-to.pdf, id=3792,
  569.12625pt x 385.44pt>
 File: figures/signalacceptcontam/cont_SM_GG_N2_1_CRT1-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4516,7 +4503,7 @@ G_N2_1_CR-FS.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS-eps-converted-to.pdf, id=3783
+<figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS-eps-converted-to.pdf, id=3793
 , 569.12625pt x 385.44pt>
 File: figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -4539,7 +4526,7 @@ _N2_1_VRS1.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/cont_SM_GG_N2_1_VRS1-eps-converted-to.pdf, id=3784,
+<figures/signalacceptcontam/cont_SM_GG_N2_1_VRS1-eps-converted-to.pdf, id=3794,
  569.12625pt x 385.44pt>
 File: figures/signalacceptcontam/cont_SM_GG_N2_1_VRS1-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4562,7 +4549,7 @@ _N2_1_VRT1.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1-eps-converted-to.pdf, id=3785,
+<figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1-eps-converted-to.pdf, id=3795,
  569.12625pt x 385.44pt>
 File: figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4572,10 +4559,10 @@ Package pdftex.def Info: figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1-eps-co
 nverted-to.pdf used on input line 152.
 (pdftex.def)             Requested size: 161.27856pt x 109.22812pt.
 )
-[97 <./figures/signalacceptcontam/acc_SM_GG_N2_1-eps-converted-to.pdf> <./figur
+[96 <./figures/signalacceptcontam/acc_SM_GG_N2_1-eps-converted-to.pdf> <./figur
 es/signalacceptcontam/eff_SM_GG_N2_1-eps-converted-to.pdf> <./figures/signalacc
 eptcontam/cont_SM_GG_N2_1_CRT1-eps-converted-to.pdf> <./figures/signalacceptcon
-tam/cont_SM_GG_N2_1_CR-FS-eps-converted-to.pdf>] [98 <./figures/signalacceptcon
+tam/cont_SM_GG_N2_1_CR-FS-eps-converted-to.pdf>] [97 <./figures/signalacceptcon
 tam/cont_SM_GG_N2_1_VRS1-eps-converted-to.pdf> <./figures/signalacceptcontam/co
 nt_SM_GG_N2_1_VRT1-eps-converted-to.pdf>]
 \openout2 = `Chapters/Chapter10.aux'.
@@ -4587,11 +4574,11 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 10 
  []
 
-[99
+[98
 
 
 
-] [100]
+] [99]
 Package epstopdf Info: Source file: <figures/fs/data_efficiencies_2j_Z_lep0.eps
 >
 (epstopdf)                    date: 2016-09-19 14:39:32
@@ -4605,7 +4592,7 @@ s_2j_Z_lep0-eps-converted-to.pdf figures/fs/data_efficiencies_2j_Z_lep0.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf, id=3897, 569.1262
+<figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf, id=3907, 569.1262
 5pt x 385.44pt>
 File: figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4627,7 +4614,7 @@ s_2j_Z_lep1-eps-converted-to.pdf figures/fs/data_efficiencies_2j_Z_lep1.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf, id=3898, 569.1262
+<figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf, id=3908, 569.1262
 5pt x 385.44pt>
 File: figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4636,8 +4623,8 @@ File: figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: figures/fs/data_efficiencies_2j_Z_lep1-eps-converted-t
 o.pdf used on input line 57.
 (pdftex.def)             Requested size: 285.60205pt x 193.43117pt.
- [101 <./figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf> <./figure
-s/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf>] [102] (./tables/ZMET_Si
+ [100 <./figures/fs/data_efficiencies_2j_Z_lep0-eps-converted-to.pdf> <./figure
+s/fs/data_efficiencies_2j_Z_lep1-eps-converted-to.pdf>] [101] (./tables/ZMET_Si
 deband.tex
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
@@ -4686,7 +4673,7 @@ Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\sc'
 (scrreprt)              by `\normalfont \scshape ' on input line 40.
 
-) <figures/fs/ttbar_mismodeling.png, id=3964, 687.56876pt x 656.4525pt>
+) <figures/fs/ttbar_mismodeling.png, id=3974, 687.56876pt x 656.4525pt>
 File: figures/fs/ttbar_mismodeling.png Graphic file (type png)
 
 <use figures/fs/ttbar_mismodeling.png>
@@ -4710,8 +4697,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 147.
 
-[103 <./figures/fs/ttbar_mismodeling.png>] [104] [105]
-<figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf, id=3998, 614.2
+[102 <./figures/fs/ttbar_mismodeling.png>] [103] [104]
+<figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf, id=4008, 614.2
 95pt x 794.97pt>
 File: figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf Graphic fi
 le (type pdf)
@@ -4727,7 +4714,7 @@ ween $\OML/zplm/m/it/10.95 Z$ \T1/pplj/m/n/10.95 and $\OML/zplm/m/it/10.95 ^^M$
  \T1/pplj/m/n/10.95 events
  []
 
-[106 <./figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf>]
+[105 <./figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 185.
@@ -4736,8 +4723,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 185.
 
-[107] [108]
-<figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4060, 
+[106] [107]
+<figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4070, 
 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf Graph
 ic file (type pdf)
@@ -4747,7 +4734,7 @@ Package pdftex.def Info: figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_pt
 rw__zmet_.pdf used on input line 243.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
-<figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4061, 
+<figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4071, 
 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf Graph
 ic file (type pdf)
@@ -4762,10 +4749,10 @@ Overfull \hbox (57.29033pt too wide) in paragraph at lines 265--266
 ult-ing $\OML/zplm/m/it/10.95 E[]$\T1/pplj/m/n/10.95 distributions
  []
 
-[109 <./figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf> <.
+[108 <./figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf> <.
 /figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf>]
 <figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf, id
-=4161, 569.12625pt x 736.7525pt>
+=4171, 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pd
 f Graphic file (type pdf)
 
@@ -4776,7 +4763,7 @@ smrw_smear_zmet_.pdf used on input line 270.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
 <figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf, id
-=4162, 569.12625pt x 736.7525pt>
+=4172, 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pd
 f Graphic file (type pdf)
 
@@ -4792,7 +4779,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf
-, id=4171, 569.12625pt x 546.04pt>
+, id=4181, 569.12625pt x 546.04pt>
 File: figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi
 _.pdf Graphic file (type pdf)
 
@@ -4803,7 +4790,7 @@ w_smear_zmet_nodphi_.pdf used on input line 297.
 (pdftex.def)             Requested size: 151.19897pt x 145.06651pt.
 
 <figures/photons/Corr_hist_ptrw_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf
-, id=4172, 569.12625pt x 546.04pt>
+, id=4182, 569.12625pt x 546.04pt>
 File: figures/photons/Corr_hist_ptrw_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi
 _.pdf Graphic file (type pdf)
 
@@ -4812,10 +4799,10 @@ _.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/photons/Corr_hist_ptrw_mm_2j_2016_mcmetl_ptsmr
 w_smear_zmet_nodphi_.pdf used on input line 298.
 (pdftex.def)             Requested size: 151.19897pt x 145.06651pt.
- [110 <./figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_
+ [109 <./figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_
 .pdf> <./figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_
 .pdf>]
-<figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf, id=4274, 569.12625pt
+<figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf, id=4284, 569.12625pt
  x 355.3275pt>
 File: figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf Graphic file (ty
 pe pdf)
@@ -4824,7 +4811,7 @@ Package pdftex.def Info: figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.p
 df used on input line 313.
 (pdftex.def)             Requested size: 252.0pt x 157.33678pt.
 
-<figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4275, 5
+<figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4285, 5
 69.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf Graphi
 c file (type pdf)
@@ -4835,7 +4822,7 @@ w__zmet_.pdf used on input line 314.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
 <figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf, id=
-4276, 569.12625pt x 736.7525pt>
+4286, 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf
  Graphic file (type pdf)
 
@@ -4844,7 +4831,7 @@ Package pdftex.def Info: figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_pts
 mrw_smear_zmet_.pdf used on input line 315.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
-<figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf, id=4279, 569.12625pt
+<figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf, id=4289, 569.12625pt
  x 355.3275pt>
 File: figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf Graphic file (ty
 pe pdf)
@@ -4853,7 +4840,7 @@ Package pdftex.def Info: figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.p
 df used on input line 324.
 (pdftex.def)             Requested size: 252.0pt x 157.33678pt.
 
-<figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4280, 5
+<figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf, id=4290, 5
 69.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf Graphi
 c file (type pdf)
@@ -4864,7 +4851,7 @@ w__zmet_.pdf used on input line 325.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
 <figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf, id=
-4281, 569.12625pt x 736.7525pt>
+4291, 569.12625pt x 736.7525pt>
 File: figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf
  Graphic file (type pdf)
 
@@ -4888,17 +4875,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\ell' on input line 335.
 
-[111 <./figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodp
+[110 <./figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodp
 hi_.pdf, page is rotated 90 degrees> <./figures/photons/Corr_hist_ptrw_mm_2j_20
-16_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf, page is rotated 90 degrees>] [112 <./f
+16_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf, page is rotated 90 degrees>] [111 <./f
 igures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf, page is rotated 90 deg
 rees> <./figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf> <.
 /figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf>]
-[113 <./figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf, page is rotat
+[112 <./figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf, page is rotat
 ed 90 degrees> <./figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet
 _.pdf> <./figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_
 .pdf>]
-<figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf, id=4653, 569.12625pt x 736.7525p
+<figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf, id=4662, 569.12625pt x 736.7525p
 t>
 File: figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf Graphic file (type pdf)
  <use figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf>
@@ -4906,7 +4893,7 @@ Package pdftex.def Info: figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf used on i
 nput line 349.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
-<figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf, id=4654, 569.12625pt x 736.7525p
+<figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf, id=4663, 569.12625pt x 736.7525p
 t>
 File: figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf Graphic file (type pdf)
  <use figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf>
@@ -4939,7 +4926,7 @@ PhiJet_hist-eps-converted-to.pdf figures/photons/hPhot_Met_dPhiJet_hist.eps>
 (epstopdf)             \includegraphics on input line 363.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-to.pdf, id=4660, 569.1262
+<figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-to.pdf, id=4669, 569.1262
 5pt x 526.96875pt>
 File: figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4949,15 +4936,15 @@ Package pdftex.def Info: figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-t
 o.pdf used on input line 363.
 (pdftex.def)             Requested size: 302.39795pt x 280.00774pt.
 
-<figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf, id=4665, 569.12625pt x 736.7525
+<figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf, id=4674, 569.12625pt x 736.7525
 pt>
 File: figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf Graphic file (type pdf)
  <use figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf>
 Package pdftex.def Info: figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf used on 
 input line 374.
 (pdftex.def)             Requested size: 302.39795pt x 391.4775pt.
- [114 <./figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf> <./figures/photons/DataM
-C_GJ_ee+mm_zmet_ZMC.pdf>] <figures/photons/MET_azmet_ee_onz.pdf, id=4760, 569.1
+ [113 <./figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf> <./figures/photons/DataM
+C_GJ_ee+mm_zmet_ZMC.pdf>] <figures/photons/MET_azmet_ee_onz.pdf, id=4770, 569.1
 2625pt x 736.7525pt>
 File: figures/photons/MET_azmet_ee_onz.pdf Graphic file (type pdf)
 
@@ -4966,7 +4953,7 @@ Package pdftex.def Info: figures/photons/MET_azmet_ee_onz.pdf used on input lin
 e 387.
 (pdftex.def)             Requested size: 151.19897pt x 195.73312pt.
 
-<figures/photons/MET_azmet_mm_onz.pdf, id=4761, 569.12625pt x 736.7525pt>
+<figures/photons/MET_azmet_mm_onz.pdf, id=4771, 569.12625pt x 736.7525pt>
 File: figures/photons/MET_azmet_mm_onz.pdf Graphic file (type pdf)
 
 <use figures/photons/MET_azmet_mm_onz.pdf>
@@ -4981,7 +4968,7 @@ pplx/m/n/10.95 , [][]\OT1/zplm/m/n/10.95 )$
  []
 
 
-<figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf, id=4765, 569.12625pt x 5
+<figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf, id=4775, 569.12625pt x 5
 46.04pt>
 File: figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf Graphic file (type p
 df)
@@ -4990,7 +4977,7 @@ Package pdftex.def Info: figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf u
 sed on input line 399.
 (pdftex.def)             Requested size: 151.19897pt x 145.06651pt.
 
-<figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf, id=4766, 569.12625pt x 54
+<figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf, id=4776, 569.12625pt x 54
 6.04pt>
 File: figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf Graphic file (type pd
 f)
@@ -4998,8 +4985,8 @@ f)
 Package pdftex.def Info: figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf us
 ed on input line 400.
 (pdftex.def)             Requested size: 151.19897pt x 145.06651pt.
- [115 <./figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-to.pdf>] [116 <./
-figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf>] [117 <./figures/photons/MET_azm
+ [114 <./figures/photons/hPhot_Met_dPhiJet_hist-eps-converted-to.pdf>] [115 <./
+figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf>] [116 <./figures/photons/MET_azm
 et_ee_onz.pdf> <./figures/photons/MET_azmet_mm_onz.pdf> <./figures/photons/METJ
 etLeading_azmet_ee+mm_onz_VR.pdf, page is rotated 90 degrees> <./figures/photon
 s/METJetSecond_azmet_ee+mm_onz_VR.pdf, page is rotated 90 degrees>]
@@ -5200,7 +5187,7 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              by `\normalfont \bfseries ' on input line 439.
 
 
-<figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=5021, 569.
+<figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=5032, 569.
 0058pt x 545.8794pt>
 File: figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png Graphic f
 ile (type png)
@@ -5210,7 +5197,7 @@ Package pdftex.def Info: figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin
 _2016.png used on input line 451.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=5022, 569.
+<figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png, id=5033, 569.
 0058pt x 545.8794pt>
 File: figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png Graphic f
 ile (type png)
@@ -5220,7 +5207,7 @@ Package pdftex.def Info: figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin
 _2016.png used on input line 452.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=5028, 569.0058pt
+<figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=5039, 569.0058pt
  x 545.8794pt>
 File: figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png Graphic file (t
 ype png)
@@ -5229,7 +5216,7 @@ Package pdftex.def Info: figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.
 png used on input line 463.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-<figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=5029, 569.0058pt
+<figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png, id=5040, 569.0058pt
  x 545.8794pt>
 File: figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png Graphic file (t
 ype png)
@@ -5238,8 +5225,8 @@ Package pdftex.def Info: figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.
 png used on input line 464.
 (pdftex.def)             Requested size: 151.19897pt x 145.04883pt.
 
-[118]
-<figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, id=5039, 569.12625pt x 522.95375p
+[117]
+<figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, id=5049, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf>
@@ -5247,7 +5234,7 @@ Package pdftex.def Info: figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf used on in
 put line 477.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, id=5040, 569.12625pt x 522.95375p
+<figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, id=5050, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf>
@@ -5255,7 +5242,7 @@ Package pdftex.def Info: figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf used on in
 put line 478.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, id=5041, 569.12625pt x 522.95375p
+<figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, id=5051, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf>
@@ -5263,17 +5250,17 @@ Package pdftex.def Info: figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf used on in
 put line 479.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
 
-<figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, id=5042, 569.12625pt x 522.95375p
+<figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, id=5052, 569.12625pt x 522.95375p
 t>
 File: figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf Graphic file (type pdf)
  <use figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf>
 Package pdftex.def Info: figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf used on in
 put line 480.
 (pdftex.def)             Requested size: 151.19897pt x 138.93318pt.
- [119 <./figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png> <./fi
+ [118 <./figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png> <./fi
 gures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png> <./figures/fakes
 /me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png> <./figures/fakes/mm-Cut_Fake_TT-p
-Tsublead_fakes-lin_2016.png>] <figures/dibosons/WZ_Wmass.png, id=5066, 698.61pt
+Tsublead_fakes-lin_2016.png>] <figures/dibosons/WZ_Wmass.png, id=5075, 698.61pt
  x 473.77pt>
 File: figures/dibosons/WZ_Wmass.png Graphic file (type png)
 
@@ -5281,47 +5268,47 @@ File: figures/dibosons/WZ_Wmass.png Graphic file (type png)
 Package pdftex.def Info: figures/dibosons/WZ_Wmass.png used on input line 525.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Zmass.png, id=5067, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Zmass.png, id=5076, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Zmass.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Zmass.png>
 Package pdftex.def Info: figures/dibosons/WZ_Zmass.png used on input line 526.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Wpt.png, id=5070, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Wpt.png, id=5079, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Wpt.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Wpt.png>
 Package pdftex.def Info: figures/dibosons/WZ_Wpt.png used on input line 534.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/WZ_Zpt.png, id=5071, 698.61pt x 473.77pt>
+<figures/dibosons/WZ_Zpt.png, id=5080, 698.61pt x 473.77pt>
 File: figures/dibosons/WZ_Zpt.png Graphic file (type png)
 
 <use figures/dibosons/WZ_Zpt.png>
 Package pdftex.def Info: figures/dibosons/WZ_Zpt.png used on input line 535.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/ZZ_Zmass.png, id=5074, 698.61pt x 473.77pt>
+<figures/dibosons/ZZ_Zmass.png, id=5083, 698.61pt x 473.77pt>
 File: figures/dibosons/ZZ_Zmass.png Graphic file (type png)
 
 <use figures/dibosons/ZZ_Zmass.png>
 Package pdftex.def Info: figures/dibosons/ZZ_Zmass.png used on input line 543.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
 
-<figures/dibosons/ZZ_Zpt.png, id=5075, 698.61pt x 473.77pt>
+<figures/dibosons/ZZ_Zpt.png, id=5084, 698.61pt x 473.77pt>
 File: figures/dibosons/ZZ_Zpt.png Graphic file (type png)
 
 <use figures/dibosons/ZZ_Zpt.png>
 Package pdftex.def Info: figures/dibosons/ZZ_Zpt.png used on input line 544.
 (pdftex.def)             Requested size: 302.39795pt x 205.0762pt.
-) [120 <./figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degre
+) [119 <./figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degre
 es> <./figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degrees>
  <./figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degrees> <.
-/figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degrees>] [121
- <./figures/dibosons/WZ_Wmass.png> <./figures/dibosons/WZ_Zmass.png>] [122 <./f
-igures/dibosons/WZ_Wpt.png> <./figures/dibosons/WZ_Zpt.png>] [123 <./figures/di
-bosons/ZZ_Zmass.png> <./figures/dibosons/ZZ_Zpt.png>] [124]
+/figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf, page is rotated 90 degrees>] [120
+ <./figures/dibosons/WZ_Wmass.png> <./figures/dibosons/WZ_Zmass.png>] [121 <./f
+igures/dibosons/WZ_Wpt.png> <./figures/dibosons/WZ_Zpt.png>] [122 <./figures/di
+bosons/ZZ_Zmass.png> <./figures/dibosons/ZZ_Zpt.png>] [123]
 \openout2 = `Chapters/Chapter10b.aux'.
 
  (./Chapters/Chapter10b.tex
@@ -5331,7 +5318,7 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 11 
  []
 
-[125
+[124
 
 
 
@@ -5349,7 +5336,7 @@ VRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_VRZ_widened.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf, id=5289, 569.1262
+<figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf, id=5298, 569.1262
 5pt x 402.50375pt>
 File: figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5371,7 +5358,7 @@ SRZ_widened-eps-converted-to.pdf figures/fs/ee+mm_ratio_mll_SRZ_widened.eps>
 (epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf, id=5290, 569.1262
+<figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf, id=5299, 569.1262
 5pt x 402.50375pt>
 File: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5380,14 +5367,14 @@ File: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: figures/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-t
 o.pdf used on input line 53.
 (pdftex.def)             Requested size: 285.60205pt x 201.99452pt.
- [126 <./figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf> <./figure
+ [125 <./figures/fs/ee+mm_ratio_mll_VRZ_widened-eps-converted-to.pdf> <./figure
 s/fs/ee+mm_ratio_mll_SRZ_widened-eps-converted-to.pdf>]
 Package acronym Info: Label `acro:AOD' newly defined as it shall be overridden
 although it is yet undefined on input line 63.
 Package acronym Info: Label `acro:dAOD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 63.
- [127]
+ [126]
 Package epstopdf Info: Source file: <figures/fs/trigger_ratios.eps>
 (epstopdf)                    date: 2016-09-19 17:37:12
 (epstopdf)                    size: 10622 bytes
@@ -5400,7 +5387,7 @@ ps-converted-to.pdf figures/fs/trigger_ratios.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/trigger_ratios-eps-converted-to.pdf, id=5355, 569.12625pt x 385.44p
+<figures/fs/trigger_ratios-eps-converted-to.pdf, id=5365, 569.12625pt x 385.44p
 t>
 File: figures/fs/trigger_ratios-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/trigger_ratios-eps-converted-to.pdf>
@@ -5419,7 +5406,7 @@ eps-converted-to.pdf figures/fs/frac_vs_ht_2015.eps>
 (epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/frac_vs_ht_2015-eps-converted-to.pdf, id=5366, 569.12625pt x 385.44
+<figures/fs/frac_vs_ht_2015-eps-converted-to.pdf, id=5376, 569.12625pt x 385.44
 pt>
 File: figures/fs/frac_vs_ht_2015-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/frac_vs_ht_2015-eps-converted-to.pdf>
@@ -5438,7 +5425,7 @@ eps-converted-to.pdf figures/fs/frac_vs_ht_2016.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/fs/frac_vs_ht_2016-eps-converted-to.pdf, id=5367, 569.12625pt x 385.44
+<figures/fs/frac_vs_ht_2016-eps-converted-to.pdf, id=5377, 569.12625pt x 385.44
 pt>
 File: figures/fs/frac_vs_ht_2016-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/fs/frac_vs_ht_2016-eps-converted-to.pdf>
@@ -5455,8 +5442,8 @@ Overfull \hbox (12.45396pt too wide) in paragraph at lines 96--97
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\gamma' on input line 100.
 
-[128 <./figures/fs/trigger_ratios-eps-converted-to.pdf>]
-<figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf, id=5390, 569.12625pt x 736.7
+[127 <./figures/fs/trigger_ratios-eps-converted-to.pdf>]
+<figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf, id=5400, 569.12625pt x 736.7
 525pt>
 File: figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf Graphic file (type pdf)
  <use figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf>
@@ -5470,7 +5457,7 @@ it/10 ^^M \OT1/zplm/m/n/10 + []$ \T1/pplj/m/n/10 pre-dic-tions us-ing dif-fer-e
 nt
  []
 
-[129 <./figures/fs/frac_vs_ht_2015-eps-converted-to.pdf> <./figures/fs/frac_vs_
+[128 <./figures/fs/frac_vs_ht_2015-eps-converted-to.pdf> <./figures/fs/frac_vs_
 ht_2016-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/photons/gamma_jet_closure_ee_mm.ep
 s>
@@ -5485,7 +5472,7 @@ losure_ee_mm-eps-converted-to.pdf figures/photons/gamma_jet_closure_ee_mm.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf, id=5423, 569.126
+<figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf, id=5433, 569.126
 25pt x 736.7525pt>
 File: figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5494,7 +5481,7 @@ File: figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: figures/photons/gamma_jet_closure_ee_mm-eps-converted-
 to.pdf used on input line 120.
 (pdftex.def)             Requested size: 285.60205pt x 369.73561pt.
- [130 <./figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf>]
+ [129 <./figures/photons/GJ_Variations_ee+mm_zmet_onz.pdf>]
 Package epstopdf Info: Source file: <figures/photons/hPhotLep_mT_MET100_hist.ep
 s>
 (epstopdf)                    date: 2016-08-23 14:55:31
@@ -5508,7 +5495,7 @@ _MET100_hist-eps-converted-to.pdf figures/photons/hPhotLep_mT_MET100_hist.eps>
 (epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/photons/hPhotLep_mT_MET100_hist-eps-converted-to.pdf, id=5485, 569.126
+<figures/photons/hPhotLep_mT_MET100_hist-eps-converted-to.pdf, id=5495, 569.126
 25pt x 526.96875pt>
 File: figures/photons/hPhotLep_mT_MET100_hist-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5530,7 +5517,7 @@ _MET200_hist-eps-converted-to.pdf figures/photons/hPhotLep_mT_MET200_hist.eps>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf, id=5486, 569.126
+<figures/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf, id=5496, 569.126
 25pt x 526.96875pt>
 File: figures/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5539,12 +5526,12 @@ File: figures/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: figures/photons/hPhotLep_mT_MET200_hist-eps-converted-
 to.pdf used on input line 132.
 (pdftex.def)             Requested size: 302.39795pt x 280.00774pt.
- [131 <./figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf>]
+ [130 <./figures/photons/gamma_jet_closure_ee_mm-eps-converted-to.pdf>]
 Overfull \vbox (11.00253pt too high) has occurred while \output is active []
 
 
-[132 <./figures/photons/hPhotLep_mT_MET100_hist-eps-converted-to.pdf> <./figure
-s/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf>] [133]
+[131 <./figures/photons/hPhotLep_mT_MET100_hist-eps-converted-to.pdf> <./figure
+s/photons/hPhotLep_mT_MET200_hist-eps-converted-to.pdf>] [132]
 
 Class scrreprt Warning: Usage of deprecated font command `\sc'!
 (scrreprt)              You should note, that in 1994 font command `\sc' has
@@ -5586,7 +5573,7 @@ Overfull \hbox (30.12355pt too wide) in paragraph at lines 267--283
 Package acronym Info: Label `acro:NLO+NLL' newly defined as it shall be overrid
 den
 although it is yet undefined on input line 288.
-[134] [135]) [136]
+[133] [134]) [135]
 \openout2 = `Chapters/Chapter11.aux'.
 
  (./Chapters/Chapter11.tex
@@ -5597,19 +5584,19 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
  []
 
 
-<figures/results/makeSummaryPlot_linear.pdf, id=5594, 569.12625pt x 408.52625pt
+<figures/results/makeSummaryPlot_linear.pdf, id=5604, 569.12625pt x 408.52625pt
 >
 File: figures/results/makeSummaryPlot_linear.pdf Graphic file (type pdf)
  <use figures/results/makeSummaryPlot_linear.pdf>
 Package pdftex.def Info: figures/results/makeSummaryPlot_linear.pdf used on inp
 ut line 12.
 (pdftex.def)             Requested size: 302.39795pt x 217.07266pt.
- [137
+ [136
 
 
 
  <./figures/results/makeSummaryPlot_linear.pdf, page is rotated 90 degrees>] [1
-38]
+37]
 Package epstopdf Info: Source file: <figures/results/mll_SF_R_a_SCALED.eps>
 (epstopdf)                    date: 2016-08-26 12:31:08
 (epstopdf)                    size: 41613 bytes
@@ -5622,7 +5609,7 @@ SCALED-eps-converted-to.pdf figures/results/mll_SF_R_a_SCALED.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf, id=5662, 569.12625pt x
+<figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf, id=5672, 569.12625pt x
  546.04pt>
 File: figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5631,14 +5618,14 @@ Package pdftex.def Info: figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf
  used on input line 63.
 (pdftex.def)             Requested size: 161.27856pt x 154.73984pt.
 
-<figures/results/mll_DF_R_a_SCALED.pdf, id=5663, 569.12625pt x 546.04pt>
+<figures/results/mll_DF_R_a_SCALED.pdf, id=5673, 569.12625pt x 546.04pt>
 File: figures/results/mll_DF_R_a_SCALED.pdf Graphic file (type pdf)
 
 <use figures/results/mll_DF_R_a_SCALED.pdf>
 Package pdftex.def Info: figures/results/mll_DF_R_a_SCALED.pdf used on input li
 ne 64.
 (pdftex.def)             Requested size: 161.27856pt x 154.73984pt.
- [139 <./figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf> <./figures/res
+ [138 <./figures/results/mll_SF_R_a_SCALED-eps-converted-to.pdf> <./figures/res
 ults/mll_DF_R_a_SCALED.pdf, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <figures/results/mll_ee_mm_srz_R_a.eps>
 (epstopdf)                    date: 2016-09-16 16:42:46
@@ -5652,7 +5639,7 @@ rz_R_a-eps-converted-to.pdf figures/results/mll_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/mll_ee_mm_srz_R_a-eps-converted-to.pdf, id=5734, 569.12625pt x
+<figures/results/mll_ee_mm_srz_R_a-eps-converted-to.pdf, id=5744, 569.12625pt x
  546.04pt>
 File: figures/results/mll_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5672,7 +5659,7 @@ rz_R_a-eps-converted-to.pdf figures/results/Zpt_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/Zpt_ee_mm_srz_R_a-eps-converted-to.pdf, id=5735, 569.12625pt x
+<figures/results/Zpt_ee_mm_srz_R_a-eps-converted-to.pdf, id=5745, 569.12625pt x
  546.04pt>
 File: figures/results/Zpt_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5692,7 +5679,7 @@ rz_R_a-eps-converted-to.pdf figures/results/met_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/met_ee_mm_srz_R_a-eps-converted-to.pdf, id=5736, 569.12625pt x
+<figures/results/met_ee_mm_srz_R_a-eps-converted-to.pdf, id=5746, 569.12625pt x
  546.04pt>
 File: figures/results/met_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5712,7 +5699,7 @@ m_srz_R_a-eps-converted-to.pdf figures/results/htincl_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/htincl_ee_mm_srz_R_a-eps-converted-to.pdf, id=5737, 569.12625p
+<figures/results/htincl_ee_mm_srz_R_a-eps-converted-to.pdf, id=5747, 569.12625p
 t x 546.04pt>
 File: figures/results/htincl_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5732,7 +5719,7 @@ _srz_R_a-eps-converted-to.pdf figures/results/njets_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/njets_ee_mm_srz_R_a-eps-converted-to.pdf, id=5738, 569.12625pt
+<figures/results/njets_ee_mm_srz_R_a-eps-converted-to.pdf, id=5748, 569.12625pt
  x 546.04pt>
 File: figures/results/njets_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5752,7 +5739,7 @@ m_srz_R_a-eps-converted-to.pdf figures/results/nbjets_ee_mm_srz_R_a.eps>
 (epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/nbjets_ee_mm_srz_R_a-eps-converted-to.pdf, id=5739, 569.12625p
+<figures/results/nbjets_ee_mm_srz_R_a-eps-converted-to.pdf, id=5749, 569.12625p
 t x 546.04pt>
 File: figures/results/nbjets_ee_mm_srz_R_a-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5773,7 +5760,7 @@ ee+mm_onz_SR-eps-converted-to.pdf figures/results/dPhi_azmet_ee+mm_onz_SR.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/dPhi_azmet_ee+mm_onz_SR-eps-converted-to.pdf, id=5743, 569.126
+<figures/results/dPhi_azmet_ee+mm_onz_SR-eps-converted-to.pdf, id=5753, 569.126
 25pt x 546.04pt>
 File: figures/results/dPhi_azmet_ee+mm_onz_SR-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5795,7 +5782,7 @@ ee+mm_onz_VR-eps-converted-to.pdf figures/results/dPhi_azmet_ee+mm_onz_VR.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/results/dPhi_azmet_ee+mm_onz_VR-eps-converted-to.pdf, id=5744, 569.126
+<figures/results/dPhi_azmet_ee+mm_onz_VR-eps-converted-to.pdf, id=5754, 569.126
 25pt x 546.04pt>
 File: figures/results/dPhi_azmet_ee+mm_onz_VR-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5808,11 +5795,11 @@ to.pdf used on input line 92.
 
 LaTeX Warning: Float too large for page by 0.83376pt on input line 95.
 
-) [140] [141 <./figures/results/mll_ee_mm_srz_R_a-eps-converted-to.pdf> <./figu
+) [139] [140 <./figures/results/mll_ee_mm_srz_R_a-eps-converted-to.pdf> <./figu
 res/results/Zpt_ee_mm_srz_R_a-eps-converted-to.pdf> <./figures/results/met_ee_m
 m_srz_R_a-eps-converted-to.pdf> <./figures/results/htincl_ee_mm_srz_R_a-eps-con
 verted-to.pdf> <./figures/results/njets_ee_mm_srz_R_a-eps-converted-to.pdf> <./
-figures/results/nbjets_ee_mm_srz_R_a-eps-converted-to.pdf>] [142 <./figures/res
+figures/results/nbjets_ee_mm_srz_R_a-eps-converted-to.pdf>] [141 <./figures/res
 ults/dPhi_azmet_ee+mm_onz_SR-eps-converted-to.pdf> <./figures/results/dPhi_azme
 t_ee+mm_onz_VR-eps-converted-to.pdf>]
 \openout2 = `Chapters/Chapter12.aux'.
@@ -5824,7 +5811,7 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 []\chapterNumber 13 
  []
 
-[143
+[142
 
 
 
@@ -5842,7 +5829,7 @@ _SM_GG_N2_1-eps-converted-to.pdf figures/interpretation/excl_SM_GG_N2_1.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/interpretation/excl_SM_GG_N2_1-eps-converted-to.pdf, id=5894, 569.1262
+<figures/interpretation/excl_SM_GG_N2_1-eps-converted-to.pdf, id=5903, 569.1262
 5pt x 385.44pt>
 File: figures/interpretation/excl_SM_GG_N2_1-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5863,7 +5850,7 @@ _SM_SS_N2-eps-converted-to.pdf figures/interpretation/excl_SM_SS_N2.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/interpretation/excl_SM_SS_N2-eps-converted-to.pdf, id=5895, 569.12625p
+<figures/interpretation/excl_SM_SS_N2-eps-converted-to.pdf, id=5904, 569.12625p
 t x 385.44pt>
 File: figures/interpretation/excl_SM_SS_N2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5883,7 +5870,7 @@ _SM_GG_N2-eps-converted-to.pdf figures/interpretation/excl_SM_GG_N2.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/interpretation/excl_SM_GG_N2-eps-converted-to.pdf, id=5896, 569.12625p
+<figures/interpretation/excl_SM_GG_N2-eps-converted-to.pdf, id=5905, 569.12625p
 t x 385.44pt>
 File: figures/interpretation/excl_SM_GG_N2-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5892,9 +5879,9 @@ Package pdftex.def Info: figures/interpretation/excl_SM_GG_N2-eps-converted-to.
 pdf used on input line 33.
 (pdftex.def)             Requested size: 268.80103pt x 182.05078pt.
 )
-[144] [145 <./figures/interpretation/excl_SM_GG_N2_1-eps-converted-to.pdf> <./f
-igures/interpretation/excl_SM_SS_N2-eps-converted-to.pdf>] [146 <./figures/inte
-rpretation/excl_SM_GG_N2-eps-converted-to.pdf>] [147
+[143] [144 <./figures/interpretation/excl_SM_GG_N2_1-eps-converted-to.pdf> <./f
+igures/interpretation/excl_SM_SS_N2-eps-converted-to.pdf>] [145 <./figures/inte
+rpretation/excl_SM_GG_N2-eps-converted-to.pdf>] [146
 
 
 
@@ -5912,45 +5899,45 @@ Overfull \hbox (0.84937pt too wide) in paragraph at lines 3--3
 Package acronym Info: Label `acro:HL-LHC' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 12.
-<figures/interpretation/fig_09a.png, id=5966, 1868.9825pt x 1376.14125pt>
+<figures/interpretation/fig_09a.png, id=5976, 1868.9825pt x 1376.14125pt>
 File: figures/interpretation/fig_09a.png Graphic file (type png)
 
 <use figures/interpretation/fig_09a.png>
 Package pdftex.def Info: figures/interpretation/fig_09a.png used on input line 
 16.
 (pdftex.def)             Requested size: 302.39795pt x 222.64389pt.
- [148
+ [147
 
 
-]) [149 <./figures/interpretation/fig_09a.png (PNG copy)>]
+]) [148 <./figures/interpretation/fig_09a.png (PNG copy)>]
 \openout2 = `FrontBackMatter/Bibliography.aux'.
 
  (./FrontBackMatter/Bibliography.tex)
-Overfull \hbox (0.92459pt too wide) in paragraph at lines 197--197
+Overfull \hbox (0.92459pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 con-tain-ing a same-flavour opposite-sign dilep-ton pair, je
 ts, and
  []
 
 
-Overfull \hbox (41.83119pt too wide) in paragraph at lines 197--197
+Overfull \hbox (41.83119pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 Cam-bridge Uni-ver-sity Press, 2006. \T1/pplj/m/sc/10.95 isb
 n\T1/pplj/m/n/10.95 : 9780511254857, 9781107404267,
  []
 
 
-Overfull \hbox (1.6578pt too wide) in paragraph at lines 197--197
+Overfull \hbox (1.6578pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 Nucl. Phys. \T1/pplj/m/n/10.95 22 (1961), pp. 579^^U588. \T
 1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 1016 / 00
 29 -[] 5582(61 )
  []
 
 
-Overfull \hbox (0.44026pt too wide) in paragraph at lines 197--197
+Overfull \hbox (0.44026pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 Abdus Salam. ^^P  Renor-mal-iz-abil-ity of Gauge The-o-rie
 s.^^Q In: \T1/pplj/m/it/10.95 Phys.
  []
 
-[150
+[149
 
 
 
@@ -5959,175 +5946,175 @@ s.^^Q In: \T1/pplj/m/it/10.95 Phys.
 
 
 ]
-Overfull \hbox (10.72618pt too wide) in paragraph at lines 197--197
+Overfull \hbox (10.72618pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 F. Zwicky. ^^P  Die Rotver-schiebung von ex-tra-galak-tis-
 chen Nebeln.^^Q
  []
 
 
-Overfull \hbox (0.24959pt too wide) in paragraph at lines 197--197
+Overfull \hbox (0.24959pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 Douglas Clowe, Marusa Bradac, An-thony H. Gon-za-lez, Maxi
 m
  []
 
 
-Overfull \hbox (5.24281pt too wide) in paragraph at lines 197--197
+Overfull \hbox (5.24281pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 Marke-vitch, Scott W. Ran-dall, Chris-tine Jones, and Den-ni
 s Zarit-
  []
 
 
-Overfull \hbox (7.8064pt too wide) in paragraph at lines 197--197
+Overfull \hbox (7.8064pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 M. Gell-Mann. \T1/pplj/m/it/10.95 THE EIGHT-FOLD WAY: A TH
 E-ORY OF STRONG
  []
 
 
-Overfull \hbox (1.10799pt too wide) in paragraph at lines 197--197
+Overfull \hbox (1.10799pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 IN-TER-AC-TION SYM-ME-TRY\T1/pplj/m/n/10.95 . 1961. \T1/ppl
 j/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 2172 / 4008239
 $[][]\T1/pplj/m/n/10.95 . \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 :
  []
 
-[151]
-Overfull \hbox (4.02698pt too wide) in paragraph at lines 197--197
+[150]
+Overfull \hbox (4.02698pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 Stephen P. Mar-tin. ^^P  A Su-per-sym-me-try primer.^^Q In
 : (1997). [Adv.
  []
 
 
-Overfull \hbox (46.17723pt too wide) in paragraph at lines 197--197
+Overfull \hbox (46.17723pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 Ser. Di-rect. High En-ergy Phys.18,1(1998)]. \T1/pplj/m/sc/1
 0.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 1142 / 9789812839657 _
 
  []
 
 
-Overfull \hbox (4.71951pt too wide) in paragraph at lines 197--197
+Overfull \hbox (4.71951pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 Bang Nu-cle-osyn-the-sis and the Baryon Den-sity of the Uni-
 verse.^^Q
  []
 
 
-Overfull \hbox (298.96109pt too wide) in paragraph at lines 197--197
+Overfull \hbox (298.96109pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 Lim-its\T1/pplj/m/n/10.95 . "https://atlas.web.cern.ch/Atla
 s/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS$[]$SUSY$[]$Summary/".
  []
 
 
-Overfull \hbox (6.68666pt too wide) in paragraph at lines 197--197
+Overfull \hbox (6.68666pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 Wim Beenakker, Christoph Borschen-sky, Michael Krämer, Ann
 a
  []
 
 
-Overfull \hbox (2.16953pt too wide) in paragraph at lines 197--197
+Overfull \hbox (2.16953pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 sions at sqrt(s)=13 TeV\T1/pplj/m/n/10.95 . Tech. rep. CMS-
 PAS-SUS-15-011. Geneva:
  []
 
-[152]
-Overfull \hbox (6.33395pt too wide) in paragraph at lines 197--197
+[151]
+Overfull \hbox (6.33395pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 The AL-ICE Col-lab-o-ra-tion. ^^P  The AL-ICE ex-per-i-men
 t at the CERN
  []
 
 
-Overfull \hbox (134.42679pt too wide) in paragraph at lines 197--197
+Overfull \hbox (134.42679pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 Data\T1/pplj/m/n/10.95 . "https://twiki.cern.ch/twiki/bin/v
 iew/AtlasPublic/EgammaTriggerPublicResults".
  []
 
-[153]
-Overfull \hbox (12.1531pt too wide) in paragraph at lines 197--197
+[152]
+Overfull \hbox (12.1531pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 method.^^Q In: \T1/pplj/m/it/10.95 JHEP \T1/pplj/m/n/10.95 0
 711 (2007), p. 070. arXiv: [][]$\T1/fvm/m/n/10.95 0709 . 2092$ [hep-ph][][]\T1/
 pplj/m/n/10.95 . 
  []
 
 
-Overfull \hbox (0.4802pt too wide) in paragraph at lines 197--197
+Overfull \hbox (0.4802pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 ATL-PHYS-PUB-2009-002. ATL-COM-PHYS-2008-105. Geneva:
  []
 
 
-Overfull \hbox (3.41637pt too wide) in paragraph at lines 197--197
+Overfull \hbox (3.41637pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 for the AT-LAS sil-i-con pixel de-tec-tor.^^Q In: \T1/pplj/m
 /it/10.95 JINST \T1/pplj/m/n/10.95 9 (2014), P09009.
  []
 
 
-Overfull \hbox (8.75156pt too wide) in paragraph at lines 197--197
+Overfull \hbox (8.75156pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/it/10.95 ence, Learn-ing, and Ex-trac-tion\T1/pplj/m/n/10.95 . 2016.
  \T1/pplj/m/sc/10.95 url\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 http : / / 
 lukedeo . github .
  []
 
-[154]
-Overfull \hbox (74.07869pt too wide) in paragraph at lines 197--197
+[153]
+Overfull \hbox (74.07869pt too wide) in paragraph at lines 199--199
 \T1/fvm/m/n/10.95 twiki . cern . ch / twiki / bin / view / AtlasProtected / Iso
 lationSelectionTool #
  []
 
 
-Overfull \hbox (12.2138pt too wide) in paragraph at lines 197--197
+Overfull \hbox (12.2138pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 ATLAS Col-lab-o-ra-tion. \T1/pplj/m/it/10.95 Ex-pected per
 -for-mance of the AT-LAS $\OML/zplm/m/it/10.95 b$\T1/pplj/m/it/10.95 -tagging
  []
 
-[155]
-Overfull \hbox (2.32095pt too wide) in paragraph at lines 197--197
+[154]
+Overfull \hbox (2.32095pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 Production Cross Sec-tion at Hadron Col-lid-ers Through $\OM
 L/zplm/m/it/10.95 O\OT1/zplm/m/n/10.95 (\OML/zplm/m/it/10.95 []\OT1/zplm/m/n/1
 0.95 )$\T1/pplj/m/n/10.95 .^^Q
  []
 
-[156]
-Overfull \hbox (8.64973pt too wide) in paragraph at lines 197--197
+[155]
+Overfull \hbox (8.64973pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 us-ing the AT-LAS de-tec-tor.^^Q In: \T1/pplj/m/it/10.95 Phy
 s. Rev. D \T1/pplj/m/n/10.95 93.3 (2016), p. 032009.
  []
 
 
-Overfull \hbox (7.43626pt too wide) in paragraph at lines 197--197
+Overfull \hbox (7.43626pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/sc/10.95 doi\T1/pplj/m/n/10.95 : [][]$\T1/fvm/m/n/10.95 10 . 1103 / 
 PhysRevD . 93 . 032009$[][]\T1/pplj/m/n/10.95 . arXiv: [][]$\T1/fvm/m/n/10.95 1
 510 . 03818$ [hep-ex][][]\T1/pplj/m/n/10.95 . 
  []
 
 
-Overfull \hbox (0.93095pt too wide) in paragraph at lines 197--197
+Overfull \hbox (0.93095pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 fer-en-tial t-tbar pro-duc-tion cross sec-tions for high-pt 
 top quarks
  []
 
-[157]
-Overfull \hbox (7.03468pt too wide) in paragraph at lines 197--197
+[156]
+Overfull \hbox (7.03468pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 ATLAS Col-lab-o-ra-tion. ^^P  Search for squarks and gluin
 os in events
  []
 
 
-Overfull \hbox (4.80399pt too wide) in paragraph at lines 197--197
+Overfull \hbox (4.80399pt too wide) in paragraph at lines 199--199
 []\T1/pplj/m/n/10.95 A. Kulesza and L. Mo-tyka. ^^P  Thresh-old re-sum-ma-tion 
 for squark-
  []
 
-[158]
-Overfull \hbox (7.75484pt too wide) in paragraph at lines 197--197
+[157]
+Overfull \hbox (7.75484pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 erke, and Matthias Wolf. \T1/pplj/m/it/10.95 The RooSt-ats P
 roject\T1/pplj/m/n/10.95 . 2010. eprint: [][]$\T1/fvm/m/n/10.95 arXiv :
  []
 
 
-Overfull \hbox (11.72745pt too wide) in paragraph at lines 197--197
+Overfull \hbox (11.72745pt too wide) in paragraph at lines 199--199
 \T1/pplj/m/n/10.95 ^^P  Asymp-totic for-mu-lae for likelihood-based tests of ne
 w physics.^^Q
  []
 
-[159]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+[158]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./whole_thesis.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Titleback.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Dedication.aux) (./FrontBackMatter/Acknowledgments.aux)
@@ -6138,8 +6125,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
 ) (./Chapters/Chapter10.aux) (./Chapters/Chapter10b.aux)
 (./Chapters/Chapter11.aux) (./Chapters/Chapter12.aux) (./Chapters/Chapter13.aux
 ) (./FrontBackMatter/Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `whole_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AF4A3826B35DDB3E70B632426BD828D8;6395.
 Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
@@ -6147,9 +6134,9 @@ Package logreq Info: Writing requests to 'whole_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27154 strings out of 493089
- 489592 string characters out of 6134842
- 981951 words of memory out of 5000000
+ 27153 strings out of 493089
+ 489576 string characters out of 6134842
+ 981977 words of memory out of 5000000
  29041 multiletter control sequences out of 15000+600000
  183521 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -6188,10 +6175,10 @@ ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on whole_thesis.pdf (185 pages, 16137543 bytes).
+Output written on whole_thesis.pdf (184 pages, 16138879 bytes).
 PDF statistics:
- 6466 PDF objects out of 7423 (max. 8388607)
- 4846 compressed objects within 49 object streams
- 681 named destinations out of 1000 (max. 500000)
+ 6476 PDF objects out of 7423 (max. 8388607)
+ 4857 compressed objects within 49 object streams
+ 680 named destinations out of 1000 (max. 500000)
  77238 words of extra memory for PDF output out of 89155 (max. 10000000)
 
