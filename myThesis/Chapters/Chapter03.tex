@@ -19,7 +19,7 @@ The \ac{LHC} was built in a 26.7 km circular tunnel that straddles the French-Sw
 \end{figure}
 \end{centering}
 
-These points are each encased by particle detectors, which can examine the outputs of the collisions, and have different strengths and goals. The two multipurpose detectors are \ac{ATLAS} and \ac{CMS}, which have very complex detectors aimed at measuring as many \ac{SM} particles as possible and discovering new processes \cite{PERF-2007-01, 1748-0221-3-08-S08004}. \ac{LHCb} examines processes related to the $b$ quark \cite{1748-0221-3-08-S08005}. Meanwhile, \ac{ALICE} focuses on special runs of the \ac{LHC} which collide lead ions instead of protons, and seeks to understand the high energy densities resulting from the collisions of such massive, complex particles \cite{1748-0221-3-08-S08002}. 
+These points are each encased by particle detectors, which can examine the outputs of the collisions, and have different strengths and goals. The two multipurpose detectors are \ac{ATLAS} and \ac{CMS}, which have very complex detectors aimed at measuring as many \ac{SM} particles as possible and discovering new processes \cite{PERF-2007-01, 1748-0221-3-08-S08004}. \acs{LHCb} (\aclu{LHCb}) examines processes related to the $b$ quark \cite{1748-0221-3-08-S08005}. Meanwhile, \acs{ALICE} (\aclu{ALICE}) focuses on special runs of the \ac{LHC} which collide lead ions instead of protons, and seeks to understand the high energy densities resulting from the collisions of such massive, complex particles \cite{1748-0221-3-08-S08002}. 
 
 %----------------------------------------------------------------------------------------
 
@@ -60,7 +60,7 @@ However, as the magnetic field directing these protons out of the \ac{PS} loop i
 
 \section{Operation of the Large Hadron Collider}
 
-The \ac{LHC} consists of eight straight sections each connected by an arc. In each straight section, \ac{RF} cavities accelerate protons, ultimately bringing them up to 6.5 \gev. Between these straight sections, 8.4 T dipole magnets bend the beams to maintain the approximately circular path. However, because the \ac{LHC} is a proton-proton collider as opposed to a proton-antiproton collider, the two counter-rotating beams must be housed in separate rings and be accelerated separately. To achieve this, twin-bore superconducting magnets, one example of which can be seen in \autoref{fig:magnet}, surround the two rings and accelerate them both. Quadrupole magnets are used at the four collision points to focus the beams, which cross at an interaction point at the center of a detector. In total there are over 6000 superconducting magnets magnets, which are kept below their critical temperature of 1.9 K by liquid helium cooling. 
+The \ac{LHC} consists of eight straight sections each connected by an arc. In each straight section, \ac{RF} cavities accelerate the protons, ultimately bringing them up to 6.5 \gev. Between these straight sections, 8.4 T dipole magnets bend the beams to maintain the approximately circular path. However, because the \ac{LHC} is a proton-proton collider as opposed to a proton-antiproton collider, the two counter-rotating beams must be housed in separate rings and be accelerated separately. To achieve this, twin-bore superconducting magnets, one example of which can be seen in \autoref{fig:magnet}, surround the two rings and accelerate them both. Quadrupole magnets are used at the four collision points to focus the beams, which cross at an interaction point at the center of each detector. In total there are over 6000 superconducting magnets in the \ac{LHC}, which are kept below their critical temperature of 1.9 K by liquid helium cooling. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -71,7 +71,7 @@ The \ac{LHC} consists of eight straight sections each connected by an arc. In ea
 \end{figure}
 \end{centering}
 
-When first injected into the \ac{LHC}, the protons must be accelerated with increasing \ac{RF} frequencies over many turns through the machine, with the magentic field from the dipoles increasing with each pass to apply more force with which to bend the beam. Once the protons have reached a maximum energy, a process called \textit{squeezing} occurs. The quadrupole magnets are used to reduce the total transverse area of the beam and elongate the bunches slightly. The shape produced by this process determines the \textit{beam spot} for the \ac{ATLAS} detector, the area in which collisions occur within the detector. As shown in \autoref{fig:beam_spot}, the collisions mostly occur within 0.5 mm of one another in the $x-y$ plane, but have a spread of about 400 mm in the $z$ direction\footnote{The coordinate system used here is discussed in \autoref{sec:coords}.}.
+When first injected into the \ac{LHC}, the protons must be accelerated with increasing \ac{RF} frequencies over many turns through the machine. AT the same time, the magentic field from the dipoles increases to apply more force with which to bend the beam. Once the protons have reached a maximum energy, a process called \textit{squeezing} occurs. The quadrupole magnets are used to reduce the total transverse area of the beam and elongate the bunches slightly. The shape produced by this process determines the \textit{beam spot} for the \ac{ATLAS} detector, the area in which collisions occur within the detector. As shown in \autoref{fig:beam_spot}, the collisions mostly occur within 0.5 mm of one another in the $x-y$ plane, but have a spread of about 400 mm in the $z$ direction\footnote{The coordinate system used here is discussed in \autoref{sec:coords}.}.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -88,28 +88,28 @@ Once the beams are at a stable energy and have been squeezed, the \ac{LHC} indic
 \section{Luminosity}
 
 The goal of the collisions provided by the \ac{LHC} is to produce \ac{SM} and \ac{BSM} particles, which can be observed by the detectors. How frequently a given process could occur was a crucial consideration in its design. The number of events of a given type is given by
-
+%
 \begin{equation}
-N_{event} = \int dt\ L\sigma_{event}
+N_\text{event} = \int dt\ L\sigma_\text{event}
 \end{equation}
-
-where $L$ is the luminosity delivered by the \ac{LHC} and $\sigma_{event}$ is the cross-section of the process in question. These cross-sections vary over many orders of magnitude for different processes, as shown in \autoref{fig:cross_sections}, a plot of many different \ac{SM} cross-sections. Because the higher-mass processes are so rare, a large amount of luminosity is required to produce them, and because other processes like jet production occur so much more frequently, they must be produced at high enough rates that analyzers have enough statistical power to differentiate them from more common events.   
+%
+where $L$ is the luminosity delivered by the \ac{LHC} and $\sigma_{event}$ is the cross-section of the process in question. These cross-sections vary over many orders of magnitude for different processes, as shown in \autoref{fig:cross_sections}, which gives the cross-sections for many different \ac{SM} cross-sections as a function of energy. Because the higher-mass processes are so rare, a large amount of luminosity is required to produce them, and because other processes like jet production occur so much more frequently, they must be produced at high enough rates that analyzers have enough statistical power to differentiate them from more common events.   
 
 The instantaneous luminosity at the \ac{LHC} is given by
-
+%
 \begin{equation}
 L = \frac{ N^2_b n_b f_{rev} \gamma_r }{ 4\pi \epsilon_n \beta* } F
 \end{equation}
-
+%
 where $N_b$ is the number of protons per bunch ($\sim10^{11}$), $n_b$ is the number of bunches in each beam ($\sim10^3$), $f_{rev}$ is the number of times per second that the beam travels around the ring (~1 kHz), $\gamma_r$ is the relativistic gamma factor ($\sim 7000$), $\epsilon_n$ is the normalized transverse beam emittance ($\sim 4$ mm $\mu$m), and $\beta*$ is the $\beta$-function at the collision point, which describes the transverse displacement of particles in the beam ($\sim 0.5$m). $F$ gives the reduction factor due to the geometry of the beam crossings, and is given by
-
+%
 \begin{equation}
 F = (1+ (\frac{\theta_c \sigma_z}{2\sigma*})^2)^{-1/2}
 \end{equation}
-
+%
 where $\theta_c$ is the crossing angle of the beams, $\sigma_z$ is the RMS of the bunch length in the $z$ direction, and $\sigma*$ is the same in the transverse direction.
 
-As the proton beams circulate and collide, $N_b$ decreases, producing a falling instantaneous luminosity, as seen in a Run 1 example in \autoref{fig:instlumi}. In Run 2, peak instantaneous luminosity was brought up to $1.39 \times 10^{34}$ cm$^{-2}$s$^{-1}$. This high instantaneous luminosity and consistent running resulted in much faster data collection than in Run 1, which is depicted in \autoref{fig:lumi_vs_year}. 
+As the proton beams circulate and collide, $N_b$ decreases, producing a falling instantaneous luminosity, as seen in a Run 1 example in \autoref{fig:instlumi}. In Run 2, peak instantaneous luminosity was brought up to $1.39 \times 10^{34}$ cm$^{-2}$s$^{-1}$. This high instantaneous luminosity and consistent running resulted in much faster data collection than in Run 1. The accumulation of luminosity for the two years of Run 1 and the two years of Run 2 is depicted in \autoref{fig:lumi_vs_year}. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -132,7 +132,7 @@ As the proton beams circulate and collide, $N_b$ decreases, producing a falling 
 \section{Pile-up in proton-proton Collisions}
 \label{sec:pileup}
 
-One consequence of the high instantaneous luminosity is \textit{pile-up}, or multiple simultaneously interactions. Because the instantaneous luminosity is much larger than the total proton inelastic cross-section, it is very likely that multiple protons will collide in the same bunch crossing. In fact, the average number of simultaneous interactions in 13 \tev data, shown in \autoref{fig:ninteractions}, is about twenty. For detectors with read-out windows larger than the bunch spacing of the \ac{LHC}, \textit{out-of-time} pile-up can also occur. In these cases, an event mistakenly includes measurements of objects resulting from other events' collisions. 
+One consequence of the high instantaneous luminosity is \textit{pile-up}, or multiple simultaneously occurring interactions. Because the instantaneous luminosity is much larger than the total proton inelastic cross-section, it is very likely that multiple protons will collide in the same bunch crossing. In fact, the average number of simultaneous interactions in 13 \tev~data, shown in \autoref{fig:ninteractions}, is about twenty. For detectors with read-out windows larger than the bunch spacing of the \ac{LHC}, \textit{out-of-time} pile-up can also occur. In these cases, an event mistakenly includes measurements of objects resulting from collisions in other bunch crossings. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -143,6 +143,6 @@ One consequence of the high instantaneous luminosity is \textit{pile-up}, or mul
 \end{figure}
 \end{centering}
 
-Pile-up can be a difficult challenge for the \ac{ATLAS} analyses because it typically results in additional jets in an event, and can increase \ac{SM} backgrounds for analyses seeking to identify events with jets. It can also add to the overall hadronic energy of an event, and that energy can be mis-assigned to other objects. Fortunately, the multiple interactions occur at different points along the beam line, and the particles emerging from each can be traced back to create \textit{vertices} identifying the location of the interactions. In most cases, it is possible to resolve the different vertices that each proton-proton collision makes, and so pile-up jets can be identified and rejected. 
+Pile-up is a difficult challenge for the \ac{ATLAS} analyses because it typically results in additional jets in an event, and can increase \ac{SM} backgrounds for analyses seeking to identify events with jets. It can also add to the overall hadronic energy of an event, and that energy can be mis-assigned to other objects. Fortunately, the multiple interactions occur at different points along the beam line, and the particles emerging from each can be traced back to create \textit{vertices} identifying the location of the interactions. In most cases, it is possible to resolve the different vertices that each proton-proton collision makes, and so pile-up jets can be identified and rejected. 
 
 

@@ -33,9 +33,9 @@
   \verb 1503.03290
   \endverb
   \field{pages}{318}
-  \field{title}{{Search for supersymmetry in events containing a same-flavour
+  \field{title}{Search for supersymmetry in events containing a same-flavour
   opposite-sign dilepton pair, jets, and large missing transverse momentum in
-  $\sqrt{s} = 8\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
+  $\sqrt{s} = 8\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}
   \field{volume}{75}
   \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}
@@ -892,21 +892,6 @@
   \field{year}{2011}
 \endentry
 
-\entry{summary_plot}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Collaboration}{C.}%
-     {ATLAS}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CA1}
-  \strng{fullhash}{CA1}
-  \field{howpublished}{"https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS$\_$SUSY$\_$Summary/"}
-  \field{title}{ATLAS SUSY Searches - $95\%$ CL Lower Limits}
-  \field{year}{2016}
-\endentry
-
 \entry{1607.07741}{misc}{}
   \name{author}{5}{}{%
     {{}%
@@ -942,6 +927,21 @@
   \endverb
   \field{title}{NNLL-fast: predictions for coloured supersymmetric particle
   production at the LHC with threshold and Coulomb resummation}
+  \field{year}{2016}
+\endentry
+
+\entry{summary_plot}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{howpublished}{"https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS$\_$SUSY$\_$Summary/"}
+  \field{title}{ATLAS SUSY Searches - $95\%$ CL Lower Limits}
   \field{year}{2016}
 \endentry
 
@@ -1311,76 +1311,27 @@
   \field{year}{2010}
 \endentry
 
-\entry{Alwall:2014hca}{article}{}
-  \name{author}{10}{}{%
+\entry{sherpa}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
     {{}%
-     {Alwall}{A.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Frederix}{F.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Frixione}{F.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hirschi}{H.}%
-     {V.}{V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Maltoni}{M.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mattelaer}{M.}%
-     {O.}{O.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Shao}{S.}%
-     {H.~S.}{H.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Stelzer}{S.}%
+     {Gleisberg}{G.}%
      {T.}{T.}%
      {}{}%
      {}{}}%
-    {{}%
-     {Torrielli}{T.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zaro}{Z.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
   }
-  \strng{namehash}{AJ+1}
-  \strng{fullhash}{AJFRFSHVMFMOSHSSTTPZM1}
-  \verb{doi}
-  \verb 10.1007/JHEP07(2014)079
-  \endverb
+  \strng{namehash}{GT+1}
+  \strng{fullhash}{GT+1}
   \verb{eprint}
-  \verb 1405.0301
+  \verb 0811.4622
   \endverb
-  \field{pages}{079}
-  \field{title}{{The automated computation of tree-level and next-to-leading
-  order differential cross sections, and their matching to parton shower
-  simulations}}
-  \field{volume}{07}
+  \field{pages}{007}
+  \field{title}{Event generation with Sherpa 1.1}
+  \field{volume}{0902}
   \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{2014}
+  \field{year}{2009}
 \endentry
 
 \entry{PowhegBOX1}{article}{}
@@ -1477,27 +1428,76 @@
   \field{year}{2010}
 \endentry
 
-\entry{sherpa}{article}{}
-  \true{moreauthor}
-  \name{author}{1}{}{%
+\entry{Alwall:2014hca}{article}{}
+  \name{author}{10}{}{%
     {{}%
-     {Gleisberg}{G.}%
+     {Alwall}{A.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frederix}{F.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frixione}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hirschi}{H.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maltoni}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mattelaer}{M.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shao}{S.}%
+     {H.~S.}{H.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stelzer}{S.}%
      {T.}{T.}%
      {}{}%
      {}{}}%
+    {{}%
+     {Torrielli}{T.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zaro}{Z.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
   }
-  \strng{namehash}{GT+1}
-  \strng{fullhash}{GT+1}
-  \verb{eprint}
-  \verb 0811.4622
+  \strng{namehash}{AJ+1}
+  \strng{fullhash}{AJFRFSHVMFMOSHSSTTPZM1}
+  \verb{doi}
+  \verb 10.1007/JHEP07(2014)079
   \endverb
-  \field{pages}{007}
-  \field{title}{Event generation with Sherpa 1.1}
-  \field{volume}{0902}
+  \verb{eprint}
+  \verb 1405.0301
+  \endverb
+  \field{pages}{079}
+  \field{title}{{The automated computation of tree-level and next-to-leading
+  order differential cross sections, and their matching to parton shower
+  simulations}}
+  \field{volume}{07}
   \field{journaltitle}{JHEP}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
-  \field{year}{2009}
+  \field{year}{2014}
 \endentry
 
 \entry{Sjostrand:2006za}{article}{}

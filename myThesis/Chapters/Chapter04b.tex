@@ -57,7 +57,7 @@ Photons can be converted to electron-positron pairs in the \ac{ID}, leaving a pa
 
 Two-track clusters are required to consist of two oppositely charged tracks that emerge from a conversion vertex running parallel to one another. A likelihood that these tracks are from electrons is determined using the high threshold hits in the \ac{TRT}, and quality requirements are made on the tracks using this likelihood. For tracks with silicon hits, a loose likelihood requirement of 10\% is made, while tracks without silicon hits are required to have at least 80\% likelihood. The tracks are then fit to determine the conversion vertex, and quality cuts are made, such as requiring that conversion vertices within the silicon volume correspond to tracks with silicon hits. 
 
-Single track clusters occur most often from conversions in the outermost layers of the \ac{ID}, and are more difficult to reconstruct. Tracks are typically lost because an electron or positron resulting from the conversion has a \pt too low to be reconstructed, or because the two tracks are so close together that they're identified as a single track. The single track is required to have at least a 95\% electron likelihood from \ac{TRT} hits, and must not have a hit in the innermost layer of the pixel detector. The conversion vertex is defined as the first hit of the single track. 
+Single track clusters occur most often from conversions in the outermost layers of the \ac{ID}, and are more difficult to reconstruct. Tracks are typically lost because an electron or positron resulting from the conversion has a \pt too low to be reconstructed, or because the two tracks are so close together that they're identified as a single track. The single track is required to have at least a 95\% electron likelihood from \ac{TRT} hits, and must not have a hit in the innermost layer of the Pixel Detector. The conversion vertex is defined as the first hit of the single track. 
 
 The tracks associated with these conversion vertices are extrapolated to the calorimeter and matched to cluster, except in the case that there are two tracks that differ substantially in their \pt measurements, in which case the position of the conversion vertex is used for extrapolation to the calorimeter, assuming a straight-line trajectory. If multiple vertices are matched to a single cluster, preference is given to vertices with double tracks, silicon hits, and finally to tracks closest to the interaction point. 
 
@@ -123,13 +123,14 @@ The isolation selection for muons is designed in the same way as the electron is
 
 Jets are the most complicated objects to reconstruct in the \ac{ATLAS} detector because each jet is an assembly of many hadronic particles. In contrast to a lepton, whose reconstructed energy can easily be compared to its true energy from simulation, even a jet's true energy is ambiguous, and is dependent on the choice of the jet's definition. The standard jet reconstruction algorithm used in the \ac{ATLAS} experiment is called anti-$k_t$ \cite{Cacciari:2008gp}. 
 
-This algorithm begins with clusters in the calorimeter defined by topologically connected cells with energy deposits significantly higher than the noise background. There are two collections used most commonly for analysis. One uses cluster energies calibrated for electromagnetic showers (\acs{EM}), and another uses clusters calibrated to hadronic showers. The second uses a method called \ac{LCW}, which first determines the extent to which the cluster is electromagnetic or hadronic based on the energy density and the shower depth, then applies a calibration accordingly for each cluster.
+This algorithm begins with clusters in the calorimeter defined by topologically connected cells with energy deposits significantly higher than the noise background. There are two collections used most commonly for analysis. One uses cluster energies calibrated for electromagnetic showers (\acs{EM}), and another uses clusters calibrated to the energies of hadronic showers. The second uses a method called \ac{LCW}, which first determines the extent to which the cluster is electromagnetic or hadronic based on the energy density and the shower depth, then applies a calibration accordingly for each cluster.
 
 To reconstruct jets, a set of clusters is chosen and the anti-$k_t$ algorithm is then applied. These clusters are grouped together according to the distance measure
+%
 \begin{equation}
 d_{ij} = \mathrm{min}(k^{-2}_{ti}, k^{-2}_{tj}) \frac{\Delta_{ij}^2}{R^2}
 \end{equation}
-
+%
 where $R$ is the algorithm's radius parameter, typically set to 0.4, $\Delta$ gives the angular separation of the two clusters, and $k_t$ is the transverse momentum associated with the cluster. 
 
 The grouping process begins with each cluster as a \textit{pseudo-jet}, with its axis and \pt is determined as if it were a typical jet. Then, the pair of pseudo-jets with the smallest $d_{ij}$ are grouped together, forming a new pseudo-jet, and its axis and \pt are reassessed. This grouping continues until there is a pseudo-jet with \pt smaller than the $d_{ij}$ of any pseudo-jet pair, at which point this pseudo-jet becomes a jet, and is removed from the collection. The clustering process continues until all clusters are associated with a jet. 
@@ -159,19 +160,19 @@ A series of calibrations are then applied to these jets. The first is to correct
 In addition to correcting for additional energy due to pile-up, it is necessary to reject reconstructed jets that come from pile-up vertices. To accomplish this, a multivariate alogrithm called \ac{JVT} was created which builds upon an older method, \ac{JVF} \cite{ATLAS-CONF-2014-018}. 
 
 \ac{JVF} gives the fraction of energy in a jet that comes from the hard-scatter vertex, and is defined as 
-
+%
 \begin{equation}
 \mathrm{JVF} = \frac{\sum_i \pt^i(PV_0)}{\sum_j \pt^j(PV_0) + \sum_{n\geq1} \sum_j \pt^j(PV_n)} 
 \end{equation}
-
+%
 where $\pt^i(PV_n)$ gives the \pt of the $i$th track associated with the $n$th primary vertex. $PV_0$ gives the primary vertex associated with the hard-scattering, while the remaining vertices are due to pile-up interactions. Track are associated with a jet according to a processes called \textit{ghost association}, in which they are clustered along with the typical pseudo-jet collection according to the anti-$k_t$ algorithm described above. In the clustering process, the tracks energy is ignored so that it doesn't impact the measurement of the final jet. 
 
 This fraction decreases with higher pile-up, making the construction of an explicit cut difficult in varying pile-up conditions. \ac{JVT} improved on the method by using a pile-up corrected \ac{JVF}-like variable, defined as 
-
+%
 \begin{equation}
 \mathrm{corrJVF} = \frac{\sum_i \pt^i(PV_0)}{\sum_j \pt^j(PV_0) + \frac{\sum_{n\geq1} \sum_j \pt^j(PV_n)}{kn_{PU}}} 
 \end{equation}
-
+%
 where $n_{PU}$ is the number of tracks, which is multiplied by a scaling factor $i = 0.01$. This quantity is included in the inputs of the tagger along with other variables measuring the fraction of jet energy that is associated with the hard-scattering vertex. \autoref{fig:reco_jvt} shows the efficiency and fake rate for the two methods, demonstrating \ac{JVT}'s superior stability across events with different numbers of pile-up vertices. 
 
 \begin{centering}
@@ -204,7 +205,7 @@ The first step in the \ac{OR} process is to remove reconstructed jets that appea
 
 Next, the muon-jet \ac{OR} is applied, which is very similar to that of the electron. Any jet within $\Delta R = 0.2$ of a muon is removed, unless the jet is $b$-tagged, in which case the muon is removed due to the likelihood that it resulted due to a heavy-flavor decay. The muon-jet \ac{OR} then differs from the electron's in that a \pt-based $\Delta R$ cut is used in the last step. Muons within $\Delta R < \mathrm{min}(0.04 + (10 \gev)/\pt, 0.4)$ of a jet are removed, with the \pt-dependent cone size designed to reject low-\pt heavy-flavor muons while preserving muons resulting from the decay of high-\pt particles, which are closely aligned with the other products of the decay. 
 
-The next step is to remove electrons resulting from muon bremsstrahlung. Any electron within $\Delta R = 0.1$ of a muon is removed from the event. 
+The next step is to remove electrons likely to have resulted from muon bremsstrahlung. Any electron within $\Delta R = 0.1$ of a muon is removed from the event. 
 
 Lastly, overlap between photons and both jets and electrons is considered. Baseline photons within $\Delta R = 0.4$ of an electron are removed, as are jets within $\Delta R = 0.4$ of a remaining photon.
 
@@ -224,7 +225,7 @@ Missing transverse momentum (${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$, with 
 \end{figure}
 \end{centering}
 
-$Z\rightarrow\mu\mu$ events, which rarely have any true \met, can be used to study the contribution of different objects to the total \met calculation. \autoref{fig:reco_met_terms} shows the the \met resulting from muons, jets, and the soft term measured in events with two opposite-sign muons that reconstruct an invariant mass within 25 \gev~of the $Z$ boson mass. Because very little real \met exists, these distributions primarily demonstrate how mismeasurement of various objects contributes to the \met term. Though the soft term falls off very quickly, rarely producing events with more than 50 \gev~of \met, both the jet and muon distributions have longer tails, producing more events with higher \met. Though these individual terms can cancel in a system where a $Z$ boson recoils against a jet system, the overall scale of each term indicates the possibility of contributions from mismeasurement; a 30\% mismeasurement of the jet or muon term can result in significant \met, while a similar mismeasurement of the soft term is unlikely to produce a large impact. The agreement between data and \ac{MC} in these distributions indicates that, at least in the core of the distributions, these \met terms are well modeled.  
+$Z\rightarrow\mu\mu$ events, which rarely have any true \met, can be used to study the contribution of different objects to the total \met calculation. \autoref{fig:reco_met_terms} shows the the \met resulting from muons, jets, and the soft term measured in events with two opposite-sign muons that reconstruct an invariant mass within 25 \gev~of the $Z$ boson mass. Large values in each of these terms, of course, do not necessarily correspond to a large value of the overall \met; in a system where a $Z$ boson recoils off of a jet system, the terms for jets and muons should both be large but ultimately cancel. However, the overall scale of each term indicates the possibility of contributions from mismeasurement. A 30\% mismeasurement of the jet or muon term can result in significant \met, while a similar mismeasurement of the soft term is unlikely to produce a large impact on the \met calculation. The agreement between data and \ac{MC} in these distributions indicates that, at least in the core of the distributions, these \met terms are well modeled.  
 
 \begin{centering}
 \begin{figure}[!hbt]

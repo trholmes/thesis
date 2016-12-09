@@ -4,7 +4,7 @@
 
 \label{ch:atlas} % For referencing the chapter elsewhere, use \autoref{ch:name} 
 
-The \acf{ATLAS} detector circumscribes the \ac{LHC}'s beam pipe, enclosing the collision point with a series of particle detecting layers, aimed at making as many measurements of the particles leaving the collision point as possible. Its goal is to get a precise measurement of all the stable or semi-stable particles flying from proton-proton collisions at its center, allowing analyzers to fully reconstruct the kinematics of the underlying processes.
+The \ac{ATLAS} detector circumscribes the \ac{LHC}'s beam pipe, enclosing the collision point with a series of particle detecting layers, aimed at making as many measurements of the particles leaving the collision point as possible. Its goal is to get a precise measurement of all the stable or semi-stable particles flying from proton-proton collisions at its center, allowing analyzers to fully reconstruct the kinematics of the underlying processes.
 
 The \ac{ATLAS} detector is the largest detector of its kind, measuring 44 m in length and 25 m in height, as seen in \autoref{fig:detector}. The size is mainly determined by the constraints of the \acf{MS}, discussed in \autoref{sec:MS}, which is the largest and outermost subsystem. The \ac{MS} is submerged in a spatially varying magnetic field provided by three toroidal magnets, while the \acf{ID} (\autoref{sec:ID}) is encased by a superconducting solenoid, which provides a uniform 2 T field throughout its volume \cite{PERF-2007-01}. A calorimeter system is located between the \ac{MS} and \ac{ID}, with components to measure the energy of electromagnetic and hadronic systems. 
 
@@ -23,18 +23,18 @@ The \ac{ATLAS} detector is the largest detector of its kind, measuring 44 m in l
 The \ac{ATLAS} detector is centered around the $pp$ collision point, and is built radially out from the beam pipe, maintaining as much rotational symmetry around the beam pipe as possible. It is also symmetric in the forward-backward directions. A coordinate system using the collision point as the origin is used, with the beam line defining the $z$-axis in the counter-clockwise direction. The positive $x$ direction is defined as pointing to the center of the \ac{LHC} ring, while the positive $y$ direction points upwards. For ease of reference, the side of the detector in the positive-$z$ direction is referred to as the A side, and the other side is referred to as the C side. 
 
 Because of the cylindrical design of the detector, angular coordinates are often used. The azimuthal angle $\phi$ defines the angle around the beam pipe and the polar angle $\theta$ defines the angle from the beam axis ($z$). However, a transformation of the polar angle called pseudorapidity ($\eta$) is used more often, and is defined as 
-
+%
 \begin{equation}
-\eta = - \mathrm{ln} [ \mathrm{tan} \frac{\theta}{2} ]. 
+\eta = - \mathrm{ln} ( \mathrm{tan} \frac{\theta}{2} ). 
 \end{equation}
-
+%
 $\eta$ is used because the particle distribution from \ac{LHC} collisions is roughly uniform in this variable. Building on this definition, angular distance between objects is typically defined as
-
+%
 \begin{equation}
 \Delta R = \sqrt{\Delta\eta^2 + \Delta\phi^2}. 
 \end{equation}
 
-Often variables are defined purely in the transverse plane, which is indicated by a subscripted $T$, as in $p_T$, which gives an object's transverse momentum. 
+Often variables are defined purely in the transverse plane, which is indicated by a subscripted T, as in \pt, which gives an object's transverse momentum. 
 
 %------------------------------------------------
 
@@ -43,7 +43,7 @@ Often variables are defined purely in the transverse plane, which is indicated b
 
 The \acf{ID} is used for the measurement of tracks, estimates of the paths charged particles take as they travel through the detector. Collisions in the detector produce about 1000 particles, so identifying and differentiating all the tracks resulting from a collision is challenging. 
 
-The \ac{ID} consists of three separate subdetectors, each of which has multiple layers capable of producing an electrical signal, called a \textit{hit}, when a charged particle travels through its active material. \ac{ATLAS} tracking software considers all these hits and forms tracks, with the goal of minimizing fake tracks due to random noise and maximizing the efficiency of identifying a real particle. Some details of this procedure are discussed in \autoref{sec:NN}. The full \ac{ID} can be seen in \autoref{fig:ID}, while a schematic in \autoref{fig:IDeta} shows more detail on the placement of each layer.
+The \ac{ID} consists of three separate subdetectors, each of which has multiple layers capable of producing an electrical signal, called a \textit{hit}, when a charged particle travels through its active material. \ac{ATLAS} tracking software considers all these hits and forms tracks, with the goal of minimizing fake tracks due to random noise and maximizing the efficiency of identifying a real particle. The details of this procedure are discussed in \autoref{sec:NN}. The full \ac{ID} can be seen in \autoref{fig:ID}, while a schematic in \autoref{fig:IDeta} shows more detail on the placement of each layer.
 
 \begin{centering}
 \begin{figure}[bth]
@@ -65,7 +65,7 @@ The \ac{ID} consists of three separate subdetectors, each of which has multiple 
 
 \subsection{The Pixel Detector}
 
-The pixel detector lies closest to the beam pipe of the \ac{LHC}, and has four layers comprising 92 million pixels. There are three standard layers, referred to as Layers 0-2 (L0, L1, L2), and an additional layer added for the 2015 data-taking, called the \ac{IBL}. 
+The Pixel Detector lies closest to the beam pipe of the \ac{LHC}, and has four layers comprising 92 million pixels. There are three standard layers, referred to as Layers 0-2 (L0, L1, L2), and an additional layer added for the 2015 data-taking, called the \acf{IBL}. 
 
 \subsubsection{The Original Pixel Detector}
 
@@ -83,7 +83,7 @@ In 2014, the \ac{IBL} was added to the Pixel Detector. This layer is placed dire
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/IBL-other.png}
-\caption{Diagram in the $x-y$ plane of the \ac{IBL} and the innermost layer of the pixel detector, L0 \cite{1201.5469}.}
+\caption{Diagram in the $x-y$ plane of the \ac{IBL} and the innermost layer of the Pixel Detector, L0 \cite{1201.5469}.}
 \label{fig:ibl_add}
 \end{figure}
 \end{centering}
@@ -119,7 +119,7 @@ The \ac{ATLAS} calorimeters, which can be seen in \autoref{fig:calo}, provide co
 
 Besides measuring the energy of passing particles, another task of the calorimeter system is to limit punch-through to the \ac{MS}, described in \autoref{sec:MS}. All other particles must be fully stopped by the calorimeters to allow for clean signals from muons, and to measure the total energy of the particle. This requirement sets a minimum number of interaction lengths for each of the calorimeters. 
 
-\paragraph{The LAr Electromagnetic Calorimeter} uses liquid argon as its active detector medium alternating with layers of lead acting as the absorber. Signals are read out with capacitively coupled copper plates. The layers are shaped like accordions, which allows for complete coverage with multiple layers of active material, three in central $\eta$ ($0<|\eta|<2.5$) and two at higher $\eta$ ($2.5 < |\eta| < 3.2$). \autoref{fig:calo_mod} shows the layout of a central $\eta$ module, including this accordion-like layering. At $|\eta| < 1.8$, an instrumented liquid argon presampler provides a measurement of energy lost prior to reaching the calorimeters. The total energy resolution for this detector is about 10\%/$sqrt{E}$, with an additional constant term of 0.2\%. 
+\paragraph{The LAr Electromagnetic Calorimeter} uses liquid argon as its active detector medium alternating with layers of lead acting as the absorber. Signals are read out with capacitively coupled copper plates. The layers are shaped like accordions, which allows for complete coverage with multiple layers of active material, three in central $\eta$ ($0<|\eta|<2.5$) and two at higher $\eta$ ($2.5 < |\eta| < 3.2$). \autoref{fig:calo_mod} shows the layout of a central $\eta$ module, including this accordion-like layering. At $|\eta| < 1.8$, an instrumented liquid argon presampler provides a measurement of energy lost prior to reaching the calorimeters. The total energy resolution for this detector is about 10\%/$\sqrt{E}$, with an additional constant term of 0.2\%. 
 
 \begin{centering}
 \begin{figure}[!htb]
@@ -130,11 +130,11 @@ Besides measuring the energy of passing particles, another task of the calorimet
 \end{figure}
 \end{centering}
 
-\paragraph{The Tile Calorimeter} is a hadronic calorimeter which surrounds the LAr Calorimeter. It uses layers of steel as its absorber with scintillating tiles as the active material between them, which are read out by photomultiplier tubes. The Tile Calorimeter covers $|\eta| < 1.7$ with a typical energy resolution of about 50\%/$sqrt{E}$ with a constant term of 5\%. 
+\paragraph{The Tile Calorimeter} is a hadronic calorimeter which is placed outside of the LAr Calorimeter. It uses layers of steel as its absorber with scintillating tiles as the active material between them, which are read out by photomultiplier tubes. The Tile Calorimeter covers $|\eta| < 1.7$ with a typical energy resolution of about 50\%/$\sqrt{E}$ with a constant term of 5\%. 
 
-\paragraph{The LAr Hadronic Endcap Calorimeter} covers the hadronic calorimetery for higher $\eta$. It uses liquid argon active material and copper plate absorbers, resulting in an energy resolution of approximately 70\%/$sqrt{E}$ with a constant term of 5\%. This calorimeter covers $1.5 < |\eta| < 3.2$, overlapping with the hadronic calorimeters in either direction of its $\eta$ range. 
+\paragraph{The LAr Hadronic Endcap Calorimeter} covers the hadronic calorimetery for higher $\eta$. It uses liquid argon active material and copper plate absorbers, resulting in an energy resolution of approximately 70\%/$\sqrt{E}$ with a constant term of 5\%. This calorimeter covers $1.5 < |\eta| < 3.2$, overlapping with the hadronic calorimeters in either direction of its $\eta$ range. 
 
-\paragraph{The FCal} or forward calorimeter provides electromagnetic and hadronic coverage at very high $\eta$ ($3.1 < |\eta| < 4.9$). This calorimeter also uses liquid argon as its active material, and uses copper-tungsten as the absorber. Its energy resolution is about 70\%/$sqrt{E}$ with a constant term of 3\%.
+\paragraph{The FCal} or forward calorimeter provides electromagnetic and hadronic coverage at very high $\eta$ ($3.1 < |\eta| < 4.9$). This calorimeter also uses liquid argon as its active material, and uses copper-tungsten as the absorber. Its energy resolution is about 70\%/$\sqrt{E}$ with a constant term of 3\%.
 
 \section{The Muon Spectrometer}
 \label{sec:MS}
@@ -278,11 +278,11 @@ Because these matrix elements must be calculated for each event's specific kinem
   
 %In some cases, this can mean that a tune might include values for certain physical quantities that are different from their measured values because this configuration ultimately produces a result more similar to data. 
 
-Examples of generators include {\sc MadGraph5\_aMC@NLO} \cite{Alwall:2014hca}, {\sc Powheg Box} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and \sherpa~\cite{sherpa}. Each has different strengths and is used to describe processes that best match those strengths. {\sc Powheg Box}, for example, cannot perform its own parton showering, and must be interfaced with another generator, typically {\sc Pythia} \cite{Sjostrand:2006za}, in order to describe any physics processes beyond the hard scattering, which can cause discontinuities in its predictions for large numbers of partons. However, it can calculate matrix elements at \ac{NLO}, giving it an advantage in calculating some complex processes. \sherpa performs its own parton showering, but in most cases calculates its matrix elements at \ac{LO}. The main advantage of {\sc MadGraph5\_aMC@NLO}, which must also be interfaced with another generator (typically {\sc Pythia}) to perform parton showering, is its simple user interface. Instead of designating specific processes to be generated, it allows users to specify a final state to be generated, and all processes capable of producing that state will be included.
+Examples of generators include \sherpa~\cite{sherpa}, \allowbreak{\sc Powheg Box} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and {\sc MadGraph5\_aMC@NLO} \cite{Alwall:2014hca}. Each has different strengths and is used to describe processes that best match those strengths. {\sc Powheg Box}, for example, cannot perform its own parton showering, and must be interfaced with another generator, typically {\sc Pythia} \cite{Sjostrand:2006za}, in order to describe any physics processes beyond the hard scattering, which can cause discontinuities in its predictions for large numbers of partons. However, it can calculate matrix elements at \ac{NLO}, giving it an advantage in calculating some complex processes. \sherpa performs its own parton showering, but in most cases calculates its matrix elements at \ac{LO}. The main advantage of {\sc MadGraph5\_aMC@NLO}, which must also be interfaced with another generator (typically {\sc Pythia}) to perform parton showering, is its simple user interface. Instead of designating specific processes to be generated, it allows users to specify a final state to be generated, and all processes capable of producing that state will be included.
 
-Once the final state particles of the hard interaction and showering have been calculated, the pile-up of the \ac{LHC} (described in \autoref{sec:pileup}) must be accounted for. Events called \textit{minimum bias} are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the \ac{ATLAS} detector.
+Once the final state particles of the hard interaction and showering have been calculated, the pile-up of the \ac{LHC} (described in \autoref{sec:pileup}) must be accounted for. Events called \textit{minimum bias} are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These simulated events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the \ac{ATLAS} detector.
 
-This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions deposit charge in each subdetector are modeled in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. In this software, every piece of the \ac{ATLAS} detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
+This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions deposit charge in each subdetector are simulated in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. In this software, every piece of the \ac{ATLAS} detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
 
 The model of the detector used for this process is iteratively perfected by comparing data to \ac{MC}. \autoref{fig:geant} shows an example of a discrepancy between the simulation and observed data in the number of secondary vertices in a pixel module, which should correspond to the amount of material in the area. Observations of discrepancies like this can be used to correct the materials in the simulation. 
 
@@ -291,7 +291,7 @@ The model of the detector used for this process is iteratively perfected by comp
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/theory/fig_10a.eps}
 \includegraphics[width=.9\linewidth]{figures/theory/fig_10b.eps}
-\caption{Number of secondary vertices in a module in the first layer of the pixel detector in data (top) and \ac{MC} (bottom). There are more events in the data than the \ac{MC} \cite{PERF-2015-06}.}
+\caption{Number of secondary vertices in a module in the first layer of the Pixel Detector in data (top) and \ac{MC} (bottom). There are more events in the data than the \ac{MC} \cite{PERF-2015-06}.}
 \label{fig:geant}
 \end{figure}
 \end{centering}

@@ -3,64 +3,78 @@
 \chapter{Background Estimation} % Chapter title
 \label{ch:backgrounds} 
 
-This analysis requires two leptons that reconstruct to a $Z$ mass, at least two jets, \met, and \HT. Any \ac{SM} processes that produce this signature will appear as a background to the search. The most important task of the analysis is to identify and estimate these backgrounds, so that any excess of events appearing on top of the standard model background can be identified. The main backgrounds for this analysis are described in \autoref{ch:background_processes}. The largest background is from flavor symmetric processes, with smaller contributions coming from diboson processes, \dyjets, rare top processes, and fake and non-prompt leptons.
+This analysis requires two leptons with \mll~consistent with the $Z$ mass, at least two jets, large \met, and large \HT. Any \ac{SM} processes that produce this signature will appear as a background to the search. The most important task of the analysis is to identify and estimate these backgrounds, so that any excess of events appearing on top of the standard model background can be identified. The main backgrounds processes for this analysis are described in \autoref{ch:background_processes}. The largest background is from flavor symmetric processes, with smaller contributions coming from the remaining diboson processes, \dyjets, rare top processes, and fake and non-prompt leptons.
 
 %----------------------------------------------------------------------------------------
 
 \section{Flavor Symmetric Processes}
 \label{sec:bg-fs}
 
-\acf{FS} backgrounds include any processes that produce pairs of leptons with uncorrelated flavor in the final state. In this analysis, the largest contribution comes from \ttbar, with additional events from processes like $WW$ and $Z\rightarrow\tau\tau$. In these processes, each lepton comes from a decay of different particles. In the case of \ttbar, the two top quarks decay to $W$ bosons, which each produce a lepton in their decays, as shown in \autoref{fig:ttbar}. These leptons' flavors are correlated with the flavor of the neutrino that results from the same boson's decay, but not with one another. %Unlike a $Z\rightarrow \ell\ell$ decay, these leptons' flavors are completely independent. 
+The \ac{FS} background estimation is performed using two methods. The first, the Flavor Symmetry method, takes advantage of the uncorrelated lepton flavors in these processes, and uses data observed in the $e\mu$ channel to predict backgrounds in the $ee$ and $\mu\mu$ channels. The second, the Sideband Fit method, normalizes \ac{MC} using data in the off-$Z$ region of the $ee$ and $\mu\mu$ channels, and uses that normalization to make a prediction of the on-$Z$ region. Because it depends less on \ac{MC}, and because it has smaller total uncertainties (as discussed in \autoref{ch:background_uncertainties}), the Flavor Symmetry method is chosen as the nominal prediction, with the Sideband Fit method used as a cross-check.
+
+%\acf{FS} backgrounds include any processes that produce pairs of leptons with uncorrelated flavor in the final state. In this analysis, the largest contribution comes from \ttbar, with additional events from processes like $WW$ and $Z\rightarrow\tau\tau$. In these processes, each lepton comes from a decay of different particles. In the case of \ttbar, the two top quarks decay to $W$ bosons, which each produce a lepton in their decays, as shown in \autoref{fig:ttbar}. These leptons' flavors are correlated with the flavor of the neutrino that results from the same boson's decay, but not with one another. %Unlike a $Z\rightarrow \ell\ell$ decay, these leptons' flavors are completely independent. 
 
 \subsection{Flavor Symmetry Method}
 \label{sec:method-fs}
 As a consequence of the independence of the lepton flavors, any \ac{FS} process should produce $ee$, $\mu\mu$, and $e\mu$ events in a 1:1:2 ratio. This ratio is taken advantage of in the flavor symmetry method by measuring $e\mu$ events in data and using them to predict the contribution of these processes in the $ee$ and $\mu\mu$ channels \cite{SUSY-2014-10}.
 
 To estimate the number of events in SRZ, a control region called CR-FS is used. Both regions are defined in \autoref{tab:regions-z}. CR-FS is very similar to SRZ with two changes: it requires different-flavor leptons instead of the same-flavor leptons required by SRZ, and the \mll~range it covers has been expanded by a factor of three, now ranging from 61 to 121 \gev. The expansion of the \mll~window is done to increase the number of events in the control region, thus lowering the statistical uncertainty of the prediction
-\footnote{Though this statistical uncertainty is no longer dominant for the analysis, the method was developed for a smaller dataset for which this expansion dramatically decreased the total uncertainty on the background prediction \cite{zmet}. If the \ac{SR} were re-optimized, this would again become an important effect. %Because of previous excesses seen, the signal region was not reoptimized for the larger dataset used in this search, but in future iterations of this analysis, the signal region will likely have tighter cuts, making this decreased statistical uncertainty significant once again.
+\footnote{This method was developed for a smaller dataset for which this statistical uncertainty was the dominant uncertainty on the total background prediction, and this expansion substantially reduced the overall uncertainty \cite{zmet}. If the \ac{SR} were re-optimized, the cuts on \HT and \MET would be increased, leading to fewer events in CR-FS, and this statistical uncertainty would once again become dominant.
+
+%Though this statistical uncertainty is no longer the dominant uncertainty on the total background prediction, the method was developed for a smaller dataset for which this expansion dramatically decreased the total uncertainty on the background prediction \cite{zmet}. If the \ac{SR} were re-optimized, this would again become an important effect. %Because of previous excesses seen, the signal region was not reoptimized for the larger dataset used in this search, but in future iterations of this analysis, the signal region will likely have tighter cuts, making this decreased statistical uncertainty significant once again.
 }. 
 
 This control region is expected to be about 95\% pure in \ac{FS} processes, with most of the remaining events coming from fake or non-prompt leptons. The \ac{FS} portion is made up primarily of \ttbar ($\sim$80\%), with additional contributions from $Wt$ ($\sim$10\%), $WW$ ($\sim$10\%), and $<1$\% $Z \rightarrow \tau\tau$. 
 
 The 1:1:2 ratio cannot be applied directly to the events measured in CR-FS because the efficiencies for identifying electrons and muons are not identical. Correction factors are applied to account for trigger efficiencies for each channel, selection efficiencies for electrons and muons, the \mll~expansion, and the purity of the control region. Combining these factors, the estimate for number of events in the $ee$ and $\mu\mu$ channels is as follows:
-
+%
 \begin{eqnarray}
 N_{ee}^\text{est} = \frac{1}{2} \cdot  f_{\mathrm{FS}} \cdot f_{Z \mathrm{\text{-}mass}} \cdot\sum^{N_{e\mu}^\text{data}} k_{e}(\pT^{\mu}, \eta^{\mu})\cdot \alpha(\pT^{\ell_1}, \eta^{\ell_1}) ,\\
 N_{\mu\mu}^\text{est} = \frac{1}{2} \cdot  f_{\mathrm{FS}} \cdot f_{Z \mathrm{\text{-}mass}} \cdot \sum^{N_{e\mu}^\text{data}}k_{\mu}(\pT^{e}, \eta^{e})\cdot \alpha(\pT^{\ell_1}, \eta^{\ell_1}) ,
 \end{eqnarray}
-
+%
 \noindent where $N_{e\mu}^\text{data}$ is the number of data events observed in CR-FS, 
 $f_{\mathrm{FS}}$ is the fraction of events from \ac{FS} processes in CR-FS,  
 $f_{Z \mathrm{\text{-}mass}}$ is the fraction of events in the widened \mll~range expected to be in the on-$Z$ range (taken from \ttbar \ac{MC}),
 $k_{e}(\pT, \eta)$ and $k_{\mu}(\pT, \eta)$ are relative selection efficiencies for electrons and muons, calculated in bins of $\pT$ and $\eta$ of the lepton to be replaced, 
-and $\alpha(\pT, \eta)$ accounts for the different trigger efficiencies for events in each channel, binned based on the kinematic properties of the leading lepton. These $k$ and $\alpha$ factors are calculated from data in an inclusive on-$Z$ selection ($81<\mll/\GeV<101$, $\geq2$ jets), 
-according to:
+and $\alpha(\pT, \eta)$ accounts for the different trigger efficiencies for events in each channel, binned based on the kinematic properties of the leading lepton.
 
+These $k$ and $\alpha$ factors are calculated from data in an inclusive on-$Z$ selection ($81<\mll/\GeV<101$, $\geq2$ jets), 
+according to:
+%
 \begin{eqnarray}\label{eq:kfac}
 k_{e}(\pT, \eta) = \sqrt{\frac{N_{ee}^{\text{meas}}}{N_{\mu\mu}^{\text{meas}}}} \\
 k_{\mu}(\pT, \eta) = \sqrt{\frac{N_{\mu\mu}^{\text{meas}}}{N_{ee}^{\text{meas}}}} \\
 \alpha(\pT, \eta) = \frac{\sqrt{\epsilon^\text{trig}_{ee}(\pt,\eta)\times\epsilon^\text{trig}_{\mu\mu}(\pt,\eta)}}{\epsilon^\text{trig}_{e\mu}(\pt,\eta)}
 \label{eq:kandalpha}
 \end{eqnarray}
-
+%
 \noindent where $\epsilon^\text{trig}_{ee/\mu\mu}$ is the trigger efficiency\footnote{This efficiency is defined by taking all events in the inclusive on-$Z$ selection mentioned above and determining the fraction that passes the relevant trigger requirement defined by \autoref{tab:trigger_strat}. Because the offline selection made on these events already has some trigger dependence, this calculation of efficiency could be slightly biased. This effect is considered in \autoref{sec:unc_fs}, and the uncertainty applied to the estimate as a result is described.} 
 and $N_{ee/\mu\mu}^{\text{meas}}$ 
 is the number of $ee/\mu\mu$ events in the inclusive on-$Z$ region described above. 
 Here, the $k$ factors are related by $k_{e}$ = $1/k_{\mu}$. These factors are calculated separately for leading and sub-leading leptons, and the appropriate $k$ value is selected based on which of the leptons is to be replaced. 
 
-In most \pT and $\eta$ ranges, the difference between electron and muon selection efficies is small, so these correction factors are typically within 10\% of unity. In the region $|\eta|<0.1$ they are up to 50\% from unity because of the lack of coverage of the muon spectrometer. $k_e$ factors measured in the 2016 dataset can be seen in \autoref{fig:fs_k}. In most cases, the only correction factor that differs substantially from is $f_{Z \mathrm{\text{-}mass}}$, which is typically about 1/3. 
+The $\alpha$ factor's complicated form is a result of its dual purpose; it accounts for the difference in trigger efficiencies between the different-flavor and same-flavor channels, and corrects for the implicit trigger dependence of the $k$ factor.  
+
+In most \pT and $\eta$ ranges, the difference between electron and muon selection efficiencies is small, so these correction factors are typically within 10\% of unity. In the region $|\eta|<0.1$ they are up to 50\% from unity because of the lack of coverage of the muon spectrometer. $k_e$ factors measured in the 2016 dataset can be seen in \autoref{fig:fs_k}. In most cases, the only correction factor that differs substantially from one is $f_{Z \mathrm{\text{-}mass}}$, which is typically about 1/3. 
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep1.eps}
-\caption{Measurements of $k_e$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. These efficiencies are for the 2016 dataset.}
+\caption{Measurements of $k_e$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$, with statistical uncertainties shown. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. The efficiencies displayed are for the 2016 dataset.}
 \label{fig:fs_k}
 \end{figure}
 \end{centering}
 
-The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS. A scaling factor is determined by subtracting these backgrounds from the number of $e\mu$ events measured in CR-FS, then determining the fraction of the original data events that this pure-\ac{FS} number represents. The estimate for the non-\ac{FS} backgrounds is taken from \ac{MC} for all processes except fakes, which are predicted from data using the matrix method described in \autoref{sec:bg-fake}. $f_{\mathrm{FS}}$ is about 94\% in CR-FS.
+The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS according to
+%
+\begin{equation}
+f_{\mathrm{FS}} = \frac{N_\text{obs} - N_\text{non-FS}}{N_\text{obs}}
+\end{equation}
+%
+where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\text{non-FS}$ is the number of expected events in CR-FS not resulting from \ac{FS} processes. This number is taken from \ac{MC} for all backgrounds except for fakes, which are estimated using the data-driven matrix method described in \autoref{sec:bg-fake}. According to the estimate, fakes account for about 65\% of the contamination in this region, with the remaining contamination resulting from diboson (15\%) and rare top (20\%) processes. $f_{\mathrm{FS}}$ is about 94\% in CR-FS.
 
 A prediction is made both for SRZ using the 91 events measured in CR-FS, and the lower-\met validation region, VRS, with the 277 events in VR-FS. The background estimation is performed separately for the two data taking periods, 2015 and 2016, because of the changing triggers and conditions. The results are then summed together, as shown in \autoref{tab:fs_yields}. The uncertainties in this table are discussed in \autoref{sec:unc_fs}.
 
@@ -230,11 +244,11 @@ These $\gamma$ events can then be compared to baseline $Z\rightarrow\ell\ell$ ev
 While $Z$+jet events are measured as a pair of leptons recoiling against a hadronic system, $\gamma$+jet events are measured only as one  object recoiling against jets. In addition, detector resolution is very different for muons and photons, though electrons and photons are similar. The impact of these differences must be corrected for in $\gamma$+jet events in order for them to accurately predict the \met distribution of the $Z$s. Luckily, in most cases, the resolution of the photon's \pt is better than that of the $Z$ boson, so the photon events can be smeared to emulate the $Z$s.  
 
 To isolate mismeasurement of boson \pt, this method uses \metl, defined as
-
+%
 \begin{equation}
 \metl = \met \mathrm{sin} \theta
 \end{equation}
-
+%
 where $\theta$ is the angle between ${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$ and the ${\boldsymbol p}_{\mathrm{T}}$ of the $Z$ boson. \autoref{fig:photon_metparallel} shows the \metl distribution in \ac{MC} for the two samples, and demonstrates the discrepancies between them. The core of the photon distribution is similar to the $Z\rightarrow ee$ distribution because measurements of both photons and electrons are primarily taken from the electromagnetic calorimeter and have the same resolution. For muons, which rely on tracks to determine \pt, the resolution becomes larger at high \pt values where the tracks are nearly straight. For a muon with a \pt of 200 \gev, this the resolution is about 5\%, while a photon or electron with the same \pt has a resolution of 1-2\% \cite{Aad:2014zya, Aad:2014nim}. As a consequence, the resolution distributions for photon and $Z\rightarrow\mu\mu$ events are very different. 
 
 \begin{centering}
@@ -251,17 +265,17 @@ A function to smear photon events is derived from the deconvolution of the photo
 In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is defined for each bin as the deconvolution of the \dyjets and \gjets \metl distributions. 
 
 Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding a smearing factor $\Delta$\pt. The photon's \pt is then adjusted according to 
-
+%
 \begin{equation}
 \pt^{\gamma\prime} = \pt^\gamma + \Delta\pt 
 \end{equation} 
-
+%
 and the corresponding change in \met is made,
-
+%
 \begin{equation}
 E_{T,\parallel}^{\text{miss}\prime} = \metl - \Delta\pt.
 \end{equation}
-
+%
 The nominal smearing function is taken from \ac{MC} in order to remove contamination from other backgrounds, and the resulting \metl distributions can be seen in \autoref{fig:photon_metparallelsmeared}. Though there is a small amount of oversmearing in the negative tail, the improvement in agreement between the distributions, especially in their cores, is clear.
 
 \begin{centering}
@@ -278,17 +292,17 @@ The nominal smearing function is taken from \ac{MC} in order to remove contamina
 \label{sec:photon_reweight}
 
 Next, the photon events are reweighted to match the boson \pt spectrum of the $Z$ events. This is accomplished by making histograms of boson \pt for $\gamma$ and $Z$ events with binning identical to the \pt bins used in \autoref{sec:photon_smearing}. Photons are binned based on their smeared \pt determined in the previous step. A reweighting factor $f(\pt)$ is then calculated in each bin, according to
-
+%
 \begin{equation}
 f_\text{MC}(x) = \frac{N_{\dyjets}(x)}{N_{\gjets}(x)}
 \end{equation}
-
+%
 in \ac{MC}, and in data according to
-
+%
 \begin{equation}
 f_\text{data}(x) = \frac{N_{\text{data}}(x)-N_{t\bar{t}}(x)-N_{\text{VV}}(x)}{N_{\gjets\ \text{data}}(x)}
 \end{equation}
-
+%
 where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. 
 
 \begin{centering}
@@ -413,11 +427,11 @@ The \textit{fakes} background consists of processes that produce only one lepton
 Despite the small predicted contribution in the \ac{SR}, a data-driven method called the \textit{matrix method} is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their impact is more significant. 
 
 In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons (see \autoref{tab:eledef} and \autoref{tab:muondef}), which consist of a higher fraction of fake leptons. In each \ac{CR}, \ac{VR}, or \ac{SR}, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in the region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
-
+%
 \begin{equation}
 N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}} - 1) \times N_{\text{pass}} }{1/\epsilon^{\text{fake}} - 1/\epsilon^{\text{real}}}.
 \end{equation}
-
+%
 The efficiencies $\epsilon^\text{real}$ and $\epsilon^\text{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. For a 2-lepton selection, the principle is the same, but the equation is more complicated, requiring a four-by-four matrix to account for possible combinations of real and fake leptons. 
 
 

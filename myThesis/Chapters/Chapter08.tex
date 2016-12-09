@@ -3,7 +3,7 @@
 \chapter{Object Identification and Selection} % Chapter title
 \label{ch:objects} 
 
-This section describes the identification and selection of objects in the events of this analysis. Objects are first required to pass \textit{baseline} selections, which are used for \acf{OR} and the calculation of \met, then tighter \textit{signal} selection cuts are applied, which define the objects considered in the final analysis of events. Definitions are presented for electrons, muons, and jets, which are all required in the \ac{SR} of this analysis, as well as photons, which are used in background estimation. This section refers to object definitions, including \textit{quality} selections, described in \autoref{ch:reconstruction}.
+This section describes the identification and selection of objects in the events of this analysis. Objects are first required to pass \textit{baseline} selections, which are used for \acf{OR} and the calculation of \met, then tighter \textit{signal} selection cuts are applied, which define the objects considered in the final analysis of events. Definitions are presented for electrons, muons, and jets, which are all required in the \ac{SR} of this analysis, as well as photons, which are used in background estimation. This section refers to object definitions, including quality selections, described in \autoref{ch:reconstruction}.
 
 %----------------------------------------------------------------------------------------
 
@@ -42,7 +42,7 @@ With these signal requirements, the \ac{ATLAS} detector is 80\% efficient at ide
 
 \section{Muons}
 
-Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to be isolated. As with the electrons, impact parameter cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, which reduces the number of events with very inconsistent \ac{ID} and \ac{MS} tracks. The full set of requirements can be seen in \autoref{tab:muondef}.
+Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to be isolated. As with the electrons, impact parameter cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, a designation which identifies muons with inconsistent \ac{ID} and \ac{MS} \pt measurements. The full set of requirements can be seen in \autoref{tab:muondef}.
 
 \begin{table}[ph!]
   \begin{center}
@@ -63,7 +63,7 @@ Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons
       Isolation        & \texttt{GradientLoose} \\
       Impact parameter & $|z_0 \sin\theta|< 0.5$ mm \\
                        & $|d_0/\sigma_{d_0}|< 3$ \\ 
-      isBadMuon        & \texttt{isBadMuon} Flag required \\
+      isBadMuon        & \texttt{isBadMuon} Flag vetoed \\
       \hline		  
       \hline
     \end{tabular}
@@ -72,11 +72,11 @@ Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons
   \end{center}
 \end{table}
 
-Muons with $\pt>25\gev$ are identified with a 95\% efficiency, which rises to 99\% for muons with $\pt>80\gev$\cite{PERF-2015-10}. Including trigger and isolation requirements, these efficiencies drop to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. This drop is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. %Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
+Muons are identified with an efficiency over 98\% \cite{PERF-2015-10}. Including trigger and isolation requirements, this efficiency drops to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. This drop due to trigger inefficiency, and is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. %Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
 
 \section{Jets}
 
-Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets using the anti-$k_t$ algorithm with $R=0.4$ using \ac{EM} clusters. These jets are required to have a minimum \pt of 20 \gev~and $|\eta|<2.8$. For signal jets, this \pt requirement is increased to 40 \gev~and the $\eta$ cut is tightened to $|\eta|<2.5$. \ac{JVT} requirements are enforced on jets with \pt<60 \gev~and $|\eta|<2.4$ to reduce the number of jets from pile-up. The full set of requirements can be seen in \autoref{tab:jetsdef}.
+Jets are reconstructed according to \autoref{sec:reco_jets}, with baseline jets using the anti-$k_t$ algorithm with $R=0.4$ using \ac{EM} clusters. These jets are required to have a minimum \pt of 20 \gev~and $|\eta|<2.8$. For signal jets, this \pt requirement is increased to 30 \gev~and the $\eta$ cut is tightened to $|\eta|<2.5$. \ac{JVT} requirements are enforced on jets with \pt<60 \gev~and $|\eta|<2.4$ to reduce the number of jets from pile-up. The full set of requirements can be seen in \autoref{tab:jetsdef}.
 
 \begin{table}[bh!]
 \begin{center}

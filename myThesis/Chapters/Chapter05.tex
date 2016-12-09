@@ -11,7 +11,7 @@
 \section{Overview of Tracking in the ATLAS Detector}
 \label{sec:tracking}
 
-Creating tracks from individual hits in the Inner Detector is one of most challenging parts of the reconstruction of \ac{ATLAS} events. Each event typically contains thousands of hits in the pixel detector alone, which must be combined into one coherent picture of which particles traversed the detector, and how they moved and lost energy as they traveled. A typical particle deposits charge in several pixels per layer, forming a series of clusters which can be connected together to form a track. This track can in turn be used to measure the charge, momentum, and trajectory of the particle. 
+Creating tracks from individual hits in the \ac{ID} is one of most challenging parts of the reconstruction of \ac{ATLAS} events. Each event typically contains thousands of hits in the Pixel Detector alone, which must be combined into one coherent picture of which particles traversed the detector, and how they moved and lost energy as they traveled. A typical particle deposits charge in several pixels per layer, forming a series of clusters which can be connected together to form a track. This track can in turn be used to measure the charge, momentum, and trajectory of the particle. 
 
 An example of this process can be seen in \autoref{fig:evdisp_tracks}, which shows the tracks formed in an event and the corresponding hits in the Pixel Detector and the \ac{SCT}. In the $r-z$ view, the multiple vertices formed by simultaneous interactions are visible. This event has 17 reconstructed vertices, slightly less than the Run 2 average. 
 
@@ -30,7 +30,7 @@ Next, seed tracks are formed using the clusters in the Pixel Detector and the fi
 
 At this stage, quality cuts are made to remove fake tracks. The tracking algorthim then identifies \textit{holes}, points where the track passes through an active sensor, but no cluster exists. Tracks with too many holes are removed, as are tracks with a high fraction of clusters shared with other tracks. 
 
-The remaining tracks are extended to the \ac{TRT}, where they are matched to drift-circles. The tracks are then re-fit to include all the \ac{ID} subdetectors. In the case that this fit is worse than the fit without the \ac{TRT}, outlier \ac{TRT} hits are identifed and the track is re-fit without them. 
+The remaining tracks are extended to the \ac{TRT}, where they are associated with drift-circles. The tracks are then re-fit to include all the \ac{ID} subdetectors. In the case that this fit is worse than the fit without the \ac{TRT}, outlier \ac{TRT} hits are identifed and the track is re-fit without them. 
 
 Afterwards, unassociated hits in the \ac{TRT} are formed into track segments, which can be extended back to the \ac{SCT} and Pixel Detector to form complete tracks. This method is especially useful for identifying tracks that did not originate from the initial hard-scattering interaction.
 
@@ -55,23 +55,23 @@ Clusters are initially made by a process called \acf{CCA}. In this process, pixe
 \subsection{Charge Interpolation Method}
 
 A typical cluster contains a few pixel hits spanning in the $x$ and $y$ directions, each with its own measurement of charge deposition. In the charge interpolation method, these individual hits are combined to make one estimation of the position a single particle which passed through them, using the following equation: 
-
+%
 \begin{eqnarray}
 x_{cluster} = x_{center} + \Delta_x(\phi,N_{row}) \cdot \left[ \Omega_x -\frac{1}{2} \right] \\
 \label{eq:analogx}
 y_{cluster} = y_{center} + \Delta_y(\phi,N_{col}) \cdot \left[ \Omega_y -\frac{1}{2} \right]
 \label{eq:analogy}
 \end{eqnarray}
-
+%
 where $\Omega_{x(y)}$ is defined by
 
 \begin{equation}
 \Omega_{x(y)} = \frac{q_N}{q_1 + q_N}
 \end{equation}
-
+%
 and $q_1$ gives the total charge in the first row (column), and $q_N$ gives the total charge in the last row (column). $\Delta_{x(y)}$ is a function derived from either data or \ac{MC} and produces an output related to the projected length of the particles track on the pixel sensor and is measured as a function of $\phi$, the incident angle of a particle on the sensor, and $N_{row(col)}$, the number of pixels in the cluster in the $x$ and $y$ direction. 
 
-In a simple case, such as $(a)$ of \autoref{fig:cluster_types} , this method works well. However, in cases like $(b)$, it has no ability distinguish two-particle from one-particle clusters, and assigns a cluster center between the two particles' locations, despite the intermediate pixel having the lowest charge. Furthermore, because this method doesn't differentiate two-particle clusters, the tracking software can't use that information to determine if multiple tracks may share two-particle clusters. Allowing tracks to share clusters indiscriminately in dense track environments creates fake tracks from the many possible cluster combinations. In cases like $(c)$, the $\delta$-ray will bias the measurement of the particle's position in whichever direction it is emitted. 
+In a simple case, such as $(a)$ of \autoref{fig:cluster_types} , this method works well. However, in cases like $(b)$, it has no ability distinguish two-particle clusters from one-particle clusters, and assigns a cluster center between the two particles' locations, despite the intermediate pixel having the lowest charge. Furthermore, because this method doesn't differentiate two-particle clusters, the tracking software can't use that information to determine if multiple tracks may share two-particle clusters. Allowing tracks to share clusters indiscriminately in dense track environments creates fake tracks from the many possible cluster combinations. In cases like $(c)$, the $\delta$-ray will bias the measurement of the particle's position in whichever direction it is emitted. 
 
 \subsection{Improving Measurement with Neural Networks}
 
@@ -80,8 +80,8 @@ To address these problems, a series of \acp{NN} was created \cite{PERF-2012-05}.
 These \acp{NN} are taken from the AGILE\textit{Pack} library \cite{agile}, and trained using simulated \ac{ATLAS} \ac{MC}. Each \ac{NN} is given the following inputs: 
 \begin{itemize}
 \item a $7\times7$ grid of cluster \ac{ToT} information\footnote{Clusters spanning more than seven pixels in either direction are rare, but when they occur they are rejected, and the original charge interpolation estimate of a single particle's position is kept.}
-\item a 7-element vector containing the $y$-size of the pixels in the grid\footnote{The pixel detector contains some long pixels at the edges of modules, and this is intended to help the \ac{NN} identify these cases.}
-\item the layer of the pixel detector that the cluster was observed in
+\item a 7-element vector containing the $y$-size of the pixels in the grid\footnote{The Pixel Detector contains some long pixels at the edges of modules, and this is intended to help the \ac{NN} identify these cases.}
+\item the layer of the Pixel Detector that the cluster was observed in
 \item a variable indicating whether the cluster is located in the barrel or endcap
 \item $\theta$ and $\phi$ variables projecting the incident angles of the particle on the sensor\footnote{If the \ac{NN} is applied before tracking is performed, these angles project to the nominal interaction point, and if tracking has already been performed, the angles are taken from the track fit to the cluster.}
 \item the pixel module's $\eta$ index, a label assigned to each module that differentiates modules based on their $\eta$ position
@@ -89,7 +89,7 @@ These \acp{NN} are taken from the AGILE\textit{Pack} library \cite{agile}, and t
 
 Each \ac{NN} is trained with truth information to make predictions about cluster features. The Number \ac{NN} predicts the number of particles associated with the cluster, required to be between 1 and 3. Then, the same inputs are fed into one of three Position \acp{NN}, each identified by the number of particles it attempts to locate, according to the prediction from the Number \ac{NN}. The Position \ac{NN} outputs a prediction of the $x$ and $y$ positions of each particle, and these predictions are used as inputs to the Error \ac{NN}, in addition to the inputs listed above. 
 
-The training of the Error \ac{NN} is slightly more complicated than the others, as it makes a prediction of the efficacy of the previous \ac{NN}. It is trained to predict the difference between the Position \ac{NN}'s outputs and the true positions of the particles. In the training, cases in which the Number \ac{NN} incorrectly assessed the true number of particles in the cluster are excluded.  
+The training of the Error \ac{NN} is slightly more complicated than the others, as it makes a prediction of the efficacy of the previous \ac{NN}. It is trained to predict the difference between the Position \ac{NN}'s outputs and the true positions of the particles, which allows it to make case-by-case predictions of how much inaccuracy is likely in a given prediction.  %In the training, cases in which the Number \ac{NN} incorrectly assessed the true number of particles in the cluster are excluded.  
 
 %After the Number \ac{NN} predicts a number of particles associated with the cluster, required to be between 1 and 3, the same inputs are fed to one of three Position \acp{NN} based on the number of particles, as determined by the Number \ac{NN}. The Position \ac{NN} outputs a prediction of the $x$ and $y$ positions of each of the particles. Then, the same inputs combined with the output of the Position \ac{NN} are used  of three Error \acp{NN} (also distinguished by number of particles), which outputs an uncertainty for each of the position predictions made. 
 
@@ -123,7 +123,7 @@ The \ac{NN} was first applied to 7 \tev~data, where it improved position resolut
 
 \subsection{The Neural Network in 13 TeV Data}
 
-In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters with positions determined via charge interpolation, where it constructs tracks with loose quality requirements. In this step, the tracking algorithm allows shared clusters, clusters used in multiple track fits \cite{ATL-PHYS-PUB-2015-044}. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to estimate the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized. In general, tracks with more than two shared clusters are rejected.
+In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters with positions determined via charge interpolation, where it constructs tracks with loose quality requirements. In this step, the tracking algorithm allows tracks with shared clusters \cite{ATL-PHYS-PUB-2015-044}. The \ac{NN} is then used to identify which clusters are likely to have had multiple particles pass through them, and to estimate the positions of those particles. In the case that the cluster is determined to have resulted only from one particle, tracks that share that cluster are penalized. In general, tracks with more than two shared clusters are rejected.
 
 Because the \ac{NN} is trained only with \ac{MC} simulations, any mismodeling of the way charge is deposited in the \ac{ATLAS} detector could cause the \ac{NN} to perform in an unexpected way when applied to data. The potential impact of this mismodeling was investigated with 13 \tev~\ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. 
 
