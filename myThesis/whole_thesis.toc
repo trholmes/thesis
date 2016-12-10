@@ -182,25 +182,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.1.1}Flavor Symmetry Method}{99}{subsection.10.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Sideband Fit Method}{101}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.2}Sideband Fit Method}{102}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{103}{section.10.2}
+\contentsline {section}{\numberline {10.2}\ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace Background}{105}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.1}Photon and $Z$ Event Selection}{107}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.1}Photon and $Z$ Event Selection}{108}{subsection.10.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.2.2}Smearing of Photon Events}{109}{subsection.10.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.3}\ensuremath {p_{\text {T}}}\xspace Reweighting of Photon Events}{110}{subsection.10.2.3}
+\contentsline {subsection}{\numberline {10.2.3}\ensuremath {p_{\text {T}}}\xspace Reweighting of Photon Events}{111}{subsection.10.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.4}Determining \ensuremath {H_{\text {T}}}\xspace and \ensuremath {m_{\ell \ell }}}{113}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {10.2.4}Determining \ensuremath {H_{\text {T}}}\xspace and \ensuremath {m_{\ell \ell }}}{114}{subsection.10.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.5}Subtraction of $V\gamma $ Events}{114}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {10.2.5}Subtraction of $V\gamma $ Events}{115}{subsection.10.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.6}Validation in Data}{115}{subsection.10.2.6}
+\contentsline {subsection}{\numberline {10.2.6}Validation in Data}{117}{subsection.10.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Fake and Non-Prompt Leptons}{116}{section.10.3}
+\contentsline {section}{\numberline {10.3}Fake and Non-Prompt Leptons}{118}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{119}{section.10.4}
+\contentsline {section}{\numberline {10.4}Diboson and Rare Top Processes}{120}{section.10.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Systematic Uncertainties}}{125}{chapter.11}
 \defcounter {refsection}{0}\relax 

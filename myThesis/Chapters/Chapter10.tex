@@ -74,7 +74,9 @@ The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS 
 f_{\mathrm{FS}} = \frac{N_\text{obs} - N_\text{non-FS}}{N_\text{obs}}
 \end{equation}
 %
-where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\text{non-FS}$ is the number of expected events in CR-FS not resulting from \ac{FS} processes. This number is taken from \ac{MC} for all backgrounds except for fakes, which are estimated using the data-driven matrix method described in \autoref{sec:bg-fake}. According to the estimate, fakes account for about 65\% of the contamination in this region, with the remaining contamination resulting from diboson (15\%) and rare top (20\%) processes. $f_{\mathrm{FS}}$ is about 94\% in CR-FS.
+where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\text{non-FS}$ is the number of expected events in CR-FS not resulting from \ac{FS} processes. This number is taken from \ac{MC} for all backgrounds except for fakes, which are estimated using the data-driven matrix method described in \autoref{sec:bg-fake}. According to the estimate, fakes account for about 65\% of the contamination in this region, with the remaining contamination resulting from diboson (15\%) and rare top (20\%) processes. $f_{\mathrm{FS}}$ is about 95\% in CR-FS. 
+
+The way this fraction is calculated, any backgrounds that are not accounted for in $N_\text{non-FS}$ would be assumed to be \ac{FS}. Instead, the \ac{MC} could be used to predict the number of events that are \ac{FS}, which would result in any unaccounted for backgrounds being identified as non-\ac{FS}. The former procedure is preferable for several reasons. First, it reduces the dependence on \ac{FS} \ac{MC}, which is important for maintaining this method's independence from the Sideband Fit cross-check method discussed in \autoref{sec:method-sideband}. It also provides a conservative estimate of the number of \ac{FS} events, making an underestimate of the background less likely. Lastly, if for example, the number of fakes were underestimated, $f_{\mathrm{FS}}$ would increase, partially compensating for the underestimate.  
 
 A prediction is made both for SRZ using the 91 events measured in CR-FS, and the lower-\met validation region, VRS, with the 277 events in VR-FS. The background estimation is performed separately for the two data taking periods, 2015 and 2016, because of the changing triggers and conditions. The results are then summed together, as shown in \autoref{tab:fs_yields}. The uncertainties in this table are discussed in \autoref{sec:unc_fs}.
 
@@ -138,7 +140,7 @@ Summary of the \ttbar\ normalization factors calculated by the sideband fit to C
 \end{figure}
 \end{centering}
 
-This method is extremely effective as a crosscheck because it uses a completely independent dataset from the flavor symmetry method, and the two methods have very little overlap in dependence on \ac{MC}. They produce consistent results in both SRZ and VRS, as shown in \autoref{tab:fs_comparison}.
+This method is extremely effective as a crosscheck because it uses a completely independent dataset from the flavor symmetry method, and the two methods have very little overlap in dependence on \ac{MC}. If a misunderstanding of the background composition of CR-FS were to occur, it could alter the Flavor Symmetry prediction, but the Sideband Fit method should be unaffected. If the \ac{MC} shape of \ttbar were significantly mismodeled across the large \mll~range used in the Sideband Fit, this could yield a poor prediction, but the Flavor Symmetry method only uses the shape from \ac{MC} in a narrow band around the $Z$ peak, so it would be largely insensitive to this mismodeling. The two methods produce consistent results in both SRZ and VRS, as shown in \autoref{tab:fs_comparison}, demonstrating that significant mismodelings of either of these features is unlikely.
 
 
 \begin{table}[h]
@@ -149,7 +151,7 @@ This method is extremely effective as a crosscheck because it uses a completely 
 Region  & Flavour-symmetry  & Sideband fit  \\
 \noalign{\smallskip}\hline\hline\noalign{\smallskip}
 SRZ & $33 \pm 4$   &  $29 \pm 7$  \\ [+0.05cm]
-VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
+VRS & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \noalign{\smallskip}\hline\hline
 \end{tabular}
 \caption{ Comparison of \ac{FS} background predictions from the nominal method, the flavor symmetry method, and the cross-check, the sideband fit method. Uncertainties include statistical and systematic uncertainties in both cases. }
@@ -161,11 +163,11 @@ VR-S & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \section{\dyjets Background}
 \label{sec:bg-z}
 
-The \dyjets background is produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. The boson typically recoils off a hadronic system, which can satisfy the jet and \HT requirement in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in hadronic decays of a $Z$ boson), so most events with large amounts of \met are the result of mismeasurement. The 200 \gev~\met cut in SRZ includes $Z$ events only from the very high tail of the \met distribution, so a small change in the assumptions about jet resolution or energy scale in \ac{MC} can drastically change the prediction. If the prediction of the \dyjets background is too low, this will result in a signal-like peak of data over expected background. 
+The \dyjets background is produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. This process can occur in association with jets due to initial state radiation, which can satisfy the jet and \HT requirements in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in hadronic decays of a $Z$ boson), so most events with large amounts of \met are the result of mismeasurement \footnote{$Z\rightarrow\tau\tau$ events do produce real \met, but these decays are grouped into the \ac{FS} background, and are not considered here.}. The 225 \gev~\met cut in SRZ includes $Z$ events only from the very high tail of the \met distribution, so a small mismodeling of jet resolution or energy scale in \ac{MC} can drastically change the prediction. If the prediction of the \dyjets background is too low, this will result in a signal-like peak of data over expected background. 
 
-Because of this volatility in the \ac{MC} prediction in these high \met tails, a data-driven method is used to estimate this background. The method uses \gjets events which, like the \dyjets events, contain one boson recoiling against a hadronic system. These \gjets events are then corrected for the kinematic differences between photons and $Z$ bosons \cite{ATLAS:2012ema, Chatrchyan:2012qka}. The sample of \gjets events is taken from CR-$\gamma$, defined in \autoref{tab:regions-z}. This region is similar to the SRZ selection without the \met  requirement, but it vetoes events with leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut in SRZ, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
+Because of the sensitivity to mismodeling in the \ac{MC} prediction of these high \met tails, a data-driven method is used to estimate this background. The method uses \gjets events which, like the \dyjets events, contain one boson recoiling against a hadronic system. These \gjets events are then corrected for the kinematic differences between photons and $Z$ bosons \cite{ATLAS:2012ema, Chatrchyan:2012qka}. The sample of \gjets events is taken from CR-$\gamma$, defined in \autoref{tab:regions-z}. This region is similar to the SRZ selection without the \met  requirement, but it vetoes events with leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut in SRZ, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
 
-Despite their similarities, there are many theoretical differences between $\gamma$ and $Z$ events. The massive $Z$ boson requires more energy to produce than the massless photon, producing a difference in the kinematic distributions for bosons and jets in these events. Another consequence of photon's masslessness is that they must be produced with associated jets; otherwise, the process would violate conservation of energy. As a consequence of these differences, many kinematic variables have different shapes between the two samples. \autoref{fig:photon_ptdist} shows a \ac{MC} comparison of boson \pt between $\gamma$ and $Z$ events, demonstrating the shape differences between the two processes. 
+Despite their similarities, there are many theoretical differences between $\gamma$ and $Z$ events. The massive $Z$ boson requires more energy to produce than the massless photon, producing a difference in the kinematic distributions for bosons and jets in these events. Another consequence of photon's masslessness is that they must be produced with associated jets; otherwise, the process cannot simultaneously satisfy conservation of energy and momentum. As a consequence of these differences, many kinematic variables have different shapes between the two samples. \autoref{fig:photon_ptdist} shows a \ac{MC} comparison of boson \pt between $\gamma$ and $Z$ events, demonstrating the shape differences between the two processes. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -176,9 +178,11 @@ Despite their similarities, there are many theoretical differences between $\gam
 \end{figure}
 \end{centering}
 
-The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then be observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two objects and one object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different energy resolution from either electrons or photons. 
+The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then be observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two, lower-\pt objects and one higher-\pt object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different momentum resolution from either electrons or photons. 
 
-The goal of this method is to predict the \met distribution of the \dyjets background using a manipulated \gjets sample from data. These differences between $Z$+jet and $\gamma$+jet events can be broken down into two categories: differences which affect the jet energy and measurement, and differences which affect the boson energy and measurement. The differences in the hadronic system are simpler, and mostly consist of different numbers and energies of jets between the two samples, which can be accounted for via reweighting in a variable that's representative of the total energy scale of the event. The differences in the bosons are more complex, and require the application of smearing functions based on the different observed objects. Together these corrections allow for complete modeling of the \dyjets \met spectrum with $\gamma$+jet events.
+In addition, this difference in detection means there is a minimum value for the \pt of the photons observed; only photons with \pt > 35 \gev~are consistently identified by the trigger. For the $Z$ boson, there is no direct minimum on \pt, only a reduction of efficiency at low values due to the minimum \pt values of the leptons used to reconstruct them. 
+
+The goal of this method is to predict the \met distribution of the \dyjets background using a manipulated \gjets sample from data. These differences between $Z$+jet and $\gamma$+jet events can be broken down into two categories: differences which affect the jet energy and measurement, and differences which affect the boson energy and measurement. The differences in the hadronic system are simpler, and mostly consist of different numbers and energies of jets between the two samples, which can be accounted for via reweighting in a variable that is representative of the total energy scale of the event. The differences in the bosons are more complex, and require the application of smearing functions based on the different observed objects. Together these corrections allow for complete modeling of the \dyjets \met spectrum with $\gamma$+jet events.
 
 % A $\Delta\phi$(\MET,jet) cut is applied in all SRs and VRs,
 % but enforcing this on the \gjets\ (and \dyjets) data or MC samples from the beginning of this procedure can result in poorly modelled/truncated angular distributions later.
@@ -199,9 +203,9 @@ The goal of this method is to predict the \met distribution of the \dyjets backg
 \subsection{Photon and $Z$ Event Selection}
 \label{sec:photon_eventsel}
 
-The baseline photon events come from an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon, which is called CR-$\gamma$ and defined in \autoref{tab:regions-z} \footnote{This region includes an \HT cut, which requires the translation of photon \pt into an equivalent di-lepton \pt scalar sum. This process is described in \autoref{sec:photon_mll}.}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted from the yield in this region according to \ac{MC}. 
+The baseline photon events come from CR-$\gamma$, an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon \footnote{This region includes an \HT cut, which requires the translation of photon \pt into an equivalent di-lepton \pt scalar sum. This process is described in \autoref{sec:photon_mll}.}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted from the yield in this region according to \ac{MC}. The impact of these backgrounds and the process by which they are subtracted are discussed in \autoref{sec:gjets_vg}. 
 
-The triggering scheme for these \gjets events is more complicated than in other regions because the lowest unprescaled photon trigger requires a photon \pt of at least 120 (140) \gev~ in 2015 (2016) datataking, but the method requires events with much lower \pt to predict the full $Z$-boson \pt spectrum. To accomplish this, the lower-\pt photons are broken down into small \pt ranges with a different prescaled trigger required in each range, listed in \autoref{tab:photon_triggers}. The events in each selection are then weighted by the prescale value of the trigger used to reconstruct a smooth \pt spectrum. 
+The triggering scheme for these \gjets events is more complicated than in other regions because the lowest unprescaled photon trigger requires a photon \pt of at least 120 (140) \gev~ in 2015 (2016) datataking, but the method requires events with much lower \pt to predict the full $Z$-boson \pt spectrum. To accomplish this, the lower-\pt photons are collected with prescaled triggers with a designated trigger for each \pt range, listed in \autoref{tab:photon_triggers}. The events in each selection are then weighted by the prescale value of the trigger used to reconstruct a smooth \pt spectrum. 
 
 \begin{table}[!hbt]
 \centering
@@ -241,7 +245,7 @@ These $\gamma$ events can then be compared to baseline $Z\rightarrow\ell\ell$ ev
 \subsection{Smearing of Photon Events}
 \label{sec:photon_smearing}
 
-While $Z$+jet events are measured as a pair of leptons recoiling against a hadronic system, $\gamma$+jet events are measured only as one  object recoiling against jets. In addition, detector resolution is very different for muons and photons, though electrons and photons are similar. The impact of these differences must be corrected for in $\gamma$+jet events in order for them to accurately predict the \met distribution of the $Z$s. Luckily, in most cases, the resolution of the photon's \pt is better than that of the $Z$ boson, so the photon events can be smeared to emulate the $Z$s.  
+While $Z$+jet events are measured as a pair of leptons recoiling against a hadronic system, $\gamma$+jet events are measured only as one  object recoiling against jets. In addition, detector resolution is very different for muons and photons, though electrons and photons are similar. The impact of these differences must be corrected for in $\gamma$+jet events in order for them to accurately predict the \met distribution of the \dyjets events. In most cases, the resolution of the photon's \pt is better than that of the $Z$ boson, so the photon events can be smeared to emulate the $Z$ boson's resolution.  
 
 To isolate mismeasurement of boson \pt, this method uses \metl, defined as
 %
@@ -261,10 +265,11 @@ where $\theta$ is the angle between ${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$
 \end{figure}
 \end{centering}
 
-A function to smear photon events is derived from the deconvolution of the photon and lepton response functions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. %This region is chosen because it is orthogonal to the \ac{SR}, so the resolution can be obtained from data as well as \ac{MC} without being affected by the . 
-In these regions, events are binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is defined for each bin as the deconvolution of the \dyjets and \gjets \metl distributions. 
+A function to smear photon events is derived from the deconvolution of the \gjets and \dyjets \metl distributions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. Assuming the jet response functions are the same for the two event types, the deconvolution should cancel these terms and leave a smearing function based only on the differences between photon and $Z$ boson resolutions. The 1-jet \acp{CR} are chosen both for the simplicity of the hadronic systems involved, and because they are orthogonal to the \ac{SR}.  
+%This region is chosen because it is orthogonal to the \ac{SR}, so the resolution can be obtained from data as well as \ac{MC} without being affected by the . 
 
-Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding a smearing factor $\Delta$\pt. The photon's \pt is then adjusted according to 
+In these 1-jet \acp{CR}, events are first binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is defined for each bin as the deconvolution of the \dyjets and \gjets \metl distributions.
+Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding the smearing amount, $\Delta$\pt. The photon's \pt is then adjusted according to 
 %
 \begin{equation}
 \pt^{\gamma\prime} = \pt^\gamma + \Delta\pt 
@@ -275,8 +280,10 @@ and the corresponding change in \met is made,
 \begin{equation}
 E_{T,\parallel}^{\text{miss}\prime} = \metl - \Delta\pt.
 \end{equation}
-%
-The nominal smearing function is taken from \ac{MC} in order to remove contamination from other backgrounds, and the resulting \metl distributions can be seen in \autoref{fig:photon_metparallelsmeared}. Though there is a small amount of oversmearing in the negative tail, the improvement in agreement between the distributions, especially in their cores, is clear.
+
+The data- and \ac{MC}-derived smearing functions each have their own benefits. The data-based functions are of course not subject to any potential mismodeling, but it is possible to have contamination from other processes that is not accounted for. Because good agreement between data and \ac{MC} is seen in the \metl spectrums, contamination was deemed a higher concern than mismodeling, and the \ac{MC}-based function was used as the nominal smearing function, with the data-based function used as a cross-check.
+
+The smeared \metl distributions can be seen in \autoref{fig:photon_metparallelsmeared}. Though there is a small amount of oversmearing in the negative tail, the improvement in agreement between the distributions, especially in their cores, is clear.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -291,7 +298,7 @@ The nominal smearing function is taken from \ac{MC} in order to remove contamina
 \subsection{\pt Reweighting of Photon Events}
 \label{sec:photon_reweight}
 
-Next, the photon events are reweighted to match the boson \pt spectrum of the $Z$ events. This is accomplished by making histograms of boson \pt for $\gamma$ and $Z$ events with binning identical to the \pt bins used in \autoref{sec:photon_smearing}. Photons are binned based on their smeared \pt determined in the previous step. A reweighting factor $f(\pt)$ is then calculated in each bin, according to
+Next, the photon events are reweighted to match the boson \pt spectrum of the $Z$ events. This is accomplished by making histograms of boson \pt for \gjets and \dyjets events with binning identical to the \pt bins used for the determination of smearing functions. Photons are binned based on their smeared \pt determined in the previous step. A reweighting factor $f(\pt)$ is then calculated in each bin, according to
 %
 \begin{equation}
 f_\text{MC}(x) = \frac{N_{\dyjets}(x)}{N_{\gjets}(x)}
@@ -300,10 +307,10 @@ f_\text{MC}(x) = \frac{N_{\dyjets}(x)}{N_{\gjets}(x)}
 in \ac{MC}, and in data according to
 %
 \begin{equation}
-f_\text{data}(x) = \frac{N_{\text{data}}(x)-N_{t\bar{t}}(x)-N_{\text{VV}}(x)}{N_{\gjets\ \text{data}}(x)}
+f_\text{data}(x) = \frac{N_{\text{data}}(x)-N_{t\bar{t}}(x)-N_{\text{VV}}(x)}{N_{\gjets\ \text{data}}(x)} ,
 \end{equation}
 %
-where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. 
+where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. The data-based reweighting function is used as the nominal function, while the \ac{MC}-based function is used for \ac{MC} closure tests described in \autoref{sec:unc_gjets}. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -315,11 +322,11 @@ where the contamination from other backgrounds is taken from \ac{MC} and subtrac
 \end{figure}
 \end{centering}
 
-The data- and \ac{MC}-derived reweighting functions each have their own benefits. The data-based functions are of course not subject to any potential mismodeling, but it is possible to have contamination from other processes that is not accounted for. Because good agreement between data and \ac{MC} is seen in the boson \pt spectrums, contamination was deemed a higher concern than mismodeling, and the \ac{MC}-based function was used as the nominal smearing function, with the data-based function used as a cross-check.
+This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. The boson \pt is serving here as a proxy for the energy scale of the event, and reweighting in this variable results in photon events with hadronic energy that approximately matches that of the \dyjets distributions. It is important to match the hadronic energy scales because the mismeasurement (and thus the \met) scales with the square of the observed hadronic energy. Other variables can be used for reweighting, and are used in the determination systematic uncertainties discussed in \autoref{sec:unc_gjets}, but boson \pt reweighting was observed to yield the best closure.
 
-This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. Because, excluding \met contributions, the boson \pt must match the energy of the jet system off which it recoils, these two variables are closely tied. Once the two samples are reweighted to have similar amounts of hadronic energy, the \met contribution from mismeasurement of jets, which scales according to the square root of the jet energy, should also be the same between the two samples. 
+%Because, excluding \met contributions, the boson \pt must match the energy of the jet system off which it recoils, these two variables are closely tied. Once the two samples are reweighted to have similar amounts of hadronic energy, the \met contribution from mismeasurement of jets, which scales according to the square root of the jet energy, should also be the same between the two samples. 
 
-Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely matches that of the $Z$ events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. In the $ee$ channel, the \met distribution looks similar between \dyjets and \gjets events up to about 150 \gev. Above this value, the differences between $\gamma$ and $Z\rightarrow ee$ resolutions seen in the tails of \autoref{fig:photon_metparallel} become significant. In the $mm$ channel, the discrepancy between the \met in \dyjets and \gjets events begins at much lower values. In both cases, the application of \pt reweighting and smearing result in excellent agreement between the two \met spectra, with most of the improvement resulting from the smearing factors. 
+Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely matches that of the \dyjets events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. In the $ee$ channel, the \met distribution looks similar between \dyjets and \gjets events up to about 150 \gev. Above this value, the differences between $\gamma$ and $Z\rightarrow ee$ resolutions seen in the tails of \autoref{fig:photon_metparallel} become significant. In the $\mu\mu$ channel, the discrepancy between the \met in \dyjets and \gjets events begins at much lower values. In both cases, the application of \pt reweighting and smearing result in excellent agreement between the two \met spectra, with most of the improvement resulting from the smearing factors. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -343,19 +350,18 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \end{figure}
 \end{centering}
 
-Finally, with the \met distribution finalized in the \gjets prediction, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ can be applied at this stage. 
-
+With the \met distribution of the \dyjets events correctly emulated by the modified \gjets events, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut can be applied. Then, the \gjets distribution is normalized to match the \dyjets yield in CRZ, a region identical to SRZ, but with a maximum \met value of 60 \gev. This yield is determined by subtracting all other backgrounds from the number of data events observed in CRZ, with each background estimated according to its nominal background prediction for the \ac{SR}. 
 
 \subsection{Determining \HT and \mll}
 \label{sec:photon_mll}
 
-One complication thus far ignored is that CR-$\gamma$ has no leptons, but some quantities that define the \ac{SR} require them, namely \mll~and \HT. There is no analogue of \mll~in photon events, and though the contribution of leptons to the \HT variable could be related to the \pt of the boson in \gjets events, the relationship depends on the angular distributions between lepton pairs in \dyjets events and must account for the mass of the $Z$ boson. Instead of determining an analytic function to describe such a relation, both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
+One complication thus far ignored is that CR-$\gamma$ has no leptons, but some quantities that define the \ac{SR} require them, namely \mll~and \HT. There is no analogue of \mll~in photon events, and though the contribution of leptons to the \HT variable can be related to the \pt of the boson in \gjets events, the relationship depends on the angular distributions between lepton pairs in \dyjets events and must account for the mass of the $Z$ boson. Instead of determining an analytic function to describe such a relation, both of these variables are determined by creating histograms binned in the boson \pt and sampling. 
 
-In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ \pt bin using $Z\rightarrow \ell \ell$ \ac{MC}. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
+In the case of \HT, distributions of the scalar sum of the \pt of the leading leptons are made for each $Z$ boson \pt bin using \dyjets \ac{MC}. A sampled value from the distribution is then added to the \HT of the jets in a photon event to produce the final estimate. This sampling is done before any reweighting is performed because the \HT is needed to make the preselection for the reweighting process. However, the smearing is performed inclusively in \HT, so this procedure can be performed using the smeared photon \pt to choose the distribution to sample. 
 
 The \mll~determination is performed after both the smearing and reweighting, and is tied closely to the smearing step. Mismeasurements in lepton \pt can create \met in a \dyjets event, but the same event is likely to migrate off the $Z$ \mll~window due to the mismeasured lepton. Thus it is very important that the two effects be carefully correlated in the manipulated photon events. To achieve this, \ac{MC} $Z$ events from the 1-jet \ac{CR} described in \autoref{sec:photon_smearing} are used to make two-dimensional distributions of \mll~as a function of the difference between reconstructed and true $Z$ \pt for the $ee$ and $\mu\mu$ channels. A photon event then uses the $\Delta$\pt assigned to it during the smearing process to index the distribution, and an \mll~value is sampled from the corresponding bin \footnote{Ideally this $\Delta$\pt would also include the difference between the true and reconstructed \pt of the photon events, but this information is of course not accessible in data. Luckily, in the events in the final \ac{SR} this value is typically negligible compared to the $\Delta$\pt from smearing, so the impact is small.}. 
 
-To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. Though there are some areas of disagreement across the \mll~spectrum, very good closure is seen on the on-$Z$ bin, which is what is needed for the estimate of SRZ's backgrounds. After the \mll~distribution has been emulated, a cut requiring that the photon events be ``on the $Z$-mass peak'' can be required.
+To test the soundness of this procedure, it is repeated purely in \ac{MC}, and the results of the \ac{MC} prediction and the data prediction are compared to the \mll~distribution in \dyjets \ac{MC} in \autoref{fig:photon_mll_mc}. Though there are some areas of disagreement across the \mll~spectrum, very good closure is seen on the on-$Z$ bin, which is what is needed for the estimate of SRZ's backgrounds. After the \mll~distribution has been emulated, a cut requiring that the photon events have an \mll~value between 81 and 101 \gev~can be made.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -368,6 +374,7 @@ To test the soundness of this procedure, it is repeated purely in \ac{MC}, and t
 \end{centering}
 
 \subsection{Subtraction of $V\gamma$ Events}
+\label{sec:gjets_vg}
 
 At high \met, where the signal region lies, contamination of CR-$\gamma$ with $V\gamma$ events becomes significant, as shown in \autoref{fig:photon_vgamma}. These events must be subtracted from the \gjets prediction because, once the photons are corrected to approximate $Z$s, they essentially provide a (not very accurate) prediction of diboson events, which are already accounted for in another background estimate. 
 
@@ -380,7 +387,7 @@ At high \met, where the signal region lies, contamination of CR-$\gamma$ with $V
 \end{figure}
 \end{centering}
 
-This subtraction accomplished by performing the \gjets method on $V\gamma$ \ac{MC} to approximate these backgrounds' contribution to the final \met distribution. This contribution is then subtracted from the \gjets prediction, the impact of which can be seen in \autoref{fig:photon_vgamma_subt}. As expected, the impact is greatest at high \met where these backgrounds are most significant.
+This subtraction is accomplished by applying the \gjets method to $V\gamma$ \ac{MC} to approximate these backgrounds' contribution to the final \met distribution. This contribution is then subtracted from the \gjets prediction, the impact of which can be seen in \autoref{fig:photon_vgamma_subt}. As expected, the impact is greatest at high \met where these backgrounds are most significant.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -422,20 +429,20 @@ An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{1
 \section{Fake and Non-Prompt Leptons}
 \label{sec:bg-fake}
 
-The \textit{fakes} background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to the \ac{SR}. These processes include semileptonic \ttbar, $W$+jets, and single top processes. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or due to a real non-prompt lepton resulting from photon conversions or $B$-hadron decays. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the flaws in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
+The \textit{fakes} background consists of processes that produce only one lepton, but whose events are otherwise kinematically similar to those of the \ac{SR}. These processes include semileptonic \ttbar (in which only one of the two $W$ decays results in a lepton), $W$+jets, and single top processes. Though these processes typically only produce one lepton, they can be reconstructed with two leptons due to a hadron being misidentified as a lepton or due to a real non-prompt lepton resulting from photon conversions or $B$-hadron decays. As with the \dyjets background, it is very difficult to predict with \ac{MC} because the failures in reconstruction are typically less well described by the models used in \ac{MC} production than the successes. Nonetheless, a rough estimate can be made of this background by using \ac{MC}, which indicates that the number of fake events in SRZ is consistent with zero. 
 
-Despite the small predicted contribution in the \ac{SR}, a data-driven method called the \textit{matrix method} is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their impact is more significant. 
+To get a more reliable prediction of this background, a data-driven method called the \textit{matrix method} is employed to estimate these fake events \cite{SUSY-2013-20}. This method is also used to estimate the fakes contribution to other control and validation regions where their impact is more significant. 
 
 In the matrix method, the quality requirements for signal leptons are loosened to give a selection of baseline leptons (see \autoref{tab:eledef} and \autoref{tab:muondef}), which consist of a higher fraction of fake leptons. In each \ac{CR}, \ac{VR}, or \ac{SR}, the remaining kinematic selections are made on the baseline leptons, and the number of leptons in the region which pass the signal lepton requirements ($N_{pass}$) and the number which fail ($N_{fail}$) are measured. For a 1-lepton selection, these quantities can be used to predict the number of fake events that pass the selection according to:
 %
 \begin{equation}
 N_{\text{pass}}^{\text{fake}} = \frac{N_{\text{fail}} - (1/\epsilon^{\text{real}} - 1) \times N_{\text{pass}} }{1/\epsilon^{\text{fake}} - 1/\epsilon^{\text{real}}}.
 \end{equation}
-%
-The efficiencies $\epsilon^\text{real}$ and $\epsilon^\text{fake}$ give the relative identification efficiency from baseline to signal for genuine, prompt leptons and fake and non-prompt leptons, respectively. For a 2-lepton selection, the principle is the same, but the equation is more complicated, requiring a four-by-four matrix to account for possible combinations of real and fake leptons. 
+
+The efficiencies $\epsilon^\text{real}$ and $\epsilon^\text{fake}$ give the relative identification efficiency from baseline to signal for prompt leptons and fake leptons, respectively. For a 2-lepton selection, the principle is the same, but the equation is more complicated, requiring a four-by-four matrix to account for the possible combinations of leading and subleading real and fake leptons. 
 
 
-To calculate $\epsilon^\text{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. In this method, one \textit{tag} lepton passing a signal selection is required, as is another \textit{probe} lepton passing a baseline requirement. Distributions in \mll~for events with a tag and a passing probe and events with a tag and a failing probe are produced and fit, and the efficiency is computed using the ratio acquired from the fit. A comparison of data and \ac{MC} in CR-real can be seen in \autoref{fig:fake_realreg}.
+To calculate $\epsilon^\text{real}$, the tag-and-probe method is performed a selection of $Z\rightarrow\ell\ell$ data events, CR-real, described in \autoref{tab:regions-fakes}. In this method, one \textit{tag} lepton passing a signal selection is required, as is another \textit{probe} lepton passing a baseline requirement. Then, based on whether each probe passes or fails the signal selection, distributions in \mll~for events with a tag and a passing probe and events with a tag and a failing probe are produced. These distributions are fit, and the efficiency is computed using the fraction of passing events acquired from the fits. A comparison of data and \ac{MC} in CR-real can be seen in \autoref{fig:fake_realreg}.
  
 \begin{table}[htbp]
 
@@ -464,24 +471,24 @@ The charge combination of the leading lepton pairs are given as ``SS'' for same-
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
 \includegraphics[width=.45\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
-\caption{Sub-leading lepton \pT\ for $ee$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the real-lepton efficiency for 2016. }
+\caption{Sub-leading lepton \pT\ for $ee$ (left) and $\mu\mu$ (right) events with two leptons passing the signal requirements in CR-real for 2016. }
 \label{fig:fake_realreg}
 \end{figure}
 \end{centering}
 
-The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe method in CR-fake, also described in \autoref{tab:regions-fakes}. This region is different from all other regions considered in this analysis because it requires same-sign leptons. Very few processes genuinely produce two same-sign leptons, so this region is enhanced in fake leptons. An upper limit on \met is placed on CR-fake to limit the possible contamination from \ac{BSM} processes. According to \ac{MC}, real, prompt leptons make up about 7\% (11\%) of the baseline electron (muon) sample and about 10\% (61\%) of the signal electron (muon) sample in this region. These real lepton backgrounds are subtracted from the CR-fake yields when calculating the efficiencies. \autoref{fig:fake_fakereg} shows a comparison of data and \ac{MC} in this region.
+The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe method in CR-fake, also described in \autoref{tab:regions-fakes}. This region is different from all other regions considered in this analysis because it requires same-sign leptons. Very few \ac{SM} processes genuinely produce two same-sign leptons, so this region is enhanced in fake leptons. An upper limit on \met is placed on CR-fake to limit the possible contamination from \ac{BSM} processes. According to \ac{MC}, real, prompt leptons make up about 7\% (11\%) of the baseline electron (muon) sample and about 10\% (61\%) of the signal electron (muon) sample in this region. These real lepton backgrounds are subtracted from the CR-fake yields when calculating the efficiencies. \autoref{fig:fake_fakereg} shows a comparison of data and \ac{MC} in this region.
 
 \begin{centering}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.45\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
 \includegraphics[width=.45\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
-\caption{Sub-leading lepton \pT\ for $\mu e$ (left) and $\mu\mu$ (right) events in the tight-tight region used to measure the fake-lepton efficiency for 2016.}
+\caption{Sub-leading lepton \pT\ for $\mu e$ (left) and $\mu\mu$ (right) events with two leptons passing signal requirements in CR-fake for 2016.}
 \label{fig:fake_fakereg}
 \end{figure}
 \end{centering}
 
-This method is validated in a fakes-rich validation region with a same-sign lepton requirement, \met $\geq$ 50\gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties, discussed in \autoref{sec:uncert_fakes}, the prediction agrees well with the data across a wide range of \mll~values. 
+This method is validated in a fakes-rich \ac{VR} with a same-sign lepton requirement, \met $\geq$ 50\gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels to reduce the number of \dyjets events with mismeasured lepton charge. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties, discussed in \autoref{sec:uncert_fakes}, the prediction agrees well with the data across a wide range of \mll~values. 
 
 %TODO add this to table
 
@@ -499,7 +506,10 @@ This method is validated in a fakes-rich validation region with a same-sign lept
 \section{Diboson and Rare Top Processes}
 \label{sec:bg-other}
 
-The remaining backgrounds are diboson processes (excluding $WW$, which is included in the \ac{FS} background) and rare top processes. Dibosons events make up about 30\% of the events in SRZ, while rare top process contributions are much smaller. Both are taken directly from \ac{MC}, with validation regions to confirm the accuracy of the prediction. These regions are described in \autoref{tab:regions-z}, and target different parts of these backgrounds. VR-ZZ is a four-lepton selection designed to select a very pure sample of $ZZ$ events. VR-WZ requires three leptons and makes specific cuts on $m_T$, the transverse mass, and \met in order to select mostly $WZ\rightarrow lll\nu$ events. VR-3L is similar to VR-S, but loosens the \HT and \met cuts and requires at least three leptons. This region is designed to target any $\geq3$-lepton process in a region as kinematically close to SRZ as possible while still maintaining enough events to validate. The makeups of these multilepton validation regions, as well as VRS, are shown in \autoref{tab:VRresults}.
+The remaining backgrounds are diboson processes (excluding $WW$, which is included in the \ac{FS} background) and rare top processes. Dibosons events make up about 30\% of the events in SRZ, while rare top process contributions are much smaller, and make up about 5\% of SRZ. Both are taken directly from \ac{MC}, with validation regions to confirm the accuracy of the prediction. 
+
+These regions are described in \autoref{tab:regions-z}, and target different parts of these backgrounds. VR-ZZ is a four-lepton region designed to select a very pure sample of $ZZ$ events. VR-WZ requires three leptons and makes cuts on $m_\mathrm{T}$, the transverse mass\footnote{More specifically, this transverse mass is formed by the \met and the lepton which is not assigned to the $Z$ boson decay. The leptons associated with the $Z$ boson are the opposite sign pair with the invariant mass closest to that of the $Z$ boson. }, 
+and \met in order to select mostly $WZ\rightarrow lll\nu$ events. Both of these regions veto events with $b$-jets in order to reduce \ttbar backgrounds. VR-3L is similar to VRS, but loosens the \HT and \met cuts and requires at least three leptons. This region is designed to target any $\geq3$-lepton process in a region as kinematically close to SRZ as possible while still maintaining enough events to validate. The makeups of these multilepton validation regions, as well as VRS, are shown in \autoref{tab:VRresults}.
 
 
 
@@ -509,7 +519,7 @@ The remaining backgrounds are diboson processes (excluding $WW$, which is includ
 \resizebox{1\textwidth}{!}{
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
 \noalign{\smallskip}\hline\noalign{\smallskip}
-                                                                             & VR-S            & VR-WZ        & VR-ZZ          & VR-3L   \\[-0.05cm]
+                                                                             & VRS            & VR-WZ        & VR-ZZ          & VR-3L   \\[-0.05cm]
 \noalign{\smallskip}\hline\noalign{\smallskip}
 Observed events                                                              & $236$            & $698$        & $132$          & $32$ \\
 \noalign{\smallskip}\hline\noalign{\smallskip}
@@ -531,33 +541,34 @@ Total expected background                                             & $224 \pm
 \end{table}
 
 
-To confirm that the kinematics are well modeled in the diboson validation regions, distributions of boson mass and \pt are shown in \ac{MC} and data. Figures \ref{fig:diboson_wz} and \ref{fig:diboson_wz2} show these distributions for VR-WZ, and \autoref{fig:diboson_zz} shows these distributions for VR-ZZ. 
+To confirm that the kinematics are well modeled in the diboson validation regions, distributions of \HT and $Z$ boson \pt are shown in \ac{MC} and data. Figures \ref{fig:diboson_wz} shows these distributions for VR-WZ, and \autoref{fig:diboson_zz} shows these distributions for VR-ZZ. 
+
 
 \begin{centering}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.9\textwidth]{figures/dibosons/WZ_Wmass.png}
-\includegraphics[width=.9\textwidth]{figures/dibosons/WZ_Zmass.png}
-\caption{Distribtuions of data and \ac{MC} in VR-WZ. Reconstructed transverse mass of the $W$ (top) and mass of the $Z$ (bottom). \label{fig:diboson_wz}}
+\includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11a.eps}
+\includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11b.eps}
+\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-WZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow. \label{fig:diboson_wz}}
 \end{figure}
 \end{centering}
 
 \begin{centering}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.9\textwidth]{figures/dibosons/WZ_Wpt.png}
-\includegraphics[width=.9\textwidth]{figures/dibosons/WZ_Zpt.png}
-\caption{Distribtuions of data and \ac{MC} in VR-WZ. \pT of the $W$ (top) and $Z$ (bottom). \label{fig:diboson_wz2}}
+\includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11c.eps}
+\includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11d.eps}
+\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-ZZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow. \label{fig:diboson_zz}}
 \end{figure}
 \end{centering}
 
-\begin{centering}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=.9\textwidth]{figures/dibosons/ZZ_Zmass.png}
-\includegraphics[width=.9\textwidth]{figures/dibosons/ZZ_Zpt.png}
+%\begin{centering}
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=.9\textwidth]{figures/dibosons/ZZ_Zmass.png}
+%\includegraphics[width=.9\textwidth]{figures/dibosons/ZZ_Zpt.png}
 
-\caption{Distribtuions in VR-WZ. On the top, mass of the $Z$ bosons in the event, and on the bottom, \pT of the $Z$ bosons. \label{fig:diboson_zz}}
-\end{figure}
-\end{centering}
+%\caption{Distribtuions in VR-WZ. On the top, mass of the $Z$ bosons in the event, and on the bottom, \pT of the $Z$ bosons. \label{fig:diboson_zz}}
+%\end{figure}
+%\end{centering}
 

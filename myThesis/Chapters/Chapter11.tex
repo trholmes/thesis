@@ -4,12 +4,12 @@
 
 \label{ch:results} 
 
-The results of the search can be seen in \autoref{tab:results}, which displays the expected and observed numbers of events in SRZ, both divided by channel and inclusively. The predictions and uncertainties for each background are shown, though many of these uncertainties are correlated between backgrounds, so the final uncertainty does not correspond to a simple addition in quadrature of each error. A total of sixty events are observed, with 53.5 $\pm$ 9.3 events expected. \autoref{fig:results_plot} shows the expected and observed results visually for the \ac{SR} as well as three \acp{VR}, all designed to verify the accuracy of the backgrounds taken from \ac{MC}. Excellent agreement is seen in all cases, with the largest deviation at about $1\sigma$. 
+The results of the search can be seen in \autoref{tab:results}, which displays the expected and observed numbers of events in SRZ, both divided by channel and inclusively. The predictions and uncertainties for each background are shown, though many of these uncertainties are correlated between backgrounds, so the final uncertainty does not correspond to a simple addition in quadrature of each error. A total of sixty events are observed, with 53.5 $\pm$ 9.3 events expected. \autoref{fig:results_plot} shows the expected and observed results visually for the \ac{SR} as well as three \acp{VR}, all designed to verify the accuracy of the backgrounds taken from \ac{MC}. Excellent agreement is seen in all cases, with the largest deviation at about $1.2\sigma$ in VR-WZ.
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.9\linewidth]{figures/results/makeSummaryPlot_linear.pdf}
+\includegraphics[width=.9\linewidth]{figures/results/makeSummaryPlot_linear.eps}
 \caption{Comparison of background predictions and data yields in four validation regions, as well as the signal region. Definitions of all regions can be found in \autoref{tab:regions-z}, with both rare top and fake backgrounds grouped together under the ``other'' label. The uncertainty band includes all statistical and systematic uncertainties. Below is a panel of the one-sided statistical significances of the deviations between the predicted and observed quantities for each region.}
 \label{fig:results_plot}
 \end{figure}
@@ -53,9 +53,9 @@ $\langle\epsilon\sigma\rangle^{95}_\text{obs}$~[fb]                         & 1.
 \label{tab:results}
 \end{sidewaystable*}
 
-\autoref{tab:results} also shows several statistical interpretations of the results. The discovery $p$-value for zero signal strength, which gives the probability that the observed events are compatible with a \ac{SM}-only hypothesis, is given as 0.32. The significance is listed as 0.47 $\sigma$, which is a reinterpretation of the $p$-value into a gaussian significance. This $p$-value is one-sided; when the data yield is less than expected the $p$-value is set to 0.5, and the significance is set to 0. $S^{95}$, the upper limit on the number of signal events that could be in the \ac{SR} at a 95\% \ac{CL}, is determined both for the expected and observed number of events. This limit is also reinterpreted based on the integrated luminosity used in the seach to produce an upper limit on the visible cross-section of signal events, $\langle\epsilon\sigma\rangle^{95}_\text{obs}$.
+\autoref{tab:results} also shows several statistical interpretations of the results. The discovery $p$-value for zero signal strength, which gives the probability that the observed events are compatible with a \ac{SM}-only hypothesis, is 0.32. The significance is listed as 0.47 $\sigma$, which is a reinterpretation of the $p$-value into a gaussian significance. This $p$-value is one-sided; when the data yield is less than expected the $p$-value is set to 0.5, and the significance is set to 0. $S^{95}$, the upper limit on the number of signal events that could be in the \ac{SR} at a 95\% \ac{CL}, is determined both for the expected and observed number of events. This limit is also reinterpreted based on the integrated luminosity used in the seach to produce an upper limit on the visible cross-section of signal events, $\langle\epsilon\sigma\rangle^{95}_\text{obs}$, which makes comparison to other searches and reinterpretation of results easier.
 
-The predictions in SRZ, combined with \mll~shapes taken from \ac{MC}, are used to produce plots in a broader \mll~range, seen in \autoref{fig:results_widemll}. These plots are useful demonstrations of efficacy of the background estimation methods, showing the well-modeled \dyjets shape in the same-flavor region, and in the different-flavor region, demonstrating that there are no extreme fluctuations within the region used to predict the flavor symmetric background.
+The predictions in SRZ, combined with \mll~shapes taken from \ac{MC}, are used to produce plots in a broader \mll~range, seen in \autoref{fig:results_widemll}. These plots are useful demonstrations of the efficacy of the background estimation methods, showing the well-modeled \dyjets shape in the same-flavor region, and in the different-flavor region, demonstrating that there are no extreme fluctuations within the region used to predict the flavor symmetric background.
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -67,8 +67,7 @@ The predictions in SRZ, combined with \mll~shapes taken from \ac{MC}, are used t
 \end{figure}
 \end{centering}
 
-Focusing in on the \ac{SR} itself, comparisons of background predictions, observed events, and signal models can be made as a function of key variables for the analysis. \autoref{fig:results_srdists} shows several of these. The first two figures focus on the features of the \ac{SR} events' leading leptons; they give the mass and \pt of a hypothetical parent particle reconstructed from the leptons. In the case of events with a real $Z$ boson, these variables simply give that boson's mass at \pt. The next two figures show distributions in the two most important variables used to differentiate signal from background, \met and \HT. In this analysis, where the frozen \ac{SR} resulted in cuts on these quantities that are lower than those that would be chosen based on a new optimization, these plots show that, even in more sensitive regions, no large excess above the \ac{SM} background is seen. The last pair of figures relates to the jets in the event, showing the total number of jets and the total number of $b$-jets in the \ac{SR} events. The $b$-jet quantity is not explicitly cut on in the analysis because the fraction of $b$-jets produced is extremely model dependent. However, an excess at high $b$-jet multiplicity would suggest a \ac{BSM} process. In each of these distributions, the observed distributions match the background predictions very well, and no evidence for any of the superimposed signal models is seen. 
-
+Focusing in on the \ac{SR} itself, comparisons of background predictions, observed events, and signal models can be made as a function of key variables for the analysis. \autoref{fig:results_srdists} shows several of these. 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
@@ -82,6 +81,15 @@ Focusing in on the \ac{SR} itself, comparisons of background predictions, observ
 \label{fig:results_srdists}
 \end{figure}
 \end{centering}
+
+The first two figures focus on the features of the \ac{SR} events' leading leptons; they give the mass and \pt of a hypothetical parent particle reconstructed from the leptons. In the case of events with a real $Z$ boson, these variables simply give that boson's mass and \pt. 
+
+The next two figures show distributions in the two most important variables used to differentiate signal from background, \met and \HT. In this analysis, where the frozen \ac{SR} resulted in cuts on these quantities that are lower than those that would be chosen based on a new optimization, these plots show that, even in more sensitive regions, no large excess above the \ac{SM} background is seen. 
+
+The last pair of figures relates to the jets in the event, showing the total number of jets and the total number of $b$-jets in the \ac{SR} events. The $b$-jet quantity is not explicitly cut on in the analysis because the fraction of $b$-jets produced by the signal is extremely model dependent. However, an excess at high $b$-jet multiplicity would suggest a \ac{BSM} process. No such disagreement is seen. In addition, the excellent agreement in the first bin of the $b$-jet distribution shows that the \dyjets contribution, which is concentrated in this bin, has been well estimated.
+
+In each of these distributions, the observed distributions match the background predictions very well. No evidence is seen for the superimposed signal models, which are at mass points slightly beyond the bounds of the previous exclusion in this channel, one with high and one with low $\tilde{\chi}^{0}_{2}$ mass.
+
 
 Comparisons of the observed and expected yield are also made as a function of $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$, shown in \autoref{fig:results_dphi}. Here, results are shown in a region similar to SRZ with the cut on this variable removed, showing the efficacy of the background prediction in a region enhanced in \dyjets events. Again, excellent agreement is seen between the background prediction and observed data.
 

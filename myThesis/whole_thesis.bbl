@@ -3010,23 +3010,41 @@
   \field{year}{2002}
 \endentry
 
-\entry{ATL-PHYS-PUB-2016-022}{report}{}
-  \field{number}{ATL-PHYS-PUB-2016-022}
-  \field{title}{{Prospects for a search for direct pair production of top
-  squarks in scenarios with compressed mass spectra at the high luminosity LHC
-  with the ATLAS Detector}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/2220904
+\entry{Aad:2014wea}{article}{}
+  \verb{doi}
+  \verb 10.1007/JHEP09(2014)176
   \endverb
-  \list{location}{1}{%
-    {Geneva}%
+  \verb{eprint}
+  \verb 1405.7875
+  \endverb
+  \field{pages}{176}
+  \field{title}{{Search for squarks and gluinos with the ATLAS detector in
+  final states with jets and missing transverse momentum using $\sqrt{s}=8$ TeV
+  proton--proton collision data}}
+  \field{volume}{1409}
+  \field{journaltitle}{JHEP}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2014}
+\endentry
+
+\entry{ATL-PHYS-PUB-2014-010}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
   }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATL-PHYS-PUB-2014-010}}
+  \field{title}{{Search for Supersymmetry at the high luminosity LHC with the
+  ATLAS Detector}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/1735031
+  \endverb
+  \field{year}{2014}
 \endentry
 
 \lossort
