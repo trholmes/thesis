@@ -53,7 +53,11 @@ $\langle\epsilon\sigma\rangle^{95}_\text{obs}$~[fb]                         & 1.
 \label{tab:results}
 \end{sidewaystable*}
 
-\autoref{tab:results} also shows several statistical interpretations of the results. The discovery $p$-value for zero signal strength, which gives the probability that the observed events are compatible with a \ac{SM}-only hypothesis, is 0.32. The significance is listed as 0.47 $\sigma$, which is a reinterpretation of the $p$-value into a gaussian significance. This $p$-value is one-sided; when the data yield is less than expected the $p$-value is set to 0.5, and the significance is set to 0. $S^{95}$, the upper limit on the number of signal events that could be in the \ac{SR} at a 95\% \ac{CL}, is determined both for the expected and observed number of events. This limit is also reinterpreted based on the integrated luminosity used in the seach to produce an upper limit on the visible cross-section of signal events, $\langle\epsilon\sigma\rangle^{95}_\text{obs}$, which makes comparison to other searches and reinterpretation of results easier.
+\autoref{tab:results} also shows several statistical interpretations of the results. The discovery $p$-value for zero signal strength, which gives the probability that the observed events are compatible with a \ac{SM}-only hypothesis, is 0.32. The significance is listed as 0.47 $\sigma$, which is a reinterpretation of the $p$-value into a gaussian significance. This $p$-value is one-sided; when the data yield is less than expected the $p$-value is set to 0.5, and the significance is set to 0. $S^{95}$, the upper limit on the number of signal events that could be in the \ac{SR} at a 95\% \ac{CL}, is determined both for the expected and observed number of events. This limit is also reinterpreted based on the integrated luminosity used in the seach to produce an upper limit on the visible cross-section of signal events, $\langle\epsilon\sigma\rangle^{95}_\text{obs}$, which makes comparison to other searches and reinterpretation of results easier. This quantity is defined as a function of the integrated luminosity ($L_\text{int}$) considered in the search according to
+%
+\begin{equation}
+\langle\epsilon\sigma\rangle^{95}_\text{obs} = \frac{S^{95}}{L_\text{int}} . 
+\end{equation}
 
 The predictions in SRZ, combined with \mll~shapes taken from \ac{MC}, are used to produce plots in a broader \mll~range, seen in \autoref{fig:results_widemll}. These plots are useful demonstrations of the efficacy of the background estimation methods, showing the well-modeled \dyjets shape in the same-flavor region, and in the different-flavor region, demonstrating that there are no extreme fluctuations within the region used to predict the flavor symmetric background.
 
@@ -61,8 +65,8 @@ The predictions in SRZ, combined with \mll~shapes taken from \ac{MC}, are used t
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.48\linewidth]{figures/results/mll_SF_R_a_SCALED.eps}
-\includegraphics[width=.48\linewidth]{figures/results/mll_DF_R_a_SCALED.pdf}
-\caption{Comparisons as a function of \mll~of background predictions with observed data in an SRZ-like region, with the \mll~cut removed. Left is the same-flavor channel, where all background shapes are taken from \ac{MC} and scaled to their SRZ predictions, except for the \dyjets background, which is taken entirely from the data-driven background. Right is the different-flavor channel, in which the backgrounds are taken directly from \ac{MC}, except for \ttbar, which is scaled to match the total data yield \cite{this_paper}. }
+\includegraphics[width=.48\linewidth]{figures/results/mll_DF_R_a_SCALED.eps}
+\caption{Comparisons as a function of \mll~of background predictions with observed data in a region identical to SRZ, with the \mll~cut removed. Left is the same-flavor channel, where all background shapes are taken from \ac{MC} and scaled such that their yield matches the SRZ prediction in the on-$Z$ \mll~bin, except for the \dyjets background, which is taken entirely from the data-driven background. Right is the different-flavor channel, in which the backgrounds are taken directly from \ac{MC}, except for \ttbar, which is scaled to match the total data yield \cite{this_paper}. }
 \label{fig:results_widemll}
 \end{figure}
 \end{centering}
@@ -77,7 +81,7 @@ Focusing in on the \ac{SR} itself, comparisons of background predictions, observ
 \includegraphics[width=.48\linewidth]{figures/results/htincl_ee_mm_srz_R_a.eps}
 \includegraphics[width=.48\linewidth]{figures/results/njets_ee_mm_srz_R_a.eps}
 \includegraphics[width=.48\linewidth]{figures/results/nbjets_ee_mm_srz_R_a.eps}
-\caption{ Distributions of observed data, background predictions, and simulated signals are shown in SRZ as a function of \mll, $\pt^{\ell\ell}$, \met, \HT, number of jets, and number of $b$-jets. The two example signals have $(m(\tilde{g}),m(\tilde{\chi}^{0}_{2}))=(1095, 205)$~\GeV. All background shapes are taken from \ac{MC}, and in the case of flavor symmetric and \dyjets backgrounds, their yields are scaled to match the data-driven predictions. Uncertainties include statistical and systematic components \cite{this_paper}.}
+\caption{ Distributions of observed data, background predictions, and simulated signals are shown in SRZ as a function of \mll, $\pt^{\ell\ell}$, \met, \HT, number of jets, and number of $b$-jets. The two example signals have $(m(\tilde{g}),m(\tilde{\chi}^{0}_{2}))=(1095, 205)$~\GeV. All background shapes are taken from \ac{MC}, and in the case of flavor symmetric and \dyjets backgrounds, their yields are scaled to match the data-driven predictions. The last bin of each distribution includes overflow. Uncertainties include statistical and systematic components \cite{this_paper}.}
 \label{fig:results_srdists}
 \end{figure}
 \end{centering}
@@ -86,7 +90,7 @@ The first two figures focus on the features of the \ac{SR} events' leading lepto
 
 The next two figures show distributions in the two most important variables used to differentiate signal from background, \met and \HT. In this analysis, where the frozen \ac{SR} resulted in cuts on these quantities that are lower than those that would be chosen based on a new optimization, these plots show that, even in more sensitive regions, no large excess above the \ac{SM} background is seen. 
 
-The last pair of figures relates to the jets in the event, showing the total number of jets and the total number of $b$-jets in the \ac{SR} events. The $b$-jet quantity is not explicitly cut on in the analysis because the fraction of $b$-jets produced by the signal is extremely model dependent. However, an excess at high $b$-jet multiplicity would suggest a \ac{BSM} process. No such disagreement is seen. In addition, the excellent agreement in the first bin of the $b$-jet distribution shows that the \dyjets contribution, which is concentrated in this bin, has been well estimated.
+The last pair of figures relates to the jets in the event, showing the total number of jets and the total number of $b$-jets in the \ac{SR} events. The $b$-jet quantity is not explicitly cut on in the analysis because the fraction of $b$-jets produced by the signal is extremely model dependent. However, an excess at high $b$-jet multiplicity would suggest a \ac{BSM} process. No such excess is seen. In addition, the excellent agreement in the first bin of the $b$-jet distribution shows that the \dyjets contribution, which is concentrated in this bin, has been well estimated.
 
 In each of these distributions, the observed distributions match the background predictions very well. No evidence is seen for the superimposed signal models, which are at mass points slightly beyond the bounds of the previous exclusion in this channel, one with high and one with low $\tilde{\chi}^{0}_{2}$ mass.
 
@@ -98,7 +102,7 @@ Comparisons of the observed and expected yield are also made as a function of $\
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/results/dPhi_azmet_ee+mm_onz_SR.eps}
 \includegraphics[width=.9\linewidth]{figures/results/dPhi_azmet_ee+mm_onz_VR.eps}
-\caption{Comparisons as a function of $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ of background predictions with observed data in an SRZ-like (left) and VRS-like (right) region, with the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut removed. All background shapes are taken from \ac{MC} and scaled to their SRZ predictions, except for the \dyjets background, which is taken entirely from the data-driven background \cite{this_paper}.}
+\caption{Comparisons as a function of $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ of background predictions with observed data in regions identical to SRZ (left) and VRS (right), with the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut removed. All background shapes are taken from \ac{MC} and scaled to their SRZ predictions, except for the \dyjets background, which is taken entirely from the data-driven background \cite{this_paper}.}
 \label{fig:results_dphi}
 \end{figure}
 \end{centering}

@@ -4,12 +4,16 @@
 
 \label{ch:background_uncertainties} 
 
+Each background has a series of uncertainties placed on it based on the reliability of all the assumptions made in its prediction method. For data-driven backgrounds, each background has its own series of uncertainties based on the specifics of the method used. \ac{MC}-based methods have uncertainties that are more universal, including uncertainties on the theoretical models used to produce matrix elements and uncertainties on the modeling of the experimental setup. 
+
 \section{Uncertainties on Data-Driven Backgrounds}
+
+This section describes the uncertainties derived for each of the data-driven backgrounds methods: the flavor symmetry method, the \gjets prediction of the \dyjets background, and the matrix method applied to the fakes background.  
 
 \subsection{Uncertainties on the Flavor Symmetry Method}
 \label{sec:unc_fs}
 
-The flavor symmetry method is a data driven method that makes its estimate primarily on based events populating an \ac{SR}-like \ac{CR} in the different-flavor channel. The statistical uncertainty on these events makes up the dominant uncertainty on the method. To reduce this uncertainty, the \mll~range on the \ac{CR} is expanded, approximately tripling the number of events in CR-FS. The statistical uncertainty is reduced by this expansion, though it is still significantly higher than any of the other systematic uncertainties on this method, as seen in \autoref{tab:fs_errors}. Also included in the statistical uncertainty column is the statistical uncertainty on the number of non-\ac{FS} events in CR-FS, which is used to scale the prediction to account for contamination in the \ac{CR}. 
+The flavor symmetry method is a data driven method that makes its estimate primarily on based events populating a \ac{CR} in the different-flavor channel. The statistical uncertainty on these events makes up the dominant uncertainty on the method. To reduce this uncertainty, the \mll~range for the \ac{CR} is expanded, approximately tripling the number of events in CR-FS. The statistical uncertainty is reduced by this expansion, though it is still significantly higher than any of the other systematic uncertainties on this method, as seen in \autoref{tab:fs_errors}. Also included in the statistical uncertainty column is the statistical uncertainty on the number of non-\ac{FS} events in CR-FS, which is used to scale the prediction to account for contamination in the \ac{CR}. 
 
 \begin{table}[!ht]
 \begin{center}
@@ -22,14 +26,14 @@ The flavor symmetry method is a data driven method that makes its estimate prima
    \hline
    \hline
 \multirow{3}{*}{SRZ}
-& $ee$ & 16.50 & 1.82 & 0.88 & 0.53 & 0.12 & 0.22 & 2.11 \\ 
-& $\mu\mu$ & 16.67 & 1.83 & 0.79 & 0.33 & 0.11 & 0.23 & 2.04 \\ 
-& $ee$+$\mu\mu$ & 33.16 & 3.66 & 1.07 & 0.86 & 0.23 & 0.45 & 3.94 \\ 
+& $ee$            & 16.5 & 1.8 & 0.88 & 0.53 & 0.12 & 0.22 & 2.1 \\ 
+& $\mu\mu$        & 16.7 & 1.8 & 0.79 & 0.33 & 0.11 & 0.23 & 2.0 \\ 
+& $ee$+$\mu\mu$   & 33.2 & 3.7 & 1.1 & 0.86 & 0.23 & 0.45 & 4.0 \\ 
 \hline
 \multirow{3}{*}{VRS}
-& $ee$ & 49.70 & 3.21 & 2.34 & 2.20 & 0.34 & 0.75 & 4.61 \\ 
-& $\mu\mu$ & 49.60 & 3.14 & 2.88 & 1.40 & 0.31 & 0.75 & 4.56 \\ 
-& $ee$+$\mu\mu$ & 99.31 & 6.34 & 4.00 & 3.60 & 0.65 & 1.49 & 8.47 \\ 
+& $ee$            & 49.7 & 3.2 & 2.3 & 2.2 & 0.34 & 0.75 & 4.6 \\ 
+& $\mu\mu$        & 49.6 & 3.1 & 2.9 & 1.4 & 0.31 & 0.75 & 4.6 \\ 
+& $ee$+$\mu\mu$   & 99.3 & 6.3 & 4.0 & 3.6 & 0.65 & 1.5 & 8.5 \\ 
 \hline
  
 \hline
@@ -37,7 +41,7 @@ The flavor symmetry method is a data driven method that makes its estimate prima
  \end{tabular}
 \end{center}
  \caption{
-   Uncertainties in the on-Z signal and validation regions. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying $k$ and $\alpha$ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \mll~widening, which includes MC statistics and a data/MC comparison in a loosened region.
+   Uncertainties on the prediction of flavor symmetric events in SRZ and VRS. Nominal predictions are given with statistical uncertainty (including uncertainty from subtracted backgrounds), MC Closure uncertainty, uncertainty on the prediction from varying $k$ and $\alpha$ by their statistical uncertainties, comparing the efficiencies from AODs to that of DAODs, and on the \mll~widening, which includes MC statistics and a data/MC comparison in a loosened region.
  }
  \label{tab:fs_errors}
 \end{table}
@@ -79,9 +83,9 @@ Calculating the flavor symmetry method's dependence on these biases requires the
 \end{figure}
 \end{centering}
 
-A \met dependence would be the most likely bias between the two \ac{MC}-derived $\alpha$ factors because \met triggers are the only triggers besides lepton triggers that will allow an event to be accepted into the \ac{dAOD} used by this analysis. Though there is some difference between the data-derived $\alpha$ and those taken from \ac{MC}, it is clear from this plot that there is very little dependence on the choice of an unskimmed or skimmed sample. The calculation of the uncertainty is performed by repeating the flavor symmetric method in \ac{MC} with each of the two \ac{MC}-based $\alpha$ factors and using the difference between the estimates as a symmetric error.
+An \met dependence would be the most likely bias between the two \ac{MC}-derived $\alpha$ factors because \met triggers are the only triggers besides lepton triggers that will allow an event to be accepted into the \ac{dAOD} used by this analysis. Though there is some difference between the data-derived $\alpha$ and those taken from \ac{MC}, it is clear from this plot that there is very little dependence on the choice of an unskimmed or skimmed sample. The calculation of the uncertainty is performed by repeating the flavor symmetric method in \ac{MC} with each of the two \ac{MC}-based $\alpha$ factors and using the difference between the estimates as a symmetric error.
 
-The last uncertainty relates to the main \ac{MC} dependence of the method - the \mll~shape of the \ac{FS} background. A correction factor is taken from \ac{MC} in order to account for the \mll~widening, and the accuracy of that factor must be checked. Its shape is compared to that of data in region similar to VR-FS, but with an \HT cut lowered to 300 \gev~to increase statistics. The difference between the fraction of events on the $Z$-mass peak in data and \ac{MC} in this region is taken as a systematic uncertainty. To confirm that using this lowered \HT cut still gives a valid answer, the fractions are compared as a function of \HT in \autoref{fig:fs_frac_ht}. In these plots, especially in the higher-statistics 2016 plot, it is clear both that the data and \ac{MC} agree very well and that there is no strong \HT dependence. 
+The last uncertainty relates to the main \ac{MC} dependence of the method - the \mll~shape of the \ac{FS} background. A correction factor is taken from \ac{MC} in order to account for the \mll~widening, and the accuracy of that factor must be checked. Its shape is compared to that of data in a region similar to VR-FS, but with an \HT cut lowered to 300 \gev~to increase statistics. The difference between the fraction of events on the $Z$-mass peak in data and \ac{MC} in this region is taken as a systematic uncertainty. To confirm that using this lowered \HT cut still gives a valid answer, the fractions are compared as a function of \HT in \autoref{fig:fs_frac_ht}. In these plots, especially in the higher-statistics 2016 plot, it is clear both that the data and \ac{MC} agree very well and that there is no strong \HT dependence. 
 
 \begin{centering}
 \begin{figure}[!hbt]
@@ -118,27 +122,28 @@ As in the flavor symmetric method, the full procedure is carried out on \ac{MC} 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.85\linewidth]{figures/photons/gamma_jet_closure_ee_mm.eps}
-\caption{\ac{MC} closure of the \gjets method as a function of \met comparing the \ac{MC} prediction of the $Z$ background with the \gjets method performed on \gjets \ac{MC}. The uncertainty band includes both statistical and reweighting uncertainties \cite{this_paper}.}
+\includegraphics[width=.48\linewidth]{figures/photons/Closure_plot_ee_zmet.eps}
+\includegraphics[width=.48\linewidth]{figures/photons/Closure_plot_mm_zmet.eps}
+\caption{\ac{MC} closure of the \gjets method as a function of \met comparing the \ac{MC} prediction of the $Z$ background with the \gjets method performed on \gjets \ac{MC} in the $ee$ channel (left) and $\mu\mu$ channel (right). The uncertainty band includes both statistical and reweighting uncertainties \cite{this_paper}.}
 \label{fig:photons_mcclos}
 \end{figure}
 \end{centering}
 
-The uncertainty on the $V\gamma$ contamination in CR-$\gamma$ is also considered. An uncertainty on the \ac{MC} prediction is made based on comparison of data and \ac{MC} in a $W +$ jets \ac{VR}, shown in \autoref{fig:photons_vgunc}. This \ac{VR} is similar to CR-$\gamma$, but instead of vetoing events with leptons, requires at least one well-isolated lepton with a \pt over 25 \gev. At \met values over 100 \gev, region is about 90\% pure in $W\gamma$ processes. The \ac{MC} agrees well with data in this region, even at very high \met, so an uncertainty of 16\% based primarily on statistical uncertainty in this \ac{VR} is placed on the $V\gamma$ \ac{MC}. This uncertainty is propagated to the final result through the subtraction procedure.
+The uncertainty on the $V\gamma$ contamination in CR-$\gamma$ is also considered. An uncertainty on the \ac{MC} prediction is made based on comparison of data and \ac{MC} in a $W +$ jets \ac{VR}, shown in \autoref{fig:photons_vgunc}. This \ac{VR} is similar to CR-$\gamma$, but instead of vetoing events with leptons, requires at least one well-isolated lepton with a \pt over 25 \gev. At \met values over 100 \gev, the region is about 90\% pure in $W\gamma$ processes. The \ac{MC} agrees well with data in this region, even at very high \met, so an uncertainty of 16\% based primarily on statistical uncertainty in this \ac{VR} is placed on the $V\gamma$ \ac{MC}. This uncertainty is propagated to the final result through the subtraction procedure.
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/photons/hPhotLep_mT_MET100_hist.eps}
 \includegraphics[width=.9\linewidth]{figures/photons/hPhotLep_mT_MET200_hist.eps}
-\caption{Distributions of $m_{\text{T}}(\ell,\met)$, the transverse mass of the lepton and the \met in a \ac{VR} designed to target $W\gamma$ processes. Top is the distribution with a \met cut at 100 \gev, and bottom is the same distribution with a \met cut of 200 \gev.}
+\caption{Distributions of $m_{\text{T}}(\ell,\met)$, the transverse mass of the lepton and the \met in a \ac{VR} designed to target $W\gamma$ processes. Top is the distribution with an \met cut at 100 \gev, and bottom is the same distribution with an \met cut of 200 \gev.}
 \label{fig:photons_vgunc}
 \end{figure}
 \end{centering}
 
 An uncertainty on the \mll~shape is determined using \ac{MC} closure as well. The comparison of \mll~shapes in \dyjets \ac{MC} and the \gjets method applied to \ac{MC} is shown in \autoref{fig:photon_mll_mc}. As with the main \ac{MC} closure test, the maximum of the statistical uncertainty and the non-closure is taken as the final uncertainty on this background.
 
-One last uncertainty based on the statistical uncertainty on the number of \gjets data events used for this method is also included. The full breakdown of uncertainty in SRZ can be seen in \autoref{tab:photon_uncertainties}.
+One last uncertainty based on the statistical uncertainty on the number of \gjets data events used for this method is also included. The full breakdown of uncertainty in SRZ can be seen in \autoref{tab:photon_uncertainties}. The final uncertainty is nearly 100\%.
 
 \begin{table}[!hbt]
 \centering
@@ -152,16 +157,16 @@ One last uncertainty based on the statistical uncertainty on the number of \gjet
    			& 		 	& sub. 			& clos.		& shape & weight	& 		 & 	 		& \\
    \hline
    \hline
-$ee$ 			& 1.02 & 53.0 & 21.0 & 19.0 & 100.0 & 65.0 & 56.0 & 145.0 \\ 
-$\mu\mu$ 		& 2.08 & 27.0 & 14.0 & 23.0 & 30.0  & 59.0 & 40.0 & 86.0 \\ 
-$ee$+$\mu\mu$ 	& 3.1  & 36.0 & 16.0 & 22.0 & 43.0  & 60.0 & 33.0 & 92.0 \\ 
+$ee$ 			& 1.0        & 53 & 21 & 19 & 100 & 65 & 56 & 145 \\ 
+$\mu\mu$ 		& 2.1     & 27 & 14 & 23 & 30  & 59 & 40 & 86 \\ 
+$ee$+$\mu\mu$ 	& 3.1     & 36 & 16 & 22 & 43  & 60 & 33 & 92 \\ 
  
 
 \hline
 \hline
  \end{tabular}
 }
-\caption{Uncertainty breakdown for the \gjets method in SRZ. Uncertainties considered are the impact of \ac{MC} uncertainty on $V\gamma$ backgrounds, \ac{MC} closure, uncertainty on \mll shape (also determined via \ac{MC} closure), reweighting uncertainties, smearing uncertainties, and statistical uncertainty on the \gjets events used in the method.}
+\caption{Uncertainty breakdown for the \gjets method in SRZ. Uncertainties considered are the impact of \ac{MC} uncertainty on $V\gamma$ backgrounds, \ac{MC} closure, uncertainty on \mll~shape (also determined via \ac{MC} closure), reweighting uncertainties, smearing uncertainties, and statistical uncertainty on the \gjets events used in the method.}
 \label{tab:photon_uncertainties}
 \end{table}
 
@@ -179,27 +184,27 @@ Statistical uncertainties can also be large in regions with small numbers of eve
 \begin{tabular}{l|cccccc}
 Variation & SRZ & CRT & CRFS & VRFS & VRS & VRT  \\
 \hline\hline
-Nominal & 0.10 $\pm$ 1.61 & 25.39 $\pm$ 5.35 & 3.73 $\pm$ 2.19 & 10.53 $\pm$ 3.56 & 3.64 $\pm$ 3.20 & 80.06 $\pm$ 9.80   \\
+Nominal & 0.10 $\pm$ 1.61 & 25 $\pm$ 5 & 3.7 $\pm$ 2.2 & 11 $\pm$ 4 & 3.6 $\pm$ 3.2 & 80 $\pm$ 10   \\
 \hline
-EL F Up & 0.15  	& 30.23 & 3.96 & 10.93 & 3.56  	& 92.46   \\
-EL F Down & 0.06  	& 21.80 & 3.52 & 10.18 & 3.54 	& 70.07   \\
-EL R Up & 0.25  	& 26.17 & 3.92 & 11.10 & 4.13 	& 82.57   \\
-EL R Down & -0.07  	& 24.51 & 3.52 & 9.92 & 3.10 	& 77.24   \\
-MU F Up & -0.20  	& 32.48 & 4.77 & 16.41 & 5.25 	& 86.48   \\
-MU F Down & 0.29  	& 20.17 & 2.91 & 7.04 & 2.87 	& 70.12   \\
-MU R Up & 0.13 		& 25.67 & 3.78 & 10.66 & 3.81 	& 81.18   \\
-MU R Down & 0.05 	& 25.04 & 3.67 & 10.38 & 3.44 	& 78.72   \\
+EL F Up     & 0.15  	& 30 & 4.0 & 11 & 3.6  	& 92   \\
+EL F Down   & 0.06  	& 22 & 3.5 & 10 & 3.5 	& 70   \\
+EL R Up     & 0.25  	& 26 & 3.9 & 11 & 4.1 	& 83   \\
+EL R Down   & -0.07  & 25 & 3.5 & 10 & 3.1 	& 77   \\
+MU F Up     & -0.20  & 32 & 4.8 & 16 & 5.3 	& 86   \\
+MU F Down   & 0.29  	& 20 & 2.9 & 7.0 & 2.9 	& 70   \\
+MU R Up     & 0.13 	& 26 & 3.8 & 11 & 3.8 	& 81   \\
+MU R Down   & 0.05 	& 25 & 3.7 & 10 & 3.4 	& 79   \\
 \hline
-Total Sys 		& +0.26 -0.35 		& +8.64 -6.39 	& +1.08 -0.87 	& +5.92 -3.56 	& +1.70 -0.97  	& +14.24 -14.42  \\
-Total Sys (\%) 	& +261.05 -354.72  	& +34.01 -25.19 & +29.05 -23.23 & +56.22 -33.85 & +46.57 -26.60 & +17.78 -18.02  \\
+Total Sys 		   & +0.26 -0.35 		 & +8.6 -6.4 	  & +1.1 -0.87 	& +5.9 -3.6 	 & +1.7 -0.97  	& +14 -14  \\
+Total Sys (\%) 	& +261 -355  & +34 -25    & +29 -23 & +56 -34 & +47 -27  & +18 -18  \\
 \hline
-Real Cont. Up 	& 0.23 	& 20.97 & 3.06 & 8.08 	& 3.15 	& 68.79   \\
-Real Cont. Down & -0.01 & 29.67 & 4.38 & 12.95 	& 4.16 & 90.23   \\
-b-jet 			& 0.31 	& 40.44 & 5.28 & 8.98 	& 5.63 & 120.50   \\
-no b-jet 		& 0.16 	& 23.44 & 3.08 & 11.38 	& 3.97 & 70.55   \\
+Real Cont. Up 	& 0.23 	& 21 & 3.1 & 8.1 	& 3.2 & 69   \\
+Real Cont. Down & -0.01 & 30 & 4.4 & 13 	& 4.2 & 90   \\
+b-jet 			& 0.31 	& 40 & 5.3 & 9.0 	& 5.6 & 121   \\
+no b-jet 		& 0.16 	& 23 & 3.1 & 11 	& 4.0 & 71   \\
 \hline
-Total Sys & +0.25 -0.11 			& +15.65 -4.83 & +1.69 -0.93 & +2.56 -2.90 & +2.09 -0.49  			& +41.71 -14.74  \\
-Total Sys (\%) & +260.46 -109.06 	& +61.66 -19.02 & +45.30 -24.85 & +24.32 -27.58 & +57.31 -13.35 	& +52.10 -18.42  \\
+Total Sys      & +0.25 -0.11 			& +16 -4.8 & +1.7 -0.93 & +2.6 -2.9 & +2.1 -0.49  			& +42 -15  \\
+Total Sys (\%) & +260 -109 	& +62 -19 & +45 -245 & +24 -28 & +57 -13 	& +52 -18  \\
 \hline\hline
 \end{tabular}
 }
@@ -208,7 +213,9 @@ Total Sys (\%) & +260.46 -109.06 	& +61.66 -19.02 & +45.30 -24.85 & +24.32 -27.5
 
 %----------------------------------------------------------------------------------------
 
-\section{Theoretical and Experimental Uncertainties}
+\section{Uncertainties on \acs{MC}-Driven Backgrounds}
+
+Background estimates based on \ac{MC} are assigned uncertainties according to each assumption made in the \ac{MC} modeling. These uncertainties are broadly broken into two categories. Experimental uncertainties cover the modeling of the \ac{ATLAS} detector and its response functions, as well as the pile-up and luminosity provided by the \ac{LHC}. Theoretical uncertainties include uncertainties on \acp{PDF}, the calculation of matrix elements, and the discrepancies between different generators' predictions.
 
 Experimental uncertainties cover any detector effect or \ac{LHC} condition that may not be modeled precisely correctly in \ac{MC}. For each uncertainty, a standard prescription from the \ac{ATLAS} experiment is followed. These uncertainties are applied to signal samples, as well as any backgrounds taken directly from \ac{MC}. Uncertainties are included on the following parameters:  
 \begin{itemize}
@@ -225,7 +232,9 @@ Experimental uncertainties cover any detector effect or \ac{LHC} condition that 
 
 These uncertainties are applied to all \ac{MC} samples used in the analysis. This includes signal models, diboson and rare top samples for the nominal estimate, and all backgrounds taken from \ac{MC} in the sideband fit. 
 
-Theoretical uncertainties include cross-section uncertainties, scale uncertainties, and \ac{PDF} uncertainties. For the diboson samples, the scale uncertainties, given in \autoref{table:Diboson_theoryuncert} are calculated by varying each scale up and down by a factor of two. These are combined with a 6\% cross-section uncertainty and a generator uncertainty obtained by comparing {\sc Powheg} and {\sc Sherpa} \ac{MC} yields in a given region. This generator uncertainty, shown in \autoref{table:Diboson_powhegsherpa1}, is dominant in most regions. Rare top processes are given a $13\%$ PDF and scale variation uncertainty \cite{Alwall:2014hca} and a $22\%$ cross section uncertainty \cite{Campbell:2012,Lazopoulos:2008,Garzelli:2012bn}. 
+Theoretical uncertainties include cross-section uncertainties, scale uncertainties, and \ac{PDF} uncertainties. For the diboson samples, the scale uncertainties, given in \autoref{table:Diboson_theoryuncert} are calculated by varying each scale up and down by a factor of two. These scales each represent a quantity that is necessary for calculating matrix elements, but doesn't necessarily correspond to a physical value. Ideally, the dependence on the scales would be small, and the choice of this non-physical quantity in the calculation wouldn't affect the final calculation. The scales are included. The renormalization scale  provides a cut-off value for the \pt of particles that are included in a Feynman diagram, but aren't present in either the initial or final state. The factorization scale gives the 
+
+ These are combined with a 6\% cross-section uncertainty and a generator uncertainty obtained by comparing {\sc Powheg} and {\sc Sherpa} \ac{MC} yields in a given region. This generator uncertainty, shown in \autoref{table:Diboson_powhegsherpa1}, is dominant in most regions. Rare top processes are given a $13\%$ PDF and scale variation uncertainty \cite{Alwall:2014hca} and a $22\%$ cross section uncertainty \cite{Campbell:2012,Lazopoulos:2008,Garzelli:2012bn}. 
 
 \begin{table}
 	\begin{center}
@@ -260,7 +269,7 @@ Theoretical uncertainties include cross-section uncertainties, scale uncertainti
   	 		\hline\hline
  		\end{tabular}
 	\end{center}
-	\caption{Fractional uncertainties of dibosons in signal and validation regions from Sherpa scale variations.}
+	\caption{Fractional uncertainties of dibosons in signal and validation regions from \sherpa scale variations.}
 	\label{table:Diboson_theoryuncert}
 \end{table}
 
@@ -283,7 +292,7 @@ CRT+VRT & 6.28 & 92.33 & 3.14 & 46.19 & 55.47 \\
 \hline\hline
 \end{tabular}
 \end{center}
-\caption{Comparison of yields in on-$Z$ and off-$Z$ regions in Sherpa and Powheg diboson MC at $14.7~\mathrm{fb}^{-1}$.}
+\caption{Comparison of yields in on-$Z$ and off-$Z$ regions in \sherpa and {\sc powheg} diboson MC at $14.7~\mathrm{fb}^{-1}$.}
 \label{table:Diboson_powhegsherpa1}
 \end{table}
 

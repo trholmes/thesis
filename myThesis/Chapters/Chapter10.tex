@@ -119,9 +119,9 @@ VRS & $ 49.7 \pm 4.6 $ & $ 49.6 \pm 4.6 $ & $ 99.3 \pm 8.5 $ \\
 
 As a crosscheck to the flavor symmetry method, a \ac{MC}-based method is used. This method is called a \textit{sideband fit}, and it begins with a \ac{MC} estimate of the signal region across an \mll~range that includes all values above 40 \gev. This region, excluding the on-$Z$ range that makes up the \ac{SR}, is used as a control region, defined as CRT in \autoref{tab:regions-z}. 
 
-The \ac{SM} backgrounds are estimated for CRT using \ac{MC}, except for the fakes background, which is taken from the data-driven method described in \autoref{sec:bg-fake}. This background prediction is then fit to the measured data yield in CRT with one free parameter, $\mu$. This parameter scales the overall normalization of \ttbar \ac{MC}. All other backgrounds contributing to this control region are constrained by their uncertainties, which are used as nuisance parameters in the fit. Once $\mu$ has been acquired from this fit, it is applied to the \ttbar \ac{MC} yield in the \ac{SR}. This scaled \ttbar \ac{MC} is added to the raw \ac{MC} estimates of the other \ac{FS} processes to give a final estimate of the \ac{FS} background. 
+The \ac{SM} backgrounds are estimated for CRT using \ac{MC}, except for the fakes background, which is taken from the data-driven method described in \autoref{sec:bg-fake}. This background prediction is then fit to the measured data yield in CRT with one free parameter. This parameter scales the overall normalization of \ttbar \ac{MC}. All other backgrounds contributing to this control region are constrained by their uncertainties, which are used as nuisance parameters in the fit. Once the \ttbar normalization has been acquired from this fit, it is applied to the \ttbar \ac{MC} yield in the \ac{SR}. This scaled \ttbar \ac{MC} is added to the raw \ac{MC} estimates of the other \ac{FS} processes to give a final estimate of the \ac{FS} background. 
 
-The results of the fit can be seen in \autoref{tab:Yields_sideband_mc}, along with the original \ac{MC} or data-driven estimates for each background. The bottom half of the table shows the raw \ac{MC} estimates, as well as data-driven estimates for the fakes and \dyjets backgrounds. The top half of the table shows values for each of these quantities after the fit. The only significant change after the fit is the \ttbar background, which is scaled with $\mu$ = 0.64. Normalization factors acquired in CRT, including $\mu$ and the nuisance parameters for other \ac{MC}-driven backgrounds, are applied to SRZ. 
+The results of the fit can be seen in \autoref{tab:Yields_sideband_mc}, along with the original \ac{MC} or data-driven estimates for each background. The bottom half of the table shows the raw \ac{MC} estimates, as well as data-driven estimates for the fakes and \dyjets backgrounds. The top half of the table shows values for each of these quantities after the fit. The only significant change after the fit is the \ttbar background, which is scaled by a factor of 0.64. Normalization factors acquired in CRT are applied to SRZ. 
 
 \input{tables/ZMET_Sideband.tex}
 
@@ -131,7 +131,7 @@ To validate the method, it is repeated in VRS using a fit acquired from VRT. The
 \begin{center}
 \begin{tabular}{lc}
 \hline
-Fit region & \ttbar\ normalization ($\mu$) \\ 
+Fit region & \ttbar\ normalization \\ 
 \hline\hline
 CRT & $0.64 \pm 0.18$ \\
 VRT & $0.80 \pm 0.09$ \\
@@ -177,22 +177,22 @@ VRS & $99\pm8$        &  $92 \pm 25$  \\ [+0.05cm]
 \section{\dyjets Background}
 \label{sec:bg-z}
 
-The \dyjets background is produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. This process can occur in association with jets due to initial state radiation, which can satisfy the jet and \HT requirements in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in hadronic decays of a $Z$ boson), so most events with large amounts of \met are the result of mismeasurement \footnote{$Z\rightarrow\tau\tau$ events do produce real \met, but these decays are grouped into the \ac{FS} background, and are not considered here.}. The 225 \gev~\met cut in SRZ includes $Z$ events only from the very high tail of the \met distribution, so a small mismodeling of jet resolution or energy scale in \ac{MC} can drastically change the prediction. If the prediction of the \dyjets background is too low, this will result in a signal-like peak of data over expected background. 
+The \dyjets background is produced by a process called Drell-Yan in which annihilating quark/anti-quark pairs produce a $Z$ boson or a virtual photon. These bosons then decay to two leptons, which, in the case of the $Z$ boson, naturally appear in the $Z$-mass window. This process can occur in association with jets due to initial state radiation, which can satisfy the jet and \HT requirements in SRZ. However, this process rarely produces real \met (though occasionally neutrinos do appear in hadronic decays of a $Z$ boson), so most events with large amounts of \met are the result of mismeasurement \footnote{$Z\rightarrow\tau\tau$ events do produce real \met, but these decays are grouped into the \ac{FS} background, and are not considered here.}. The 225 \gev~\met cut in SRZ includes $Z$ events only from the very high tail of the \met distribution, so a small mismodeling of jet resolution or energy scale in \ac{MC} can drastically change the prediction. If the prediction of the \dyjets background is too low, this will result in a peak on the $Z$ mass of the observed data over expected background, mimicking a signal. 
 
 Because of the sensitivity to mismodeling in the \ac{MC} prediction of these high \met tails, a data-driven method is used to estimate this background. The method uses \gjets events which, like the \dyjets events, contain one boson recoiling against a hadronic system. These \gjets events are then corrected for the kinematic differences between photons and $Z$ bosons \cite{ATLAS:2012ema, Chatrchyan:2012qka}. The sample of \gjets events is taken from CR-$\gamma$, defined in \autoref{tab:regions-z}. This region is similar to the SRZ selection without the \met  requirement, but it vetoes events with leptons and requires at least one photon. Additionally, the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ cut in SRZ, which is designed to reduce the background from mismeasured jets, is removed for this region because of its unpredictability at very low values of \met, when the angle of the \met is much less meaningful. 
 
-Despite their similarities, there are many theoretical differences between $\gamma$ and $Z$ events. The massive $Z$ boson requires more energy to produce than the massless photon, producing a difference in the kinematic distributions for bosons and jets in these events. Another consequence of photon's masslessness is that they must be produced with associated jets; otherwise, the process cannot simultaneously satisfy conservation of energy and momentum. As a consequence of these differences, many kinematic variables have different shapes between the two samples. \autoref{fig:photon_ptdist} shows a \ac{MC} comparison of boson \pt between $\gamma$ and $Z$ events, demonstrating the shape differences between the two processes. 
+Despite their similarities, there are many differences between $\gamma$ and $Z$ events. The massive $Z$ boson requires more energy to be produced than the massless photon, producing a difference in the kinematic distributions for bosons and jets in these events. Another consequence of photon's masslessness is that they must be produced with associated jets; otherwise, the process cannot simultaneously satisfy conservation of energy and momentum. As a consequence of these differences, many kinematic variables have different shapes between the two samples. \autoref{fig:photon_ptdist} shows a \ac{MC} comparison of boson \pt between $\gamma$ and $Z$ events, demonstrating the shape differences between the two processes. 
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.85\linewidth]{figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_edit.pdf}
+\includegraphics[width=.85\linewidth]{figures/photons/MC_hist_pt_0_SF_2j_2016_mcmetl___zmet_.pdf}
 \caption{\ac{MC} comparison of boson \pt in a selection of photon and $Z\rightarrow\ell\ell$ events with \HT > 600 \gev. The feature at 1000 \gev~is not physical, but a reflection of the change in bin size. }
 \label{fig:photon_ptdist}
 \end{figure}
 \end{centering}
 
-The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then be observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two, lower-\pt objects and one higher-\pt object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different momentum resolution from either electrons or photons. 
+The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two, lower-\pt objects and one higher-\pt object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different momentum resolution from either electrons or photons. 
 
 In addition, this difference in detection means there is a minimum value for the \pt of the photons observed; only photons with \pt > 35 \gev~are consistently identified by the trigger. For the $Z$ boson, there is no direct minimum on \pt, only a reduction of efficiency at low values due to the minimum \pt values of the leptons used to reconstruct them. 
 
@@ -217,7 +217,7 @@ The goal of this method is to predict the \met distribution of the \dyjets backg
 \subsection{Photon and $Z$ Event Selection}
 \label{sec:photon_eventsel}
 
-The baseline photon events come from CR-$\gamma$, an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon \footnote{This region includes an \HT cut, which requires the translation of photon \pt into an equivalent di-lepton \pt scalar sum. This process is described in \autoref{sec:photon_mll}.}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted from the yield in this region according to \ac{MC}. The impact of these backgrounds and the process by which they are subtracted are discussed in \autoref{sec:gjets_vg}. 
+The baseline photon events come from CR-$\gamma$, an inclusive \ac{CR} with no \met cut, a lepton veto, and the requirement of at least one photon\footnote{This region includes an \HT cut, which requires the translation of photon \pt into an equivalent di-lepton \pt scalar sum. This process is described in \autoref{sec:photon_mll}.}. This selection is very pure in $\gamma$+jet events, but some $V\gamma$ events are also included, which can include real \met. These backgrounds are subtracted from the yield in this region according to \ac{MC}. The impact of these backgrounds and the process by which they are subtracted are discussed in \autoref{sec:gjets_vg}. 
 
 The triggering scheme for these \gjets events is more complicated than in other regions because the lowest unprescaled photon trigger requires a photon \pt of at least 120 (140) \gev~ in 2015 (2016) datataking, but the method requires events with much lower \pt to predict the full $Z$-boson \pt spectrum. To accomplish this, the lower-\pt photons are collected with prescaled triggers with a designated trigger for each \pt range, listed in \autoref{tab:photon_triggers}. The events in each selection are then weighted by the prescale value of the trigger used to reconstruct a smooth \pt spectrum. 
 
@@ -267,13 +267,13 @@ To isolate mismeasurement of boson \pt, this method uses \metl, defined as
 \metl = \met \mathrm{sin} \theta
 \end{equation}
 %
-where $\theta$ is the angle between ${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$ and the ${\boldsymbol p}_{\mathrm{T}}$ of the $Z$ boson. \autoref{fig:photon_metparallel} shows the \metl distribution in \ac{MC} for the two samples, and demonstrates the discrepancies between them. The core of the photon distribution is similar to the $Z\rightarrow ee$ distribution because measurements of both photons and electrons are primarily taken from the electromagnetic calorimeter and have the same resolution. For muons, which rely on tracks to determine \pt, the resolution becomes larger at high \pt values where the tracks are nearly straight. For a muon with a \pt of 200 \gev, this the resolution is about 5\%, while a photon or electron with the same \pt has a resolution of 1-2\% \cite{Aad:2014zya, Aad:2014nim}. As a consequence, the resolution distributions for photon and $Z\rightarrow\mu\mu$ events are very different. 
+where $\theta$ is the angle between ${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$ and the ${\boldsymbol p}_{\mathrm{T}}$ of the $Z$ boson. \autoref{fig:photon_metparallel} shows the \metl distribution in \ac{MC} for the two samples, and demonstrates the discrepancies between them. The core of the photon distribution is similar to the $Z\rightarrow ee$ distribution because measurements of both photons and electrons are primarily taken from the electromagnetic calorimeter and have the same resolution. Differences between the photon and $ee$ resolutions in the high \metl tail are due to the different \ac{OR} treatments for the two objects. For muons, which rely on tracks to determine \pt, the resolution becomes larger at high \pt values where the tracks are nearly straight. For a muon with a \pt of 200 \gev, this the resolution is about 5\%, while a photon or electron with the same \pt has a resolution of 1-2\% \cite{Aad:2014zya, Aad:2014nim}. As a consequence, the resolution distributions for photon and $Z\rightarrow\mu\mu$ events are very different. 
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
 \caption{\metl distributions in \ac{MC} for $Z$+jets in the $ee$ (left) and $\mu\mu$ (right) channels compared to the \gjets prediction in an inclusive region with \HT > 600 \gev.}
 \label{fig:photon_metparallel}
 \end{figure}
@@ -282,7 +282,7 @@ where $\theta$ is the angle between ${\boldsymbol p}_{\mathrm{T}}^\mathrm{miss}$
 A function to smear photon events is derived from the deconvolution of the \gjets and \dyjets \metl distributions, taken from 1-jet \acp{CR} with no \HT cut, which are otherwise identical to the baseline $Z$ and $\gamma$ selections. Assuming the jet response functions are the same for the two event types, the deconvolution should cancel these terms and leave a smearing function based only on the differences between photon and $Z$ boson resolutions. The 1-jet \acp{CR} are chosen both for the simplicity of the hadronic systems involved, and because they are orthogonal to the \ac{SR}.  
 %This region is chosen because it is orthogonal to the \ac{SR}, so the resolution can be obtained from data as well as \ac{MC} without being affected by the . 
 
-In these 1-jet \acp{CR}, events are first binned in boson \pt, and in each bin, a \metl distribution is made. The smearing function is defined for each bin as the deconvolution of the \dyjets and \gjets \metl distributions.
+In these 1-jet \acp{CR}, events are first binned in boson \pt, and in each bin, an \metl distribution is made. The smearing function is defined for each bin as the deconvolution of the \dyjets and \gjets \metl distributions.
 Next, for each photon event, the smearing function matching the event's photon \pt is sampled, yielding the smearing amount, $\Delta$\pt. The photon's \pt is then adjusted according to 
 %
 \begin{equation}
@@ -302,8 +302,8 @@ The smeared \metl distributions can be seen in \autoref{fig:photon_metparallelsm
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_METl_Pt_0_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_METl_Pt_0_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
 \caption{\metl distributions in \ac{MC} for $Z$+jets $ee$ (left) and $\mu\mu$ (right) channels compared to  \gjets in an inclusive region with \HT > 600 \gev after the smearing procedure has been performed. The events in these distributions have also been \pt reweighted, as described in \autoref{sec:photon_reweight}.}
 \label{fig:photon_metparallelsmeared}
 \end{figure}
@@ -324,30 +324,30 @@ in \ac{MC}, and in data according to
 f_\text{data}(x) = \frac{N_{\text{data}}(x)-N_{t\bar{t}}(x)-N_{\text{VV}}(x)}{N_{\gjets\ \text{data}}(x)} ,
 \end{equation}
 %
-where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. The data-based reweighting function is used as the nominal function, while the \ac{MC}-based function is used for \ac{MC} closure tests described in \autoref{sec:unc_gjets}. 
+where the contamination from other backgrounds is taken from \ac{MC} and subtracted from the $Z$ candidate sample. The resulting reweighting factors can be seen in \autoref{fig:photon_reweight} and are calculated independently for $ee$ and $\mu\mu$ events. Differences between the electron and muon resolutions can cause small differences in the \pt reweighting factors between the channels; the large muon resolution can artificially inflate the high-\pt tail. Nonetheless, these differences are very small, and the resulting factors are nearly identical between the two channels. The data-based reweighting function is used as the nominal function, while the \ac{MC}-based function is used for \ac{MC} closure tests described in \autoref{sec:unc_gjets}. 
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/Corr_hist_ptrw_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/Corr_hist_ptrw_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/Corr_hist_ptrw_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_nodphi_.pdf}
 \caption{Photon reweighting factors for the $ee$ (left) and $\mu\mu$ (right) channels derived from data and \ac{MC}.}
 \label{fig:photon_reweight}
 \end{figure}
 \end{centering}
 
-This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. The boson \pt is serving here as a proxy for the energy scale of the event, and reweighting in this variable results in photon events with hadronic energy that approximately matches that of the \dyjets distributions. It is important to match the hadronic energy scales because the mismeasurement (and thus the \met) scales with the square of the observed hadronic energy. Other variables can be used for reweighting, and are used in the determination systematic uncertainties discussed in \autoref{sec:unc_gjets}, but boson \pt reweighting was observed to yield the best closure.
+This reweighting, though it is performed on the boson \pt, primarily serves to produce more similar jet distributions between the $\gamma$ and $Z$ samples. The boson \pt is serving here as a proxy for the energy scale of the event, and reweighting in this variable results in photon events with hadronic energy that approximately matches that of the \dyjets distributions. It is important to match the hadronic energy scales because the mismeasurement (and thus the \met) scales with the square of the observed hadronic energy. Other variables can be used for reweighting, and are used in the determination systematic uncertainties discussed in \autoref{sec:unc_gjets}, but boson \pt reweighting was observed to yield the best agreement between the prediction and \dyjets events in \ac{MC}-only tests.
 
 %Because, excluding \met contributions, the boson \pt must match the energy of the jet system off which it recoils, these two variables are closely tied. Once the two samples are reweighted to have similar amounts of hadronic energy, the \met contribution from mismeasurement of jets, which scales according to the square root of the jet energy, should also be the same between the two samples. 
 
-Together, the boson smearing and \pt reweighting produce a \met spectrum in the modified photon events that closely matches that of the \dyjets events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. In the $ee$ channel, the \met distribution looks similar between \dyjets and \gjets events up to about 150 \gev. Above this value, the differences between $\gamma$ and $Z\rightarrow ee$ resolutions seen in the tails of \autoref{fig:photon_metparallel} become significant. In the $\mu\mu$ channel, the discrepancy between the \met in \dyjets and \gjets events begins at much lower values. In both cases, the application of \pt reweighting and smearing result in excellent agreement between the two \met spectra, with most of the improvement resulting from the smearing factors. 
+Together, the boson smearing and \pt reweighting produce an \met spectrum in the modified photon events that closely matches that of the \dyjets events. Figures \ref{fig:photon_metchange_ee} and \ref{fig:photon_metchange_mm} show the comparison of the \met distributions before any alteration, with only \pt reweighting, and after the smearing and reweighting, demonstrating the impact of each step. In the $ee$ channel, the \met distribution looks similar between \dyjets and \gjets events up to about 150 \gev. Above this value, the differences between $\gamma$ and $Z\rightarrow ee$ resolutions seen in the tails of \autoref{fig:photon_metparallel} become significant. In the $\mu\mu$ channel, the discrepancy between the \met in \dyjets and \gjets events begins at much lower values. In both cases, the application of \pt reweighting and smearing result in excellent agreement between the two \met spectra, with most of the improvement resulting from the smearing factors. 
 
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.75\linewidth]{figures/photons/Photon_Zee_met_2j_2016_mcmetl___zmet.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_met_plot_ee_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
 \caption{\met distribution comparing \ac{MC} distributions of photon and $Z$ events before any smearing is applied (top), with only \pt reweighting applied (bottom left), and after \pt reweighting and smearing have both been applied (bottom right) in the $ee$ channel of 2016 data. }
 \label{fig:photon_metchange_ee}
 \end{figure}
@@ -357,8 +357,8 @@ Together, the boson smearing and \pt reweighting produce a \met spectrum in the 
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.75\linewidth]{figures/photons/Photon_Zmm_met_2j_2016_mcmetl___zmet.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptrw__zmet_.pdf}
+\includegraphics[width=.48\linewidth]{figures/photons/MC_hist_met_plot_mm_2j_2016_mcmetl_ptsmrw_smear_zmet_.pdf}
 \caption{\met distribution comparing \ac{MC} distributions of photon and $Z$ events before any smearing is applied (top), with only \pt reweighting applied (bottom left), and after \pt reweighting and smearing have both been applied (bottom right) in the $\mu\mu$ channel of 2016 data.}
 \label{fig:photon_metchange_mm}
 \end{figure}
@@ -419,8 +419,8 @@ The \gjets jets method is validated in a region called VRZ, defined in \autoref{
 \begin{centering}
 \begin{figure}[!hbt]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_ee_onz.pdf}
-\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_mm_onz.pdf}
+\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_ee.eps}
+\includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_mm.eps}
 \caption{\MET distribution in VRZ $ee$ (left) and $\mu\mu$ (right) with total data yield compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC} \cite{this_paper}.}
 \label{fig:photon_validation}
 \end{figure}
@@ -433,7 +433,7 @@ An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{1
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf}
-\caption{ $\Delta\phi(\text{jet},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ distribution in for the leading jet (left) and the subleading jet (right). The comparison is performed in VRZ with the cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ removed.  The total data yield is compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC} \cite{this_paper}.}
+\caption{ $\Delta\phi(\text{jet},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ distribution in for the leading jet (left) and the subleading jet (right). The comparison is performed in VRZ with the cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ removed.  The total data yield is compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC}.}
 \label{fig:photon_dphi}
 \end{figure}
 \end{centering}
@@ -483,8 +483,8 @@ The charge combination of the leading lepton pairs are given as ``SS'' for same-
 \begin{centering}
 \begin{figure}[bth]
 \myfloatalign
-\includegraphics[width=.45\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
-\includegraphics[width=.45\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.48\linewidth]{figures/fakes/ee-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.48\linewidth]{figures/fakes/mm-Cut_Real_TT_HT200-pTsublead_fakes-lin_2016.png}
 \caption{Sub-leading lepton \pT\ for $ee$ (left) and $\mu\mu$ (right) events with two leptons passing the signal requirements in CR-real for 2016. }
 \label{fig:fake_realreg}
 \end{figure}
@@ -495,24 +495,24 @@ The fake efficiency, $\epsilon^{fake}$, is determined using the tag-and-probe me
 \begin{centering}
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.45\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
-\includegraphics[width=.45\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.48\textwidth]{figures/fakes/me-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
+\includegraphics[width=.48\textwidth]{figures/fakes/mm-Cut_Fake_TT-pTsublead_fakes-lin_2016.png}
 \caption{Sub-leading lepton \pT\ for $\mu e$ (left) and $\mu\mu$ (right) events with two leptons passing signal requirements in CR-fake for 2016.}
 \label{fig:fake_fakereg}
 \end{figure}
 \end{centering}
 
-This method is validated in a fakes-rich \ac{VR} with a same-sign lepton requirement, \met $\geq$ 50\gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels to reduce the number of \dyjets events with mismeasured lepton charge. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties, discussed in \autoref{sec:uncert_fakes}, the prediction agrees well with the data across a wide range of \mll~values. 
+This method is validated in a fakes-rich \ac{VR} with a same-sign lepton requirement, \met $\geq$ 50 \gev, $\geq$ 2 jets, and a veto on \mll~on the $Z$-mass peak for same flavor channels to reduce the number of \dyjets events with mismeasured lepton charge. The results of this validation can be seen in \autoref{fig:fakes_validation}. With the systematic uncertainties, discussed in \autoref{sec:uncert_fakes}, the prediction agrees well with the data across a wide range of \mll~values. 
 
 %TODO add this to table
 
 \begin{centering}
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=.45\textwidth]{figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf}
-\includegraphics[width=.45\textwidth]{figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf}
-\includegraphics[width=.45\textwidth]{figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf}
-\includegraphics[width=.45\textwidth]{figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.48\textwidth]{figures/fakes/ee-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.48\textwidth]{figures/fakes/mm-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.48\textwidth]{figures/fakes/em-CutSSMET_zveto-Mll-lin.pdf}
+\includegraphics[width=.48\textwidth]{figures/fakes/me-CutSSMET_zveto-Mll-lin.pdf}
 \caption{Same sign validation regions in the $ee$ (top left), $\mu\mu$ (top right), $e\mu$ (bottom left) and $\mu e$ (bottom right) channels combining 2015+2016 data. Uncertainty bands include both statistical and systematic uncertainties. \label{fig:fakes_validation}}
 \end{figure}
 \end{centering}
@@ -555,7 +555,7 @@ Total expected background                                             & $224 \pm
 \end{table}
 
 
-To confirm that the kinematics are well modeled in the diboson validation regions, distributions of \HT and $Z$ boson \pt are shown in \ac{MC} and data. Figures \ref{fig:diboson_wz} shows these distributions for VR-WZ, and \autoref{fig:diboson_zz} shows these distributions for VR-ZZ. 
+To confirm that the kinematics are well modeled in the diboson validation regions, distributions of \HT and $Z$ boson \pt are shown in \ac{MC} and data. Figures \ref{fig:diboson_wz} shows these distributions for VR-WZ, and \autoref{fig:diboson_zz} shows these distributions for VR-ZZ. The \ac{MC} modeling of this background is imperfect, particularly in VR-WZ where an underestimate of the background is evident. However, as discussed in \autoref{ch:background_uncertainties}, uncertainties are applied to this background which cover the observed differences between data and \ac{MC}.
 
 
 \begin{centering}
