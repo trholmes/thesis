@@ -54,7 +54,21 @@ and $N_{ee/\mu\mu}^{\text{meas}}$
 is the number of $ee/\mu\mu$ events in the inclusive on-$Z$ region described above. 
 Here, the $k$ factors are related by $k_{e}$ = $1/k_{\mu}$. These factors are calculated separately for leading and sub-leading leptons, and the appropriate $k$ value is selected based on which of the leptons is to be replaced. 
 
-The $\alpha$ factor's complicated form is a result of its dual purpose; it accounts for the difference in trigger efficiencies between the different-flavor and same-flavor channels, and corrects for the implicit trigger dependence of the $k$ factor.  
+The $k$ factors are defined by a square root because, when using dilepton events, the quantity being measured is the efficiency of the detection of two leptons. Assuming that the two leptons have similar efficiencies, the square root of this quantity gives the efficiency for a single lepton. 
+
+The $\alpha$ factor's complicated form is a result of its dual purpose; it accounts for the difference in trigger efficiencies between the different-flavor and same-flavor channels, and corrects for the implicit trigger dependence of the $k$ factor. To make a prediction in the $ee$ channel, for example, $\alpha$ is defined as
+%
+\begin{equation}
+\alpha(\pT, \eta) = \frac{\epsilon^\text{trig}_{ee}}{\epsilon^\text{trig}_{e\mu}} \times \sqrt{ \frac{\epsilon^\text{trig}_{\mu\mu}}{\epsilon^\text{trig}_{ee}} }
+\end{equation}
+%
+where the first term accounts for the different trigger efficiencies between the $ee$ and $e\mu$ channels, and the second term cancels the trigger dependence of $k_e$:
+%
+\begin{equation}
+k_{e}(\pT, \eta) = \sqrt{\frac{N_{ee}^{\text{meas}}}{N_{\mu\mu}^{\text{meas}}}} = \sqrt{\frac{\epsilon^\text{id}_{ee}\times\epsilon^\text{trig}_{ee}}{\epsilon^\text{id}_{\mu\mu}\times\epsilon^\text{trig}_{\mu\mu}}}
+\end{equation}
+%
+where $\epsilon^\text{id}$ gives the efficiency for identifying a dilepton event, separated from the trigger efficiency. 
 
 In most \pT and $\eta$ ranges, the difference between electron and muon selection efficiencies is small, so these correction factors are typically within 10\% of unity. In the region $|\eta|<0.1$ they are up to 50\% from unity because of the lack of coverage of the muon spectrometer. $k_e$ factors measured in the 2016 dataset can be seen in \autoref{fig:fs_k}. In most cases, the only correction factor that differs substantially from one is $f_{Z \mathrm{\text{-}mass}}$, which is typically about 1/3. 
 
@@ -63,7 +77,7 @@ In most \pT and $\eta$ ranges, the difference between electron and muon selectio
 \myfloatalign
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep0.eps}
 \includegraphics[width=.85\linewidth]{figures/fs/data_efficiencies_2j_Z_lep1.eps}
-\caption{Measurements of $k_e$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$, with statistical uncertainties shown. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. The efficiencies displayed are for the 2016 dataset.}
+\caption{Measurements of $k_e$, the ratio of electron to muon events, in bins of $\pT$ and $\eta$, with statistical uncertainties shown. On the top is the measurements indexed by the leading lepton, while the measurements indexed by the subleading lepton are on the bottom. When an $e\mu$ event is transformed into either an $ee$ or $\mu\mu$ event, the appropriate measurement is chosen based on which of the original leptons (leading or subleading) must have its flavor changed. The efficiencies displayed are for the 2016 dataset.}
 \label{fig:fs_k}
 \end{figure}
 \end{centering}
@@ -78,7 +92,7 @@ where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\tex
 
 The way this fraction is calculated, any backgrounds that are not accounted for in $N_\text{non-FS}$ would be assumed to be \ac{FS}. Instead, the \ac{MC} could be used to predict the number of events that are \ac{FS}, which would result in any unaccounted for backgrounds being identified as non-\ac{FS}. The former procedure is preferable for several reasons. First, it reduces the dependence on \ac{FS} \ac{MC}, which is important for maintaining this method's independence from the Sideband Fit cross-check method discussed in \autoref{sec:method-sideband}. It also provides a conservative estimate of the number of \ac{FS} events, making an underestimate of the background less likely. Lastly, if for example, the number of fakes were underestimated, $f_{\mathrm{FS}}$ would increase, partially compensating for the underestimate.  
 
-A prediction is made both for SRZ using the 91 events measured in CR-FS, and the lower-\met validation region, VRS, with the 277 events in VR-FS. The background estimation is performed separately for the two data taking periods, 2015 and 2016, because of the changing triggers and conditions. The results are then summed together, as shown in \autoref{tab:fs_yields}. The uncertainties in this table are discussed in \autoref{sec:unc_fs}.
+A prediction is made both for SRZ using the 91 events measured in CR-FS, and the lower-\met validation region, VRS, with the 277 events in VR-FS. The background estimation is performed separately for the two data taking periods, 2015 and 2016, because of the changing triggers and conditions. The results are then summed together, as shown in \autoref{tab:fs_yields}. In SRZ, $33.2 \pm 3.9$ events are expected. The uncertainties in this table are discussed in \autoref{sec:unc_fs}.
 
 \begin{table}
 \begin{center}
@@ -368,7 +382,7 @@ To test the soundness of this procedure, it is repeated purely in \ac{MC}, and t
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf}
-\caption{\dyjets \ac{MC} \mll~distribution compared to the prediction from \gjets method performed on \ac{MC} (left) and the prediction from \gjets method performed on data (right).}
+\caption{\dyjets \ac{MC} \mll~distribution compared to the prediction from \gjets method performed on \ac{MC} (left) and the prediction from \gjets method performed on data (right) \cite{this_paper}. }
 \label{fig:photon_mll_mc}
 \end{figure}
 \end{centering}
@@ -393,7 +407,7 @@ This subtraction is accomplished by applying the \gjets method to $V\gamma$ \ac{
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf}
-\caption{Total \gjets data prediction in SRZ (excluding the \met cut) and the prediction after the $V\gamma$ subtraction.}
+\caption{Total \gjets data prediction in SRZ (excluding the \met cut) and the prediction after the $V\gamma$ subtraction \cite{this_paper}.}
 \label{fig:photon_vgamma_subt}
 \end{figure}
 \end{centering}
@@ -407,7 +421,7 @@ The \gjets jets method is validated in a region called VRZ, defined in \autoref{
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_ee_onz.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/MET_azmet_mm_onz.pdf}
-\caption{\MET distribution in VRZ $ee$ (left) and $\mu\mu$ (right) with total data yield compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC}.}
+\caption{\MET distribution in VRZ $ee$ (left) and $\mu\mu$ (right) with total data yield compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC} \cite{this_paper}.}
 \label{fig:photon_validation}
 \end{figure}
 \end{centering}
@@ -419,7 +433,7 @@ An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{1
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/METJetLeading_azmet_ee+mm_onz_VR.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/METJetSecond_azmet_ee+mm_onz_VR.pdf}
-\caption{ $\Delta\phi(\text{jet},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ distribution in for the leading jet (left) and the subleading jet (right). The comparison is performed in VRZ with the cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ removed.  The total data yield is compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC}.}
+\caption{ $\Delta\phi(\text{jet},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ distribution in for the leading jet (left) and the subleading jet (right). The comparison is performed in VRZ with the cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ removed.  The total data yield is compared to the sum of the prediction from the \gjets method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac{MC} \cite{this_paper}.}
 \label{fig:photon_dphi}
 \end{figure}
 \end{centering}
@@ -451,9 +465,9 @@ To calculate $\epsilon^\text{real}$, the tag-and-probe method is performed a sel
    \noalign{\smallskip}\hline\noalign{\smallskip}
      {\bf Fakes }   &  {\bf \met}   & {\bf $\HT$}  &  {\bf $n_{\text{jets}}$}  & {\bf $m_{\ell\ell} $} &  {\bf SF/DF}  & {\bf OS/SS} & $n_\ell$\\
      {\bf regions} &  {\bf [\GeV]} & {\bf [\GeV]} &                           & {\bf [\GeV]}          &               &         & \\
-   \noalign{\smallskip}\hline\noalign{\smallskip}
-   CR-real          &  $-$      &  $\bm{> 200}$  &  $\geq 2$ & {\bf 81--101}    &  $2\ell$ SF  & OS & $2$\\
-   CR-fake          &  $\bm{<125}$   &  $-$      &  $-$ & $>12$     &  {\bf $2\ell$ SF/DF}  & {\bf SS} & $\geq2$\\
+   \noalign{\smallskip}\hline\hline\noalign{\smallskip}
+   CR-real          &  $-$      &  $> 200$  &  $\geq 2$ &  81--101    &  $2\ell$ SF  & OS & $2$\\
+   CR-fake          &  $<125$   &  $-$      &  $-$ & $>12$     &   $2\ell$ SF/DF  &  SS & $\geq2$\\
    \noalign{\smallskip}\hline\noalign{\smallskip}
    \noalign{\smallskip}\hline\noalign{\smallskip}
 \end{tabular}
@@ -520,7 +534,7 @@ and \met in order to select mostly $WZ\rightarrow lll\nu$ events. Both of these 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
 \noalign{\smallskip}\hline\noalign{\smallskip}
                                                                              & VRS            & VR-WZ        & VR-ZZ          & VR-3L   \\[-0.05cm]
-\noalign{\smallskip}\hline\noalign{\smallskip}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
 Observed events                                                              & $236$            & $698$        & $132$          & $32$ \\
 \noalign{\smallskip}\hline\noalign{\smallskip}
 %Total expected background events                                             & $223.92 \pm 40.84$   &   $612.97\pm8.65$   &    $139.29\pm4.95$    &    $34.52\pm1.39$ \\
@@ -532,7 +546,7 @@ Total expected background                                             & $224 \pm
   Rare top events                                                            & $11\pm3$   &   $14\pm3$   &    $0.44\pm0.11$     &    $9.1\pm2.3$  \\
   \dyjets\ events                                                            & $84\pm37$  &   -                &    -                 &    -              \\
   Fake lepton events                                                         & $4\pm4$    &   $26\pm6$   &    -                 &    $0.6\pm0.3$  \\
- \noalign{\smallskip}\hline\noalign{\smallskip}
+ \noalign{\smallskip}\hline\hline\noalign{\smallskip}
 \end{tabular*}
 } % end of resizebox
 \end{center}
@@ -549,7 +563,7 @@ To confirm that the kinematics are well modeled in the diboson validation region
 \centering
 \includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11a.eps}
 \includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11b.eps}
-\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-WZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow. \label{fig:diboson_wz}}
+\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-WZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow \cite{this_paper}. \label{fig:diboson_wz}}
 \end{figure}
 \end{centering}
 
@@ -558,7 +572,7 @@ To confirm that the kinematics are well modeled in the diboson validation region
 \centering
 \includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11c.eps}
 \includegraphics[width=.9\textwidth]{figures/dibosons/figaux_11d.eps}
-\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-ZZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow. \label{fig:diboson_zz}}
+\caption{\HT (top) and $Z$ boson \pt (bottom) distribtuions of data and \ac{MC} in VR-ZZ. The hashed bands include the MC statistical uncertainties and theoretical uncertainties on the diboson background. The last bin contains the overflow \cite{this_paper}. \label{fig:diboson_zz}}
 \end{figure}
 \end{centering}
 

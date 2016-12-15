@@ -19,7 +19,7 @@ An example of this process can be seen in \autoref{fig:evdisp_tracks}, which sho
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/nn/JiveXML_266904_25884805-YX-RZ-EventInfo-2015-06-04-09-21-33.jpg}
-\caption{ Event display from June 2015, with particle tracks in light blue. The main image displays a view of the $x-y$ plane of the \ac{ID}. The \ac{IBL} and L0 of the Pixel Detector are shown in red, with the remaining two layers of the Pixel Detector in green and blue. Outside those are the four double layers of the \ac{SCT}. The smaller image on the right shows an $r-z$ view, zoomed in to only show hits in the \ac{IBL} \cite{Collaboration:2022202}.}
+\caption{ Event display from June 2015, with particle tracks in light blue. The main image displays a view of the $x-y$ plane of the \ac{ID}. The \ac{IBL} and Layer-0 of the Pixel Detector are shown in red, with the remaining two layers of the Pixel Detector in green and blue. Outside those are the four double layers of the \ac{SCT}. The smaller image on the right shows an $r-z$ view, zoomed in to only show hits in the \ac{IBL} \cite{Collaboration:2022202}.}
 \label{fig:evdisp_tracks}
 \end{figure}
 \end{centering}
@@ -109,7 +109,7 @@ The particle location predictions from the \acp{NN} are then handed to the track
 
 \section{Impact of the Neural Network}
 
-The \ac{NN} was first applied to 7 \tev~data, where it improved position resolution for particles in small and large clusters. \autoref{fig:7tev_res} shows the improvement from the addition of the \ac{NN} in $x$ resolution in different cluster sizes. The improvement from charge interpolation clustering is particularly evident in the 4-pixel case, where the double peaked structure of the interpolation method has been completely removed with the \ac{NN}.  
+The \ac{NN} was first applied to 7 \tev~data, where it improved position resolution for particles in small and large clusters. \autoref{fig:7tev_res} shows the improvement from the addition of the \ac{NN} in $x$ resolution in different cluster sizes. The improvement from charge interpolation clustering is particularly evident in the 4-pixel case, where the double peaked structure of the interpolation method has been completely removed with the \ac{NN}. This structure was primarily the result of $\delta$-rays that biased the measurement of the center of the cluster, and the \ac{NN} has been very effective at identifying these cases and correcting for the bias. 
 
 \begin{centering}
 \begin{figure}[!htb]
@@ -127,26 +127,26 @@ In Run 2, the tracking algorithm is first run on the \ac{CCA} clusters with posi
 
 Because the \ac{NN} is trained only with \ac{MC} simulations, any mismodeling of the way charge is deposited in the \ac{ATLAS} detector could cause the \ac{NN} to perform in an unexpected way when applied to data. The potential impact of this mismodeling was investigated with 13 \tev~\ac{MC} \cite{ATL-PHYS-PUB-2015-052}. The goal of these studies was to determine which variables the \ac{NN}'s predictions were most sensitive to, and whether it was likely that these variables could be mismodeled enough to produce unexpected results in data. 
 
-One example of a variable capable of significantly altering the \ac{NN} outputs was the overall charge scale. To study its impact, the \ac{ToT} of all pixels in a cluster were scaled up and down, and the resulting outputs of the \ac{NN} were compared, as shown in \autoref{fig:13tev_charge_robustness}. In this case, the likelihood to misidentify multi-particle clusters and single-particle clusters depended significantly on this scaling. However, this scaling is unlikely to be mismodeled by more than 10\%, so very extreme effects from a difference between data and \ac{MC} are unlikely. Overall, it was found that variations on the cluster charge produced a significant impact on predictions, while all other variations, such as incidence angle variation and spatial smearing of charge, had a minimal effect. 
+One example of a variable capable of significantly altering the \ac{NN} outputs was the overall charge scale. To study its impact, the \ac{ToT} of all pixels in a cluster were scaled up and down, and the resulting outputs of the \ac{NN} were compared, as shown in \autoref{fig:13tev_charge_robustness}. In this case, the likelihood to misidentify multi-particle clusters and single-particle clusters depended significantly on this scaling. However, this scaling is unlikely to be mismodeled by more than 10\%, so very extreme effects from a difference between data and \ac{MC} are unlikely \cite{ATL-PHYS-PUB-2015-052}. Overall, it was found that variations on the cluster charge produced a significant impact on predictions, while all other variations, such as incidence angle variation and spatial smearing of charge, had a minimal effect. 
 
 \begin{centering}
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/nn/fig_05a.eps}
 \includegraphics[width=.9\linewidth]{figures/nn/fig_05b.eps}
-\caption{Performance of the pixel neural network used to identify clusters created by multiple charged particles, as a function of constant coherent scaling of the charge in each pixel in the cluster. The top figure shows the rate at which the neural network wrongly identifies clusters with one generated particle as clusters with multiple particles. The bottom figure shows the rate at which the neural network correctly identifies clusters generated by multiple particles as such.}
+\caption{Performance of the pixel neural network used to identify clusters created by multiple charged particles, as a function of constant coherent scaling of the charge in each pixel in the cluster. The top figure shows the rate at which the neural network wrongly identifies clusters with one generated particle as clusters with multiple particles. The bottom figure shows the rate at which the neural network correctly identifies clusters generated by multiple particles as such \cite{ATL-PHYS-PUB-2015-052}.}
 \label{fig:13tev_charge_robustness}
 \end{figure}
 \end{centering}
 
-In addition to studies on the impact of alterations of individual simulation variables, studies directly comparing the \ac{NN} output in data and \ac{MC} were performed. \autoref{fig:13tev_fractions} shows a comparison of how often the \ac{NN} identifies different types of clusters in data and \ac{MC}. Each figure is made using by selecting pairs of collimated tracks that share a common cluster on a given layer, then calculating the fraction of those clusters that are determined by the \ac{NN} to be single or multi-particle clusters. This fraction is plotted as a function of the distance between the two tracks in the cluster's layer. Very good agreement is seen between the two samples, demonstrating that the \ac{MC}-trained \ac{NN} performs similarly on both \ac{MC} and data.
+In addition to studies on the impact of alterations of individual simulation variables, studies directly comparing the \ac{NN} output in data and \ac{MC} were performed \cite{ATL-PHYS-PUB-2015-044}. \autoref{fig:13tev_fractions} shows a comparison of how often the \ac{NN} identifies different types of clusters in data and \ac{MC}. Each figure is made using by selecting pairs of collimated tracks that share a common cluster on a given layer, then calculating the fraction of those clusters that are determined by the \ac{NN} to be single or multi-particle clusters. This fraction is plotted as a function of the distance between the two tracks in the cluster's layer. Very good agreement is seen between the two samples, demonstrating that the \ac{MC}-trained \ac{NN} performs similarly on both \ac{MC} and data.
 
 \begin{centering}
 \begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.9\linewidth]{figures/nn/fig_07a.eps}
 \includegraphics[width=.9\linewidth]{figures/nn/fig_07b.eps}
-\caption{Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom).}
+\caption{Fraction of cluster classes as a function of the distance between tracks for IBL (top) and 2nd pixel layer (bottom) \cite{ATL-PHYS-PUB-2015-044}.}
 \label{fig:13tev_fractions}
 \end{figure}
 \end{centering}

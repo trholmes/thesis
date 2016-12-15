@@ -7,6 +7,31 @@ The goal of this analysis is to identify events resembling \autoref{fig:simpmode
 
 The \ac{SR}, called SRZ, was predetermined, including events with two opposite-sign, same-flavor leptons that reconstruct a mass, \mll, close to that of the $Z$ boson, with the additional requirement of two jets, \met > 225 \gev, and \HT of at least 600 \gev. Additionally, a cut on $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^{\mathrm{miss}})$ was made in order to suppress \dyjets background events with mismeasured jets. In events where jet mismeasurement produces large amounts of \met, the ${\boldsymbol p}_{\mathrm{T}}^{\mathrm{miss}}$ vector should either align or anti-align with the mismeasured jet's trajectory based on whether its energy has been overestimated or underestimated. This cut vetoes events in which the two vectors are aligned, reducing the number of of events that will be included in the \ac{SR} due to the underestimation of jet energy. Though it would be possible to also veto events in which the vectors are anti-aligned, similar topologies can also be produced by signal processes, so no such requirement is made. 
 
+Each of these \ac{SR} requirements was designed to minimize \ac{SM} backgrounds while keeping a high efficiency for potential signals. In the simplified models studied, for example, the number of jets is nearly always above two, as shown in \autoref{fig:sig_njets}, while \ac{SM} production peaks at zero jets. The same is true for \met and \HT, also depicted in \autoref{fig:sig_njets}; signal models result in events with high values for these quantities, while \ac{SM} processes are most likely to produce events with very little \met or \HT. For comparison, \autoref{fig:datamc_inc} shows these quantities for the \ac{SM} backgrounds in a region with at least two jets. The jet requirement slightly shapes the \HT spectrum, causing it to peak at about 100 \gev~rather than at zero.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/njets_R.eps}\\
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/met_R.eps}
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/ht_R.eps}\\
+\caption{
+Number of jets (top), \HT (bottom left), and \met (bottom right) in three signal points, with $m(\go)$ = 815, 835, and 1395 \gev. 
+\label{fig:sig_njets}
+}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/htincl_ee_preselection_R_a.eps}
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/htincl_mm_preselection_R_a.eps}\\
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/met_ee_preselection_R_a.eps}
+\includegraphics[width=.48\textwidth]{figures/signalacceptcontam/met_mm_preselection_R_a.eps}\\
+\caption{
+Comparison of data and \ac{MC} in an inclusive selection of events with at least two jets. Top is the \HT for these events, and \met is shown on the bottom. On the left is the $ee$ channel and on the right is the $\mu\mu$ channel. 
+\label{fig:datamc_inc}
+}
+\end{figure}
+
 The freezing of the \ac{SR} prevented re-optimization of the cuts for maximum sensitivity to a signal, but the search was still expected to be more sensitive than the previous iteration performed on 8 \tev~data. This is because the cross-section for production of this high-mass signal increased dramatically with the increased \ac{LHC} energy, while the cross-section for \ac{SM} processes increased at lower rates. With 20.3 fb$^{-1}$ of 8 \tev~data, the previous search had an expected exclusion on gluino masses up to about 950 \gev~\cite{SUSY-2014-10}, while with 14.7 fb$^{-1}$ of 13 \tev~data, this search has an expected exclusion on gluino masses up to about 1300 \gev~\footnote{The expected exclusions, discussed further in \autoref{ch:interpretations}, are made assuming the data exactly matches background predictions. The previous search had an observed exclusion on gluino masses up to about 850 \gev, which was lower than the expected exclusion due to the excess observed.}.
 
 Though this \ac{SR} was fixed, the methods used to estimate the expected \ac{SM} backgrounds were not. A set of \acfp{CR} and \acfp{VR} were chosen to make these estimations possible. \acp{CR} are regions in which the collected data can be used to make an estimate of a \ac{SM} background in the \ac{SR}, while \acp{VR} are used to confirm that the background estimate based on the \ac{CR} is valid. Both \acp{CR} and \acp{VR} are designed to minimize contamination from the \ac{BSM} process being searched for. This is desirable because signal contamination in a \ac{CR} can lead to an overestimate of the \ac{SM} background in the \ac{SR}, disguising a genuine signal as background. Contamination in a \ac{VR}, where background estimates are being validated, can make it appear that the \ac{SM} background is not well described by an estimate, causing analyzers to adjust the method to account for the difference, and again, disguising the effect of the same signal in the \ac{SR}. 
@@ -17,7 +42,7 @@ The strategy for estimating the \ac{FS} background, for example, depends on a se
 \centering
 \includegraphics[width=.8\textwidth]{figures/fs/FSdiagram_v2.pdf}\\
 \caption{
-Schematic layout of the signal region, as well as the control and validation regions used to predict the \ac{FS} background. The regions displayed differ only by their \mll~and \met values, except for CR-FS, which contains different-flavor leptons, while all other regions contain same-flavor leptons.
+Schematic layout of the signal region, as well as the control and validation regions used to predict the \ac{FS} background. The regions displayed differ only by their \mll~and \met values, except for CR-FS, which contains different-flavor leptons, while all other regions contain same-flavor leptons \cite{this_paper}. 
 \label{fig:region_diagrams}
 }
 \end{figure}
@@ -131,7 +156,7 @@ Using the simplified models discussed in \autoref{sec:simplified_models}, the co
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/eff_SM_GG_N2_1.eps}
 \caption{
 Signal region acceptance (left) and efficiency (right) in SRZ for the simplified model with gluino pair production with \chitwozero\ decays to \chionezero and an on-shell $Z$ boson with 1 \gev~neutralino LSP.  
-Acceptance is calculated by applying the signal-region kinematic requirements to truth objects in \ac{MC}, which do not suffer from identification inefficiencies or measurement resolutions.
+Acceptance is calculated by applying the signal-region kinematic requirements to truth objects in \ac{MC}, which do not suffer from identification inefficiencies or measurement resolutions \cite{this_paper}.
 }
 \label{fig:acc_SMGGN2_1_z}
 \end{figure}
@@ -144,7 +169,7 @@ Using the same \ac{MC}, the possibility of signal contamination in the \acp{CR} 
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_CR-FS.eps}
 \caption{
 Expected signal contamination in CRT (left) and CR-FS (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP.}
+with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP \cite{this_paper}.}
 \label{fig:sig_contam_CRT}
 \end{figure}
 
@@ -154,7 +179,7 @@ with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino
 \includegraphics[width=.48\textwidth]{figures/signalacceptcontam/cont_SM_GG_N2_1_VRT1.eps}
 \caption{
 Expected signal contamination in VRS (left) and VRT (right) for the signal model with gluino pair production, where the gluinos decay to quarks and a neutralino, 
-with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP.}
+with the neutralino subsequently decaying to a $Z$ boson and a 1 \gev~neutralino LSP \cite{this_paper}.}
 \label{fig:sig_contam_VR}
 \end{figure}
 

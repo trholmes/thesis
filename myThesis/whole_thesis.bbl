@@ -43,26 +43,6 @@
   \field{year}{2015}
 \endentry
 
-\entry{ATLAS-CONF-2015-082}{booklet}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{ATLAS Collaboration}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{howpublished}{{ATLAS-CONF-2015-082}}
-  \field{title}{{A search for supersymmetry in events containing a leptonically
-  decaying $Z$ boson, jets and missing transverse momentum in $\sqrt{s} =
-  13\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
-  \verb{url}
-  \verb http://cdsweb.cern.ch/record/2114854
-  \endverb
-  \field{year}{2015}
-\endentry
-
 \entry{Burgess:2007zi}{book}{}
   \name{author}{2}{}{%
     {{}%
@@ -999,24 +979,6 @@
   \field{year}{2015}
 \endentry
 
-\entry{CMS-PAS-SUS-15-011}{report}{}
-  \field{number}{CMS-PAS-SUS-15-011}
-  \field{title}{{Search for new physics in final states with two opposite-sign
-  same-flavor leptons, jets and missing transverse momentum in pp collisions at
-  sqrt(s)=13 TeV}}
-  \verb{url}
-  \verb https://cds.cern.ch/record/2114811
-  \endverb
-  \list{location}{1}{%
-    {Geneva}%
-  }
-  \list{institution}{1}{%
-    {CERN}%
-  }
-  \field{type}{techreport}
-  \field{year}{2015}
-\endentry
-
 \entry{1748-0221-3-08-S08001}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1064,6 +1026,25 @@
     {Geneva}%
   }
   \field{year}{1984}
+\endentry
+
+\entry{extremetech}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Templeton}{T.}%
+     {Graham}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TG1}
+  \strng{fullhash}{TG1}
+  \field{title}{How does the Large Hadron Collider work?}
+  \verb{url}
+  \verb https://www.extremetech.com/extreme/210215-extremetech-explains-what-is
+  \verb -the-large-hadron-collider
+  \endverb
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{PERF-2007-01}{article}{}
@@ -1204,6 +1185,94 @@
   \field{year}{2008}
 \endentry
 
+\entry{preacc}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Forthommel}{F.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{F1}
+  \strng{fullhash}{F1}
+  \field{title}{English: Map of the CERN accelerator complex}
+  \verb{url}
+  \verb https://commons.wikimedia.org/wiki/File:Cern-accelerator-complex.svg
+  \endverb
+  \field{year}{2011}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{beamspot}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Beam Spot Public Results}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/BeamSpotPublicResults
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{lumi}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Luminosity Public Results}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResult
+  \verb s
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{lumi2}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Luminosity Public Results Run 2}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResult
+  \verb sRun2
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{pixel}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Pixel Approved Plots}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/ApprovedPlotsPixel
+  \endverb
+  \field{year}{2010}
+\endentry
+
 \entry{1201.5469}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1240,6 +1309,24 @@
   of the ATLAS trigger using Run-2 data}}
   \verb{url}
   \verb http://cds.cern.ch/record/2136007
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{trigger}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Trigger Operation Public Results}
+  \verb{url}
+  \verb https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TriggerOperationPublic
+  \verb Results
   \endverb
   \field{year}{2016}
 \endentry
@@ -1858,6 +1945,33 @@
   \field{year}{2008}
 \endentry
 
+\entry{PERF-2012-01}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \verb{doi}
+  \verb 10.1140/epjc/s10052-014-3190-y
+  \endverb
+  \verb{eprint}
+  \verb 1406.0076
+  \endverb
+  \field{pages}{17}
+  \field{title}{{Jet energy measurement and its systematic uncertainty in
+  proton--proton collisions at $\sqrt{s} = 7\;\mbox{TeV}$ with the ATLAS
+  detector}}
+  \field{volume}{75}
+  \field{journaltitle}{Eur. Phys. J. C}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ex}
+  \field{year}{2015}
+\endentry
+
 \entry{ATL-PHYS-PUB-2015-015}{booklet}{}
   \name{author}{1}{}{%
     {{}%
@@ -1930,6 +2044,25 @@
   \verb http://cds.cern.ch/record/2037700
   \endverb
   \field{year}{2015}
+\endentry
+
+\entry{JETM-2016-008}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Public Plots: Missing Transverse Momentum Distribution and
+  Performance in 2016 data}
+  \verb{url}
+  \verb https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PLOTS/JETM-2016-008/
+  \endverb
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{ATL-PHYS-PUB-2015-027}{booklet}{}
@@ -2396,6 +2529,25 @@
   \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ex}
+  \field{year}{2016}
+\endentry
+
+\entry{this_paper}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \verb{eprint}
+  \verb arXiv:1611.05791
+  \endverb
+  \field{title}{Search for new phenomena in events containing a same-flavour
+  opposite-sign dilepton pair, jets, and large missing transverse momentum in
+  $\sqrt{s}=13$ TeV pp collisions with the ATLAS detector}
   \field{year}{2016}
 \endentry
 
@@ -3008,6 +3160,26 @@
   \field{volume}{28}
   \field{journaltitle}{Journal of Physics G: Nucl. Part. Phys.}
   \field{year}{2002}
+\endentry
+
+\entry{ATLAS-CONF-2015-082}{booklet}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{ATLAS Collaboration}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{howpublished}{{ATLAS-CONF-2015-082}}
+  \field{title}{{A search for supersymmetry in events containing a leptonically
+  decaying $Z$ boson, jets and missing transverse momentum in $\sqrt{s} =
+  13\;\mbox{TeV}$ $pp$ collisions with the ATLAS detector}}
+  \verb{url}
+  \verb http://cdsweb.cern.ch/record/2114854
+  \endverb
+  \field{year}{2015}
 \endentry
 
 \entry{Aad:2014wea}{article}{}

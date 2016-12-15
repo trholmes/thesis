@@ -12,7 +12,7 @@ The \ac{ATLAS} detector is the largest detector of its kind, measuring 44 m in l
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/detector.pdf}
-\caption{Diagram of the \ac{ATLAS} detector, with subsystems and magnets identified.}
+\caption{Diagram of the \ac{ATLAS} detector, with subsystems and magnets identified \cite{PERF-2007-01}.}
 \label{fig:detector}
 \end{figure}
 \end{centering}
@@ -49,7 +49,7 @@ The \ac{ID} consists of three separate subdetectors, each of which has multiple 
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/innerdetector.pdf}
-\caption{Diagram of the \ac{ATLAS} Inner Detector, containing the Pixel, SCT, and TRT subsystems.}
+\caption{Diagram of the \ac{ATLAS} Inner Detector, containing the Pixel, SCT, and TRT subsystems \cite{PERF-2007-01}.}
 \label{fig:ID}
 \end{figure}
 \end{centering}
@@ -58,7 +58,7 @@ The \ac{ID} consists of three separate subdetectors, each of which has multiple 
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/ideta.pdf}
-\caption{Diagram of one-quarter of the \ac{ATLAS} Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta$ locations.}
+\caption{Diagram of one-quarter of the \ac{ATLAS} Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta$ locations \cite{PERF-2007-01}.}
 \label{fig:IDeta}
 \end{figure}
 \end{centering}
@@ -69,11 +69,32 @@ The Pixel Detector lies closest to the beam pipe of the \ac{LHC}, and has four l
 
 \subsubsection{The Original Pixel Detector}
 
-The Pixel Detector consists of high-precision silicon chip pixel modules, with 1744 in total, and each module is made up of 16 sensors each with its own read-out system. Each sensor is identical, containing 47232 pixels, which are typically each 50$\times$400 $\mu$m$^2$, though pixels at the edges of the sensors are slightly longer, at 50$\times$600 $\mu$m$^2$.  
+The Pixel Detector consists of high-precision silicon chip pixel modules, 1744 in total, and each module is made up of 16 sensors each with its own read-out system. Each sensor is identical, containing 47232 pixels, which are typically each 50$\times$400 $\mu$m$^2$, though pixels at the edges of the sensors are slightly longer, at 50$\times$600 $\mu$m$^2$.  
 
 As shown in \autoref{fig:IDeta}, the central $\eta$ region (barrel) is covered by three concentric cylindrical layers of sensors with radii of 50.5 mm, 88.5 mm, and 122.5 mm. In the higher $\eta$ region (endcap) is covered by a series of three disks positioned in the $x-y$ plane. Together, they give complete coverage out to $|\eta| = 2.5$, and a particle coming from the collision point will typically produce hits in three layers. 
 
-The sensors are n-type silicon wafers with a voltage applied, and a passing charged particle produces thousands of electron-hole pairs inside the material, which drift in the electric field towards the mounted read-out system. A hit occurs when the resulting current becomes large enough to pass a threshold designed to suppress noise. A larger total charge deposit will result in the signal remaining over the threshold for a longer period of time. This \ac{ToT} is recorded along with the initial timing of the hit. This measurement is spatially accurate in the barrel (endcap) to 10 $\mu$m in the $R-\phi$ direction and 115 $\mu$m in the $z$ ($R$) direction.  
+The sensors are n-type silicon wafers with a voltage applied, and a passing charged particle produces thousands of electron-hole pairs inside the material, which drift in the electric field towards the mounted read-out system. A hit occurs when the resulting current becomes large enough to pass a threshold designed to suppress noise. \autoref{fig:pix_thresh} shows the noise distribution and threshold value in the pixels. The threshold is tuned per pixel such that its value is approximately 25 times the average noise for that pixel.  
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/pix_noise_all.eps}
+\includegraphics[width=.90\linewidth]{figures/atlas/pix_thresh_all.eps}
+\caption{Plots of noise and thresholds in the Pixel Detector with an entry for each pixel. Top is the distribution of charge in noise hits in the detector. Bottom is the threshold value, which is tuned for each pixel \cite{pixel}.}
+\label{fig:pix_thresh}
+\end{figure}
+\end{centering}
+
+A larger total charge deposit will result in the signal remaining over the threshold for a longer period of time. \autoref{fig:pix_tot} shows the relationship between charge and \ac{ToT}, which is approximately linear. This \ac{ToT} is recorded along with the initial timing of the hit. This measurement is spatially accurate in the barrel (endcap) to 10 $\mu$m in the $R-\phi$ direction and 115 $\mu$m in the $z$ ($R$) direction. 
+
+\begin{centering}
+\begin{figure}[bth]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/tot_vs_charge_all.eps}
+\caption{Histogram of deposited charge versus \ac{ToT} in the Pixel Detector \cite{pixel}.}
+\label{fig:pix_tot}
+\end{figure}
+\end{centering}
 
 \subsubsection{Addition of the IBL}
 
@@ -112,7 +133,7 @@ The \ac{ATLAS} calorimeters, which can be seen in \autoref{fig:calo}, provide co
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/calorimeters.pdf}
-\caption{The calorimeter system of the \ac{ATLAS} detector.}
+\caption{The calorimeter system of the \ac{ATLAS} detector \cite{PERF-2007-01}.}
 \label{fig:calo}
 \end{figure}
 \end{centering}
@@ -145,7 +166,7 @@ The \acf{MS} measures charged particles that penetrate the calorimeter system. B
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Muon_sector_numbering.eps}
-\caption{An $x$-$y$ view of the \ac{MS}. The three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac{MS} is about 20m in diameter.}
+\caption{An $x$-$y$ view of the \ac{MS}. The three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac{MS} is about 20m in diameter \cite{PERF-2007-01}.}
 \label{fig:muon_xy}
 \end{figure}
 \end{centering}
@@ -154,7 +175,7 @@ The \acf{MS} measures charged particles that penetrate the calorimeter system. B
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Muon_rz_large_sect_6.eps}
-\caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible.}
+\caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible \cite{PERF-2007-01}.}
 \label{fig:muon_rz}
 \end{figure}
 \end{centering}
@@ -180,22 +201,22 @@ The \ac{ATLAS} magnet system consists of four superconducting magnets: an inner 
 \begin{figure}[bth]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/ATLcoilGeom.eps}
-\caption{The magnet system of the \ac{ATLAS} detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac{ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac{MS}.}
+\caption{The magnet system of the \ac{ATLAS} detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac{ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac{MS} \cite{PERF-2007-01}.}
 \label{fig:magnets}
 \end{figure}
 \end{centering}
 
-The solenoid is inside the calorimeter volume and provides a uniform 2T magnetic field for particles traveling through the \ac{ID}. This axial field causes the trajectories of charged particles to bend in the $x-y$ plane, and measurements of the curvature of these trajectories give the most accurate \pt measurement for many particles according to the equation
+The solenoid is inside the calorimeter volume and provides a uniform 2 T magnetic field for particles traveling through the \ac{ID}. This axial field causes the trajectories of charged particles to bend in the $x-y$ plane, and measurements of the curvature of these trajectories give the most accurate \pt measurement for many particles according to the equation
 
 \begin{equation}
 \pt = qB\rho 
 \end{equation}
 
-where $q$ is the charge of the particle, $B$ is the magnetic field in the $z$ direction, and $\rho$ is the radius of curvature. 
+where $q$ is the charge of the particle, $B$ is the magnetic field in the $z$ direction, and $\rho$ is the radius of curvature. For negatively charged particles, the curvature is negative, so the \pt value obtained from this calculation is always positive.
 
 Because the solenoid is placed between the tracking system and the calorimeter, it is important that it interfere minimally with particles in order to allow the calorimeter to measure their full energies. The solenoid is placed inside the same vacuum chamber as the LAr calorimeter and is made of Al-stabilized NbTi superconductor with aluminum casing, giving it a total thickness of about 0.66 radiation lengths. 
 
-The barrel toroid is outside the calorimeters and provides the magnetic field for the barrel \ac{MS}, which varies from 0.2–2.5T. The endcap toroids have a magnetic field range of 0.2-3.5T. All three toroid magnets are made with Al-stabilized Nb/Ti/Cu superconducting coils supported by Al-alloy struts. 
+The barrel toroid is outside the calorimeters and provides the magnetic field for the barrel \ac{MS}, which varies from 0.2–2.5 T. The endcap toroids have a magnetic field range of 0.2-3.5 T. All three toroid magnets are made with Al-stabilized Nb/Ti/Cu superconducting coils supported by Al-alloy struts. 
 
 The magnets are cooled with liquid helium, and take up to a month to be brought down to operating temperatures, about 4.5 K. All magnets have cold masses surrounding them to absorb heat in the event of a quench. 
 
@@ -206,7 +227,7 @@ The $B$-field resulting from this magnet system can be seen in \autoref{fig:bfie
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/solMeasB.eps}
 \includegraphics[width=.90\linewidth]{figures/atlas/IBdl.eps}
-\caption{Plots of the magnetic field within the \ac{ATLAS} detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp{MDT} as a function of $|\eta|$ for two different $\phi$ values. }
+\caption{Plots of the magnetic field within the \ac{ATLAS} detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp{MDT} as a function of $|\eta|$ for two different $\phi$ values \cite{PERF-2007-01}. }
 \label{fig:bfield}
 \end{figure}
 \end{centering}
@@ -230,7 +251,7 @@ An example of the \ac{L1} trigger rates for different types of events can be see
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Time_L1GroupRate_Stack_2016_07.png}
-\caption{\ac{L1} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.}
+\caption{\ac{L1} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers \cite{trigger}.}
 \label{fig:l1_rates}
 \end{figure}
 \end{centering}
@@ -245,7 +266,7 @@ The \ac{HLT} takes the data from particular \acp{RoI}, areas containing interest
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Time_HLTGroupRate_Stack_2016_07.png}
-\caption{\ac{HLT} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers.}
+\caption{\ac{HLT} trigger rates for for a run in July 2016 as a function of luminosity block, an approximately 60-second long period of data-taking. The total rate is lower than the combined stack because of overlapping triggers \cite{trigger}.}
 \label{fig:hlt_rates}
 \end{figure}
 \end{centering}
@@ -272,19 +293,19 @@ The complex events of the \ac{LHC} are difficult to model, but modeling them is 
 
 The first step, discussed in \autoref{sec:pp_collisions}, is to determine the energies of the initial particles in a collision, which are provided by several different \ac{PDF} sets. These distributions come from experimental measurements, though there is some variation between different sets. Three different sets are used in this analysis: NNPDF2.3LO \cite{Ball:2012cx} and NLO CT10 \cite{Lai:2010vv} for background and signal processes, and MSTW 2008 \cite{0901.0002} for pile-up events, discussed more in \autoref{sec:pileup}. 
 
-With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these particles. This is accomplished by a \textit{generator}, which calculates the cross-sections of the Feynman diagrams of a given process. In particular, these generators typically calculate matrix elements, which describe the probability to go from an initial to final state via a hard scattering, including the kinematic properties of the final state. The generator uses these matrix elements to assign one of these hard scattering final states to each event. These hard scattering outputs are then passed to the next step, where parton showering, hadronization, and final and initial state radiation can occur.
+With the initial states of the constituents of the protons described by these probabilistic models, the next step is to model the hard scattering process resulting from the interaction of two of these particles. This is accomplished by a \textit{generator}, which calculates the cross-sections for each process. In particular, these generators typically calculate matrix elements, which describe the probability to go from an initial to final state via a hard scattering, including the kinematic properties of the final state. The generator uses these matrix elements to assign one of these hard scattering final states to each event. These hard scattering outputs are then passed to the next step, where parton showering, hadronization, and final and initial state radiation can occur.
 
-Because these matrix elements must be calculated for each event's specific kinematic properties, it can be very computationally intensive, especially when the calculations are performed at very high order. To save computational time, matrix elements are sometimes calculated at a lower order, and later, the total cross-section for a given process can be calculated at a higher order and used to scale the overall number of events generated for the process. These calculations can also be tuned, varying parameters in the generation to create outputs that most closely match experimental data. 
+Because these matrix elements must be calculated for each event's specific kinematic properties, it can be very computationally intensive, especially when the calculations are performed at higher order. To save computational time, matrix elements are sometimes calculated at a lower order, and later, the total cross-section for a given process can be calculated at a higher order and used to scale the overall number of events generated for the process. These calculations can also be tuned, varying parameters in the generation to create outputs that most closely match experimental data. 
   
 %In some cases, this can mean that a tune might include values for certain physical quantities that are different from their measured values because this configuration ultimately produces a result more similar to data. 
 
-Examples of generators include \sherpa~\cite{sherpa}, \allowbreak{\sc Powheg Box} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and {\sc MadGraph5\_aMC@NLO} \cite{Alwall:2014hca}. Each has different strengths and is used to describe processes that best match those strengths. {\sc Powheg Box}, for example, cannot perform its own parton showering, and must be interfaced with another generator, typically {\sc Pythia} \cite{Sjostrand:2006za}, in order to describe any physics processes beyond the hard scattering, which can cause discontinuities in its predictions for large numbers of partons. However, it can calculate matrix elements at \ac{NLO}, giving it an advantage in calculating some complex processes. \sherpa performs its own parton showering, but in most cases calculates its matrix elements at \ac{LO}. The main advantage of {\sc MadGraph5\_aMC@NLO}, which must also be interfaced with another generator (typically {\sc Pythia}) to perform parton showering, is its simple user interface. Instead of designating specific processes to be generated, it allows users to specify a final state to be generated, and all processes capable of producing that state will be included.
+Examples of generators include \sherpa~\cite{sherpa}, \allowbreak{\sc Powheg Box} \cite{PowhegBOX1,PowhegBOX2,PowhegBOX3}, and {\sc MadGraph5\_aMC@NLO} \cite{Alwall:2014hca}. Each has different strengths and is used to describe processes that best match those strengths. {\sc Powheg Box}, for example, cannot perform its own parton showering, and must be interfaced with another generator, typically {\sc Pythia} \cite{Sjostrand:2006za}, in order to describe any physics processes beyond the hard scattering, which can cause discontinuities in its predictions for large numbers of partons. However, it can calculate matrix elements at \ac{NLO}, giving it an advantage in calculating some complex processes. \sherpa~performs its own parton showering, but in most cases calculates its matrix elements at \ac{LO}. The main advantage of {\sc MadGraph5\_aMC@NLO}, which must also be interfaced with another generator (typically {\sc Pythia}) to perform parton showering, is its simple user interface. Instead of designating specific processes to be generated, it allows users to specify a final state to be generated, and all processes capable of producing that state will be included.
 
 Once the final state particles of the hard interaction and showering have been calculated, the pile-up of the \ac{LHC} (described in \autoref{sec:pileup}) must be accounted for. Events called \textit{minimum bias} are generated to match the overall production of the \ac{LHC} collisions, with no preselection. These simulated events are overlaid on the original hard scatter to produce a more realistic representation of the many simultaneous interactions observed in the \ac{ATLAS} detector.
 
 This collection of particles must then be translated into signals in the detector. Their trajectories in the magnetic fields of the detector, their interactions in each layer, and the way these interactions deposit charge in each subdetector are simulated in software called {\sc GEANT4}~\cite{Agostinelli:2002hh}. In this software, every piece of the \ac{ATLAS} detector is modeled, including the magnetic field and the many different materials. Particles then follow trajectories through the simulated detector and interact with the different materials based on several preprogrammed options for each material. For example a photon traveling through a material could continue along its trajectory, convert into a positron-electron pair, or deposit energy. As it crosses into a new material, a new set of options opens up for interactions. The particle is tracked until all of its energy is lost or it exits the geometry of the simulation.
 
-The model of the detector used for this process is iteratively perfected by comparing data to \ac{MC}. \autoref{fig:geant} shows an example of a discrepancy between the simulation and observed data in the number of secondary vertices in a pixel module, which should correspond to the amount of material in the area. Observations of discrepancies like this can be used to correct the materials in the simulation. 
+The model of the detector used for this process is iteratively perfected by comparing data to \ac{MC}. \autoref{fig:geant} shows an example of a discrepancy between the simulation and observed data in the number of secondary vertices in a pixel module, which should correspond to the amount of material in the area. The main structure of the module is well modeled, but several smaller features differ between the data and \ac{MC}. Observations of discrepancies like this can be used to correct the materials in the simulation. 
 
 \begin{centering}
 \begin{figure}[!hbt]

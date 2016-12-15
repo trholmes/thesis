@@ -9,7 +9,7 @@ This section describes the identification and selection of objects in the events
 
 \section{Electrons}
 
-Electrons are reconstructed using the algorithm discussed in \autoref{sec:reco_electrons}. All electrons are required to be within $|\eta|<2.47$, to ensure that all tracks are consistently within the tracking capability of the \ac{ID} and that associated clusters are within the high-granularity portion of the calorimeter. Baseline leptons are required to have $\pt>10\gev$ and pass the \texttt{Loose} quality standard. Signal leptons are further required to be isolated and of \texttt{Medium} quality, and must have $\pt>25\gev$. Additional cuts on impact parameter are made for electrons with the goal of identifying only electrons coming from the hard-scatter vertex. These requirements, and all the other requirements made on the electrons can be seen in \autoref{tab:eledef}. 
+Electrons are reconstructed using the algorithm discussed in \autoref{sec:reco_electrons}. All electrons are required to be within $|\eta|<2.47$, to ensure that all tracks are consistently within the tracking capability of the \ac{ID} and that associated clusters are within the high-granularity portion of the calorimeter. Baseline leptons are required to have $\pt>10\gev$ and pass the \texttt{Loose} quality standard. Signal leptons are further required to be of \texttt{Medium} quality with \texttt{GradientLoose} isolation, and must have $\pt>25\gev$. Additional cuts on impact parameter are made for electrons with the goal of identifying only electrons coming from the hard-scatter vertex. These requirements, and all the other requirements made on the electrons can be seen in \autoref{tab:eledef}. 
 
 \begin{table}[ph!]
 \begin{center}
@@ -42,7 +42,7 @@ With these signal requirements, the \ac{ATLAS} detector is 80\% efficient at ide
 
 \section{Muons}
 
-Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to be isolated. As with the electrons, impact parameter cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, a designation which identifies muons with inconsistent \ac{ID} and \ac{MS} \pt measurements. The full set of requirements can be seen in \autoref{tab:muondef}.
+Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons are required to have $\pt>10\gev$ and $|\eta|<2.5$, including muons that can be tracked both by the \ac{ID} and the \ac{MS}, and must pass a \texttt{Medium} quality cut. Signal muons are additionally required to have $\pt>25\gev$, and to be \texttt{GradientLoose} isolated. As with the electrons, impact parameter cuts are made to ensure that the muon is consistent with coming from a decay from the event's primary vertex. Additionally, the muon must not be flagged \texttt{isBadMuon}, a designation which identifies muons with inconsistent \ac{ID} and \ac{MS} \pt measurements. The full set of requirements can be seen in \autoref{tab:muondef}.
 
 \begin{table}[ph!]
   \begin{center}
@@ -72,7 +72,7 @@ Muons are reconstructed as discussed in \autoref{sec:reco_muons}. Baseline muons
   \end{center}
 \end{table}
 
-Muons are identified with an efficiency over 98\% \cite{PERF-2015-10}. Including trigger and isolation requirements, this efficiency drops to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. This drop due to trigger inefficiency, and is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. %Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
+Muons are identified with an efficiency over 98\% \cite{PERF-2015-10}. Including trigger and isolation requirements, this efficiency drops to about 80\% for muons with $\pt>25\gev$ and 90\% for muons with $\pt>200\gev$. %This drop due to trigger inefficiency, and is largely the consequence of incomplete $\eta$ coverage of the \acp{RPC}, discussed in \autoref{sec:reco_muons}. %Scalefactors to correct the \ac{MC} identification efficiencies according to data are used.
 
 \section{Jets}
 
