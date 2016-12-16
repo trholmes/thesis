@@ -68,23 +68,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {27}{\ignorespaces Diagram of the \ac {ATLAS} Inner Detector, containing the Pixel, SCT, and TRT subsystems \cite {PERF-2007-01}.\relax }}{42}{figure.caption.70}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Diagram of one-quarter of the \ac {ATLAS} Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta $ locations \cite {PERF-2007-01}.\relax }}{43}{figure.caption.71}
+\contentsline {figure}{\numberline {28}{\ignorespaces Diagram of one-quarter of the \ac {ATLAS} Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta $ locations \cite {PERF-2007-01}.\relax }}{42}{figure.caption.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces Plots of noise and thresholds in the Pixel Detector with an entry for each pixel. Top is the distribution of charge in noise hits in the detector. Bottom is the threshold value, which is tuned for each pixel \cite {pixel}.\relax }}{44}{figure.caption.72}
+\contentsline {figure}{\numberline {29}{\ignorespaces Histogram of deposited charge versus \ac {ToT} in the Pixel Detector \cite {pixel}.\relax }}{43}{figure.caption.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces Histogram of deposited charge versus \ac {ToT} in the Pixel Detector \cite {pixel}.\relax }}{45}{figure.caption.73}
+\contentsline {figure}{\numberline {30}{\ignorespaces Diagram in the $x-y$ plane of the \ac {IBL} and the innermost layer of the Pixel Detector, L0 \cite {1201.5469}.\relax }}{44}{figure.caption.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces Diagram in the $x-y$ plane of the \ac {IBL} and the innermost layer of the Pixel Detector, L0 \cite {1201.5469}.\relax }}{46}{figure.caption.74}
+\contentsline {figure}{\numberline {31}{\ignorespaces Charge distribution in clusters in Layer 0 of the Pixel Detector (left) and the \ac {IBL} (right) split by cluster size \cite {pixibl}.\relax }}{45}{figure.caption.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {32}{\ignorespaces The calorimeter system of the \ac {ATLAS} detector \cite {PERF-2007-01}.\relax }}{47}{figure.caption.76}
+\contentsline {figure}{\numberline {32}{\ignorespaces The calorimeter system of the \ac {ATLAS} detector \cite {PERF-2007-01}.\relax }}{46}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {33}{\ignorespaces Layout of the LAr calorimeter module at central $\eta $ \cite {PERF-2007-01}.\relax }}{47}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces An $x$-$y$ view of the \ac {MS}. The three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac {MS} is about 20m in diameter \cite {PERF-2007-01}.\relax }}{48}{figure.caption.78}
+\contentsline {figure}{\numberline {34}{\ignorespaces An $x$-$y$ view of the \ac {MS}. The three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac {MS} is about 20m in diameter \cite {PERF-2007-01}.\relax }}{49}{figure.caption.78}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {35}{\ignorespaces An $r$-$z$ view of the \ac {MS}. The three layers of the barrel and endcap \ac {MS} are visible \cite {PERF-2007-01}.\relax }}{49}{figure.caption.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces The magnet system of the \ac {ATLAS} detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac {ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac {MS} \cite {PERF-2007-01}.\relax }}{50}{figure.caption.83}
+\contentsline {figure}{\numberline {36}{\ignorespaces The magnet system of the \ac {ATLAS} detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac {ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac {MS} \cite {PERF-2007-01}.\relax }}{51}{figure.caption.83}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {37}{\ignorespaces Plots of the magnetic field within the \ac {ATLAS} detector. Top is the field (broken into its $R$ and $z$ components) as a function of $z$ for several different values of $R$. Bottom is the field integral through the \acp {MDT} as a function of $|\eta |$ for two different $\phi $ values \cite {PERF-2007-01}. \relax }}{52}{figure.caption.84}
 \defcounter {refsection}{0}\relax 
@@ -146,7 +146,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {62}{\ignorespaces Number of jets (top), \ensuremath {H_{\text {T}}}\xspace (bottom left), and \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace (bottom right) in three signal points, with $m({\mathaccentV {tilde}77Eg})$ = 815, 835, and 1395 \textrm {Ge\kern -0.1em V}. \relax }}{95}{figure.caption.125}
+\contentsline {figure}{\numberline {62}{\ignorespaces Number of jets (top), \ensuremath {H_{\text {T}}}\xspace (bottom left), and \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace (bottom right) in three signal points, with $m({\mathaccentV {tilde}77Eg})$ = 815, 835, and 1395 \textrm {Ge\kern -0.1em V}. Distributions are made using all signal events with two same-flavor, opposite-sign leptons, and are normalized to 2 fb$^{-1}$. \relax }}{95}{figure.caption.125}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {63}{\ignorespaces Comparison of data and \ac {MC} in an inclusive selection of events with at least two jets. Top is the \ensuremath {H_{\text {T}}}\xspace for these events, and \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace is shown on the bottom. On the left is the $ee$ channel and on the right is the $\mu \mu $ channel. \relax }}{96}{figure.caption.126}
 \defcounter {refsection}{0}\relax 
@@ -176,11 +176,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {75}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace distribution comparing \ac {MC} distributions of photon and $Z$ events before any smearing is applied (top), with only \ensuremath {p_{\text {T}}}\xspace reweighting applied (bottom left), and after \ensuremath {p_{\text {T}}}\xspace reweighting and smearing have both been applied (bottom right) in the $\mu \mu $ channel of 2016 data.\relax }}{118}{figure.caption.145}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {76}{\ignorespaces \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace \ac {MC} \ensuremath {m_{\ell \ell }}~distribution compared to the prediction from \ensuremath {\gamma +\text {jets}}\xspace method performed on \ac {MC} (left) and the prediction from \ensuremath {\gamma +\text {jets}}\xspace method performed on data (right) \cite {this_paper}. \relax }}{120}{figure.caption.146}
+\contentsline {figure}{\numberline {76}{\ignorespaces \ensuremath {Z/\gamma ^{*}+\text {jets}}\xspace \ac {MC} \ensuremath {m_{\ell \ell }}~distribution compared to the prediction from \ensuremath {\gamma +\text {jets}}\xspace method performed on \ac {MC} (left) and the prediction from \ensuremath {\gamma +\text {jets}}\xspace method performed on data (right). \relax }}{120}{figure.caption.146}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {77}{\ignorespaces Comparison of data and \ac {MC} in CR-$\gamma $ without any \ensuremath {H_{\text {T}}}\xspace cut, including the contributions from various $V\gamma $ processes.\relax }}{120}{figure.caption.147}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {78}{\ignorespaces Total \ensuremath {\gamma +\text {jets}}\xspace data prediction in SRZ (excluding the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut) and the prediction after the $V\gamma $ subtraction \cite {this_paper}.\relax }}{121}{figure.caption.148}
+\contentsline {figure}{\numberline {78}{\ignorespaces Total \ensuremath {\gamma +\text {jets}}\xspace data prediction in SRZ (excluding the \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace cut) and the prediction after the $V\gamma $ subtraction.\relax }}{121}{figure.caption.148}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {79}{\ignorespaces \ensuremath {E_{\text {T}}^{\text {miss}}}\xspace distribution in VRZ $ee$ (left) and $\mu \mu $ (right) with total data yield compared to the sum of the prediction from the \ensuremath {\gamma +\text {jets}}\xspace method, the prediction from the flavor symmetry method, the prediction from the fake background estimation (included under ``other''), and the remaining backgrounds taken from \ac {MC} \cite {this_paper}.\relax }}{122}{figure.caption.149}
 \defcounter {refsection}{0}\relax 

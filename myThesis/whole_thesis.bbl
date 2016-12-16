@@ -61,7 +61,6 @@
   }
   \strng{namehash}{BCPMGD1}
   \strng{fullhash}{BCPMGD1}
-  \field{isbn}{9780511254857, 9781107404267, 9780521860369}
   \field{title}{{The standard model: A primer}}
   \field{year}{2006}
 \endentry
@@ -720,9 +719,6 @@
   }
   \strng{namehash}{MSP1}
   \strng{fullhash}{MSP1}
-  \verb{doi}
-  \verb 10.1142/9789812839657_0001, 10.1142/9789814307505_0001
-  \endverb
   \verb{eprint}
   \verb hep-ph/9709356
   \endverb
@@ -920,8 +916,11 @@
   }
   \strng{namehash}{CA1}
   \strng{fullhash}{CA1}
-  \field{howpublished}{"https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SUSY/ATLAS$\_$SUSY$\_$Summary/"}
   \field{title}{ATLAS SUSY Searches - $95\%$ CL Lower Limits}
+  \verb{url}
+  \verb "https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CombinedSummaryPlots/SU
+  \verb SY/ATLAS$\_$SUSY$\_$Summary/"
+  \endverb
   \field{year}{2016}
 \endentry
 
@@ -1294,6 +1293,24 @@
   \field{year}{2012}
 \endentry
 
+\entry{pixibl}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Collaboration}{C.}%
+     {ATLAS}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{title}{Pixel/IBL offline monitoring plots in Run2}
+  \verb{url}
+  \verb https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PLOTS/PIX-2016-001/
+  \endverb
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{ATL-DAQ-PUB-2016-001}{booklet}{}
   \name{author}{1}{}{%
     {{}%
@@ -1341,8 +1358,11 @@
   }
   \strng{namehash}{CA1}
   \strng{fullhash}{CA1}
-  \field{howpublished}{"https://twiki.cern.ch/twiki/bin/view/AtlasPublic/EgammaTriggerPublicResults"}
   \field{title}{Public Egamma Trigger Plots for Collision Data}
+  \verb{url}
+  \verb "https://twiki.cern.ch/twiki/bin/view/AtlasPublic/EgammaTriggerPublicRe
+  \verb sults"
+  \endverb
   \field{year}{2016}
 \endentry
 
@@ -1876,7 +1896,7 @@
   \field{title}{{Official Isolation Working Points}}
   \verb{url}
   \verb https://twiki.cern.ch/twiki/bin/view/AtlasProtected/IsolationSelectionT
-  \verb ool#Photons
+  \verb ool
   \endverb
   \list{location}{1}{%
     {Geneva}%
@@ -2020,7 +2040,7 @@
   \strng{namehash}{A1}
   \strng{fullhash}{A1}
   \field{howpublished}{{ATL-PHYS-PUB-2015-022}}
-  \field{title}{{Expected performance of the ATLAS $b$-tagging in Run-2}}
+  \field{title}{{Expected performance of the ATLAS $b$-tag-ging in Run-2}}
   \verb{url}
   \verb http://cdsweb.cern.ch/record/2037697
   \endverb
@@ -3134,7 +3154,7 @@
   \endverb
   \field{pages}{1554}
   \field{title}{{Asymptotic formulae for likelihood-based tests of new
-  physics}}
+  phys-ics}}
   \field{volume}{71}
   \field{journaltitle}{Eur. Phys. J. C}
   \field{eprinttype}{arXiv}

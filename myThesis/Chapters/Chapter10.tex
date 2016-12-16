@@ -88,7 +88,7 @@ The estimate is corrected for contamination of non-\ac{FS} backgrounds in CR-FS 
 f_{\mathrm{FS}} = \frac{N_\text{obs} - N_\text{non-FS}}{N_\text{obs}}
 \end{equation}
 %
-where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\text{non-FS}$ is the number of expected events in CR-FS not resulting from \ac{FS} processes. This number is taken from \ac{MC} for all backgrounds except for fakes, which are estimated using the data-driven matrix method described in \autoref{sec:bg-fake}. According to the estimate, fakes account for about 65\% of the contamination in this region, with the remaining contamination resulting from diboson (15\%) and rare top (20\%) processes. $f_{\mathrm{FS}}$ is about 95\% in CR-FS. 
+where $N_\text{obs}$ is the number of observed data events in CR-FS, and $N_\text{non-FS}$ is the number of expected events in CR-FS not resulting from \ac{FS} processes. This number is taken from \ac{MC} for all backgrounds except for fakes, which are estimated according to the data-driven matrix method described in \autoref{sec:bg-fake}. According to the estimate, fakes account for about 65\% of the contamination in this region, with the remaining contamination resulting from diboson (15\%) and rare top (20\%) processes. $f_{\mathrm{FS}}$ is about 95\% in CR-FS. 
 
 The way this fraction is calculated, any backgrounds that are not accounted for in $N_\text{non-FS}$ would be assumed to be \ac{FS}. Instead, the \ac{MC} could be used to predict the number of events that are \ac{FS}, which would result in any unaccounted for backgrounds being identified as non-\ac{FS}. The former procedure is preferable for several reasons. First, it reduces the dependence on \ac{FS} \ac{MC}, which is important for maintaining this method's independence from the Sideband Fit cross-check method discussed in \autoref{sec:method-sideband}. It also provides a conservative estimate of the number of \ac{FS} events, making an underestimate of the background less likely. Lastly, if for example, the number of fakes were underestimated, $f_{\mathrm{FS}}$ would increase, partially compensating for the underestimate.  
 
@@ -192,7 +192,7 @@ Despite their similarities, there are many differences between $\gamma$ and $Z$ 
 \end{figure}
 \end{centering}
 
-The most significant experimental difference between $Z$ and $\gamma$ events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two, lower-\pt objects and one higher-\pt object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different momentum resolution from either electrons or photons. 
+The most significant experimental difference between \dyjets and \gjets events is that $Z$ bosons rapidly decay, in the case of this analysis, to two leptons, which are then observed by the \ac{ATLAS} detector. In contrast, the photon is stable, and can be directly detected by \ac{ATLAS}. This means that the reconstructed $Z$ boson has an energy resolution that's the convolution of the resolutions of either a pair of electrons or a pair of muons, while the photon resolution is the result of only one measurement. Though electron and photon resolutions are similar because both depend on the electromagnetic calorimeter, the difference between the measurement of two, lower-\pt objects and one higher-\pt object creates small differences. The muons, whose energy measurements rely on the reconstruction of tracks in the \ac{ID} and \ac{MS}, have a very different momentum resolution from either electrons or photons. 
 
 In addition, this difference in detection means there is a minimum value for the \pt of the photons observed; only photons with \pt > 35 \gev~are consistently identified by the trigger. For the $Z$ boson, there is no direct minimum on \pt, only a reduction of efficiency at low values due to the minimum \pt values of the leptons used to reconstruct them. 
 
@@ -382,7 +382,7 @@ To test the soundness of this procedure, it is repeated purely in \ac{MC}, and t
 \myfloatalign
 \includegraphics[width=.45\linewidth]{figures/photons/DataMC_GJ_ee+mm_zmet_GMC.pdf}
 \includegraphics[width=.45\linewidth]{figures/photons/DataMC_GJ_ee+mm_zmet_ZMC.pdf}
-\caption{\dyjets \ac{MC} \mll~distribution compared to the prediction from \gjets method performed on \ac{MC} (left) and the prediction from \gjets method performed on data (right) \cite{this_paper}. }
+\caption{\dyjets \ac{MC} \mll~distribution compared to the prediction from \gjets method performed on \ac{MC} (left) and the prediction from \gjets method performed on data (right). }
 \label{fig:photon_mll_mc}
 \end{figure}
 \end{centering}
@@ -407,7 +407,7 @@ This subtraction is accomplished by applying the \gjets method to $V\gamma$ \ac{
 \begin{figure}[!hbt]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/photons/Vgamma_MET_ee+mm_zmet_onz.pdf}
-\caption{Total \gjets data prediction in SRZ (excluding the \met cut) and the prediction after the $V\gamma$ subtraction \cite{this_paper}.}
+\caption{Total \gjets data prediction in SRZ (excluding the \met cut) and the prediction after the $V\gamma$ subtraction.}
 \label{fig:photon_vgamma_subt}
 \end{figure}
 \end{centering}
@@ -426,7 +426,7 @@ The \gjets jets method is validated in a region called VRZ, defined in \autoref{
 \end{figure}
 \end{centering}
 
-An additional check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ intended to supress the \dyjets background from jet mismeasurement. \autoref{fig:photon_dphi} shows the distribution of this variable in VRZ, and demonstrates that, even at low values where the \dyjets background is dominant, the \gjets method models it accurately.
+An additional cross-check can be made in VRZ by removing the $\Delta\phi(\text{jet}_{12},{\boldsymbol p}_{\mathrm{T}}^\mathrm{miss})$ intended to supress the \dyjets background from jet mismeasurement. \autoref{fig:photon_dphi} shows the distribution of this variable in VRZ, and demonstrates that, even at low values where the \dyjets background is dominant, the \gjets method models it accurately.
 
 \begin{centering}
 \begin{figure}[!hbt]

@@ -98,17 +98,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1.2}Addition of the IBL}{43}{subsubsection.4.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}The Silicon Microstrip Tracker}{43}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}The Silicon Microstrip Tracker}{44}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}The Transition Radiation Tracker}{44}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}The Transition Radiation Tracker}{45}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}The Calorimeters}{45}{section.4.3}
+\contentsline {section}{\numberline {4.3}The Calorimeters}{46}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{46}{figure.caption.76}
+\contentsline {paragraph}{The LAr Electromagnetic Calorimeter}{47}{figure.caption.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Tile Calorimeter}{46}{figure.caption.77}
+\contentsline {paragraph}{The Tile Calorimeter}{47}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{47}{figure.caption.77}
+\contentsline {paragraph}{The LAr Hadronic Endcap Calorimeter}{48}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{The FCal}{48}{figure.caption.77}
 \defcounter {refsection}{0}\relax 
@@ -144,7 +144,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.4}Jets}{75}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Overlap Removal}{79}{section.6.5}
+\contentsline {section}{\numberline {6.5}Overlap Removal}{80}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Missing Transverse Momentum}{81}{section.6.6}
 \defcounter {refsection}{0}\relax 
@@ -214,7 +214,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.2}Uncertainties on \acs {MC}-Driven Backgrounds}{137}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{139}{section.11.3}
+\contentsline {section}{\numberline {11.3}Impact of Uncertainties on the Signal Region}{140}{section.11.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {Results}}{142}{chapter.12}
 \defcounter {refsection}{0}\relax 

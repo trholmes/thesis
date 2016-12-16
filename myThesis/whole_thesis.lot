@@ -64,9 +64,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {18}{\ignorespaces Systematic uncertainties on the fake-lepton background for on-Z regions for 2015+2016 yields. The nominal yield includes statistical uncertainty from the baseline selection in a given region. The following rows indicate the results of varying the real and fake lepton efficiencies up and down by by their statistical uncertainty. Real cont. gives an uncertainty on the the contamination of real leptons in the fake lepton efficiency. $b$-jet and no $b$-jet indicate the impact of requiring or vetoing $b$-tagged jets in the regions used to measure the fake efficiency. \relax }}{138}{table.caption.168}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {19}{\ignorespaces Fractional uncertainties of dibosons in signal and validation regions from {\sc Sherpa}scale variations.\relax }}{140}{table.caption.169}
+\contentsline {table}{\numberline {19}{\ignorespaces Uncertainties of dibosons in signal and validation regions from {\sc Sherpa}scale variations.\relax }}{139}{table.caption.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {20}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in {\sc Sherpa}and {\sc powheg} diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{140}{table.caption.170}
+\contentsline {table}{\numberline {20}{\ignorespaces Comparison of yields in on-$Z$ and off-$Z$ regions in {\sc Sherpa}~and {\sc powheg} diboson MC at $14.7~\mathrm {fb}^{-1}$.\relax }}{140}{table.caption.170}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {21}{\ignorespaces Overview of the dominant sources of systematic uncertainty on the total background estimate in the signal regions. The values shown are relative to the total background estimate, shown in \%.\relax }}{141}{table.caption.172}
 \defcounter {refsection}{0}\relax 

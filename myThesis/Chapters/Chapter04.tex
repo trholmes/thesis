@@ -9,7 +9,7 @@ The \ac{ATLAS} detector circumscribes the \ac{LHC}'s beam pipe, enclosing the co
 The \ac{ATLAS} detector is the largest detector of its kind, measuring 44 m in length and 25 m in height, as seen in \autoref{fig:detector}. The size is mainly determined by the constraints of the \acf{MS}, discussed in \autoref{sec:MS}, which is the largest and outermost subsystem. The \ac{MS} is submerged in a spatially varying magnetic field provided by three toroidal magnets, while the \acf{ID} (\autoref{sec:ID}) is encased by a superconducting solenoid, which provides a uniform 2 T field throughout its volume \cite{PERF-2007-01}. A calorimeter system is located between the \ac{MS} and \ac{ID}, with components to measure the energy of electromagnetic and hadronic systems. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/detector.pdf}
 \caption{Diagram of the \ac{ATLAS} detector, with subsystems and magnets identified \cite{PERF-2007-01}.}
@@ -46,7 +46,7 @@ The \acf{ID} is used for the measurement of tracks, estimates of the paths charg
 The \ac{ID} consists of three separate subdetectors, each of which has multiple layers capable of producing an electrical signal, called a \textit{hit}, when a charged particle travels through its active material. \ac{ATLAS} tracking software considers all these hits and forms tracks, with the goal of minimizing fake tracks due to random noise and maximizing the efficiency of identifying a real particle. The details of this procedure are discussed in \autoref{sec:NN}. The full \ac{ID} can be seen in \autoref{fig:ID}, while a schematic in \autoref{fig:IDeta} shows more detail on the placement of each layer.
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/innerdetector.pdf}
 \caption{Diagram of the \ac{ATLAS} Inner Detector, containing the Pixel, SCT, and TRT subsystems \cite{PERF-2007-01}.}
@@ -55,7 +55,7 @@ The \ac{ID} consists of three separate subdetectors, each of which has multiple 
 \end{centering}
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/ideta.pdf}
 \caption{Diagram of one-quarter of the \ac{ATLAS} Inner Detector in the $R-z$ plane, with lines drawn to indicate various $\eta$ locations \cite{PERF-2007-01}.}
@@ -73,22 +73,23 @@ The Pixel Detector consists of high-precision silicon chip pixel modules, 1744 i
 
 As shown in \autoref{fig:IDeta}, the central $\eta$ region (barrel) is covered by three concentric cylindrical layers of sensors with radii of 50.5 mm, 88.5 mm, and 122.5 mm. In the higher $\eta$ region (endcap) is covered by a series of three disks positioned in the $x-y$ plane. Together, they give complete coverage out to $|\eta| = 2.5$, and a particle coming from the collision point will typically produce hits in three layers. 
 
-The sensors are n-type silicon wafers with a voltage applied, and a passing charged particle produces thousands of electron-hole pairs inside the material, which drift in the electric field towards the mounted read-out system. A hit occurs when the resulting current becomes large enough to pass a threshold designed to suppress noise. \autoref{fig:pix_thresh} shows the noise distribution and threshold value in the pixels. The threshold is tuned per pixel such that its value is approximately 25 times the average noise for that pixel.  
+The sensors are n-type silicon wafers with a voltage applied, and a passing charged particle produces thousands of electron-hole pairs inside the material, which drift in the electric field towards the mounted read-out system. A hit occurs when the resulting current becomes large enough to pass a threshold designed to suppress noise. %\autoref{fig:pix_thresh} shows the noise distribution and threshold value in the pixels. 
+The threshold is tuned per pixel such that its value is approximately 25 times the average noise for that pixel. A single particle typically produces a cluster of nearby hits. 
 
-\begin{centering}
-\begin{figure}[bth]
-\myfloatalign
-\includegraphics[width=.90\linewidth]{figures/atlas/pix_noise_all.eps}
-\includegraphics[width=.90\linewidth]{figures/atlas/pix_thresh_all.eps}
-\caption{Plots of noise and thresholds in the Pixel Detector with an entry for each pixel. Top is the distribution of charge in noise hits in the detector. Bottom is the threshold value, which is tuned for each pixel \cite{pixel}.}
-\label{fig:pix_thresh}
-\end{figure}
-\end{centering}
+%\begin{centering}
+%\begin{figure}[!htb]
+%\myfloatalign
+%\includegraphics[width=.90\linewidth]{figures/atlas/pix_noise_all.eps}
+%\includegraphics[width=.90\linewidth]{figures/atlas/pix_thresh_all.eps}
+%\caption{Plots of noise and thresholds in the Pixel Detector with an entry for each pixel. Top is the distribution of charge in noise hits in %the detector. Bottom is the threshold value, which is tuned for each pixel \cite{pixel}.}
+%\label{fig:pix_thresh}
+%\end{figure}
+%\end{centering}
 
 A larger total charge deposit will result in the signal remaining over the threshold for a longer period of time. \autoref{fig:pix_tot} shows the relationship between charge and \ac{ToT}, which is approximately linear. This \ac{ToT} is recorded along with the initial timing of the hit. This measurement is spatially accurate in the barrel (endcap) to 10 $\mu$m in the $R-\phi$ direction and 115 $\mu$m in the $z$ ($R$) direction. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/tot_vs_charge_all.eps}
 \caption{Histogram of deposited charge versus \ac{ToT} in the Pixel Detector \cite{pixel}.}
@@ -101,11 +102,23 @@ A larger total charge deposit will result in the signal remaining over the thres
 In 2014, the \ac{IBL} was added to the Pixel Detector. This layer is placed directly on top of the beam pipe, inside barrel L0, providing a measurement of particles only 3.3 cm away from the interaction point. The \ac{IBL} consists of 14 overlapping staves, each containing 16 modules, the geometry of which can be seen in \autoref{fig:ibl_add}. These modules contain pixels measuring 50$\times$250 $\mu$m$^2$, and allow for particle detection in 90\% their area, as compared to the 70\% possible with the original pixel modules.
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/IBL-other.png}
 \caption{Diagram in the $x-y$ plane of the \ac{IBL} and the innermost layer of the Pixel Detector, L0 \cite{1201.5469}.}
 \label{fig:ibl_add}
+\end{figure}
+\end{centering}
+
+The \ac{IBL} uses different electronics from the rest of the Pixel Detector, and as a consequences, the signals in measures have different distributions. \autoref{fig:ibl_pix_tot}, for example, shows the charge distribution in the \ac{IBL} and the rest of the Pixel Detector for several different cluster sizes. The charge distributions differ in both average value and tail length. \ac{ATLAS} software must be able to reinterpret these differing signals and produce a consistent result. 
+
+\begin{centering}
+\begin{figure}[!htb]
+\myfloatalign
+\includegraphics[width=.90\linewidth]{figures/atlas/fig_02.eps}
+\includegraphics[width=.90\linewidth]{figures/atlas/fig_03.eps}
+\caption{ Charge distribution in clusters in Layer 0 of the Pixel Detector (left) and the \ac{IBL} (right) split by cluster size \cite{pixibl}.}
+\label{fig:ibl_pix_tot}
 \end{figure}
 \end{centering}
 
@@ -130,7 +143,7 @@ Unlike the tracking detectors, which aim to take measurements of a particle with
 The \ac{ATLAS} calorimeters, which can be seen in \autoref{fig:calo}, provide coverage out to $|\eta| < 4.9$. High granularity electromagnetic measurements are made within $|\eta| < 2.5$. In this range, high-\pt electrons have nearly straight tracks, making momentum measurement through track curvature difficult, leaving the calorimeter as the primary energy measurement. The hadronic calorimeters, as well as the higher $|\eta|$ electromagnetic calorimeters, have a coarser granularity. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/calorimeters.pdf}
 \caption{The calorimeter system of the \ac{ATLAS} detector \cite{PERF-2007-01}.}
@@ -163,7 +176,7 @@ Besides measuring the energy of passing particles, another task of the calorimet
 The \acf{MS} measures charged particles that penetrate the calorimeter system. Because the calorimeters are designed to completely absorb electrons, photons, and hadrons, the \ac{MS} mainly detects muons, which pass through the calorimeter with very little loss of energy. The goal of the \ac{MS} is to give a high-precision measurement of these muons, and also to be able to quickly identify events with muons for the sake of triggering, discussed in \autoref{sec:Trigger}. The layout of the \ac{MS} can be seen in Figures~\ref{fig:muon_xy} and~\ref{fig:muon_rz}. Muons can be measured for all $|\eta|$<2.7, and they can be triggered on for $|\eta|$<2.4. The entire system is about 24 m tall and 40 m long. 
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Muon_sector_numbering.eps}
 \caption{An $x$-$y$ view of the \ac{MS}. The three barrel layers are visible, as well as the overlapping, differently sized chambers. The outer layer of the \ac{MS} is about 20m in diameter \cite{PERF-2007-01}.}
@@ -172,7 +185,7 @@ The \acf{MS} measures charged particles that penetrate the calorimeter system. B
 \end{centering}
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/Muon_rz_large_sect_6.eps}
 \caption{An $r$-$z$ view of the \ac{MS}. The three layers of the barrel and endcap \ac{MS} are visible \cite{PERF-2007-01}.}
@@ -198,7 +211,7 @@ The massive \ac{MS} is subject to deformations due to gravity and the magnetic f
 The \ac{ATLAS} magnet system consists of four superconducting magnets: an inner solenoid, a barrel toroid, and two endcap toroids. Collectively, they are 22m in diameter and 26m long, and their basic layout can be seen in \autoref{fig:magnets}.
 
 \begin{centering}
-\begin{figure}[bth]
+\begin{figure}[!htb]
 \myfloatalign
 \includegraphics[width=.90\linewidth]{figures/atlas/ATLcoilGeom.eps}
 \caption{The magnet system of the \ac{ATLAS} detector. The inner cylinder shows the solenoid which gives a uniform magnetic field in the \ac{ID}. Outside of that are the barrel and endcap toroids, which provide a non-uniform magnetic field for the \ac{MS} \cite{PERF-2007-01}.}
